@@ -6,7 +6,7 @@
 
 이 작업은 meangyulim/cost 저장소와 GitHub Pages를 사용하는 주식 브리핑 클라우드 실행이다. 추가 서버, 유료 시세 API, OpenAI API 호출, 로컬 PC 예약, GitHub cron을 사용하지 않는다. 현재 채팅, 첨부, 임시 절대 경로에 의존하지 않는다. 기존 격리된 클라우드 체크아웃을 사용하며 별도 worktree를 만들지 않는다.
 
-현재 확인 상태: 이전 계정 네 예약은 사용자 확인으로 중지됐다. 저장소는 공개 meangyulim/cost이며 Git 읽기·쓰기, TEST 커밋의 Actions 배포 성공, 익명 HTTP 200과 콘텐츠 일치를 확인했다. GitHub Pages API가 반환한 실제 기본 URL은 https://meangyulim.github.io/cost/이고 원점은 https://meangyulim.github.io, 하위 경로는 /cost/이다. 클라우드 비로그인 브라우저 검증은 환경의 인증서 신뢰 오류로 미완료다. Pages 배포 방식은 legacy이고 GitHub 설정 화면에서 GitHub Actions로 변경해야 한다. 실제 Work 예약 도구와 PlayMCP 카카오톡 도구는 현 세션에 없다. 남은 필수 조건 확인 전에는 이 초안을 활성화하지 않는다. 모델은 사용자가 GPT-6.1 Sol / High를 희망하지만 실제 예약 도구의 모델 지정 인수/메타데이터가 있을 때만 확정한다.
+현재 확인 상태: 이전 계정 네 예약은 사용자 확인으로 중지됐다. 저장소는 공개 meangyulim/cost이며 Git 읽기·쓰기, TEST 커밋의 Actions 배포 성공, 익명 HTTP 200과 콘텐츠 일치를 확인했다. GitHub Pages API가 반환한 실제 기본 URL은 https://meangyulim.github.io/cost/이고 원점은 https://meangyulim.github.io, 하위 경로는 /cost/이다. 클라우드 비로그인 브라우저 검증은 TLS 검증을 유지한 승인된 실행에서 390/430px, 200% 글자 확대, 보관함·회차·출처 탐색까지 통과했다. Pages API가 build_type=workflow를 반환해 GitHub Actions 방식도 확인했다. 기본 샌드박스 실행은 인증서 오류가 있으므로 검증이 가능한 승인된 브라우저 실행 환경을 사용하며 TLS 검증을 끄지 않는다. 실제 Work 예약 도구와 PlayMCP 카카오톡 도구는 현 세션에 없다. 남은 필수 조건 확인 전에는 이 초안을 활성화하지 않는다. 모델은 사용자가 GPT-6.1 Sol / High를 희망하지만 실제 예약 도구의 모델 지정 인수/메타데이터가 있을 때만 확정한다.
 
 매 실행:
 1. 시계로 실제 시작 시각을 KST/UTC로 기록한다. 지원되는 GitHub 인증으로 https://github.com/meangyulim/cost.git의 최신 소스, data/reports, public/manifest.json, 해당 회차, dispatch 상태를 읽는다. 저장소 URL은 실제 Git 읽기로 확인되었으나 API/쓰기/배포 권한은 별도 확인한다. 토큰 값을 출력하거나 파일·Git·명령 인수에 넣지 않는다.
@@ -21,4 +21,4 @@
 10. 모든 조건과 실제 도구 권한이 충족될 때 연결된 PlayMCP 나챗방 도구로 요약과 정확한 회차 URL을 합쳐 200자 이하로 한 번만 보낸다. 시험 발송은 하지 않는다. 응답 실패/불명확에도 재시도하지 않는다. 최소 비민감 전송 상태만 갱신하며 갱신 실패는 재발송 이유가 아니다. 메시지 응답의 개인정보를 공개 저장소에 올리지 않는다.
 11. 결과에 달력/거래일 판단과 출처, 예정/실제 시각, 클라우드 환경, Git 커밋, 배포 상태, 정확한 URL, HTTP/브라우저 각각의 관찰, attempted 저장 상태, 실제 카카오 도구 응답 상태를 사실대로 남긴다. 이전 계정이나 로컬의 다른 예약을 수정하지 않는다.
 
-확정값: GitHub 저장소 = meangyulim/cost (공개). Pages 기본 URL = https://meangyulim.github.io/cost/. Pages 원점 = https://meangyulim.github.io, 하위 경로 = /cost/. 기존 계정 예약 4개 = 사용자 확인으로 중지됨. 미완료: GitHub Pages Source를 GitHub Actions로 변경, 클라우드 비로그인 브라우저 검증, 실제 Work 예약 도구/데이터/카카오 연결과 실행 권한 확인. 남은 조건을 실제 확인하기 전에는 활성화하지 않는다.
+확정값: GitHub 저장소 = meangyulim/cost (공개). Pages 기본 URL = https://meangyulim.github.io/cost/. Pages 원점 = https://meangyulim.github.io, 하위 경로 = /cost/. 기존 계정 예약 4개 = 사용자 확인으로 중지됨. 미완료: 실제 Work 예약 도구/데이터/카카오 연결과 실행 권한 확인. 사이트의 Source 전환과 클라우드 비로그인 브라우저 검증은 완료됐다. 남은 조건을 실제 확인하기 전에는 활성화하지 않는다.

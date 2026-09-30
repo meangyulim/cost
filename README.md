@@ -32,6 +32,10 @@ CSS와 모든 내부 링크는 상대 경로라 프로젝트 Pages 하위 경로
 python3 scripts/verify_browser.py
 ```
 
+공개 TEST 사이트의 비로그인 브라우저 검증은 `python3 scripts/verify_public.py`로 실행합니다.
+현재 클라우드에서는 기본 샌드박스의 인증서 오류 때문에 승인된 샌드박스 밖 실행으로 통과했습니다.
+TLS 검증을 유지하고 새 비로그인 브라우저 문맥을 사용합니다.
+
 브라우저 검증은 `/cost/` 경로에서 390/430px, 200% 글자 확대, 한글·가격·KST,
 보관함과 회차 탐색을 확인합니다. GitHub Pages의 공개 HTTP/브라우저 검증과는 별개입니다.
 
@@ -87,12 +91,11 @@ Git 읽기 성공은 API/쓰기/Pages 배포 권한을 증명하지 않습니다
 Git 읽기·쓰기, 브랜치 및 `main` 반영, TEST의 Actions 배포 성공을 확인했습니다.
 GitHub Pages API가 반환한 실제 주소는 **https://meangyulim.github.io/cost/**입니다.
 홈과 `reports/test-layout-2026-09-30/`는 익명 HTTP 200을 반환하며 공개 HTML이 검증한 빌드와 일치합니다.
-사용자 브라우저에서 열리는 것도 사용자 확인을 받았습니다. 클라우드 비로그인 브라우저 검증은 별도로 남아 있습니다.
-클라우드 Chromium은 환경 프록시 CA의 신뢰 설정 문제로 `ERR_CERT_AUTHORITY_INVALID`를 반환했습니다.
-TLS 검증을 끄지 않았으며 영구 인증서 신뢰 변경은 별도 승인이 필요합니다.
-Pages의 현재 Source는 `main` 루트의 브랜치 기반 배포(`legacy`)입니다.
-Actions 워크플로와 배포 경로를 일치시키려면 Settings → Pages → Source를 **GitHub Actions**로 변경해야 합니다.
-현재 GitHub 연결은 이 설정의 변경을 `Resource not accessible by integration` (HTTP 403)으로 거절합니다.
+사용자 브라우저에서 열리는 것도 확인받았습니다. 클라우드 비로그인 브라우저 검증도 390/430px, 200% 글자 확대,
+보관함·회차·출처 탐색까지 통과했습니다. TLS 검증을 끄지 않았습니다.
+기본 샌드박스 Chromium은 `ERR_CERT_AUTHORITY_INVALID`를 반환했지만 승인된 샌드박스 밖 실행에서는 통과했습니다.
+플랫폼 CA의 영구 등록은 사용자 승인 후 실행했습니다. 동일한 CA가 이미 신뢰 저장소에 있어 추가 신뢰 항목은 생기지 않았습니다.
+사용자가 Pages Source를 변경했고 API의 `build_type: workflow`로 GitHub Actions 방식을 확인했습니다.
 인터넷 허용 초안에는 `api.github.com`과 `meangyulim.github.io`를 저장했고 기존 패키지 관리자 설정을 유지했습니다.
 이후 실제 API와 공개 사이트 GET은 성공했습니다. 초안 저장과 실행 환경 적용은 별도 동작입니다.
 토큰 값을 코드나 채팅에 넣지 않습니다.
