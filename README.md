@@ -83,12 +83,18 @@ Pages에 올리는 보고서는 공개 자료여야 하며 개인정보·토큰�
    HTTP 200, 로그인 이동 없음, TEST 표시, 한글·가격·날짜 포함 KST·근거·보관함을 확인합니다.
 
 Git 읽기 성공은 API/쓰기/Pages 배포 권한을 증명하지 않습니다.
-현재 세션의 API 접근이 네트워크 프록시에서 `Forbidden`으로 차단되어 Pages 설정과 실제 URL은 확인되지 않았습니다.
-Git 읽기·쓰기와 `briefing-pages-setup-20260930` 브랜치 및 `main` 반영은 성공했습니다. 실제 Pages 설정·배포·공개 URL 검증은 아직 확인되지 않았습니다.
-클라우드 환경의 인터넷 허용 목록에 `api.github.com`과 실제 Pages 호스트를 추가해야 합니다.
-표준 프로젝트 Pages 호스트 후보는 `meangyulim.github.io`이지만 실제 Pages 원점 확인 전에는 확정된 게시 주소가 아닙니다.
-환경 설정 초안에는 `api.github.com`과 `meangyulim.github.io` 허용 항목을 저장했고 기존 패키지 관리자 허용 설정을 유지했습니다.
-초안 저장은 현재 실행 환경에 네트워크 설정을 적용하지 않습니다. 환경 설정에서 저장·적용한 뒤 API 접근을 다시 확인해야 합니다.
+초기에는 API 접근이 네트워크 프록시에서 차단됐으나 이후 실제 API 읽기가 성공했습니다.
+Git 읽기·쓰기, 브랜치 및 `main` 반영, TEST의 Actions 배포 성공을 확인했습니다.
+GitHub Pages API가 반환한 실제 주소는 **https://meangyulim.github.io/cost/**입니다.
+홈과 `reports/test-layout-2026-09-30/`는 익명 HTTP 200을 반환하며 공개 HTML이 검증한 빌드와 일치합니다.
+사용자 브라우저에서 열리는 것도 사용자 확인을 받았습니다. 클라우드 비로그인 브라우저 검증은 별도로 남아 있습니다.
+클라우드 Chromium은 환경 프록시 CA의 신뢰 설정 문제로 `ERR_CERT_AUTHORITY_INVALID`를 반환했습니다.
+TLS 검증을 끄지 않았으며 영구 인증서 신뢰 변경은 별도 승인이 필요합니다.
+Pages의 현재 Source는 `main` 루트의 브랜치 기반 배포(`legacy`)입니다.
+Actions 워크플로와 배포 경로를 일치시키려면 Settings → Pages → Source를 **GitHub Actions**로 변경해야 합니다.
+현재 GitHub 연결은 이 설정의 변경을 `Resource not accessible by integration` (HTTP 403)으로 거절합니다.
+인터넷 허용 초안에는 `api.github.com`과 `meangyulim.github.io`를 저장했고 기존 패키지 관리자 설정을 유지했습니다.
+이후 실제 API와 공개 사이트 GET은 성공했습니다. 초안 저장과 실행 환경 적용은 별도 동작입니다.
 토큰 값을 코드나 채팅에 넣지 않습니다.
 
 ## 예약과 카카오톡
@@ -98,6 +104,6 @@ Work 클라우드 예약 도구와 시장 조사·GitHub 쓰기·배포 조회·
 현재 세션에는 Work 예약 도구와 PlayMCP 카카오톡 도구가 없으며, 예약은 생성하지 않았습니다.
 GitHub Actions cron이나 로컬 PC 예약으로 대체하지 않습니다.
 
-이전 계정 예약 중복이 정리되었는지 확인한 다음 실제 예약을 생성합니다.
+이전 계정 예약 4개는 사용자가 중지했다고 확인했습니다. 중복 실행 정리 조건은 충족됐습니다.
 현재 단계에서는 실제 시장 브리핑, 카카오톡 시험 발송, 기존 계정 예약 변경을 수행하지 않습니다.
 지속 상태와 중복 발송 방지 규칙은 [docs/publishing-and-dispatch.md](docs/publishing-and-dispatch.md)를 따릅니다.
