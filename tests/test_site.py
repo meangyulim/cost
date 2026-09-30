@@ -85,6 +85,7 @@ class SiteTests(unittest.TestCase):
             manifest = json.loads((output / "manifest.json").read_text())
             self.assertEqual(2, len(manifest["reports"]))
             self.assertEqual(report["id"], manifest["latest_id"])
+            self.assertIn('href="reports/test-layout-2026-09-30/"', (output / "index.html").read_text())
             contents = {str(p.relative_to(output)): p.read_bytes() for p in output.rglob("*") if p.is_file()}
             build(output, data)
             self.assertEqual(contents, {str(p.relative_to(output)): p.read_bytes() for p in output.rglob("*") if p.is_file()})

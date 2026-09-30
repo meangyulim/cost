@@ -173,7 +173,12 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     live_reports = [report for report in reports if not report["is_test"]]
     latest = (live_reports or reports)[0]
     latest_path = f'reports/{latest["id"]}/'
-    write_page("index.html", latest["title"], render_report(latest, ".") + f'<p class="archive-link"><a href="{latest_path}">이 회차 고유 주소</a> · <a href="archive/">전체 날짜별 목록</a></p>', ".")
+    history_rows = []
+    for item in manifest:
+        if item["id"] != latest["id"]:
+            history_rows.append(f'<li><a href="{item["path"]}">{text(item["title"])}</a><p>{text(kst(item["as_of"]))} · {text(item["market"])} / {text(item["session"])}</p></li>')
+    history = '<section aria-labelledby="history-title"><h2 id="history-title">이전 브리핑</h2><ul class="archive">' + '\n'.join(history_rows) + '</ul></section>' if history_rows else ''
+    write_page("index.html", latest["title"], render_report(latest, ".") + f'<p class="archive-link"><a href="{latest_path}">이 회차 고유 주소</a> · <a href="archive/">전체 날짜별 목록</a></p>' + history, ".")
     rows = []
     for item in manifest:
         label = "TEST · " if item["is_test"] else ""
