@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "latest_id": "test-layout-2026-09-30",
+  "reports": [
+    {
+      "id": "test-layout-2026-09-30",
+      "is_test": true,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-09-30",
+      "title": "한국장 마감 · TEST",
+      "summary": "시험 지수 상승, 종목별 흐름은 혼조",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "path": "reports/test-layout-2026-09-30/"
+    }
+  ]
+}

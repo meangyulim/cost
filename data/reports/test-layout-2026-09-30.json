@@ -1,0 +1,131 @@
+{
+  "id": "test-layout-2026-09-30",
+  "is_test": true,
+  "market": "KR",
+  "session": "close",
+  "market_date": "2026-09-30",
+  "title": "한국장 마감 · TEST",
+  "as_of": "2026-09-30T15:30:00+09:00",
+  "queried_at": "2026-09-30T17:45:00+09:00",
+  "venue": "KRX 정규장 종가 · TEST",
+  "summary": "시험 지수 상승, 종목별 흐름은 혼조",
+  "summary_detail": "가상 지수·가격으로 화면을 확인합니다. 실제 시세와 투자 판단 자료가 아닙니다.",
+  "indices": [
+    {
+      "name": "KOSPI · TEST",
+      "value": "1,234.56",
+      "unit": "pt",
+      "delta": "+12.34",
+      "percent": "+1.01",
+      "direction": "up",
+      "source": "sample"
+    },
+    {
+      "name": "KOSDAQ · TEST",
+      "value": "789.01",
+      "unit": "pt",
+      "delta": "−2.34",
+      "percent": "−0.30",
+      "direction": "down",
+      "source": "sample"
+    }
+  ],
+  "fx": {
+    "label": "원/달러 · TEST",
+    "value": "1,234.5",
+    "unit": "원/USD",
+    "delta": "−2.0",
+    "direction": "down",
+    "session": "주간 종가 · TEST",
+    "as_of": "2026-09-30T15:30:00+09:00",
+    "source": "sample"
+  },
+  "issues": [
+    {
+      "title": "지수는 값·포인트·등락률을 함께",
+      "fact": "가상 KOSPI +12.34pt (+1.01%). 원자료의 거래일·거래구간을 확인합니다.",
+      "source": "sample"
+    },
+    {
+      "title": "가격과 거래구간을 분리해서 확인",
+      "fact": "종가와 장전·시간외 가격을 섞지 않습니다. 구간별 시각을 표시합니다.",
+      "source": "sample"
+    },
+    {
+      "title": "검증되지 않은 값은 미확인으로 표시",
+      "fact": "수급은 미확인. 추정과 역산 값을 실제 가격처럼 쓰지 않습니다.",
+      "source": "sample"
+    }
+  ],
+  "interpretation": "사실과 해석을 구분하고, 매회 뉴스·공시와 시장 반응으로 종목을 새로 고릅니다.",
+  "stocks": [
+    {
+      "name": "시험 종목 A",
+      "ticker": "TEST01",
+      "price": "12,345",
+      "currency": "KRW",
+      "delta": "+120",
+      "percent": "+0.98",
+      "direction": "up",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "reason": "가격 표시 시험용 가상 종목입니다.",
+      "watch": "기업별 원문과 다음 확인 조건.",
+      "source": "sample"
+    },
+    {
+      "name": "시험 종목 B",
+      "ticker": "TEST02",
+      "price": "23,450",
+      "currency": "KRW",
+      "delta": "−150",
+      "percent": "−0.64",
+      "direction": "down",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "reason": "하락 부호·변동액 표시 확인용.",
+      "watch": "색상과 함께 표시한 변화 부호.",
+      "source": "sample"
+    },
+    {
+      "name": "시험 종목 C",
+      "ticker": "TEST03",
+      "price": "34,560",
+      "currency": "KRW",
+      "delta": "+360",
+      "percent": "+1.05",
+      "direction": "up",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "reason": "가상 가격. 실적 개선 해석은 금지.",
+      "watch": "확인한 사건과 시장 반응.",
+      "source": "sample"
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "거래일",
+      "title": "공식 거래소 달력 확인",
+      "detail": "공식 달력으로 휴장·조기폐장 확인."
+    },
+    {
+      "label": "원자료",
+      "title": "시세·공시·기업 IR 대조",
+      "detail": "기준 시각·거래구간·단위 확인."
+    },
+    {
+      "label": "게시",
+      "title": "회차 URL 공개 검증",
+      "detail": "배포 성공 후 공개 URL 검증."
+    }
+  ],
+  "sources": [
+    {
+      "id": "sample",
+      "label": "TEST 원자료 · 가상 데이터",
+      "url": null,
+      "note": "이 보고서의 모든 가격·시각은 레이아웃 시험용입니다."
+    }
+  ],
+  "calculation_notes": "가상 비교 기준: KOSPI 1,222.22pt → 1,234.56pt. 변화율 = (1,234.56 ÷ 1,222.22 − 1) × 100 ≈ +1.01%. 종목 A 12,225 → 12,345 KRW (+120, +0.98%), B 23,600 → 23,450 KRW (−150, −0.64%), C 34,200 → 34,560 KRW (+360, +1.05%). 실제 시세가 아닙니다."
+}
