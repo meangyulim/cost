@@ -19,10 +19,31 @@
     }
   },
   "checks_after_creation": {
-    "commit_write": "pending",
-    "pages_deployment": "pending",
-    "anonymous_probe_http": "pending",
-    "browser": "pending"
+    "commit_write": {
+      "status": "passed",
+      "commit": "5b20a04e11635deedea36eb6c2b01dd28d41d187",
+      "remote_reread": "passed"
+    },
+    "pages_deployment": {
+      "status": "passed",
+      "commit": "5b20a04e11635deedea36eb6c2b01dd28d41d187",
+      "run_id": 36767326110,
+      "run_url": "https://github.com/meangyulim/cost/actions/runs/36767326110",
+      "build": "success",
+      "deploy": "success"
+    },
+    "anonymous_probe_http": {
+      "status": 200,
+      "url": "https://meangyulim.github.io/cost/connection-tests/work-20260930T194028741z.json",
+      "tls_verification": true,
+      "authentication": false,
+      "cookies": false
+    },
+    "browser": {
+      "existing_test_report": "passed: new public tab, no login requested; Korean, fictional prices, dated KST, source anchor and archive navigation observed",
+      "probe_json": "blocked: net::ERR_BLOCKED_BY_CLIENT",
+      "viewport_390_430_and_text_200": "not verified: current browser API exposes no viewport or text sizing controls"
+    }
   },
   "constraints": {
     "market_brief_executed": false,
@@ -31,7 +52,11 @@
     "automations_created": 0
   },
   "unresolved": [
-    "Kakao only exposes a send action; no harmless connection/readiness read is exposed",
-    "Automation API exposes no model/reasoning or runtime capability inspection arguments"
-  ]
+    "Kakao send action is exposed and Plugin Management permissions lookup succeeds; OAuth readiness and scheduled send execution remain unverified. No harmless read-only action is exposed on Kakao. No conversation read is required.",
+    "Automation tool precondition requires a successful harmless read-only action on every required external connector before creation; Kakao precondition cannot currently be completed without sending.",
+    "Automation schema has no model/reasoning or scheduled-runtime capability inspection fields. GPT-6.1 Sol / High not applied or assumed inherited.",
+    "Official documentation supports plugins on cloud web schedules, but this specific task runtime/browser/network configuration is not inspectable through exposed scheduling tools.",
+    "New public JSON record was blocked by cloud browser with ERR_BLOCKED_BY_CLIENT; anonymous TLS HTTP succeeded. Mobile widths and 200% text test were not executed."
+  ],
+  "registration_status": "blocked; no new automation created"
 }
