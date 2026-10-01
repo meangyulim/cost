@@ -1,0 +1,122 @@
+{
+  "report_id": "kr-close-2026-10-01",
+  "status": "verification_incomplete",
+  "kakao_status": "not_attempted",
+  "recorded_at_kst": "2026-10-01T16:02:28.000+09:00",
+  "recorded_at_utc": "2026-10-01T07:02:28+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01/",
+  "commit": "8863a7921a838d04319a6a598630e8441364c8aa",
+  "scheduled_start": {
+    "kst": "2026-10-01T15:45:00+09:00",
+    "utc": "2026-10-01T06:45:00+00:00"
+  },
+  "actual_start": {
+    "kst": "2026-10-01T15:46:19+09:00",
+    "utc": "2026-10-01T06:46:19+00:00",
+    "delay_seconds": 79
+  },
+  "environment": "ChatGPT Work cloud Linux workspace; connected GitHub; anonymous HTTPS client; dedicated cloud Chrome",
+  "calendar": {
+    "market_date": "2026-10-01",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at_kst": "2026-10-01T15:47:49+09:00",
+    "source": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp"
+  },
+  "verification": {
+    "tests": {
+      "status": "passed",
+      "passed": 16
+    },
+    "deployment": {
+      "status": "passed",
+      "run_id": 36827351907,
+      "event": "push",
+      "head_sha": "8863a7921a838d04319a6a598630e8441364c8aa",
+      "conclusion": "success",
+      "build_job": "success",
+      "deploy_job": "success"
+    },
+    "anonymous_http": {
+      "status": "passed",
+      "cookies": false,
+      "authentication": false,
+      "tls_verification": true,
+      "pages": [
+        {
+          "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01/",
+          "final_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01/",
+          "status": 200,
+          "tls_verified": true,
+          "anonymous": true,
+          "matches_build": true,
+          "sha256": "975b204389ea0718e6b43721164a45a84c185123d3ce6fba9ba60fc303ce8d23"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/",
+          "final_url": "https://meangyulim.github.io/cost/",
+          "status": 200,
+          "tls_verified": true,
+          "anonymous": true,
+          "matches_build": true,
+          "sha256": "e888b21e6e15dfeaa39116d935db68bd8e05d613fcfa9c5f254ded207c5e575a"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/archive/",
+          "final_url": "https://meangyulim.github.io/cost/archive/",
+          "status": 200,
+          "tls_verified": true,
+          "anonymous": true,
+          "matches_build": true,
+          "sha256": "ec28e5cbd14992612bdaff4b48b67686d8014403e9ba54399ed25cdd7efc34c3"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/manifest.json",
+          "final_url": "https://meangyulim.github.io/cost/manifest.json",
+          "status": 200,
+          "tls_verified": true,
+          "anonymous": true,
+          "matches_build": true,
+          "sha256": "674852341f7fa685a68dbcf7f325cd232ad4218b291bbeb86fc4979849940c9b"
+        }
+      ]
+    },
+    "browser": {
+      "status": "passed_for_public_content_and_navigation",
+      "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01/",
+      "login_redirect": false,
+      "observed": [
+        "Korean content",
+        "2026.10.01 15:30 KST",
+        "KOSPI 6971.35 +1.95%",
+        "KOSDAQ 894.29 +4.48%",
+        "three stock prices",
+        "clickable primary sources",
+        "archive navigation",
+        "all four existing reports retained"
+      ]
+    },
+    "mobile_and_text_zoom": {
+      "status": "not_verified",
+      "widths_px": [
+        390,
+        430
+      ],
+      "text_zoom_percent": 200,
+      "reason": "Available cloud browser controls did not apply viewport resizing or text enlargement; a separate rendering fixture could not be opened under the browser URL policy. No bypass was attempted."
+    }
+  },
+  "dispatch": {
+    "attempted_record_created": false,
+    "send_tool_called": false,
+    "reason": "Required mobile and 200% text-size readability verification is incomplete; no Kakao message sent."
+  },
+  "model_override_verified": false,
+  "krx": {
+    "run_id": 36826738747,
+    "status": "completed/success",
+    "requested_market_date": "2026-10-01",
+    "actual_data_date": "2026-09-30",
+    "used_as": "prior-session background only"
+  }
+}
