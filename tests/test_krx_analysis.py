@@ -8,7 +8,7 @@ from unittest.mock import patch
 import urllib.error
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from krx_analysis import Client, DataError, NoRedirect, ROOT, breadth, etf_strength, number, save_result, series_metrics
+from krx_analysis import Client, DataError, NoRedirect, ROOT, breadth, etf_strength, number, price_index, save_result, series_metrics
 
 
 class KrxTests(unittest.TestCase):
@@ -72,6 +72,12 @@ class KrxTests(unittest.TestCase):
         result = etf_strength(history)
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]['return_5_sessions_pct'], 5)
+
+    def test_nonprice_series_are_not_sector_performance(self):
+        for name in ['K-샤프지수(3년)', '코스피 200 변동성지수', 'KRX PER']:
+            self.assertFalse(price_index(name))
+        for name in ['KRX 반도체', 'KRX 고배당 50', 'KRX 정보기술']:
+            self.assertTrue(price_index(name))
 
     def test_nonfinite_and_direct_public_output_rejected(self):
         for value in ['NaN', 'inf', '-', None]:

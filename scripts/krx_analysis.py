@@ -147,6 +147,12 @@ def index_series(history: dict[date, list[dict]]) -> dict[str, list]:
     return result
 
 
+def price_index(name: str) -> bool:
+    # Sharpe ratios, volatility and valuation series do not represent investable
+    # price levels; percentage changes in them are not equity performance.
+    return not any(token in name.upper() for token in ("샤프", "변동성", "PER", "PBR", "배당수익률"))
+
+
 def traded(row: dict) -> bool:
     volume = number(row.get("ACC_TRDVOL"))
     return volume is not None and volume > 0
@@ -215,7 +221,7 @@ def analyze(indices: dict, snapshots: dict, requested_end: date, queried_at: str
     rank = []
     excluded = 0
     for name, points in maps["KRX"].items():
-        if len(points) < 65 or max(day for day, _ in points) != latest:
+        if not price_index(name) or len(points) < 65 or max(day for day, _ in points) != latest:
             excluded += 1
             continue
         try:
