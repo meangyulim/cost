@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from add_report import add_report
-from build_site import ROOT, build, validate
+from build_site import ROOT, build, validate, render_report
 
 
 class Links(HTMLParser):
@@ -52,6 +52,21 @@ class SiteTests(unittest.TestCase):
                         other = Links()
                         other.feed(target.read_text())
                         self.assertIn(parsed.fragment, other.ids)
+
+    def test_source_visibility_preserves_original_evidence(self):
+        report = copy.deepcopy(self.report)
+        source = report['sources'][0]
+        source['show_public'] = False
+        source['label'] = 'hidden-provider-test'
+        source['url'] = 'https://api.massive.com/test'
+        validate(report)
+        html = render_report(report, '.')
+        self.assertNotIn('hidden-provider-test', html)
+        self.assertNotIn('https://api.massive.com/test', html)
+        self.assertEqual(report['sources'][0]['label'], 'hidden-provider-test')
+        source['show_public'] = 'false'
+        with self.assertRaises(ValueError):
+            validate(report)
 
     def test_duplicate_report_never_overwrites(self):
         with tempfile.TemporaryDirectory() as tmp:

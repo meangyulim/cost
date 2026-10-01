@@ -1,0 +1,69 @@
+name: Collect US briefing inputs
+
+on:
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: 'YYYY-MM-DD (blank: yesterday in New York)'
+        required: false
+        type: string
+      watch:
+        description: '1-7 comma-separated stock tickers'
+        required: false
+        default: 'NVDA,AAPL,MSFT'
+        type: string
+  push:
+    branches: [main]
+    paths: ['data/us-request.json']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: massive-analysis
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify calculation and credential rules
+        run: python3 -m unittest discover -s tests -v
+      - name: Collect US daily inputs
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+          MASSIVE_END_DATE: ${{ inputs.end_date }}
+          MASSIVE_WATCH: ${{ inputs.watch }}
+          MASSIVE_EVENT: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, 'scripts')
+          from massive_analysis import watch_tickers
+          end = os.environ.get('MASSIVE_END_DATE', '')
+          watch = os.environ.get('MASSIVE_WATCH') or 'NVDA,AAPL,MSFT'
+          if os.environ['MASSIVE_EVENT'] == 'push':
+              request = json.loads(Path('data/us-request.json').read_text())
+              end = request.get('end_date', '')
+              watch = ','.join(watch_tickers(request.get('watch', ['NVDA', 'AAPL', 'MSFT'])))
+          if not isinstance(end, str):
+              raise SystemExit('end_date must be a string')
+          subprocess.run(['python3', 'scripts/massive_analysis.py', '--end-date', end,
+                          '--watch', watch, '--output', 'massive-output/analysis.json'], check=True)
+          PY
+      - name: Save derived briefing inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: us-analysis-${{ github.run_id }}
+          path: massive-output/analysis.json
+          if-no-files-found: error
+          retention-days: 3

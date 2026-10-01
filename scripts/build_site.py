@@ -73,6 +73,7 @@ def validate(report: dict) -> None:
     for source in sources.values():
         require(re.fullmatch(r"[a-zA-Z0-9_-]+", source["id"]) is not None, "Unsafe source ID")
         require(source["label"] and source["note"], "Source label and note required")
+        require(type(source.get("show_public", True)) is bool, "Source visibility must be boolean")
         if source["url"]:
             check_url(source["url"])
         else:
@@ -179,6 +180,8 @@ def render_report(report: dict, prefix: str) -> str:
     parts.extend(['</ol></section>', '<section class="sources-section" aria-labelledby="sources-title"><h2 id="sources-title">출처</h2><p class="source-caption">매체명과 자료 제목을 누르면 원문으로 이동합니다.</p><ul class="source-list">'])
     labels = reading.get("source_labels", {})
     for source in report["sources"]:
+        if not source.get("show_public", True):
+            continue
         label = labels.get(source["id"], source["label"])
         link = f'<a href="{text(source["url"])}" rel="noreferrer">{text(label)} ↗</a>' if source["url"] else text(label)
         parts.append(f'<li id="source-{text(source["id"])}">{link}</li>')

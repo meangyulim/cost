@@ -1,8 +1,8 @@
 # MARKET BRIEF · cost
 
 모바일 주식 브리핑을 보관하고 GitHub Pages로 게시하는 정적 사이트입니다.
-소스 저장소는 `meangyulim/cost`이며, 외부 서버·유료 시세 API·OpenAI API를 사용하지 않습니다.
-GitHub Actions는 정적 사이트 생성·배포와 요청 시 KRX 일별 자료의 수집·수치 분석을 담당합니다.
+소스 저장소는 `meangyulim/cost`이며, 별도 외부 서버·유료 AI API를 사용하지 않습니다.
+GitHub Actions는 정적 사이트 생성·배포와 요청 시 KRX/Massive 일별 자료의 수집·수치 분석을 담당합니다.
 시장 뉴스 조사와 AI 작성 예약은 별도 Work 클라우드 기능이 필요합니다.
 
 실제 브리핑과 **TEST · 레이아웃 확인용 자료 · 실제 시세 아님** 보고서를 구분해 보관합니다.
@@ -112,6 +112,10 @@ GitHub Pages API가 반환한 실제 주소는 **https://meangyulim.github.io/co
 2026.10.01 Secrets 등록과 GitHub의 실제 65거래일 수집·분석·산출물 다운로드를 검증했습니다.
 
 ## 예약과 카카오톡
+
+미국 분석은 `MASSIVE_API_KEY`를 Actions Secrets에 등록한 뒤 `Collect US briefing inputs`로 실행합니다.
+시장 ETF 추세·업종 상대 강도·전체 증권 시장 폭·관찰 종목 정규장 가격을 수집합니다.
+설정과 실제 반환 자료 확인 규칙은 [docs/massive-analysis.md](docs/massive-analysis.md)에 있습니다.
 
 예약 시간과 실행 규칙은 [docs/cloud-schedules.md](docs/cloud-schedules.md)에 있습니다.
 Work 클라우드 예약 도구와 시장 조사·GitHub 쓰기·배포 조회·공개 브라우저 검증 능력이 실제로 제공되어야 합니다.
