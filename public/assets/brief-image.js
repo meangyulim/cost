@@ -88,7 +88,7 @@
     }
     const fx = data.fx;
     pair(fx.label, `${fx.value} ${fx.unit} (${fx.delta} ${fx.unit})`, color(fx.direction), 14, 600);
-    paragraph(`환율 · ${fx.session} · ${fx.as_of}`, 11, C.muted);
+    paragraph(`기준 · ${fx.session} · ${fx.as_of}`, 11, C.muted);
     y += 8;
     for (const notice of data.notices) {
       paragraph(`※ ${notice}`, 13, C.muted);
