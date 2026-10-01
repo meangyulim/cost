@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-10-01",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-01T09:36:09+09:00",
   "attempted_at_utc": "2026-10-01T00:36:09+00:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-01/",
@@ -87,5 +87,9 @@
   "delivery": {
     "destination": "kakao_self_chat",
     "attempt_limit": 1
-  }
+  },
+  "tool_response_status": "success",
+  "tool_response_recorded_at_kst": "2026-10-01T09:37:17+09:00",
+  "tool_response_recorded_at_utc": "2026-10-01T00:37:17+00:00",
+  "send_call_count": 1
 }
