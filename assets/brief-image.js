@@ -1,7 +1,7 @@
 /* Exact text/price rendering, entirely on-device. No screenshot service or CDN. */
 (function () {
   "use strict";
-  const WIDTH = 540, PAD = 28, BODY = WIDTH - PAD * 2;
+  const WIDTH = 540, PAD = 22, BODY = WIDTH - PAD * 2;
   const FONT = '"Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif';
   const C = {ink: "#17263b", muted: "#586b80", navy: "#122238", mint: "#9edbcd",
     line: "#dce4ed", pale: "#f1f5fa", up: "#c32d4b", down: "#1768ae"};
@@ -36,7 +36,7 @@
       ops.push({kind: "rect", x, y: top, width, height, fill});
     }
     function paragraph(value, size = 16, fill = C.ink, weight = 400,
-      x = PAD, width = BODY, leading = 1.45) {
+      x = PAD, width = BODY, leading = 1.28) {
       ctx.font = `${weight} ${size}px ${FONT}`;
       const lines = wrap(ctx, value, width);
       lines.forEach((line, n) => ops.push({kind: "text", value: line,
@@ -44,43 +44,62 @@
       y += lines.length * size * leading;
     }
     function heading(label) {
-      y += 20;
+      y += 11;
       rect(PAD, y, 3, 19, "#287667");
-      paragraph(label, 17, C.ink, 750, PAD + 12, BODY - 12);
-      y += 9;
+      paragraph(label, 17, C.ink, 700, PAD + 12, BODY - 12);
+      y += 6;
     }
-    function rule() { rect(PAD, y, BODY, 1, C.line); y += 11; }
-    function pair(left, right, rightColor = C.ink, size = 16, weight = 650) {
-      const top = y, col = (BODY - 12) / 2;
+    function rule() { rect(PAD, y, BODY, 1, C.line); y += 7; }
+    function pair(left, right, rightColor = C.ink, size = 16, weight = 600) {
+      const top = y;
+      ctx.font = `${weight} ${size}px ${FONT}`;
+      const rightWidth = Math.min(BODY * .62, Math.max(BODY * .45, ctx.measureText(right).width));
+      const col = BODY - rightWidth - 12;
       paragraph(left, size, C.ink, weight, PAD, col);
       const leftEnd = y;
       y = top;
-      paragraph(right, size, rightColor, weight, PAD + col + 12, col);
-      y = Math.max(leftEnd, y) + 5;
+      paragraph(right, size, rightColor, weight, PAD + col + 12, rightWidth);
+      y = Math.max(leftEnd, y) + 3;
+    }
+    // Put a bold label and its complete explanation in one flowing paragraph.
+    function inline(label, detail, size = 16) {
+      const start = ops.length, value = `${label} · ${detail}`;
+      paragraph(value, size, C.ink, 600);
+      let cursor = 0;
+      for (const op of ops.splice(start)) {
+        const offset = value.indexOf(op.value, cursor);
+        const count = Math.max(0, Math.min(label.length - offset, op.value.length));
+        const prefix = op.value.slice(0, count), rest = op.value.slice(count);
+        if (prefix) ops.push({...op, value: prefix});
+        if (rest) {
+          ctx.font = `600 ${size}px ${FONT}`;
+          ops.push({...op, value: rest, x: op.x + ctx.measureText(prefix).width,
+            weight: 400, fill: C.muted});
+        }
+        cursor = offset + op.value.length;
+      }
     }
 
     rect(0, 0, WIDTH, 0, C.navy); // Its final height is measured below.
-    paragraph(`MARKET BRIEF   ${data.market} / ${data.session}`, 12, C.mint, 700);
-    y += 7;
     paragraph(data.title, 20, "#ffffff", 700);
-    y += 6;
+    y += 4;
     paragraph(`${data.as_of} 기준`, 12, "#c7d6e6");
     if (data.is_test) {
       y += 7;
       paragraph("TEST · 레이아웃 확인용 자료 · 실제 시세 아님", 13, C.mint, 700);
     }
-    y += 20;
+    y += 13;
     ops[0].height = y;
-    y += 20;
-    paragraph("오늘의 결론", 12, "#287667", 750);
+    y += 12;
+    paragraph("오늘의 결론", 12, "#287667", 700);
     y += 5;
-    paragraph(data.headline, 25, C.ink, 750, PAD, BODY, 1.3);
-    y += 9;
+    paragraph(data.headline, 22, C.ink, 700, PAD, BODY, 1.25);
+    y += 6;
     for (const point of data.summary_points) {
       paragraph(`• ${point}`, 16);
-      y += 4;
+      y += 2;
     }
-    y += 9;
+    y += 5;
     rule();
     for (const item of data.indices) {
       pair(item.name, `${item.value} ${item.unit}  ${change(item)}`, color(item.direction), 16);
@@ -89,19 +108,16 @@
     const fx = data.fx;
     pair(fx.label, `${fx.value} ${fx.unit} (${fx.delta} ${fx.unit})`, color(fx.direction), 14, 600);
     paragraph(`기준 · ${fx.session} · ${fx.as_of}`, 11, C.muted);
-    y += 8;
-    for (const notice of data.notices) {
+    y += 4;
+    for (const notice of new Set(data.notices)) {
       paragraph(`※ ${notice}`, 13, C.muted);
-      y += 3;
+      y += 2;
     }
     heading("핵심 이슈 3");
     data.issues.forEach((issue, n) => {
-      paragraph(`${String(n + 1).padStart(2, "0")}  ${issue.title}`, 17, C.ink, 750);
-      y += 4;
-      paragraph(issue.preview, 16, C.muted);
-      y += 12;
+      inline(`${n + 1}. ${issue.title}`, issue.preview);
+      y += 6;
     });
-    rule();
     heading("관찰 종목 3");
     data.stocks.forEach(stock => {
       pair(`${stock.name} · ${stock.ticker}`, `${stock.price} ${stock.currency}  ${change(stock)}`,
@@ -111,28 +127,18 @@
         y += 4;
         paragraph(`※ ${stock.missing_reason}`, 13, C.muted);
       }
-      y += 5;
-      paragraph(stock.reason, 16);
-      y += 4;
-      paragraph(`확인 · ${stock.watch}`, 14, C.muted);
-      y += 13;
+      y += 3;
+      paragraph(`${stock.reason} 확인 · ${stock.watch}`, 16, C.muted);
+      y += 6;
       rule();
     });
     heading("다음 확인");
     data.next_checks.forEach(item => {
-      paragraph(`${item.label} · ${item.title}`, 16, C.ink, 700);
-      y += 3;
-      paragraph(item.detail, 14, C.muted);
-      y += 11;
+      inline(`${item.label} · ${item.title}`, item.detail);
+      y += 5;
     });
     y += 5;
     rule();
-    paragraph(`자료 조회 ${data.queried_at}`, 11, C.muted);
-    if (data.sources.length) paragraph(`출처 · ${data.sources.join(" / ")}`, 11, C.muted);
-    y += 5;
-    paragraph("한 장 요약 · 상세 근거는 원문 브리핑에서 확인", 12, C.ink, 650);
-    paragraph(data.report_url, 11, C.muted);
-    y += 8;
     paragraph("관찰용 자료 · 투자 권유 아님", 11, C.muted);
     return {width: WIDTH, height: Math.ceil(y + PAD), ops};
   }

@@ -41,7 +41,7 @@ test('every real and TEST report renders without cropping or omitted sections', 
     assert.ok(drawn.length > 30);
     for (const op of drawn) {
       ctx.font = `${op.weight} ${op.size}px sans-serif`;
-      assert.ok(op.x + ctx.measureText(op.value).width <= plan.width - 27, op.value);
+      assert.ok(op.x + ctx.measureText(op.value).width <= plan.width - 21, op.value);
       assert.ok(op.y + op.size <= plan.height - 20, op.value);
     }
     const content = drawn.map(op => op.value).join('').replace(/\s/g, '');
@@ -49,7 +49,14 @@ test('every real and TEST report renders without cropping or omitted sections', 
       assert.ok(content.includes(section.replace(/\s/g, '')));
     }
     for (const stock of data.stocks) assert.ok(content.includes(stock.price.replace(/\s/g, '')));
-    assert.ok(content.includes(data.id));
+    for (const value of [data.title, data.headline, data.as_of, ...data.summary_points,
+      ...data.notices, ...data.issues.flatMap(item => [item.title, item.preview]),
+      ...data.stocks.flatMap(item => [item.price, item.percent, item.as_of, item.session, item.reason, item.watch]),
+      ...data.next_checks.flatMap(item => [item.label, item.title, item.detail])]) {
+      assert.ok(content.includes(value.replace(/\s/g, '')), value);
+    }
+    assert.ok(!content.includes(data.report_url.replace(/\s/g, '')));
+    assert.ok(!content.includes('출처·'));
     if (data.is_test) assert.ok(content.includes('TEST'));
     const canvas = {getContext: () => ctx};
     createCanvas(data, {createElement: () => canvas});
@@ -60,7 +67,7 @@ test('every real and TEST report renders without cropping or omitted sections', 
 
 test('very long content expands the image instead of clipping text', () => {
   const data = payloads()[0];
-  data.notices = ['주의 사항 '.repeat(2000)];
+  data.notices = ['주의 사항 '.repeat(4000)];
   const ctx = context(), plan = layout(data, ctx);
   assert.ok(plan.height > 8192);
   const canvas = {getContext: () => ctx};
