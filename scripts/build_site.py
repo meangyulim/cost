@@ -12,7 +12,7 @@ from string import Template
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close)-\d{4}-\d{2}-\d{2}(?:-\d{4})?\Z")
+REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close|us-intraday)-\d{4}-\d{2}-\d{2}(?:-\d{4})?\Z")
 
 
 def require(condition: bool, message: str) -> None:

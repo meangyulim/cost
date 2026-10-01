@@ -1,0 +1,500 @@
+{
+  "id": "us-intraday-2026-10-01-0330",
+  "is_test": false,
+  "market": "US",
+  "session": "intraday",
+  "market_date": "2026-10-01",
+  "title": "미국장 장중 · 10월 2일 03:30 KST",
+  "as_of": "2026-10-02T03:30:39+09:00",
+  "queried_at": "2026-10-02T03:34:51+09:00",
+  "venue": "뉴욕 거래일 10월 1일 정규장. 작성 시각은 KST 10월 2일이며 시세는 각 항목의 기준 시각을 따릅니다.",
+  "summary": "기술주 반등, 금리 부담은 남았다",
+  "summary_detail": "마이크론은 장전 하락에서 장중 상승으로 돌아섰습니다. 액센츄어의 실적과 전망도 기술주에 힘을 보탰습니다. 제조업 가격지표가 올라 장 후반 금리와 상승 확산을 함께 확인해야 합니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,666.29",
+      "unit": "pt",
+      "delta": "+14.75",
+      "percent": "+0.19",
+      "direction": "up",
+      "source": "spx",
+      "as_of": "2026-10-02T02:28:48+09:00",
+      "session": "10월1일13:28:48 EDT 정규장 장중"
+    },
+    {
+      "name": "다우존스",
+      "value": "50,889.89",
+      "unit": "pt",
+      "delta": "−16.16",
+      "percent": "−0.03",
+      "direction": "down",
+      "source": "dji",
+      "as_of": "2026-10-02T03:21:44+09:00",
+      "session": "10월1일14:21:44 EDT 정규장 장중"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,905.26",
+      "unit": "pt",
+      "delta": "+44.19",
+      "percent": "+0.16",
+      "direction": "up",
+      "source": "ixic",
+      "as_of": "2026-10-02T02:58:39+09:00",
+      "session": "10월1일13:58:39 EDT 정규장 장중"
+    }
+  ],
+  "fx": {
+    "label": "미국 10년 국채수익률 · 오후 보도",
+    "value": "5.22",
+    "unit": "%",
+    "delta": "정확 시각 미확인",
+    "direction": "missing",
+    "as_of": "2026-10-02T03:30:39+09:00",
+    "session": "AP10월1일 오후 보도값. 금리의 정확한 호가 분은 미표시이며 as_of는 조회시각입니다. 장중5.34%근처까지 오른 뒤5.22%로 후퇴했다고 보도했습니다.",
+    "source": "ap"
+  },
+  "issues": [
+    {
+      "title": "실적 호재가 주가 반응으로 연결",
+      "fact": "마이크론은 FY26 4분기 매출542.29억 달러와 다음 분기615억±15억 달러 매출 전망을 발표했습니다. 03:04 KST 시세는1,084.68달러(+1.84%)로 장전 하락과 다른 반응입니다. 액센츄어의 분기 매출은186.8억 달러, GAAP EPS3.29달러이고 다음 회계연도 현지통화 매출 성장 전망은3~6%입니다. 03:09 KST 시세는213.86달러(+16.63%)입니다. 해석: AI 관련 실적 호재가 반도체뿐 아니라 IT서비스로도 이어지는지 관찰합니다.",
+      "source": "micron",
+      "additional_sources": [
+        "mu",
+        "acn-results",
+        "acn"
+      ]
+    },
+    {
+      "title": "제조업은 확장, 가격 부담은 더 커졌다",
+      "fact": "ISM9월 제조업 PMI는54.5로50을 웃돌았습니다. 신규주문은55.3으로 전월보다1.6p 올랐고 가격지수는77.9로6.8p 올랐습니다. 가격지수77.9는 물가상승률77.9%라는 뜻이 아닙니다. AP는 미국10년 금리가 장중5.34%근처에서5.22%로 후퇴했다고 보도했지만 금리 호가의 정확한 분은 명시하지 않았습니다. 해석: 수요가 유지되는 동시에 비용 부담이 커져, 반등을 판단할 때 금리 안정도 함께 확인합니다.",
+      "source": "ism",
+      "additional_sources": [
+        "ap"
+      ]
+    },
+    {
+      "title": "지수 반등과 시장 전체의 강세는 구분",
+      "fact": "조회된 서로 다른 시점의 장중 스냅샷에서 S&P500은+0.19%(02:28KST),나스닥은+0.16%(02:58KST),다우는−0.03%(03:21KST)입니다. 동시 호가나 종가가 아니므로 전체 시장의 확정 방향으로 묶지 않습니다. 해석: 장 후반 기술주 상승 유지와 다른 업종의 동반 상승을 확인합니다. 직전 완료 거래일9월30일까지 20거래일 가격수익률은 반도체 ETF SOXX+13.66%, 대형주 ETF SPY+0.11%입니다. 기술주에 강세가 집중된 배경이며, 오늘 장중 수익률은 아닙니다.",
+      "source": "spx",
+      "additional_sources": [
+        "ixic",
+        "dji",
+        "us-daily-analysis"
+      ]
+    }
+  ],
+  "interpretation": "실적 발표 종목의 상승과 시장 전체의 상승을 구분합니다. 마이크론과 엔비디아가 전일 종가 위를 유지하는지, 액센츄어 상승이 다른 IT서비스로 이어지는지를 확인합니다. ISM가격지수 상승이 금리를 다시 자극하면 지수 반등이 약해질 수 있다는 조건부 해석이며 상승 확률은 산출하지 않습니다.",
+  "stocks": [
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "1,084.68",
+      "currency": "USD",
+      "delta": "+19.57",
+      "percent": "+1.84",
+      "direction": "up",
+      "as_of": "2026-10-02T03:04:00+09:00",
+      "session": "Nasdaq 10월1일 정규장 · 시세 스냅샷",
+      "reason": "실적·다음 분기 전망 발표 뒤 장전 하락에서 장중 상승으로 돌아섰습니다.",
+      "watch": "전일 종가1,065.11달러 위의 상승이 장 마감까지 유지되는지 확인합니다.",
+      "source": "mu",
+      "reason_sources": [
+        "micron"
+      ]
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "230.21",
+      "currency": "USD",
+      "delta": "+1.83",
+      "percent": "+0.80",
+      "direction": "up",
+      "as_of": "2026-10-02T03:06:00+09:00",
+      "session": "Nasdaq 10월1일 정규장 · 시세 스냅샷",
+      "reason": "마이크론의 AI 메모리 수요 전망이 반도체 전반으로 확산되는지 볼 종목입니다.",
+      "watch": "전일 종가228.38달러 위를 유지하는지와 반도체 업종 동반 강세를 확인합니다.",
+      "source": "nvda",
+      "reason_sources": [
+        "micron"
+      ]
+    },
+    {
+      "name": "액센츄어",
+      "ticker": "ACN",
+      "price": "213.86",
+      "currency": "USD",
+      "delta": "+30.49",
+      "percent": "+16.63",
+      "direction": "up",
+      "as_of": "2026-10-02T03:09:00+09:00",
+      "session": "NYSE 10월1일 정규장 · 시세 스냅샷",
+      "reason": "분기 실적 발표와 다음 회계연도 매출 성장 전망 뒤 큰 폭으로 상승한 IT서비스 종목입니다.",
+      "watch": "급등폭 유지와 다른 IT서비스 종목의 동반 반응을 확인합니다.",
+      "source": "acn",
+      "reason_sources": [
+        "acn-results"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "10월2일05:00 KST",
+      "title": "미국 정규장 마감",
+      "detail": "마이크론·엔비디아 상승 유지와 지수·다른 업종 동반 회복을 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "10월2일05:15 KST 예정",
+      "title": "나이키 실적",
+      "detail": "10월1일16:15EDT 발표 예정. 매출·마진·전망과 시간외 주가를 구분합니다.",
+      "source": "nike"
+    },
+    {
+      "label": "10월2일21:30 KST",
+      "title": "미국9월 고용동향",
+      "detail": "10월2일08:30EDT. 고용·실업률·임금을 함께 보고 금리 반응을 확인합니다.",
+      "source": "bls"
+    }
+  ],
+  "sources": [
+    {
+      "id": "spx",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://ca.finance.yahoo.com/quote/%5EGSPC/",
+      "note": "검색에서 반환된 2026-10-01 13:28:48 EDT 장중 스냅샷 7666.29, +14.75, +0.19%. 본문 직접 fetch는 429. 시점이 명시된 검색 조회값만 사용."
+    },
+    {
+      "id": "ixic",
+      "label": "Yahoo Finance · 나스닥",
+      "url": "https://ca.finance.yahoo.com/quote/%5EIXIC/",
+      "note": "2026-10-01 13:58:39 EDT 장중 스냅샷 26905.26,+44.19,+0.16%. 본문 직접 fetch는 429. 전일 종가 자료 26861.06과 원문 변동액 사이 0.01pt 정밀도 차이; 원문값 유지."
+    },
+    {
+      "id": "dji",
+      "label": "Yahoo Finance · 다우",
+      "url": "https://ca.finance.yahoo.com/quote/%5EDJI/",
+      "note": "2026-10-01 14:21:44 EDT 장중 스냅샷 50889.89,−16.16,−0.03%. 본문 직접 fetch는 429. 시점 있는 검색 조회값만 사용."
+    },
+    {
+      "id": "mu",
+      "label": "Stock Analysis · MU 시세",
+      "url": "https://stockanalysis.com/stocks/mu/",
+      "note": "2026-10-01 14:04 EDT:1084.68,+19.57,+1.84%,previous close1065.11. 실시간 CBOE 및 15분 지연 통합시세 안내; 현재 전체시장 체결가로 단정하지 않음."
+    },
+    {
+      "id": "nvda",
+      "label": "Stock Analysis · NVDA 시세",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "note": "2026-10-01 14:06 EDT:230.21,+1.83,+0.80%,previous close228.38. 시세 스냅샷, 현재 전체시장 체결가 아님."
+    },
+    {
+      "id": "acn",
+      "label": "Stock Analysis · ACN 시세",
+      "url": "https://stockanalysis.com/stocks/acn/",
+      "note": "2026-10-01 14:09 EDT:213.86,+30.49,+16.63%,previous close183.37. 가격과 등락 검산 일치. 페이지 day range214.50~227.63은 호가와 맞지 않아 범위 분석에 사용하지 않음. 별도 Investing 자료213.85,+16.62%가 근접하나 정확 시각 없어 현재가로 사용하지 않음."
+    },
+    {
+      "id": "micron",
+      "label": "Micron IR · 분기 실적",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "note": "9월30일 발표 원문 재조회. FY26 Q4 매출54229millionUSD, FY27 Q1 매출전망61.5billion±1.5billionUSD. 전망과 확정 실적 구분."
+    },
+    {
+      "id": "acn-results",
+      "label": "SEC · 액센츄어 실적",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm",
+      "note": "10월1일 Q4 FY26 회사 실적 공시. 매출18.68billionUSD(+6% USD,+7% local), GAAP EPS3.29, FY27 현지통화 매출성장 전망3~6%. 회사 IR PDF도 일치."
+    },
+    {
+      "id": "ism",
+      "label": "ISM · 9월 제조업",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+      "note": "September2026 표 원문. PMI54.5(8월54.6),신규주문55.3(53.7),가격77.9(71.1),고용52.7(51.2). 가격지수는 실제 물가상승률이 아닌 확산지수."
+    },
+    {
+      "id": "ap",
+      "label": "AP · 장중 금리·시장",
+      "url": "https://apnews.com/article/stock-markets-inflation-oil-war-cc56b71699c74950fb1bd9564bee74cc",
+      "note": "10월1일 오후 보도. 주요지수13:48EDT 언급. 10년 금리장중5.34%근처 뒤5.22%(전일늦게5.29%). 금리 호가 정확 분 미표시; 조회시각과 시세기준을 혼동하지 않음. 기사 등락률은 시세카드에 대신 쓰지 않음."
+    },
+    {
+      "id": "nike",
+      "label": "NIKE IR · 실적 일정",
+      "url": "https://investors.nikeinc.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx",
+      "note": "10월1일13:15 PT예정=PDT16:15EDT=10월2일05:15KST,콜14:00PT=06:00KST. 아직 발표 전."
+    },
+    {
+      "id": "bls",
+      "label": "BLS · 고용 일정",
+      "url": "https://www.bls.gov/schedule/2026/home.htm",
+      "note": "9월 고용동향 10월2일08:30ET=21:30KST. EDT 적용."
+    },
+    {
+      "id": "calendar",
+      "label": "NYSE · 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "공식2026휴장·조기폐장목록에10월1일없음,정규장09:30~16:00ET. 목요일,10월1일22:30~10월2일05:00KST."
+    },
+    {
+      "id": "us-daily-analysis",
+      "label": "Massive · 직전 거래일 일별 분석",
+      "url": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+      "show_public": false,
+      "note": "요청 커밋06c7a0d773e1b993f3c57f1461b26565163e67dd, run36906524407 성공. 요청·실제 기준일2026-09-30,65거래일,27요청. 산출물 조회2026-10-02T03:29:44+09:00. 장중 시세 아님. ZIP SHA-256:966b1c429ed9784ff38c13acb335b9fed95218752857216181498901ecdc305f"
+    }
+  ],
+  "calculation_notes": "가격·변동액·등락률은 각 원문 기준 시각 그대로입니다. 검산 MU1084.68−1065.11=19.57,+1.8374%→1.84%;NVDA230.21−228.38=1.83,+0.8013%→0.80%;ACN213.86−183.37=30.49,+16.6276%→16.63%. 나스닥 원문 변동액44.19는 별도 종가26861.06 검산에서0.01pt차이여서 원문 정밀도 유지. 금리 정확 호가 시각,환율,당일 투자자별 순매수 및 시장 폭은 미확인. 미래 상승 확률 미산출.",
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-01",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-02T03:30:39+09:00",
+    "note": "공식2026휴장·조기폐장표에10월1일없음. 목요일 정규장09:30~16:00 America/New_York(EDT UTC−04:00),KST10월1일22:30~10월2일05:00. 뉴욕 거래일과 KST날짜 분리."
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-02T03:21:53+09:00",
+    "actual_started_at_utc": "2026-10-01T18:21:53+00:00",
+    "environment": "Work cloud Linux; GitHub connector; kakao memochat",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "reading": {
+    "headline": "기술주 반등, 금리 부담은 남았다",
+    "summary_points": [
+      "마이크론은 장전 하락에서 장중 상승으로 전환했습니다.",
+      "액센츄어 실적이 IT서비스 강세에도 힘을 보탰습니다.",
+      "제조업 가격지표 상승으로 금리·상승 확산을 함께 봅니다."
+    ],
+    "notices": [
+      "지수 기준: S&P02:28·나스닥02:58·다우03:21, 종목03:04~03:09 KST. 동시 시세가 아니며 지연 가능성이 있습니다.",
+      "국채금리는 오후 보도값이며 정확 호가 시각은 미확인입니다."
+    ],
+    "issues": [
+      {
+        "title": "실적 호재, 장중 주가로 연결",
+        "preview": "장전과 달라진 마이크론 반응과 IT서비스 동반 강세를 봅니다."
+      },
+      {
+        "title": "제조업 확장, 가격 부담 확대",
+        "preview": "PMI54.5·가격지수77.9. 금리가 다시 오르는지 확인합니다."
+      },
+      {
+        "title": "기술주 반등이 다른 업종으로 퍼질까",
+        "preview": "지수는 혼조 스냅샷입니다. 장 후반 상승의 폭을 확인합니다."
+      }
+    ],
+    "stocks": {
+      "MU": {
+        "reason": "실적 발표 뒤 장전 하락에서 장중 상승으로 돌아섰습니다.",
+        "watch": "전일 종가1,065.11달러 위 상승 유지."
+      },
+      "NVDA": {
+        "reason": "AI 메모리 호재가 반도체 전반으로 퍼지는지 볼 종목입니다.",
+        "watch": "228.38달러 위 유지·반도체 동반 강세."
+      },
+      "ACN": {
+        "reason": "분기 실적·매출 성장 전망 뒤 급등한 IT서비스 종목입니다.",
+        "watch": "급등폭 유지·동종 업계 반응."
+      }
+    },
+    "interpretation_points": [
+      "실적 발표 종목과 시장 전체의 강세를 구분합니다.",
+      "금리가 다시 오르는지, 다른 업종도 따라오는지 확인합니다.",
+      "9월30일까지 20거래일: 반도체 ETF SOXX+13.66%, 대형주 ETF SPY+0.11%. 오늘 장중 수익률과 구분합니다."
+    ],
+    "next_checks": [
+      {
+        "title": "미국 정규장 마감",
+        "detail": "반도체 상승 유지·다른 업종 동반 회복 확인."
+      },
+      {
+        "title": "나이키 실적",
+        "detail": "매출·마진·전망과 시간외 반응 확인."
+      },
+      {
+        "title": "미국9월 고용동향",
+        "detail": "고용·실업률·임금과 금리 반응 확인."
+      }
+    ]
+  },
+  "analysis_context": {
+    "workflow_run_id": 36906524407,
+    "request_commit": "06c7a0d773e1b993f3c57f1461b26565163e67dd",
+    "data_date": "2026-09-30",
+    "queried_at": "2026-10-02T03:29:44+09:00",
+    "source": "us-daily-analysis",
+    "benchmarks": [
+      {
+        "ticker": "SPY",
+        "name": "미국 대형주",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 762.63,
+        "daily_return_pct": -0.2054,
+        "return_5_sessions_pct": -0.6746,
+        "return_20_sessions_pct": 0.1116,
+        "ma20": 765.0635,
+        "ma60": 760.4887,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.4432
+      },
+      {
+        "ticker": "QQQ",
+        "name": "나스닥100",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 739.77,
+        "daily_return_pct": 0.2493,
+        "return_5_sessions_pct": -0.1943,
+        "return_20_sessions_pct": 4.5404,
+        "ma20": 724.5445,
+        "ma60": 714.3708,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 0.9244
+      },
+      {
+        "ticker": "DIA",
+        "name": "다우30",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 508.55,
+        "daily_return_pct": -0.8443,
+        "return_5_sessions_pct": -1.118,
+        "return_20_sessions_pct": -3.6381,
+        "ma20": 520.657,
+        "ma60": 526.4363,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 0.9136
+      },
+      {
+        "ticker": "IWM",
+        "name": "미국 소형주",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 277.89,
+        "daily_return_pct": -0.4014,
+        "return_5_sessions_pct": -1.4295,
+        "return_20_sessions_pct": -4.3638,
+        "ma20": 286.4435,
+        "ma60": 293.3853,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 0.875
+      }
+    ],
+    "sectors": [
+      {
+        "ticker": "SOXX",
+        "name": "반도체",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 568.64,
+        "daily_return_pct": 0.2115,
+        "return_5_sessions_pct": 0.5162,
+        "return_20_sessions_pct": 13.6575,
+        "ma20": 535.617,
+        "ma60": 532.6765,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 0.6978,
+        "relative_to_spy_20_pct_points": 13.5459
+      }
+    ],
+    "watch": [
+      {
+        "ticker": "MU",
+        "name": "MU",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 1065.11,
+        "daily_return_pct": 0.0028,
+        "return_5_sessions_pct": -0.6316,
+        "return_20_sessions_pct": 14.1059,
+        "ma20": 1012.0995,
+        "ma60": 947.7044,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 1.4597,
+        "regular_session": {
+          "data_date": "2026-09-30",
+          "session": "regular",
+          "currency": "USD",
+          "close": 1065.11,
+          "previous_close": 1065.08,
+          "delta": 0.03,
+          "daily_return_pct": 0.0028,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 228.38,
+        "daily_return_pct": 0.5149,
+        "return_5_sessions_pct": 1.2727,
+        "return_20_sessions_pct": 5.0313,
+        "ma20": 223.1885,
+        "ma60": 215.6065,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 1.2154,
+        "regular_session": {
+          "data_date": "2026-09-30",
+          "session": "regular",
+          "currency": "USD",
+          "close": 228.38,
+          "previous_close": 227.21,
+          "delta": 1.17,
+          "daily_return_pct": 0.5149,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "ACN",
+        "name": "ACN",
+        "data_date": "2026-09-30",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 183.37,
+        "daily_return_pct": 3.5287,
+        "return_5_sessions_pct": -0.0817,
+        "return_20_sessions_pct": -2.5094,
+        "ma20": 183.7805,
+        "ma60": 171.1268,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 2.0676,
+        "regular_session": {
+          "data_date": "2026-09-30",
+          "session": "regular",
+          "currency": "USD",
+          "close": 183.37,
+          "previous_close": 177.12,
+          "delta": 6.25,
+          "daily_return_pct": 3.5287,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      }
+    ],
+    "forecast_probability": null,
+    "backtest_status": "not_validated"
+  }
+}

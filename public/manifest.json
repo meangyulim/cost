@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-01",
+  "latest_id": "us-intraday-2026-10-01-0330",
   "reports": [
+    {
+      "id": "us-intraday-2026-10-01-0330",
+      "is_test": false,
+      "market": "US",
+      "session": "intraday",
+      "market_date": "2026-10-01",
+      "title": "미국장 장중 · 10월 2일 03:30 KST",
+      "summary": "기술주 반등, 금리 부담은 남았다",
+      "as_of": "2026-10-02T03:30:39+09:00",
+      "path": "reports/us-intraday-2026-10-01-0330/"
+    },
     {
       "id": "us-pre-2026-10-01",
       "is_test": false,

@@ -144,6 +144,19 @@ class SiteTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(self.report)
 
+    def test_us_intraday_id_uses_new_york_date_and_kst_time(self):
+        report = copy.deepcopy(self.report)
+        report.update(id="us-intraday-2026-10-01-0321", is_test=False, market="US", session="intraday",
+                      market_date="2026-10-01", as_of="2026-10-02T03:21:00+09:00")
+        report['calendar_evidence'] = {'url': 'https://www.nyse.com/trade/hours-calendars',
+            'market_date': '2026-10-01', 'is_trading_day': True, 'early_close': False,
+            'checked_at': '2026-10-02T03:21:00+09:00', 'note': 'Unit test fixture'}
+        report['sources'][0]['url'] = 'https://example.com/source'
+        validate(report)
+        report['id'] = 'us-intraday-2026-10-01-0421'
+        with self.assertRaises(ValueError):
+            validate(report)
+
     def test_live_report_requires_calendar_and_original_sources(self):
         report = self.report
         report.update(id="kr-close-2026-09-30", is_test=False)
