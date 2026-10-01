@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-intraday-2026-10-01",
+  "latest_id": "kr-close-2026-10-01",
   "reports": [
+    {
+      "id": "kr-close-2026-10-01",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-01",
+      "title": "한국장 마감 · 2026.10.01",
+      "summary": "반도체 반등·코스닥 급등…수급 확정치는 추가 확인",
+      "as_of": "2026-10-01T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-01/"
+    },
     {
       "id": "kr-intraday-2026-10-01",
       "is_test": false,
