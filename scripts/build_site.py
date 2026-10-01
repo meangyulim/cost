@@ -39,7 +39,14 @@ def validate(report: dict) -> None:
     dated_id = report["id"].endswith(report["market_date"])
     timed_intraday_id = (report["session"] == "intraday" and report["id"].endswith(
         report["market_date"] + "-" + datetime.fromisoformat(report["as_of"]).strftime("%H%M")))
-    require(dated_id or timed_intraday_id, "ID must match market date and intraday reference time")
+    timed_close_id = False
+    if report["session"] == "close" and report.get("revision_at"):
+        kst(report["revision_at"])
+        revision = datetime.fromisoformat(report["revision_at"])
+        require(revision.date().isoformat() == report["market_date"], "Revision must match market date")
+        require(revision >= datetime.fromisoformat(report["as_of"]), "Revision precedes market close")
+        timed_close_id = report["id"].endswith(report["market_date"] + "-" + revision.strftime("%H%M"))
+    require(dated_id or timed_intraday_id or timed_close_id, "ID must match market date and edition time")
     if report["is_test"]:
         require(report["id"].startswith("test-layout-"), "TEST report must have a TEST ID")
     else:
@@ -193,7 +200,7 @@ def load_reports(data_dir: Path) -> list[dict]:
         ids.add(report["id"])
         reports.append(report)
     require(bool(reports), "No reports to publish")
-    return sorted(reports, key=lambda r: (r["market_date"], r["as_of"], r["id"]), reverse=True)
+    return sorted(reports, key=lambda r: (r["market_date"], r["as_of"], r.get("revision_at", r["as_of"]), r["id"]), reverse=True)
 
 
 def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:

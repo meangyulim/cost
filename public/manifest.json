@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-01",
+  "latest_id": "kr-close-2026-10-01-1822",
   "reports": [
+    {
+      "id": "kr-close-2026-10-01-1822",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-01",
+      "title": "한국장 마감 · 2026.10.01 · 18:22 재작성",
+      "summary": "반도체 반등, 다음은 7,000·900선",
+      "as_of": "2026-10-01T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-01-1822/"
+    },
     {
       "id": "kr-close-2026-10-01",
       "is_test": false,
