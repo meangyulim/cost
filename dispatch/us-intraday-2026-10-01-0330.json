@@ -1,6 +1,6 @@
 {
   "report_id": "us-intraday-2026-10-01-0330",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-02T03:37:28.888+09:00",
   "attempted_at_utc": "2026-10-01T18:37:28.888Z",
   "url": "https://meangyulim.github.io/cost/reports/us-intraday-2026-10-01-0330/",
@@ -18,6 +18,9 @@
     "mobile": "not_performed"
   },
   "additional_checks": "skipped_per_user_instruction",
-  "send_tool_called": false,
-  "attempted_record_created": true
+  "send_tool_called": true,
+  "attempted_record_created": true,
+  "result": "success",
+  "sent_at_utc": "2026-10-01T18:38:35.319Z",
+  "sent_at_kst": "2026-10-02T03:38:35.319+09:00"
 }
