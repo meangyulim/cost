@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 from datetime import date, datetime, timedelta
 from html import escape
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -292,12 +293,13 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     (output / "assets").mkdir(exist_ok=True)
     shutil.copyfile(ROOT / "assets/style.css", output / "assets/style.css")
     shutil.copyfile(ROOT / "assets/brief-image.js", output / "assets/brief-image.js")
+    image_version = hashlib.sha256((ROOT / "assets/brief-image.js").read_bytes()).hexdigest()[:16]
     page = Template((ROOT / "templates/page.html").read_text(encoding="utf-8"))
 
     def write_page(path: str, title: str, content: str, prefix: str) -> None:
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(page.substitute(title=text(title), description=text("TEST · 레이아웃 확인용 자료 · 실제 시세 아님" if 'TEST' in title else title), asset_prefix=prefix, content=content), encoding="utf-8")
+        target.write_text(page.substitute(title=text(title), description=text("TEST · 레이아웃 확인용 자료 · 실제 시세 아님" if 'TEST' in title else title), asset_prefix=prefix, image_version=image_version, content=content), encoding="utf-8")
 
     manifest = []
     for report in reports:

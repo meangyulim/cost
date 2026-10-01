@@ -1,4 +1,5 @@
 import copy
+import hashlib
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -35,7 +36,9 @@ class SiteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp) / "cost"
             build(output)
+            image_version = hashlib.sha256((output / 'assets/brief-image.js').read_bytes()).hexdigest()[:16]
             for file in output.rglob("*.html"):
+                self.assertIn('assets/brief-image.js?v=' + image_version, file.read_text())
                 parser = Links()
                 parser.feed(file.read_text())
                 for link in parser.links:
