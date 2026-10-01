@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-01",
+  "latest_id": "kr-pre-2026-10-02",
   "reports": [
+    {
+      "id": "kr-pre-2026-10-02",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-10-02",
+      "title": "10월 2일 한국장 시작 전",
+      "summary": "반도체 훈풍, 물가·유가 함께 점검",
+      "as_of": "2026-10-02T08:35:01+09:00",
+      "path": "reports/kr-pre-2026-10-02/"
+    },
     {
       "id": "us-close-2026-10-01",
       "is_test": false,
