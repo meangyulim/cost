@@ -1,0 +1,23 @@
+{
+  "report_id": "us-intraday-2026-10-01-0330",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-02T03:37:28.888+09:00",
+  "attempted_at_utc": "2026-10-01T18:37:28.888Z",
+  "url": "https://meangyulim.github.io/cost/reports/us-intraday-2026-10-01-0330/",
+  "commit": "f7ddf579065861bc8ca18bd821941ed82dd1f1d6",
+  "deployment": {
+    "status": "success",
+    "run_id": 36908069367,
+    "head_sha": "f7ddf579065861bc8ca18bd821941ed82dd1f1d6",
+    "completed_at": "2026-10-01T18:36:47Z"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "not_performed",
+    "browser": "not_performed",
+    "mobile": "not_performed"
+  },
+  "additional_checks": "skipped_per_user_instruction",
+  "send_tool_called": false,
+  "attempted_record_created": true
+}
