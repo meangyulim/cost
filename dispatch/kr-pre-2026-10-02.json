@@ -1,0 +1,38 @@
+{
+  "report_id": "kr-pre-2026-10-02",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-02T08:40:42.000+09:00",
+  "attempted_at_utc": "2026-10-01T23:40:42+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-02/",
+  "commit": "b60a2d891a3776221836bed12ab3495d4d315a9d",
+  "deployment": {
+    "run_id": 36941964680,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "deploy_job_completed_at_utc": "2026-10-01T23:40:00Z"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "skipped_by_user_instruction",
+    "browser": "skipped_by_user_instruction",
+    "mobile": "skipped_by_user_instruction",
+    "text_zoom": "skipped_by_user_instruction"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "scheduled_at_kst": "2026-10-02T08:30:00+09:00",
+  "scheduled_at_utc": "2026-10-01T23:30:00+00:00",
+  "actual_started_at_kst": "2026-10-02T08:29:02+09:00",
+  "actual_started_at_utc": "2026-10-01T23:29:02+00:00",
+  "early_start_seconds": 58,
+  "calendar": {
+    "market_date": "2026-10-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "official_url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+    "checked_at_kst": "2026-10-02T08:33:00+09:00"
+  },
+  "environment": "Work cloud execution; GitHub OAuth connected; Kakao self-send tool exposed",
+  "send_retry_allowed": false
+}
