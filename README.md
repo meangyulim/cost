@@ -109,6 +109,7 @@ GitHub Pages API가 반환한 실제 주소는 **https://meangyulim.github.io/co
 65거래일 추세, 시장 폭, 거래대금, 지수/ETF 상대 강도를 계산합니다. 요청 파일의 push로도 실행할 수 있습니다.
 원시 전체 자료와 키는 게시하지 않으며 예측 확률은 검증 전 제공하지 않습니다.
 설정·실행·브리핑 반영 규칙은 [docs/krx-analysis.md](docs/krx-analysis.md)에 있습니다.
+2026.10.01 Secrets 등록과 GitHub의 실제 65거래일 수집·분석·산출물 다운로드를 검증했습니다.
 
 ## 예약과 카카오톡
 
