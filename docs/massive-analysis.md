@@ -65,3 +65,16 @@ https://massive.com/docs/rest/stocks/aggregates/daily-market-summary,
 https://massive.com/docs/rest/stocks/aggregates/daily-ticker-summary.
 공개 게시 제한: https://massive.com/legal/market-data-terms-of-service,
 https://massive.com/knowledge-base/article/which-plan-do-i-need-to-show-massive-data-in-my-app.
+
+
+## 실제 Secrets 연결 확인
+
+2026.10.01 사용자가 MASSIVE_API_KEY 등록을 완료했다.
+요청 커밋 `5ab1103bf6f818fe9dbb7232086f0786a82e7489`의
+[36871288560 실행](https://github.com/meangyulim/cost/actions/runs/36871288560)이 성공했고
+artifact `us-analysis-36871288560`의 ZIP과 analysis.json을 내려받아 확인했다.
+기준일 2026.09.30, 조회 시각 2026.10.01 22:53:05 KST, 27개 요청,
+시장 ETF 4개·업종 ETF 12개·관찰 종목 3개의 65거래일 분석과 별도 정규장 종가를 확인했다.
+독립 수집과 benchmarks/sectors/watch/breadth의 모든 값이 일치했다.
+ZIP SHA-256: `21179a70adbc1aed99d035e80de859b61a480e41a23398bb65e27d60c5ea2d9e`.
+이 기록은 이번 성공의 증거이며 이후 요청의 최신 데이터 수집을 대신하지 않는다.

@@ -127,66 +127,84 @@ def bullet_list(items: list[str], class_name: str = "brief-points") -> str:
 
 def render_report(report: dict, prefix: str) -> str:
     reading = report.get("reading", {})
-    banner = '<aside class="test-banner"><strong>TEST</strong>레이아웃 확인용 자료 · 실제 시세 아님</aside>' if report["is_test"] else ''
     session = {"pre": "장전", "close": "정규장 마감", "intraday": "장중"}[report["session"]]
-    parts = [banner,
-        f'<header><p class="eyebrow">MARKET BRIEF</p><h1>{text(report["title"])}</h1><p class="date">{text(kst(report["as_of"]))} 기준 · {session}</p></header>',
-        f'<section class="summary" aria-label="오늘의 결론"><span class="tag">오늘의 결론</span><h2>{text(reading.get("headline", report["summary"]))}</h2>',
-        bullet_list(reading.get("summary_points", paragraphs(report["summary_detail"])), "summary-points"), '</section>',
-        '<div class="markets" aria-label="지수와 전일 대비 변화">']
+    parts = []
+    if report["is_test"]:
+        parts.append('<aside class="test-banner"><strong>TEST</strong>레이아웃 확인용 자료 · 실제 시세 아님</aside>')
+    parts.extend([
+        f'<header><p class="eyebrow">MARKET BRIEF · {text(report["market"])} / {text(session)}</p><h1>{text(report["title"])}</h1><p class="date">{text(kst(report["as_of"]))} 기준</p></header>',
+        '<section class="summary" aria-label="오늘의 결론"><span class="tag">오늘의 결론</span>',
+        f'<h2>{text(reading.get("headline", report["summary"]))}</h2>',
+        bullet_list(reading.get("summary_points", paragraphs(report["summary_detail"])), "summary-points"),
+        '</section><div class="markets" aria-label="지수와 전일 대비 변화">'])
     for index in report["indices"]:
-        name = index["name"].split(" · ")[0]
-        change = "전일 대비 미확인" if index["direction"] == "missing" else f'{text(index["percent"])}%'
-        delta = "" if index["direction"] == "missing" else f'전일 대비 {text(index["delta"])} {text(index["unit"])}'
-        parts.append(f'<div class="market"><span class="name">{text(name)}</span><strong>{text(index["value"])}</strong><div class="change {text(index["direction"])}">{change}</div><small>{delta}</small></div>')
+        change = "미확인" if index["direction"] == "missing" else f'{text(index["percent"])}%'
+        parts.append(f'<div class="market"><span class="name">{text(index["name"].split(" · ")[0])}</span><strong>{text(index["value"])}</strong><span class="change {text(index["direction"])}">{change}</span></div>')
         if index["direction"] == "missing":
             parts.append(f'<p class="notice">{text(index["missing_reason"])}</p>')
+    parts.append('</div><details class="market-extra"><summary>지수 등락폭 보기</summary><div class="detail-body">')
+    for index in report["indices"]:
+        delta = "미확인" if index["direction"] == "missing" else f'{index["delta"]} {index["unit"]}'
+        parts.append(f'<p>{text(index["name"])} · 전일 대비 {text(delta)}</p>')
+    parts.append('</div></details>')
     fx = report["fx"]
-    parts.extend(['</div>', f'<div class="fx"><span>{text(fx["label"].split(" · ")[0])}</span><strong>{text(fx["value"])} <small>{text(fx["unit"])}</small></strong><span class="{text(fx["direction"])}">{text(fx["delta"])} {text(fx["unit"])}</span></div>'])
-    notices = reading.get("notices", [])
-    if not notices:
-        # Keep market/session distinctions visible on legacy reports too.
-        notices = [report["venue"], fx["session"]]
-    for notice in notices:
-        parts.append(f'<p class="notice">{text(notice)}</p>')
-    parts.append('<section aria-labelledby="issues-title"><div class="section-head"><h2 id="issues-title">오늘 움직인 이유</h2></div><div class="issue-list">')
-    issue_readings = reading.get("issues", [])
-    for number, issue in enumerate(report["issues"]):
-        short = issue_readings[number] if number < len(issue_readings) else {}
-        parts.append(f'<article class="issue"><h3><span class="n">{number+1:02}</span>{text(short.get("title", issue["title"]))}</h3>')
-        parts.append(bullet_list(short.get("points", paragraphs(issue["fact"]))))
-        if short.get("meaning"):
-            parts.append(f'<p class="meaning"><span>의미</span>{text(short["meaning"])}</p>')
-        parts.append('</article>')
-    parts.extend(['</div>', '<div class="reading"><h3>다음에 볼 것</h3>', bullet_list(reading.get("interpretation_points", paragraphs(report["interpretation"]))), '</div></section>',
-        '<section aria-labelledby="stocks-title"><div class="section-head"><h2 id="stocks-title">관찰 종목</h2><small>가격 · 전일 대비</small></div><div class="stocks">'])
-    stock_readings = reading.get("stocks", {})
+    parts.append(f'<div class="fx"><span>{text(fx["label"].split(" · ")[0])}</span><strong>{text(fx["value"])} <small>{text(fx["unit"])}</small></strong><span class="{text(fx["direction"])}">{text(fx["delta"])} {text(fx["unit"])}</span></div>')
+    # Session distinctions and uncertainty always stay visible, never in details.
+    notices = reading.get("notices") or [report["venue"], fx["session"]]
+    parts.append('<aside class="notices" aria-label="자료 기준과 유의사항">')
+    parts.extend(f'<p class="notice">{text(notice)}</p>' for notice in notices)
+    parts.append('</aside>')
+    parts.append('<nav class="section-nav" aria-label="본문 바로가기"><a href="#issues-title">핵심 이슈</a><a href="#stocks-title">관찰 종목</a><a href="#next-title">다음 확인</a></nav>')
+    parts.append('<section aria-labelledby="issues-title"><div class="section-head"><h2 id="issues-title">핵심 이슈</h2><small>눌러서 상세 보기</small></div><div class="issue-list">')
+    short_issues = reading.get("issues", [])
+    for n, issue in enumerate(report["issues"]):
+        short = short_issues[n] if n < len(short_issues) else {}
+        preview = short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]
+        parts.append(f'<details class="issue"><summary><span class="item-heading"><span class="n">{n+1:02}</span><strong>{text(short.get("title", issue["title"]))}</strong><span class="expand-mark" aria-hidden="true"></span></span><span class="item-preview">{text(preview)}</span></summary><div class="detail-body">')
+        # Show the complete fact text on expansion without repeating its summary.
+        parts.append(bullet_list(paragraphs(issue["fact"])))
+        if short.get("meaning") and short["meaning"] != preview:
+            parts.append(f'<p class="meaning">{text(short["meaning"])}</p>')
+        parts.append('</div></details>')
+    parts.append('</div></section>')
+    parts.append('<section aria-labelledby="stocks-title"><div class="section-head"><h2 id="stocks-title">관찰 종목</h2><small>가격 · 전일 대비</small></div><div class="stocks">')
     for stock in report["stocks"]:
-        short = stock_readings.get(stock["ticker"], {})
+        short = reading.get("stocks", {}).get(stock["ticker"], {})
         change = "미확인" if stock["direction"] == "missing" else f'{text(stock["percent"])}%'
-        delta = "" if stock["direction"] == "missing" else f'{text(stock["delta"])} {text(stock["currency"])}'
-        parts.append(f'<article class="stock"><div class="stock-top"><h3>{text(stock["name"])}</h3><span class="code">{text(stock["ticker"])}</span></div><div class="price-row"><strong>{text(stock["price"])} <small>{text(stock["currency"])}</small></strong><b class="{text(stock["direction"])}">{change}</b></div><p class="price-meta">{delta} · {text(kst(stock["as_of"]))}</p>')
+        parts.append(f'<details class="stock"><summary><span class="stock-top"><span class="stock-identity"><strong>{text(stock["name"])}</strong><span class="code">{text(stock["ticker"])}</span></span><span class="stock-quote"><strong>{text(stock["price"])} <small>{text(stock["currency"])}</small></strong><b class="{text(stock["direction"])}">{change}</b><span class="expand-mark" aria-hidden="true"></span></span></span><span class="item-preview">{text(short.get("reason", stock["reason"]))}</span>')
         if stock["direction"] == "missing":
-            parts.append(f'<p class="notice">{text(stock["missing_reason"])}</p>')
-        parts.append(f'<p>{text(short.get("reason", stock["reason"]))}</p><p class="watch"><span>확인할 것</span>{text(short.get("watch", stock["watch"]))}</p>')
-        if not short:
-            parts.append(f'<p class="price-meta">{text(stock["session"])}</p>')
-        parts.append('</article>')
-    parts.extend(['</div></section>', '<section aria-labelledby="next-title"><div class="section-head"><h2 id="next-title">다음 일정·확인 순서</h2></div><ol class="next">'])
-    check_readings = reading.get("next_checks", [])
-    for number, check in enumerate(report["next_checks"]):
-        short = check_readings[number] if number < len(check_readings) else {}
-        parts.append(f'<li><span>{text(check["label"])}</span><div><b>{text(short.get("title", check["title"]))}</b><p>{text(short.get("detail", check["detail"]))}</p></div></li>')
-    parts.extend(['</ol></section>', '<section class="sources-section" aria-labelledby="sources-title"><h2 id="sources-title">출처</h2><p class="source-caption">매체명과 자료 제목을 누르면 원문으로 이동합니다.</p><ul class="source-list">'])
+            parts.append(f'<span class="notice">{text(stock["missing_reason"])}</span>')
+        parts.append('</summary><div class="detail-body">')
+        parts.append(f'<p class="price-meta">{text(stock["session"])} · {text(kst(stock["as_of"]))}</p>')
+        if stock["direction"] != "missing":
+            parts.append(f'<p class="price-meta">전일 대비 {text(stock["delta"])} {text(stock["currency"])}</p>')
+        if short.get("reason") and short["reason"] != stock["reason"]:
+            parts.append(f'<p>{text(stock["reason"])}</p>')
+        parts.append(f'<p class="watch"><span>확인할 것</span>{text(short.get("watch", stock["watch"]))}</p>')
+        if short.get("watch") and short["watch"] != stock["watch"]:
+            parts.append(f'<p class="full-context">{text(stock["watch"])}</p>')
+        parts.append('</div></details>')
+    parts.append('</div></section>')
+    parts.append('<section aria-labelledby="next-title"><div class="section-head"><h2 id="next-title">다음 확인</h2></div><ol class="next">')
+    short_checks = reading.get("next_checks", [])
+    for n, check in enumerate(report["next_checks"]):
+        short = short_checks[n] if n < len(short_checks) else {}
+        parts.append(f'<li><span>{text(check["label"])}</span><div><b>{text(short.get("title", check["title"]))}</b><p>{text(short.get("detail", check["detail"]))}</p>')
+        if short.get("detail") and short["detail"] != check["detail"]:
+            parts.append(f'<details class="check-more"><summary>일정 근거</summary><p>{text(check["detail"])}</p></details>')
+        parts.append('</div></li>')
+    parts.append('</ol><details class="interpretation"><summary>판단 기준·계산 근거</summary><div class="detail-body">')
+    parts.append(bullet_list(reading.get("interpretation_points", paragraphs(report["interpretation"]))))
+    parts.append(f'<p class="full-context">{text(report["interpretation"])}</p><p class="full-context">{text(report["calculation_notes"])}</p></div></details></section>')
+    sources = [source for source in report["sources"] if source.get("show_public", True)]
     labels = reading.get("source_labels", {})
-    for source in report["sources"]:
-        if not source.get("show_public", True):
-            continue
+    parts.append(f'<section class="sources-section"><details><summary>출처 <span class="source-count">{len(sources)}</span></summary><ul class="source-list">')
+    for source in sources:
         label = labels.get(source["id"], source["label"])
         link = f'<a href="{text(source["url"])}" rel="noreferrer">{text(label)} ↗</a>' if source["url"] else text(label)
         parts.append(f'<li id="source-{text(source["id"])}">{link}</li>')
-    parts.extend(['</ul>', f'<p class="source-note">자료 조회 {text(kst(report["queried_at"]))}</p></section>'])
-    return '\n'.join(part for part in parts if part)
+    parts.append(f'</ul></details><p class="source-note">자료 조회 {text(kst(report["queried_at"]))}</p></section>')
+    return '\n'.join(parts)
 
 
 def load_reports(data_dir: Path) -> list[dict]:
@@ -231,7 +249,7 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     for item in manifest:
         if item["id"] != latest["id"]:
             history_rows.append(f'<li><a href="{item["path"]}">{text(item["title"])}</a><p>{text(kst(item["as_of"]))} · {text(item["market"])} / {text(item["session"])}</p></li>')
-    history = '<section aria-labelledby="history-title"><h2 id="history-title">이전 브리핑</h2><ul class="archive">' + '\n'.join(history_rows) + '</ul></section>' if history_rows else ''
+    history = '<section class="history-section"><details><summary>지난 브리핑</summary><ul class="archive">' + '\n'.join(history_rows) + '</ul></details></section>' if history_rows else ''
     write_page("index.html", latest["title"], render_report(latest, ".") + f'<p class="archive-link"><a href="{latest_path}">이 회차 고유 주소</a> · <a href="archive/">전체 날짜별 목록</a></p>' + history, ".")
     rows = []
     for item in manifest:
