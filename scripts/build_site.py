@@ -12,7 +12,7 @@ from string import Template
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close)-\d{4}-\d{2}-\d{2}\Z")
+REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close)-\d{4}-\d{2}-\d{2}(?:-\d{4})?\Z")
 
 
 def require(condition: bool, message: str) -> None:
@@ -36,7 +36,10 @@ def validate(report: dict) -> None:
     require(report["market"] in ("KR", "US"), "Invalid market")
     require(report["session"] in ("pre", "close", "intraday"), "Invalid session")
     date.fromisoformat(report["market_date"])
-    require(report["id"].endswith(report["market_date"]), "ID must match market date")
+    dated_id = report["id"].endswith(report["market_date"])
+    timed_intraday_id = (report["session"] == "intraday" and report["id"].endswith(
+        report["market_date"] + "-" + datetime.fromisoformat(report["as_of"]).strftime("%H%M")))
+    require(dated_id or timed_intraday_id, "ID must match market date and intraday reference time")
     if report["is_test"]:
         require(report["id"].startswith("test-layout-"), "TEST report must have a TEST ID")
     else:
