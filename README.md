@@ -2,7 +2,8 @@
 
 모바일 주식 브리핑을 보관하고 GitHub Pages로 게시하는 정적 사이트입니다.
 소스 저장소는 `meangyulim/cost`이며, 외부 서버·유료 시세 API·OpenAI API를 사용하지 않습니다.
-GitHub Actions는 정적 사이트 생성과 배포만 담당합니다. 시장 조사와 AI 작성 예약은 별도 Work 클라우드 기능이 필요합니다.
+GitHub Actions는 정적 사이트 생성·배포와 요청 시 KRX 일별 자료의 수집·수치 분석을 담당합니다.
+시장 뉴스 조사와 AI 작성 예약은 별도 Work 클라우드 기능이 필요합니다.
 
 실제 브리핑과 **TEST · 레이아웃 확인용 자료 · 실제 시세 아님** 보고서를 구분해 보관합니다.
 홈은 최신 실제 브리핑을 표시하며, 상단 날짜별 보관함에서 이전 자료를 열 수 있습니다.
@@ -100,6 +101,14 @@ GitHub Pages API가 반환한 실제 주소는 **https://meangyulim.github.io/co
 인터넷 허용 초안에는 `api.github.com`과 `meangyulim.github.io`를 저장했고 기존 패키지 관리자 설정을 유지했습니다.
 이후 실제 API와 공개 사이트 GET은 성공했습니다. 초안 저장과 실행 환경 적용은 별도 동작입니다.
 토큰 값을 코드나 채팅에 넣지 않습니다.
+
+## KRX 분석
+
+승인된 KOSPI/KOSDAQ/KRX 지수, 유가증권/코스닥 종목, ETF 일별 API를 활용합니다.
+`KRX_API_KEY`를 Actions Secrets에 한 번 등록하면 `Collect KRX briefing inputs` 워크플로로
+65거래일 추세, 시장 폭, 거래대금, 지수/ETF 상대 강도를 계산합니다. 요청 파일의 push로도 실행할 수 있습니다.
+원시 전체 자료와 키는 게시하지 않으며 예측 확률은 검증 전 제공하지 않습니다.
+설정·실행·브리핑 반영 규칙은 [docs/krx-analysis.md](docs/krx-analysis.md)에 있습니다.
 
 ## 예약과 카카오톡
 

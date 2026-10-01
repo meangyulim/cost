@@ -1,0 +1,61 @@
+name: Collect KRX briefing inputs
+
+on:
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: 'YYYY-MM-DD (blank: yesterday in KST)'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths: ['data/krx-request.json']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: krx-analysis
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify analysis rules
+        run: python3 -m unittest discover -s tests -v
+      - name: Collect and analyze daily data
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          KRX_END_DATE: ${{ inputs.end_date }}
+          KRX_EVENT: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          from datetime import date
+          from pathlib import Path
+          end = os.environ.get('KRX_END_DATE', '')
+          if os.environ['KRX_EVENT'] == 'push':
+              request = json.loads(Path('data/krx-request.json').read_text())
+              end = request.get('end_date', '')
+          if not isinstance(end, str):
+              raise SystemExit('end_date must be a string')
+          if end:
+              date.fromisoformat(end)
+          subprocess.run(['python3', 'scripts/krx_analysis.py', '--end-date', end,
+                          '--output', 'krx-output/analysis.json'], check=True)
+          PY
+      - name: Save derived briefing inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: krx-analysis-${{ github.run_id }}
+          path: krx-output/analysis.json
+          if-no-files-found: error
+          retention-days: 3
