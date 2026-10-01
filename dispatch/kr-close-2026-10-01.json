@@ -1,7 +1,7 @@
 {
   "report_id": "kr-close-2026-10-01",
-  "status": "verification_incomplete",
-  "kakao_status": "not_attempted",
+  "status": "attempted",
+  "kakao_status": "attempted",
   "recorded_at_kst": "2026-10-01T16:02:28.000+09:00",
   "recorded_at_utc": "2026-10-01T07:02:28+00:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01/",
@@ -107,9 +107,11 @@
     }
   },
   "dispatch": {
-    "attempted_record_created": false,
+    "attempted_record_created": true,
     "send_tool_called": false,
-    "reason": "Required mobile and 200% text-size readability verification is incomplete; no Kakao message sent."
+    "reason": "User explicitly requested immediate Kakao delivery after deployment and waived additional inspection on 2026-10-01.",
+    "attempted_at_kst": "2026-10-01T17:40:50.355+09:00",
+    "attempted_at_utc": "2026-10-01T08:40:50.355Z"
   },
   "model_override_verified": false,
   "krx": {
@@ -122,5 +124,8 @@
   "automation_paused": {
     "confirmed": true,
     "reason": "Current execution environment cannot complete the required mobile viewport and 200% text-size validation; only this Korean-close automation was paused."
-  }
+  },
+  "previous_status": "verification_incomplete",
+  "updated_at_kst": "2026-10-01T17:40:50.355+09:00",
+  "updated_at_utc": "2026-10-01T08:40:50.355Z"
 }
