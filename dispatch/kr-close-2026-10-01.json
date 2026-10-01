@@ -118,5 +118,9 @@
     "requested_market_date": "2026-10-01",
     "actual_data_date": "2026-09-30",
     "used_as": "prior-session background only"
+  },
+  "automation_paused": {
+    "confirmed": true,
+    "reason": "Current execution environment cannot complete the required mobile viewport and 200% text-size validation; only this Korean-close automation was paused."
   }
 }
