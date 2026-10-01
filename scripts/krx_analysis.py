@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 import statistics
 import sys
+import time
 import urllib.error
 import urllib.request
 
@@ -27,6 +28,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class DataError(ValueError):
     """Safe-to-print failure; never includes a response body or credential."""
+
+
+class TransientError(DataError):
+    """A read-only request may be retried without repeating an external write."""
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -56,6 +61,15 @@ class Client:
     def fetch(self, api: str, day: date) -> list[dict]:
         if api not in ALLOWED:
             raise DataError("승인 목록에 없는 API입니다.")
+        for attempt in range(3):
+            try:
+                return self._fetch_once(api, day)
+            except TransientError:
+                if attempt == 2:
+                    raise
+                time.sleep(2 ** attempt)
+
+    def _fetch_once(self, api: str, day: date) -> list[dict]:
         req = urllib.request.Request(BASE + api + "?basDd=" + day.strftime("%Y%m%d"),
                                      headers={"AUTH_KEY": self._key, "Accept": "application/json"})
         try:
@@ -63,9 +77,10 @@ class Client:
             with urllib.request.build_opener(NoRedirect).open(req, timeout=25) as response:
                 payload = json.loads(response.read(5_000_001))
         except urllib.error.HTTPError as error:
-            raise DataError(f"{api} {day}: HTTP {error.code}; 키 값과 응답 본문은 출력하지 않습니다.") from None
+            kind = TransientError if error.code in (429, 500, 502, 503, 504) else DataError
+            raise kind(f"{api} {day}: HTTP {error.code}; 키 값과 응답 본문은 출력하지 않습니다.") from None
         except (urllib.error.URLError, TimeoutError, OSError):
-            raise DataError(f"{api} {day}: 네트워크 오류") from None
+            raise TransientError(f"{api} {day}: 네트워크 오류 (연결 재시도는 최대 3회)") from None
         except (ValueError, UnicodeError):
             raise DataError(f"{api} {day}: JSON 형식 오류") from None
         rows = payload.get("OutBlock_1") if isinstance(payload, dict) else None
@@ -83,7 +98,7 @@ def collect(client: Client, end: date, sessions: int) -> tuple[dict, dict]:
     candidates = [end - timedelta(days=n) for n in range(sessions * 2 + 30)
                   if (end - timedelta(days=n)).weekday() < 5]
     kospi = {}
-    with ThreadPoolExecutor(max_workers=6) as pool:
+    with ThreadPoolExecutor(max_workers=3) as pool:
         for start in range(0, len(candidates), 10):
             batch = candidates[start:start + 10]
             for day, rows in zip(batch, pool.map(lambda d: client.fetch(INDEX_APIS["KOSPI"], d), batch)):

@@ -17,12 +17,27 @@ class KrxTests(unittest.TestCase):
             Client('')
         marker = 'TEST_CREDENTIAL_DO_NOT_LOG'
         error = urllib.error.HTTPError('https://data-dbg.krx.co.kr', 401, marker, {}, io.BytesIO(marker.encode()))
-        with patch('urllib.request.OpenerDirector.open', side_effect=error):
+        with patch('urllib.request.OpenerDirector.open', side_effect=error) as request:
             with self.assertRaises(DataError) as failure:
                 Client(marker).fetch('idx/kospi_dd_trd', date(2026, 9, 30))
         self.assertNotIn(marker, str(failure.exception))
         self.assertIn('401', str(failure.exception))
+        self.assertEqual(request.call_count, 1)
         self.assertIsNone(NoRedirect().redirect_request(None, None, None, None, None, None))
+
+    def test_transient_read_failure_retries_but_stops_after_three_attempts(self):
+        class Response:
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+            def read(self, size): return b'{"OutBlock_1":[]}'
+        failure = urllib.error.URLError('test network failure')
+        with patch('krx_analysis.time.sleep'), patch('urllib.request.OpenerDirector.open', side_effect=[failure, Response()]) as request:
+            self.assertEqual(Client('fixture').fetch('idx/kospi_dd_trd', date(2026, 9, 30)), [])
+            self.assertEqual(request.call_count, 2)
+        with patch('krx_analysis.time.sleep'), patch('urllib.request.OpenerDirector.open', side_effect=failure) as request:
+            with self.assertRaises(DataError):
+                Client('fixture').fetch('idx/kospi_dd_trd', date(2026, 9, 30))
+            self.assertEqual(request.call_count, 3)
 
     def test_date_mismatch_cannot_enter_history(self):
         class Response:
