@@ -1,0 +1,247 @@
+{
+  "id": "kr-pre-2026-10-01",
+  "is_test": false,
+  "market": "KR",
+  "session": "pre",
+  "market_date": "2026-10-01",
+  "title": "한국장 시작 전 · 2026.10.01",
+  "as_of": "2026-10-01T08:30:00+09:00",
+  "queried_at": "2026-10-01T09:29:39+09:00",
+  "venue": "08:30 KST 정보 기준 · 국내 시세는 2026.09.30 15:30 KST KRX 정규장 종가",
+  "summary": "메모리 실적은 긍정적, 지수 반등은 수급 확인이 먼저",
+  "summary_detail": "마이크론 실적은 국내 메모리주 관찰 근거입니다. 전일 코스피 약세와 미국 지수 혼조를 함께 봅니다. 이 글은 장 시작 후 수동 작성한 장전 정보 재구성입니다. 08:30 이후 뉴스·장중 가격은 제외했습니다. 국내 장전·NXT 가격과 미국 시간외 가격, 08:30 시점 국채금리·9월 전체 수출 발표 결과는 미확인으로 남깁니다.",
+  "indices": [
+    {
+      "name": "KOSPI · 전일 KRX 종가",
+      "value": "6,838.04",
+      "unit": "pt",
+      "delta": "−32.77",
+      "percent": "−0.48",
+      "direction": "down",
+      "source": "kr-close",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 정규장"
+    },
+    {
+      "name": "KOSDAQ · 전일 KRX 종가",
+      "value": "855.91",
+      "unit": "pt",
+      "delta": "+6.11",
+      "percent": "+0.72",
+      "direction": "up",
+      "source": "kr-close",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 정규장"
+    }
+  ],
+  "fx": {
+    "label": "서울 원/달러 · 전일 주간 종가",
+    "value": "1,352.8",
+    "unit": "원/USD",
+    "delta": "−3.9",
+    "direction": "down",
+    "session": "서울 외환시장 주간 거래 종가",
+    "as_of": "2026-09-30T15:30:00+09:00",
+    "source": "fx-close"
+  },
+  "issues": [
+    {
+      "title": "마이크론: 실적과 다음 분기 전망 확인",
+      "fact": "미국 2026.09.30 발표한 FY2026 4분기 매출은 54,229 million USD(542.29억달러), 조정 희석 EPS는 33.42 USD. FY2027 1분기 매출 가이던스는 615억달러±15억달러입니다. 가이던스는 회사 전망이며 확정 실적이 아닙니다.",
+      "source": "micron-ir"
+    },
+    {
+      "title": "미국은 혼조, 국내는 외국인 매도 부담",
+      "fact": "미국 2026.09.30 정규장(2026.10.01 05:00 KST 종료)은 다우 −0.86%, S&P500 −0.25%, 나스닥 +0.24%로 혼조였습니다. 국내 전일 KRX 정규장 코스피 외국인은 2조2,747억원, 기관은 8,586억원 순매도했습니다. 미국 상세 종가는 근거·원문에 별도 시각으로 표시합니다.",
+      "source": "kr-close",
+      "additional_sources": [
+        "us-close"
+      ]
+    },
+    {
+      "title": "삼성 6개사: AI 인프라 투자 결정",
+      "fact": "삼성은 2026.09.29 헬릭스에 관계사 합계 10억USD 투자를 결정했다고 공식 발표했습니다. 데이터센터·전력 인프라 협력 계획입니다. 삼성SDS 단독 투자금이나 확정 신규 수주로 해석하지 않습니다.",
+      "source": "samsung-ir"
+    }
+  ],
+  "interpretation": "해석: 메모리 업황과 AI 인프라 투자는 관찰 이유입니다. 실제 국내 수익 개선·오늘 주가 상승을 보장하지 않습니다. 개장 뒤 메모리 두 종목의 반응과 외국인 순매수 전환 여부를 함께 확인하고, 한 종목 상승만으로 시장 전반의 강세를 단정하지 않습니다.",
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "268,500",
+      "currency": "KRW",
+      "delta": "−4,000",
+      "percent": "−1.47",
+      "direction": "down",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 전일 정규장 종가",
+      "reason": "마이크론 공식 실적 발표와 삼성의 AI 인프라 투자 결정에 연결해 새로 선정. 국내 실적 반영 정도는 별도 확인이 필요합니다.",
+      "watch": "개장 후 외국인 수급 개선과 전일 종가 회복 여부, 회사 IR의 메모리 전망 확인.",
+      "source": "samsung-price",
+      "reason_sources": [
+        "micron-ir",
+        "samsung-ir"
+      ]
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,776,000",
+      "currency": "KRW",
+      "delta": "+11,000",
+      "percent": "+0.62",
+      "direction": "up",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 전일 정규장 종가",
+      "reason": "마이크론의 매출·차기 분기 가이던스 발표로 메모리 업황을 대조할 관찰 대상. 경쟁사 실적을 이 회사 실적처럼 쓰지 않습니다.",
+      "watch": "개장 후 전일 강세 지속 여부와 HBM·메모리 수요에 관한 회사 원문 확인.",
+      "source": "hynix-price",
+      "reason_sources": [
+        "micron-ir"
+      ]
+    },
+    {
+      "name": "삼성SDS",
+      "ticker": "018260",
+      "price": "219,000",
+      "currency": "KRW",
+      "delta": "+2,500",
+      "percent": "+1.15",
+      "direction": "up",
+      "as_of": "2026-09-30T15:30:00+09:00",
+      "session": "KRX 전일 정규장 종가",
+      "reason": "헬릭스 투자에 참여하는 관계사이며 공식 발표가 데이터센터·GPUaaS 역량을 설명해 새로 선정했습니다. 투자 참여 자체를 신규 매출로 보지 않습니다. 등락률 +1.15%는 확인한 종가와 전일 가격으로 직접 계산했습니다. 원문 +1.16%와 0.01%p 차이가 있어 원문 오류 여부는 미확인입니다.",
+      "watch": "구체적 프로젝트·수주·수익 기여 공시 확인. 가격 상승만으로 실적 개선을 단정하지 않기.",
+      "source": "sds-price",
+      "reason_sources": [
+        "samsung-ir"
+      ],
+      "percent_is_calculated": true
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "개장 확인",
+      "title": "2026.10.01 09:00 KST 정규장 이후 수급·가격 확인",
+      "detail": "KRX 공식 정규장 시작 시각. 다음 확인 항목이며 이 보고서에 개장 이후 결과를 포함하지 않습니다. 출처: KRX 거래시간 원문."
+    },
+    {
+      "label": "원문 대조",
+      "title": "9월 전체 수출과 국내 메모리 IR 확인 순서",
+      "detail": "9월 전체 수출 발표의 실제 결과·시각을 아직 검증하지 못했습니다. 발표 시각을 추정하지 않고 공식 원문부터 확인합니다."
+    },
+    {
+      "label": "거래일",
+      "title": "2026.10.05·2026.10.09 KRX 휴장",
+      "detail": "KRX 2026년 공식 휴장 표 기준: 개천절 대체휴일·한글날. 휴장일 자동 회차는 게시·전송을 생략합니다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "krx-calendar",
+      "label": "KRX 공식 2026년 휴장일",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "비로그인 브라우저에서 검색시작년도 2026·한국거래소 선택 후 조회한 표를 확인. 2026.10.01 목요일은 휴장 목록에 없으며 다음 10월 휴장은 2026.10.05·10.09. 표 아래 10월 2일 추석 야간휴장 주석은 2025년 보도자료이므로 오늘 달력 판단에 사용하지 않음.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "krx-hours",
+      "label": "KRX 공식 거래일·거래시간 규칙",
+      "url": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp",
+      "note": "주중 거래일 및 정규장 09:00~15:30 KST 규칙. 오늘 공식 휴장 표에 예외 없음. 확인된 조기폐장 공지 없음.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "kr-close",
+      "label": "뉴스핌 · 2026.09.30 정규장 마감 원문",
+      "url": "https://www.newspim.com/news/view/20260930001065",
+      "note": "2026.09.30 16:06 KST 기사. KRX 정규장 15:30 종가 KOSPI 6,838.04(-32.77pt,-0.48%), KOSDAQ 855.91(+6.11pt,+0.72%). 코스피 외국인 순매도 2조2,747억원, 기관 순매도 8,586억원: 당일 정규장 순매매 합계. 추후 정정 가능.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "kospi-history",
+      "label": "Investing.com · KOSPI 일별 원자료",
+      "url": "https://kr.investing.com/indices/kospi-historical-data",
+      "note": "2026.09.30 종가 6,838.04, 전 거래일 2026.09.29 종가 6,870.81. 뉴스핌 KRX 인용 마감 기사와 일치. 국내 정규장 종가 시각 2026.09.30 15:30 KST.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "kosdaq-history",
+      "label": "Investing.com · KOSDAQ 일별 원자료",
+      "url": "https://kr.investing.com/indices/kosdaq-historical-data",
+      "note": "2026.09.30 종가 855.91, 전 거래일 2026.09.29 종가 849.80. 뉴스핌 KRX 인용 마감 기사와 일치. 국내 정규장 종가 시각 2026.09.30 15:30 KST.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "samsung-price",
+      "label": "이투데이 · 삼성전자 종가",
+      "url": "https://www.etoday.co.kr/market/mkt_stkinfo?varIssCd=005930",
+      "note": "조회된 페이지는 장종료 2026.09.30로 표시. 종가 268,500원, 전일 272,500원, 변동액 4,000원·등락률1.47%; 하락 방향을 원값 비교와 뉴스핌 마감 기사로 확인. KRX 정규장 종가 2026.09.30 15:30 KST. NXT 가격은 사용하지 않음.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "hynix-price",
+      "label": "Investing.com · SK하이닉스 일별 원자료",
+      "url": "https://kr.investing.com/equities/sk-hynix-inc-historical-data",
+      "note": "2026.09.30 종가 1,776,000원, +11,000원(+0.62%), 2026.09.29 종가1,765,000원. KRX 정규장 종가 2026.09.30 15:30 KST. 별도 이투데이 실시간 2026.10.01 장중 가격은 제외.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "sds-price",
+      "label": "이투데이 · 삼성SDS 종가",
+      "url": "https://www.etoday.co.kr/market/mkt_stkinfo?varIssCd=018260",
+      "note": "조회된 페이지는 장종료 2026.09.30로 표시. 종가219,000원, 전일216,500원, 변동2,500원·1.16%; 상승 방향은 원값 비교로 확인. KRX 정규장 종가 2026.09.30 15:30 KST. NXT 시세는 사용하지 않음.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "micron-ir",
+      "label": "Micron 공식 IR · FY2026 4분기 실적",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "note": "미국 현지 2026.09.30 발표, 회계분기 종료2026.09.03. 원문 표 단위 million USD: 매출54,229, 전년11,315, 조정 희석EPS33.42 USD. FY2027 1분기 매출 가이던스61.5 billion USD±1.5 billion USD. 실적 발표 전·후 시간외 주가는 검증하지 않아 제외. 2026.10.01 08:30 KST 이전 공개는 05:50~07:25 KST 복수 원문 보도와 대조.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "us-close",
+      "label": "이투데이 · 미국 2026.09.30 정규장 마감",
+      "url": "https://www.etoday.co.kr/news/view/2631162?trc=right_hot_news",
+      "note": "기사2026.10.01 06:00 KST. 다우50,906.05(-443.87pt,-0.86%), S&P5007,651.54(-19.30pt,-0.25%), 나스닥26,861.06(+63.52pt,+0.24%). 정규장 종료2026.10.01 05:00 KST=2026.09.30 16:00 EDT(뉴욕). 미국 선물·시간외 가격과 구분.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "samsung-ir",
+      "label": "삼성전자 공식 뉴스룸 · 헬릭스 투자",
+      "url": "https://news.samsung.com/kr/삼성-6개사-美-ai-인프라-기업-헬릭스에-10억-달러-투자",
+      "note": "2026.09.29 KST 발표(세부 발표 시각 미제공). 삼성전자·삼성물산·삼성SDS·삼성SDI·삼성생명·삼성화재 6개사의 합계10억USD 투자 결정. 삼성SDS 단독 투자액이 아니며 아직 투자수익·수주 실현을 의미하지 않음.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    },
+    {
+      "id": "fx-close",
+      "label": "조선비즈 · 서울 외환시장 주간 종가",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/09/30/DTQFQOY7K5FUNAIGUFG5I5CMTU/",
+      "note": "2026.09.30 15:34 KST 입력,15:48수정. 서울 외환시장 2026.09.30 15:30 KST 주간 종가1,352.8원/USD, 직전 주간종가1,356.7원/USD 대비−3.9원. 야간종가·NDF·현재 환율과 구분.",
+      "queried_at": "2026-10-01T09:29:39+09:00"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "market_date": "2026-10-01",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-01T09:29:39+09:00",
+    "note": "2026년·한국거래소 선택 후 공식 휴장 표 직접 조회. 목요일인 오늘은 목록에 없음. KRX 공식 규칙 정규장09:00~15:30 KST; 확인된 조기폐장 예외 없음.",
+    "method": "official_calendar_browser_query",
+    "normal_hours_source": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp"
+  },
+  "calculation_notes": "국내 원값 비교: KOSPI 6,870.81 → 6,838.04: −32.77pt, (6,838.04 ÷ 6,870.81 − 1) ×100 ≈ −0.48%. KOSDAQ849.80 →855.91: +6.11pt, (855.91 ÷849.80 −1) ×100 ≈+0.72%. 삼성전자272,500→268,500: −4,000원, (268,500÷272,500−1)×100≈−1.47%. SK하이닉스1,765,000→1,776,000: +11,000원, (1,776,000÷1,765,000−1)×100≈+0.62%. 삼성SDS216,500→219,000: +2,500원, (219,000÷216,500−1)×100≈+1.15%. 이투데이 표기+1.16%와 직접 계산+1.15%가 달라 화면에는 직접 계산 +1.15%를 표시하고 원문 +1.16%와의 차이를 본문에도 명시합니다. 원/달러1,356.7→1,352.8: −3.9원/USD. Micron54,229 million USD÷100=542.29억USD;61.5 billion USD×10=615억USD. 직접 계산은 가격 확인을 대체하지 않음.",
+  "execution_context": {
+    "mode": "manual_live_pre_market_reconstruction",
+    "requested_reference_kst": "2026-10-01T08:30:00+09:00",
+    "actual_started_at_kst": "2026-10-01T09:23:48+09:00",
+    "actual_started_at_utc": "2026-10-01T00:23:48+00:00",
+    "research_completed_at_kst": "2026-10-01T09:29:39+09:00",
+    "cloud_environment": "ChatGPT Work current session",
+    "automatic_schedule_run": false,
+    "start_time_precision": "Clock recorded at manual test preparation; user then changed scope to real pre-market briefing. This is not an 08:30 scheduled execution."
+  }
+}

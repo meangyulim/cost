@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "test-layout-2026-09-30",
+  "latest_id": "kr-pre-2026-10-01",
   "reports": [
+    {
+      "id": "kr-pre-2026-10-01",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-10-01",
+      "title": "한국장 시작 전 · 2026.10.01",
+      "summary": "메모리 실적은 긍정적, 지수 반등은 수급 확인이 먼저",
+      "as_of": "2026-10-01T08:30:00+09:00",
+      "path": "reports/kr-pre-2026-10-01/"
+    },
     {
       "id": "test-layout-2026-09-30",
       "is_test": true,

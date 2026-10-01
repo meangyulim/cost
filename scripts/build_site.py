@@ -69,6 +69,10 @@ def validate(report: dict) -> None:
             require(report["is_test"], "Live sources must have original links")
     for entry in report["indices"] + report["stocks"] + report["issues"] + [report["fx"]]:
         require(entry["source"] in sources, "Unknown source reference")
+        for key in ("additional_sources", "reason_sources"):
+            references = entry.get(key, [])
+            require(isinstance(references, list), "Source references must be a list")
+            require(all(reference in sources for reference in references), "Unknown supporting source reference")
     for entry in report["indices"] + report["stocks"]:
         require(entry["direction"] in ("up", "down", "flat", "missing"), "Invalid direction")
         for key in ("delta", "percent"):
@@ -117,12 +121,15 @@ def render_report(report: dict, prefix: str) -> str:
     fx = report["fx"]
     parts.extend(['</div>', f'<div class="fx"><span>{text(fx["label"])} <b>{text(fx["value"])} {text(fx["unit"])}</b> <span class="{text(fx["direction"])}">{text(fx["delta"])} {text(fx["unit"])} </span> {source_link(fx["source"])}</span><span class="note">{text(kst(fx["as_of"]))} · {text(fx["session"])}</span></div>', '<section aria-labelledby="issues-title"><div class="section-head"><h2 id="issues-title">핵심 이슈</h2><small>사실 · 근거</small></div>'])
     for number, issue in enumerate(report["issues"], 1):
-        parts.append(f'<article class="issue"><span class="n">{number:02}</span><div><h3>{text(issue["title"])}</h3><p>{text(issue["fact"])} {source_link(issue["source"])}</p></div></article>')
+        references = [issue["source"]] + issue.get("additional_sources", [])
+        evidence = " ".join(source_link(reference) for reference in references)
+        parts.append(f'<article class="issue"><span class="n">{number:02}</span><div><h3>{text(issue["title"])}</h3><p>{text(issue["fact"])} {evidence}</p></div></article>')
     parts.extend([f'<div class="reading"><b>해석 · 다음 판단 기준</b><p>{text(report["interpretation"])}</p></div></section>', '<section aria-labelledby="stocks-title"><div class="section-head"><h2 id="stocks-title">관찰 종목</h2><small>가격 · 전일 대비</small></div><div class="stocks">'])
     for stock in report["stocks"]:
         missing = f'<p class="source-note">미확인 이유: {text(stock["missing_reason"])}</p>' if stock["direction"] == "missing" else ''
         change = "전일 대비 미확인" if stock["direction"] == "missing" else f'{text(stock["delta"])} {text(stock["currency"])} · {text(stock["percent"])}%'
-        parts.append(f'<article class="stock"><div class="stock-top"><h3>{text(stock["name"])} <span class="code">{text(stock["ticker"])}</span></h3>{source_link(stock["source"])}</div><div class="price-row"><strong>{text(stock["price"])} {text(stock["currency"])}</strong><span class="{text(stock["direction"])}">{change}</span></div><p class="price-meta">{text(kst(stock["as_of"]))} · {text(stock["session"])}</p>{missing}<p>{text(stock["reason"])}</p><p class="watch"><span>다음 확인</span> {text(stock["watch"])}</p></article>')
+        evidence = " ".join(source_link(reference) for reference in stock.get("reason_sources", []))
+        parts.append(f'<article class="stock"><div class="stock-top"><h3>{text(stock["name"])} <span class="code">{text(stock["ticker"])}</span></h3>{source_link(stock["source"])}</div><div class="price-row"><strong>{text(stock["price"])} {text(stock["currency"])}</strong><span class="{text(stock["direction"])}">{change}</span></div><p class="price-meta">{text(kst(stock["as_of"]))} · {text(stock["session"])}</p>{missing}<p>{text(stock["reason"])}{(" " + evidence) if evidence else ""}</p><p class="watch"><span>다음 확인</span> {text(stock["watch"])}</p></article>')
     parts.extend(['</div></section>', '<section aria-labelledby="next-title"><div class="section-head"><h2 id="next-title">다음 확인 순서</h2><small>확정 시각 없는 점검 항목</small></div><ol class="next">'])
     for check in report["next_checks"]:
         parts.append(f'<li><span>{text(check["label"])}</span><div>{text(check["title"])}<small>{text(check["detail"])}</small></div></li>')
@@ -135,7 +142,7 @@ def render_report(report: dict, prefix: str) -> str:
         calendar = report["calendar_evidence"]
         parts.append(f'<p class="source-note">거래일: <a href="{text(calendar["url"])}">공식 달력</a> · {text(calendar["market_date"])} · 조기 폐장 {"해당" if calendar["early_close"] else "아님"}. {text(calendar["note"])}</p>')
     parts.append(f'<details><summary>수치 계산과 자료 범위</summary><p>{text(report["calculation_notes"])}</p></details></section>')
-    return '\n'.join(parts)
+    return '\n'.join(part for part in parts if part)
 
 
 def load_reports(data_dir: Path) -> list[dict]:
