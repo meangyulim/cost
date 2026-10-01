@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-intraday-2026-10-01-0330",
+  "latest_id": "us-close-2026-10-01",
   "reports": [
+    {
+      "id": "us-close-2026-10-01",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-01",
+      "title": "미국장 마감 · 뉴욕 10월 1일",
+      "summary": "실적이 반등을 지켰다, 다음은 고용",
+      "as_of": "2026-10-02T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-01/"
+    },
     {
       "id": "us-intraday-2026-10-01-0330",
       "is_test": false,
