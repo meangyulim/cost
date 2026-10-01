@@ -6,7 +6,8 @@
   const C = {ink: "#17263b", muted: "#586b80", navy: "#122238", mint: "#9edbcd",
     line: "#dce4ed", pale: "#f1f5fa", up: "#c32d4b", down: "#1768ae"};
   const color = direction => C[direction] || C.muted;
-  const change = item => item.direction === "missing" ? "미확인" : `${item.percent}%`;
+  const change = item => item.direction === "missing" ? "미확인" :
+    `${String(item.percent).trim().replace(/[%％]+$/, "").trimEnd()}%`;
 
   function wrap(ctx, value, maxWidth) {
     const lines = [];

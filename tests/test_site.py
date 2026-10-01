@@ -68,6 +68,19 @@ class SiteTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(report)
 
+    def test_percent_unit_is_displayed_once_with_or_without_input_suffix(self):
+        for raw, expected in [("+1.95", "+1.95%"), ("+1.95%", "+1.95%"),
+                              ("−0.50%", "−0.50%"), ("0.00", "0.00%")]:
+            with self.subTest(raw=raw):
+                report = copy.deepcopy(self.report)
+                for entry in report['indices'] + report['stocks']:
+                    entry['direction'] = 'flat' if raw.startswith('0') else ('down' if raw.startswith('−') else 'up')
+                    entry['percent'] = raw
+                html = render_report(report, '.')
+                self.assertNotIn('%%', html)
+                self.assertIn('>' + expected + '<', html)
+                self.assertEqual(report['indices'][0]['percent'], raw)
+
     def test_image_uses_public_summary_and_exact_prices(self):
         report = copy.deepcopy(self.report)
         report['reading'] = {'headline': '짧은 결론', 'issues': [{'preview': '핵심 의미'}],

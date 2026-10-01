@@ -33,6 +33,21 @@ test('wrapping preserves Korean, numbers, Unicode and explicit line breaks', () 
   }
 });
 
+test('image percentages have one unit for both report input formats', () => {
+  for (const [raw, expected] of [['+1.95', '+1.95%'], ['+1.95%', '+1.95%'],
+    ['−0.50%', '−0.50%'], ['0.00', '0.00%']]) {
+    const data = payloads()[0];
+    for (const entry of [...data.indices, ...data.stocks]) {
+      entry.direction = 'flat';
+      entry.percent = raw;
+    }
+    const content = layout(data, context()).ops.filter(op => op.kind === 'text').map(op => op.value).join('');
+    assert.ok(content.includes(expected));
+    assert.ok(!content.includes('%%'));
+    assert.equal(data.indices[0].percent, raw);
+  }
+});
+
 test('every real and TEST report renders without cropping or omitted sections', () => {
   for (const data of payloads()) {
     const ctx = context(), plan = layout(data, ctx);

@@ -24,6 +24,11 @@ def text(value: object) -> str:
     return escape(str(value), quote=True)
 
 
+def percent(value: str) -> str:
+    """Report inputs may already contain their percent unit."""
+    return text(value.strip().rstrip("%％").rstrip()) + "%"
+
+
 def kst(value: str) -> str:
     parsed = datetime.fromisoformat(value)
     require(parsed.utcoffset() == timedelta(hours=9), "Timestamp must include +09:00")
@@ -194,7 +199,7 @@ def render_report(report: dict, prefix: str) -> str:
         bullet_list(reading.get("summary_points", paragraphs(report["summary_detail"])), "summary-points"),
         '</section><div class="markets" aria-label="지수와 전일 대비 변화">'])
     for index in report["indices"]:
-        change = "미확인" if index["direction"] == "missing" else f'{text(index["percent"])}%'
+        change = "미확인" if index["direction"] == "missing" else percent(index["percent"])
         parts.append(f'<div class="market"><span class="name">{text(index["name"].split(" · ")[0])}</span><strong>{text(index["value"])}</strong><span class="change {text(index["direction"])}">{change}</span></div>')
         if index["direction"] == "missing":
             parts.append(f'<p class="notice">{text(index["missing_reason"])}</p>')
@@ -226,7 +231,7 @@ def render_report(report: dict, prefix: str) -> str:
     parts.append('<section aria-labelledby="stocks-title"><div class="section-head"><h2 id="stocks-title">관찰 종목</h2><small>가격 · 전일 대비</small></div><div class="stocks">')
     for stock in report["stocks"]:
         short = reading.get("stocks", {}).get(stock["ticker"], {})
-        change = "미확인" if stock["direction"] == "missing" else f'{text(stock["percent"])}%'
+        change = "미확인" if stock["direction"] == "missing" else percent(stock["percent"])
         parts.append(f'<details class="stock"><summary><span class="stock-top"><span class="stock-identity"><strong>{text(stock["name"])}</strong><span class="code">{text(stock["ticker"])}</span></span><span class="stock-quote"><strong>{text(stock["price"])} <small>{text(stock["currency"])}</small></strong><b class="{text(stock["direction"])}">{change}</b><span class="expand-mark" aria-hidden="true"></span></span></span><span class="item-preview">{text(short.get("reason", stock["reason"]))}</span>')
         if stock["direction"] == "missing":
             parts.append(f'<span class="notice">{text(stock["missing_reason"])}</span>')
