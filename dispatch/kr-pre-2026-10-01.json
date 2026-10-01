@@ -1,0 +1,91 @@
+{
+  "report_id": "kr-pre-2026-10-01",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-01T09:36:09+09:00",
+  "attempted_at_utc": "2026-10-01T00:36:09+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-01/",
+  "commit": "de188fde73780017a323283c23e89c854aeefb53",
+  "execution": {
+    "mode": "manual_live_pre_market_reconstruction",
+    "information_cutoff_kst": "2026-10-01T08:30:00+09:00",
+    "cloud_environment": "ChatGPT Work current session",
+    "automatic_schedule_run": false
+  },
+  "verification": {
+    "deployment": {
+      "result": "passed",
+      "id": 36796746569,
+      "commit": "de188fde73780017a323283c23e89c854aeefb53",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/meangyulim/cost/actions/runs/36796746569"
+    },
+    "anonymous_http": {
+      "result": "passed",
+      "checked_at_kst": "2026-10-01T09:35:06+09:00",
+      "checked_at_utc": "2026-10-01T00:35:06+00:00",
+      "checks": [
+        {
+          "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-01/",
+          "status": 200,
+          "anonymous": true,
+          "authentication": false,
+          "cookies": false,
+          "tls_verified": true,
+          "content_matches_commit": true,
+          "sha256": "abdeddecadc78cab1901e961d2f62e8f681393af3bb0d8f20450dc0b91c3b048"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/archive/",
+          "status": 200,
+          "anonymous": true,
+          "authentication": false,
+          "cookies": false,
+          "tls_verified": true,
+          "content_matches_commit": true,
+          "sha256": "b659653a5e4bd608b5545e9a94929f07a73f37b47903015da667f55b3f5a05de"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/manifest.json",
+          "status": 200,
+          "anonymous": true,
+          "authentication": false,
+          "cookies": false,
+          "tls_verified": true,
+          "content_matches_commit": true,
+          "sha256": "f764477897b6155de7d2a44e4b2a99961f70b5bd7620498941cb71dc34b0af7c"
+        },
+        {
+          "url": "https://meangyulim.github.io/cost/reports/test-layout-2026-09-30/",
+          "status": 200,
+          "anonymous": true,
+          "authentication": false,
+          "cookies": false,
+          "tls_verified": true,
+          "content_matches_commit": true,
+          "sha256": "c65a290c8c88829c654000a2939bbd4fbe476057f4876a87521ffe52a637c963"
+        }
+      ]
+    },
+    "browser": {
+      "result": "passed",
+      "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-01/",
+      "signed_in": false,
+      "login_redirect": false,
+      "checks": [
+        "Korean title",
+        "real prices and changes",
+        "dated KST",
+        "sources and source anchor navigation",
+        "archive navigation and round trip",
+        "original TEST preserved"
+      ],
+      "mobile_390_430": "not_retested_in_this_run",
+      "text_200_percent": "not_retested_in_this_run"
+    }
+  },
+  "delivery": {
+    "destination": "kakao_self_chat",
+    "attempt_limit": 1
+  }
+}
