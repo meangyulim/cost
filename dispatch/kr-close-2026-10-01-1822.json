@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-10-01-1822",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at": "2026-10-01T18:27:08+09:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-01-1822/",
   "deployed_commit": "4225cdfdd72832af838927b98ccc86f17b2b38a3",
@@ -8,5 +8,7 @@
     "status": "success",
     "run_id": 36842547221
   },
-  "additional_checks": "skipped_per_user_instruction"
+  "additional_checks": "skipped_per_user_instruction",
+  "sent_at": "2026-10-01T09:28:03.297Z",
+  "result": "success"
 }
