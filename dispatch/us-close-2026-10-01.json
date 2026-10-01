@@ -1,0 +1,54 @@
+{
+  "report_id": "us-close-2026-10-01",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-02T05:30:56+09:00",
+  "attempted_at_utc": "2026-10-01T20:30:56+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-01/",
+  "commit": "c598e775d32030b177d9b1662700496d479de651",
+  "deployment": {
+    "status": "success",
+    "run_id": 36921942800,
+    "run_url": "https://github.com/meangyulim/cost/actions/runs/36921942800",
+    "head_sha": "c598e775d32030b177d9b1662700496d479de651",
+    "observed_at_kst": "2026-10-02T05:30:56+09:00",
+    "run_updated_at_utc": "2026-10-01T20:29:55Z"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "skipped_per_user_instruction",
+    "browser": "skipped_per_user_instruction",
+    "mobile_and_zoom": "skipped_per_user_instruction"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "execution": {
+    "scheduled_local": "2026-10-01T16:15:00-04:00",
+    "scheduled_kst": "2026-10-02T05:15:00+09:00",
+    "scheduled_utc": "2026-10-01T20:15:00+00:00",
+    "actual_started_kst": "2026-10-02T05:19:44+09:00",
+    "actual_started_utc": "2026-10-01T20:19:44+00:00",
+    "actual_started_local": "2026-10-01T16:19:44-04:00",
+    "start_delay_seconds": 284,
+    "environment": "Work cloud Linux; GitHub OAuth connector; Bash/Python checkout; web search; kakao memochat",
+    "calendar": {
+      "market_date": "2026-10-01",
+      "is_trading_day": true,
+      "early_close": false,
+      "timezone": "America/New_York",
+      "zone": "EDT",
+      "regular_close_kst": "2026-10-02T05:00:00+09:00",
+      "urls": [
+        "https://www.nyse.com/trade/hours-calendars",
+        "https://www.nasdaqtrader.com/trader.aspx?id=calendar"
+      ]
+    },
+    "analysis": {
+      "run_id": 36920993323,
+      "request_commit": "8964d81116983985f94b6feaae4b774a1008187e",
+      "status": "success",
+      "data_date": "2026-09-30",
+      "queried_at": "2026-10-02T05:27:26+09:00"
+    },
+    "model_application": "not_verified_from_scheduler_metadata"
+  }
+}
