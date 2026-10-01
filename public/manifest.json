@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-01",
+  "latest_id": "kr-intraday-2026-10-01",
   "reports": [
+    {
+      "id": "kr-intraday-2026-10-01",
+      "is_test": false,
+      "market": "KR",
+      "session": "intraday",
+      "market_date": "2026-10-01",
+      "title": "한국장 장중 · 2026.10.01 12:23 KST",
+      "summary": "반도체 반등, 코스닥 강세…오후에는 상승 유지와 수급 확인",
+      "as_of": "2026-10-01T12:23:00+09:00",
+      "path": "reports/kr-intraday-2026-10-01/"
+    },
     {
       "id": "kr-pre-2026-10-01",
       "is_test": false,
