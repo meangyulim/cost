@@ -125,6 +125,61 @@ def bullet_list(items: list[str], class_name: str = "brief-points") -> str:
     return f'<ul class="{text(class_name)}">' + ''.join(f'<li>{text(item)}</li>' for item in items) + '</ul>'
 
 
+def image_payload(report: dict, prefix: str) -> dict:
+    """Share only public, concise report fields; never export hidden evidence."""
+    reading = report.get("reading", {})
+    short_issues = reading.get("issues", [])
+    short_checks = reading.get("next_checks", [])
+    session = {"pre": "장전", "close": "정규장 마감", "intraday": "장중"}[report["session"]]
+    issues = []
+    for n, issue in enumerate(report["issues"]):
+        short = short_issues[n] if n < len(short_issues) else {}
+        issues.append({"title": short.get("title", issue["title"]),
+                       "preview": short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]})
+    stocks = []
+    for stock in report["stocks"]:
+        short = reading.get("stocks", {}).get(stock["ticker"], {})
+        stocks.append({key: stock[key] for key in ("name", "ticker", "price", "currency", "percent", "direction", "session")} | {
+            "as_of": kst(stock["as_of"]), "reason": short.get("reason", stock["reason"]),
+            "watch": short.get("watch", stock["watch"]), "missing_reason": stock.get("missing_reason", "")})
+    return {
+        "id": report["id"], "title": report["title"], "is_test": report["is_test"],
+        "market": report["market"], "session": session, "as_of": kst(report["as_of"]),
+        "queried_at": kst(report["queried_at"]),
+        "headline": reading.get("headline", report["summary"]),
+        "summary_points": reading.get("summary_points", paragraphs(report["summary_detail"])),
+        "indices": [{key: item[key] for key in ("name", "value", "unit", "percent", "direction")} |
+                    {"missing_reason": item.get("missing_reason", "")} for item in report["indices"]],
+        "fx": {key: report["fx"][key] for key in ("label", "value", "unit", "delta", "direction", "session")} |
+              {"as_of": kst(report["fx"]["as_of"])},
+        "notices": reading.get("notices") or [report["venue"], report["fx"]["session"]],
+        "issues": issues, "stocks": stocks,
+        "next_checks": [{"label": item["label"], "title": (short_checks[n] if n < len(short_checks) else {}).get("title", item["title"]),
+                         "detail": (short_checks[n] if n < len(short_checks) else {}).get("detail", item["detail"])}
+                        for n, item in enumerate(report["next_checks"])],
+        "sources": [reading.get("source_labels", {}).get(source["id"], source["label"])
+                    for source in report["sources"] if source.get("show_public", True)],
+        "report_path": f'{prefix}/reports/{report["id"]}/',
+    }
+
+
+def image_controls(report: dict, prefix: str) -> str:
+    # JSON lives in a non-executable script; escape HTML delimiters, not JSON quotes.
+    payload = json.dumps(image_payload(report, prefix), ensure_ascii=False).replace("&", "\\u0026").replace("<", "\\u003c").replace(">", "\\u003e")
+    return f'''<div class="image-actions" hidden>
+<button type="button" data-image-action="save">이미지 저장</button>
+<button type="button" data-image-action="share">이미지 공유 ↗</button>
+</div>
+<dialog id="image-dialog" aria-labelledby="image-dialog-title">
+<div class="image-dialog-head"><h2 id="image-dialog-title">한 장 브리핑</h2><button type="button" id="image-close" aria-label="이미지 미리보기 닫기">닫기</button></div>
+<p id="image-status" role="status" aria-live="polite">이미지를 만들고 있어요…</p>
+<div class="image-dialog-actions"><a id="image-download" hidden>PNG 저장</a><button type="button" id="image-share" disabled>이미지 공유 ↗</button><button type="button" id="image-retry" hidden>다시 만들기</button></div>
+<p class="image-help">아이폰: 공유 창에서 카카오톡 또는 ‘이미지 저장’을 선택하세요. 미리보기 이미지를 길게 눌러 저장할 수도 있어요.</p>
+<img id="image-preview" alt="결론, 지수, 이슈, 관찰 종목, 다음 확인을 담은 한 장 브리핑" hidden>
+</dialog>
+<script type="application/json" id="brief-image-data">{payload}</script>'''
+
+
 def render_report(report: dict, prefix: str) -> str:
     reading = report.get("reading", {})
     session = {"pre": "장전", "close": "정규장 마감", "intraday": "장중"}[report["session"]]
@@ -133,6 +188,7 @@ def render_report(report: dict, prefix: str) -> str:
         parts.append('<aside class="test-banner"><strong>TEST</strong>레이아웃 확인용 자료 · 실제 시세 아님</aside>')
     parts.extend([
         f'<header><p class="eyebrow">MARKET BRIEF · {text(report["market"])} / {text(session)}</p><h1>{text(report["title"])}</h1><p class="date">{text(kst(report["as_of"]))} 기준</p></header>',
+        image_controls(report, prefix),
         '<section class="summary" aria-label="오늘의 결론"><span class="tag">오늘의 결론</span>',
         f'<h2>{text(reading.get("headline", report["summary"]))}</h2>',
         bullet_list(reading.get("summary_points", paragraphs(report["summary_detail"])), "summary-points"),
@@ -230,6 +286,7 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     output.mkdir(parents=True, exist_ok=True)
     (output / "assets").mkdir(exist_ok=True)
     shutil.copyfile(ROOT / "assets/style.css", output / "assets/style.css")
+    shutil.copyfile(ROOT / "assets/brief-image.js", output / "assets/brief-image.js")
     page = Template((ROOT / "templates/page.html").read_text(encoding="utf-8"))
 
     def write_page(path: str, title: str, content: str, prefix: str) -> None:

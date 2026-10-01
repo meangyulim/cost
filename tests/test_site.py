@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from add_report import add_report
-from build_site import ROOT, build, validate, render_report
+from build_site import ROOT, build, validate, render_report, image_payload
 
 
 class Links(HTMLParser):
@@ -67,6 +67,36 @@ class SiteTests(unittest.TestCase):
         source['show_public'] = 'false'
         with self.assertRaises(ValueError):
             validate(report)
+
+    def test_image_uses_public_summary_and_exact_prices(self):
+        report = copy.deepcopy(self.report)
+        report['reading'] = {'headline': '짧은 결론', 'issues': [{'preview': '핵심 의미'}],
+                             'stocks': {report['stocks'][0]['ticker']: {'reason': '짧은 이유'}}}
+        report['sources'][0]['show_public'] = False
+        report['sources'][0]['label'] = 'do-not-export-provider'
+        payload = image_payload(report, '../..')
+        self.assertEqual(payload['headline'], '짧은 결론')
+        self.assertEqual(payload['issues'][0]['preview'], '핵심 의미')
+        self.assertEqual(payload['stocks'][0]['reason'], '짧은 이유')
+        self.assertEqual(payload['stocks'][0]['price'], report['stocks'][0]['price'])
+        self.assertEqual(payload['stocks'][0]['session'], report['stocks'][0]['session'])
+        self.assertEqual(payload['indices'][0]['value'], report['indices'][0]['value'])
+        self.assertNotIn('do-not-export-provider', json.dumps(payload))
+        self.assertEqual(payload['report_path'], '../../reports/' + report['id'] + '/')
+        self.assertTrue(payload['is_test'])
+        self.assertEqual(len(payload['issues']), 3)
+        self.assertEqual(len(payload['stocks']), 3)
+
+    def test_image_json_cannot_close_script_or_inject_html(self):
+        report = copy.deepcopy(self.report)
+        report['summary'] = '</script><img src=x onerror=alert(1)> & "text"'
+        html = render_report(report, '.')
+        payload_text = html.split('id="brief-image-data">', 1)[1].split('</script>', 1)[0]
+        self.assertNotIn('<', payload_text)
+        self.assertNotIn('&', payload_text)
+        self.assertEqual(json.loads(payload_text)['headline'], report['summary'])
+        self.assertIn('data-image-action="share"', html)
+        self.assertIn('data-image-action="save"', html)
 
     def test_duplicate_report_never_overwrites(self):
         with tempfile.TemporaryDirectory() as tmp:
