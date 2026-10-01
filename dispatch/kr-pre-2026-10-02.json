@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-10-02",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-02T08:40:42.000+09:00",
   "attempted_at_utc": "2026-10-01T23:40:42+00:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-02/",
@@ -20,7 +20,7 @@
     "text_zoom": "skipped_by_user_instruction"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "scheduled_at_kst": "2026-10-02T08:30:00+09:00",
   "scheduled_at_utc": "2026-10-01T23:30:00+00:00",
   "actual_started_at_kst": "2026-10-02T08:29:02+09:00",
@@ -34,5 +34,10 @@
     "checked_at_kst": "2026-10-02T08:33:00+09:00"
   },
   "environment": "Work cloud execution; GitHub OAuth connected; Kakao self-send tool exposed",
-  "send_retry_allowed": false
+  "send_retry_allowed": false,
+  "send_attempt_count": 1,
+  "attempted_record_reread": "matched",
+  "kakao_result": "success",
+  "result_recorded_at_utc": "2026-10-01T23:41:14+00:00",
+  "result_recorded_at_kst": "2026-10-02T08:41:14.000+09:00"
 }
