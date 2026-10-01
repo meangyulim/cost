@@ -1,0 +1,341 @@
+{
+  "id": "us-pre-2026-10-01",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-01",
+  "title": "10월 1일 미국장 시작 전 브리핑",
+  "as_of": "2026-10-01T21:58:29+09:00",
+  "queried_at": "2026-10-01T21:58:29+09:00",
+  "venue": "NYSE·Nasdaq 정규장 전일 종가: 2026-10-01 05:00 KST / 2026-09-30 16:00 EDT. 오늘 개장 2026-10-01 22:30 KST / 09:30 EDT.",
+  "summary": "AI 실적 호재, 금리 부담은 계속",
+  "summary_detail": "전일 나스닥만 상승했습니다. 마이크론의 실적과 전망은 강하지만 장전 주가는 하락했습니다. 오늘 제조업 지표와 내일 고용 발표가 다음 변수입니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,651.54",
+      "unit": "pt",
+      "delta": "−19.30",
+      "percent": "−0.25",
+      "direction": "down",
+      "source": "close",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "2026-09-30 미국 정규장 종가"
+    },
+    {
+      "name": "다우존스",
+      "value": "50,906.05",
+      "unit": "pt",
+      "delta": "−443.87",
+      "percent": "−0.86",
+      "direction": "down",
+      "source": "close",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "2026-09-30 미국 정규장 종가"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,861.06",
+      "unit": "pt",
+      "delta": "+63.52",
+      "percent": "+0.24",
+      "direction": "up",
+      "source": "close",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "2026-09-30 미국 정규장 종가"
+    }
+  ],
+  "fx": {
+    "label": "미국 10년 국채수익률 · 장중 참고",
+    "value": "5.27",
+    "unit": "%",
+    "delta": "전일 대비 미확인",
+    "direction": "missing",
+    "as_of": "2026-10-01T21:58:29+09:00",
+    "session": "2026-10-01 Reuters 보도: 장중 5.34%에서 5.27%로 하락. 호가의 정확한 기준 분 미표시; as_of는 조회 기준이며 현재 호가를 뜻하지 않음.",
+    "source": "bonds"
+  },
+  "issues": [
+    {
+      "title": "마이크론 실적과 주가 반응은 구분",
+      "fact": "Micron IR: FY2026 4분기 매출 54,229 million USD. FY2027 1분기 매출 전망 61.5 billion USD ±1.5 billion USD. 전일 종가 1,065.11 USD, 10월1일08:37 EDT 장전 1,056.05 USD(−9.06 USD,−0.85%). 해석: 좋은 실적만으로 당일 상승을 단정할 수 없으며 기대 선반영 여부를 관찰한다.",
+      "source": "micron",
+      "additional_sources": [
+        "mu"
+      ]
+    },
+    {
+      "title": "높은 금리가 시장 전체에는 부담",
+      "fact": "전일 S&P 500 −0.25%, 다우 −0.86%, 나스닥 +0.24%. Reuters 10월1일 보도에서 미국10년 금리는 장중5.34%에서5.27%로 내려왔다. 해당 호가 기준 분은 미표시. 해석: 금리 상승이 진정되는지와 기술주 강세가 다른 업종으로 확산되는지를 함께 확인한다.",
+      "source": "bonds",
+      "additional_sources": [
+        "close"
+      ]
+    },
+    {
+      "title": "제조업·나이키·고용 발표가 이어진다",
+      "fact": "ISM 공식 달력상 제조업 PMI 발표일은10월1일. 원문10:00 EST 표기를 확인했으나 DST 표현이 부정확해 이 보고서에서는 확인 순서로 안내한다. NIKE IR:10월1일13:15 PT 실적 예정,10월2일05:15 KST /10월1일16:15 EDT. BLS:9월 고용동향10월2일08:30 ET,10월2일21:30 KST /08:30 EDT.",
+      "source": "ism",
+      "additional_sources": [
+        "nike",
+        "bls"
+      ]
+    }
+  ],
+  "interpretation": "마이크론이 전일 종가를 회복하는지 확인합니다. 국채금리 안정과 기술주 이외 업종의 동반 상승이 확인되면 반등의 폭을 판단하기 쉽습니다. PMI의 신규주문·가격 지표와 고용 발표를 함께 봅니다.",
+  "stocks": [
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "1,065.11",
+      "currency": "USD",
+      "delta": "+0.03",
+      "percent": "+0.00",
+      "direction": "up",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "Nasdaq 2026-09-30 정규장 종가",
+      "reason": "분기 실적과 다음 분기 매출 전망이 발표된 메모리 종목입니다.",
+      "watch": "장전 1,056.05달러(10월1일21:37 KST,−0.85%)에서 전일 종가를 회복하는지 봅니다.",
+      "source": "mu",
+      "reason_sources": [
+        "micron"
+      ],
+      "premarket": {
+        "price": "1056.05",
+        "delta": "-9.06",
+        "percent": "-0.85",
+        "as_of": "2026-10-01T21:37:00+09:00",
+        "venue": "Nasdaq extended hours"
+      }
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "228.38",
+      "currency": "USD",
+      "delta": "+1.17",
+      "percent": "+0.51",
+      "direction": "up",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "Nasdaq 2026-09-30 정규장 종가",
+      "reason": "전일 상승에 이어 마이크론 실적 호재가 AI 반도체로 확산되는지 볼 종목입니다.",
+      "watch": "장전230.25달러(10월1일21:47 KST,+0.82%) 상승이 개장 후 유지되는지 봅니다.",
+      "source": "nvda",
+      "reason_sources": [
+        "micron"
+      ],
+      "premarket": {
+        "price": "230.25",
+        "delta": "+1.87",
+        "percent": "+0.82",
+        "as_of": "2026-10-01T21:47:00+09:00",
+        "venue": "Nasdaq extended hours"
+      }
+    },
+    {
+      "name": "나이키",
+      "ticker": "NKE",
+      "price": "35.40",
+      "currency": "USD",
+      "delta": "−0.44",
+      "percent": "−1.23",
+      "direction": "down",
+      "as_of": "2026-10-01T05:00:00+09:00",
+      "session": "NYSE 2026-09-30 정규장 종가",
+      "reason": "오늘 정규장 종료 뒤 실적 발표가 예정된 소비재 종목입니다.",
+      "watch": "10월2일05:15 KST 발표에서 매출·마진과 다음 분기 전망을 확인합니다.",
+      "source": "nke",
+      "reason_sources": [
+        "nike"
+      ],
+      "premarket": {
+        "price": "35.30",
+        "delta": "-0.10",
+        "percent": "-0.28",
+        "as_of": "2026-10-01T21:48:00+09:00",
+        "venue": "NYSE extended hours"
+      }
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "확인 순서 1",
+      "title": "제조업 PMI와 금리 반응",
+      "detail": "10월1일 제조업 PMI의 신규주문·가격 지표와 미국10년 금리 반응을 봅니다. 공식 페이지의 EST 표기와 DST 간 불일치 때문에 확정 KST 시각은 제시하지 않습니다.",
+      "source": "ism"
+    },
+    {
+      "label": "10월2일05:15 KST 예정",
+      "title": "나이키 실적",
+      "detail": "10월1일16:15 EDT. 매출·마진·전망과 시간외 주가를 구분해 확인합니다.",
+      "source": "nike"
+    },
+    {
+      "label": "10월2일21:30 KST",
+      "title": "미국 9월 고용동향",
+      "detail": "10월2일08:30 EDT. 고용·실업률·임금을 함께 확인합니다.",
+      "source": "bls"
+    }
+  ],
+  "sources": [
+    {
+      "id": "close",
+      "label": "Reuters · 9월30일 종가",
+      "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
+      "note": "9월30일 정규장 종가와 변화 원문 정밀도. AP 같은 날짜 종가도 일치. 조회10월1일21:57 KST."
+    },
+    {
+      "id": "bonds",
+      "label": "Reuters · 국채금리",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-01/",
+      "note": "10월1일 장중5.34%→5.27%. 호가 기준 분 미표시. 현재 금리나 전일 종가로 취급하지 않음. 조회21:58 KST."
+    },
+    {
+      "id": "micron",
+      "label": "Micron IR · 분기 실적",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "note": "9월30일 발표. FY2026 Q4 결산기말9월3일. 매출54,229millionUSD;FY2027Q1전망61.5billion±1.5billionUSD. 전망은 확정 실적이 아님."
+    },
+    {
+      "id": "mu",
+      "label": "Stock Analysis · MU 시세",
+      "url": "https://stockanalysis.com/stocks/mu/history/",
+      "note": "S&P Global 데이터.9월30일 종가1065.11(+0.03,0.00%),9월29일1065.08. 장전10월1일08:37EDT1056.05(−9.06,−0.85%). 다른 검색자료의−1.08%와 충돌해 두 원 종가가 있는 이 자료 사용. 조회21:58KST."
+    },
+    {
+      "id": "nvda",
+      "label": "Stock Analysis · NVDA 시세",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "note": "9월30일 종가228.38(+1.17,+0.51%),9월29일227.21. 장전10월1일08:47EDT230.25(+1.87,+0.82%).조회21:58KST."
+    },
+    {
+      "id": "nke",
+      "label": "Stock Analysis · NKE 시세",
+      "url": "https://stockanalysis.com/stocks/nke/history/",
+      "note": "9월30日 종가35.40(−0.44,−1.23%),9월29일35.84. 장전10월1일08:48EDT35.30(−0.10,−0.28%).MarketWatch 종가 일치.조회21:58KST."
+    },
+    {
+      "id": "nike",
+      "label": "NIKE IR · 실적 일정",
+      "url": "https://investors.nikeinc.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx",
+      "note": "8월28일 공지.10월1일13:15 PT 예정=PDT16:15EDT=10월2일05:15KST.컨퍼런스콜14:00PT.조회10월1일21:58KST."
+    },
+    {
+      "id": "ism",
+      "label": "ISM · 제조업 발표 달력",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "note": "2026 October 제조업1일,서비스5일.10:00 EST 원문이나 DST 불명확하여 확인 순서로 안내.조회10월1일21:57KST."
+    },
+    {
+      "id": "bls",
+      "label": "BLS · 고용 발표 달력",
+      "url": "https://www.bls.gov/schedule/2026/home.htm",
+      "note": "10월2일08:30 AM Employment Situation September2026. 모든 시각 Eastern Time 명시.EDT 적용21:30KST.조회10월1일21:57KST."
+    },
+    {
+      "id": "calendar",
+      "label": "NYSE · 거래일 달력",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026휴장목록10월1일 없음,조기폐장11월27일·12월24일.정규장09:30~16:00ET."
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 거래일 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026휴장·조기폐장표에서10월1일 제외.목요일09:30~16:00ET."
+    }
+  ],
+  "calculation_notes": "변동액은 원문값 사용.검산 MU1065.11−1065.08=0.03,0.03/1065.08×100=0.0028%→0.00%;NVDA228.38−227.21=1.17,1.17/227.21×100=0.5150%→원문0.51%;NKE35.40−35.84=−0.44,−0.44/35.84×100=−1.2277%→−1.23%。54,229millionUSD/100=542.29억USD;61.5billionUSD=615억USD. 미국10년 금리는 전일 대비 미확인,환율·투자자별 수급은 기준 시각 있는 원문 미확보로 미확인. 미래 상승확률 미산출.",
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-01",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-01T21:57:00+09:00",
+    "note": "NYSE와Nasdaq 공식2026휴장·조기폐장표 대조.10월1일 목요일은 표의 휴장·조기폐장일에 해당하지 않음.정규장09:30~16:00 EDT;KST10월1일22:30~10월2일05:00. Python zoneinfo America/New_York에서2026-10-01 EDT(UTC−04:00) 확인.",
+    "additional_url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-01T21:56:33+09:00",
+    "actual_started_at_utc": "2026-10-01T12:56:33Z",
+    "actual_started_at_local": "2026-10-01T08:56:33-04:00",
+    "scheduled_at_kst": "2026-10-01T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-01T13:00:00Z",
+    "scheduled_at_local": "2026-10-01T09:00:00-04:00",
+    "start_offset_seconds": -207,
+    "environment": "Work cloud Linux; observed checkout /workspace/scratch/0b8d3c18f31c/cost; GitHub OAuth connector and kakao memochat tool exposed",
+    "model_setting": "Requested GPT-6.1 Sol High; explicit automation model metadata unavailable, application unverified",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "reading": {
+    "headline": "AI 실적 호재, 금리 부담은 계속",
+    "summary_points": [
+      "전일 나스닥 +0.24%. S&P 500과 다우는 하락했습니다.",
+      "마이크론 실적은 강했지만 장전 주가는 −0.85%. 호재와 가격 반응을 함께 봅니다.",
+      "오늘 제조업·나이키 실적, 내일 고용 발표가 다음 변수입니다."
+    ],
+    "notices": [
+      "지수·종목 카드는 10월1일05:00 KST 전일 정규장 종가입니다. 장전 가격은 별도로 표시했습니다.",
+      "국채금리는 오늘 장중 보도값이며 정확한 호가 시각·전일 변화는 미확인입니다. 마이크론 종가 변화는 자료 간 차이가 있어 원 종가가 확인되는 자료를 사용했습니다."
+    ],
+    "issues": [
+      {
+        "title": "마이크론 실적, 주가는 별개",
+        "points": [
+          "분기 매출542.29억 달러. 다음 분기 매출 전망615억±15억 달러.",
+          "장전 주가는 −0.85%였습니다."
+        ],
+        "meaning": "실적 호재가 이미 가격에 반영됐는지 개장 후 반응을 확인합니다."
+      },
+      {
+        "title": "금리가 기술주 강세를 제한",
+        "points": [
+          "미국10년 금리는 오늘 장중5.34%까지 올랐다가5.27%로 내려왔습니다."
+        ],
+        "meaning": "금리 안정과 다른 업종의 동반 상승이 반등 지속을 판단할 기준입니다."
+      },
+      {
+        "title": "제조업·소비·고용을 차례로 확인",
+        "points": [
+          "오늘 제조업 PMI, 장 종료 뒤 나이키 실적이 예정돼 있습니다.",
+          "내일은 미국9월 고용동향 발표입니다."
+        ],
+        "meaning": "경기가 강한 만큼 금리 부담도 커지는지 살펴봅니다."
+      }
+    ],
+    "interpretation_points": [
+      "마이크론이 전일 종가1,065.11달러를 회복하는지 확인합니다.",
+      "엔비디아의 장전 상승과 시장 전체의 동반 상승을 함께 봅니다.",
+      "제조업 신규주문·가격, 이후 고용·임금을 차례로 확인합니다."
+    ],
+    "stocks": {
+      "MU": {
+        "reason": "실적·전망을 발표한 메모리 종목입니다.",
+        "watch": "장전1,056.05달러(10월1일21:37 KST,−0.85%)에서 전일 종가를 회복하는지 봅니다."
+      },
+      "NVDA": {
+        "reason": "마이크론 호재가 AI 반도체 전반으로 퍼지는지 볼 종목입니다.",
+        "watch": "장전230.25달러(10월1일21:47 KST,+0.82%) 상승의 유지 여부."
+      },
+      "NKE": {
+        "reason": "오늘 장 종료 뒤 실적을 발표하는 소비재 종목입니다.",
+        "watch": "10월2일05:15 KST 예정 발표에서 매출·마진·전망을 확인합니다."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "제조업 PMI·금리",
+        "detail": "신규주문·가격 지표와 금리 반응을 먼저 확인합니다."
+      },
+      {
+        "title": "나이키 실적",
+        "detail": "매출·마진·전망과 시간외 주가를 구분해서 봅니다."
+      },
+      {
+        "title": "미국9월 고용동향",
+        "detail": "고용·실업률·임금으로 금리 부담을 확인합니다."
+      }
+    ],
+    "source_labels": {}
+  }
+}

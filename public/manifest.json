@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-01-1822",
+  "latest_id": "us-pre-2026-10-01",
   "reports": [
+    {
+      "id": "us-pre-2026-10-01",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-01",
+      "title": "10월 1일 미국장 시작 전 브리핑",
+      "summary": "AI 실적 호재, 금리 부담은 계속",
+      "as_of": "2026-10-01T21:58:29+09:00",
+      "path": "reports/us-pre-2026-10-01/"
+    },
     {
       "id": "kr-close-2026-10-01-1822",
       "is_test": false,
