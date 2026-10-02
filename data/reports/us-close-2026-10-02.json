@@ -1,0 +1,602 @@
+{
+  "id": "us-close-2026-10-02",
+  "is_test": false,
+  "market": "US",
+  "session": "close",
+  "market_date": "2026-10-02",
+  "title": "미국장 마감 후 브리핑 · 2026-10-02",
+  "as_of": "2026-10-03T05:00:00+09:00",
+  "queried_at": "2026-10-03T05:25:17+09:00",
+  "venue": "NYSE / Nasdaq",
+  "summary": "약한 고용이 금리 인상 우려를 낮춰 기술주 중심 상승",
+  "summary_detail": "9월 고용이 예상보다 약해 10월 금리 인상 기대가 낮아졌고 3대 지수는 상승했습니다. 다만 미국10년 금리는 발표 직후 하락을 되돌려 5.261%까지 올라, 다음 거래일에는 할인율 부담과 성장 우려를 함께 봐야 합니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,724.38",
+      "unit": "pt",
+      "delta": "+57.93",
+      "percent": "+0.76",
+      "direction": "up",
+      "source": "market-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가 · Reuters 잠정 집계"
+    },
+    {
+      "name": "다우존스",
+      "value": "51,186.71",
+      "unit": "pt",
+      "delta": "+260.15",
+      "percent": "+0.51",
+      "direction": "up",
+      "source": "market-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가 · Reuters 잠정 집계"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "27,191.33",
+      "unit": "pt",
+      "delta": "+319.73",
+      "percent": "+1.19",
+      "direction": "up",
+      "source": "market-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가 · Reuters 잠정 집계"
+    }
+  ],
+  "issues": [
+    {
+      "title": "약한 고용, 금리 인상 기대 후퇴",
+      "fact": "BLS: 9월 비농업고용은 +29,000명, 실업률은 4.2%, 시간당임금은 전월비 +0.1%·전년비 +3.0%였다. Reuters 집계 예상은 고용 +90,000명이었고, 10월 25bp 이상 인상 기대는 전일 24.4%에서 22.7%로 낮아졌다. S&P500 +0.76%, 나스닥 +1.19%, 다우 +0.51%. 해석: 할인율 완화 기대가 성장주를 지지했지만 고용 둔화가 이익 우려로 번질 가능성은 남는다.",
+      "source": "bls",
+      "additional_sources": [
+        "market-close"
+      ]
+    },
+    {
+      "title": "채권은 장중 안도 뒤 다시 약세",
+      "fact": "미국10년 국채수익률은 고용 발표 직후 전일 대비 최대 8.1bp 하락했지만 이후 2.5bp 상승한 5.261%로 반등했다. 2년물은 3.7bp 오른 4.816%였다. 해석: 주식은 인상 기대 후퇴에 반응했지만 채권시장은 인플레이션·재정·원유 변수를 완전히 해소하지 못했다.",
+      "source": "yields",
+      "additional_sources": [
+        "market-close"
+      ]
+    },
+    {
+      "title": "기업 재료가 종목 방향을 갈랐다",
+      "fact": "Tesla는 3분기 생산 464,391대·인도 486,532대를 발표했고, 인도량은 전분기 대비 1% 늘었지만 전년 동기 대비 약 2% 감소했다. NIKE는 FY2027 1분기 매출 112.13억달러(−4%), Direct −8%, Greater China −22%, FY2027 매출 high-single-digit 감소 전망을 제시했다. Massive 산출물은 당일 일봉 확정 전이라 10월1일 데이터만 반환했으며, 그 기준 SOXX의 20거래일 SPY 대비 상대수익률은 +15.0879%p였다. 해석: TSLA·NVDA가 지수 상승을 이끈 반면 NKE는 약한 전망으로 하락해, 시장 상승과 기업별 펀더멘털 반응이 분리됐다.",
+      "source": "tesla-ir",
+      "additional_sources": [
+        "nike-ir",
+        "market-close",
+        "tsla",
+        "nvda",
+        "nke",
+        "massive"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "나이키",
+      "ticker": "NKE",
+      "price": "33.17",
+      "currency": "USD",
+      "delta": "−1.98",
+      "percent": "−5.63",
+      "direction": "down",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "NYSE 2026-10-02 정규장 종가",
+      "reason": "연간 매출 감소 전망과 중국·직접판매 약세가 실적 후 주가를 눌렀습니다.",
+      "watch": "다음 거래일에 31.97달러 장중 저점과 33.17달러 종가를 지키는지 확인합니다.",
+      "source": "nke",
+      "reason_sources": [
+        "nike-ir"
+      ]
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "372.15",
+      "currency": "USD",
+      "delta": "+18.03",
+      "percent": "+5.09",
+      "direction": "up",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-02 정규장 종가",
+      "reason": "3분기 인도량 486,532대가 시장 예상치를 웃돌며 상승했습니다.",
+      "watch": "실적 발표 전까지 인도량 호재가 마진·가격 우려를 넘어 372.15달러 위에서 이어지는지 봅니다.",
+      "source": "tsla",
+      "reason_sources": [
+        "tesla-ir",
+        "tesla-expectations"
+      ]
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "236.36",
+      "currency": "USD",
+      "delta": "+5.50",
+      "percent": "+2.38",
+      "direction": "up",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-02 정규장 종가",
+      "reason": "금리 인상 기대 후퇴와 기술주 강세의 직접 수혜 종목으로 상승했습니다.",
+      "watch": "미국10년 금리가 5.261% 위로 오를 때도 나스닥 대비 상대강도를 유지하는지 확인합니다.",
+      "source": "nvda",
+      "reason_sources": [
+        "market-close",
+        "yields"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년 국채수익률 · 마감 무렵",
+    "value": "5.261",
+    "unit": "%",
+    "delta": "+0.025",
+    "direction": "up",
+    "as_of": "2026-10-03T04:33:00+09:00",
+    "session": "2026-10-02 MarketWatch 마감 무렵 보도; 전일 대비 +2.5bp, 발표 직후 최대 −8.1bp에서 반전",
+    "source": "yields"
+  },
+  "interpretation": "오늘 상승은 약한 고용 자체보다 금리 인상 가능성 하락과 대형 기술주·테슬라의 기업 재료가 결합한 결과입니다. 채권금리의 장중 반전은 다음 거래일 상승 지속을 단정하기 어렵게 합니다. 지수 강세와 NKE의 실적 후 하락을 분리해 봅니다.",
+  "next_checks": [
+    {
+      "label": "2026.10.05 22:30 KST",
+      "title": "다음 정규장 개장",
+      "detail": "10월5일09:30 EDT. 지수 상승의 연속성과 미국10년 금리 5.261% 부근을 함께 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "2026.10.05 23:00 KST",
+      "title": "ISM 9월 서비스업 PMI",
+      "detail": "10월5일10:00 EDT. 고용 둔화와 서비스 물가·신규주문을 함께 확인합니다.",
+      "source": "ism-calendar"
+    },
+    {
+      "label": "2026.10.14 21:30 KST",
+      "title": "미국 9월 CPI",
+      "detail": "10월14일08:30 EDT. 고용 뒤 남은 인플레이션 위험과 금리 반응을 확인합니다.",
+      "source": "bls-calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "market-close",
+      "label": "Reuters · 10월2일 미국장 마감",
+      "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/",
+      "note": "Reuters 잠정 마감: SPX7724.38,+57.93,+0.76%;DJI51186.71,+260.15,+0.51%;COMP27191.33,+319.73,+1.19%.고용+29000,Reuters예상+90000,10월25bp이상인상기대22.7%."
+    },
+    {
+      "id": "bls",
+      "label": "BLS · 9월 고용동향",
+      "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "note": "10월2일08:30EDT 발표.비농업고용+29000,실업률4.2%,시간당임금37.81달러,+0.1%MoM,+3.0%YoY.8월+162000→+133000,7월+21000→−10000 수정."
+    },
+    {
+      "id": "yields",
+      "label": "MarketWatch · 고용 후 국채금리",
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-september-jobs-report/card/treasury-yields-head-up-again-shrugging-off-soft-jobs-report-Vbn9psqqGSwTs5Pf9xlG",
+      "note": "10년5.261%,전일비+2.5bp;발표직후최대−8.1bp에서반전.2년4.816%,+3.7bp."
+    },
+    {
+      "id": "tesla-ir",
+      "label": "Tesla IR · 3분기 생산·인도",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "note": "생산464391,인도486532,전분기비1%증가.인도량은 실적 전체를 뜻하지 않는다는 회사 주의문 포함.Q3실적10월21일장후·17:30ET콜."
+    },
+    {
+      "id": "tesla-expectations",
+      "label": "MarketWatch · Tesla 인도 예상",
+      "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53",
+      "note": "FactSet예상461000 대비 실제486532;전년비−2.1%."
+    },
+    {
+      "id": "nike-ir",
+      "label": "NIKE IR · FY2027 1분기",
+      "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Reports-Fiscal-2027-First-Quarter-Results/default.aspx",
+      "note": "매출112.13억달러−4%,Grossmargin42.8%+60bp,EPS0.48,NikeDirect−8%,중국−22%,FY27매출high-single-digit감소전망."
+    },
+    {
+      "id": "nke",
+      "label": "Stock Analysis · NKE 10월2일 종가",
+      "url": "https://stockanalysis.com/stocks/nke/history/",
+      "note": "Stock Analysis 10월2일 정규장 표.NKE33.17,전일35.15,−1.98,−5.63%.장중31.97~33.50.Massive는 당일 일봉 미확정으로 10월1일까지만 반환."
+    },
+    {
+      "id": "tsla",
+      "label": "Stock Analysis · TSLA 10월2일 종가",
+      "url": "https://stockanalysis.com/stocks/tsla/history/",
+      "note": "Stock Analysis 10월2일 정규장 표.TSLA372.15,전일354.12,+18.03,+5.09%.Massive는 당일 일봉 미확정으로 10월1일까지만 반환."
+    },
+    {
+      "id": "nvda",
+      "label": "Stock Analysis · NVDA 10월2일 종가",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "note": "Stock Analysis 10월2일 정규장 표.NVDA236.36,전일230.86,+5.50,+2.38%.Massive는 당일 일봉 미확정으로 10월1일까지만 반환."
+    },
+    {
+      "id": "ism-calendar",
+      "label": "ISM · 서비스업 발표 일정",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "note": "9월서비스업PMI 10월5일10:00ET 예정.EDT적용23:00KST."
+    },
+    {
+      "id": "bls-calendar",
+      "label": "BLS · 10월 발표 일정",
+      "url": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
+      "note": "9월CPI10월14일08:30ET.EDT적용21:30KST."
+    },
+    {
+      "id": "calendar",
+      "label": "NYSE · 거래일·시간",
+      "url": "https://beta.nyse.com/trade/hours-calendars",
+      "note": "10월2일·5일은2026휴장·조기폐장 목록에 없음.정규장09:30~16:00ET.2026-10-02/05 America_New_York=EDT UTC−04:00."
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 거래일 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026휴장·조기폐장표에서10월2일·5일 제외.정규장09:30~16:00ET."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 10월1일 기준 일별 분석",
+      "url": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+      "note": "요청 end_date=2026-10-02, Actions run 37059477171 성공, artifact us-analysis-37059477171. 실제 data_date=2026-10-01, queried_at=2026-10-03T05:21:54+09:00. 당일 일봉 확정 전이라 이전 거래일 배경으로만 사용. SOXX 20거래일 SPY 대비 +15.0879%p, OTC 제외 전체 증권 상승 비중 52.65%(ETF·우선주·워런트 포함). 분할보정 가격수익률이며 배당 재투자 총수익률 아님.",
+      "show_public": false
+    }
+  ],
+  "calculation_notes": "지수는 Reuters 잠정 마감값.종목은 Massive watch.regular_session으로 최종 대조한다.기관순매수·옵션·소셜감성·미래확률은 미확인/미산출.미국10년0.025%p=2.5bp.ETF상대수익률은 단순 가격수익률 차이며 베타조정 초과수익률이 아니다.",
+  "calendar_evidence": {
+    "url": "https://beta.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-03T05:15:52+09:00",
+    "note": "NYSE·Nasdaq 공식2026휴장·조기폐장표에10월2일 없음.금요일09:30~16:00EDT 정상 거래일.America/New_York은UTC−04:00,KST10월2일22:30~10월3일05:00."
+  },
+  "execution_context": {
+    "scheduled_started_at_local": "2026-10-02T16:15:00-04:00",
+    "scheduled_started_at_kst": "2026-10-03T05:15:00+09:00",
+    "scheduled_started_at_utc": "2026-10-02T20:15:00Z",
+    "actual_started_at_kst": "2026-10-03T05:14:36+09:00",
+    "actual_started_at_utc": "2026-10-02T20:14:36Z",
+    "actual_started_at_local": "2026-10-02T16:14:36-04:00",
+    "start_delay_seconds": -24,
+    "environment": "Work cloud Linux; fresh checkout /workspace/scratch/77f3693464b5/cost-close; GitHub OAuth connector; web search; kakao memochat",
+    "checkout": "실제 pwd 확인 후 저장소 clone",
+    "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
+    "model_requested": "GPT-6.1 Sol / High",
+    "model_application": "not_verified_from_scheduler_metadata",
+    "analysis": {
+      "request_commit": "f28f8c4fd025617e3eced4b0ec7c6a57a8639a79",
+      "run_id": 37059477171,
+      "status": "success",
+      "requested_end_date": "2026-10-02",
+      "artifact_id": 11249164565,
+      "artifact_name": "us-analysis-37059477171",
+      "artifact_digest": "sha256:fea5dd72de9e27f597d3120c17b6761cd4ad6eb1eabe9ee7ed756b1110d61b33",
+      "data_date": "2026-10-01",
+      "queried_at": "2026-10-03T05:21:54+09:00",
+      "note": "워크플로 성공. 당일 일봉이 아직 확정되지 않아 10월1일 자료를 이전 거래일 배경 분석으로만 사용."
+    }
+  },
+  "reading": {
+    "headline": "약한 고용, 기술주를 밀어 올렸다",
+    "summary_points": [
+      "나스닥 +1.19%, S&P500 +0.76%로 상승했습니다.",
+      "고용 +2.9만명에 10월 금리 인상 기대가 낮아졌습니다.",
+      "10년 금리는 5.261%로 반등해 부담이 남았습니다."
+    ],
+    "notices": [
+      "지수·종목은 10월3일05:00 KST 정규장 종가입니다. 지수는 Reuters 잠정 마감 집계로 정정될 수 있습니다.",
+      "Massive 산출물은 당일 일봉 확정 전이라 10월1일 자료입니다. ETF는 지수값이 아니며 시장 폭은 ETF·우선주·워런트를 포함한 전체 증권 기준입니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-03T05:25:17+09:00",
+      "input_cutoff": "2026-10-03T05:25:17+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다."
+    },
+    "issues": [
+      {
+        "title": "고용 둔화, 인상 기대 후퇴",
+        "preview": "할인율 안도와 성장 우려가 함께 남았습니다.",
+        "points": [
+          "고용 +2.9만명, 실업률 4.2%.",
+          "10월 25bp 이상 인상 기대는 22.7%."
+        ],
+        "meaning": "다음 장에서는 금리보다 성장 우려가 커지는지 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "10월 인상 기대 후퇴와 금요일 지수 상승은 다음 정규장 종가를 지지한다.",
+            "counter": "고용 둔화가 이익 전망 하향으로 번지고 10년 금리가 반등하면 장초반 상승분이 되돌릴 수 있다.",
+            "invalidation": "월요일 10년 금리 하락과 시장 폭 확대가 동반되면 상방, 지수 하락·금리 상승이면 하방으로 재판단한다.",
+            "sources": [
+              "bls",
+              "market-close",
+              "yields"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "금리 인상 기대 후퇴는 우호적이나 CPI 이전 성장·물가 해석이 엇갈린다.",
+            "counter": "한 번의 고용보고서와 하루 상승만으로 5일 추세를 확정할 수 없다.",
+            "invalidation": "서비스업 PMI·금리·이익 전망이 같은 방향으로 정렬되면 재판단한다.",
+            "sources": [
+              "bls",
+              "market-close",
+              "ism-calendar",
+              "bls-calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "채권 안도는 하루를 못 갔다",
+        "preview": "10년물은 장중 하락 뒤 5.261%로 반등했습니다.",
+        "points": [
+          "10년물 5.261%, 전일 대비 +2.5bp.",
+          "발표 직후 최대 −8.1bp에서 반전."
+        ],
+        "meaning": "기술주 강세의 지속 조건은 금리 안정입니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 성장주·금리민감주",
+            "basis": "고용 후 인상 기대는 낮아졌지만 10년물이 종가 무렵 반등해 방향 재료가 상충한다.",
+            "counter": "주말 동안 원유·재정·물가 뉴스가 장기금리를 더 움직일 수 있다.",
+            "invalidation": "5.261% 아래 안정 시 상방, 주간 고점 재돌파 시 하방으로 재판단한다.",
+            "sources": [
+              "yields",
+              "market-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 성장주·금리민감주",
+            "basis": "정책 기대 완화와 높은 장기금리가 동시에 존재한다.",
+            "counter": "10월14일 CPI 전까지 장기금리 변동성이 유지될 수 있다.",
+            "invalidation": "서비스 PMI와 금리가 동시에 둔화하면 상방, 물가·금리 재상승이면 하방으로 바꾼다.",
+            "sources": [
+              "yields",
+              "ism-calendar",
+              "bls-calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "TSLA·NVDA↑, NKE↓",
+        "preview": "지수 상승 속 기업별 실적 경로는 갈렸습니다.",
+        "points": [
+          "TSLA 인도 486,532대, 전분기비 +1%.",
+          "NKE 매출 −4%; 전일 기준 SOXX 상대강도 +15.09%p."
+        ],
+        "meaning": "시장 베타보다 기업별 기대 차이가 더 컸습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "TSLA·NVDA·NKE",
+            "basis": "TSLA·NVDA는 상승 모멘텀, NKE는 실적 추정 하향 압력이 남아 종목별 방향이 갈린다.",
+            "counter": "금요일 큰 움직임 뒤 차익실현·갭 되돌림으로 다음 장 초반 경로가 종가와 다를 수 있다.",
+            "invalidation": "각 종목이 금요일 종가와 장중 저점을 거래량과 함께 반대 방향으로 돌파하면 재판단한다.",
+            "sources": [
+              "tesla-ir",
+              "nike-ir",
+              "tsla",
+              "nvda",
+              "nke"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "TSLA·NVDA·NKE",
+            "basis": "기업별 펀더멘털 재료는 유효하나 단일 거래일 반응은 5일 드리프트를 증명하지 않는다.",
+            "counter": "고용·금리·서비스 PMI가 개별 재료를 압도할 수 있다.",
+            "invalidation": "5거래일 상대강도와 추정치 변화가 같은 방향으로 이어질 때 종목별로 갱신한다.",
+            "sources": [
+              "tesla-ir",
+              "nike-ir",
+              "massive",
+              "ism-calendar"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "월요일 10년 금리 5.261% 부근을 먼저 봅니다.",
+      "서비스업 PMI와 시장 폭의 동반 방향을 확인합니다.",
+      "TSLA·NVDA 상승과 NKE 하락의 후속 반응을 분리해 봅니다."
+    ],
+    "stocks": {
+      "NKE": {
+        "reason": "약한 연간 전망 뒤 정규장 하락을 일부 회복하지 못했습니다.",
+        "watch": "31.97달러 저점과 33.17달러 종가 유지 여부.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "NKE",
+            "basis": "연간 매출 high-single-digit 감소 전망과 중국·Direct 약세가 다음 종가 하방을 지지한다.",
+            "counter": "장전 −10%대에서 정규장 −5%대로 낙폭을 줄여 저가 매수 반등 가능성이 있다.",
+            "invalidation": "33.50달러 이상 회복과 거래량 안정이 동반되면 하방 판단을 낮춘다.",
+            "sources": [
+              "nike-ir",
+              "nke"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NKE",
+            "basis": "실적 추정 하향 위험과 급락 후 낮아진 기대가 상충한다.",
+            "counter": "Pace 비용절감과 마진 개선이 재평가될 수 있다.",
+            "invalidation": "31.97달러 이탈 지속 시 하방, 실적 갭 절반 회복 시 상방으로 재판단한다.",
+            "sources": [
+              "nike-ir",
+              "nke"
+            ]
+          }
+        }
+      },
+      "TSLA": {
+        "reason": "인도량이 예상치를 웃돌며 상승했습니다.",
+        "watch": "372.15달러 위 유지와 실적 전 마진 우려를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "인도량 예상 상회와 금요일 +5.09% 모멘텀이 다음 종가를 지지한다.",
+            "counter": "전년비 인도 감소와 급등 뒤 차익실현이 장초반 되돌림을 만들 수 있다.",
+            "invalidation": "372.15달러 회복 실패가 지속되면 상방 해석을 낮춘다.",
+            "sources": [
+              "tesla-ir",
+              "tesla-expectations",
+              "tsla"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "판매량 호재와 10월21일 실적 전 평균판매가격·마진 불확실성이 상충한다.",
+            "counter": "인도량만으로 분기 이익을 확정할 수 없다.",
+            "invalidation": "상대강도 유지와 추정치 상향 시 상방, 마진 추정 하향 시 하방으로 재판단한다.",
+            "sources": [
+              "tesla-ir",
+              "tesla-expectations",
+              "tsla",
+              "massive"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "금리 인상 기대 후퇴와 기술주 강세를 반영했습니다.",
+        "watch": "236.36달러와 나스닥 대비 상대강도 유지 여부.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "금요일 기술주 주도 상승과 종가 모멘텀이 다음 종가를 지지한다.",
+            "counter": "10년 금리 반등과 금요일 상승 뒤 차익실현 위험이 있다.",
+            "invalidation": "236.36달러 회복 실패와 나스닥 대비 약세가 동반되면 재판단한다.",
+            "sources": [
+              "nvda",
+              "market-close",
+              "yields"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "AI 수요·반도체 상대강도와 높은 장기금리가 상충한다.",
+            "counter": "금리 재상승은 고밸류 성장주 민감도를 높인다.",
+            "invalidation": "SOXX 상대강도와 10년 금리 하락이 함께 이어지면 상방으로 조정한다.",
+            "sources": [
+              "nvda",
+              "massive",
+              "yields"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "다음 정규장·국채금리",
+        "detail": "월요일 지수 상승의 연속성과 10년물 5.261% 부근을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "금요일 상승 모멘텀과 높은 장기금리가 상충한다.",
+            "counter": "주말 뉴스로 개장 갭이 생길 수 있다.",
+            "invalidation": "금리 하락·시장 폭 확대 동반 시 상방, 반대면 하방으로 재판단한다.",
+            "sources": [
+              "market-close",
+              "yields",
+              "calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "다음 개장 반응은 5일 방향의 첫 관찰값이다.",
+            "counter": "한 번의 개장·종가로 추세를 확정할 수 없다.",
+            "invalidation": "후속 시장 폭과 업종 상대강도 지속 시 갱신한다.",
+            "sources": [
+              "massive",
+              "calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "ISM 서비스업 PMI",
+        "detail": "고용·가격·신규주문과 금리 반응을 함께 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 주식·채권",
+            "basis": "월요일 발표 전이라 결과가 없다.",
+            "counter": "예상치·세부항목이 미확인이라 방향을 정할 수 없다.",
+            "invalidation": "공식 결과와 발표 직후 금리·지수 반응 확인 후 갱신한다.",
+            "sources": [
+              "ism-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·채권",
+            "basis": "서비스 성장과 가격 압력은 이익·금리에 반대 경로로 작용할 수 있다.",
+            "counter": "헤드라인 PMI만으로 연준 경로를 확정할 수 없다.",
+            "invalidation": "고용·가격 세부와 금리가 같은 방향으로 움직이면 재판단한다.",
+            "sources": [
+              "ism-calendar",
+              "yields"
+            ]
+          }
+        }
+      },
+      {
+        "title": "9월 CPI",
+        "detail": "고용 뒤 남은 인플레이션 위험을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 주식·채권",
+            "basis": "다음 거래일 범위 밖의 예정 발표다.",
+            "counter": "현재 자료로 결과를 예측하지 않는다.",
+            "invalidation": "발표 직전 컨센서스와 포지셔닝 확인 후 갱신한다.",
+            "sources": [
+              "bls-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 주식·채권",
+            "basis": "이번 5거래일 뒤 발표라 결과가 평가기간에 포함되지 않는다.",
+            "counter": "발표 전 기대 변화가 금리에 선반영될 수 있다.",
+            "invalidation": "공식 발표 전 기대와 금리 움직임이 확인되면 별도 회차에서 재판단한다.",
+            "sources": [
+              "bls-calendar"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {}
+  }
+}

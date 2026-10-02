@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-02",
+  "latest_id": "us-close-2026-10-02",
   "reports": [
+    {
+      "id": "us-close-2026-10-02",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-02",
+      "title": "미국장 마감 후 브리핑 · 2026-10-02",
+      "summary": "약한 고용이 금리 인상 우려를 낮춰 기술주 중심 상승",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-02/"
+    },
     {
       "id": "kr-close-2026-10-02",
       "is_test": false,
