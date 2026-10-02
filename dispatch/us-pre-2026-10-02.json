@@ -1,8 +1,10 @@
 {
   "id": "us-pre-2026-10-02",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-02T22:28:37+09:00",
   "attempted_at_utc": "2026-10-02T13:28:37Z",
+  "sent_at_kst": "2026-10-02T22:29:49+09:00",
+  "sent_at_utc": "2026-10-02T13:29:49Z",
   "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-02/",
   "deploy_commit": "d588a5cfec188dc85fe2d4e9b898afab2d2014a2",
   "deployment": {
@@ -17,6 +19,7 @@
     "http_get": "not_performed_per_user_instruction",
     "browser": "not_performed_per_user_instruction"
   },
-  "send_tool_called": false,
-  "note": "Duplicate-send guard created before the single Kakao memo attempt."
+  "send_tool_called": true,
+  "kakao_result": "success",
+  "note": "One Kakao memo attempt; tool returned success. No retry."
 }
