@@ -1,0 +1,36 @@
+{
+  "report_id": "kr-close-2026-10-02",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-02T15:57:58+09:00",
+  "attempted_at_utc": "2026-10-02T06:57:58.000Z",
+  "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-02/",
+  "commit": "c64e8d3cea0d74d8d13f3b85b17714d09c0b9f87",
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "not_performed",
+    "browser": "not_performed",
+    "mobile": "not_performed",
+    "text_enlargement": "not_performed"
+  },
+  "deployment": {
+    "run_id": 36975999200,
+    "event": "push",
+    "job_id": 110739887166,
+    "status": "completed",
+    "conclusion": "success",
+    "completed_at_utc": "2026-10-02T06:57:00Z"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "execution": {
+    "scheduled_start_kst": "2026-10-02T15:45:00+09:00",
+    "scheduled_start_utc": "2026-10-02T06:45:00Z",
+    "actual_start_kst": "2026-10-02T15:46:00+09:00",
+    "actual_start_utc": "2026-10-02T06:46:00Z",
+    "delay_seconds": 60,
+    "environment": "Work cloud Linux; observed workspace checkout; GitHub OAuth connector; web search; Kakao memo tool",
+    "calendar_url": "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/view?bbsSeq=151",
+    "calendar_result": "trading_day; no early close found",
+    "model_selection_verified": false
+  }
+}
