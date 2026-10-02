@@ -11,6 +11,7 @@ import re
 import shutil
 from string import Template
 from urllib.parse import urlsplit
+from directional_outlook import validate_outlook, badges as outlook_badges, details as outlook_details, notice as outlook_notice, image_meta
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close|us-intraday)-\d{4}-\d{2}-\d{2}(?:-\d{4})?\Z")
@@ -133,6 +134,7 @@ def bullet_list(items: list[str], class_name: str = "brief-points") -> str:
 
 def image_payload(report: dict, prefix: str) -> dict:
     """Share only public, concise report fields; never export hidden evidence."""
+    validate_outlook(report)
     reading = report.get("reading", {})
     short_issues = reading.get("issues", [])
     short_checks = reading.get("next_checks", [])
@@ -141,13 +143,15 @@ def image_payload(report: dict, prefix: str) -> dict:
     for n, issue in enumerate(report["issues"]):
         short = short_issues[n] if n < len(short_issues) else {}
         issues.append({"title": short.get("title", issue["title"]),
-                       "preview": short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]})
+                       "preview": short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0],
+                       "outlook": short.get("outlook")})
     stocks = []
     for stock in report["stocks"]:
         short = reading.get("stocks", {}).get(stock["ticker"], {})
         stocks.append({key: stock[key] for key in ("name", "ticker", "price", "currency", "percent", "direction", "session")} | {
             "as_of": kst(stock["as_of"]), "reason": short.get("reason", stock["reason"]),
-            "watch": short.get("watch", stock["watch"]), "missing_reason": stock.get("missing_reason", "")})
+            "watch": short.get("watch", stock["watch"]), "missing_reason": stock.get("missing_reason", ""),
+            "outlook": short.get("outlook")})
     return {
         "id": report["id"], "title": report["title"], "is_test": report["is_test"],
         "market": report["market"], "session": session, "as_of": kst(report["as_of"]),
@@ -160,8 +164,10 @@ def image_payload(report: dict, prefix: str) -> dict:
               {"as_of": kst(report["fx"]["as_of"])},
         "notices": reading.get("notices") or [report["venue"], report["fx"]["session"]],
         "issues": issues, "stocks": stocks,
+        "outlook": image_meta(report),
         "next_checks": [{"label": item["label"], "title": (short_checks[n] if n < len(short_checks) else {}).get("title", item["title"]),
-                         "detail": (short_checks[n] if n < len(short_checks) else {}).get("detail", item["detail"])}
+                         "detail": (short_checks[n] if n < len(short_checks) else {}).get("detail", item["detail"]),
+                         "outlook": (short_checks[n] if n < len(short_checks) else {}).get("outlook")}
                         for n, item in enumerate(report["next_checks"])],
         "sources": [reading.get("source_labels", {}).get(source["id"], source["label"])
                     for source in report["sources"] if source.get("show_public", True)],
@@ -187,6 +193,7 @@ def image_controls(report: dict, prefix: str) -> str:
 
 
 def render_report(report: dict, prefix: str) -> str:
+    validate_outlook(report)
     reading = report.get("reading", {})
     session = {"pre": "장전", "close": "정규장 마감", "intraday": "장중"}[report["session"]]
     parts = []
@@ -216,13 +223,15 @@ def render_report(report: dict, prefix: str) -> str:
     parts.append('<aside class="notices" aria-label="자료 기준과 유의사항">')
     parts.extend(f'<p class="notice">{text(notice)}</p>' for notice in notices)
     parts.append('</aside>')
+    parts.append(outlook_notice(report))
     parts.append('<nav class="section-nav" aria-label="본문 바로가기"><a href="#issues-title">핵심 이슈</a><a href="#stocks-title">관찰 종목</a><a href="#next-title">다음 확인</a></nav>')
     parts.append('<section aria-labelledby="issues-title"><div class="section-head"><h2 id="issues-title">핵심 이슈</h2><small>눌러서 상세 보기</small></div><div class="issue-list">')
     short_issues = reading.get("issues", [])
     for n, issue in enumerate(report["issues"]):
         short = short_issues[n] if n < len(short_issues) else {}
         preview = short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]
-        parts.append(f'<details class="issue"><summary><span class="item-heading"><span class="n">{n+1:02}</span><strong>{text(short.get("title", issue["title"]))}</strong><span class="expand-mark" aria-hidden="true"></span></span><span class="item-preview">{text(preview)}</span></summary><div class="detail-body">')
+        parts.append(f'<details class="issue"><summary><span class="item-heading"><span class="n">{n+1:02}</span><strong>{text(short.get("title", issue["title"]))}</strong><span class="expand-mark" aria-hidden="true"></span></span><span class="item-preview">{text(preview)}</span>{outlook_badges(short, report)}</summary><div class="detail-body">')
+        parts.append(outlook_details(short, report))
         # Show the complete fact text on expansion without repeating its summary.
         parts.append(bullet_list(paragraphs(issue["fact"])))
         if short.get("meaning") and short["meaning"] != preview:
@@ -236,7 +245,9 @@ def render_report(report: dict, prefix: str) -> str:
         parts.append(f'<details class="stock"><summary><span class="stock-top"><span class="stock-identity"><strong>{text(stock["name"])}</strong><span class="code">{text(stock["ticker"])}</span></span><span class="stock-quote"><strong>{text(stock["price"])} <small>{text(stock["currency"])}</small></strong><b class="{text(stock["direction"])}">{change}</b><span class="expand-mark" aria-hidden="true"></span></span></span><span class="item-preview">{text(short.get("reason", stock["reason"]))}</span>')
         if stock["direction"] == "missing":
             parts.append(f'<span class="notice">{text(stock["missing_reason"])}</span>')
+        parts.append(outlook_badges(short, report))
         parts.append('</summary><div class="detail-body">')
+        parts.append(outlook_details(short, report))
         parts.append(f'<p class="price-meta">{text(stock["session"])} · {text(kst(stock["as_of"]))}</p>')
         if stock["direction"] != "missing":
             parts.append(f'<p class="price-meta">전일 대비 {text(stock["delta"])} {text(stock["currency"])}</p>')
@@ -252,6 +263,9 @@ def render_report(report: dict, prefix: str) -> str:
     for n, check in enumerate(report["next_checks"]):
         short = short_checks[n] if n < len(short_checks) else {}
         parts.append(f'<li><span>{text(check["label"])}</span><div><b>{text(short.get("title", check["title"]))}</b><p>{text(short.get("detail", check["detail"]))}</p>')
+        if short.get('outlook'):
+            parts.append(outlook_badges(short, report))
+            parts.append('<details class="check-more"><summary>조건별 방향 보기</summary>' + outlook_details(short, report) + '</details>')
         if short.get("detail") and short["detail"] != check["detail"]:
             parts.append(f'<details class="check-more"><summary>일정 근거</summary><p>{text(check["detail"])}</p></details>')
         parts.append('</div></li>')
@@ -278,6 +292,7 @@ def load_reports(data_dir: Path) -> list[dict]:
         reading_file = data_dir.parent / "reading" / file.name
         if reading_file.is_file():
             report["reading"] = json.loads(reading_file.read_text(encoding="utf-8"))
+        validate_outlook(report)
         require(file.stem == report["id"], "Source filename must match report ID")
         require(report["id"] not in ids, "Duplicate report ID")
         ids.add(report["id"])
@@ -294,12 +309,13 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     shutil.copyfile(ROOT / "assets/style.css", output / "assets/style.css")
     shutil.copyfile(ROOT / "assets/brief-image.js", output / "assets/brief-image.js")
     image_version = hashlib.sha256((ROOT / "assets/brief-image.js").read_bytes()).hexdigest()[:16]
+    style_version = hashlib.sha256((ROOT / "assets/style.css").read_bytes()).hexdigest()[:16]
     page = Template((ROOT / "templates/page.html").read_text(encoding="utf-8"))
 
     def write_page(path: str, title: str, content: str, prefix: str) -> None:
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(page.substitute(title=text(title), description=text("TEST · 레이아웃 확인용 자료 · 실제 시세 아님" if 'TEST' in title else title), asset_prefix=prefix, image_version=image_version, content=content), encoding="utf-8")
+        target.write_text(page.substitute(title=text(title), description=text("TEST · 레이아웃 확인용 자료 · 실제 시세 아님" if 'TEST' in title else title), asset_prefix=prefix, image_version=image_version, style_version=style_version, content=content), encoding="utf-8")
 
     manifest = []
     for report in reports:

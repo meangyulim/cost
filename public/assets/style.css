@@ -71,6 +71,14 @@ details[open]>summary .expand-mark:before{content:"−"}
 .stock-quote b{font-size:14px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .stock-quote .expand-mark{margin-left:0}
 .price-meta{font-size:12px;color:var(--muted)}
+.outlook-notice{border-left:2px solid #9d8ad1;padding-left:10px;margin:10px 0;font-size:13px;color:var(--muted)}
+.outlook-notice strong{color:var(--text);font-weight:600}
+.outlook-notice p{margin-top:3px}
+.outlook-badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.outlook-badge{display:inline-block;border:1px solid currentColor;border-radius:5px;padding:2px 6px;font-size:13px;line-height:1.5;font-weight:600}
+.outlook-up{color:var(--red)}.outlook-down{color:var(--blue)}.outlook-mixed{color:#d2b8ff}.outlook-unknown{color:var(--muted)}
+.outlook-details{margin:8px 0 12px;padding-left:10px;border-left:2px solid #756298;font-size:14px}
+.outlook-details p{margin-top:5px}.outlook-details p>span{color:var(--muted);font-weight:600}
 .watch{margin-top:10px}
 .watch>span{display:block;font-size:12px;color:var(--accent);font-weight:700;margin-bottom:3px}
 .next{list-style:none;padding:0;border-top:1px solid var(--line)}

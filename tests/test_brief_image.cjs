@@ -48,6 +48,19 @@ test('image percentages have one unit for both report input formats', () => {
   }
 });
 
+test('saved image distinguishes conditional horizons from observed price changes', () => {
+  const data = payloads().find(item => item.id === 'kr-pre-2026-10-02');
+  data.stocks[0].outlook.d1.direction = 'down';
+  data.stocks[0].outlook.d5.direction = 'up';
+  const plan = layout(data, context());
+  const text = plan.ops.filter(op => op.kind === 'text');
+  assert.ok(text.some(op => op.value === '당일 · − 하방 우세' && op.fill === '#1768ae'));
+  assert.ok(text.some(op => op.value === '5거래일 · + 상방 우세' && op.fill === '#c32d4b'));
+  assert.ok(text.some(op => op.value.includes('+2.79%') && op.fill === '#c32d4b'));
+  assert.ok(text.some(op => op.value.includes('조건부 방향 전망 · 검증 전')));
+  assert.ok(text.map(op => op.value).join('').replace(/\s/g, '').includes('장전예측의적중률평가에서제외'));
+});
+
 test('every real and TEST report renders without cropping or omitted sections', () => {
   for (const data of payloads()) {
     const ctx = context(), plan = layout(data, ctx);

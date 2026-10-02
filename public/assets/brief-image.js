@@ -8,6 +8,8 @@
   const color = direction => C[direction] || C.muted;
   const change = item => item.direction === "missing" ? "미확인" :
     `${String(item.percent).trim().replace(/[%％]+$/, "").trimEnd()}%`;
+  const outlookLabels = {up: "+ 상방 우세", down: "− 하방 우세", mixed: "± 재료 상충", unknown: "? 판단 보류"};
+  const outlookColors = {up: C.up, down: C.down, mixed: "#7252a1", unknown: C.muted};
 
   function wrap(ctx, value, maxWidth) {
     const lines = [];
@@ -80,6 +82,18 @@
         cursor = offset + op.value.length;
       }
     }
+    function outlook(entry) {
+      if (!data.outlook || !entry.outlook) return;
+      const left = entry.outlook.d1, right = entry.outlook.d5;
+      const top = y, col = (BODY - 12) / 2;
+      paragraph(`${data.outlook.labels.d1} · ${outlookLabels[left.direction]}`, 14,
+        outlookColors[left.direction], 600, PAD, col);
+      const end = y;
+      y = top;
+      paragraph(`${data.outlook.labels.d5} · ${outlookLabels[right.direction]}`, 14,
+        outlookColors[right.direction], 600, PAD + col + 12, col);
+      y = Math.max(end, y) + 3;
+    }
 
     rect(0, 0, WIDTH, 0, C.navy); // Its final height is measured below.
     paragraph(data.title, 20, "#ffffff", 700);
@@ -114,9 +128,15 @@
       paragraph(`※ ${notice}`, 13, C.muted);
       y += 2;
     }
+    if (data.outlook) {
+      paragraph(data.outlook.status, 13, "#7252a1", 600);
+      paragraph(`${data.outlook.estimated_at} ${data.outlook.added_later ? "추가" : "작성"} · 입력 ${data.outlook.input_cutoff}`, 11, C.muted);
+      paragraph(data.outlook.note, 12, C.muted);
+    }
     heading("핵심 이슈 3");
     data.issues.forEach((issue, n) => {
       inline(`${n + 1}. ${issue.title}`, issue.preview);
+      outlook(issue);
       y += 6;
     });
     heading("관찰 종목 3");
@@ -130,12 +150,14 @@
       }
       y += 3;
       paragraph(`${stock.reason} 확인 · ${stock.watch}`, 16, C.muted);
+      outlook(stock);
       y += 6;
       rule();
     });
     heading("다음 확인");
     data.next_checks.forEach(item => {
       inline(`${item.label} · ${item.title}`, item.detail);
+      outlook(item);
       y += 5;
     });
     y += 5;
