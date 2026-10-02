@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-02",
+  "latest_id": "kr-close-2026-10-02",
   "reports": [
+    {
+      "id": "kr-close-2026-10-02",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-02",
+      "title": "한국장 마감 · 2026.10.02",
+      "summary": "7,000선 회복…반도체 숨 고르기·매수 주체는 제한",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-02/"
+    },
     {
       "id": "kr-pre-2026-10-02",
       "is_test": false,
