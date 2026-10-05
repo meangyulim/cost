@@ -1,0 +1,27 @@
+{
+  "report_id": "us-close-2026-10-05",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-06T06:40:01.000+09:00",
+  "attempted_at_utc": "2026-10-05T21:40:01Z",
+  "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-05/",
+  "commit": "9e2511da5bef33254d41d78ca1b44ebb7e425ef9",
+  "deployment": {
+    "run_id": 37370342865,
+    "run_attempt": 2,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "deploy_job": "success"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "skipped_by_user_instruction",
+    "browser": "skipped_by_user_instruction",
+    "mobile": "skipped_by_user_instruction",
+    "text_zoom": "skipped_by_user_instruction"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "send_retry_allowed": false,
+  "recovery": "User requested recovery after delayed Actions deployment; existing report preserved; no prior dispatch record observed"
+}
