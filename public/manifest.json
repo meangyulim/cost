@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-05",
+  "latest_id": "us-close-2026-10-05",
   "reports": [
+    {
+      "id": "us-close-2026-10-05",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-05",
+      "title": "미국장 마감 후 브리핑 · 2026-10-05",
+      "summary": "나스닥은 기술주와 M&A에 최고 종가, 금리는 5.31%로 부담",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-05/"
+    },
     {
       "id": "us-pre-2026-10-05",
       "is_test": false,
