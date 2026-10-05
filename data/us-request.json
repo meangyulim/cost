@@ -1,9 +1,9 @@
 {
   "end_date": "2026-10-02",
   "watch": [
-    "NKE",
-    "TSLA",
-    "NVDA"
+    "PTC",
+    "INTC",
+    "MU"
   ],
-  "requested_at": "2026-10-03T05:15:52+09:00"
+  "requested_at": "2026-10-05T22:14:10+09:00"
 }
