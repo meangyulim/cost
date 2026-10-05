@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-02",
+  "latest_id": "us-pre-2026-10-05",
   "reports": [
+    {
+      "id": "us-pre-2026-10-05",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-05",
+      "title": "미국장 시작 전 브리핑 · 2026-10-05",
+      "summary": "기술주 숨고르기, 금리 부담 속 종목 장세",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-05/"
+    },
     {
       "id": "us-close-2026-10-02",
       "is_test": false,

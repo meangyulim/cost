@@ -1,0 +1,554 @@
+{
+  "id": "us-pre-2026-10-05",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-05",
+  "title": "미국장 시작 전 브리핑 · 2026-10-05",
+  "as_of": "2026-10-03T05:00:00+09:00",
+  "queried_at": "2026-10-05T22:14:10+09:00",
+  "venue": "NYSE / Nasdaq",
+  "summary": "기술주 숨고르기, 금리 부담 속 종목 장세",
+  "summary_detail": "미국 지수선물은 혼조이고 10년 국채수익률은 5.277%입니다. PTC는 인수 발표로 급등했지만 Intel·Micron은 장전 약세입니다. 서비스업 지표와 개장 후 금리 반응을 확인합니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,722.72",
+      "unit": "pt",
+      "delta": "+56.27",
+      "percent": "+0.7",
+      "direction": "up",
+      "source": "ap-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가"
+    },
+    {
+      "name": "다우존스",
+      "value": "51,176.96",
+      "unit": "pt",
+      "delta": "+250.40",
+      "percent": "+0.5",
+      "direction": "up",
+      "source": "ap-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "27,190.86",
+      "unit": "pt",
+      "delta": "+319.27",
+      "percent": "+1.2",
+      "direction": "up",
+      "source": "ap-close",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "2026-10-02 미국 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "선물 혼조, 10년 금리 5.277%",
+      "fact": "10월5일 08:13 EDT 기준 다우 E-mini +0.07%, S&P 500 E-mini +0.02%, 나스닥100 E-mini −0.11%였습니다. 미국 10년 국채수익률은 5.277%로 높은 수준이고 브렌트유는 배럴당 100달러 부근이었습니다. 해석: 전일 기술주 강세보다 금리·유가 부담이 개장 후 방향을 가를 수 있습니다.",
+      "source": "reuters-market"
+    },
+    {
+      "title": "PTC, 슈나이더 인수 발표에 급등",
+      "fact": "Schneider Electric은 10월5일 PTC 인수 합의를 공식 공시했습니다. Reuters는 전액 현금 거래의 PTC 지분가치를 약 226억달러로 전했고, PTC는 장전 35.7% 상승했습니다. 해석: 인수가격이 단기 기준점이지만 거래 종결 조건과 규제 위험은 남습니다.",
+      "source": "schneider",
+      "additional_sources": [
+        "reuters-market"
+      ]
+    },
+    {
+      "title": "반도체는 선반영 뒤 엇갈림",
+      "fact": "Reuters 기준 장전 Intel −3.8%, Micron −0.6%, Nvidia +0.5%였습니다. 전일 Nasdaq은 +1.2%로 강했지만 10년 금리는 5.277%입니다. 해석: AI 수요 호재와 사전 상승·차익실현·할인율 부담이 충돌하므로 장초반 경로와 종가 방향을 분리해 봅니다.",
+      "source": "reuters-market",
+      "additional_sources": [
+        "ap-close"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "PTC",
+      "ticker": "PTC",
+      "price": "144.03",
+      "currency": "USD",
+      "delta": "−2.44",
+      "percent": "−1.67",
+      "direction": "down",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-02 정규장 종가",
+      "reason": "슈나이더의 현금 인수 발표로 장전 급등한 산업 소프트웨어 종목입니다.",
+      "watch": "장전 +35.7%의 갭 유지와 거래 조건 공시를 확인합니다.",
+      "source": "ptc-price",
+      "reason_sources": [
+        "schneider",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+35.7",
+        "as_of": "2026-10-05T21:13:00+09:00",
+        "venue": "미국 장전; Reuters 08:13 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "인텔",
+      "ticker": "INTC",
+      "price": "119.33",
+      "currency": "USD",
+      "delta": "−0.73",
+      "percent": "−0.61",
+      "direction": "down",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-02 정규장 종가",
+      "reason": "경쟁 관련 우려로 장전 약세가 두드러진 반도체 종목입니다.",
+      "watch": "장전 −3.8% 갭과 119.33달러 회복·SOXX 대비 상대강도를 확인합니다.",
+      "source": "intc-price",
+      "reason_sources": [
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "−3.8",
+        "as_of": "2026-10-05T21:13:00+09:00",
+        "venue": "미국 장전; Reuters 08:13 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "1,074.89",
+      "currency": "USD",
+      "delta": "−22.93",
+      "percent": "−2.09",
+      "direction": "down",
+      "as_of": "2026-10-03T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-02 정규장 종가",
+      "reason": "호실적 기대와 선반영·차익실현 위험이 함께 있는 메모리 종목입니다.",
+      "watch": "장전 −0.6%에서 1,074.89달러와 VWAP 회복을 확인합니다.",
+      "source": "mu-price",
+      "reason_sources": [
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "−0.6",
+        "as_of": "2026-10-05T21:13:00+09:00",
+        "venue": "미국 장전; Reuters 08:13 EDT 기사 기준"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국 10년 국채수익률",
+    "value": "5.277",
+    "unit": "%",
+    "delta": "미확인",
+    "direction": "flat",
+    "as_of": "2026-10-05T21:13:00+09:00",
+    "session": "2026-10-05 08:13 EDT Reuters 최근값; 전일 대비 미확인",
+    "source": "reuters-market"
+  },
+  "interpretation": "전일 지수 상승에도 오늘 선물은 사실상 보합이고 금리·유가는 높습니다. 지수 전체보다 PTC 인수와 반도체 선반영처럼 개별 재료의 가격 반영 정도를 구분해 볼 장입니다.",
+  "next_checks": [
+    {
+      "label": "10월5일22:30 KST",
+      "title": "미국 정규장 개장",
+      "detail": "09:30 EDT. 선물 혼조가 현물 지수·시장 폭으로 이어지는지와 10년 금리 5.277% 부근을 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "개장 직후",
+      "title": "미국 서비스업 조사",
+      "detail": "Reuters가 예고한 9월 서비스업 설문 두 건의 발표값과 금리·나스닥 반응을 확인합니다.",
+      "source": "reuters-market"
+    },
+    {
+      "label": "10월6일05:00 KST",
+      "title": "미국 정규장 종가",
+      "detail": "16:00 EDT. PTC 인수 갭과 INTC·MU의 장초반 경로가 종가에 남았는지 확인합니다.",
+      "source": "calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "NYSE · 2026 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026년 공식 휴장·조기폐장표에서10월5일 제외.정규장09:30~16:00ET.2026-10-05는 EDT(UTC−04:00).22:14KST 조회."
+    },
+    {
+      "id": "ap-close",
+      "label": "AP · 10월2일 미국 종가",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-48e9066481cba91a5d7c6688aa74a5cd",
+      "note": "S&P500 7722.72,+56.27,+0.7%;다우51176.96,+250.40,+0.5%;나스닥27190.86,+319.27,+1.2%."
+    },
+    {
+      "id": "reuters-market",
+      "label": "Reuters · 10월5일 미국 장전",
+      "url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
+      "note": "08:13EDT 선물,미10년5.277%,PTC+35.7%,INTC−3.8%,MU−0.6%,NVDA+0.5%.시세는 최소15분 지연."
+    },
+    {
+      "id": "schneider",
+      "label": "Schneider Electric · PTC 인수 공시",
+      "url": "https://www.se.com/ww/en/about-us/investor-relations/regulatory-information/overview/",
+      "note": "2026-10-05 규제정보 목록의 PTC 인수 발표와 투자자 자료 확인."
+    },
+    {
+      "id": "ptc-price",
+      "label": "Quiver · PTC 10월2일 종가",
+      "url": "https://www.quiverquant.com/stock/PTC/historical-prices/",
+      "note": "10월2일144.03달러.10월1일146.47달러 대비−2.44달러(−1.67%) 직접 계산."
+    },
+    {
+      "id": "intc-price",
+      "label": "StockMarketRanks · INTC 종가",
+      "url": "https://stockmarketranks.com/stocks/INTC/history",
+      "note": "10월2일119.33달러.시세조회 도구의 전일대비−0.73달러(−0.61%) 사용."
+    },
+    {
+      "id": "mu-price",
+      "label": "StatMuse · MU 종가",
+      "url": "https://www.statmuse.com/money/ask/mu-stock-price-in-2026",
+      "note": "10월2일1074.89달러.시세조회 도구의 전일대비−22.93달러(−2.09%) 사용."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/",
+      "note": "요청 커밋229045ad의 Collect US briefing inputs 실행37315280612 성공.로그상 data_date=2026-10-02,27개 요청,artifact us-analysis-37315280612 생성.현재 도구로 analysis.json 본문을 열지 못해 파생 수치는 보고서에 미반영.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-05",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-05T22:14:10+09:00",
+    "note": "NYSE 공식2026휴장·조기폐장표에서10월5일 제외.정규장09:30~16:00EDT;KST10월5일22:30~10월6일05:00.EDT(UTC−04:00) 확인."
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-05T22:12:41+09:00",
+    "actual_started_at_utc": "2026-10-05T13:12:41Z",
+    "actual_started_at_local": "2026-10-05T09:12:41-04:00",
+    "scheduled_at_kst": "2026-10-05T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-05T13:00:00Z",
+    "scheduled_at_local": "2026-10-05T09:00:00-04:00",
+    "start_offset_seconds": 761,
+    "environment": "Work cloud Linux; fresh checkout; GitHub OAuth connector and kakao memochat tool exposed",
+    "model_setting": "Requested GPT-6.1 Sol High; explicit automation model metadata unavailable, application unverified",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "calculation_notes": "지수는 AP 원문값.PTC:144.03−146.47=−2.44;−2.44/146.47×100=−1.6659%→−1.67%.INTC·MU 변동은 시세조회 도구 표시값.장전은 Reuters 등락률만 사용해 가격·변동액은 미확인.기관수급·옵션·분봉·미래확률은 미산출.",
+  "reading": {
+    "headline": "금리 부담, 종목별 재료 장세",
+    "summary_points": [
+      "선물은 보합권, 10년 금리는 5.277%입니다.",
+      "PTC는 인수 발표로 장전 +35.7%입니다.",
+      "INTC −3.8%, MU −0.6%로 반도체는 약세입니다."
+    ],
+    "notices": [
+      "지수·종목은 10월3일05:00 KST 직전 정규장 종가입니다. 장전 등락률은 별도 구간입니다.",
+      "장전 가격·분봉·옵션·투자자별 수급은 미확인입니다. 방향 배지는 검증 전 조건부 해석입니다.",
+      "Massive 수집은 10월2일 기준으로 성공했지만 analysis.json 본문을 열지 못해 파생 수치는 미반영입니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-05T22:14:10+09:00",
+      "input_cutoff": "2026-10-05T22:14:10+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다."
+    },
+    "issues": [
+      {
+        "title": "선물 보합·금리 고공행진",
+        "preview": "개장 후 금리 방향이 기술주를 가릅니다.",
+        "points": [
+          "S&P선물 +0.02%, Nasdaq100선물 −0.11%.",
+          "미국10년 5.277%, 브렌트유 100달러 부근."
+        ],
+        "meaning": "할인율 부담과 전일 모멘텀이 맞섭니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "선물은 보합권이고 전일 상승 모멘텀은 남아 있다.",
+            "counter": "10년 금리 5.277%와 고유가가 기술주를 압박할 수 있다.",
+            "invalidation": "금리 하락과 시장 폭 확산이면 상방, 금리 상승과 나스닥 약세면 하방으로 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "실적 기대와 전일 강세는 지지 요인이다.",
+            "counter": "높은 금리·유가와 후속 지표가 방향을 바꿀 수 있다.",
+            "invalidation": "금리·이익전망·시장 폭이 같은 방향으로 이어지면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PTC 인수 프리미엄",
+        "preview": "현금 인수가격과 종결 조건이 기준입니다.",
+        "points": [
+          "지분가치 약 226억달러 전액 현금 거래.",
+          "PTC 장전 +35.7%."
+        ],
+        "meaning": "급등 뒤 갭 유지와 거래 조건을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "PTC",
+            "basis": "공식 인수 합의와 장전 +35.7%가 상방을 지지한다.",
+            "counter": "장초반 차익실현과 인수가격 근접 시 추가 상승이 제한될 수 있다.",
+            "invalidation": "갭 절반 이상 반납 또는 거래 불확실성 확대 시 재판단한다.",
+            "sources": [
+              "schneider",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PTC",
+            "basis": "현금 인수가격은 가격 기준점이 된다.",
+            "counter": "규제·주주승인·거래 일정 위험이 남는다.",
+            "invalidation": "조건 변경 공시가 나오면 갱신한다.",
+            "sources": [
+              "schneider",
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 선반영 점검",
+        "preview": "호재보다 장초반 흡수 여부가 중요합니다.",
+        "points": [
+          "INTC 장전 −3.8%, MU −0.6%.",
+          "전일 Nasdaq +1.2%, 미국10년 5.277%."
+        ],
+        "meaning": "초기 매도와 종가 방향을 분리해 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "INTC·MU 및 반도체",
+            "basis": "전일 나스닥 강세와 AI 수요 기대는 지지 요인이다.",
+            "counter": "INTC·MU 장전 약세, 높은 금리와 차익실현 위험이 있다.",
+            "invalidation": "전일 종가와 VWAP 회복이면 상방, 상대약세 지속이면 하방으로 본다.",
+            "sources": [
+              "reuters-market",
+              "ap-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC·MU 및 반도체",
+            "basis": "중장기 AI 수요 기대는 남아 있다.",
+            "counter": "높은 금리와 기업별 재료 차이가 크다.",
+            "invalidation": "업종 상대강도와 추정 변화가 같은 방향이면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-close"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "10년 금리 5.277%의 개장 후 방향을 봅니다.",
+      "PTC 갭 유지와 INTC·MU 회복을 분리해 봅니다.",
+      "서비스업 지표 뒤 나스닥·시장 폭 반응을 확인합니다."
+    ],
+    "stocks": {
+      "PTC": {
+        "reason": "현금 인수 발표로 장전 급등한 이벤트 종목입니다.",
+        "watch": "갭 유지와 공식 인수가격·종결 조건을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "PTC",
+            "basis": "인수 합의와 장전 +35.7%가 상방을 지지한다.",
+            "counter": "장초반 차익실현 가능성이 있다.",
+            "invalidation": "갭 절반 이상 반납 시 재판단한다.",
+            "sources": [
+              "schneider",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PTC",
+            "basis": "현금 인수가격이 기준점이다.",
+            "counter": "규제·종결 일정 위험이 남는다.",
+            "invalidation": "조건 변경 공시 시 갱신한다.",
+            "sources": [
+              "schneider"
+            ]
+          }
+        }
+      },
+      "INTC": {
+        "reason": "경쟁 우려로 장전 −3.8%인 반도체 종목입니다.",
+        "watch": "119.33달러와 VWAP 회복·상대강도를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "INTC",
+            "basis": "장전 −3.8% 갭이 하방을 지지한다.",
+            "counter": "큰 갭 뒤 저가매수와 업종 반등이 가능하다.",
+            "invalidation": "119.33달러와 VWAP 회복 시 하방 판단을 낮춘다.",
+            "sources": [
+              "reuters-market",
+              "intc-price"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "경쟁 우려가 추정치에 반영될 수 있다.",
+            "counter": "단일 기사 반응만으로 5일 방향을 확정할 수 없다.",
+            "invalidation": "후속 공시와 업종 상대강도가 일치하면 방향을 정한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "호실적 뒤 선반영과 차익실현을 점검할 종목입니다.",
+        "watch": "1,074.89달러·VWAP 회복과 장초반 경로를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "AI 메모리 수요와 전일 나스닥 강세는 지지 요인이다.",
+            "counter": "장전 −0.6%, 전일 약세와 높은 금리가 부담이다.",
+            "invalidation": "전일 종가와 VWAP 회복이면 상방, 상대약세 지속이면 하방이다.",
+            "sources": [
+              "reuters-market",
+              "mu-price",
+              "ap-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "실적 기대는 남아 있다.",
+            "counter": "선반영 정도와 높은 금리가 상충한다.",
+            "invalidation": "거래량 동반 업종 상대강도로 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "mu-price"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "현물 개장·금리",
+        "detail": "선물 보합이 현물 시장 폭과 금리 방향으로 확인되는지 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "선물은 보합권이다.",
+            "counter": "5.277% 금리가 기술주를 압박할 수 있다.",
+            "invalidation": "금리와 시장 폭이 같은 방향이면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "첫날 종가는 후속 방향의 관찰값이다.",
+            "counter": "한 거래일만으로 5일 추세를 정할 수 없다.",
+            "invalidation": "후속 이익전망과 금리를 함께 본다.",
+            "sources": [
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "서비스업 지표 반응",
+        "detail": "발표값보다 금리·나스닥의 실제 반응을 먼저 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "발표 전이라 결과를 알 수 없다.",
+            "counter": "강한 지표는 이익과 금리에 상반된 영향을 준다.",
+            "invalidation": "발표 후 금리·달러·지수 반응으로 방향을 정한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "후속 해석이 필요하다.",
+            "counter": "단일 설문으로 5일 방향을 정할 수 없다.",
+            "invalidation": "연준 기대와 이익 전망을 확인한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PTC·반도체 종가",
+        "detail": "장초반 갭과 종가 방향이 달라지는지 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PTC·INTC·MU",
+            "basis": "PTC는 인수 호재, INTC·MU는 장전 약세다.",
+            "counter": "장초반 되돌림은 종가 방향과 다를 수 있다.",
+            "invalidation": "전일 종가·VWAP 회복으로 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "schneider"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PTC·INTC·MU",
+            "basis": "기업별 사건의 경로가 다르다.",
+            "counter": "공통 업종 방향으로 묶기 어렵다.",
+            "invalidation": "후속 공시와 상대강도로 갱신한다.",
+            "sources": [
+              "schneider",
+              "reuters-market"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "NYSE · 거래일·시간",
+      "ap-close": "AP · 10월2일 미국 종가",
+      "reuters-market": "Reuters · 10월5일 장전",
+      "schneider": "Schneider Electric · PTC 인수",
+      "ptc-price": "Quiver · PTC 종가",
+      "intc-price": "StockMarketRanks · INTC 종가",
+      "mu-price": "StatMuse · MU 종가"
+    }
+  }
+}
