@@ -1,0 +1,636 @@
+{
+  "id": "kr-pre-2026-10-06",
+  "is_test": false,
+  "market": "KR",
+  "session": "pre",
+  "market_date": "2026-10-06",
+  "title": "10월 6일 한국장 시작 전",
+  "as_of": "2026-10-06T08:30:58+09:00",
+  "queried_at": "2026-10-06T08:30:58+09:00",
+  "venue": "국내 지수·관찰 종목은 2026.10.02 KRX 정규장 15:30 KST 종가. 미국 지수는 2026.10.06 05:00 KST(뉴욕 2026.10.05 16:00 EDT) 정규장 종가. NXT·장전·시간외 가격과 혼합하지 않음.",
+  "summary": "미국 기술주 강세, 금리·유가 부담 공존",
+  "summary_detail": "나스닥 최고 종가와 엔비디아 강세는 국내 반도체에 우호적이지만, 미국 10년물 5.31%와 100달러를 웃도는 브렌트유는 추격 매수의 부담이다. 삼성전자 10월 8일 잠정실적과 개장 뒤 외국인 수급을 확인한다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "7,003.74",
+      "unit": "pt",
+      "delta": "+32.39",
+      "percent": "+0.46",
+      "direction": "up",
+      "source": "kospi",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "session": "KRX 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "893.29",
+      "unit": "pt",
+      "delta": "−1.00",
+      "percent": "−0.11",
+      "direction": "down",
+      "source": "kosdaq",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "session": "KRX 정규장 종가"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,773.95",
+      "unit": "pt",
+      "delta": "+51.23",
+      "percent": "+0.66",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "미국 10/5 정규장 종가"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "27,477.31",
+      "unit": "pt",
+      "delta": "+286.45",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "미국 10/5 정규장 종가"
+    },
+    {
+      "name": "다우",
+      "value": "51,267.90",
+      "unit": "pt",
+      "delta": "+90.94",
+      "percent": "+0.18",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "미국 10/5 정규장 종가"
+    }
+  ],
+  "fx": {
+    "label": "원·달러",
+    "value": "1,343.26",
+    "unit": "원/USD",
+    "delta": "+1.62원",
+    "direction": "up",
+    "as_of": "2026-10-06T08:30:58+09:00",
+    "session": "글로벌 제공사 조회값 · 정확한 호가시각·서울 현물환 종가 미확인",
+    "source": "fx"
+  },
+  "issues": [
+    {
+      "title": "나스닥 최고 종가와 반도체 기대",
+      "fact": "미국 10월 5일 정규장에서 나스닥 종합은 27,477.31로 286.45포인트(+1.05%) 올라 최고 종가를 경신했다. S&P500은 +0.66%, 다우는 +0.18%였다. Reuters는 엔비디아가 2.1% 올라 최고 종가를 기록했다고 전했다. 해석: 국내 반도체 개장 심리에 우호적이지만 미국 기술주 급등이 이미 반영된 만큼 장중 상승 지속 여부를 따로 확인해야 한다.",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ]
+    },
+    {
+      "title": "삼성전자 10월 8일 잠정실적",
+      "fact": "삼성전자 IR에는 2026년 3분기 실적 발표 항목이 예정 자료로 표시돼 있고, 복수의 국내 보도는 잠정실적 발표일을 10월 8일로 전했다. 일부 증권사는 원화 강세와 성과급 충당금 등을 이유로 추정치를 낮췄다. 정확한 발표 시각은 확인되지 않았다. 해석: 발표 전 기대 선반영과 추정치 변동이 삼성전자와 반도체 업종의 변동성을 키울 수 있다.",
+      "source": "samsung-ir",
+      "additional_sources": [
+        "samsung-preview"
+      ]
+    },
+    {
+      "title": "유가 하락에도 금리·비용 부담",
+      "fact": "미국 10년물 국채수익률은 10월 5일 5.31%로 약 3bp 올랐고, 브렌트유는 하락했지만 배럴당 100달러를 웃돌았다. 원·달러 글로벌 조회값은 1,343.26원으로 제공사 전일값 1,341.64원보다 1.62원 높다. 정확한 환율 호가시각과 서울 현물환 종가는 미확인이다. 해석: 기술주 강세와 별개로 높은 할인율과 항공·운송 비용 부담이 남아 있다.",
+      "source": "ap-close",
+      "additional_sources": [
+        "fx"
+      ]
+    }
+  ],
+  "interpretation": "개장 전 방향은 반도체에 우호적이지만 일방적 위험선호로 보기 어렵다. 코스피 대형 반도체가 미국 기술주 상승을 이어받는지, 코스닥이 전일 약세를 되돌리는지, 금리·유가·환율 부담이 항공과 성장주에 재반영되는지를 함께 본다.",
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "276,000",
+      "currency": "KRW",
+      "delta": "0",
+      "percent": "0.00",
+      "direction": "flat",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "session": "KRX 정규장 종가 · NXT 가격 제외",
+      "source": "samsung",
+      "reason_sources": [
+        "us-close",
+        "samsung-ir",
+        "samsung-preview"
+      ],
+      "reason": "나스닥·엔비디아 강세와 10월 8일 잠정실적을 함께 반영할 대형 반도체 대표주다. 가격 상승만으로 실적 개선을 확정하지 않는다.",
+      "watch": "개장 뒤 276,000원 부근 유지, SK하이닉스와의 동반 흐름, 10월 8일 잠정실적의 매출·영업이익을 확인한다."
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,841,000",
+      "currency": "KRW",
+      "delta": "+8,000",
+      "percent": "+0.44",
+      "direction": "up",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "session": "KRX 정규장 종가 · NXT 가격 제외",
+      "source": "hynix",
+      "reason_sources": [
+        "us-close",
+        "power-risk"
+      ],
+      "reason": "엔비디아 최고 종가가 AI 메모리 심리를 지지하지만, 데이터센터 전력 부족이 메모리·부품 공급망에 부담을 줄 수 있다는 경고도 확인한다.",
+      "watch": "개장 갭 유지 여부와 삼성전자 동반 강세, 미국 10년물 상승 시 고평가 기술주 되돌림을 확인한다."
+    },
+    {
+      "name": "대한항공",
+      "ticker": "003490",
+      "price": "30,600",
+      "currency": "KRW",
+      "delta": "−600",
+      "percent": "−1.92",
+      "direction": "down",
+      "as_of": "2026-10-02T15:30:00+09:00",
+      "session": "KRX 정규장 종가 · NXT 가격 제외",
+      "source": "korean-air",
+      "reason_sources": [
+        "ap-close",
+        "fx"
+      ],
+      "reason": "밤사이 유가 하락은 비용 측면의 완화 요인이지만 브렌트유 100달러 상회와 원화 약세 조회값은 부담을 남긴다.",
+      "watch": "개장 뒤 전일 낙폭 회복 여부와 유가 하락 지속, 원·달러 서울 현물환의 실제 개장 방향을 확인한다."
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026.10.06 09:00 KST",
+      "title": "KRX 정규장 개장",
+      "detail": "대형 반도체 갭 유지, 코스닥 반등, 대한항공 낙폭 회복과 원·달러 현물환 방향을 확인한다.",
+      "source": "hours"
+    },
+    {
+      "label": "2026.10.08 · 시각 미확인",
+      "title": "삼성전자 3분기 잠정실적",
+      "detail": "기업 IR 게시와 매출·영업이익, 시장 기대 대비 차이를 확인한다. 발표 시각은 확인 순서로 둔다.",
+      "source": "samsung-ir",
+      "additional_sources": [
+        "samsung-preview"
+      ]
+    },
+    {
+      "label": "2026.10.09 KST",
+      "title": "KRX 한글날 휴장",
+      "detail": "공식 10월 휴장 공지에 따른 휴장이다. 10월 8일 마감 뒤 해외 금리·유가 변화를 점검한다.",
+      "source": "calendar"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+    "market_date": "2026-10-06",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-06T08:30:58+09:00",
+    "note": "KRX 공식 2026년 10월 휴장 공지는 10/5와 10/9를 휴장일로 명시한다. 10/6은 휴장 목록에 없고 공식 현물 정규장 시간은 09:00~15:30 KST이므로 정상 거래일로 판단했다. 조기폐장 공지는 확인되지 않았다.",
+    "hours_url": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp",
+    "previous_trading_day": "2026-10-02"
+  },
+  "execution_context": {
+    "scheduled_at_kst": "2026-10-06T08:30:00+09:00",
+    "scheduled_at_utc": "2026-10-05T23:30:00+00:00",
+    "scheduled_timezone": "Asia/Seoul",
+    "actual_started_at_kst": "2026-10-06T08:26:00+09:00",
+    "actual_started_at_utc": "2026-10-05T23:26:00+00:00",
+    "start_offset_seconds": -240,
+    "delay_seconds": 0,
+    "early_start_seconds": 240,
+    "environment": "이번 실행에서 확인한 Work 클라우드 bash 실행공간·Python3·Git 공개원격 읽기·연결된 GitHub OAuth 쓰기·Actions 조회 및 Kakao self 전송 도구. 비밀값은 읽거나 출력하지 않음.",
+    "model_configuration": "사용자 희망 모델·추론 설정의 실제 예약 메타데이터는 미확인, 적용했다고 기록하지 않음",
+    "krx_request_commit": "6ee82e0e45f6a66f5be652c9131462af5001917c",
+    "krx_run_id": 37388560235,
+    "krx_run_conclusion": "success",
+    "krx_artifact_id": 11379234154,
+    "krx_artifact_digest": "sha256:554578f8c8d7e7e393d3073684e0f1e6341c4404df0686cb9ae703ce84da8e5b",
+    "krx_data_date": "미확인",
+    "krx_queried_at": "미확인",
+    "krx_analysis_note": "이번 요청 워크플로 성공과 artifact 메타데이터를 확인했으나 현재 GitHub 연결에서 artifact 본문 다운로드를 지원하지 않아 analysis.json의 data_date·queried_at·파생 수치를 확인하지 못했다. 따라서 해당 파생 수치는 보고서에 사용하지 않았다.",
+    "additional_checks": "사용자 지시로 별도 HTTP·브라우저·모바일·글자확대·반복테스트 생략. 작성 커밋의 Actions Pages 실제 배포 결과와 원격 attempted 선점은 유지."
+  },
+  "calculation_notes": "원·달러 변동액 +1.62원 = 글로벌 제공사 조회값 1,343.26원 - 제공사 전일값 1,341.64원. 서울 현물환 종가가 아니며 정확한 호가시각은 미확인이다. 지수와 종목 등락률·변동액은 원문 제공값을 사용했고 등락률로 가격을 역산하지 않았다.",
+  "reading": {
+    "headline": "기술주 훈풍, 금리·유가는 부담",
+    "summary_points": [
+      "나스닥 최고 종가로 반도체 개장 심리는 우호적입니다.",
+      "미 10년물 5.31%와 고유가는 추격 매수 부담입니다.",
+      "삼성전자 10월 8일 잠정실적을 앞두고 있습니다."
+    ],
+    "notices": [
+      "국내 가격은 10/2 KRX 종가이며 NXT·오늘 장전 시세가 아닙니다.",
+      "원·달러 1,343.26원은 글로벌 조회값으로 정확한 호가시각과 서울 현물환 종가는 미확인입니다.",
+      "KRX 분석 artifact 본문을 읽지 못해 파생 시장 폭·수급 수치는 사용하지 않았습니다."
+    ],
+    "issues": [
+      {
+        "title": "나스닥 최고 종가",
+        "preview": "미국 기술주 강세가 국내 반도체 심리를 지지합니다.",
+        "points": [
+          "나스닥 +1.05%, S&P500 +0.66%.",
+          "엔비디아 +2.1%, 최고 종가."
+        ],
+        "meaning": "반도체 개장 강세 뒤 상승 폭 유지가 핵심입니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "국내 반도체 업종",
+            "basis": "나스닥과 엔비디아 최고 종가는 오늘 개장 심리를 지지한다.",
+            "counter": "미국 10년물 5.31%와 연휴 뒤 선반영은 장중 되돌림을 만들 수 있다.",
+            "invalidation": "삼성전자·SK하이닉스가 전일 종가를 함께 밑돌면 상방 해석을 철회한다.",
+            "sources": [
+              "us-close",
+              "ap-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체 업종",
+            "basis": "AI 수요 기대가 이어지지만 삼성전자 잠정실적과 높은 장기금리가 상충한다.",
+            "counter": "미국 기술주 편중과 데이터센터 전력 제약이 공급망 기대를 낮출 수 있다.",
+            "invalidation": "잠정실적과 기업 설명이 기대를 웃돌고 금리가 낮아지면 상방으로 재판단한다.",
+            "sources": [
+              "us-close",
+              "samsung-ir",
+              "power-risk"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성전자 실적 대기",
+        "preview": "10월 8일 발표 전 기대와 추정치 변화를 봅니다.",
+        "points": [
+          "3분기 잠정실적은 10월 8일 예정.",
+          "정확한 발표 시각은 미확인."
+        ],
+        "meaning": "발표 전 선반영과 실제 숫자를 구분해야 합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자·반도체 대형주",
+            "basis": "미국 기술주 강세와 실적 기대가 지지 요인이다.",
+            "counter": "일부 추정치 하향과 기대 선반영은 상승 폭을 제한할 수 있다.",
+            "invalidation": "개장 뒤 외국인 매수와 대형주 동반 강세가 확인되면 상방, 반대면 하방으로 재판단한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview",
+              "us-close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성전자",
+            "basis": "10월 8일 실제 매출·영업이익이 5거래일 방향을 좌우한다.",
+            "counter": "발표 전 현재 자료만으로 실적 서프라이즈 여부를 확정할 수 없다.",
+            "invalidation": "회사 잠정실적과 컨퍼런스콜 일정이 확인되면 새 숫자로 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview"
+            ]
+          }
+        }
+      },
+      {
+        "title": "금리·유가 비용 부담",
+        "preview": "유가는 내렸지만 100달러 상회, 금리는 5.31%입니다.",
+        "points": [
+          "미 10년물 5.31%, 약 3bp 상승.",
+          "브렌트유는 하락했지만 100달러 상회."
+        ],
+        "meaning": "성장주 할인율과 항공·운송 비용을 함께 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 성장주·항공주",
+            "basis": "밤사이 유가 하락은 항공 비용 우려를 일부 낮춘다.",
+            "counter": "절대 유가와 미국 장기금리는 여전히 높고 원화 약세 조회값도 부담이다.",
+            "invalidation": "서울 원·달러와 유가가 함께 하락하면 항공 상방, 금리·환율 상승이면 성장주 하방으로 재판단한다.",
+            "sources": [
+              "ap-close",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 성장주·항공주",
+            "basis": "유가 하락 지속 여부와 장기금리 방향이 업종별로 엇갈린 영향을 준다.",
+            "counter": "중동 뉴스와 환율은 단기간에 방향을 바꿀 수 있다.",
+            "invalidation": "브렌트 100달러 이탈과 원화 강세가 지속되면 항공 상방, 반대면 부담 확대다.",
+            "sources": [
+              "ap-close",
+              "fx"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "반도체 개장 갭보다 정규장 상승 폭 유지가 중요합니다.",
+      "코스닥이 10/2 약세를 되돌리는지 확인합니다.",
+      "금리·유가·환율이 업종별 차별화를 만드는지 봅니다."
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "미국 기술주 강세와 10월 8일 잠정실적 기대를 함께 반영합니다.",
+        "watch": "276,000원 지지와 잠정실적 실제 숫자를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "나스닥·엔비디아 강세가 개장 심리를 지지한다.",
+            "counter": "실적 기대 선반영과 일부 추정치 하향이 부담이다.",
+            "invalidation": "276,000원 지지와 외국인 매수가 동반되면 상방, 이탈하면 하방으로 재판단한다.",
+            "sources": [
+              "samsung",
+              "us-close",
+              "samsung-preview"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성전자",
+            "basis": "10월 8일 잠정실적이 방향의 핵심 확인값이다.",
+            "counter": "현재 자료로 실제 실적과 주가 반응을 확정할 수 없다.",
+            "invalidation": "회사 발표 뒤 매출·영업이익과 시장 반응으로 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "엔비디아 최고 종가의 AI 메모리 파급과 전력 제약 위험을 봅니다.",
+        "watch": "개장 갭 유지와 삼성전자 동반 강세를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "엔비디아 최고 종가가 AI 메모리 심리를 지지한다.",
+            "counter": "높은 장기금리와 전력 제약 우려가 차익실현을 부를 수 있다.",
+            "invalidation": "1,841,000원 위 안착·동반 강세 시 상방, 전일 종가 이탈 시 하방으로 재판단한다.",
+            "sources": [
+              "hynix",
+              "us-close",
+              "power-risk"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "AI 메모리 수요 기대와 공급망 전력 제약이 상충한다.",
+            "counter": "삼성전자 실적 발표가 업종 전체 기대를 바꿀 수 있다.",
+            "invalidation": "기업 수요 설명과 금리 방향이 같은 쪽으로 확인되면 갱신한다.",
+            "sources": [
+              "power-risk",
+              "samsung-ir"
+            ]
+          }
+        }
+      },
+      "003490": {
+        "reason": "유가 하락의 비용 완화와 여전히 높은 유가·환율 부담을 비교합니다.",
+        "watch": "30,600원 회복 여부와 서울 원·달러 개장을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "대한항공",
+            "basis": "밤사이 유가 하락은 전일 낙폭의 일부 회복 요인이다.",
+            "counter": "브렌트 100달러 상회와 원화 약세 조회값은 비용 부담이다.",
+            "invalidation": "유가·서울 환율 동반 하락 시 상방, 동반 상승 시 하방으로 재판단한다.",
+            "sources": [
+              "korean-air",
+              "ap-close",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "대한항공",
+            "basis": "유가와 환율의 순비용 효과가 5거래일 흐름을 결정한다.",
+            "counter": "중동 뉴스로 유가 변동성이 다시 커질 수 있다.",
+            "invalidation": "브렌트 100달러 이탈·원화 강세 지속 시 상방으로 갱신한다.",
+            "sources": [
+              "ap-close",
+              "fx"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "KRX 개장 반응",
+        "detail": "반도체 갭 유지와 항공 낙폭 회복을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "미국 기술주 강세가 개장을 지지한다.",
+            "counter": "높은 금리·유가와 연휴 뒤 선반영이 부담이다.",
+            "invalidation": "반도체 동반 강세·코스닥 반등 시 상방, 둘 다 실패하면 하방으로 재판단한다.",
+            "sources": [
+              "us-close",
+              "ap-close",
+              "hours"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "오늘 종가와 삼성전자 실적이 다음 5거래일의 핵심 확인값이다.",
+            "counter": "10월 9일 휴장 전후 해외 변수의 공백 위험이 있다.",
+            "invalidation": "실적·금리·유가가 같은 방향으로 확인되면 갱신한다.",
+            "sources": [
+              "calendar",
+              "samsung-ir",
+              "ap-close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성전자 잠정실적",
+        "detail": "10월 8일 매출·영업이익과 시장 반응을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성전자",
+            "basis": "발표 숫자가 확인 전이어서 방향을 특정하지 않는다.",
+            "counter": "기대치 대비 결과와 선반영 정도가 반응을 바꾼다.",
+            "invalidation": "회사 발표 즉시 실제 수치와 주가 반응으로 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "반도체 업종",
+            "basis": "실적과 업황 설명이 업종 기대를 재설정한다.",
+            "counter": "발표 전 전망만으로 서프라이즈를 단정할 수 없다.",
+            "invalidation": "실제 매출·영업이익과 회사 설명 확인 뒤 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 9일 휴장 전 점검",
+        "detail": "10월 8일 마감 뒤 금리·유가·환율 변화를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 대형주",
+            "basis": "휴장 전 포지션 조정과 실적 발표가 동시에 작용한다.",
+            "counter": "휴장 중 해외 변수는 국내 가격에 즉시 반영되지 않는다.",
+            "invalidation": "10월 8일 종가와 휴장 중 해외시장 변화로 갱신한다.",
+            "sources": [
+              "calendar",
+              "samsung-ir"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 대형주",
+            "basis": "휴장 뒤 누적된 해외 변수와 실적이 재개장에 함께 반영된다.",
+            "counter": "현재 시점에 휴장 중 뉴스 방향은 알 수 없다.",
+            "invalidation": "재개장 전 해외 종가·금리·유가를 다시 확인한다.",
+            "sources": [
+              "calendar",
+              "ap-close"
+            ]
+          }
+        }
+      }
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-06T08:30:58+09:00",
+      "input_cutoff": "2026-10-06T08:30:58+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "원문과 전일 종가에 근거한 조건부 해석이며 확률·목표수익률을 산출하지 않았습니다. d5는 10/6·10/7·10/8·10/12·10/13의 다음 5개 KRX 거래일을 뜻합니다."
+    },
+    "source_labels": {
+      "calendar": "KRX · 10월 휴장",
+      "hours": "KRX · 거래시간",
+      "kospi": "Investing.com · 코스피",
+      "kosdaq": "Investing.com · 코스닥",
+      "samsung": "Investing.com · 삼성전자",
+      "hynix": "Investing.com · SK하이닉스",
+      "korean-air": "Investing.com · 대한항공",
+      "us-close": "Reuters · 미국장 마감",
+      "ap-close": "AP · 미국장 마감",
+      "fx": "Investing.com · 원·달러",
+      "samsung-ir": "Samsung IR · 3분기 실적",
+      "samsung-preview": "Korea JoongAng · 실적 전망",
+      "power-risk": "Reuters · AI 전력 제약"
+    }
+  },
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 2026년 10월 휴장 안내",
+      "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+      "note": "2026.10.06 08:30 KST 조회. 10/5·10/9 휴장 명시, 10/6은 휴장 목록에 없음."
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 정규장 거래시간",
+      "url": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp",
+      "note": "2026.10.06 08:30 KST 조회. 현물 정규장 09:00~15:30 KST."
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX · 일별 분석 요청",
+      "url": "https://openapi.krx.co.kr/contents/OPP/INFO/service/OPPINFO004.cmd",
+      "note": "요청 커밋 6ee82e0e45f6a66f5be652c9131462af5001917c, Collect KRX briefing inputs run 37388560235 성공, artifact 11379234154 생성 확인. 현재 연결에서 artifact 본문을 읽지 못해 data_date·queried_at·파생 수치는 미확인이고 보고서에 사용하지 않음."
+    },
+    {
+      "id": "kospi",
+      "label": "Investing.com · 코스피",
+      "url": "https://kr.investing.com/indices/kospi",
+      "note": "2026.10.06 08:30 KST 조회. 2026.10.02 KRX 정규장 종가 7,003.74, +32.39(+0.46%)."
+    },
+    {
+      "id": "kosdaq",
+      "label": "Investing.com · 코스닥 과거자료",
+      "url": "https://kr.investing.com/indices/kosdaq-historical-data",
+      "note": "2026.10.06 08:30 KST 조회. 2026.10.02 KRX 정규장 종가 893.29, -1.00(-0.11%)."
+    },
+    {
+      "id": "samsung",
+      "label": "Investing.com · 삼성전자 과거자료",
+      "url": "https://kr.investing.com/equities/samsung-electronics-co-ltd-historical-data",
+      "note": "2026.10.06 08:30 KST 조회. 2026.10.02 KRX 정규장 종가 276,000원, 0원(0.00%)."
+    },
+    {
+      "id": "hynix",
+      "label": "Investing.com · SK하이닉스 과거자료",
+      "url": "https://kr.investing.com/equities/sk-hynix-inc-historical-data",
+      "note": "2026.10.06 08:30 KST 조회. 2026.10.02 KRX 정규장 종가 1,841,000원, +8,000원(+0.44%)."
+    },
+    {
+      "id": "korean-air",
+      "label": "Investing.com · 대한항공 과거자료",
+      "url": "https://kr.investing.com/equities/korean-air-lines-co-historical-data",
+      "note": "2026.10.06 08:30 KST 조회. 2026.10.02 KRX 정규장 종가 30,600원, -600원(-1.92%)."
+    },
+    {
+      "id": "us-close",
+      "label": "Reuters · 10월 5일 미국장 마감",
+      "url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
+      "note": "2026.10.06 08:30 KST 조회. 미국 10/5 정규장 최종 지수값·변동과 엔비디아 +2.1% 확인."
+    },
+    {
+      "id": "ap-close",
+      "label": "AP · 10월 5일 미국장 마감",
+      "url": "https://apnews.com/article/stock-markets-jobs-fed-rates-inflation-f83cf147deaf5a2361b1ae7eee74a627",
+      "note": "2026.10.06 08:30 KST 조회. 지수 변동 포인트, 미 10년물 5.31%, 브렌트유 100달러 상회 확인."
+    },
+    {
+      "id": "fx",
+      "label": "Investing.com · 원·달러",
+      "url": "https://kr.investing.com/currencies/usd-krw",
+      "note": "2026.10.06 08:30 KST 조회값 1,343.26원, 제공사 전일값 1,341.64원. 정확한 호가시각과 서울 현물환 종가는 미확인."
+    },
+    {
+      "id": "samsung-ir",
+      "label": "Samsung IR · 2026년 3분기 실적",
+      "url": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+      "note": "2026.10.06 08:30 KST 조회. 2026년 3분기 실적 발표 항목은 예정 상태이며 정확한 발표 시각은 미확인."
+    },
+    {
+      "id": "samsung-preview",
+      "label": "Korea JoongAng Daily · 삼성전자 실적 전망",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-10-05/business/industry/Samsung-Electronics-set-to-announce-thirdquarter-earnings-on-Thursday/2418801",
+      "note": "2026.10.06 08:30 KST 조회. 10월 8일 잠정실적 일정과 일부 추정치 하향 요인 확인. 보도 전망은 기업 확정치가 아님."
+    },
+    {
+      "id": "power-risk",
+      "label": "Reuters · AI 데이터센터 전력 제약",
+      "url": "https://www.reuters.com/business/nvidia-broadcom-shielded-ai-power-crunch-hits-chip-supply-chain-says-morgan-2026-10-05/",
+      "note": "2026.10.06 08:30 KST 조회. 데이터센터 전력 제약이 메모리·광부품 공급망에 미칠 수 있는 위험을 관찰 근거로 사용."
+    }
+  ]
+}

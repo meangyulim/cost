@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-05",
+  "latest_id": "kr-pre-2026-10-06",
   "reports": [
+    {
+      "id": "kr-pre-2026-10-06",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-10-06",
+      "title": "10월 6일 한국장 시작 전",
+      "summary": "미국 기술주 강세, 금리·유가 부담 공존",
+      "as_of": "2026-10-06T08:30:58+09:00",
+      "path": "reports/kr-pre-2026-10-06/"
+    },
     {
       "id": "us-close-2026-10-05",
       "is_test": false,
