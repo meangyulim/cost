@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-10-05",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-06T06:40:01.000+09:00",
   "attempted_at_utc": "2026-10-05T21:40:01Z",
   "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-05/",
@@ -21,7 +21,12 @@
     "text_zoom": "skipped_by_user_instruction"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "send_retry_allowed": false,
-  "recovery": "User requested recovery after delayed Actions deployment; existing report preserved; no prior dispatch record observed"
+  "recovery": "User requested recovery after delayed Actions deployment; existing report preserved; no prior dispatch record observed",
+  "send_attempt_count": 1,
+  "attempted_record_reread": "matched",
+  "kakao_result": "success",
+  "result_recorded_at_utc": "2026-10-05T21:40:42Z",
+  "result_recorded_at_kst": "2026-10-06T06:40:42.000+09:00"
 }
