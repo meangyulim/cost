@@ -1,0 +1,27 @@
+{
+  "report_id": "kr-pre-2026-10-06",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-06T08:39:22+09:00",
+  "attempted_at_utc": "2026-10-05T23:39:22Z",
+  "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-06/",
+  "commit": "7bbd92bf0640c91e0d59887f2aaa21f389657ba5",
+  "deployment": {
+    "run_id": 37389601618,
+    "run_attempt": 1,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "deploy_job": "success"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "skipped_by_user_instruction",
+    "browser": "skipped_by_user_instruction",
+    "mobile": "skipped_by_user_instruction",
+    "text_zoom": "skipped_by_user_instruction"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "send_retry_allowed": false,
+  "send_attempt_count": 0
+}
