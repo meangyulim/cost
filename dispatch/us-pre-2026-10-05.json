@@ -1,8 +1,10 @@
 {
   "id": "us-pre-2026-10-05",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-05T22:26:37+09:00",
   "attempted_at_utc": "2026-10-05T13:26:37Z",
+  "sent_at_kst": "2026-10-05T22:27:29+09:00",
+  "sent_at_utc": "2026-10-05T13:27:29Z",
   "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-05/",
   "deploy_commit": "d364c269385928c0c69887017b47248ec4a743d5",
   "deployment": {
@@ -19,5 +21,6 @@
     "mobile": "skipped_per_user_instruction",
     "text_zoom": "skipped_per_user_instruction"
   },
-  "send_tool_called": false
+  "send_tool_called": true,
+  "kakao_result": "success"
 }
