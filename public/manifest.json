@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-10-06/"
     },
     {
+      "id": "us-pre-2026-10-06",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-06",
+      "title": "미국장 시작 전 브리핑 · 2026-10-06",
+      "summary": "금리·유가 하락, AI·거래 종목 강세",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-06/"
+    },
+    {
       "id": "us-close-2026-10-05",
       "is_test": false,
       "market": "US",

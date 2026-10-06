@@ -1,0 +1,608 @@
+{
+  "id": "us-pre-2026-10-06",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-06",
+  "title": "미국장 시작 전 브리핑 · 2026-10-06",
+  "as_of": "2026-10-06T05:00:00+09:00",
+  "queried_at": "2026-10-06T22:10:00+09:00",
+  "venue": "NYSE / Nasdaq",
+  "summary": "금리·유가 하락, AI·거래 종목 강세",
+  "summary_detail": "미국 지수선물은 0.4~0.6% 상승하고 10년 국채수익률과 유가는 하락했습니다. AMD의 공급 확대 계획, Constellation Energy의 Google 전력계약, Option Care Health 인수가 개별 종목의 핵심 재료입니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,773.95",
+      "unit": "pt",
+      "delta": "+51.23",
+      "percent": "+0.66",
+      "direction": "up",
+      "source": "reuters-close",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "2026-10-05 미국 정규장 종가"
+    },
+    {
+      "name": "다우존스",
+      "value": "51,267.90",
+      "unit": "pt",
+      "delta": "+90.94",
+      "percent": "+0.18",
+      "direction": "up",
+      "source": "reuters-close",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "2026-10-05 미국 정규장 종가"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "27,477.31",
+      "unit": "pt",
+      "delta": "+286.45",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "reuters-close",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "2026-10-05 미국 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "선물 상승, 금리·유가 하락",
+      "fact": "10월6일 07:29 EDT 기준 다우 선물은 +281포인트(+0.55%), S&P 500 선물은 +30.75포인트(+0.39%), Nasdaq100 선물은 +192포인트(+0.61%)였습니다. AP는 미국10년 국채수익률을 약 5.26%, Brent를 98.33달러, WTI를 87.60달러로 전했습니다. 해석: 할인율과 원가 부담 완화가 지수에 우호적이지만 전일 강세와 높은 절대금리는 장중 되돌림 위험입니다.",
+      "source": "reuters-market",
+      "additional_sources": [
+        "ap-market"
+      ]
+    },
+    {
+      "title": "AI 칩·전력 공급 확대",
+      "fact": "AMD CEO는 2027년 칩 공급을 대폭 늘릴 계획이라고 밝혔고 AMD는 07:29 EDT 기준 장전 +1.9%였습니다. Google은 Constellation Energy와 3,590MW 전력계약을 맺었고 CEG는 장전 +6.4%였습니다. 10월5일 기준 SOXX는 20거래일간 SPY보다 12.80%p 강했고 상승 추세 조건을 충족했습니다. 해석: AI 인프라 공급 확대는 긍정적이나 장전 갭과 선반영 정도를 확인해야 합니다.",
+      "source": "amd-supply",
+      "additional_sources": [
+        "google-ceg",
+        "reuters-market",
+        "massive"
+      ]
+    },
+    {
+      "title": "OPCH, 58억달러 비공개 전환",
+      "fact": "McKesson과 CD&R은 Option Care Health를 부채 포함 58억달러, 주당 32.05달러에 인수하기로 합의했습니다. 이는 10월5일 종가 대비 37.1% 프리미엄이며 Reuters는 장전 +33%, 31.11달러를 전했습니다. 해석: 현금 인수가격이 단기 기준점이지만 주주·규제 승인과 2027년 상반기 종결 위험이 남습니다.",
+      "source": "opch-deal",
+      "additional_sources": [
+        "opch-release"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "631.75",
+      "currency": "USD",
+      "delta": "−2.16",
+      "percent": "−0.34",
+      "direction": "down",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-05 정규장 종가",
+      "reason": "2027년 공급 확대 계획과 높은 AI 수요 발언으로 장전 강세인 반도체 종목입니다.",
+      "watch": "장전 +1.9% 갭 유지, 631.75달러 회복과 공급망 실행 근거를 확인합니다.",
+      "source": "amd-price",
+      "reason_sources": [
+        "amd-supply",
+        "reuters-market",
+        "massive"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+1.9",
+        "as_of": "2026-10-06T20:29:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 07:29 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "Constellation Energy",
+      "ticker": "CEG",
+      "price": "267.62",
+      "currency": "USD",
+      "delta": "+10.13",
+      "percent": "+3.93",
+      "direction": "up",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-05 정규장 종가",
+      "reason": "Google과 3,590MW 장기 전력계약을 발표한 AI 전력 수혜 종목입니다.",
+      "watch": "전일 +3.93% 뒤 장전 +6.4% 갭, 267.62달러와 거래량을 확인합니다.",
+      "source": "ceg-price",
+      "reason_sources": [
+        "google-ceg",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+6.4",
+        "as_of": "2026-10-06T20:29:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 07:29 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "Option Care Health",
+      "ticker": "OPCH",
+      "price": "23.37",
+      "currency": "USD",
+      "delta": "+0.73",
+      "percent": "+3.22",
+      "direction": "up",
+      "as_of": "2026-10-06T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-05 정규장 종가",
+      "reason": "주당 32.05달러 현금 인수 합의가 발표된 거래 종목입니다.",
+      "watch": "장전 31.11달러와 인수가 32.05달러 사이 할인, 승인 조건을 확인합니다.",
+      "source": "opch-price",
+      "reason_sources": [
+        "opch-deal",
+        "opch-release"
+      ],
+      "premarket": {
+        "price": "31.11",
+        "delta": "+7.74",
+        "percent": "+33",
+        "as_of": "2026-10-06T21:14:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 기사 기준"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.26",
+    "unit": "%",
+    "delta": "약 −0.05%p",
+    "direction": "down",
+    "as_of": "2026-10-06T21:48:00+09:00",
+    "session": "2026-10-06 미국 장전 AP 최근값; 전일 약5.31% 대비",
+    "source": "ap-market"
+  },
+  "interpretation": "금리와 유가 하락, 지수선물 상승은 개장 초 위험선호를 지지합니다. 다만 전일 사상 최고권 상승 뒤인 만큼 지수 추격보다 AMD·CEG·OPCH의 장전 갭 유지와 현물 종가를 분리해 봅니다.",
+  "next_checks": [
+    {
+      "label": "10월6일22:30 KST",
+      "title": "미국 정규장 개장",
+      "detail": "09:30 EDT. 선물 상승이 현물 시장 폭으로 이어지는지, AMD·CEG 장전 갭과 OPCH의 32.05달러 인수가격 할인을 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "10월7일04:30 KST",
+      "title": "Fed Cook 토론",
+      "detail": "10월6일15:30 EDT. 연준 공식 달력의 Global Central Banking 토론에서 금리 경로 관련 발언을 확인합니다.",
+      "source": "fed-calendar"
+    },
+    {
+      "label": "10월8일03:00 KST",
+      "title": "FOMC 의사록",
+      "detail": "10월7일14:00 EDT. 9월15~16일 회의 의사록의 물가·금리 판단과 채권시장 반응을 확인합니다.",
+      "source": "fed-calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "NYSE · 2026 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026년 공식 휴장·조기폐장표에서10월6일 제외.정규장09:30~16:00ET.2026-10-06는 EDT(UTC−04:00).22:10KST 조회."
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 2026 휴장·시간",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "10월6일은 휴장 목록에 없고 정규장09:30~16:00ET,장전04:00~09:30ET."
+    },
+    {
+      "id": "reuters-close",
+      "label": "Reuters · 10월5일 미국 종가",
+      "url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
+      "note": "S&P500 7773.95(+0.66%),Nasdaq27477.31(+1.05%),Dow51267.90(+0.18%).포인트 변동은10월2일 종가와 직접 계산."
+    },
+    {
+      "id": "reuters-market",
+      "label": "Reuters · 10월6일 미국 장전",
+      "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
+      "note": "07:29EDT 선물,AMD+1.9%,CEG+6.4%,NVDA+0.9%,Brent98.35달러.장전 값은 변동 가능."
+    },
+    {
+      "id": "ap-market",
+      "label": "AP · 10월6일 시장·채권",
+      "url": "https://apnews.com/article/stocks-markets-oil-bonds-us-e8285ec7afbe81e9df277e8ee2127982",
+      "note": "미10년 약5.26%,Brent98.33달러,WTI87.60달러,선물0.4~0.6% 상승."
+    },
+    {
+      "id": "amd-supply",
+      "label": "Reuters · AMD 공급 확대",
+      "url": "https://www.reuters.com/world/asia-pacific/amd-plans-substantially-increase-supply-2027-ceo-says-2026-10-06/",
+      "note": "CEO가2027년 공급 대폭 확대 계획과 장기 고수요를 언급."
+    },
+    {
+      "id": "google-ceg",
+      "label": "Reuters · Google·CEG 전력계약",
+      "url": "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/",
+      "note": "3590MW 장기 계약,43억달러 이상 투자,첫 업그레이드2028년 예상."
+    },
+    {
+      "id": "opch-deal",
+      "label": "Reuters · OPCH 인수 합의",
+      "url": "https://www.reuters.com/legal/transactional/mckesson-cdr-buy-infusion-therapy-provider-option-care-health-58-billion-deal-2026-10-06/",
+      "note": "주당32.05달러,부채포함58억달러,장전31.11달러(+33%),2027년상반기 종결 목표."
+    },
+    {
+      "id": "opch-release",
+      "label": "Option Care Health · 인수 보도자료",
+      "url": "https://www.businesswire.com/news/home/20261005837505/en/",
+      "note": "확정 합의,주당32.05달러 현금,약37% 프리미엄,승인 조건 확인."
+    },
+    {
+      "id": "amd-price",
+      "label": "Investing · AMD 10월5일 종가",
+      "url": "https://www.investing.com/equities/adv-micro-device-historical-data",
+      "note": "10월5일631.75달러.정확한 전일 대비는 이번 Massive 정규장 자료의−2.16달러(−0.3407%) 사용."
+    },
+    {
+      "id": "ceg-price",
+      "label": "StockAnalysis · CEG 10월5일 종가",
+      "url": "https://stockanalysis.com/stocks/ceg/history/",
+      "note": "10월5일267.62달러,10월2일257.49달러 대비+10.13달러(+3.93%)."
+    },
+    {
+      "id": "opch-price",
+      "label": "Investing · OPCH 10월5일 종가",
+      "url": "https://ca.investing.com/equities/bioscrip-historical-data",
+      "note": "10월5일23.37달러,10월2일22.64달러 대비+0.73달러(+3.22%)."
+    },
+    {
+      "id": "fed-calendar",
+      "label": "Federal Reserve · 10월 공식 일정",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "note": "10월6일15:30ET Cook 토론,10월7일14:00ET 9월FOMC 의사록."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/",
+      "note": "요청 커밋3b77bc56의 실행37467954280 성공. data_date=2026-10-05, queried_at=2026-10-06T22:10:12+09:00, 27개 요청. ETF 대용치·업종 상대수익·전체 증권 시장 폭·관찰종목 정규장 종가 확인.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-06",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-06T22:10:00+09:00",
+    "note": "NYSE와Nasdaq 공식2026휴장·조기폐장표에서10월6일 제외.정규장09:30~16:00EDT;KST10월6일22:30~10월7일05:00.EDT(UTC−04:00) 확인."
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-06T22:02:34+09:00",
+    "actual_started_at_utc": "2026-10-06T13:02:34Z",
+    "actual_started_at_local": "2026-10-06T09:02:34-04:00",
+    "scheduled_at_kst": "2026-10-06T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-06T13:00:00Z",
+    "scheduled_at_local": "2026-10-06T09:00:00-04:00",
+    "start_offset_seconds": 154,
+    "environment": "Work cloud Linux; fresh checkout; GitHub OAuth connector and kakao memochat tool exposed",
+    "model_setting": "Requested GPT-6.1 Sol High; explicit automation model metadata unavailable, application unverified",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "calculation_notes": "지수 포인트:7773.95−7722.72=51.23;51267.90−51176.96=90.94;27477.31−27190.86=286.45. AMD:631.75−633.91=−2.16;Massive 계산−0.3407%→−0.34%. CEG:267.62−257.49=10.13,+3.9341%→+3.93%. OPCH:23.37−22.64=0.73,+3.2244%→+3.22%. SOXX 20일13.3978%−SPY0.6024%=12.7954%p→12.80%p. breadth는OTC제외 전체 증권12391쌍 중 상승7308(58.98%)이며 보통주만의 시장 폭이 아님.장전은 Reuters 별도 구간.기관수급·분봉·미래확률은 미산출.",
+  "reading": {
+    "headline": "금리·유가 하락, AI·거래 종목 강세",
+    "summary_points": [
+      "선물 +0.4~0.6%, 미국10년은 약 5.26%입니다.",
+      "AMD +1.9%, CEG +6.4%로 AI 재료가 강합니다.",
+      "OPCH는 32.05달러 인수 합의로 장전 +33%입니다."
+    ],
+    "notices": [
+      "지수·종목은 10월6일05:00 KST 전일 정규장 종가입니다. 장전 값은 별도 구간입니다.",
+      "장전 수치는 개장 전 변동할 수 있고, 절대금리 5%대와 전일 상승은 되돌림 위험입니다.",
+      "Massive 일별 분석은 10월5일 기준입니다. ETF 대용치이며 장전 실시간·기관수급·배당 재투자 수익률이 아닙니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-06T22:10:00+09:00",
+      "input_cutoff": "2026-10-06T22:10:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다."
+    },
+    "issues": [
+      {
+        "title": "선물 상승·금리 하락",
+        "preview": "현물 시장 폭이 상승의 질을 가릅니다.",
+        "points": [
+          "S&P선물 +0.39%, Nasdaq100선물 +0.61%.",
+          "미국10년 약5.26%, Brent98.33달러."
+        ],
+        "meaning": "할인율·원가 부담은 완화됐지만 추격 위험이 있습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "미국 대형주 지수",
+            "basis": "선물 상승과 금리·유가 하락이 개장 초 위험선호를 지지한다.",
+            "counter": "전일 강세와 5%대 절대금리는 장중 되돌림을 만들 수 있다.",
+            "invalidation": "10년 금리 반등과 시장 폭 악화가 동반되면 상방 판단을 낮춘다.",
+            "sources": [
+              "reuters-market",
+              "ap-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "AI·실적 기대와 금리 하락은 지지 요인이다.",
+            "counter": "FOMC 의사록과 높은 절대금리가 후속 변동성을 키울 수 있다.",
+            "invalidation": "금리 하락과 시장 폭 확산이 이어지면 상방으로 재판단한다.",
+            "sources": [
+              "ap-market",
+              "fed-calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AI 공급망 확대",
+        "preview": "공급 확대와 전력 계약의 선반영을 봅니다.",
+        "points": [
+          "AMD 2027년 칩 공급 대폭 확대 계획.",
+          "SOXX 20일 SPY 대비 +12.80%p, CEG 장전 +6.4%."
+        ],
+        "meaning": "AI 인프라 수요는 긍정적이나 장전 갭 경로가 중요합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "AMD·CEG",
+            "basis": "공급 확대와 대형 전력계약, 장전 강세가 상방을 지지한다.",
+            "counter": "SOXX의 20일 상대강세와 CEG 전일 상승에 호재가 선반영됐다.",
+            "invalidation": "장전 갭 절반 이상 반납과 업종 상대약세면 재판단한다.",
+            "sources": [
+              "amd-supply",
+              "google-ceg",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AMD·CEG",
+            "basis": "AI 공급·전력 수요와 SOXX 상승 추세는 중기 지지 요인이다.",
+            "counter": "실제 증설·투자 일정과 높은 밸류에이션 위험이 남는다.",
+            "invalidation": "후속 공급·수익성 근거와 거래량 동반 상대강도가 나오면 갱신한다.",
+            "sources": [
+              "amd-supply",
+              "google-ceg",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "OPCH 인수 프리미엄",
+        "preview": "32.05달러와 승인 위험이 가격 기준입니다.",
+        "points": [
+          "현금 인수가32.05달러,기업가치58억달러.",
+          "장전31.11달러(+33%),종가23.37달러."
+        ],
+        "meaning": "인수가격이 상단을 고정하지만 종결 할인은 남습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "OPCH",
+            "basis": "확정 현금 인수 합의와 37.1% 프리미엄이 전일 종가 대비 상방을 지지한다.",
+            "counter": "장초반 차익실현과 인수가 대비 약3% 종결 할인이 남는다.",
+            "invalidation": "거래 불확실성 확대 또는 31달러 이탈이면 강도를 낮춘다.",
+            "sources": [
+              "opch-deal",
+              "opch-release"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "OPCH",
+            "basis": "32.05달러 현금 인수가격이 기준점이다.",
+            "counter": "주주·규제 승인과 2027년 상반기 종결 위험이 남는다.",
+            "invalidation": "조건 변경·규제 공시가 나오면 즉시 갱신한다.",
+            "sources": [
+              "opch-deal",
+              "opch-release"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "금리 하락과 현물 시장 폭의 동행을 봅니다.",
+      "AMD·CEG 갭 유지와 전일 종가 회복을 확인합니다.",
+      "OPCH는 32.05달러 인수가 대비 할인을 봅니다."
+    ],
+    "stocks": {
+      "AMD": {
+        "reason": "2027년 공급 확대 계획으로 장전 +1.9%인 반도체 종목입니다.",
+        "watch": "631.75달러 회복과 장전 갭 유지·공급 실행 근거를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "AMD",
+            "basis": "공급 확대 계획과 장전 +1.9%가 상방을 지지한다.",
+            "counter": "전일 약세와 높은 금리, 공급계획 선반영이 부담이다.",
+            "invalidation": "631.75달러와 VWAP 이탈이 이어지면 재판단한다.",
+            "sources": [
+              "amd-supply",
+              "reuters-market",
+              "amd-price"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "장기 AI 수요와 2027년 공급 확대가 지지한다.",
+            "counter": "생산능력 확보와 수익성 실행은 아직 확인 전이다.",
+            "invalidation": "후속 공급망·고객·마진 근거가 나오면 방향을 갱신한다.",
+            "sources": [
+              "amd-supply"
+            ]
+          }
+        }
+      },
+      "CEG": {
+        "reason": "Google과 3,590MW 전력계약을 맺어 장전 +6.4%입니다.",
+        "watch": "267.62달러와 갭 유지, 거래량·차익실현을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "CEG",
+            "basis": "대형 장기계약과 장전 +6.4%가 상방을 지지한다.",
+            "counter": "전일 +3.93% 뒤 추가 갭으로 선반영·차익실현 위험이 크다.",
+            "invalidation": "267.62달러 이탈과 갭 반납이면 재판단한다.",
+            "sources": [
+              "google-ceg",
+              "reuters-market",
+              "ceg-price"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CEG",
+            "basis": "20년 계약과 투자 계획은 중기 지지 요인이다.",
+            "counter": "첫 업그레이드가 2028년으로 실행 시차가 길다.",
+            "invalidation": "계약 수익성·규제·공사 일정 근거로 갱신한다.",
+            "sources": [
+              "google-ceg"
+            ]
+          }
+        }
+      },
+      "OPCH": {
+        "reason": "주당32.05달러 현금 인수 합의로 장전31.11달러입니다.",
+        "watch": "인수가 대비 할인과 승인 조건·거래 일정 변화를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "OPCH",
+            "basis": "확정 현금 인수 합의가 전일 종가 대비 상방을 지지한다.",
+            "counter": "인수가 근접 시 추가 상승은 제한되고 차익실현이 가능하다.",
+            "invalidation": "31달러 이탈 또는 거래 불확실성 확대 시 재판단한다.",
+            "sources": [
+              "opch-deal",
+              "opch-release",
+              "opch-price"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "OPCH",
+            "basis": "32.05달러가 거래 기준점이다.",
+            "counter": "규제·주주승인·종결 일정 위험이 남는다.",
+            "invalidation": "조건 변경 또는 승인 진전 공시로 갱신한다.",
+            "sources": [
+              "opch-deal",
+              "opch-release"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "현물 개장·시장 폭",
+        "detail": "선물 상승이 현물 시장 폭과 금리 하락으로 확인되는지 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "미국 대형주 지수",
+            "basis": "선물 상승과 금리 하락이 지지한다.",
+            "counter": "전일 강세 뒤 장초반 되돌림이 가능하다.",
+            "invalidation": "시장 폭 악화와 금리 반등 동반 시 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-market",
+              "calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "첫날 종가와 시장 폭은 후속 방향의 관찰값이다.",
+            "counter": "FOMC 의사록 전까지 금리 기대가 바뀔 수 있다.",
+            "invalidation": "금리·시장 폭이 같은 방향으로 이어지면 갱신한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Fed Cook 토론",
+        "detail": "금리 경로 발언과 10년물·나스닥 반응을 함께 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "발언 전이라 방향을 확정할 수 없다.",
+            "counter": "같은 발언도 성장·물가 해석에 따라 반응이 갈릴 수 있다.",
+            "invalidation": "발언 뒤 금리·달러·지수의 실제 반응으로 정한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "연준 커뮤니케이션은 금리 기대에 영향을 준다.",
+            "counter": "단일 발언보다 의사록과 후속 지표의 비중이 크다.",
+            "invalidation": "의사록과 시장금리가 같은 방향이면 갱신한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "FOMC 의사록",
+        "detail": "9월 회의의 물가·금리 판단과 채권시장 반응을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "공개 전 내용은 알 수 없다.",
+            "counter": "매파·비둘기 해석이 성장 기대와 충돌할 수 있다.",
+            "invalidation": "공개 뒤 금리·시장 폭 반응으로 방향을 정한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "의사록은 향후 금리 기대의 핵심 확인점이다.",
+            "counter": "기록은 과거 회의 내용이라 새 데이터에 뒤처질 수 있다.",
+            "invalidation": "시장금리와 이익전망의 후속 방향으로 갱신한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "NYSE · 거래일·시간",
+      "nasdaq-calendar": "Nasdaq · 휴장·시간",
+      "reuters-close": "Reuters · 10월5일 종가",
+      "reuters-market": "Reuters · 10월6일 장전",
+      "ap-market": "AP · 시장·채권",
+      "amd-supply": "Reuters · AMD 공급",
+      "google-ceg": "Reuters · Google·CEG 계약",
+      "opch-deal": "Reuters · OPCH 인수",
+      "opch-release": "Option Care Health · 인수 발표",
+      "amd-price": "Investing · AMD 종가",
+      "ceg-price": "StockAnalysis · CEG 종가",
+      "opch-price": "Investing · OPCH 종가",
+      "fed-calendar": "Federal Reserve · 10월 일정"
+    }
+  }
+}
