@@ -1,9 +1,9 @@
 {
   "end_date": "2026-10-05",
   "watch": [
-    "PTC",
-    "NVDA",
-    "INTC"
+    "AMD",
+    "CEG",
+    "OPCH"
   ],
-  "requested_at": "2026-10-06T05:21:27+09:00"
+  "requested_at": "2026-10-06T22:04:06+09:00"
 }
