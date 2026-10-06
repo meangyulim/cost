@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-06",
+  "latest_id": "us-close-2026-10-06",
   "reports": [
+    {
+      "id": "us-close-2026-10-06",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-06",
+      "title": "미국장 마감 후 브리핑 · 2026-10-06",
+      "summary": "최고 종가, 전력·기업 이벤트 강세",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-06/"
+    },
     {
       "id": "kr-close-2026-10-06",
       "is_test": false,
