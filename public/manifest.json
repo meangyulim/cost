@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-06",
+  "latest_id": "kr-close-2026-10-06",
   "reports": [
+    {
+      "id": "kr-close-2026-10-06",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-06",
+      "title": "10월 6일 한국장 마감 후",
+      "summary": "코스피 약세·코스닥 강세, 종목 순환매가 뚜렷",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-06/"
+    },
     {
       "id": "kr-pre-2026-10-06",
       "is_test": false,

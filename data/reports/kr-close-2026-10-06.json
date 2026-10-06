@@ -1,0 +1,601 @@
+{
+  "id": "kr-close-2026-10-06",
+  "is_test": false,
+  "market": "KR",
+  "session": "close",
+  "market_date": "2026-10-06",
+  "title": "10월 6일 한국장 마감 후",
+  "as_of": "2026-10-06T15:30:00+09:00",
+  "queried_at": "2026-10-06T15:55:00+09:00",
+  "venue": "KRX 정규장 15:30 KST 종가. NXT·시간외 가격과 혼합하지 않음.",
+  "summary": "코스피 약세·코스닥 강세, 종목 순환매가 뚜렷",
+  "summary_detail": "코스피는 0.95% 내린 반면 코스닥은 2.98% 올라 시장 내부가 크게 갈렸습니다. SK하이닉스는 3.37% 하락했지만 삼성SDI와 주성엔지니어링은 각각 8.51%, 17.30% 상승했습니다. 높은 미국 장기금리와 100달러대 유가 속에서 10월 8일 삼성전자 잠정실적 전 순환매 지속 여부를 확인합니다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "6,937.41",
+      "unit": "pt",
+      "delta": "−66.33",
+      "percent": "−0.95",
+      "direction": "down",
+      "source": "kospi",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "session": "KRX 정규장 종가 · 공개 역사표"
+    },
+    {
+      "name": "코스닥",
+      "value": "919.92",
+      "unit": "pt",
+      "delta": "+26.63",
+      "percent": "+2.98",
+      "direction": "up",
+      "source": "kosdaq",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "session": "KRX 정규장 종가 · 공개 역사표"
+    }
+  ],
+  "fx": {
+    "label": "원·달러",
+    "value": "1,342.67",
+    "unit": "원/USD",
+    "delta": "+1.03원",
+    "direction": "up",
+    "as_of": "2026-10-06T15:36:53+09:00",
+    "session": "글로벌 FX 조회값 · 서울 현물환 공식 종가 아님",
+    "source": "fx"
+  },
+  "issues": [
+    {
+      "title": "코스피·코스닥 엇갈린 마감",
+      "fact": "10월 6일 공개 역사표에서 코스피는 6,937.41로 전 거래일 7,003.74보다 66.33포인트(−0.95%) 내렸고, 코스닥은 919.92로 26.63포인트(+2.98%) 올랐다. 당일 KRX OpenAPI 수집은 10월 2일까지로 지연돼 외국인·기관 순매수와 당일 시장 폭은 확인하지 못했다. 해석: 지수 전체의 위험선호보다 대형주 약세와 코스닥 순환매가 동시에 나타난 장으로 본다.",
+      "source": "kospi",
+      "additional_sources": [
+        "kosdaq",
+        "krx-analysis"
+      ]
+    },
+    {
+      "title": "반도체 대형주 약세·장비주 급등",
+      "fact": "SK하이닉스는 1,779,000원으로 62,000원(−3.37%) 내렸지만 주성엔지니어링은 278,000원으로 41,000원(+17.30%) 올랐다. Reuters는 아시아장에서 미국 10년물 수익률이 5.3154%, 장중 5.3493%까지 올랐다고 전했다. 구체적인 당일 장비주 급등 촉매는 공식 공시에서 확인하지 못했다. 해석: 반도체 업종 내에서도 대형주와 장비주의 수급·기대가 분리됐으며 급등 종목의 선반영 위험이 크다.",
+      "source": "hynix",
+      "additional_sources": [
+        "jusung",
+        "reuters-asia"
+      ]
+    },
+    {
+      "title": "배터리 강세와 높은 할인율",
+      "fact": "삼성SDI는 574,000원으로 45,000원(+8.51%) 상승했다. 회사는 7월 2분기 자료에서 UPS·BBU와 전기차 배터리 판매 증가 및 실적 개선 지속 기대를 제시했지만, 이는 오늘 주가의 직접 원인으로 확인된 신규 공시는 아니다. 같은 날 Reuters 기준 Brent는 배럴당 100.88달러, 미국 10년물은 5.3154%였다. 해석: 배터리주 회복 기대와 높은 금리·원가 부담이 맞서는 구간이다.",
+      "source": "sdi",
+      "additional_sources": [
+        "sdi-ir",
+        "reuters-asia"
+      ]
+    }
+  ],
+  "interpretation": "코스피 하락과 코스닥 급등이 함께 나타나 시장 전체 방향보다 업종·종목 순환이 핵심이었습니다. 대형 반도체 약세와 배터리·장비주 급등의 지속성은 다음 거래일 종가와 10월 8일 삼성전자 잠정실적에서 확인합니다. 당일 외국인·기관 순매수는 공식 수집 지연으로 미확인입니다.",
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,779,000",
+      "currency": "KRW",
+      "delta": "−62,000",
+      "percent": "−3.37",
+      "direction": "down",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "source": "hynix",
+      "reason_sources": [
+        "reuters-asia"
+      ],
+      "reason": "미국 기술주 강세 뒤에도 높은 장기금리와 국내 대형 반도체 매도 압력 속에서 3.37% 하락했습니다.",
+      "watch": "1,771,000원 장중 저점과 10월 8일 삼성전자 잠정실적 뒤 반도체 동반 흐름을 확인합니다."
+    },
+    {
+      "name": "삼성SDI",
+      "ticker": "006400",
+      "price": "574,000",
+      "currency": "KRW",
+      "delta": "+45,000",
+      "percent": "+8.51",
+      "direction": "up",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "source": "sdi",
+      "reason_sources": [
+        "sdi-ir"
+      ],
+      "reason": "배터리 업종 순환매와 회사가 앞서 제시한 판매·수익성 개선 기대가 재평가되며 강세를 보였습니다.",
+      "watch": "575,000원 장중 고점 돌파 여부와 신규 수주·실적 공시로 상승 근거가 확인되는지 봅니다."
+    },
+    {
+      "name": "주성엔지니어링",
+      "ticker": "036930",
+      "price": "278,000",
+      "currency": "KRW",
+      "delta": "+41,000",
+      "percent": "+17.30",
+      "direction": "up",
+      "as_of": "2026-10-06T15:30:00+09:00",
+      "session": "KRX 코스닥 정규장 종가",
+      "source": "jusung",
+      "reason_sources": [
+        "jusung-news"
+      ],
+      "reason": "반도체 장비주 매수 집중과 증설 기대가 부각됐지만 당일 신규 중요 공시는 확인하지 못했습니다.",
+      "watch": "17.30% 급등 뒤 278,000원 유지와 회사 공시·수주 근거 확인을 우선합니다."
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026.10.07 09:00 KST",
+      "title": "다음 KRX 정규장 개장",
+      "detail": "코스닥 강세의 연속성, SK하이닉스 저점 방어, 급등 종목의 차익실현을 확인합니다.",
+      "source": "hours"
+    },
+    {
+      "label": "2026.10.08 · 시각 미확인",
+      "title": "삼성전자 3분기 잠정실적",
+      "detail": "기업 IR 게시와 매출·영업이익의 시장 기대 대비 차이를 확인합니다.",
+      "source": "samsung-ir",
+      "additional_sources": [
+        "samsung-preview"
+      ]
+    },
+    {
+      "label": "2026.10.09 KST",
+      "title": "KRX 한글날 휴장",
+      "detail": "10월 8일 마감 뒤 미국 금리·유가·반도체 변화를 연휴 위험으로 점검합니다.",
+      "source": "calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 10월 휴장 안내",
+      "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+      "note": "공식 공지의 10월 휴장일은 10월5일과 10월9일. 10월6일은 휴장 목록에 없음."
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 정규장 거래시간",
+      "url": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp",
+      "note": "주식시장 정규장 09:00~15:30 KST."
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX OpenAPI · 일별 분석",
+      "url": "https://openapi.krx.co.kr/contents/OPP/MAIN/main/index.cmd",
+      "note": "요청 end_date=2026-10-06, Actions run 37426298099 성공. 실제 data_date=2026-10-02, queried_at=2026-10-06T15:53:59+09:00로 지연돼 오늘 종가·수급·시장 폭에는 사용하지 않음."
+    },
+    {
+      "id": "kospi",
+      "label": "Investing.com · 코스피 역사표",
+      "url": "https://kr.investing.com/indices/kospi-historical-data",
+      "note": "10월6일 종가 6,937.41, 전일 7,003.74, −66.33(−0.95%). 시가·고가 7,044.67, 저가 6,897.38."
+    },
+    {
+      "id": "kosdaq",
+      "label": "Investing.com · 코스닥 역사표",
+      "url": "https://kr.investing.com/indices/kosdaq-historical-data",
+      "note": "10월6일 종가 919.92, 전일 893.29, +26.63(+2.98%). 시가 902.16, 고가 919.92, 저가 901.46."
+    },
+    {
+      "id": "hynix",
+      "label": "Investing.com · SK하이닉스 역사표",
+      "url": "https://kr.investing.com/equities/sk-hynix-inc-historical-data",
+      "note": "10월6일 종가 1,779,000원, 전일 1,841,000원, −62,000원(−3.37%). 시가·고가 1,835,000원, 저가 1,771,000원."
+    },
+    {
+      "id": "sdi",
+      "label": "Investing.com · 삼성SDI 역사표",
+      "url": "https://kr.investing.com/equities/samsung-sdi-historical-data",
+      "note": "10월6일 종가 574,000원, 전일 529,000원, +45,000원(+8.51%). 시가 537,000원, 고가 575,000원, 저가 535,000원."
+    },
+    {
+      "id": "jusung",
+      "label": "Investing.com · 코스닥 시장 종목",
+      "url": "https://kr.investing.com/indices/kosdaq-historical-data",
+      "note": "시장 종목 표의 15:29:59 KST 기준 주성엔지니어링 278,000원, +17.30%. 전일 237,000원 대비 +41,000원으로 계산."
+    },
+    {
+      "id": "jusung-news",
+      "label": "VLSI Research · 주성엔지니어링 장중",
+      "url": "https://www.vlsi.kr/ko/why-jusung-engineering-stock-surged/",
+      "note": "10월6일 장중 반도체 증설 기대를 상승 배경으로 설명. 공식 공시가 아닌 보조 기사로만 사용."
+    },
+    {
+      "id": "reuters-asia",
+      "label": "Reuters · 10월6일 아시아 시장",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-06/",
+      "note": "한국 주식 약세, 미국10년 5.3154%(장중 5.3493%), Brent 100.88달러를 보도."
+    },
+    {
+      "id": "sdi-ir",
+      "label": "삼성SDI · 2분기 실적",
+      "url": "https://samsungsdi.co.kr/sdi-now/sdi-news/4941.html",
+      "note": "7월 발표 자료. UPS·BBU와 전기차 배터리 판매 증가, 영업이익 흑자전환 및 개선 지속 기대. 오늘 신규 공시 아님."
+    },
+    {
+      "id": "fx",
+      "label": "Investing.com · USD/KRW",
+      "url": "https://kr.investing.com/currencies/usd-krw-historical-data",
+      "note": "10월6일 15:36:53 KST 글로벌 조회값 1,342.67원, 제공사 전일값 대비 +1.03원. 서울 현물환 공식 종가 아님."
+    },
+    {
+      "id": "samsung-ir",
+      "label": "삼성전자 IR · 실적 발표",
+      "url": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+      "note": "3분기 실적 자료 게시 위치. 정확한 발표 시각은 미확인."
+    },
+    {
+      "id": "samsung-preview",
+      "label": "Korea JoongAng Daily · 삼성전자 실적 일정",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-10-05/business/industry/Samsung-Electronics-set-to-announce-thirdquarter-earnings-on-Thursday/2418801",
+      "note": "삼성전자가 10월8일 3분기 잠정실적을 발표할 예정이라고 보도."
+    }
+  ],
+  "calculation_notes": "코스피 6,937.41−7,003.74=−66.33, 코스닥 919.92−893.29=+26.63. SK하이닉스 1,779,000−1,841,000=−62,000, 삼성SDI 574,000−529,000=+45,000, 주성엔지니어링 278,000−237,000=+41,000. 공개 역사표의 10월6일 정규장 종가를 사용했다. KRX OpenAPI artifact는 data_date=10월2일로 지연돼 당일 수급·시장 폭·추세 계산에 사용하지 않았다. 외국인·기관 순매수, 장중 NXT 가격, 미래 확률은 미확인/미산출.",
+  "calendar_evidence": {
+    "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+    "hours_url": "https://global.krx.co.kr/contents/GLB/06/0602/0602010201/GLB0602010201T1.jsp",
+    "market_date": "2026-10-06",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-06T15:50:00+09:00",
+    "note": "KRX 공식 2026년 10월 휴장 공지는 10/5와 10/9를 휴장일로 명시한다. 10/6은 휴장 목록에 없고 공식 정규장 시간은 09:00~15:30 KST이므로 정상 거래일로 판단했다. 조기폐장 공지는 확인되지 않았다."
+  },
+  "execution_context": {
+    "scheduled_at_kst": "2026-10-06T15:45:00+09:00",
+    "scheduled_at_utc": "2026-10-06T06:45:00Z",
+    "scheduled_timezone": "Asia/Seoul",
+    "actual_started_at_kst": "2026-10-06T15:49:31+09:00",
+    "actual_started_at_utc": "2026-10-06T06:49:31Z",
+    "start_delay_seconds": 271,
+    "environment": "Work 클라우드 Linux; 실제 clone /workspace/scratch/75852db7c41a/repo; GitHub OAuth connector; web search; Kakao self memo 도구. 비밀값은 읽거나 출력하지 않음.",
+    "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
+    "model_requested": "GPT-6.1 Sol / High",
+    "model_application": "not_verified_from_scheduler_metadata",
+    "analysis": {
+      "request_commit": "f7e2e19f9b0d66842926be23125fe80447f113af",
+      "run_id": 37426298099,
+      "status": "success",
+      "artifact_id": 11394323616,
+      "artifact_name": "krx-analysis-37426298099",
+      "artifact_digest": "sha256:ad89ca782ea4db66a9f835a0ea20df712d0bde64b0641ebdcebd71073fd38e5a",
+      "requested_end_date": "2026-10-06",
+      "data_date": "2026-10-02",
+      "queried_at": "2026-10-06T15:53:59+09:00",
+      "note": "워크플로와 artifact 본문을 확인했으나 실제 data_date가 10월2일로 지연돼 오늘 파생값에 사용하지 않음."
+    }
+  },
+  "reading": {
+    "headline": "코스피 약세·코스닥 강세",
+    "summary_points": [
+      "코스피 −0.95%, 코스닥 +2.98%로 갈렸습니다.",
+      "대형 반도체 약세, 배터리·장비주는 급등했습니다.",
+      "다음은 삼성전자 실적과 급등주 되돌림을 봅니다."
+    ],
+    "notices": [
+      "10월6일 종가는 공개 역사표 기준이며 일부 실시간 화면과 소폭 차이가 있었습니다.",
+      "KRX OpenAPI는 10월2일까지 지연돼 오늘 외국인·기관 수급과 시장 폭은 미확인입니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-06T15:55:00+09:00",
+      "input_cutoff": "2026-10-06T15:55:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "다음 거래일은 10월7일, 5거래일은 10월7·8·12·13·14일. 확률·목표수익률 없이 조건부 방향만 제시합니다."
+    },
+    "issues": [
+      {
+        "title": "코스피·코스닥 엇갈림",
+        "preview": "대형주 약세와 코스닥 순환매가 동시에 나타났습니다.",
+        "points": [
+          "코스피 −0.95%, 코스닥 +2.98%.",
+          "당일 외국인·기관 순매수는 미확인."
+        ],
+        "meaning": "시장 전체보다 업종·종목 선택이 중요합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "코스닥 강세는 순환매를 지지하지만 코스피 약세는 대형주 부담을 보여준다.",
+            "counter": "급등 뒤 차익실현과 수급 미확인이 장중 경로를 흔들 수 있다.",
+            "invalidation": "두 지수가 함께 상승하고 상승 종목 폭이 넓어지면 상방, 동반 하락이면 하방으로 재판단한다.",
+            "sources": [
+              "kospi",
+              "kosdaq",
+              "krx-analysis"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월8일 삼성전자 실적과 10월9일 휴장이 업종 순환의 지속성을 가른다.",
+            "counter": "한 거래일의 지수 괴리만으로 5거래일 추세를 확정할 수 없다.",
+            "invalidation": "실적 뒤 대형 반도체와 코스닥이 같은 방향으로 정렬되면 갱신한다.",
+            "sources": [
+              "kospi",
+              "kosdaq",
+              "samsung-ir",
+              "calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 내부 차별화",
+        "preview": "SK하이닉스 약세와 장비주 급등이 대비됐습니다.",
+        "points": [
+          "SK하이닉스 −3.37%.",
+          "주성엔지니어링 +17.30%."
+        ],
+        "meaning": "장비주 상승의 공시 근거와 선반영을 구분합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "대형주 약세와 장비주 급등이 상충해 업종 방향이 하나로 모이지 않았다.",
+            "counter": "미국 기술주 강세나 장비 수주 기대가 장초반 반등을 만들 수 있다.",
+            "invalidation": "SK하이닉스 저점 회복과 장비주 강세가 함께 이어지면 상방, 동반 약세면 하방으로 재판단한다.",
+            "sources": [
+              "hynix",
+              "jusung",
+              "reuters-asia"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "삼성전자 잠정실적이 대형주 이익 기대와 장비 투자 기대를 동시에 재평가한다.",
+            "counter": "높은 미국 장기금리는 성장주 밸류에이션 부담이다.",
+            "invalidation": "실적·설비투자 공시와 종가 상대강도가 같은 방향이면 전망을 갱신한다.",
+            "sources": [
+              "hynix",
+              "jusung",
+              "samsung-ir",
+              "reuters-asia"
+            ]
+          }
+        }
+      },
+      {
+        "title": "배터리 강세·금리 부담",
+        "preview": "배터리 순환매와 높은 할인율이 맞섰습니다.",
+        "points": [
+          "삼성SDI +8.51%.",
+          "미국10년 5.3154%, Brent 100.88달러."
+        ],
+        "meaning": "상승 지속에는 신규 수주·실적 확인이 필요합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "2차전지 업종",
+            "basis": "삼성SDI 급등은 업종 순환매를 지지한다.",
+            "counter": "8.51% 상승 뒤 차익실현과 높은 장기금리가 다음 종가를 압박할 수 있다.",
+            "invalidation": "거래량을 동반한 고점 돌파와 동종주 확산이면 상방, 갭 반납이면 하방으로 재판단한다.",
+            "sources": [
+              "sdi",
+              "reuters-asia"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "2차전지 업종",
+            "basis": "회사 개선 기대가 남지만 당일 신규 수주 공시는 확인되지 않았다.",
+            "counter": "금리·유가가 높은 수준을 유지하면 밸류에이션과 비용 부담이 커진다.",
+            "invalidation": "신규 수주·실적 공시와 업종 상대강도 확인 뒤 갱신한다.",
+            "sources": [
+              "sdi",
+              "sdi-ir",
+              "reuters-asia"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "코스닥 강세가 다음 종가에도 이어지는지 확인합니다.",
+      "SK하이닉스와 장비주의 반대 흐름이 좁혀지는지 봅니다.",
+      "당일 수급은 KRX 데이터 갱신 뒤 별도로 확인합니다."
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "높은 금리와 대형 반도체 매도 속 3.37% 하락했습니다.",
+        "watch": "1,771,000원 저점과 삼성전자 실적 뒤 동반 흐름을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "약한 종가와 시장 대비 부진은 하방 부담이다.",
+            "counter": "미국 AI 반도체 강세와 장중 저점 반등은 기술적 회복 여지를 남긴다.",
+            "invalidation": "1,835,000원 회복 시 상방, 1,771,000원 이탈 시 하방으로 재판단한다.",
+            "sources": [
+              "hynix",
+              "reuters-asia"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "AI 메모리 기대와 높은 금리·삼성전자 실적 변수가 상충한다.",
+            "counter": "하루 약세만으로 중기 업황을 확정할 수 없다.",
+            "invalidation": "삼성전자 실적 뒤 반도체 상대강도와 1,835,000원 회복 여부로 갱신한다.",
+            "sources": [
+              "hynix",
+              "samsung-ir",
+              "reuters-asia"
+            ]
+          }
+        }
+      },
+      "006400": {
+        "reason": "배터리 업종 순환매와 개선 기대 재평가로 8.51% 상승했습니다.",
+        "watch": "575,000원 돌파와 신규 수주·실적 공시를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성SDI",
+            "basis": "강한 종가와 장중 고점 부근 마감은 모멘텀을 지지한다.",
+            "counter": "급등 선반영과 차익실현이 장중 되돌림을 만들 수 있다.",
+            "invalidation": "575,000원 안착 시 상방, 535,000원 장중 저점 접근 시 하방으로 재판단한다.",
+            "sources": [
+              "sdi",
+              "sdi-ir"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성SDI",
+            "basis": "판매·수익성 개선 기대가 가격을 지지한다.",
+            "counter": "오늘 상승의 직접 신규 공시가 확인되지 않았고 금리 부담이 남는다.",
+            "invalidation": "신규 수주·실적 공시 또는 업종 상대강도 약화 확인 뒤 갱신한다.",
+            "sources": [
+              "sdi",
+              "sdi-ir",
+              "reuters-asia"
+            ]
+          }
+        }
+      },
+      "036930": {
+        "reason": "장비주 매수 집중과 증설 기대 속 17.30% 급등했습니다.",
+        "watch": "278,000원 유지와 공식 수주·공시 근거를 먼저 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "주성엔지니어링",
+            "basis": "강한 종가 모멘텀이 추가 상승을 지지한다.",
+            "counter": "17.30% 급등과 공식 촉매 미확인은 차익실현 위험을 키운다.",
+            "invalidation": "278,000원 상향 안착과 공시 확인 시 상방, 종가 급반납 시 하방으로 재판단한다.",
+            "sources": [
+              "jusung",
+              "jusung-news"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "주성엔지니어링",
+            "basis": "공식 수주·실적 근거가 확인되지 않아 5거래일 방향을 확정하기 어렵다.",
+            "counter": "반도체 장비주 순환매가 이어지면 강세가 연장될 수 있다.",
+            "invalidation": "회사 공시와 거래량·종가 유지 여부가 확인되면 방향을 갱신한다.",
+            "sources": [
+              "jusung",
+              "jusung-news"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "다음 KRX 정규장",
+        "detail": "코스닥 연속성, SK하이닉스 저점, 급등주 차익실현을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 주식시장",
+            "basis": "코스닥 강세와 코스피 약세가 상충한다.",
+            "counter": "개장 갭과 당일 수급 확인 전에는 장중 경로가 불확실하다.",
+            "invalidation": "두 지수 동반 방향과 종가 수급 확인 뒤 갱신한다.",
+            "sources": [
+              "kospi",
+              "kosdaq",
+              "hours"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 주식시장",
+            "basis": "다음 종가와 삼성전자 실적이 5거래일 경로의 첫 확인값이다.",
+            "counter": "10월9일 휴장으로 해외 변수 누적 위험이 있다.",
+            "invalidation": "실적 뒤 대형주·코스닥 방향이 정렬되면 갱신한다.",
+            "sources": [
+              "kospi",
+              "kosdaq",
+              "samsung-ir",
+              "calendar"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성전자 잠정실적",
+        "detail": "매출·영업이익과 반도체 업종 종가 반응을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성전자·반도체 업종",
+            "basis": "발표 전이므로 다음 종가에 확정 효과를 둘 수 없다.",
+            "counter": "기대 선반영과 발표 전 포지션 조정이 먼저 움직일 수 있다.",
+            "invalidation": "발표 수치와 업종 종가 반응 확인 뒤 방향을 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자·반도체 업종",
+            "basis": "잠정실적은 이익 기대와 설비투자 전망을 재평가한다.",
+            "counter": "한 회사 실적만으로 코스닥 장비주 전체 방향을 확정할 수 없다.",
+            "invalidation": "실적·가이던스와 업종 상대강도 확인 뒤 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "samsung-preview",
+              "hynix"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한글날 휴장 전 점검",
+        "detail": "10월8일 마감 뒤 금리·유가·미국 반도체를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "한국 주식시장",
+            "basis": "휴장 자체는 다음 종가 방향을 결정하지 않는다.",
+            "counter": "연휴 중 해외 변수 누적이 다음 개장 갭을 키울 수 있다.",
+            "invalidation": "10월8일 마감과 연휴 중 해외 시장 확인 뒤 갱신한다.",
+            "sources": [
+              "calendar",
+              "reuters-asia"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 주식시장",
+            "basis": "휴장 이후 누적 해외 변수가 5거래일 경로에 반영된다.",
+            "counter": "현재 시점에서 연휴 중 사건을 예측할 수 없다.",
+            "invalidation": "10월12일 개장 갭과 종가 확인 뒤 갱신한다.",
+            "sources": [
+              "calendar",
+              "reuters-asia"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "KRX · 10월 휴장 안내",
+      "hours": "KRX · 거래시간",
+      "krx-analysis": "KRX OpenAPI · 일별 분석",
+      "kospi": "Investing.com · 코스피 종가",
+      "kosdaq": "Investing.com · 코스닥 종가",
+      "hynix": "Investing.com · SK하이닉스 종가",
+      "sdi": "Investing.com · 삼성SDI 종가",
+      "jusung": "Investing.com · 주성엔지니어링 종가",
+      "jusung-news": "VLSI Research · 장중 기사",
+      "reuters-asia": "Reuters · 아시아 시장",
+      "sdi-ir": "삼성SDI · 2분기 실적",
+      "fx": "Investing.com · USD/KRW",
+      "samsung-ir": "삼성전자 IR · 실적 자료",
+      "samsung-preview": "Korea JoongAng Daily · 실적 일정"
+    }
+  }
+}
