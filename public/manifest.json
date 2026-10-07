@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-07",
+  "latest_id": "kr-close-2026-10-07",
   "reports": [
+    {
+      "id": "kr-close-2026-10-07",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-07",
+      "title": "10월 7일 한국장 마감 후",
+      "summary": "금리·유가 부담에 코스피·코스닥 동반 하락",
+      "as_of": "2026-10-07T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-07/"
+    },
     {
       "id": "kr-pre-2026-10-07",
       "is_test": false,
