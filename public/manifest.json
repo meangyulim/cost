@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-07",
+  "latest_id": "us-close-2026-10-07",
   "reports": [
+    {
+      "id": "us-close-2026-10-07",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-07",
+      "title": "미국장 마감 후 브리핑 · 2026-10-07",
+      "summary": "장기금리 부담에 최고가서 하락, 종목은 분화",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-07/"
+    },
     {
       "id": "kr-close-2026-10-07",
       "is_test": false,
