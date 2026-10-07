@@ -1,8 +1,10 @@
 {
   "report_id": "kr-pre-2026-10-08",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-08T08:42:48+09:00",
   "attempted_at_utc": "2026-10-07T23:42:48Z",
+  "sent_at_kst": "2026-10-08T08:43:14+09:00",
+  "sent_at_utc": "2026-10-07T23:43:14Z",
   "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-08/",
   "deployment_commit": "2f5f3ea5b3c80627c74554ac09ed8f964090c92d",
   "deployment": {
@@ -13,6 +15,7 @@
     "conclusion": "success"
   },
   "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
-  "send_tool_called": false,
-  "note": "Initial send claim recorded before the single Kakao self-message attempt."
+  "send_tool_called": true,
+  "send_result": "success",
+  "note": "Single Kakao self-message attempt completed; no retry was made."
 }
