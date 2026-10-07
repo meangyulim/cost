@@ -1,6 +1,6 @@
 {
   "id": "us-close-2026-10-07",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-08T05:30:02+09:00",
   "attempted_at_utc": "2026-10-07T20:30:02Z",
   "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-07/",
@@ -31,6 +31,10 @@
     "text_zoom": "not_performed"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
-  "send_attempt_count": 0
+  "send_tool_called": true,
+  "sent_at_kst": "2026-10-08T05:30:50+09:00",
+  "sent_at_utc": "2026-10-07T20:30:50Z",
+  "kakao_result": "success",
+  "kakao_response_summary": "self memo tool reported success",
+  "send_attempt_count": 1
 }
