@@ -1,0 +1,535 @@
+{
+  "id": "us-pre-2026-10-07",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-07",
+  "title": "미국장 시작 전 브리핑 · 2026-10-07",
+  "as_of": "2026-10-07T05:00:00+09:00",
+  "queried_at": "2026-10-07T22:10:00+09:00",
+  "venue": "NYSE / Nasdaq",
+  "summary": "최고가 뒤 금리·유가 반등, 선물 약세",
+  "summary_detail": "전일 S&P 500과 Nasdaq은 사상 최고 종가를 기록했지만 10월7일 08:22 EDT 기준 S&P 500 선물은 0.44%, Nasdaq100 선물은 0.77% 하락했습니다. 미국10년 국채수익률 5.33%와 Brent 101.88달러가 부담인 가운데 FOMC 의사록과 실적 발표 종목의 가격 경로를 확인합니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,818.93",
+      "unit": "pt",
+      "delta": "+44.98",
+      "percent": "+0.58",
+      "direction": "up",
+      "source": "reuters-market",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "2026-10-06 미국 정규장 종가"
+    },
+    {
+      "name": "다우존스",
+      "value": "51,521.28",
+      "unit": "pt",
+      "delta": "+253.38",
+      "percent": "+0.49",
+      "direction": "up",
+      "source": "reuters-market",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "2026-10-06 미국 정규장 종가"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "27,599.79",
+      "unit": "pt",
+      "delta": "+122.48",
+      "percent": "+0.45",
+      "direction": "up",
+      "source": "reuters-market",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "2026-10-06 미국 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "최고가 뒤 금리·유가 반등",
+      "fact": "10월7일 08:22 EDT 기준 다우 선물은 −411포인트(−0.79%), S&P 500 선물은 −34.5포인트(−0.44%), Nasdaq100 선물은 −243.5포인트(−0.77%)였습니다. AP는 미국10년 국채수익률 5.33%, 30년 5.71%, Brent 101.88달러를 전했습니다. 해석: 전일 최고 종가 뒤 할인율·에너지 비용 부담이 커져 개장 초 되돌림 위험이 높지만 선물은 정규장 종가가 아닙니다.",
+      "source": "reuters-market",
+      "additional_sources": [
+        "ap-market"
+      ]
+    },
+    {
+      "title": "반도체 강세 추세와 장전 차익실현",
+      "fact": "Micron은 10월6일 정규장에서 1,045.56달러로 1.73% 하락했고 10월7일 08:22 EDT 기준 장전 2.8% 추가 하락했습니다. 10월6일 기준 SOXX의 20거래일 수익률은 11.5537%로 SPY보다 9.8395%p 높았고 상승 추세 조건을 충족했습니다. 해석: 반도체의 중기 상대강도와 당일 금리 부담이 충돌하며, 장전 약세만으로 장중 경로를 확정할 수 없습니다.",
+      "source": "reuters-market",
+      "additional_sources": [
+        "massive"
+      ]
+    },
+    {
+      "title": "실적 발표 뒤 STZ·PENG 경로 분화",
+      "fact": "Constellation Brands는 분기 매출 26.3억달러와 조정 EPS 3.74달러로 시장 예상 25.4억달러·3.56달러를 웃돌았지만 연간 영업이익률 전망을 31~32%로 낮춰 장전 3.8% 하락했습니다. Penguin Solutions는 4분기 매출 5.67억달러(+68%)와 비GAAP EPS 1.00달러(+133%)를 발표하고 FY2027 매출 중간값 24.3억달러·비GAAP EPS 4.45달러로 전망을 높여 장전 4.3% 상승했습니다. 해석: 절대 실적보다 전망 변화와 발표 전 가격 반영 정도가 당일 경로를 가릅니다.",
+      "source": "stz-results",
+      "additional_sources": [
+        "peng-results",
+        "reuters-market",
+        "massive"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "price": "1,045.56",
+      "currency": "USD",
+      "delta": "−18.40",
+      "percent": "−1.73",
+      "direction": "down",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-06 정규장 종가",
+      "reason": "금리 상승과 반도체 차익실현 압력을 보여주는 AI 메모리 대표 종목입니다.",
+      "watch": "장전 −2.8% 뒤 1,045.56달러 회복 여부와 SOXX 상대강도를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "−2.8",
+        "as_of": "2026-10-07T21:22:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 08:22 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "Constellation Brands",
+      "ticker": "STZ",
+      "price": "115.67",
+      "currency": "USD",
+      "delta": "+2.36",
+      "percent": "+2.08",
+      "direction": "up",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "NYSE 2026-10-06 정규장 종가",
+      "reason": "분기 예상 상회보다 낮아진 연간 영업이익률 전망에 장전 약세인 실적 종목입니다.",
+      "watch": "장전 −3.8% 갭과 115.67달러 회복, 낮춘 마진 전망의 재평가를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "stz-results",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "−3.8",
+        "as_of": "2026-10-07T21:22:00+09:00",
+        "venue": "NYSE 장전; Reuters 08:22 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "Penguin Solutions",
+      "ticker": "PENG",
+      "price": "64.21",
+      "currency": "USD",
+      "delta": "+3.50",
+      "percent": "+5.77",
+      "direction": "up",
+      "as_of": "2026-10-07T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-06 정규장 종가",
+      "reason": "기록적 4분기 실적과 FY2027 상향 전망으로 장전 강세인 AI 인프라 종목입니다.",
+      "watch": "전일 +5.77%와 장전 +4.3%의 선반영 뒤 64.21달러·갭 유지 여부를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "peng-results",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+4.3",
+        "as_of": "2026-10-07T21:22:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 08:22 EDT 기사 기준"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.33",
+    "unit": "%",
+    "delta": "+0.07%p",
+    "direction": "up",
+    "as_of": "2026-10-07T22:00:00+09:00",
+    "session": "2026-10-07 미국 장전 AP 최근값; 전일 약5.26% 대비",
+    "source": "ap-market"
+  },
+  "interpretation": "전일 지수의 최고 종가와 반도체 상대강도는 중기 지지 요인이지만, 개장 전 금리·유가와 지수선물이 동시에 역풍입니다. 지수 추격보다 MU의 전일 종가 회복, STZ의 마진 가이던스 소화, PENG의 실적 갭 유지처럼 발표 뒤 실제 가격 경로를 우선 확인합니다.",
+  "next_checks": [
+    {
+      "label": "10월7일22:30 KST",
+      "title": "미국 정규장 개장",
+      "detail": "09:30 EDT. 선물 약세가 현물 시장 폭으로 이어지는지와 MU·STZ·PENG의 장전 갭 유지 여부를 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "10월8일03:00 KST",
+      "title": "FOMC 의사록",
+      "detail": "10월7일14:00 EDT. 9월15~16일 회의의 물가·금리 판단과 미국10년물·Nasdaq 반응을 확인합니다.",
+      "source": "fed-calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "NYSE · 2026 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026년 공식 휴장·조기폐장표에서10월7일 제외.정규장09:30~16:00ET.2026-10-07은 EDT(UTC−04:00).22:00KST 조회."
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 2026 휴장·시간",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "10월7일은 휴장 목록에 없고 정규장09:30~16:00ET."
+    },
+    {
+      "id": "reuters-market",
+      "label": "Reuters · 10월7일 미국 장전",
+      "url": "https://www.reuters.com/business/wall-st-futures-slip-yields-oil-rebound-fed-minutes-focus-2026-10-07/",
+      "note": "전일 종가와08:22EDT 선물·장전 종목 반응.시세는 최소15분 지연이며 변동 가능."
+    },
+    {
+      "id": "ap-market",
+      "label": "AP · 10월7일 시장·채권·유가",
+      "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-44b75c188756038371cf3112ede9cee8",
+      "note": "미10년5.33%,30년5.71%,Brent101.88달러,WTI89.99달러 및 FOMC 의사록 주목."
+    },
+    {
+      "id": "stz-results",
+      "label": "Reuters · Constellation Brands 실적",
+      "url": "https://www.reuters.com/business/retail-consumer/corona-beer-maker-constellation-brands-tops-second-quarter-estimates-resilient-2026-10-06/",
+      "note": "매출·조정EPS 예상 상회,연간 영업이익률 전망31~32%로 하향."
+    },
+    {
+      "id": "peng-results",
+      "label": "Penguin Solutions · FY2026 4분기 실적",
+      "url": "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Announces-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx",
+      "note": "4분기 매출5.67억달러·비GAAP EPS1.00달러,FY2027 매출중간값24.3억달러·비GAAP EPS4.45달러."
+    },
+    {
+      "id": "fed-calendar",
+      "label": "Federal Reserve · 10월 공식 일정",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "note": "10월7일14:00ET에9월15~16일 FOMC 의사록 공개."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/",
+      "note": "요청커밋69bb4e97의실행37625625035 성공.data_date=2026-10-06,queried_at=2026-10-07T22:09:53+09:00,27개요청.ETF대용치·업종상대수익·전체증권시장폭·관찰종목정규장종가 확인.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-07",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-07T22:00:00+09:00",
+    "note": "NYSE와Nasdaq 공식2026휴장·조기폐장표에서10월7일 제외.정규장09:30~16:00EDT;KST10월7일22:30~10월8일05:00.EDT(UTC−04:00) 확인."
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-07T22:00:33+09:00",
+    "actual_started_at_utc": "2026-10-07T13:00:33Z",
+    "actual_started_at_local": "2026-10-07T09:00:33-04:00",
+    "scheduled_at_kst": "2026-10-07T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-07T13:00:00Z",
+    "scheduled_at_local": "2026-10-07T09:00:00-04:00",
+    "start_offset_seconds": 33,
+    "environment": "Work cloud Linux; fresh checkout; GitHub OAuth connector and kakao memochat tool exposed",
+    "model_setting": "Requested GPT-6.1 Sol High; explicit automation model metadata unavailable, application unverified",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "calculation_notes": "지수포인트:7818.93−7773.95=44.98,+0.5786%→+0.58%;51521.28−51267.90=253.38,+0.4942%→+0.49%;27599.79−27477.31=122.48,+0.4457%→+0.45%.MU:1045.56−1063.96=−18.40,−1.7294%→−1.73%.STZ:115.67−113.31=2.36,+2.0828%→+2.08%.PENG:64.21−60.71=3.50,+5.7651%→+5.77%.SOXX20일11.5537%−SPY1.7142%=9.8395%p. breadth는OTC제외전체증권12394쌍중상승7514(60.63%)이며보통주만의시장폭이아님.장전은Reuters별도구간.분봉·VWAP·옵션·소셜·기관주문흐름·미래확률은미산출.",
+  "reading": {
+    "headline": "최고가 뒤 금리·유가 반등, 선물 약세",
+    "summary_points": [
+      "S&P·Nasdaq 최고 종가 뒤 선물은 −0.44%·−0.77%.",
+      "미국10년 5.33%, Brent 101.88달러로 반등.",
+      "MU·STZ 약세, PENG 강세로 실적 경로가 갈립니다."
+    ],
+    "notices": [
+      "지수·종목은 10월7일05:00 KST 전일 정규장 종가입니다. 장전 값은 별도 구간입니다.",
+      "08:22 EDT 장전 시세는 최소15분 지연·변동 가능하며 실제 개장가가 아닙니다.",
+      "Massive 분석은 10월6일 일별 자료입니다. ETF 대용치이며 장전 실시간·기관수급·배당 재투자 수익률이 아닙니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-07T22:10:00+09:00",
+      "input_cutoff": "2026-10-07T22:09:53+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다."
+    },
+    "issues": [
+      {
+        "title": "최고가 뒤 금리·유가 반등",
+        "preview": "할인율·원가 부담이 개장 초 되돌림을 키웁니다.",
+        "points": [
+          "S&P선물 −0.44%, Nasdaq100선물 −0.77%.",
+          "미국10년5.33%, Brent101.88달러."
+        ],
+        "meaning": "전일 최고 종가와 장전 매크로 역풍이 충돌합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 대형주 지수",
+            "basis": "08:22EDT 선물 약세와 금리·유가 반등이 해당일 종가에 하방 압력을 준다.",
+            "counter": "전일 최고 종가와 일별 시장 폭 60.63%는 현물 매수 기반이 완전히 약하지 않음을 시사한다.",
+            "invalidation": "개장 뒤 금리 하락과 시장 폭 개선으로 전일 종가를 회복하면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "SPY·QQQ 상승 추세와 실적 기대는 10월7~13일 지지 요인이다.",
+            "counter": "5%대 금리·100달러대 Brent와 FOMC 의사록이 할인율 변동성을 키운다.",
+            "invalidation": "금리와 유가가 안정되고 시장 폭 확산이 이어지면 상방으로 갱신한다.",
+            "sources": [
+              "ap-market",
+              "fed-calendar",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 추세·차익실현",
+        "preview": "SOXX 강세 속 MU 장전 약세의 지속을 봅니다.",
+        "points": [
+          "MU 종가1,045.56달러(−1.73%),장전−2.8%.",
+          "SOXX 20일 SPY 대비 +9.84%p."
+        ],
+        "meaning": "중기 상대강도와 당일 할인율 부담이 맞섭니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU·반도체 업종",
+            "basis": "MU 장전 −2.8%와 동종 칩주 약세가 해당일 종가의 하방 위험을 높인다.",
+            "counter": "SOXX의 20일 상대강도와 상승 추세는 장중 저가매수 가능성을 남긴다.",
+            "invalidation": "MU가 1,045.56달러를 회복하고 SOXX가 지수 대비 강해지면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU·반도체 업종",
+            "basis": "SOXX 20일 +11.55%와 상승 추세는 10월7~13일 지지 요인이다.",
+            "counter": "최근 상대강세는 선반영·차익실현 압력의 대용치이며 높은 금리가 부담이다.",
+            "invalidation": "SOXX가 SPY 대비 약세로 전환하거나 MU가 20일 평균 아래에 머물면 하방으로 갱신한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "실적 반응 분화",
+        "preview": "STZ 전망 하향과 PENG 상향의 가격 경로가 갈립니다.",
+        "points": [
+          "STZ 예상 상회에도 장전−3.8%.",
+          "PENG 전망 상향 뒤 장전+4.3%."
+        ],
+        "meaning": "절대 실적보다 전망과 선반영이 당일 반응을 가릅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "STZ·PENG",
+            "basis": "STZ는 마진 전망 하향으로 약세, PENG는 전망 상향으로 강세여서 방향이 분화한다.",
+            "counter": "장전 갭은 개장 뒤 차익실현·재평가로 반전할 수 있다.",
+            "invalidation": "두 종목이 각각 전일 종가와 장전 갭을 반대로 넘나들면 개별 판단을 갱신한다.",
+            "sources": [
+              "stz-results",
+              "peng-results",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "STZ·PENG",
+            "basis": "실적과 전망 차이가 10월7~13일 개별 종목의 기준점이다.",
+            "counter": "STZ의 하락 추세와 PENG의 20일 +25.17% 선반영은 후속 경로를 제한할 수 있다.",
+            "invalidation": "후속 가이던스 해석과 정규장 종가·거래량이 재료와 같은 방향으로 이어지면 갱신한다.",
+            "sources": [
+              "stz-results",
+              "peng-results",
+              "massive"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "금리·유가와 현물 시장 폭의 동행을 봅니다.",
+      "MU·STZ의 전일 종가 회복 여부를 확인합니다.",
+      "PENG는 장전 갭 유지와 차익실현을 함께 봅니다."
+    ],
+    "stocks": {
+      "MU": {
+        "reason": "금리 상승 속 전일 −1.73%, 장전 −2.8%인 AI 메모리 대표주입니다.",
+        "watch": "1,045.56달러 회복과 SOXX 대비 상대강도를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU",
+            "basis": "장전 −2.8%와 전일 −1.73%가 해당일 종가 하방을 지지한다.",
+            "counter": "20일 +4.53%와 상승 추세는 장중 반등 가능성을 남긴다.",
+            "invalidation": "1,045.56달러 회복과 업종 대비 강세가 동반되면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "상승 추세와 AI 메모리 수요 기대가 지지한다.",
+            "counter": "5일 −1.83%와 높은 금리, 최근 변동성이 부담이다.",
+            "invalidation": "20일 평균 회복·이탈과 SOXX 상대강도로 갱신한다.",
+            "sources": [
+              "massive"
+            ]
+          }
+        }
+      },
+      "STZ": {
+        "reason": "예상 상회에도 연간 영업이익률 전망 하향으로 장전 −3.8%입니다.",
+        "watch": "115.67달러 회복과 마진 전망 재평가를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "STZ",
+            "basis": "마진 전망 하향과 장전 −3.8%가 해당일 종가 하방을 지지한다.",
+            "counter": "매출·EPS 예상 상회와 전일 +2.08%는 하락을 일부 완충할 수 있다.",
+            "invalidation": "115.67달러 회복과 갭 축소가 이어지면 재판단한다.",
+            "sources": [
+              "stz-results",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "STZ",
+            "basis": "실적 예상 상회는 지지 요인이다.",
+            "counter": "낮춘 마진 전망과 20일 −4.39%, 하락 추세가 부담이다.",
+            "invalidation": "회사 후속 설명과 20일 평균 회복 여부로 갱신한다.",
+            "sources": [
+              "stz-results",
+              "massive"
+            ]
+          }
+        }
+      },
+      "PENG": {
+        "reason": "기록적 4분기와 FY2027 전망 상향으로 장전 +4.3%입니다.",
+        "watch": "전일 +5.77% 뒤 64.21달러·장전 갭 유지 여부를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PENG",
+            "basis": "전망 상향과 장전 +4.3%가 상방을 지지한다.",
+            "counter": "전일 +5.77%, 20일 +25.17%, 거래량비 7.79배는 강한 선반영·장중 차익실현 위험을 함께 보여준다.",
+            "invalidation": "64.21달러 아래 갭 반납이 지속되면 하방으로, 거래량 동반 갭 유지면 상방으로 갱신한다.",
+            "sources": [
+              "peng-results",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PENG",
+            "basis": "FY2027 매출·EPS 전망 상향은 10월7~13일 지지 요인이다.",
+            "counter": "20일 +25.17%의 선반영과 높은 변동성이 부담이다.",
+            "invalidation": "실적 후 종가가 64.21달러 위에서 안정되거나 갭을 완전히 반납하면 갱신한다.",
+            "sources": [
+              "peng-results",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "현물 개장·시장 폭",
+        "detail": "선물 약세가 현물 폭으로 이어지는지와 세 종목의 장전 갭을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 대형주 지수",
+            "basis": "선물 약세·금리·유가 반등이 개장 초 하방을 지지한다.",
+            "counter": "전일 최고 종가와 시장 폭 60.63%가 반등 가능성을 남긴다.",
+            "invalidation": "전일 종가 회복과 시장 폭 개선이 동반되면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "ap-market",
+              "massive",
+              "calendar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "첫날 종가와 시장 폭은 10월7~13일의 첫 관찰값이다.",
+            "counter": "의사록 전후 금리 기대가 방향을 바꿀 수 있다.",
+            "invalidation": "금리와 시장 폭이 같은 방향으로 이어지면 갱신한다.",
+            "sources": [
+              "fed-calendar",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "FOMC 의사록",
+        "detail": "9월 회의의 물가·금리 판단과 채권·Nasdaq 반응을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "공개 전 내용은 알 수 없어 당일 방향을 확정하지 않는다.",
+            "counter": "과거 회의 기록이어서 새 데이터와 해석이 다를 수 있다.",
+            "invalidation": "공개 뒤 금리·달러·지수의 실제 반응으로 정한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "의사록은 10월7~13일 금리 기대의 확인점이다.",
+            "counter": "후속 지표와 실적이 의사록 영향을 상쇄할 수 있다.",
+            "invalidation": "시장금리와 이익전망의 후속 방향으로 갱신한다.",
+            "sources": [
+              "fed-calendar"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "NYSE · 거래일·시간",
+      "nasdaq-calendar": "Nasdaq · 휴장·시간",
+      "reuters-market": "Reuters · 10월7일 장전",
+      "ap-market": "AP · 시장·채권·유가",
+      "stz-results": "Reuters · STZ 실적",
+      "peng-results": "Penguin Solutions · 실적",
+      "fed-calendar": "Federal Reserve · 10월 일정"
+    }
+  }
+}
