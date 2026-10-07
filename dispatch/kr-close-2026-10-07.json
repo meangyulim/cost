@@ -1,0 +1,28 @@
+{
+  "report_id": "kr-close-2026-10-07",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-07T15:55:29+09:00",
+  "attempted_at_utc": "2026-10-07T06:55:29Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-07/",
+  "report_commit": "8f789c94a61ae3ea964b070b9bccfac9b59eac48",
+  "deployment": {
+    "workflow": "Deploy static briefing site",
+    "run_id": 37584147555,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/meangyulim/cost/actions/runs/37584147555",
+    "completed_at": "2026-10-07T06:55:09Z"
+  },
+  "additional_checks": {
+    "http_get": "skipped_by_user_instruction",
+    "browser": "skipped_by_user_instruction",
+    "mobile_390_430": "skipped_by_user_instruction",
+    "text_zoom_200_percent": "skipped_by_user_instruction"
+  },
+  "send_tool": "mcp__codex_apps__kakao_kakaotalkchat_memochat",
+  "send_tool_called": false,
+  "attempted_record_created": true,
+  "send_result": "pending",
+  "send_attempts": 0
+}
