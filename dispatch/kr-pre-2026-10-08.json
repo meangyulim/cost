@@ -1,0 +1,18 @@
+{
+  "report_id": "kr-pre-2026-10-08",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-08T08:42:48+09:00",
+  "attempted_at_utc": "2026-10-07T23:42:48Z",
+  "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-08/",
+  "deployment_commit": "2f5f3ea5b3c80627c74554ac09ed8f964090c92d",
+  "deployment": {
+    "workflow": "Deploy static briefing site",
+    "run_id": 37703713900,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
+  "send_tool_called": false,
+  "note": "Initial send claim recorded before the single Kakao self-message attempt."
+}
