@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-08",
+  "latest_id": "us-close-2026-10-08",
   "reports": [
+    {
+      "id": "us-close-2026-10-08",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-08",
+      "title": "미국장 마감 브리핑 · 2026년 10월 8일",
+      "summary": "반도체 급락이 S&P500·나스닥을 눌렀고 다우만 강보합했습니다.",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-08/"
+    },
     {
       "id": "kr-close-2026-10-08",
       "is_test": false,

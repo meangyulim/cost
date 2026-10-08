@@ -1,0 +1,630 @@
+{
+  "id": "us-close-2026-10-08",
+  "is_test": false,
+  "market": "US",
+  "session": "close",
+  "market_date": "2026-10-08",
+  "title": "미국장 마감 브리핑 · 2026년 10월 8일",
+  "venue": "NYSE·Nasdaq 2026-10-08 정규장 09:30~16:00 EDT; 주가와 지수는 정규장 종가 구간, 시간외와 혼합하지 않음",
+  "as_of": "2026-10-09T05:00:00+09:00",
+  "queried_at": "2026-10-09T05:28:01+09:00",
+  "summary": "반도체 급락이 S&P500·나스닥을 눌렀고 다우만 강보합했습니다.",
+  "summary_detail": "S&P500은 7,765.70(−0.46%), 나스닥종합은 27,197.10(−1.24%)으로 내렸고 다우는 51,225.48(+0.09%)로 강보합했습니다. Brent가 4.1%, WTI가 3.6% 올라 인플레이션 부담을 키웠고 반도체주가 하락을 주도했습니다. 다만 미국10년물은 장중 5.35%에서 5.23%로 되돌렸고, PEP는 실적 예상 상회와 비용 절감 기대에 +3.73%로 지수와 다른 반응을 보였습니다.",
+  "interpretation": "당일 핵심은 지수 전반의 투매보다 고유가·고금리에 민감한 반도체의 집중 약세였습니다. 다음 거래일에는 Brent와 미국10년물의 재상승 여부, 반도체 저가매수, PEP의 실적 갭 유지가 우선 확인 대상입니다. Massive 산출물은 실제 기준일이 10월7일이어서 10월8일 종가 근거가 아니라 전일 배경으로만 사용했습니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,765.70",
+      "unit": "pt",
+      "delta": "−36.07",
+      "percent": "−0.46",
+      "direction": "down",
+      "source": "reuters-close",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "2026-10-08 미국 정규장 잠정 종가"
+    },
+    {
+      "name": "Dow Jones",
+      "value": "51,225.48",
+      "unit": "pt",
+      "delta": "+45.68",
+      "percent": "+0.09",
+      "direction": "up",
+      "source": "reuters-close",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "2026-10-08 미국 정규장 잠정 종가"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "27,197.10",
+      "unit": "pt",
+      "delta": "−341.59",
+      "percent": "−1.24",
+      "direction": "down",
+      "source": "reuters-close",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "2026-10-08 미국 정규장 잠정 종가"
+    }
+  ],
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.23",
+    "unit": "%",
+    "delta": "−0.05",
+    "direction": "down",
+    "as_of": "2026-10-09T05:00:00+09:00",
+    "session": "2026-10-08 미국 정규장 마감 무렵; 전일 5.28% 대비, 장중 5.35%",
+    "source": "ap-market"
+  },
+  "issues": [
+    {
+      "title": "유가 급등·금리 반락의 충돌",
+      "fact": "중동 긴장과 허리케인에 따른 미국 생산 차질 우려로 front-month Brent는 4.1%, WTI는 3.6% 올랐습니다. 미국10년 국채수익률은 전일 5.28%에서 장중 5.35%까지 상승했으나 30년물 입찰 뒤 5.23%로 낮아졌습니다. Fed Waller 이사는 데이터가 예상대로면 추가 인상이 필요하지만 연속 회의일 필요는 없다고 밝혔습니다. 해석: 유가발 인플레이션 위험이 주식 할인율 부담을 키웠지만, 장 후반 금리 반락은 지수 전반의 낙폭을 제한했습니다.",
+      "source": "reuters-close",
+      "additional_sources": [
+        "ap-market",
+        "fed-waller"
+      ]
+    },
+    {
+      "title": "AI 자금조달 우려에 반도체 집중 매도",
+      "fact": "Reuters는 OpenAI 연환산 매출이 기존 신호보다 200억달러 적다는 Financial Times 보도와, Broadcom·Oracle 등의 대규모 차입 추진에 따른 자본 경쟁 우려가 반도체 약세를 키웠다고 전했습니다. MU는 1,035.84달러(−52.16, −4.79%), NVDA는 230.48달러(−6.99, −2.94%)로 마감했습니다. 전일 Massive 배경에서는 SOXX가 20거래일 동안 SPY보다 7.61%p 강했지만 실제 기준일은 10월7일입니다. 해석: 장기 AI 수요의 부정보다 높은 금리와 자금조달 부담에 대한 단기 재평가로 보는 편이 타당합니다.",
+      "source": "reuters-close",
+      "additional_sources": [
+        "mu-price",
+        "nvda-price",
+        "massive"
+      ]
+    },
+    {
+      "title": "PEP, 실적 상회와 전망 하향을 소화",
+      "fact": "PepsiCo는 3분기 매출 252억7400만달러, core EPS 2.34달러를 발표했습니다. 다만 2026년 core constant-currency EPS 성장 전망은 기존 4~6% 하단에서 1~2%로 낮췄고, core EPS 성장 전망은 5~7% 하단에서 2.5~3.5%로 낮췄습니다. PEP는 128.34달러(+4.61, +3.73%)로 마감했습니다. 해석: 실적 예상 상회와 추가 비용 절감 기대가 당일에는 전망 하향보다 강했지만, 북미 마진 회복은 아직 확인 과제입니다.",
+      "source": "pepsi-official",
+      "additional_sources": [
+        "pepsi-reuters",
+        "pep-price"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "price": "1,035.84",
+      "currency": "USD",
+      "delta": "−52.16",
+      "percent": "−4.79",
+      "direction": "down",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-08 정규장 종가",
+      "source": "mu-price",
+      "reason_sources": [
+        "reuters-close",
+        "massive"
+      ],
+      "reason": "반도체 전반의 AI 자금조달 우려와 금리 부담 속에서 전일 급등분을 되돌렸습니다.",
+      "watch": "1,032.10달러 당일 저점 방어와 SOXX의 지수 대비 반등 여부를 확인합니다.",
+      "previous_close": "1,088.00",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "230.48",
+      "currency": "USD",
+      "delta": "−6.99",
+      "percent": "−2.94",
+      "direction": "down",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-08 정규장 종가",
+      "source": "nvda-price",
+      "reason_sources": [
+        "reuters-close",
+        "ap-market",
+        "massive"
+      ],
+      "reason": "AI 투자 재원과 높은 할인율 우려가 최대 시가총액 반도체주에 집중됐습니다.",
+      "watch": "229.85달러 당일 저점과 237.47달러 전일 종가 회복 순서를 확인합니다.",
+      "previous_close": "237.47",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP",
+      "price": "128.34",
+      "currency": "USD",
+      "delta": "+4.61",
+      "percent": "+3.73",
+      "direction": "up",
+      "as_of": "2026-10-09T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-08 정규장 종가",
+      "source": "pep-price",
+      "reason_sources": [
+        "pepsi-official",
+        "pepsi-reuters"
+      ],
+      "reason": "매출·core EPS 예상 상회와 비용 절감 기대가 연간 이익 전망 하향을 눌렀습니다.",
+      "watch": "129.50달러 당일 고점 돌파와 북미 core 마진 개선 신호를 확인합니다.",
+      "previous_close": "123.73",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-09 22:30 KST",
+      "title": "뉴욕 정규장 개장",
+      "detail": "2026-10-09 09:30 EDT. Brent·미국10년물과 MU·NVDA의 저점 방어를 먼저 봅니다."
+    },
+    {
+      "label": "2026-10-09 23:00 KST",
+      "title": "미시간대 소비심리 예비치",
+      "detail": "2026-10-09 10:00 EDT. 헤드라인과 1년 기대인플레이션을 함께 확인합니다."
+    },
+    {
+      "label": "2026-10-13 20:00 KST",
+      "title": "JPM 3분기 실적",
+      "detail": "2026-10-13 약 07:00 EDT 발표 예정. 대출 성장·예금 비용·IB 수익을 확인합니다."
+    }
+  ],
+  "calculation_notes": "지수값은 Reuters 잠정 종가를 그대로 보존. PEP 128.34−123.73=+4.61; 4.61/123.73×100=3.7259%. MU 1,035.84−1,088.00=−52.16; −52.16/1,088.00×100=−4.7941%. NVDA 230.48−237.47=−6.99; −6.99/237.47×100=−2.9435%. 미국10년물 5.23−5.28=−0.05%p. Massive 요청 end_date는 10월8일이지만 실제 data_date는 10월7일이므로 당일 종가에 사용하지 않고 전일 배경으로만 사용. SPY·QQQ·DIA·IWM은 ETF 대용치이며 지수값이 아님. 10월7일 OTC제외 전체증권 상승비율 22.19%(2,746/12,376; ETF·우선주·워런트 포함)로 보통주 또는 S&P500 상승비율이 아님.",
+  "sources": [
+    {
+      "id": "nyse-calendar",
+      "label": "NYSE · 2026 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "10월8일은 2026 휴장·조기폐장 목록에 없고 core session은 09:30~16:00 ET.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 2026 휴장일·거래시간",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "10월8일은 휴장일이 아니며 Nasdaq 정규장은 09:30~16:00 ET.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "reuters-close",
+      "label": "Reuters · 미국장 마감",
+      "url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
+      "note": "10월8일 잠정 종가와 유가 결제 등락, 반도체 약세와 AI 자금조달 우려.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "ap-market",
+      "label": "AP · 유가·채권·주식 마감",
+      "url": "https://apnews.com/article/stocks-markets-bonds-oil-us-6a096d714c874db13632794a32cebaa6",
+      "note": "Brent 변동과 미국10년물 5.35%→5.23%, 반도체·PEP 시장 반응.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "fed-waller",
+      "label": "Federal Reserve · Waller 연설",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "note": "데이터가 예상대로면 추가 인상 필요, 시점에는 유연성이 있다는 발언.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "pepsi-official",
+      "label": "PepsiCo · 2026년 3분기 실적",
+      "url": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+      "note": "매출 252억7400만달러, core EPS 2.34달러, 2026년 가이던스 변경.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "pepsi-reuters",
+      "label": "Reuters · PepsiCo 실적 반응",
+      "url": "https://www.reuters.com/business/retail-consumer/pepsico-cuts-annual-core-profit-forecast-higher-costs-hurt-margins-2026-10-08/",
+      "note": "북미 회복 지연, 마진 압력, 추가 비용 절감과 전망 하향의 맥락.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "mu-price",
+      "label": "StockAnalysis · MU 10월8일 종가",
+      "url": "https://stockanalysis.com/stocks/mu/history/",
+      "note": "S&P Global Market Intelligence 제공 10월8일 정규장 종가 1,035.84달러와 OHLCV.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "nvda-price",
+      "label": "StockAnalysis · NVDA 10월8일 종가",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "note": "10월8일 16:00 EDT 종가 230.48달러, 전일 종가 237.47달러.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "pep-price",
+      "label": "StockAnalysis · PEP 10월8일 종가",
+      "url": "https://stockanalysis.com/stocks/pep/history/",
+      "note": "S&P Global Market Intelligence 제공 10월8일 정규장 종가 128.34달러와 OHLCV.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+      "note": "요청 10월8일, 실제 data_date 10월7일. ETF 상대수익률·전일 시장 폭·전일 관찰 종목 배경만 사용.",
+      "queried_at": "2026-10-09T05:26:31+09:00",
+      "show_public": false
+    },
+    {
+      "id": "michigan",
+      "label": "University of Michigan · 소비심리 일정",
+      "url": "https://www.sca.isr.umich.edu/",
+      "note": "10월 예비치 공개 예정 2026-10-09 10:00 ET.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    },
+    {
+      "id": "jpm",
+      "label": "JPMorganChase · 3분기 실적 일정",
+      "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-third-quarter-2026-earnings-call",
+      "note": "10월13일 약 07:00 ET 실적, 08:30 ET 컨퍼런스콜 예정.",
+      "queried_at": "2026-10-09T05:28:01+09:00"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-08",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-09T05:28:01+09:00",
+    "note": "NYSE·Nasdaq 공식 2026 휴장·조기폐장표에 10월8일 없음. 정규 09:30~16:00 EDT(UTC−04:00), KST 10월8일22:30~10월9일05:00. 다음5거래일은 10월9·12·13·14·15."
+  },
+  "execution_context": {
+    "scheduled_started_at_local": "2026-10-08T16:15:00-04:00",
+    "scheduled_started_at_kst": "2026-10-09T05:15:00+09:00",
+    "scheduled_started_at_utc": "2026-10-08T20:15:00Z",
+    "actual_started_at_local": "2026-10-08T16:18:49-04:00",
+    "actual_started_at_kst": "2026-10-09T05:18:49+09:00",
+    "actual_started_at_utc": "2026-10-08T20:18:49Z",
+    "start_offset_seconds": 229,
+    "start_delay_seconds": 229,
+    "environment": "Work cloud Linux; fresh clean git checkout; GitHub OAuth connector; web search; kakao self memo",
+    "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
+    "model_requested": "GPT-6.1 Sol / High",
+    "model_application": "not_verified_from_scheduler_metadata",
+    "analysis": {
+      "request_commit": "076b7b3176faaf5d726fc805ba9f95e70ee54e68",
+      "run_id": 37838739155,
+      "status": "success",
+      "artifact_id": 11577650010,
+      "artifact_name": "us-analysis-37838739155",
+      "requested_end_date": "2026-10-08",
+      "data_date": "2026-10-07",
+      "queried_at": "2026-10-09T05:26:31+09:00",
+      "usage": "previous_trading_day_background_only",
+      "analysis_json_read": true,
+      "data_date_note": "요청일보다 1거래일 늦어 10월8일 종가 근거로 사용하지 않음"
+    }
+  },
+  "reading": {
+    "headline": "반도체 급락, 다우만 강보합",
+    "summary_points": [
+      "나스닥 −1.24%, 반도체가 낙폭을 키웠습니다.",
+      "Brent +4.1%, 미국10년물은 5.23%로 반락.",
+      "PEP +3.73%는 지수 약세와 다른 실적 반응."
+    ],
+    "notices": [
+      "지수는 Reuters 잠정 종가, 종목은 16:00 EDT 정규장 종가입니다.",
+      "Massive 실제 기준일은 10월7일입니다. ETF 대용치·전체증권 시장 폭은 전일 배경으로만 봅니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-09T05:28:01+09:00",
+      "input_cutoff": "2026-10-09T05:27:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "다음 거래일과 5거래일의 조건부 방향 해석이며 확률 예측이 아니고 아직 검증되지 않았습니다."
+    },
+    "issues": [
+      {
+        "title": "유가 급등·금리 반락",
+        "preview": "유가 부담은 커졌지만 장후 금리 반락이 완충했습니다.",
+        "points": [
+          "Brent +4.1%, WTI +3.6% 결제.",
+          "미국10년물 5.35%→5.23%."
+        ],
+        "meaning": "다음 장은 유가와 금리의 재동조화가 방향을 가릅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "미국10년물이 장중 고점에서 5.23%로 반락해 금리 충격은 완화됐다.",
+            "counter": "Brent +4.1%와 Waller의 추가 인상 발언은 인플레이션 부담을 유지한다.",
+            "invalidation": "Brent와 10년물이 함께 재상승하거나 S&P500이 7,765선에서 이탈하면 하방으로 갱신한다.",
+            "sources": [
+              "reuters-close",
+              "ap-market",
+              "fed-waller"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "장기금리의 고점 이탈과 다음 주 실적 시작은 지수 지지 요인이다.",
+            "counter": "고유가가 기대인플레이션과 추가 인상 기대를 다시 높일 수 있다.",
+            "invalidation": "10년물이 5.35%를 지속 상회하거나 유가가 급등세를 이어가면 하방으로 갱신한다.",
+            "sources": [
+              "ap-market",
+              "fed-waller",
+              "jpm"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 집중 매도",
+        "preview": "AI 재원 우려가 MU·NVDA에 집중됐습니다.",
+        "points": [
+          "MU −4.79%, NVDA −2.94%.",
+          "SOXX 전일 상대강도는 당일 종가 신호가 아닙니다."
+        ],
+        "meaning": "수요보다 자금조달·할인율 재평가가 단기 핵심입니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU·NVDA·반도체 업종",
+            "basis": "MU와 NVDA가 당일 저점 부근에서 큰 폭 하락해 매도 압력이 남았다.",
+            "counter": "전일 SOXX의 20일 상대강도와 금리 반락은 저가매수 조건을 제공한다.",
+            "invalidation": "MU 1,088달러와 NVDA 237.47달러를 회복하고 SOXX가 지수보다 강해지면 재판단한다.",
+            "sources": [
+              "mu-price",
+              "nvda-price",
+              "reuters-close",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU·NVDA·반도체 업종",
+            "basis": "10월7일까지 SOXX의 20일 SPY 대비 상대수익률은 +7.61%p로 중기 추세가 남아 있었다.",
+            "counter": "높은 금리와 AI 기업의 대규모 자금조달 경쟁은 밸류에이션 부담을 키운다.",
+            "invalidation": "SOXX가 20일 평균 아래에 머물고 MU·NVDA가 당일 저점을 재차 깨면 하방으로 갱신한다.",
+            "sources": [
+              "massive",
+              "reuters-close",
+              "ap-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PEP 실적 갭 상승",
+        "preview": "실적 상회가 전망 하향보다 당일 강했습니다.",
+        "points": [
+          "매출 252.74억달러·core EPS 2.34달러.",
+          "PEP +3.73%, 연간 EPS 성장 전망은 하향."
+        ],
+        "meaning": "갭 유지와 북미 마진 개선 증거를 분리해 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "PEP",
+            "basis": "예상 상회 실적과 추가 비용 절감 기대 뒤 정규장 +3.73%로 마감했다.",
+            "counter": "북미 마진 압력과 2026년 core EPS 성장 전망 하향은 후속 상승을 제한한다.",
+            "invalidation": "123.73달러 전일 종가를 다시 밑돌면 실적 갭 상승 판단을 무효화한다.",
+            "sources": [
+              "pepsi-official",
+              "pepsi-reuters",
+              "pep-price"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PEP",
+            "basis": "매출 성장과 비용 절감 계획은 단기 반등의 근거다.",
+            "counter": "북미 음료량 감소와 core 마진 하락은 구조적 회복 확인을 늦춘다.",
+            "invalidation": "129.50달러 돌파가 이어지면 상방, 실적 갭을 반납하면 하방으로 갱신한다.",
+            "sources": [
+              "pepsi-official",
+              "pepsi-reuters",
+              "pep-price"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "Brent와 미국10년물의 재상승 동행을 봅니다.",
+      "MU·NVDA의 당일 저점과 전일 종가 회복 순서를 봅니다.",
+      "PEP는 129.50달러 돌파와 북미 마진 증거를 봅니다."
+    ],
+    "stocks": {
+      "MU": {
+        "reason": "AI 재원·금리 우려로 전일 급등분을 반납했습니다.",
+        "watch": "1,032.10달러 방어와 SOXX 상대강도를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU",
+            "basis": "정규장 −4.79%로 당일 저점 부근에서 마감했다.",
+            "counter": "10월7일까지 상승 추세와 업종 상대강도는 저가매수 여지를 남긴다.",
+            "invalidation": "1,088달러 회복과 SOXX 대비 강세가 동반되면 재판단한다.",
+            "sources": [
+              "mu-price",
+              "reuters-close",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "전일 기준 20일 수익률 +5.86%와 상승 추세가 남아 있었다.",
+            "counter": "급락과 높은 금리는 선반영 이익의 추가 반납 위험이다.",
+            "invalidation": "20일 평균 회복 또는 이탈 지속과 SOXX 상대강도로 갱신한다.",
+            "sources": [
+              "massive",
+              "mu-price",
+              "ap-market"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "AI 투자 재원 우려와 할인율 부담의 직접 영향을 받았습니다.",
+        "watch": "229.85달러 방어 뒤 237.47달러 회복 여부를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "NVDA",
+            "basis": "정규장 −2.94%로 반도체 매도 중심에 있었다.",
+            "counter": "미국10년물의 장후 반락은 할인율 충격을 일부 완화한다.",
+            "invalidation": "237.47달러 전일 종가를 회복하면 하방 우세를 재판단한다.",
+            "sources": [
+              "nvda-price",
+              "reuters-close",
+              "ap-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "전일 기준 20일 수익률 +6.17%와 상승 추세가 남아 있었다.",
+            "counter": "AI 기업의 자금조달 경쟁과 5%대 장기금리는 밸류에이션 부담이다.",
+            "invalidation": "20일 평균 아래 체류 시 하방, 금리 안정과 전일 종가 회복 시 상방으로 갱신한다.",
+            "sources": [
+              "massive",
+              "reuters-close",
+              "ap-market"
+            ]
+          }
+        }
+      },
+      "PEP": {
+        "reason": "예상 상회와 비용 절감 기대가 전망 하향보다 강했습니다.",
+        "watch": "129.50달러 돌파와 북미 마진 개선을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "PEP",
+            "basis": "실적 발표 뒤 정규장 +3.73%로 강하게 마감했다.",
+            "counter": "연간 이익 성장 전망 하향과 북미 마진 압력이 남아 있다.",
+            "invalidation": "123.73달러를 다시 밑돌면 실적 갭 판단을 무효화한다.",
+            "sources": [
+              "pep-price",
+              "pepsi-official",
+              "pepsi-reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PEP",
+            "basis": "매출 성장과 구조적 비용 절감 계획이 지지한다.",
+            "counter": "북미 회복 지연과 전일까지의 하락 추세가 반등 지속성을 제한한다.",
+            "invalidation": "129.50달러 돌파 지속 또는 123.73달러 이탈로 방향을 갱신한다.",
+            "sources": [
+              "pep-price",
+              "pepsi-official",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "뉴욕 개장",
+        "detail": "유가·금리와 반도체 저점 방어를 먼저 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주·반도체",
+            "basis": "금리 반락과 유가 급등이 상충한다.",
+            "counter": "반도체 종가 모멘텀은 하방으로 기울었다.",
+            "invalidation": "유가·금리와 SOXX의 첫 30분 방향이 같아지면 그 방향으로 갱신한다.",
+            "sources": [
+              "reuters-close",
+              "ap-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주·반도체",
+            "basis": "실적 시즌과 기존 기술주 추세가 지지한다.",
+            "counter": "5%대 금리와 고유가가 멀티플 확장을 제한한다.",
+            "invalidation": "10년물 5.35% 상회 지속 또는 금리 안정 뒤 전고점 회복으로 갱신한다.",
+            "sources": [
+              "ap-market",
+              "massive",
+              "jpm"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미시간대 소비심리",
+        "detail": "헤드라인과 1년 기대인플레이션을 함께 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국10년물·소비주",
+            "basis": "낮은 심리는 소비주에 부담이지만 금리 인상 기대를 낮출 수 있다.",
+            "counter": "기대인플레이션 상승은 금리와 달러를 다시 밀어 올릴 수 있다.",
+            "invalidation": "헤드라인과 기대인플레이션이 같은 방향으로 크게 움직이면 그 방향으로 재판단한다.",
+            "sources": [
+              "michigan",
+              "fed-waller"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주·소비주",
+            "basis": "소비 둔화는 금리 부담 완화 가능성을 높인다.",
+            "counter": "고유가로 기대인플레이션이 높아지면 완화 기대가 상쇄된다.",
+            "invalidation": "기대인플레이션과 10년물이 함께 상승하거나 하락할 때 방향을 갱신한다.",
+            "sources": [
+              "michigan",
+              "ap-market",
+              "fed-waller"
+            ]
+          }
+        }
+      },
+      {
+        "title": "JPM 3분기 실적",
+        "detail": "대출 성장·예금 비용·IB 수익을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "JPM·미국 금융주",
+            "basis": "발표가 다음 거래일 이후여서 10월9일 방향의 직접 근거가 아니다.",
+            "counter": "발표 전 금리 변화가 금융주 기대를 선반영할 수 있다.",
+            "invalidation": "10월13일 실적과 가이던스 공개 뒤 판단을 새로 작성한다.",
+            "sources": [
+              "jpm",
+              "ap-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "JPM·미국 금융주",
+            "basis": "높은 금리는 순이자수익을 지지할 수 있고 실적 시즌이 시작된다.",
+            "counter": "장기금리 급등은 채권 평가와 조달 비용·대출 수요에 부담이다.",
+            "invalidation": "대출 성장·예금 비용·IB 수익이 같은 방향으로 확인되면 그 방향으로 갱신한다.",
+            "sources": [
+              "jpm",
+              "ap-market"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse-calendar": "NYSE · 2026 거래일·시간",
+      "nasdaq-calendar": "Nasdaq · 2026 휴장일·거래시간",
+      "reuters-close": "Reuters · 미국장 마감",
+      "ap-market": "AP · 유가·채권·주식 마감",
+      "fed-waller": "Federal Reserve · Waller 연설",
+      "pepsi-official": "PepsiCo · 2026년 3분기 실적",
+      "pepsi-reuters": "Reuters · PepsiCo 실적 반응",
+      "mu-price": "StockAnalysis · MU 종가",
+      "nvda-price": "StockAnalysis · NVDA 종가",
+      "pep-price": "StockAnalysis · PEP 종가",
+      "michigan": "University of Michigan · 소비심리 일정",
+      "jpm": "JPMorganChase · 3분기 실적 일정"
+    }
+  }
+}
