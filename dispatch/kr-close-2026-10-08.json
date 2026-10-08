@@ -1,8 +1,10 @@
 {
   "report_id": "kr-close-2026-10-08",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-08T15:54:57+09:00",
   "attempted_at_utc": "2026-10-08T06:54:57Z",
+  "sent_at_kst": "2026-10-08T15:55:34+09:00",
+  "sent_at_utc": "2026-10-08T06:55:34Z",
   "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-08/",
   "report_commit": "d83b8f212299654b07865513206ebbcd3bc68883",
   "deployment": {
@@ -17,6 +19,7 @@
     "anonymous_http": "skipped_by_user_instruction",
     "browser": "skipped_by_user_instruction"
   },
-  "send_tool_called": false,
-  "attempted_record_created": true
+  "send_tool_called": true,
+  "attempted_record_created": true,
+  "send_result": "success"
 }
