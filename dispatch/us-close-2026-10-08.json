@@ -1,0 +1,22 @@
+{
+  "report_id": "us-close-2026-10-08",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-09T05:32:39+09:00",
+  "attempted_at_utc": "2026-10-08T20:32:39Z",
+  "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-08/",
+  "report_commit": "87d04830c8ced269b75b7172907ff430695f7895",
+  "deployment": {
+    "workflow_run_id": 37840079034,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success"
+  },
+  "checks": {
+    "anonymous_http": "skipped_by_user_instruction",
+    "browser": "skipped_by_user_instruction"
+  },
+  "send_tool_called": false,
+  "attempted_record_created": true
+}
