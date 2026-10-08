@@ -1,0 +1,597 @@
+{
+  "id": "us-pre-2026-10-08",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-08",
+  "title": "2026년 10월 8일 미국장 시작 전",
+  "venue": "NYSE / Nasdaq",
+  "as_of": "2026-10-08T05:00:00+09:00",
+  "queried_at": "2026-10-08T22:11:19+09:00",
+  "summary": "유가·금리 급등에 선물 약세, 실적 종목은 분화",
+  "summary_detail": "10월8일 08:33 EDT 기준 다우 선물은 0.72%, S&P 500 선물은 0.41%, Nasdaq100 선물은 0.68% 하락했습니다. Brent는 105달러를 웃돌고 미국10년 국채수익률은 5.32%로 높은 수준을 유지했습니다. MU는 전일 4.06% 상승 뒤 장전 1.3% 하락했고, PEP와 WOLF는 각각 실적·조건부 대출 재료로 장전 강세여서 종목별 갭 유지 여부를 확인합니다.",
+  "interpretation": "전일 현물 시장 폭이 약한 상태에서 유가와 금리가 함께 오르고 있어 당일 지수 종가에는 하방 압력이 우세합니다. 다만 PEP의 예상 상회와 WOLF의 자금조달 재료처럼 개별 호재는 남아 있습니다. 좋은 뉴스 자체보다 발표 전 수익률, 장전 갭, 전일 종가 회복 여부를 함께 보고, 가격만으로 기관 매집이나 공매도 청산을 단정하지 않습니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,801.75",
+      "unit": "pt",
+      "delta": "−17.18",
+      "percent": "−0.22",
+      "direction": "down",
+      "source": "reuters-prev",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "2026-10-07 미국 정규장 종가"
+    },
+    {
+      "name": "Dow Jones",
+      "value": "51,180.17",
+      "unit": "pt",
+      "delta": "−341.11",
+      "percent": "−0.66",
+      "direction": "down",
+      "source": "reuters-prev",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "2026-10-07 미국 정규장 종가"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "27,538.69",
+      "unit": "pt",
+      "delta": "−61.19",
+      "percent": "−0.22",
+      "direction": "down",
+      "source": "reuters-prev",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "2026-10-07 미국 정규장 종가"
+    }
+  ],
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.32",
+    "unit": "%",
+    "delta": "+약0.03%p",
+    "direction": "up",
+    "as_of": "2026-10-08T21:33:00+09:00",
+    "session": "2026-10-08 08:33 EDT 미국 장전; 전일 약5.29% 대비",
+    "source": "reuters-market"
+  },
+  "issues": [
+    {
+      "title": "유가·금리 동반 상승",
+      "fact": "10월8일 08:33 EDT 기준 다우 선물은 −372포인트(−0.72%), S&P 500 선물은 −32.5포인트(−0.41%), Nasdaq100 선물은 −212.5포인트(−0.68%)였습니다. Brent는 4.9% 뛰어 105달러를 웃돌았고 미국10년 국채수익률은 5.32%였습니다. 신규 실업수당 청구는 19만7천건으로 예상 20만건보다 적었습니다. 해석: 유가발 인플레이션과 할인율 부담이 낮은 해고 신호보다 당장 지수선물에 더 크게 반영됐지만, 선물은 정규장 종가가 아닙니다.",
+      "source": "reuters-market",
+      "additional_sources": [
+        "jobless"
+      ]
+    },
+    {
+      "title": "메모리 호실적과 선반영 충돌",
+      "fact": "삼성전자는 3분기 매출 약195조원, 영업이익 약107.4조원의 잠정실적을 제시했습니다. 그러나 08:33 EDT 장전 MU는 1.3% 하락했고 AMD·INTC·MRVL도 약2%씩 약세였습니다. MU는 전일 정규장에서 4.06% 올랐고 SOXX의 20거래일 SPY 대비 수익률은 +7.61%p였습니다. 해석: 절대 실적 호재와 높은 사전 기대·금리 부담이 충돌하므로 장초반 하락 뒤 회복 가능성과 갭 확대 위험을 따로 봅니다.",
+      "source": "samsung",
+      "additional_sources": [
+        "reuters-market",
+        "massive"
+      ]
+    },
+    {
+      "title": "PEP·WOLF 이벤트 갭",
+      "fact": "PEP는 3분기 순매출 252억7400만달러와 core EPS 2.34달러를 발표했지만 2026년 core EPS 성장률 전망을 2.5~3.5%로 낮췄고 장전에는 1.5% 상승했습니다. WOLF는 미 국방부의 최대15억달러 조건부 30년 대출 약정을 발표해 장전 16.7% 올랐지만, 약정은 실사·최종계약·승인을 조건으로 하고 최대 완전희석 지분 7.5%의 워런트 발행 조건이 있습니다. 해석: PEP는 실적 상회와 전망 하향, WOLF는 자금지원과 조건부·희석 위험을 동시에 가격에 반영합니다.",
+      "source": "pepsi",
+      "additional_sources": [
+        "wolf",
+        "reuters-market"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "price": "1,088.00",
+      "currency": "USD",
+      "delta": "+42.44",
+      "percent": "+4.06",
+      "direction": "up",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-07 정규장 종가",
+      "reason": "전일 강세와 반도체 상대강도 뒤 삼성전자 잠정실적에도 장전 약세가 나타난 메모리 대표주입니다.",
+      "watch": "장전 −1.3% 뒤 1,088달러 회복과 SOXX의 지수 대비 상대강도를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "samsung",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "−1.3",
+        "as_of": "2026-10-08T21:33:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 08:33 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP",
+      "price": "123.73",
+      "currency": "USD",
+      "delta": "−1.98",
+      "percent": "−1.58",
+      "direction": "down",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-07 정규장 종가",
+      "reason": "매출·core EPS는 예상치를 웃돌았지만 북미 마진과 연간 이익 전망 하향이 동시에 나온 종목입니다.",
+      "watch": "장전 +1.5%가 123.73달러 위에서 유지되는지와 가이던스 재평가를 봅니다.",
+      "source": "massive",
+      "reason_sources": [
+        "pepsi",
+        "pepsi-reuters"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+1.5",
+        "as_of": "2026-10-08T21:33:00+09:00",
+        "venue": "Nasdaq 장전; Reuters 08:33 EDT 기사 기준"
+      }
+    },
+    {
+      "name": "Wolfspeed",
+      "ticker": "WOLF",
+      "price": "31.37",
+      "currency": "USD",
+      "delta": "−0.46",
+      "percent": "−1.45",
+      "direction": "down",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "session": "NYSE 2026-10-07 정규장 종가",
+      "reason": "최대15억달러 조건부 정부 대출 재료가 장전 급등으로 반영된 전력반도체 종목입니다.",
+      "watch": "장전 +16.7% 갭 유지와 31.37달러 이탈 여부, 조건부·워런트 희석 위험을 함께 봅니다.",
+      "source": "massive",
+      "reason_sources": [
+        "wolf",
+        "reuters-market"
+      ],
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+16.7",
+        "as_of": "2026-10-08T21:33:00+09:00",
+        "venue": "NYSE 장전; Reuters 08:33 EDT 기사 기준"
+      }
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "10월8일22:30 KST",
+      "title": "미국 정규장 개장",
+      "detail": "09:30 EDT. 선물 약세가 현물 시장 폭으로 이어지는지와 세 종목의 장전 갭을 확인합니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "10월8일23:00 KST",
+      "title": "개장 30분 가격 경로",
+      "detail": "MU의 전일 종가 회복, PEP의 실적 갭, WOLF의 초기 차익실현과 거래량을 봅니다.",
+      "source": "reuters-market"
+    },
+    {
+      "label": "10월9일05:00 KST",
+      "title": "정규장 종가",
+      "detail": "장초반 경로와 종가 방향을 구분해 유가·금리·업종 상대강도의 지속 여부를 평가합니다.",
+      "source": "calendar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "NYSE · 2026 거래일·시간",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026년 공식 휴장·조기폐장표에서10월8일 제외. 정규장09:30~16:00ET. 2026-10-08은 EDT(UTC−04:00). 2026-10-08T22:02:00+09:00 조회."
+    },
+    {
+      "id": "nasdaq-calendar",
+      "label": "Nasdaq · 2026 휴장·시간",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026년10월8일은 휴장·조기폐장 목록에 없음. Nasdaq 정규장09:30~16:00ET."
+    },
+    {
+      "id": "reuters-prev",
+      "label": "Reuters · 10월7일 미국장 마감",
+      "url": "https://www.reuters.com/business/wall-st-futures-slip-yields-oil-rebound-fed-minutes-focus-2026-10-07/",
+      "note": "10월7일 정규장 지수 종가·등락, 시장 폭과 유가·금리 배경. 시세는 최소15분 지연."
+    },
+    {
+      "id": "reuters-market",
+      "label": "Reuters · 10월8일 미국 장전",
+      "url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
+      "note": "08:33EDT 지수선물·미국10년물·Brent와 장전 MU·PEP·WOLF 반응. 장전 값은 최소15분 지연·변동 가능."
+    },
+    {
+      "id": "jobless",
+      "label": "Reuters · 주간 실업수당 청구",
+      "url": "https://www.reuters.com/business/us-weekly-jobless-claims-fall-layoffs-remain-low-2026-10-08/",
+      "note": "10월3일 종료 주 신규청구19만7천건, 예상20만건; 계속청구171만6천건."
+    },
+    {
+      "id": "samsung",
+      "label": "Samsung Electronics · 3분기 잠정실적",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+      "note": "2026년3분기 매출 약195조원, 영업이익 약107.4조원 잠정치."
+    },
+    {
+      "id": "pepsi",
+      "label": "PepsiCo · 3분기 실적",
+      "url": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+      "note": "순매출252억7400만달러, core EPS2.34달러, 2026 core EPS 성장률 전망2.5~3.5%."
+    },
+    {
+      "id": "pepsi-reuters",
+      "label": "Reuters · PepsiCo 전망·장전 반응",
+      "url": "https://www.reuters.com/business/retail-consumer/pepsico-cuts-annual-core-profit-forecast-higher-costs-hurt-margins-2026-10-08/",
+      "note": "북미 마진 압력·전망 하향과 장전 상승 반응."
+    },
+    {
+      "id": "wolf",
+      "label": "Wolfspeed · 조건부 대출 약정",
+      "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-announces-conditional-30-year-loan-commitment-from-us-department-of-war-to-advance-domestic-wide-bandgap-supply-chain/",
+      "note": "최대15억달러 조건부30년 대출 약정. 실사·최종계약·승인 조건과 최대완전희석지분7.5% 워런트 조건."
+    },
+    {
+      "id": "fed",
+      "label": "Federal Reserve · Waller 경제전망",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "note": "10월8일04:30EDT Waller 연설. 추가 인상 필요 가능성과 속도 유연성을 언급."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/",
+      "note": "요청커밋92f5f478의실행37781385742 성공. data_date=2026-10-07, queried_at=2026-10-08T22:09:10+09:00, 27개요청. ETF대용치·업종상대수익·전체증권시장폭·관찰종목정규장종가 확인.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-08",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-08T22:02:00+09:00",
+    "note": "NYSE와Nasdaq 공식2026휴장·조기폐장표에서10월8일 제외. 정규장09:30~16:00EDT; KST10월8일22:30~10월9일05:00. EDT(UTC−04:00) 확인."
+  },
+  "execution_context": {
+    "actual_started_at_kst": "2026-10-08T22:01:38+09:00",
+    "actual_started_at_utc": "2026-10-08T13:01:38Z",
+    "actual_started_at_local": "2026-10-08T09:01:38-04:00",
+    "scheduled_at_kst": "2026-10-08T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-08T13:00:00Z",
+    "scheduled_at_local": "2026-10-08T09:00:00-04:00",
+    "start_offset_seconds": 98,
+    "environment": "Work cloud Linux; fresh checkout; GitHub OAuth connector and kakao memochat tool exposed",
+    "model_setting": "Requested GPT-6.1 Sol High; explicit automation model metadata unavailable, application unverified",
+    "additional_checks": "skipped_per_user_instruction"
+  },
+  "calculation_notes": "지수포인트와등락률은Reuters 원문 보존. 신규청구19.7만건은예상20.0만건보다0.3만건 적음. MU:1088.00−1045.56=+42.44,+4.0591%→+4.06%. PEP:123.73−125.71=−1.98,−1.5751%→−1.58%. WOLF:31.37−31.83=−0.46,−1.4452%→−1.45%. SOXX20일9.5526%−SPY1.9439%=+7.6087%p. breadth는OTC제외전체증권12376쌍중상승2746(22.19%)이며보통주만의시장폭이아님. 장전가격·분봉·VWAP·옵션·호가·거래주체·미래확률은미산출.",
+  "reading": {
+    "headline": "유가·금리 급등, 선물 하방 우세",
+    "summary_points": [
+      "S&P선물 −0.41%, Nasdaq100선물 −0.68%.",
+      "Brent 105달러 상회·미국10년물 5.32%.",
+      "MU 약세, PEP·WOLF 강세로 이벤트 반응 분화."
+    ],
+    "notices": [
+      "지수·종목 가격은 10월8일05:00 KST 전일 정규장 종가입니다. 장전 등락률은 별도 구간입니다.",
+      "08:33 EDT 장전 값은 최소15분 지연·변동 가능하며 실제 개장가가 아닙니다.",
+      "Massive 분석은 10월7일 일별 자료입니다. ETF 대용치이며 장전 실시간·기관수급·배당 재투자 수익률이 아닙니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-08T22:11:19+09:00",
+      "input_cutoff": "2026-10-08T22:09:10+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "종가 방향과 장초반 되돌림 위험을 분리한 조건부 해석이며 검증 전입니다."
+    },
+    "issues": [
+      {
+        "title": "유가·금리 동반 상승",
+        "preview": "인플레이션·할인율 부담이 개장 초 하방을 키웁니다.",
+        "points": [
+          "S&P선물 −0.41%, Nasdaq100선물 −0.68%.",
+          "Brent 105달러 상회, 미국10년물 5.32%."
+        ],
+        "meaning": "당일 종가 하방 우세지만 현물 반등 여부를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 대형주 지수",
+            "basis": "08:33EDT 선물 약세와 유가·금리 상승이 10월8일 정규장 종가에 하방 압력을 준다.",
+            "counter": "SPY·QQQ의 20일 상승 추세와 개장 뒤 유가·금리 되돌림은 장중 반등을 만들 수 있다.",
+            "invalidation": "S&P500이 전일 종가를 회복하고 미국10년물·Brent가 장전 수준 아래로 함께 낮아지면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "reuters-prev",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "SPY·QQQ 상승 추세와 다음 주 실적 기대가 10월8~14일 지지 요인이다.",
+            "counter": "5%대 금리·105달러대 Brent와 전일 상승 종목 비율22.19%는 추세 확산을 제한한다.",
+            "invalidation": "금리·유가 안정과 시장 폭 개선이 이어지면 상방, 전저점 이탈이 이어지면 하방으로 갱신한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "메모리 호재·선반영 충돌",
+        "preview": "좋은 실적보다 전일 급등 뒤 실제 가격 경로를 봅니다.",
+        "points": [
+          "삼성전자 영업이익 잠정치 107.4조원.",
+          "MU 전일 +4.06% 뒤 장전 −1.3%."
+        ],
+        "meaning": "호재와 선반영·고금리 부담이 동시에 작동합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU·반도체 업종",
+            "basis": "MU 장전 −1.3%와 AMD·INTC·MRVL 약세가 10월8일 종가의 초기 하방을 지지한다.",
+            "counter": "SOXX 20일 SPY 대비 +7.61%p와 MU 전일 강세는 장중 저가매수 가능성을 남긴다.",
+            "invalidation": "MU가 1,088달러를 회복하고 SOXX가 지수보다 강해지면 재판단한다.",
+            "sources": [
+              "samsung",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU·반도체 업종",
+            "basis": "SOXX 상승 추세와 20일 상대강도는 10월8~14일 지지 요인이다.",
+            "counter": "MU 20일 +5.86%와 업종 상대강세는 선반영·차익실현 위험의 대용치이고 고금리가 부담이다.",
+            "invalidation": "SOXX가 SPY 대비 약세로 전환하거나 MU가 20일 평균 아래에 머물면 하방으로 갱신한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PEP·WOLF 이벤트 갭",
+        "preview": "재료는 좋지만 전망 하향·조건부 희석 위험을 함께 봅니다.",
+        "points": [
+          "PEP 장전 +1.5%, WOLF +16.7%.",
+          "PEP 전망 하향, WOLF 약정은 조건부."
+        ],
+        "meaning": "장전 강세와 종가 강세를 같은 신호로 보지 않습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PEP·WOLF",
+            "basis": "PEP 예상 상회와 WOLF 대출 약정이 장전 상승을 지지한다.",
+            "counter": "PEP 이익 전망 하향과 WOLF의 큰 갭·워런트 조건은 장초반 차익실현 위험을 높인다.",
+            "invalidation": "PEP가123.73달러, WOLF가31.37달러와 장전 갭을 각각 지키는지에 따라 개별 판단을 갱신한다.",
+            "sources": [
+              "pepsi",
+              "pepsi-reuters",
+              "wolf",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "PEP·WOLF",
+            "basis": "PEP 매출 성장과 WOLF 장기 자금조달 가능성은 10월8~14일 지지 요인이다.",
+            "counter": "PEP 하락 추세와 WOLF 20일 +14.99% 선반영·조건부 약정은 후속 상승을 제한할 수 있다.",
+            "invalidation": "실적·약정 후 종가와 거래량이 재료와 같은 방향으로 이어지거나 갭을 완전히 반납하면 갱신한다.",
+            "sources": [
+              "pepsi",
+              "wolf",
+              "massive"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "유가·금리와 현물 시장 폭의 동행을 봅니다.",
+      "MU는 전일 종가 회복과 SOXX 상대강도를 봅니다.",
+      "PEP·WOLF는 장전 갭보다 첫 정규장 종가를 우선합니다."
+    ],
+    "stocks": {
+      "MU": {
+        "reason": "전일 +4.06% 뒤 호실적 재료에도 장전 −1.3%로 선반영 부담이 드러났습니다.",
+        "watch": "1,088달러 회복과 SOXX 대비 상대강도를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "MU",
+            "basis": "장전 −1.3%와 동종 칩주 약세가 10월8일 종가 하방을 지지한다.",
+            "counter": "전일 +4.06%와 상승 추세는 초반 매도 뒤 반등 가능성을 남긴다.",
+            "invalidation": "1,088달러 회복과 업종 대비 강세가 동반되면 재판단한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "20일 +5.86%와 상승 추세, 메모리 이익 기대가 지지한다.",
+            "counter": "업종 선반영과 5%대 금리가 밸류에이션·차익실현 부담이다.",
+            "invalidation": "20일 평균과 SOXX 상대강도의 회복·이탈로 갱신한다.",
+            "sources": [
+              "samsung",
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "PEP": {
+        "reason": "실적 예상 상회와 연간 이익 전망 하향이 충돌하는 장전 +1.5% 종목입니다.",
+        "watch": "123.73달러 위 갭 유지와 북미 마진 전망 재평가를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PEP",
+            "basis": "매출·core EPS 예상 상회와 장전 +1.5%가 10월8일 종가 상방을 지지한다.",
+            "counter": "core EPS 성장 전망 하향과 북미 마진 압력은 장중 갭 반납 위험이다.",
+            "invalidation": "123.73달러 아래로 밀리면 하방, 거래량과 함께 장전 갭을 유지하면 상방으로 갱신한다.",
+            "sources": [
+              "pepsi",
+              "pepsi-reuters",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "down",
+            "target": "PEP",
+            "basis": "20일 −9.48%와 하락 추세, 이익 전망 하향이 10월8~14일 하방을 지지한다.",
+            "counter": "매출 성장과 비용절감 계획은 실적 저점 기대를 만들 수 있다.",
+            "invalidation": "20일 평균 회복과 북미 마진 우려 완화가 확인되면 혼조로 갱신한다.",
+            "sources": [
+              "pepsi",
+              "massive"
+            ]
+          }
+        }
+      },
+      "WOLF": {
+        "reason": "조건부15억달러 대출 재료로 장전 +16.7%지만 사전 상승과 희석 위험이 큽니다.",
+        "watch": "31.37달러와 장전 갭 유지, 초기 거래량을 함께 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "WOLF",
+            "basis": "장전 +16.7%와 장기 자금조달 가능성이 10월8일 종가 상방을 지지한다.",
+            "counter": "5일 +11.52% 선반영, 조건부 약정과 최대7.5% 워런트는 장초반 급락 위험을 높인다.",
+            "invalidation": "31.37달러 아래 갭 반납이 지속되면 하방, 거래량 동반 갭 유지면 상방으로 갱신한다.",
+            "sources": [
+              "wolf",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "WOLF",
+            "basis": "30년 조건부 대출은 자금조달 불확실성을 낮출 가능성이 있다.",
+            "counter": "20일 +14.99% 선반영과 실사·최종계약·워런트 조건이 후속 변동성을 키운다.",
+            "invalidation": "최종 계약 진전과 실적 후 종가 안정 또는 갭 완전 반납으로 갱신한다.",
+            "sources": [
+              "wolf",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "현물 개장·시장 폭",
+        "detail": "선물 약세가 현물 폭으로 이어지는지와 세 종목의 갭을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 대형주 지수",
+            "basis": "선물 약세와 유가·금리 상승이 개장 초 하방을 지지한다.",
+            "counter": "개장 뒤 저가매수와 유가·금리 되돌림이 종가를 바꿀 수 있다.",
+            "invalidation": "전일 종가 회복과 시장 폭 개선이 동반되면 재판단한다.",
+            "sources": [
+              "calendar",
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "첫날 종가와 시장 폭은 10월8~14일 추세의 첫 관찰값이다.",
+            "counter": "다음 주 주요 실적과 유가 변동이 첫날 신호를 뒤집을 수 있다.",
+            "invalidation": "금리·시장 폭이 같은 방향으로 2거래일 이상 이어지면 갱신한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "개장 30분 경로",
+        "detail": "전일 종가·갭 회복과 거래량을 보되 매수 주체를 추정하지 않습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "MU·PEP·WOLF",
+            "basis": "개장 전에는 정규장 분봉·VWAP·상대 거래량이 없어 장중 반전 여부를 확정할 수 없다.",
+            "counter": "장전 등락과 전일 추세는 초기 경로의 참고값을 제공한다.",
+            "invalidation": "개장30분 뒤 전일 종가·VWAP 회복과 상대 거래량을 확인해 개별 판단을 갱신한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "MU·PEP·WOLF",
+            "basis": "개장30분 반등만으로 5거래일 추세를 확정하지 않는다.",
+            "counter": "실적·자금조달 재료가 종가와 후속 거래량으로 이어지면 지속성 판단에 도움이 된다.",
+            "invalidation": "첫 종가와 다음 거래일의 상대강도를 확인한 뒤 갱신한다.",
+            "sources": [
+              "pepsi",
+              "wolf",
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "정규장 종가",
+        "detail": "초반 경로와 종가 방향을 나눠 유가·금리·업종 강도의 지속을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수·관찰 종목",
+            "basis": "종가 전에는 장중 저점과 회복 경로를 알 수 없어 확정 평가를 보류한다.",
+            "counter": "장전 선물과 이벤트 갭은 초기 조건을 제공한다.",
+            "invalidation": "16:00EDT 종가와 장중 경로가 확인되면 실제 결과로 평가한다.",
+            "sources": [
+              "calendar",
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수·관찰 종목",
+            "basis": "첫 종가는 10월8~14일 후속 추세의 기준 가격이다.",
+            "counter": "다음 주 실적·금리·유가가 첫날 종가 신호를 상쇄할 수 있다.",
+            "invalidation": "후속 1~2거래일 상대강도와 거래량을 확인해 갱신한다.",
+            "sources": [
+              "calendar",
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "NYSE · 거래일·시간",
+      "nasdaq-calendar": "Nasdaq · 휴장·시간",
+      "reuters-prev": "Reuters · 10월7일 마감",
+      "reuters-market": "Reuters · 10월8일 장전",
+      "jobless": "Reuters · 실업수당 청구",
+      "samsung": "Samsung · 3분기 잠정실적",
+      "pepsi": "PepsiCo · 3분기 실적",
+      "pepsi-reuters": "Reuters · PEP 전망·반응",
+      "wolf": "Wolfspeed · 조건부 대출",
+      "fed": "Federal Reserve · Waller 연설"
+    }
+  }
+}

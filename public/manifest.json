@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-10-08/"
     },
     {
+      "id": "us-pre-2026-10-08",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-08",
+      "title": "2026년 10월 8일 미국장 시작 전",
+      "summary": "유가·금리 급등에 선물 약세, 실적 종목은 분화",
+      "as_of": "2026-10-08T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-08/"
+    },
+    {
       "id": "us-close-2026-10-07",
       "is_test": false,
       "market": "US",
