@@ -1,0 +1,589 @@
+{
+  "id": "kr-close-2026-10-08",
+  "is_test": false,
+  "market": "KR",
+  "session": "close",
+  "market_date": "2026-10-08",
+  "title": "10월 8일 한국장 마감 후",
+  "as_of": "2026-10-08T15:30:00+09:00",
+  "queried_at": "2026-10-08T15:50:13+09:00",
+  "venue": "KRX 정규장 15:30 KST 종가. NXT·시간외 가격과 혼합하지 않음.",
+  "summary": "호실적에도 코스피 하락…기대보다 금리·선반영 부담",
+  "summary_detail": "코스피는 6,755.88로 0.71%, 코스닥은 895.14로 0.37% 하락했습니다. 삼성전자는 시장 예상을 웃돈 잠정실적에도 1.86% 내렸고, LG에너지솔루션은 예상을 크게 웃돈 영업이익에 5.17% 상승했습니다. 오늘 투자자별 순매수는 시장·단위가 명확한 원문을 확보하지 못해 미확인으로 남깁니다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "6,755.88",
+      "unit": "pt",
+      "delta": "−48.02",
+      "percent": "−0.71",
+      "direction": "down",
+      "source": "market-close",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "session": "KRX 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "895.14",
+      "unit": "pt",
+      "delta": "−3.29",
+      "percent": "−0.37",
+      "direction": "down",
+      "source": "market-close",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "session": "KRX 정규장 종가"
+    }
+  ],
+  "fx": {
+    "label": "원·달러",
+    "value": "1,337.18",
+    "unit": "원/USD",
+    "delta": "−2.56원 (−0.19%)",
+    "direction": "down",
+    "as_of": "2026-10-08T11:34:00+09:00",
+    "session": "공개 시장지표 · 서울 현물환 공식 종가 아님",
+    "source": "market-close"
+  },
+  "issues": [
+    {
+      "title": "금리·유가 부담에 지수 동반 하락",
+      "fact": "코스피는 전 거래일 6,803.90에서 6,755.88로 48.02포인트(−0.71%), 코스닥은 898.43에서 895.14로 3.29포인트(−0.37%) 내렸다. 같은 날 Reuters가 전한 미국 10년물 수익률은 5.3019%, Brent는 배럴당 102.30달러였다. 해석: 실적 호재보다 높은 할인율과 에너지 비용, AI 투자 자금조달 우려가 지수에 더 큰 부담으로 작용했다.",
+      "source": "market-close",
+      "additional_sources": [
+        "global-markets"
+      ]
+    },
+    {
+      "title": "삼성전자, 예상 상회 실적에도 하락",
+      "fact": "삼성전자는 264,000원으로 5,000원(−1.86%) 하락했다. 회사는 3분기 매출 195조원, 영업이익 107.4조원을 제시했고 영업이익은 LSEG SmartEstimate 106.1조원을 웃돌았다. 그럼에도 주가가 하락해 절대 실적보다 이미 반영된 기대와 4분기 성장 둔화 우려가 가격을 지배한 날로 해석한다. 실제 매도 주체의 의도나 공매도 청산 여부는 확인하지 않았다.",
+      "source": "samsung-price",
+      "additional_sources": [
+        "samsung-results",
+        "global-markets"
+      ]
+    },
+    {
+      "title": "LG에너지솔루션은 실적 서프라이즈에 강세",
+      "fact": "LG에너지솔루션은 407,000원으로 20,000원(+5.17%) 상승했다. 3분기 잠정 매출은 9조6,434억원, 영업이익은 7,560억원으로 전년 대비 각각 59.0%, 25.7% 늘었고, 영업이익은 LSEG SmartEstimate 3,090억원을 크게 웃돌았다. 다만 북미 생산 세액공제 4,169억원과 일회성 보상 영향이 포함돼 지속성을 따로 확인해야 한다.",
+      "source": "lges-price",
+      "additional_sources": [
+        "lges-results",
+        "lges-reuters"
+      ]
+    }
+  ],
+  "interpretation": "양 시장은 하락했지만 종목 반응은 실적의 절대 크기보다 기대와 선반영 정도에 따라 갈렸습니다. 삼성전자는 예상 상회에도 하락했고 LG에너지솔루션은 큰 폭으로 상승했습니다. 10월9일 휴장 뒤 10월12일 재개장에서는 미국 금리·유가와 실적 발표 뒤 상대강도가 함께 유지되는지 확인해야 합니다.",
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "264,000",
+      "currency": "KRW",
+      "delta": "−5,000",
+      "percent": "−1.86",
+      "direction": "down",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "source": "samsung-price",
+      "reason_sources": [
+        "samsung-results",
+        "global-markets"
+      ],
+      "reason": "시장 예상을 웃돈 영업이익에도 4분기 성장 둔화와 높은 선반영 부담이 우세해 하락했습니다.",
+      "watch": "10월12일 263,000원 장중 저점 방어와 10월29일 사업부별 이익·주주환원 설명을 확인합니다."
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,681,000",
+      "currency": "KRW",
+      "delta": "−34,000",
+      "percent": "−1.98",
+      "direction": "down",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "source": "hynix-price",
+      "reason_sources": [
+        "global-markets",
+        "samsung-results"
+      ],
+      "reason": "삼성전자 호실적에도 금리와 메모리 업황의 지속성 우려가 이어지며 장중 저가에 마감했습니다.",
+      "watch": "10월12일 1,681,000원 저점 회복과 반도체 업종의 시장 대비 상대강도를 확인합니다."
+    },
+    {
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
+      "price": "407,000",
+      "currency": "KRW",
+      "delta": "+20,000",
+      "percent": "+5.17",
+      "direction": "up",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "session": "KRX 정규장 종가",
+      "source": "lges-price",
+      "reason_sources": [
+        "lges-results",
+        "lges-reuters"
+      ],
+      "reason": "영업이익이 시장 예상을 크게 웃돌며 하락장에서도 강한 상대수익률을 보였습니다.",
+      "watch": "10월12일 397,000원 저점과 418,000원 고점 범위, 11월3일 세액공제·일회성 보상 제외 수익성을 확인합니다."
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026.10.09 KST",
+      "title": "한글날 휴장",
+      "detail": "KRX는 휴장하며 다음 정규장은 10월12일 09:00~15:30 KST입니다.",
+      "source": "calendar"
+    },
+    {
+      "label": "2026.10.15 · 시각 미확인",
+      "title": "TSMC 3분기 상세실적",
+      "detail": "AI 수요와 4분기 가이던스가 국내 반도체의 실적 지속성 평가를 바꾸는지 확인합니다.",
+      "source": "tsmc-results"
+    },
+    {
+      "label": "2026.10.29·11.03 · 시각 미확인",
+      "title": "삼성전자·LG에너지솔루션 상세실적",
+      "detail": "사업부별 이익과 세액공제·일회성 요인을 제외한 기초 수익성을 확인합니다.",
+      "source": "samsung-results",
+      "additional_sources": [
+        "lges-reuters"
+      ]
+    }
+  ],
+  "reading": {
+    "headline": "호실적보다 금리·선반영 부담",
+    "summary_points": [
+      "코스피 −0.71%, 코스닥 −0.37%로 동반 하락했습니다.",
+      "삼성전자는 호실적에도 −1.86%, LG엔솔은 +5.17%였습니다.",
+      "10월9일 휴장 뒤 금리·유가와 실적 지속성을 봅니다."
+    ],
+    "notices": [
+      "오늘 외국인·기관 순매수는 시장·단위가 명확한 원문을 확보하지 못해 미확인입니다.",
+      "KRX 일별 수집은 10월7일까지 지연돼 오늘 종가·시장 폭에 쓰지 않았습니다.",
+      "원·달러 1,337.18원은 11:34 KST 공개 지표로 서울 현물환 공식 종가가 아닙니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-08T15:50:13+09:00",
+      "input_cutoff": "2026-10-08T15:50:13+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "다음 거래일은 10월12일, 5거래일은 10월12·13·14·15·16일입니다. 확률·목표수익률 없이 확인 조건에 따른 방향만 제시합니다."
+    },
+    "issues": [
+      {
+        "title": "금리·유가에 지수 약세",
+        "preview": "높은 할인율과 에너지 가격이 호재를 눌렀습니다.",
+        "points": [
+          "코스피 −0.71%, 코스닥 −0.37%.",
+          "미국10년 5.3019%, Brent 102.30달러."
+        ],
+        "meaning": "휴장 중 해외 금리·유가 변화가 다음 개장 갭을 키울 수 있습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "코스피·코스닥",
+            "basis": "두 지수가 함께 하락했고 코스피는 6,800선을 회복하지 못한 채 정규장을 마쳤다.",
+            "counter": "휴장 뒤 낙폭 과대 반등과 기업 실적 재평가가 나타날 수 있다.",
+            "invalidation": "10월12일 코스피 6,803.90과 코스닥 898.43을 함께 회복하면 하방 우세를 해제한다.",
+            "sources": [
+              "market-close",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "높은 금리와 유가는 할인율·비용 부담을 지속시킨다.",
+            "counter": "삼성전자·TSMC의 AI 실적은 반도체 이익 기대를 지지한다.",
+            "invalidation": "미국 10년물과 Brent 방향, 국내 지수의 10월8일 종가 회복 여부가 같은 방향으로 정렬되면 갱신한다.",
+            "sources": [
+              "global-markets",
+              "samsung-results",
+              "tsmc-results"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성 호실적에도 매도 우세",
+        "preview": "기대 상회보다 선반영과 성장 지속성 우려가 컸습니다.",
+        "points": [
+          "영업이익 107.4조원, 시장 예상 106.1조원.",
+          "삼성전자 종가 −1.86%."
+        ],
+        "meaning": "좋은 실적과 주가 상승을 분리해 기대 대비 반응을 봐야 합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자·국내 반도체",
+            "basis": "예상 상회 실적은 이익 기대를 지지하지만 발표일 종가 반응은 약했다.",
+            "counter": "장중 저점 부근 마감과 높은 금리는 다음 장 초반 추가 매도 위험을 높인다.",
+            "invalidation": "삼성전자 270,000원과 SK하이닉스 1,759,000원 회복 시 상방, 당일 저점 재이탈 시 하방으로 갱신한다.",
+            "sources": [
+              "samsung-price",
+              "hynix-price",
+              "samsung-results",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자·국내 반도체",
+            "basis": "메모리 부족과 AI 수요는 실적을 지지한다.",
+            "counter": "4분기 이익 성장 둔화, 원화 강세와 높은 자금조달 비용은 반대 요인이다.",
+            "invalidation": "TSMC 가이던스와 반도체 업종의 시장 대비 상대강도 확인 뒤 갱신한다.",
+            "sources": [
+              "samsung-results",
+              "global-markets",
+              "tsmc-results"
+            ]
+          }
+        }
+      },
+      {
+        "title": "LG엔솔은 실적에 강한 반응",
+        "preview": "예상 상회 이익으로 하락장에서도 5.17% 올랐습니다.",
+        "points": [
+          "영업이익 7,560억원, 시장 예상 3,090억원.",
+          "세액공제 제외 영업이익은 3,391억원."
+        ],
+        "meaning": "상승의 질은 일회성 보상과 세액공제 제외 이익에서 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "LG에너지솔루션",
+            "basis": "시장 하락일에 5.17% 상승한 상대강도와 큰 폭의 기대 상회가 다음 종가를 지지한다.",
+            "counter": "급등 뒤 차익실현과 실적의 일회성 요인이 장 초반 되돌림을 만들 수 있다.",
+            "invalidation": "397,000원을 종가로 이탈하면 상방 우세를 해제하고, 418,000원 돌파 시 강화한다.",
+            "sources": [
+              "lges-price",
+              "lges-results",
+              "lges-reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG에너지솔루션",
+            "basis": "매출 성장과 ESS 수요 기대는 중기 실적을 지지한다.",
+            "counter": "세액공제·일회성 보상을 제외한 반복 수익성과 EV 수요 둔화는 확인이 필요하다.",
+            "invalidation": "11월3일 상세실적 전에는 397,000~418,000원 범위 이탈과 거래량으로 갱신한다.",
+            "sources": [
+              "lges-results",
+              "lges-reuters",
+              "lges-price"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "10월12일 코스피 6,800선 회복 여부를 봅니다.",
+      "반도체는 호실적 뒤 종가 반응과 장초반 되돌림을 분리합니다.",
+      "LG엔솔은 급등 지속보다 일회성 제외 이익을 확인합니다."
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "예상 상회 실적에도 지속성 우려와 선반영 부담으로 1.86% 내렸습니다.",
+        "watch": "263,000원 저점과 270,000원 회복, 10월29일 세부실적을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "기대 상회 실적과 약한 종가 반응이 상충한다.",
+            "counter": "휴장 중 금리·유가 변화가 장초반 갭을 키울 수 있다.",
+            "invalidation": "263,000원 이탈 시 하방, 270,000원 회복 시 상방으로 갱신한다.",
+            "sources": [
+              "samsung-price",
+              "samsung-results",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "메모리 부족은 이익을 지지한다.",
+            "counter": "4분기 성장 둔화와 선반영 부담이 남아 있다.",
+            "invalidation": "10월29일 사업부별 이익과 주주환원 설명 전까지 상대강도로 갱신한다.",
+            "sources": [
+              "samsung-results",
+              "global-markets"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "메모리 호실적에도 금리와 지속성 우려가 이어져 장중 저가에 마감했습니다.",
+        "watch": "1,681,000원 회복과 반도체 업종 상대강도를 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스",
+            "basis": "장중 저가 마감과 2거래일 연속 약세가 단기 하방 압력을 보여준다.",
+            "counter": "메모리 실적 호조와 업종 낙폭 과대 반등 가능성이 있다.",
+            "invalidation": "1,759,000원 회복 시 하방 우세를 해제한다.",
+            "sources": [
+              "hynix-price",
+              "samsung-results",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "AI 메모리 수요는 지지 요인이다.",
+            "counter": "높은 금리와 5거래일 −5.72% 약세가 상충한다.",
+            "invalidation": "TSMC 실적과 업종 상대강도가 같은 방향으로 정렬되면 갱신한다.",
+            "sources": [
+              "hynix-price",
+              "global-markets",
+              "tsmc-results"
+            ]
+          }
+        }
+      },
+      "373220": {
+        "reason": "영업이익이 시장 예상을 크게 웃돌며 하락장에서도 5.17% 상승했습니다.",
+        "watch": "397,000~418,000원 범위와 11월3일 기초 수익성을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "LG에너지솔루션",
+            "basis": "실적 서프라이즈와 시장 대비 강한 종가가 상방을 지지한다.",
+            "counter": "일회성 보상과 세액공제 비중, 급등 뒤 차익실현 위험이 있다.",
+            "invalidation": "397,000원 종가 이탈 시 상방 우세를 해제한다.",
+            "sources": [
+              "lges-price",
+              "lges-results",
+              "lges-reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG에너지솔루션",
+            "basis": "매출 성장과 ESS 수요가 긍정적이다.",
+            "counter": "반복 수익성과 EV 수요 둔화는 아직 불확실하다.",
+            "invalidation": "11월3일 상세실적 전까지 418,000원 돌파 또는 397,000원 이탈로 갱신한다.",
+            "sources": [
+              "lges-results",
+              "lges-reuters",
+              "lges-price"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한글날 휴장 뒤 재개장",
+        "detail": "10월12일 지수와 세 종목의 첫 종가를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "한국 주식시장",
+            "basis": "동반 하락 종가와 높은 금리·유가가 부담이다.",
+            "counter": "휴장 중 해외시장 반등과 낙폭 과대 매수가 가능하다.",
+            "invalidation": "코스피 6,803.90·코스닥 898.43 동반 회복 시 해제한다.",
+            "sources": [
+              "calendar",
+              "market-close",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 주식시장",
+            "basis": "거시 부담과 AI 실적 호조가 상충한다.",
+            "counter": "휴장 중 누적된 해외 변수가 경로를 바꿀 수 있다.",
+            "invalidation": "10월12일 재개장과 이후 시장 폭 확인 뒤 갱신한다.",
+            "sources": [
+              "calendar",
+              "global-markets",
+              "samsung-results"
+            ]
+          }
+        }
+      },
+      {
+        "title": "TSMC 상세실적",
+        "detail": "AI 수요와 4분기 가이던스로 반도체 지속성을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "발표 시각과 국내장 반영 구간이 미확인이다.",
+            "counter": "매출 호조가 이미 가격에 반영됐을 수 있다.",
+            "invalidation": "발표 수치와 국내 반도체 첫 종가 확인 뒤 갱신한다.",
+            "sources": [
+              "tsmc-results"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "AI 수요는 업종 이익을 지지한다.",
+            "counter": "높은 금리와 선반영은 밸류에이션 부담이다.",
+            "invalidation": "가이던스와 업종 상대강도가 같은 방향이면 갱신한다.",
+            "sources": [
+              "tsmc-results",
+              "global-markets"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성·LG엔솔 상세실적",
+        "detail": "사업부별 이익과 일회성 제외 수익성을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성전자·LG에너지솔루션",
+            "basis": "두 발표는 다음 거래일보다 뒤에 있어 즉시 방향을 평가하지 않는다.",
+            "counter": "발표 전 컨센서스와 가격이 먼저 변할 수 있다.",
+            "invalidation": "공식 세부실적과 발표 직전 가격으로 갱신한다.",
+            "sources": [
+              "samsung-results",
+              "lges-reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자·LG에너지솔루션",
+            "basis": "잠정실적은 긍정적이지만 질과 반복성이 다르다.",
+            "counter": "삼성은 성장 둔화, LG엔솔은 세액공제·일회성 비중이 부담이다.",
+            "invalidation": "사업부별 이익과 주가 반응 확인 뒤 갱신한다.",
+            "sources": [
+              "samsung-results",
+              "lges-results",
+              "lges-reuters"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "KRX · 10월 휴장 안내",
+      "hours": "KRX · 거래시간",
+      "krx-analysis": "KRX OpenAPI · 일별 분석",
+      "market-close": "주픽·토스증권 · KRX 지수·환율",
+      "global-markets": "Reuters · 아시아 시장·금리·유가",
+      "samsung-price": "Bullstory·네이버증권 · 삼성전자 종가",
+      "hynix-price": "Bullstory·네이버증권 · SK하이닉스 종가",
+      "lges-price": "Bullstory·네이버증권 · LG엔솔 종가",
+      "samsung-results": "Reuters · 삼성전자 잠정실적",
+      "lges-results": "LG · LG엔솔 잠정실적",
+      "lges-reuters": "Reuters · LG엔솔 실적 평가",
+      "tsmc-results": "Reuters · TSMC 3분기 매출"
+    }
+  },
+  "calculation_notes": "코스피 6,755.88−6,803.90=−48.02, 코스닥 895.14−898.43=−3.29. 삼성전자 264,000−269,000=−5,000, SK하이닉스 1,681,000−1,715,000=−34,000, LG에너지솔루션 407,000−387,000=+20,000. 등락률은 각 공개 시세표 표시값을 사용했다. KRX OpenAPI 수집은 data_date=10월7일로 지연돼 오늘 종가·시장 폭에 사용하지 않았다. 외국인·기관 순매수, NXT·시간외 가격, 미래 확률은 미확인/미산출.",
+  "execution_context": {
+    "scheduled_at_kst": "2026-10-08T15:45:00+09:00",
+    "scheduled_at_utc": "2026-10-08T06:45:00Z",
+    "scheduled_timezone": "Asia/Seoul",
+    "actual_started_at_kst": "2026-10-08T15:45:49+09:00",
+    "actual_started_at_utc": "2026-10-08T06:45:49Z",
+    "start_delay_seconds": 49,
+    "environment": "Work 클라우드 Linux; 원격 최신 main 기반 별도 체크아웃; GitHub OAuth connector; web search; Kakao self memo 도구. 비밀값은 읽거나 출력하지 않음.",
+    "additional_checks": "HTTP/browser/mobile/text zoom skipped per user instruction",
+    "model_requested": "GPT-6.1 Sol / High",
+    "model_application": "not_verified_from_scheduler_metadata",
+    "analysis": {
+      "request_commit": "deaa59489ec1e77592c83cb0c590e609d5e3f392",
+      "run_id": 37739482295,
+      "status": "success",
+      "artifact_id": 11533181274,
+      "artifact_name": "krx-analysis-37739482295",
+      "requested_end_date": "2026-10-08",
+      "data_date": "2026-10-07",
+      "queried_at": "2026-10-08T15:47:14+09:00",
+      "note": "워크플로와 artifact 본문을 확인했으나 실제 data_date가 하루 지연돼 오늘 종가·시장 폭에 사용하지 않음."
+    }
+  },
+  "calendar_evidence": {
+    "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+    "hours_url": "https://global.krx.co.kr/contents/GLB/06/0602/0602020204/GLB0602020204T1.jsp",
+    "market_date": "2026-10-08",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-08T15:49:00+09:00",
+    "note": "KRX 공식 2026년 10월 휴장 공지는 10/5와 10/9를 휴장일로 명시한다. 10/8은 휴장 목록에 없고 공식 정규장 시간은 09:00~15:30 KST이므로 정상 거래일로 판단했다. 조기폐장 공지는 확인되지 않았다."
+  },
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 10월 휴장 안내",
+      "url": "https://trn.krx.co.kr/corebbs5/BHPTRN0301/view?bbsSeq=150",
+      "note": "2026년 10월 휴장일은 10월5일과 10월9일. 10월8일은 휴장 목록에 없음."
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 정규장 거래시간",
+      "url": "https://global.krx.co.kr/contents/GLB/06/0602/0602020204/GLB0602020204T1.jsp",
+      "note": "주식시장 정규장 09:00~15:30 KST."
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX OpenAPI · 일별 분석",
+      "url": "https://openapi.krx.co.kr/contents/OPP/MAIN/main/index.cmd",
+      "note": "요청 end_date=2026-10-08. Actions 수집은 성공했으나 실제 data_date=2026-10-07, queried_at=2026-10-08T15:47:14+09:00로 하루 지연돼 오늘 종가·시장 폭에는 사용하지 않음."
+    },
+    {
+      "id": "market-close",
+      "label": "주픽·토스증권 · KRX 지수·환율",
+      "url": "https://jupick.com/",
+      "note": "10월8일 종가 기준 코스피 6,755.88(−48.02, −0.71%), 코스닥 895.14(−3.29, −0.37%). USD/KRW 1,337.18원은 11:34 KST 공개값이며 서울 현물환 공식 종가가 아님."
+    },
+    {
+      "id": "global-markets",
+      "label": "Reuters · 아시아 시장·금리·유가",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-08/",
+      "note": "아시아 주식 약세, 미국10년 5.3019%, Brent 102.30달러, AI 기업의 대규모 차입 우려와 삼성전자 발표 뒤 주가 반응을 보도."
+    },
+    {
+      "id": "samsung-price",
+      "label": "Bullstory·네이버증권 · 삼성전자 종가",
+      "url": "https://bullstory.io/stocks/005930/history",
+      "note": "10월8일 KRX 정규장 시가 269,500원, 고가 270,000원, 저가 263,000원, 종가 264,000원, −5,000원(−1.86%)."
+    },
+    {
+      "id": "hynix-price",
+      "label": "Bullstory·네이버증권 · SK하이닉스 종가",
+      "url": "https://bullstory.io/stocks/000660/history",
+      "note": "10월8일 KRX 정규장 시가 1,722,000원, 고가 1,759,000원, 저가·종가 1,681,000원, −34,000원(−1.98%)."
+    },
+    {
+      "id": "lges-price",
+      "label": "Bullstory·네이버증권 · LG엔솔 종가",
+      "url": "https://bullstory.io/stocks/373220/history",
+      "note": "10월8일 KRX 정규장 시가 401,000원, 고가 418,000원, 저가 397,000원, 종가 407,000원, +20,000원(+5.17%)."
+    },
+    {
+      "id": "samsung-results",
+      "label": "Reuters · 삼성전자 잠정실적",
+      "url": "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/",
+      "note": "3분기 잠정 매출 195조원, 영업이익 107.4조원. LSEG SmartEstimate 106.1조원 상회. 상세실적은 10월29일 예정."
+    },
+    {
+      "id": "lges-results",
+      "label": "LG · LG엔솔 잠정실적",
+      "url": "https://lg.co.kr/media/release/30650",
+      "note": "3분기 잠정 매출 9조6,434억원, 영업이익 7,560억원. 세액공제 4,169억원을 제외한 영업이익은 3,391억원."
+    },
+    {
+      "id": "lges-reuters",
+      "label": "Reuters · LG엔솔 실적 평가",
+      "url": "https://www.reuters.com/world/asia-pacific/lg-energy-solution-flags-26-rise-q3-operating-profit-2026-10-07/",
+      "note": "영업이익이 LSEG SmartEstimate 3,090억원을 웃돌았고 일회성 구매약정 미달 보상이 영향을 줬다는 분석. 상세실적은 11월3일 예정."
+    },
+    {
+      "id": "tsmc-results",
+      "label": "Reuters · TSMC 3분기 매출",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmcs-third-quarter-revenue-surges-50-yy-beating-market-forecast-2026-10-08/",
+      "note": "3분기 매출 T$1.49조로 시장 예상 T$1.46조 상회. 상세실적과 가이던스는 10월15일 예정으로 보도."
+    }
+  ]
+}

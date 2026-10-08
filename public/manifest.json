@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-08",
+  "latest_id": "kr-close-2026-10-08",
   "reports": [
+    {
+      "id": "kr-close-2026-10-08",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-08",
+      "title": "10월 8일 한국장 마감 후",
+      "summary": "호실적에도 코스피 하락…기대보다 금리·선반영 부담",
+      "as_of": "2026-10-08T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-08/"
+    },
     {
       "id": "kr-pre-2026-10-08",
       "is_test": false,
