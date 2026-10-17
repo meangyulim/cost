@@ -72,9 +72,9 @@ def validate(report: dict) -> None:
     kst(report["as_of"])
     kst(report["queried_at"])
     require(report["indices"], "At least one index is required")
-    require(len(report["issues"]) == 3, "Three issues are required")
-    require(len(report["stocks"]) == 3, "Three watch stocks are required")
-    require(2 <= len(report["next_checks"]) <= 3, "Two or three next checks are required")
+    require(len(report["issues"]) >= 1, "At least one issue is required")
+    require(len(report["stocks"]) >= 1, "At least one watch stock is required")
+    require(len(report["next_checks"]) >= 2, "At least two next checks are required")
     sources = {source["id"]: source for source in report["sources"]}
     require(len(sources) == len(report["sources"]), "Duplicate source ID")
     for source in sources.values():

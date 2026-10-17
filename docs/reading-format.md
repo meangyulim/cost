@@ -9,7 +9,7 @@
 - `reading.headline`: 약 25자 이내 결론.
 - `reading.summary_points`: 2~3개 짧은 문장. 주요 움직임, 이유, 다음 확인 기준.
 - `reading.notices`: 데이터 지연·잠정치·거래구간 차이 등 판단에 필요한 주의점만 1~2개 문장. 불확실성은 생략하지 않는다.
-- `reading.issues`: 기존 이슈와 같은 순서의 3개 객체. 각 객체에 `title`, `points`(핵심 1~2문장), `meaning`(시장 의미 1문장)을 쓴다. 수치의 중복 나열과 긴 자료 대조 기록을 피한다.
+- `reading.issues`: 기존 이슈와 같은 순서의 객체. 각 객체에 `title`, `points`(핵심 1~2문장), `meaning`(시장 의미 1문장)을 쓴다. 수치의 중복 나열과 긴 자료 대조 기록을 피한다. 2026-10-18 요청부터 이슈·관찰 종목·다음 확인의 최대 개수 제한을 두지 않으며 중요도와 근거로 선정한다. 이미지 제목의 개수도 실제 데이터에 맞춘다.
 - `reading.interpretation_points`: 다음 판단 기준 2~3개. 미래 상승 확률을 검증 없이 만들지 않는다.
 - `reading.stocks`: 티커별 `{reason, watch}`. 이유와 다음 확인을 각각 1문장으로 쓴다.
 - `reading.next_checks`: 기존 항목 순서의 `{title, detail}`. 각 설명은 짧은 1문장.

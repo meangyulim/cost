@@ -73,7 +73,7 @@ test('every real and TEST report renders without cropping or omitted sections', 
       assert.ok(op.y + op.size <= plan.height - 20, op.value);
     }
     const content = drawn.map(op => op.value).join('').replace(/\s/g, '');
-    for (const section of ['오늘의 결론', '핵심 이슈 3', '관찰 종목 3', '다음 확인', '투자 권유 아님']) {
+    for (const section of ['오늘의 결론', `핵심 이슈 ${data.issues.length}`, `관찰 종목 ${data.stocks.length}`, '다음 확인', '투자 권유 아님']) {
       assert.ok(content.includes(section.replace(/\s/g, '')));
     }
     for (const stock of data.stocks) assert.ok(content.includes(stock.price.replace(/\s/g, '')));
@@ -88,7 +88,8 @@ test('every real and TEST report renders without cropping or omitted sections', 
     if (data.is_test) assert.ok(content.includes('TEST'));
     const canvas = {getContext: () => ctx};
     createCanvas(data, {createElement: () => canvas});
-    assert.equal(canvas.width, 1080);
+    assert.ok(canvas.width > 0 && canvas.width <= 1080);
+    assert.ok(Math.abs(canvas.width / canvas.height - plan.width / plan.height) < 0.001);
     assert.ok(canvas.height > 1000 && canvas.height <= 8192);
   }
 });

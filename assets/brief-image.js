@@ -133,13 +133,13 @@
       paragraph(`${data.outlook.estimated_at} ${data.outlook.added_later ? "추가" : "작성"} · 입력 ${data.outlook.input_cutoff}`, 11, C.muted);
       paragraph(data.outlook.note, 12, C.muted);
     }
-    heading("핵심 이슈 3");
+    heading(`핵심 이슈 ${data.issues.length}`);
     data.issues.forEach((issue, n) => {
       inline(`${n + 1}. ${issue.title}`, issue.preview);
       outlook(issue);
       y += 6;
     });
-    heading("관찰 종목 3");
+    heading(`관찰 종목 ${data.stocks.length}`);
     data.stocks.forEach(stock => {
       pair(`${stock.name} · ${stock.ticker}`, `${stock.price} ${stock.currency}  ${change(stock)}`,
         color(stock.direction), 16);

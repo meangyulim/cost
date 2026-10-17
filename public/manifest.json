@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-08",
+  "latest_id": "us-close-2026-10-16",
   "reports": [
+    {
+      "id": "us-close-2026-10-16",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-16",
+      "title": "코스피·나스닥 마감과 월요일 전망 · 10월16일 합본",
+      "summary": "한국 반등 뒤 미국 기술주 재하락…월요일은 개장 하방 압력과 반등 조건을 나눠 봅니다.",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-16/"
+    },
     {
       "id": "us-close-2026-10-08",
       "is_test": false,

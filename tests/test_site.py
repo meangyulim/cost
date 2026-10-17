@@ -114,6 +114,20 @@ class SiteTests(unittest.TestCase):
         self.assertIn('data-image-action="share"', html)
         self.assertIn('data-image-action="save"', html)
 
+    def test_expanded_edition_keeps_last_issue_stock_and_check(self):
+        report = copy.deepcopy(self.report)
+        report['issues'] += [dict(report['issues'][0], title='추가 이슈 마지막')]
+        report['stocks'] += [dict(report['stocks'][0], ticker='EXTRA', name='추가 관찰 마지막')]
+        report['next_checks'] += [dict(report['next_checks'][0], title='추가 확인 마지막') for _ in range(4)]
+        validate(report)
+        html = render_report(report, '.')
+        payload = image_payload(report, '.')
+        for value in ['추가 이슈 마지막', '추가 관찰 마지막', '추가 확인 마지막']:
+            self.assertIn(value, html)
+        self.assertEqual(payload['issues'][-1]['title'], '추가 이슈 마지막')
+        self.assertEqual(payload['stocks'][-1]['ticker'], 'EXTRA')
+        self.assertEqual(payload['next_checks'][-1]['title'], '추가 확인 마지막')
+
     def test_duplicate_report_never_overwrites(self):
         with tempfile.TemporaryDirectory() as tmp:
             source = Path(tmp) / "input.json"
