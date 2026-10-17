@@ -1,0 +1,15 @@
+{
+  "report_id": "us-close-2026-10-16",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-18T01:41:21+09:00",
+  "attempted_at_utc": "2026-10-17T16:41:21+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-16/",
+  "commit": "3bd068baf5a3011a2fcca426a361247e630057ab",
+  "verification": {
+    "deployment": "passed",
+    "deployment_run_id": 39049725301,
+    "anonymous_http": "skipped_per_user",
+    "browser": "skipped_per_user"
+  },
+  "note": "One-time dispatch explicitly approved by user on 2026-10-18; attempted is a duplicate-prevention lock, not a delivery claim."
+}
