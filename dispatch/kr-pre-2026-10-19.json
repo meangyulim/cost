@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-10-19",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-19T08:36:48+09:00",
   "attempted_at_utc": "2026-10-18T23:36:48+00:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-19/",
@@ -41,5 +41,15 @@
     "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
     "hours_url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
     "checked_at": "2026-10-19T08:34:27+09:00"
+  },
+  "send_tool_called": true,
+  "result_recorded_at_kst": "2026-10-19T08:37:08+09:00",
+  "result_recorded_at_utc": "2026-10-18T23:37:08+00:00",
+  "kakao": {
+    "tool": "mcp__codex_apps__kakao_kakaotalkchat_memochat",
+    "destination": "self",
+    "attempt_count": 1,
+    "response_status": "sent",
+    "retried": false
   }
 }
