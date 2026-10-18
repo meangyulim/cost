@@ -1,0 +1,45 @@
+{
+  "report_id": "kr-pre-2026-10-19",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-19T08:36:48+09:00",
+  "attempted_at_utc": "2026-10-18T23:36:48+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-19/",
+  "commit": "3c4ff82fe4813aaacdc85282e0f63c4d35afe2c2",
+  "attempt_id": "kr-pre-2026-10-19-3c4ff82fe481",
+  "attempted_record_created": true,
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "not_performed_user_requested_skip",
+    "browser": "not_performed_user_requested_skip",
+    "mobile_text_zoom": "not_performed_user_requested_skip"
+  },
+  "deployment": {
+    "run_id": 39177188999,
+    "event": "push",
+    "head_sha": "3c4ff82fe4813aaacdc85282e0f63c4d35afe2c2",
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success",
+    "completed_at_utc": "2026-10-18T23:36:21Z",
+    "url": "https://github.com/meangyulim/cost/actions/runs/39177188999"
+  },
+  "execution": {
+    "scheduled_at_kst": "2026-10-19T08:30:00+09:00",
+    "scheduled_at_utc": "2026-10-18T23:30:00+00:00",
+    "actual_started_at_kst": "2026-10-19T08:29:32+09:00",
+    "actual_started_at_utc": "2026-10-18T23:29:32+00:00",
+    "start_offset_seconds": -28,
+    "environment": "Work cloud Linux; connected GitHub OAuth connector publishing with expected-head fast-forward update; local generated tree matches remote tree",
+    "git_cli_push": "not_authenticated; no configured CLI credentials; used existing connected GitHub OAuth tools",
+    "model_application": "not_verified_from_scheduler_metadata"
+  },
+  "calendar": {
+    "market_date": "2026-10-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+    "hours_url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+    "checked_at": "2026-10-19T08:34:27+09:00"
+  }
+}
