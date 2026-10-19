@@ -1,0 +1,62 @@
+{
+  "report_id": "kr-close-2026-10-19",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-19T15:57:50+09:00",
+  "attempted_at_utc": "2026-10-19T06:57:50+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-19/",
+  "commit": "8e274c9912b1c4197b20f9b0d2b33263840978b0",
+  "attempt_id": "kr-close-2026-10-19-8e274c9912b1",
+  "attempted_record_created": true,
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "not_performed_user_requested_skip",
+    "browser": "not_performed_user_requested_skip",
+    "mobile_text_zoom": "not_performed_user_requested_skip"
+  },
+  "deployment": {
+    "run_id": 39212889751,
+    "url": "https://github.com/meangyulim/cost/actions/runs/39212889751",
+    "head_sha": "8e274c9912b1c4197b20f9b0d2b33263840978b0",
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success",
+    "completed_at_utc": "2026-10-19T06:57:22Z"
+  },
+  "execution": {
+    "scheduled_at_kst": "2026-10-19T15:45:00+09:00",
+    "scheduled_at_utc": "2026-10-19T06:45:00+00:00",
+    "scheduled_timezone": "Asia/Seoul",
+    "actual_started_at_kst": "2026-10-19T15:47:15+09:00",
+    "actual_started_at_utc": "2026-10-19T06:47:15+00:00",
+    "start_offset_seconds": 135,
+    "delay_seconds": 135,
+    "environment": "Work 클라우드 Linux /tmp/cost-krclose-20261019. 최신 공개 Git 체크아웃, 연결된 GitHub OAuth 쓰기·Actions 조회, 웹 조사·공개 시세 HTTPS 조회·Kakao self 전송 도구.",
+    "additional_checks": "추가 HTTP·브라우저·모바일·200% 글자 확대 검사 생략(사용자 지시)",
+    "model_requested": "GPT-6.1 Sol / High",
+    "model_application": "not_verified_from_scheduler_metadata",
+    "analysis": {
+      "request_commit": "8880a719acc8566feb6b4b4eac1980877460d837",
+      "run_id": 39212023378,
+      "status": "success",
+      "artifact_id": 12168266181,
+      "artifact_digest": "sha256:86f27a4b3b9a80df64bf9f647c21706795376533120b2194e44f8d1c42577d9c",
+      "requested_end_date": "2026-10-19",
+      "data_date": "2026-10-16",
+      "queried_at": "2026-10-19T15:48:50+09:00",
+      "note": "이번 요청의 성공 run과 다운로드한 analysis.json 본문 확인. 일별 자료가10월16일까지여서 오늘 종가·수급·시장 폭에 사용하지 않았다."
+    }
+  },
+  "calendar": {
+    "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+    "market_date": "2026-10-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-19T15:55:49+09:00",
+    "hours_url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+    "previous_trading_day": "2026-10-16",
+    "next_trading_day": "2026-10-20",
+    "note": "이번 실행에서 KRX 공식2026년 연속휴장 관련 표의 원문·이미지와 공식 거래안내를 대조했다. 10월 연속휴장은3~5일·9~11일이며19일은 해당하지 않는다. 월~금 정규장09:00~15:30 규칙과 당일15:30 마감 보도를 확인해 정상 거래일로 판단했다. 별도 조기폐장 근거는 확인되지 않았다. 같은 기준으로 다음5거래일은10월20·21·22·23·26일이다."
+  }
+}
