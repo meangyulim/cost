@@ -1,0 +1,51 @@
+{
+  "report_id": "us-pre-2026-10-19",
+  "attempt_id": "us-pre-2026-10-19-fe3e892ee2ef",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-19T22:27:12+09:00",
+  "attempted_at_utc": "2026-10-19T13:27:12+00:00",
+  "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-19/",
+  "commit": "fe3e892ee2ef3718bd127a626ff7b5ad16a215ab",
+  "deployment": {
+    "run_id": 39260156183,
+    "event": "push",
+    "head_sha": "fe3e892ee2ef3718bd127a626ff7b5ad16a215ab",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/meangyulim/cost/actions/runs/39260156183",
+    "build": "success",
+    "deploy": "success"
+  },
+  "verification": {
+    "deployment": "passed",
+    "anonymous_http": "skipped_per_user",
+    "browser": "skipped_per_user",
+    "mobile_zoom": "skipped_per_user"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "attempt_count": 1,
+  "execution": {
+    "scheduled_at_local": "2026-10-19T09:00:00-04:00",
+    "scheduled_timezone": "America/New_York",
+    "scheduled_at_kst": "2026-10-19T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-19T13:00:00+00:00",
+    "actual_start_at_kst": "2026-10-19T22:08:44+09:00",
+    "actual_start_at_utc": "2026-10-19T13:08:44+00:00",
+    "actual_start_local": "2026-10-19T09:08:44-04:00",
+    "delay_seconds": 524,
+    "environment": "Work cloud Bash/Python; connected GitHub OAuth and Kakao self tools",
+    "model_setting": "not_verified"
+  },
+  "calendar": {
+    "market_date": "2026-10-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "timezone": "EDT",
+    "official_urls": [
+      "https://www.nyse.com/trade/hours-calendars",
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "checked_at_kst": "2026-10-19T22:10:00+09:00"
+  }
+}
