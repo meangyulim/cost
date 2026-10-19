@@ -1,7 +1,7 @@
 {
   "report_id": "us-pre-2026-10-19",
   "attempt_id": "us-pre-2026-10-19-fe3e892ee2ef",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-19T22:27:12+09:00",
   "attempted_at_utc": "2026-10-19T13:27:12+00:00",
   "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-19/",
@@ -23,7 +23,7 @@
     "mobile_zoom": "skipped_per_user"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempt_count": 1,
   "execution": {
     "scheduled_at_local": "2026-10-19T09:00:00-04:00",
@@ -46,6 +46,16 @@
       "https://www.nyse.com/trade/hours-calendars",
       "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
     ],
-    "checked_at_kst": "2026-10-19T22:10:00+09:00"
+    "checked_at_kst": "2026-10-19T22:24:58+09:00",
+    "check_note": "Official source retrieval during this run; final evidence compiled at this recorded report timestamp."
+  },
+  "attempted_record_remote_reread": "verified",
+  "sent_at_utc": "2026-10-19T13:27:46+00:00",
+  "sent_at_kst": "2026-10-19T22:27:46+09:00",
+  "result": {
+    "state": "success",
+    "tool": "mcp__codex_apps__kakao_kakaotalkchat_memochat",
+    "destination": "self",
+    "retried": false
   }
 }
