@@ -1,0 +1,1293 @@
+{
+  "id": "us-pre-2026-10-19",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-19",
+  "title": "10월 19일 미국장 시작 전",
+  "venue": "NYSE / Nasdaq · EDT 정상 거래일",
+  "as_of": "2026-10-19T22:24:58+09:00",
+  "queried_at": "2026-10-19T22:24:58+09:00",
+  "summary": "AI 반등 출발, 추세 회복은 개장 후 확인",
+  "summary_detail": "나스닥100 선물이 반등하지만 다우 선물은 약세입니다. 반도체의 장전 상승과 철강 실적 호재를 구분합니다. 금요일 종가 회복·시장 폭·유가의 동시 개선이 확인 기준입니다.",
+  "interpretation": "해석: 할인율 완화는 성장주에 도움이 되지만 단기 반등이 AI 투자 수익성·신용 위험의 해소를 뜻하지 않습니다. 장전 갭을 추격하기보다 전일 종가와 업종 대비 강도, 개장 이후 되돌림을 나눠 봅니다. 옵션·분봉·기관 주문 흐름은 조회하지 않아 매수 주체나 공매도 청산으로 단정하지 않습니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,659.44",
+      "unit": "pt",
+      "delta": "−84.62",
+      "percent": "−1.09",
+      "direction": "down",
+      "source": "apclose",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "2026-10-16 16:00 EDT 미국 정규장 종가; 비율 직접 계산",
+      "calculation": {
+        "close": 7659.44,
+        "change_points": -84.62,
+        "formula": "change_points/(close-change_points)*100"
+      }
+    },
+    {
+      "name": "Dow Jones",
+      "value": "52,002.41",
+      "unit": "pt",
+      "delta": "−175.28",
+      "percent": "−0.34",
+      "direction": "down",
+      "source": "apclose",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "2026-10-16 16:00 EDT 미국 정규장 종가; 비율 직접 계산",
+      "calculation": {
+        "close": 52002.41,
+        "change_points": -175.28,
+        "formula": "change_points/(close-change_points)*100"
+      }
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,140.03",
+      "unit": "pt",
+      "delta": "−572.99",
+      "percent": "−2.14",
+      "direction": "down",
+      "source": "apclose",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "2026-10-16 16:00 EDT 미국 정규장 종가; 비율 직접 계산",
+      "calculation": {
+        "close": 26140.03,
+        "change_points": -572.99,
+        "formula": "change_points/(close-change_points)*100"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.090",
+    "unit": "%",
+    "delta": "전일 변동폭 미확인",
+    "direction": "missing",
+    "as_of": "2026-10-19T22:24:58+09:00",
+    "session": "10/19 미국 장전 기사 호가; 정확한 시세시각 미확인, as_of는 조회시각 대용이며 체결시각 아님",
+    "source": "yield"
+  },
+  "issues": [
+    {
+      "title": "나스닥 선물 반등·다우 약세",
+      "fact": "2026-10-19 21:44 KST(08:44 EDT), S&P500 E-mini는 +34.5pt(+0.45%), Nasdaq100 E-mini는 +365.5pt(+1.24%), Dow E-mini는 −125pt(−0.24%)입니다. 현물 지수와 선물은 다릅니다. 해석: 기술주 반등이 시장 전체로 퍼지는지는 아직 확인되지 않았습니다.",
+      "source": "market"
+    },
+    {
+      "title": "반도체 반등과 투자의견 변화",
+      "fact": "10월19일 21:38 KST 발행 기사 장전 스냅샷에서 SOXX +3.6%, INTC +4.2%, MU +3.6%, NVDA +1.9%입니다. JPMorgan은 INTC 의견을 underweight에서 neutral로 올렸습니다. 해석: 매수 추천으로의 상향과는 다르며, 업종 동반 반등과 개별 재료를 구분해야 합니다.",
+      "source": "chips"
+    },
+    {
+      "title": "유가 완화에도 금리 부담 남음",
+      "fact": "장전 Brent 선물은 약108.29달러/배럴(−1.5%)로 보도됐습니다. 미국10년 국채수익률은 별도 이른 장전 기사에서5.090%로 소폭 상승·4주 저점 부근이었습니다. 정확한 국채 호가시각·전일 변동폭은 미확인입니다. 해석: 에너지 비용과 할인율이 낮아지면 유리하지만 높은 절대 수준과 재상승 위험은 남아 있습니다.",
+      "source": "market",
+      "additional_sources": [
+        "yield"
+      ]
+    },
+    {
+      "title": "CLF 실적·2027 전망 재평가",
+      "fact": "Cleveland-Cliffs 3분기 연결매출은56억1200만달러, 조정EPS0.28달러, 조정EBITDA6억1200만달러입니다. 회사가 앞서 제시한 EBITDA5억7500만달러를 웃돌았고, 4분기 약7억1500만달러·2027년40억달러 초과를 기대했습니다. 후자는 계약·가격 가정에 따른 회사 전망이지 확정 실적이 아닙니다. 장전 주가는 기사 스냅샷에서+13.7%였습니다. 발표 전 독립 컨센서스는 미확인으로 서프라이즈 크기를 계산하지 않았습니다. 해석: 개선 기대와 큰 갭의 되돌림 위험을 함께 봅니다.",
+      "source": "clf",
+      "additional_sources": [
+        "market"
+      ]
+    },
+    {
+      "title": "전일 일별 추세·시장 폭",
+      "fact": "10/16 SOXX의20거래일 SPY 대비 가격수익률 차이는-7.6485%p, 추세는혼조, 직전5거래일 평균 대비 거래량은1.5196배입니다. OTC제외전체증권의 상승은3643개/12431개(29.31%)입니다. ETF·우선주·워런트가 포함되어 S&P500 보통주 상승비율이 아닙니다. 해석: 당일 장전 반등과 별개인 과거 배경이며, 거래량을 기관 순매수로 해석하지 않습니다.",
+      "source": "massive"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Cleveland-Cliffs",
+      "ticker": "CLF",
+      "price": "12.12",
+      "currency": "USD",
+      "delta": "−0.03",
+      "percent": "−0.25",
+      "direction": "down",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "NYSE 2026-10-16 정규장 종가",
+      "reason": "실적·회사 전망 상향과 큰 장전 갭이 함께 나온 철강주입니다. 10/16까지5거래일 가격수익률-6.6256%,20거래일-3.0400%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+      "watch": "발표 후 갭 유지와 전일 종가 방어, 가격·현금흐름 가정의 재평가를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "clf",
+        "market"
+      ],
+      "regular_session": {
+        "data_date": "2026-10-16",
+        "session": "regular",
+        "currency": "USD",
+        "close": 12.12,
+        "previous_close": 12.15,
+        "delta": -0.03,
+        "daily_return_pct": -0.2469,
+        "adjusted_for_splits": true,
+        "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+      },
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+13.7",
+        "as_of": "2026-10-19T21:44:00+09:00",
+        "venue": "10/19 미국 장전 기사 스냅샷; 개별 체결시각·가격 미확인",
+        "source": "market"
+      }
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "price": "89.85",
+      "currency": "USD",
+      "delta": "−5.52",
+      "percent": "−5.79",
+      "direction": "down",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-16 정규장 종가",
+      "reason": "투자의견이 중립으로 올라 업종 반등보다 강한지 볼 종목입니다. 10/16까지5거래일 가격수익률-14.1834%,20거래일-17.2652%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+      "watch": "상향 재료가 개장 후에도 SOXX 대비 강도로 이어지는지 봅니다.",
+      "source": "massive",
+      "reason_sources": [
+        "chips"
+      ],
+      "regular_session": {
+        "data_date": "2026-10-16",
+        "session": "regular",
+        "currency": "USD",
+        "close": 89.85,
+        "previous_close": 95.37,
+        "delta": -5.52,
+        "daily_return_pct": -5.788,
+        "adjusted_for_splits": true,
+        "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+      },
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+4.2",
+        "as_of": "2026-10-19T21:38:00+09:00",
+        "venue": "10/19 미국 장전 기사 스냅샷; 개별 체결시각·가격 미확인",
+        "source": "chips"
+      }
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "price": "878.84",
+      "currency": "USD",
+      "delta": "−52.40",
+      "percent": "−5.63",
+      "direction": "down",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-16 정규장 종가",
+      "reason": "메모리 대표주의 장전 반등이 전일 약세를 얼마나 회복하는지 봅니다. 10/16까지5거래일 가격수익률-14.5928%,20거래일-13.4830%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+      "watch": "전일 종가 유지와 SOXX 상대강도를 함께 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "chips"
+      ],
+      "regular_session": {
+        "data_date": "2026-10-16",
+        "session": "regular",
+        "currency": "USD",
+        "close": 878.84,
+        "previous_close": 931.24,
+        "delta": -52.4,
+        "daily_return_pct": -5.6269,
+        "adjusted_for_splits": true,
+        "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+      },
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+3.6",
+        "as_of": "2026-10-19T21:38:00+09:00",
+        "venue": "10/19 미국 장전 기사 스냅샷; 개별 체결시각·가격 미확인",
+        "source": "chips"
+      }
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "214.13",
+      "currency": "USD",
+      "delta": "−3.10",
+      "percent": "−1.43",
+      "direction": "down",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-16 정규장 종가",
+      "reason": "AI 대장주가 반도체 반등에 동참하는지 보는 기준 종목입니다. 10/16까지5거래일 가격수익률-6.6076%,20거래일-3.6622%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+      "watch": "전일 종가와 업종 대비 강도가 동반 개선되는지 봅니다.",
+      "source": "massive",
+      "reason_sources": [
+        "chips"
+      ],
+      "regular_session": {
+        "data_date": "2026-10-16",
+        "session": "regular",
+        "currency": "USD",
+        "close": 214.13,
+        "previous_close": 217.23,
+        "delta": -3.1,
+        "daily_return_pct": -1.4271,
+        "adjusted_for_splits": true,
+        "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+      },
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+1.9",
+        "as_of": "2026-10-19T21:38:00+09:00",
+        "venue": "10/19 미국 장전 기사 스냅샷; 개별 체결시각·가격 미확인",
+        "source": "chips"
+      }
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "price": "61.39",
+      "currency": "USD",
+      "delta": "−8.30",
+      "percent": "−11.91",
+      "direction": "down",
+      "as_of": "2026-10-17T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-16 정규장 종가",
+      "reason": "AI 인프라 금융 위험의 핵심 종목으로 반등의 지속성을 점검합니다. 10/16까지5거래일 가격수익률-25.2071%,20거래일-24.5452%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+      "watch": "전일 종가 회복 뒤 재이탈 여부와 실제 자금조달 공시를 확인합니다.",
+      "source": "massive",
+      "reason_sources": [
+        "market"
+      ],
+      "regular_session": {
+        "data_date": "2026-10-16",
+        "session": "regular",
+        "currency": "USD",
+        "close": 61.39,
+        "previous_close": 69.69,
+        "delta": -8.3,
+        "daily_return_pct": -11.9099,
+        "adjusted_for_splits": true,
+        "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+      },
+      "premarket": {
+        "price": "미확인",
+        "delta": "미확인",
+        "percent": "+6.6",
+        "as_of": "2026-10-19T21:44:00+09:00",
+        "venue": "10/19 미국 장전 기사 스냅샷; 개별 체결시각·가격 미확인",
+        "source": "market"
+      }
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "10/19 22:30 KST",
+      "title": "미국 정규장 개장",
+      "detail": "2026-10-19 09:30 EDT: 장전 상승 종목이 금요일 종가와 업종 대비 강도를 유지하는지 확인합니다."
+    },
+    {
+      "label": "10/19 23:00 KST 예정",
+      "title": "NAHB 주택시장지수",
+      "detail": "2026-10-19 10:00 EDT 통상 발표 일정: 실제 공표·수정 여부와 금리 반응을 함께 확인합니다."
+    },
+    {
+      "label": "10/21 05:01 KST 약",
+      "title": "Netflix 3분기 실적",
+      "detail": "2026-10-20 16:01 EDT 약: 매출·마진·가이던스를 발표 전 기대와 대조하고 시간외 반응은 분리합니다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "AI 반등의 지속성과 한국장 연결",
+      "detail": "미국 종가·반도체 상대강도·유가를 먼저 보고 10월20일 한국장에 미치는 조건부 영향을 점검합니다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·달력",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026 휴장·조기폐장 목록과 정규장 09:30–16:00 ET 확인. 10/16·19 및 19–23 정상 거래일."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 2026 거래 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026 휴장·조기폐장 목록에 10/19 없음. 주중 정규장 09:30–16:00 ET."
+    },
+    {
+      "id": "dst",
+      "label": "NIST · 2026 서머타임",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "note": "2026-03-08부터11-01까지 DST. 뉴욕10/19 EDT=UTC−4, 서울과13시간차."
+    },
+    {
+      "id": "apclose",
+      "label": "AP · 10월16일 지수 마감",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951",
+      "note": "10/16 정규장 종가·변동포인트. 원문 등락률 S&P−1.1%,Dow−0.3%,Nasdaq−2.1%; 더 정밀한 비율은 확인 종가·변동포인트로 직접 계산해 별도 표시."
+    },
+    {
+      "id": "market",
+      "label": "Reuters · 10월19일 장전",
+      "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
+      "note": "10/19 08:44 EDT=21:44 KST 선물. 기사 장전 CLF·CRWV 반응은 기사 스냅샷이며 개별 체결시각 미확인. 정규장 가격으로 역산하지 않음."
+    },
+    {
+      "id": "chips",
+      "label": "Reuters · 반도체 반등",
+      "url": "https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/",
+      "note": "10/19 12:38 UTC=21:38 KST 발행 시점 장전 스냅샷. INTC+4.2%,NVDA+1.9%,MU+3.6%,SOXX+3.6%. 개별 체결시각은 미확인."
+    },
+    {
+      "id": "yield",
+      "label": "MarketWatch · 미국 국채",
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-bounce-back-teach-earnings-third-quarter/card/treasury-yields-steady-as-bond-market-calms-down-gEkcLyDKs929C4lP3z4i",
+      "note": "10/19 미국 장전 10년 수익률5.090%, 소폭 상승·4주 저점 부근. 기사 정확한 시세시각과 전일 비교값 미확인. 조회시각을 실제 호가시각으로 바꾸지 않음."
+    },
+    {
+      "id": "clf",
+      "label": "Cleveland-Cliffs IR · 3분기 실적",
+      "url": "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/705/cleveland-cliffs-reports-third-quarter-2026-results",
+      "note": "회사 원문 재무표와 전망 확인. GAAP 연결순익165백만달러와 비지배지분 차감후 주주귀속152백만달러 구분. 조정EPS0.28, 조정EBITDA612백만달러. 미래 전망은 실적 아님."
+    },
+    {
+      "id": "nahb",
+      "label": "NAHB · 주택심리 발표 일정",
+      "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/NAHB-Wells-Fargo-Housing-Market-Index-Release-Dates",
+      "note": "공식 검색 원문2026 HMI 일정10/19, 통상10:00ET. 현재 직접 열린 페이지는2027표로 이동해2026행 미노출; 공식 검색색인 표로 확인한 예정이며 실제 발표·변경은 재확인 필요."
+    },
+    {
+      "id": "nflx",
+      "label": "Netflix IR · 실적 발표 예고",
+      "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
+      "note": "10/20 약13:01 Pacific Time=16:01EDT=10/21 05:01KST 발표, 인터뷰13:45PDT=10/21 05:45KST. DST는 NIST와 zoneinfo 대조."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 10월16일 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39257884590",
+      "note": "이번 KST 요청 커밋b51caa4의 Collect US briefing inputs 성공 artifact analysis.json. 실제 provider Massive. 분할보정 가격수익률, ETF대용치·OTC제외전체증권시장폭; 별도 /v1/open-close 정규장 종가. 공개표시 생략은 라이선스 허가를 의미하지 않음.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-19T22:24:58+09:00",
+    "note": "NYSE·Nasdaq2026 달력 원문에10/19 휴장·조기폐장 없음. 10/16 이전 정상 거래일, 10/19–23 향후5거래일. 정규장09:30–16:00EDT=10/19 22:30–10/20 05:00KST. NIST2026 DST3/8–11/1 확인."
+  },
+  "calculation_notes": "지수 등락률=변동포인트/(종가−변동포인트)×100, 소수둘째자리 반올림; AP 원문보다 정밀한 직접 계산임. 종가·포인트 원값은 indices에 보존. 종목별 delta=close−previous_close, percent=delta/previous_close×100; 정규장 원값은 별도 regular_session에 보존. 과거수익률·거래량은 미래 확률이나 순매수가 아님. 종목 표시 등락률은 소수둘째자리 반올림이며 원문 계산 정밀도는 regular_session과 massive_analysis에 보존합니다.",
+  "execution": {
+    "scheduled_at_local": "2026-10-19T09:00:00-04:00",
+    "scheduled_timezone": "America/New_York",
+    "scheduled_at_kst": "2026-10-19T22:00:00+09:00",
+    "scheduled_at_utc": "2026-10-19T13:00:00+00:00",
+    "actual_start_at_kst": "2026-10-19T22:08:44+09:00",
+    "actual_start_at_utc": "2026-10-19T13:08:44+00:00",
+    "actual_start_local": "2026-10-19T09:08:44-04:00",
+    "delay_seconds": 524,
+    "environment": "Work cloud Bash/Python checkout; connected GitHub OAuth and Kakao self tools observed",
+    "model_setting": "not_verified",
+    "extra_http_browser_mobile_zoom_checks": "skipped_per_user",
+    "request_commit": "b51caa4e8089c4159e635abbf1aaab33364729fd",
+    "analysis_run_id": 39257884590,
+    "analysis_queried_at": "2026-10-19T22:24:17+09:00",
+    "analysis_data_date": "2026-10-16"
+  },
+  "massive_analysis": {
+    "provider": "Massive",
+    "requested_end_date": "2026-10-16",
+    "data_date": "2026-10-16",
+    "queried_at": "2026-10-19T22:24:17+09:00",
+    "request_count": 33,
+    "benchmarks_are_etfs_not_indices": true,
+    "benchmarks": [
+      {
+        "ticker": "SPY",
+        "name": "미국 대형주",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 763.25,
+        "daily_return_pct": -1.1065,
+        "return_5_sessions_pct": -1.9677,
+        "return_20_sessions_pct": 0.2048,
+        "ma20": 771.184,
+        "ma60": 765.4917,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.9377
+      },
+      {
+        "ticker": "QQQ",
+        "name": "나스닥100",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 709.8,
+        "daily_return_pct": -2.5,
+        "return_5_sessions_pct": -5.52,
+        "return_20_sessions_pct": -1.6148,
+        "ma20": 742.519,
+        "ma60": 721.1608,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.8878
+      },
+      {
+        "ticker": "DIA",
+        "name": "다우30",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 519.1,
+        "daily_return_pct": -0.3991,
+        "return_5_sessions_pct": 0.5793,
+        "return_20_sessions_pct": 0.6242,
+        "ma20": 514.645,
+        "ma60": 524.8452,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.6267
+      },
+      {
+        "ticker": "IWM",
+        "name": "미국 소형주",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 270.44,
+        "daily_return_pct": -1.6868,
+        "return_5_sessions_pct": -3.0473,
+        "return_20_sessions_pct": -4.8082,
+        "ma20": 279.311,
+        "ma60": 289.9875,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.2666
+      }
+    ],
+    "sectors": [
+      {
+        "ticker": "XLE",
+        "name": "에너지",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 68.24,
+        "daily_return_pct": 2.524,
+        "return_5_sessions_pct": 4.8556,
+        "return_20_sessions_pct": 6.111,
+        "ma20": 63.9215,
+        "ma60": 62.7045,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 1.4285,
+        "relative_to_spy_20_pct_points": 5.9062
+      },
+      {
+        "ticker": "XLP",
+        "name": "필수소비재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 87.62,
+        "daily_return_pct": 1.0844,
+        "return_5_sessions_pct": 5.0222,
+        "return_20_sessions_pct": 5.8213,
+        "ma20": 82.839,
+        "ma60": 84.3267,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.8467,
+        "relative_to_spy_20_pct_points": 5.6165
+      },
+      {
+        "ticker": "XLV",
+        "name": "헬스케어",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 176.71,
+        "daily_return_pct": -0.2709,
+        "return_5_sessions_pct": 3.4541,
+        "return_20_sessions_pct": 4.9409,
+        "ma20": 170.1405,
+        "ma60": 168.9723,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 0.9511,
+        "relative_to_spy_20_pct_points": 4.7361
+      },
+      {
+        "ticker": "XLU",
+        "name": "유틸리티",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 42.21,
+        "daily_return_pct": 1.3445,
+        "return_5_sessions_pct": 1.9319,
+        "return_20_sessions_pct": 2.7007,
+        "ma20": 40.578,
+        "ma60": 42.4645,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2154,
+        "relative_to_spy_20_pct_points": 2.4959
+      },
+      {
+        "ticker": "XLB",
+        "name": "소재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 50.92,
+        "daily_return_pct": 0.712,
+        "return_5_sessions_pct": 3.0144,
+        "return_20_sessions_pct": 1.8604,
+        "ma20": 49.5945,
+        "ma60": 51.2508,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.4093,
+        "relative_to_spy_20_pct_points": 1.6556
+      },
+      {
+        "ticker": "XLY",
+        "name": "경기소비재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 112.46,
+        "daily_return_pct": -0.8377,
+        "return_5_sessions_pct": -0.3456,
+        "return_20_sessions_pct": 1.2879,
+        "ma20": 111.0995,
+        "ma60": 113.9895,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 2.6226,
+        "relative_to_spy_20_pct_points": 1.0831
+      },
+      {
+        "ticker": "XLC",
+        "name": "커뮤니케이션",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 110.32,
+        "daily_return_pct": -1.8855,
+        "return_5_sessions_pct": -0.0544,
+        "return_20_sessions_pct": -0.4422,
+        "ma20": 111.7975,
+        "ma60": 111.4758,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0007,
+        "relative_to_spy_20_pct_points": -0.647
+      },
+      {
+        "ticker": "XLF",
+        "name": "금융",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 55.52,
+        "daily_return_pct": 0.4523,
+        "return_5_sessions_pct": 1.4434,
+        "return_20_sessions_pct": -0.6087,
+        "ma20": 54.447,
+        "ma60": 56.4388,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.1359,
+        "relative_to_spy_20_pct_points": -0.8135
+      },
+      {
+        "ticker": "XLRE",
+        "name": "부동산",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 42.16,
+        "daily_return_pct": 0.4049,
+        "return_5_sessions_pct": 1.3218,
+        "return_20_sessions_pct": -0.87,
+        "ma20": 41.471,
+        "ma60": 43.5002,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0387,
+        "relative_to_spy_20_pct_points": -1.0748
+      },
+      {
+        "ticker": "XLI",
+        "name": "산업재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 167.76,
+        "daily_return_pct": -0.0774,
+        "return_5_sessions_pct": -0.8804,
+        "return_20_sessions_pct": -1.1723,
+        "ma20": 169.0385,
+        "ma60": 175.4955,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.3933,
+        "relative_to_spy_20_pct_points": -1.3771
+      },
+      {
+        "ticker": "XLK",
+        "name": "정보기술",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 183.47,
+        "daily_return_pct": -3.0234,
+        "return_5_sessions_pct": -7.702,
+        "return_20_sessions_pct": -3.2331,
+        "ma20": 195.8225,
+        "ma60": 187.862,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.7704,
+        "relative_to_spy_20_pct_points": -3.4379
+      },
+      {
+        "ticker": "SOXX",
+        "name": "반도체",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 493.39,
+        "daily_return_pct": -4.1421,
+        "return_5_sessions_pct": -11.8001,
+        "return_20_sessions_pct": -7.4437,
+        "ma20": 559.971,
+        "ma60": 533.1463,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.5196,
+        "relative_to_spy_20_pct_points": -7.6485
+      }
+    ],
+    "watch": [
+      {
+        "ticker": "CLF",
+        "name": "CLF",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 12.12,
+        "daily_return_pct": -0.2469,
+        "return_5_sessions_pct": -6.6256,
+        "return_20_sessions_pct": -3.04,
+        "ma20": 12.123,
+        "ma60": 11.9935,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.1887,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 12.12,
+          "previous_close": 12.15,
+          "delta": -0.03,
+          "daily_return_pct": -0.2469,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "INTC",
+        "name": "INTC",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 89.85,
+        "daily_return_pct": -5.788,
+        "return_5_sessions_pct": -14.1834,
+        "return_20_sessions_pct": -17.2652,
+        "ma20": 112.562,
+        "ma60": 101.4137,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2572,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 89.85,
+          "previous_close": 95.37,
+          "delta": -5.52,
+          "daily_return_pct": -5.788,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "MU",
+        "name": "MU",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 878.84,
+        "daily_return_pct": -5.6269,
+        "return_5_sessions_pct": -14.5928,
+        "return_20_sessions_pct": -13.483,
+        "ma20": 1033.003,
+        "ma60": 962.1848,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0893,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 878.84,
+          "previous_close": 931.24,
+          "delta": -52.4,
+          "daily_return_pct": -5.6269,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 214.13,
+        "daily_return_pct": -1.4271,
+        "return_5_sessions_pct": -6.6076,
+        "return_20_sessions_pct": -3.6622,
+        "ma20": 228.177,
+        "ma60": 219.9463,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2495,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 214.13,
+          "previous_close": 217.23,
+          "delta": -3.1,
+          "daily_return_pct": -1.4271,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CRWV",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 61.39,
+        "daily_return_pct": -11.9099,
+        "return_5_sessions_pct": -25.2071,
+        "return_20_sessions_pct": -24.5452,
+        "ma20": 82.9635,
+        "ma60": 85.3502,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.5138,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 61.39,
+          "previous_close": 69.69,
+          "delta": -8.3,
+          "daily_return_pct": -11.9099,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      }
+    ],
+    "breadth": {
+      "scope": "OTC 제외 전체 증권; ETF·우선주·워런트 등 포함, 보통주만의 시장 폭 아님",
+      "current_rows": 12630,
+      "paired_traded_rows": 12431,
+      "excluded_current_rows": 199,
+      "advancing": 3643,
+      "declining": 8526,
+      "unchanged": 262,
+      "advancing_share_pct": 29.31
+    },
+    "forecast_probability": null,
+    "backtest_status": "not_validated",
+    "limitations": [
+      "일별 자료이며 장중·장전 실시간 시세 아님",
+      "ETF 가격은 지수 값이 아님",
+      "분할 보정 가격수익률이며 배당 재투자 총수익률 아님",
+      "거래량 증가는 순자금 유입이나 기관 순매수를 뜻하지 않음",
+      "분석·공개 게시 권한은 API 조회 권한과 별개"
+    ]
+  },
+  "reading": {
+    "headline": "AI 반등 출발, 추세 회복은 개장 후 확인",
+    "summary_points": [
+      "나스닥 선물 반등·다우 약세로 업종별 차별화입니다.",
+      "CLF 실적과 INTC 의견 상향을 따로 봅니다.",
+      "개장 후 전일 종가·시장 폭·금리를 확인합니다."
+    ],
+    "notices": [
+      "지수·종목 기본값은10/16 정규장 종가입니다. 장전 등락률은 기사별 스냅샷이며 가격·체결시각 미확인입니다.",
+      "일별 분석 기준10/16·장전 실시간 아님. 국채 정확한 호가시각·NAHB 실제 공표 변경 여부는 재확인 대상입니다."
+    ],
+    "issues": [
+      {
+        "title": "나스닥 선물 반등·다우 약세",
+        "preview": "반등이 기술주 밖으로 퍼지는지 확인합니다.",
+        "points": [
+          "반등이 기술주 밖으로 퍼지는지 확인합니다."
+        ],
+        "meaning": "반등이 기술주 밖으로 퍼지는지 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19 종가 대10/16 종가. 반등이 기술주 밖으로 퍼지는지 확인합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 반등이 기술주 밖으로 퍼지는지 확인합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 반등과 투자의견 변화",
+        "preview": "의견 상향과 업종 반등을 구분합니다.",
+        "points": [
+          "의견 상향과 업종 반등을 구분합니다."
+        ],
+        "meaning": "의견 상향과 업종 반등을 구분합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19 종가 대10/16 종가. 의견 상향과 업종 반등을 구분합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "chips"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 의견 상향과 업종 반등을 구분합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "chips"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 완화에도 금리 부담 남음",
+        "preview": "에너지·할인율 완화와 재상승 위험이 공존합니다.",
+        "points": [
+          "에너지·할인율 완화와 재상승 위험이 공존합니다."
+        ],
+        "meaning": "에너지·할인율 완화와 재상승 위험이 공존합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19 종가 대10/16 종가. 에너지·할인율 완화와 재상승 위험이 공존합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "market",
+              "yield"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 에너지·할인율 완화와 재상승 위험이 공존합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "market",
+              "yield"
+            ]
+          }
+        }
+      },
+      {
+        "title": "CLF 실적·2027 전망 재평가",
+        "preview": "회사 전망은 호재이나 큰 갭의 되돌림에 주의합니다.",
+        "points": [
+          "회사 전망은 호재이나 큰 갭의 되돌림에 주의합니다."
+        ],
+        "meaning": "회사 전망은 호재이나 큰 갭의 되돌림에 주의합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "10/19 종가 대10/16 종가. 회사 전망은 호재이나 큰 갭의 되돌림에 주의합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "clf",
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 회사 전망은 호재이나 큰 갭의 되돌림에 주의합니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "clf",
+              "market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "전일 일별 추세·시장 폭",
+        "preview": "과거 일별 지표로 당일 매수 지속을 단정하지 않습니다.",
+        "points": [
+          "과거 일별 지표로 당일 매수 지속을 단정하지 않습니다."
+        ],
+        "meaning": "과거 일별 지표로 당일 매수 지속을 단정하지 않습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19 종가 대10/16 종가. 과거 일별 지표로 당일 매수 지속을 단정하지 않습니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·관련 업종",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 과거 일별 지표로 당일 매수 지속을 단정하지 않습니다.",
+            "counter": "실제 정규장 흐름·신규 공시·기업이익 기대는 아직 확정되지 않았습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 재이탈과 업종 대비 약세 지속 또는 금리·유가 반등 시 재판단합니다.",
+            "sources": [
+              "massive"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "CLF": {
+        "reason": "실적·회사 전망 상향과 큰 장전 갭이 함께 나온 철강주입니다.",
+        "watch": "발표 후 갭 유지와 전일 종가 방어, 가격·현금흐름 가정의 재평가를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "10/19 종가 대10/16 종가. 실적·회사 전망 상향과 큰 장전 갭이 함께 나온 철강주입니다. 10/16까지5거래일 가격수익률-6.6256%,20거래일-3.0400%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "발표 후 갭 유지와 전일 종가 방어, 가격·현금흐름 가정의 재평가를 확인합니다.",
+            "sources": [
+              "clf",
+              "market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 실적·회사 전망 상향과 큰 장전 갭이 함께 나온 철강주입니다. 10/16까지5거래일 가격수익률-6.6256%,20거래일-3.0400%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "발표 후 갭 유지와 전일 종가 방어, 가격·현금흐름 가정의 재평가를 확인합니다.",
+            "sources": [
+              "clf",
+              "market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "INTC": {
+        "reason": "투자의견이 중립으로 올라 업종 반등보다 강한지 볼 종목입니다.",
+        "watch": "상향 재료가 개장 후에도 SOXX 대비 강도로 이어지는지 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "10/19 종가 대10/16 종가. 투자의견이 중립으로 올라 업종 반등보다 강한지 볼 종목입니다. 10/16까지5거래일 가격수익률-14.1834%,20거래일-17.2652%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "상향 재료가 개장 후에도 SOXX 대비 강도로 이어지는지 봅니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 투자의견이 중립으로 올라 업종 반등보다 강한지 볼 종목입니다. 10/16까지5거래일 가격수익률-14.1834%,20거래일-17.2652%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "상향 재료가 개장 후에도 SOXX 대비 강도로 이어지는지 봅니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "메모리 대표주의 장전 반등이 전일 약세를 얼마나 회복하는지 봅니다.",
+        "watch": "전일 종가 유지와 SOXX 상대강도를 함께 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "10/19 종가 대10/16 종가. 메모리 대표주의 장전 반등이 전일 약세를 얼마나 회복하는지 봅니다. 10/16까지5거래일 가격수익률-14.5928%,20거래일-13.4830%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 유지와 SOXX 상대강도를 함께 확인합니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 메모리 대표주의 장전 반등이 전일 약세를 얼마나 회복하는지 봅니다. 10/16까지5거래일 가격수익률-14.5928%,20거래일-13.4830%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 유지와 SOXX 상대강도를 함께 확인합니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "AI 대장주가 반도체 반등에 동참하는지 보는 기준 종목입니다.",
+        "watch": "전일 종가와 업종 대비 강도가 동반 개선되는지 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "10/19 종가 대10/16 종가. AI 대장주가 반도체 반등에 동참하는지 보는 기준 종목입니다. 10/16까지5거래일 가격수익률-6.6076%,20거래일-3.6622%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가와 업종 대비 강도가 동반 개선되는지 봅니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. AI 대장주가 반도체 반등에 동참하는지 보는 기준 종목입니다. 10/16까지5거래일 가격수익률-6.6076%,20거래일-3.6622%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가와 업종 대비 강도가 동반 개선되는지 봅니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          }
+        }
+      },
+      "CRWV": {
+        "reason": "AI 인프라 금융 위험의 핵심 종목으로 반등의 지속성을 점검합니다.",
+        "watch": "전일 종가 회복 뒤 재이탈 여부와 실제 자금조달 공시를 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "10/19 종가 대10/16 종가. AI 인프라 금융 위험의 핵심 종목으로 반등의 지속성을 점검합니다. 10/16까지5거래일 가격수익률-25.2071%,20거래일-24.5452%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "전일 종가 회복 뒤 재이탈 여부와 실제 자금조달 공시를 확인합니다.",
+            "sources": [
+              "market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. AI 인프라 금융 위험의 핵심 종목으로 반등의 지속성을 점검합니다. 10/16까지5거래일 가격수익률-25.2071%,20거래일-24.5452%; 이는 선반영의 대용 지표일 뿐 기대·투자심리의 직접 관찰이 아닙니다.",
+            "counter": "호재와 장전 반등은 이미 반영됐을 수 있고 컨센서스·분봉·옵션 흐름은 미확인입니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "전일 종가 회복 뒤 재이탈 여부와 실제 자금조달 공시를 확인합니다.",
+            "sources": [
+              "market",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "미국 정규장 개장",
+        "detail": "2026-10-19 09:30 EDT: 장전 상승 종목이 금요일 종가와 업종 대비 강도를 유지하는지 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "관련 시장·종목",
+            "basis": "10/19 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nyse",
+              "nasdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "관련 시장·종목",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nyse",
+              "nasdaq"
+            ]
+          }
+        }
+      },
+      {
+        "title": "NAHB 주택시장지수",
+        "detail": "2026-10-19 10:00 EDT 통상 발표 일정: 실제 공표·수정 여부와 금리 반응을 함께 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "관련 시장·종목",
+            "basis": "10/19 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nahb",
+              "yield"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "관련 시장·종목",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nahb",
+              "yield"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Netflix 3분기 실적",
+        "detail": "2026-10-20 16:01 EDT 약: 매출·마진·가이던스를 발표 전 기대와 대조하고 시간외 반응은 분리합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "관련 시장·종목",
+            "basis": "10/19 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nflx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "관련 시장·종목",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "nflx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AI 반등의 지속성과 한국장 연결",
+        "detail": "미국 종가·반도체 상대강도·유가를 먼저 보고 10월20일 한국장에 미치는 조건부 영향을 점검합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주식·한국 반도체",
+            "basis": "10/19 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 개장 갭 축소·장중 되돌림 가능성이 있습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주식·한국 반도체",
+            "basis": "10/19–23의5거래일,10/23 종가 대10/16 종가. 발표·정규장 결과를 확인한 뒤 기대와 비교합니다.",
+            "counter": "미발표 결과를 상방 재료로 선반영하지 않습니다. 첫날 장전 반등만으로5일 추세를 확정할 수 없습니다.",
+            "invalidation": "실제 발표와 가격·금리 반응이 현재 해석에 반하면 재판단합니다.",
+            "sources": [
+              "chips",
+              "massive"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·달력",
+      "nasdaq": "Nasdaq · 2026 거래 달력",
+      "dst": "NIST · 2026 서머타임",
+      "apclose": "AP · 10월16일 지수 마감",
+      "market": "Reuters · 10월19일 장전",
+      "chips": "Reuters · 반도체 반등",
+      "yield": "MarketWatch · 미국 국채",
+      "clf": "Cleveland-Cliffs IR · 3분기 실적",
+      "nahb": "NAHB · 주택심리 발표 일정",
+      "nflx": "Netflix IR · 실적 발표 예고",
+      "massive": "Massive · 10월16일 일별 분석"
+    },
+    "interpretation_points": [
+      "상승 개장과 상승 마감은 다릅니다. 갭 축소와 종가 회복을 나눠 봅니다.",
+      "미국 기술주 회복이 유지되면 한국 반도체에 우호적이나 원화·국내 수급 확인이 필요합니다."
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-19T22:24:58+09:00",
+      "input_cutoff": "2026-10-19T22:24:58+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "당일10/19 종가·5거래일10/23 종가를10/16 종가와 비교하는 조건부 해석이며 검증 전입니다. 장중 되돌림은 별개입니다."
+    }
+  }
+}
