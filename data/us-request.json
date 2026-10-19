@@ -1,13 +1,11 @@
 {
   "end_date": "2026-10-16",
   "watch": [
-    "CRWV",
-    "NVDA",
-    "MU",
+    "CLF",
     "INTC",
-    "AAPL",
-    "MSFT",
-    "TSLA"
+    "MU",
+    "NVDA",
+    "CRWV"
   ],
-  "requested_at": "2026-10-18T01:12:33+09:00"
+  "requested_at": "2026-10-19T13:09:52+00:00"
 }
