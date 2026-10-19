@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-19",
+  "latest_id": "kr-close-2026-10-19",
   "reports": [
+    {
+      "id": "kr-close-2026-10-19",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-19",
+      "title": "10월 19일 한국장 마감",
+      "summary": "기관·배터리 주도 반등, 반도체 확인은 남음",
+      "as_of": "2026-10-19T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-19/"
+    },
     {
       "id": "kr-pre-2026-10-19",
       "is_test": false,
