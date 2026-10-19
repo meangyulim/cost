@@ -1,0 +1,2455 @@
+{
+  "id": "us-close-2026-10-19",
+  "is_test": false,
+  "market": "US",
+  "session": "close",
+  "market_date": "2026-10-19",
+  "title": "10월 19일 미국장 마감",
+  "venue": "NYSE / Nasdaq · 정규장 2026-10-19 09:30–16:00 EDT",
+  "as_of": "2026-10-20T05:00:00+09:00",
+  "queried_at": "2026-10-20T05:24:13+09:00",
+  "summary": "반도체 반등, AI 금융위험은 남음",
+  "summary_detail": "나스닥은 반등했지만 다우는 약세였습니다. CoreWeave는 상승 출발 뒤 전일 종가 아래로 밀렸습니다. 금리·유가 부담과 실적 검증이 다음 거래일의 변수입니다.",
+  "interpretation": "해석: 반도체 반등은 한국 기술주 심리에 우호적이지만 AI 클라우드의 주가 경로와 금리 재상승은 경계 신호입니다. 다음 한국장은 반등 연장·갭 반납 두 조건을 나눠 봅니다. 가격 상승만으로 신규 수주나 이익 개선, 공매도 청산·기관 매수를 단정하지 않습니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,690.73",
+      "unit": "pt",
+      "delta": "+31.29",
+      "percent": "+0.41",
+      "direction": "up",
+      "source": "q-GSPC",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "2026-10-19 미국 정규장 종가 · 마감직후 제공업체 정정가능",
+      "calculation": {
+        "current": 7690.73,
+        "previous": 7659.44,
+        "delta_formula": "current-previous",
+        "percent_formula": "(current/previous-1)*100"
+      }
+    },
+    {
+      "name": "Dow Jones",
+      "value": "51,966.03",
+      "unit": "pt",
+      "delta": "−36.38",
+      "percent": "−0.07",
+      "direction": "down",
+      "source": "q-DJI",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "2026-10-19 미국 정규장 종가 · 마감직후 제공업체 정정가능",
+      "calculation": {
+        "current": 51966.03,
+        "previous": 52002.41,
+        "delta_formula": "current-previous",
+        "percent_formula": "(current/previous-1)*100"
+      }
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,430.89",
+      "unit": "pt",
+      "delta": "+290.86",
+      "percent": "+1.11",
+      "direction": "up",
+      "source": "q-IXIC",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "2026-10-19 미국 정규장 종가 · 마감직후 제공업체 정정가능",
+      "calculation": {
+        "current": 26430.89,
+        "previous": 26140.03,
+        "delta_formula": "current-previous",
+        "percent_formula": "(current/previous-1)*100"
+      }
+    }
+  ],
+  "stocks": [
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "price": "61.12",
+      "currency": "USD",
+      "delta": "−0.27",
+      "percent": "−0.44",
+      "direction": "down",
+      "source": "q-CRWV",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-19 정규장 종가 · 마감직후 잠정 제공값",
+      "reason": "매수 의견 상향에도 갭을 반납한 AI 금융위험 관찰 1순위입니다. 확인시가65.82달러 대비 종가수익률−7.14%로 전일종가대비등락과구분합니다.",
+      "watch": "금일 종가 회복·유지와 실제 자금조달 공시를 확인하고 장중 반등만으로 신용위험 해소를 단정하지 않습니다.",
+      "reason_sources": [
+        "reuters"
+      ],
+      "regular_session": {
+        "date": "2026-10-19",
+        "close": 61.12,
+        "previous_close": 61.39,
+        "open": 65.82,
+        "delta": -0.27,
+        "daily_return_pct": -0.43981104414400063,
+        "open_to_close_pct": -7.140686721361278,
+        "provider_regular_market_time": 1792440001,
+        "quote_time_kst": "2026-10-20T05:00:01+09:00",
+        "queried_at": "2026-10-20T05:20:58+09:00"
+      }
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "217.09",
+      "currency": "USD",
+      "delta": "+2.96",
+      "percent": "+1.38",
+      "direction": "up",
+      "source": "q-NVDA",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-19 정규장 종가 · 마감직후 잠정 제공값",
+      "reason": "AI 대장주의 반등이 다음 날에도 유지되는지 볼 기준입니다. 확인시가218.01달러 대비 종가수익률−0.42%로 전일종가대비등락과구분합니다.",
+      "watch": "금일 종가 방어와 SOXX 대비 강도, 실제 AI 고객 투자·현금흐름 확인을 기다립니다.",
+      "reason_sources": [
+        "reuters"
+      ],
+      "regular_session": {
+        "date": "2026-10-19",
+        "close": 217.09,
+        "previous_close": 214.13,
+        "open": 218.01,
+        "delta": 2.96,
+        "daily_return_pct": 1.3823378321580426,
+        "open_to_close_pct": -0.42199899087197457,
+        "provider_regular_market_time": 1792440001,
+        "quote_time_kst": "2026-10-20T05:00:01+09:00",
+        "queried_at": "2026-10-20T05:20:58+09:00"
+      }
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "price": "904.90",
+      "currency": "USD",
+      "delta": "+26.06",
+      "percent": "+2.97",
+      "direction": "up",
+      "source": "q-MU",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-19 정규장 종가 · 마감직후 잠정 제공값",
+      "reason": "메모리 반등이 금리 부담을 이기고 이어지는지 확인합니다. 확인시가913.01달러 대비 종가수익률−0.89%로 전일종가대비등락과구분합니다.",
+      "watch": "금일 종가 유지와 반도체 대비 상대강도를 보고 금리 재상승 시 재판단합니다.",
+      "reason_sources": [
+        "reuters"
+      ],
+      "regular_session": {
+        "date": "2026-10-19",
+        "close": 904.9,
+        "previous_close": 878.84,
+        "open": 913.01,
+        "delta": 26.06,
+        "daily_return_pct": 2.965272404533237,
+        "open_to_close_pct": -0.8882706651624828,
+        "provider_regular_market_time": 1792440000,
+        "quote_time_kst": "2026-10-20T05:00:00+09:00",
+        "queried_at": "2026-10-20T05:20:58+09:00"
+      }
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "price": "92.03",
+      "currency": "USD",
+      "delta": "+2.18",
+      "percent": "+2.43",
+      "direction": "up",
+      "source": "q-INTC",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "Nasdaq 2026-10-19 정규장 종가 · 마감직후 잠정 제공값",
+      "reason": "중립 의견 상향과 업종 동반 반등을 구분해 봅니다. 확인시가94.53달러 대비 종가수익률−2.64%로 전일종가대비등락과구분합니다.",
+      "watch": "금일 종가와 업종 대비 강도 유지, 실제 이익 추정 변경을 확인합니다.",
+      "reason_sources": [
+        "reuters"
+      ],
+      "regular_session": {
+        "date": "2026-10-19",
+        "close": 92.03,
+        "previous_close": 89.85,
+        "open": 94.53,
+        "delta": 2.18,
+        "daily_return_pct": 2.426265998887045,
+        "open_to_close_pct": -2.6446630699248908,
+        "provider_regular_market_time": 1792440001,
+        "quote_time_kst": "2026-10-20T05:00:01+09:00",
+        "queried_at": "2026-10-20T05:20:58+09:00"
+      }
+    },
+    {
+      "name": "Cleveland-Cliffs",
+      "ticker": "CLF",
+      "price": "14.10",
+      "currency": "USD",
+      "delta": "+1.98",
+      "percent": "+16.34",
+      "direction": "up",
+      "source": "q-CLF",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "session": "NYSE 2026-10-19 정규장 종가 · 마감직후 잠정 제공값",
+      "reason": "실적과 회사 전망 개선을 큰 발표일 상승이 얼마나 반영했는지 봅니다. 확인시가14.20달러 대비 종가수익률−0.70%로 전일종가대비등락과구분합니다. 발표 직전10/16까지5거래일 수익률은-6.6256%,20거래일은-3.0400%,20거래일 SPY 대비 단순 차이는-3.2448%p입니다. 선반영의 대용 비교이지 투자자의 실제 기대나 베타 조정 초과수익률은 아닙니다.",
+      "watch": "금일 종가 방어와 가이던스의 가격·계약·현금흐름 가정, 갭 반납 위험을 확인합니다.",
+      "reason_sources": [
+        "clf",
+        "massive"
+      ],
+      "regular_session": {
+        "date": "2026-10-19",
+        "close": 14.1,
+        "previous_close": 12.12,
+        "open": 14.2,
+        "delta": 1.98,
+        "daily_return_pct": 16.33663366336635,
+        "open_to_close_pct": -0.7042253521126751,
+        "provider_regular_market_time": 1792440002,
+        "quote_time_kst": "2026-10-20T05:00:02+09:00",
+        "queried_at": "2026-10-20T05:20:58+09:00"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래 달력",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026휴장·조기폐장 목록과09:30–16:00ET 원문 확인.10/19·20정상 거래일,다음5거래일10/20,21,22,23,26.",
+      "show_public": true
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 정규장 시간",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026휴장·조기폐장 목록 및 정규장09:30–16:00ET 확인.10/19은 정상 마감.",
+      "show_public": true
+    },
+    {
+      "id": "dst",
+      "label": "NIST · 서머타임",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "note": "2026DST3/8–11/1.10/19뉴욕EDT=UTC−4,서울과13시간차.",
+      "show_public": true
+    },
+    {
+      "id": "reuters",
+      "label": "Reuters · 미국장 마감",
+      "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
+      "note": "마감 잠정기사.지수잠정값S&P7691.07,Dow51970.20,Nasdaq26430.89는Yahoo마감조회와차이.기사잠정수치의포인트·비율을다른출처가격과혼용하지않음.의견변화·WTI결제·장중되돌림 사건 근거.",
+      "show_public": true
+    },
+    {
+      "id": "ap",
+      "label": "AP · 금리·유가",
+      "url": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058",
+      "note": "마감업데이트 아래이른장중본문도존재.10년국채5.14%,금요일5.09%;Brent109.55달러−0.3%결제.국채정확한호가시각미확인.이른장중주가등락률은최종종가로사용하지않음.",
+      "show_public": true
+    },
+    {
+      "id": "clf",
+      "label": "Cleveland-Cliffs IR · 실적",
+      "url": "https://www.clevelandcliffs.com/news/news-releases/detail/705/cleveland-cliffs-reports-third-quarter-2026-results",
+      "note": "3Q매출5612백만달러·조정EPS0.28·조정EBITDA612백만달러;종전회사575백만달러가이던스.4Q715백만달러·2027년4000백만달러초과는회사미래전망.독립발표전컨센서스미확인.",
+      "show_public": true
+    },
+    {
+      "id": "housing",
+      "label": "NAHB · 10월 주택심리",
+      "url": "https://eyeonhousing.org/2026/10/builder-sentiment-falls-to-14-year-low-on-rising-affordability-concerns/",
+      "note": "NAHB경제조사블로그RobertDietz원문.10월HMI29,전월32;현판매33,미래기대32,방문18;가격인하43%,평균인하6%,인센티브65%.계절조정설문지표,실제착공아님.",
+      "show_public": true
+    },
+    {
+      "id": "census",
+      "label": "Census · 주택착공 일정",
+      "url": "https://www.census.gov/construction/soc/schedule.html",
+      "note": "9월신규주택건설10/20 08:30EDT=10/20 21:30KST예정.실제수치·컨센서스미확인.",
+      "show_public": true
+    },
+    {
+      "id": "nflx",
+      "label": "Netflix IR · 실적 예고",
+      "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
+      "note": "10/20약13:01PDT=16:01EDT=10/21 05:01KST발표;인터뷰13:45PDT=10/21 05:45KST.",
+      "show_public": true
+    },
+    {
+      "id": "krx",
+      "label": "KRX · 휴장 안내",
+      "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+      "note": "2026올빼미공시대상연속휴장표:10월3–5,9–11.10/20은주중이며해당휴장구간밖.한국개장시나리오는조건부이며공식특별휴장공지가추가되면변경.",
+      "show_public": true
+    },
+    {
+      "id": "q-CRWV",
+      "label": "Yahoo Finance · CRWV 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-NVDA",
+      "label": "Yahoo Finance · NVDA 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-MU",
+      "label": "Yahoo Finance · MU 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-INTC",
+      "label": "Yahoo Finance · INTC 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-CLF",
+      "label": "Yahoo Finance · CLF 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLF?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-GSPC",
+      "label": "Yahoo Finance · ^GSPC 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-DJI",
+      "label": "Yahoo Finance · ^DJI 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "q-IXIC",
+      "label": "Yahoo Finance · ^IXIC 종가",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+      "note": "이번실행공개chart응답.미국10/19정규장regularMarketPrice와10/16일봉종가를비교.일봉timestamp는개장일식별용이며폐장시각은공식달력으로별도확인.원시소수정밀도는quote_evidence보존.시간외fulldayPrice제외.마감직후정정가능.",
+      "show_public": true
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39317860807",
+      "note": "이번요청99119df의성공artifact analysis.json.실제providerMassive;일별ETF·관찰종목·OTC제외전체증권분석.표시생략은별도라이선스허가나공개게시제한해소를뜻하지않음.",
+      "show_public": false
+    }
+  ],
+  "quote_evidence": {
+    "CRWV": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "CRWV",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1743168600,
+          "regularMarketTime": 1792440001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 61.12,
+          "regularMarketChangePercent": -0.44,
+          "fulldayPrice": 61.04,
+          "fulldayChange": -0.35,
+          "fulldayChangePercent": -0.57,
+          "fiftyTwoWeekHigh": 141.79,
+          "fiftyTwoWeekLow": 59.25,
+          "regularMarketDayHigh": 65.87,
+          "regularMarketDayLow": 59.25,
+          "regularMarketVolume": 99435690,
+          "longName": "CoreWeave, Inc.",
+          "shortName": "CoreWeave, Inc.",
+          "chartPreviousClose": 80.26,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792396800,
+              "end": 1792416600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792416600,
+              "end": 1792440000,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792440000,
+              "end": 1792454400,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                76.11000061035156,
+                64.41000366210938,
+                59.5099983215332,
+                59.900001525878906,
+                59.25
+              ],
+              "high": [
+                78.94400024414062,
+                72.5199966430664,
+                69.76000213623047,
+                66.68499755859375,
+                65.87000274658203
+              ],
+              "open": [
+                76.31999969482422,
+                71.73999786376953,
+                61.43000030517578,
+                65.19499969482422,
+                65.82499694824219
+              ],
+              "volume": [
+                34284900,
+                111214200,
+                130537200,
+                94876600,
+                99435690
+              ],
+              "close": [
+                77.80999755859375,
+                65.77999877929688,
+                69.69000244140625,
+                61.38999938964844,
+                61.119998931884766
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                77.80999755859375,
+                65.77999877929688,
+                69.69000244140625,
+                61.38999938964844,
+                61.119998931884766
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "NVDA": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "NVDA",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 917015400,
+          "regularMarketTime": 1792440001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 217.09,
+          "regularMarketChangePercent": 1.382,
+          "fulldayPrice": 217.15,
+          "fulldayChange": 3.02,
+          "fulldayChangePercent": 1.41,
+          "fiftyTwoWeekHigh": 243.37,
+          "fiftyTwoWeekLow": 164.27,
+          "regularMarketDayHigh": 219.62,
+          "regularMarketDayLow": 214.7,
+          "regularMarketVolume": 96859996,
+          "longName": "NVIDIA Corporation",
+          "shortName": "NVIDIA Corporation",
+          "chartPreviousClose": 226.32,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "end": 1792416600,
+              "start": 1792396800,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "end": 1792440000,
+              "start": 1792416600,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "end": 1792454400,
+              "start": 1792440000,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                228.63999938964844,
+                226.0,
+                218.47000122070312,
+                218.67999267578125,
+                219.6199951171875
+              ],
+              "low": [
+                223.05999755859375,
+                219.63999938964844,
+                212.85000610351562,
+                213.32000732421875,
+                214.6999969482422
+              ],
+              "open": [
+                224.33999633789062,
+                225.52999877929688,
+                215.3000030517578,
+                216.55999755859375,
+                218.00999450683594
+              ],
+              "close": [
+                228.52000427246094,
+                221.3000030517578,
+                217.22999572753906,
+                214.1300048828125,
+                217.08999633789062
+              ],
+              "volume": [
+                84036900,
+                118730100,
+                127087900,
+                120855100,
+                96859996
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                228.52000427246094,
+                221.3000030517578,
+                217.22999572753906,
+                214.1300048828125,
+                217.08999633789062
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "MU": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "MU",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 454944600,
+          "regularMarketTime": 1792440000,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 904.9,
+          "regularMarketChangePercent": 2.965,
+          "fulldayPrice": 904.909,
+          "fulldayChange": 26.069,
+          "fulldayChangePercent": 2.966,
+          "fiftyTwoWeekHigh": 1255.0,
+          "fiftyTwoWeekLow": 192.4,
+          "regularMarketDayHigh": 926.81,
+          "regularMarketDayLow": 900.6,
+          "regularMarketVolume": 25513621,
+          "longName": "Micron Technology, Inc.",
+          "shortName": "Micron Technology, Inc.",
+          "chartPreviousClose": 989.04,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792396800,
+              "end": 1792416600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792416600,
+              "end": 1792440000,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792440000,
+              "end": 1792454400,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "open": [
+                934.0700073242188,
+                934.5599975585938,
+                871.5800170898438,
+                905.489990234375,
+                913.010009765625
+              ],
+              "high": [
+                953.5999755859375,
+                949.4199829101562,
+                931.6500244140625,
+                907.5,
+                926.8099975585938
+              ],
+              "close": [
+                953.1900024414062,
+                914.1300048828125,
+                931.239990234375,
+                878.8400268554688,
+                904.9000244140625
+              ],
+              "volume": [
+                29227200,
+                27843700,
+                39095100,
+                30293300,
+                25513621
+              ],
+              "low": [
+                929.030029296875,
+                913.5599975585938,
+                858.0,
+                875.0,
+                900.5999755859375
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                953.0400390625,
+                914.1300048828125,
+                931.239990234375,
+                878.8400268554688,
+                904.9000244140625
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "INTC": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "INTC",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 322151400,
+          "regularMarketTime": 1792440001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 92.03,
+          "regularMarketChangePercent": 2.426,
+          "fulldayPrice": 92.17,
+          "fulldayChange": 2.32,
+          "fulldayChangePercent": 2.582,
+          "fiftyTwoWeekHigh": 142.35,
+          "fiftyTwoWeekLow": 32.89,
+          "regularMarketDayHigh": 95.39,
+          "regularMarketDayLow": 91.88,
+          "regularMarketVolume": 100901571,
+          "longName": "Intel Corporation",
+          "shortName": "Intel Corporation",
+          "chartPreviousClose": 101.35,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "end": 1792416600,
+              "start": 1792396800,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "end": 1792440000,
+              "start": 1792416600,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "end": 1792454400,
+              "start": 1792440000,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                88252000,
+                104592800,
+                147157700,
+                122325800,
+                100901571
+              ],
+              "low": [
+                98.2300033569336,
+                97.66999816894531,
+                90.0199966430664,
+                89.19000244140625,
+                91.87999725341797
+              ],
+              "high": [
+                102.87999725341797,
+                101.33999633789062,
+                96.87000274658203,
+                94.22000122070312,
+                95.38999938964844
+              ],
+              "open": [
+                99.58999633789062,
+                99.54000091552734,
+                93.61000061035156,
+                93.4800033569336,
+                94.5270004272461
+              ],
+              "close": [
+                102.80999755859375,
+                98.12000274658203,
+                95.37000274658203,
+                89.8499984741211,
+                92.02999877929688
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                102.80999755859375,
+                98.12000274658203,
+                95.37000274658203,
+                89.8499984741211,
+                92.02999877929688
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "CLF": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLF?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "CLF",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 99153000,
+          "regularMarketTime": 1792440002,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 14.1,
+          "regularMarketChangePercent": 16.337,
+          "fulldayPrice": 14.13,
+          "fulldayChange": 2.01,
+          "fulldayChangePercent": 16.584,
+          "fiftyTwoWeekHigh": 16.7,
+          "fiftyTwoWeekLow": 7.73,
+          "regularMarketDayHigh": 14.58,
+          "regularMarketDayLow": 12.94,
+          "regularMarketVolume": 88162292,
+          "longName": "Cleveland-Cliffs Inc.",
+          "shortName": "Cleveland-Cliffs Inc.",
+          "chartPreviousClose": 12.89,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792396800,
+              "end": 1792416600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792416600,
+              "end": 1792440000,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792440000,
+              "end": 1792454400,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "open": [
+                12.850000381469727,
+                12.710000038146973,
+                12.350000381469727,
+                12.069999694824219,
+                14.199999809265137
+              ],
+              "high": [
+                12.9399995803833,
+                12.829999923706055,
+                12.520000457763672,
+                12.6899995803833,
+                14.579999923706055
+              ],
+              "close": [
+                12.859999656677246,
+                12.579999923706055,
+                12.149999618530273,
+                12.119999885559082,
+                14.100000381469727
+              ],
+              "low": [
+                12.569999694824219,
+                12.020000457763672,
+                11.670000076293945,
+                11.979999542236328,
+                12.940299987792969
+              ],
+              "volume": [
+                14552800,
+                23948400,
+                24295400,
+                24920100,
+                88162292
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                12.859999656677246,
+                12.579999923706055,
+                12.149999618530273,
+                12.119999885559082,
+                14.100000381469727
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "^GSPC": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "^GSPC",
+          "exchangeName": "SNP",
+          "fullExchangeName": "SNP",
+          "instrumentType": "INDEX",
+          "firstTradeDate": -1325583000,
+          "regularMarketTime": 1792441201,
+          "hasPrePostMarketData": false,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 7690.73,
+          "regularMarketChangePercent": 0.409,
+          "fulldayPrice": 7690.73,
+          "fulldayChange": 31.29,
+          "fulldayChangePercent": 0.409,
+          "fiftyTwoWeekHigh": 7844.52,
+          "fiftyTwoWeekLow": 6316.91,
+          "regularMarketDayHigh": 7731.18,
+          "regularMarketDayLow": 7684.79,
+          "regularMarketVolume": 2619366000,
+          "longName": "S&P 500",
+          "shortName": "S&P 500",
+          "chartPreviousClose": 7807.24,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792396800,
+              "end": 1792416600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792416600,
+              "end": 1792440000,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792440000,
+              "end": 1792454400,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                4869340000,
+                5955580000,
+                6055670000,
+                5482060000,
+                2619366000
+              ],
+              "low": [
+                7786.10986328125,
+                7693.31005859375,
+                7669.66015625,
+                7631.77001953125,
+                7684.7900390625
+              ],
+              "close": [
+                7805.4501953125,
+                7718.93994140625,
+                7744.06005859375,
+                7659.43994140625,
+                7690.72998046875
+              ],
+              "high": [
+                7814.14990234375,
+                7789.14990234375,
+                7754.14990234375,
+                7756.83984375,
+                7731.18017578125
+              ],
+              "open": [
+                7795.27001953125,
+                7774.18017578125,
+                7687.31005859375,
+                7745.31982421875,
+                7702.77001953125
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                7805.4501953125,
+                7718.93994140625,
+                7744.06005859375,
+                7659.43994140625,
+                7690.72998046875
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "^DJI": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "^DJI",
+          "exchangeName": "DJI",
+          "fullExchangeName": "DJI",
+          "instrumentType": "INDEX",
+          "firstTradeDate": 694362600,
+          "regularMarketTime": 1792441201,
+          "hasPrePostMarketData": false,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 51966.03,
+          "regularMarketChangePercent": -0.07,
+          "fulldayPrice": 51966.03,
+          "fulldayChange": -36.379,
+          "fulldayChangePercent": -0.07,
+          "fiftyTwoWeekHigh": 54744.33,
+          "fiftyTwoWeekLow": 45057.28,
+          "regularMarketDayHigh": 52134.58,
+          "regularMarketDayLow": 51863.8,
+          "regularMarketVolume": 392405860,
+          "longName": "Dow Jones Industrial Average",
+          "shortName": "Dow Jones Industrial Average",
+          "chartPreviousClose": 51850.55,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792396800,
+              "end": 1792416600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792416600,
+              "end": 1792440000,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792440000,
+              "end": 1792454400,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                395690000,
+                442520000,
+                500690000,
+                488090000,
+                392405860
+              ],
+              "close": [
+                51670.1015625,
+                51621.48046875,
+                52177.69140625,
+                52002.41015625,
+                51966.03125
+              ],
+              "open": [
+                52092.98828125,
+                51684.75,
+                51858.05859375,
+                52308.28125,
+                51978.578125
+              ],
+              "low": [
+                51587.671875,
+                51365.421875,
+                51681.37109375,
+                51847.94140625,
+                51863.80078125
+              ],
+              "high": [
+                52317.3203125,
+                51869.75,
+                52250.1796875,
+                52582.3203125,
+                52134.578125
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                51670.1015625,
+                51621.48046875,
+                52177.69140625,
+                52002.41015625,
+                51966.03125
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "^IXIC": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+      "queried_at": "2026-10-20T05:20:58+09:00",
+      "data": {
+        "meta": {
+          "currency": "USD",
+          "symbol": "^IXIC",
+          "exchangeName": "NIM",
+          "fullExchangeName": "Nasdaq GIDS",
+          "instrumentType": "INDEX",
+          "firstTradeDate": 34612200,
+          "regularMarketTime": 1792441254,
+          "hasPrePostMarketData": false,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 26430.887,
+          "regularMarketChangePercent": 1.113,
+          "fulldayPrice": 26430.887,
+          "fulldayChange": 290.854,
+          "fulldayChangePercent": 1.113,
+          "fiftyTwoWeekHigh": 27722.75,
+          "fiftyTwoWeekLow": 20690.25,
+          "regularMarketDayHigh": 26613.146,
+          "regularMarketDayLow": 26344.666,
+          "regularMarketVolume": 6572812000,
+          "longName": "NASDAQ Composite",
+          "shortName": "NASDAQ Composite",
+          "chartPreviousClose": 27245.9,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "end": 1792416600,
+              "start": 1792396800,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "end": 1792440000,
+              "start": 1792416600,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "end": 1792454400,
+              "start": 1792440000,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400,
+          1792416600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "open": [
+                27138.73046875,
+                27031.640625,
+                26380.76953125,
+                26652.98046875,
+                26395.287109375
+              ],
+              "volume": [
+                6986280000,
+                8568280000,
+                10869960000,
+                9505000000,
+                6572812000
+              ],
+              "close": [
+                27204.380859375,
+                26692.869140625,
+                26713.029296875,
+                26140.029296875,
+                26430.88671875
+              ],
+              "low": [
+                27116.080078125,
+                26602.119140625,
+                26308.849609375,
+                26023.099609375,
+                26344.666015625
+              ],
+              "high": [
+                27277.880859375,
+                27134.2890625,
+                26754.01953125,
+                26674.66015625,
+                26613.146484375
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                27204.380859375,
+                26692.869140625,
+                26713.029296875,
+                26140.029296875,
+                26430.88671875
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "fx": {
+    "label": "미국10년 국채수익률",
+    "value": "5.14",
+    "unit": "%",
+    "delta": "+0.05%p · 5bp",
+    "direction": "up",
+    "as_of": "2026-10-20T05:24:13+09:00",
+    "session": "10/19 뉴욕 오후 기사 호가; 전 거래일늦은5.09%비교.정확한호가시각미확인,as_of는이번자료확인시각",
+    "source": "ap",
+    "calculation": {
+      "current": 5.14,
+      "previous": 5.09,
+      "delta_percentage_points": 0.05,
+      "delta_basis_points": 5,
+      "formula": "(5.14-5.09)*100 bp"
+    }
+  },
+  "issues": [
+    {
+      "title": "반도체 반등, 전면 회복은 아님",
+      "fact": "반도체 지수는 8거래일 연속 하락을 끝냈고 나스닥이 반등했습니다. INTC는 JPMorgan의 중립 의견 상향 재료가 있었습니다. 해석: 업종 회복과 개별 의견 변화를 구분하며, 지수 상승만으로 전체 종목 회복을 단정하지 않습니다.",
+      "source": "reuters"
+    },
+    {
+      "title": "CoreWeave, 좋은 뉴스에도 되돌림",
+      "fact": "Goldman Sachs는 CRWV 의견을 중립에서 매수로 올렸지만 주가는 초반 상승을 반납했습니다. 아래 정규장 시가·종가 비교로 실제 경로를 확인합니다. 해석: 상향 의견 자체보다 금일 종가 회복·신용위험 재평가의 지속성이 중요하며 매도 주체·의도는 미확인입니다.",
+      "source": "reuters",
+      "additional_sources": [
+        "q-CRWV"
+      ]
+    },
+    {
+      "title": "유가·금리, 장전 안도감 약화",
+      "fact": "WTI 선물은 초반 하락에서 반전해 103.66달러/배럴(+2.2%)에 결제됐습니다. Brent는 109.55달러(−0.3%)였고, 10년 국채수익률은 기사 기준 5.14%로 금요일 5.09%보다 높았습니다. 해석: 유종·결제 시각을 섞지 않고 에너지 비용·할인율 부담을 함께 봅니다. 국채의 정확한 호가 시각은 미확인입니다.",
+      "source": "reuters",
+      "additional_sources": [
+        "ap"
+      ]
+    },
+    {
+      "title": "CLF, 실적 개선과 큰 갭",
+      "fact": "3분기 매출 56억1200만달러, 조정 EPS 0.28달러, 조정 EBITDA 6억1200만달러로 종전 회사 전망 5억7500만달러를 웃돌았습니다. 회사는 4분기 약7억1500만달러, 2027년 40억달러 초과 EBITDA를 기대했습니다. 미래 전망은 확정 실적이 아닙니다. 독립적인 발표 전 컨센서스는 미확인으로 서프라이즈 크기는 계산하지 않았습니다. 해석: 개선 전망과 발표일 큰 상승의 선반영·되돌림 위험을 동시에 봅니다.",
+      "source": "clf",
+      "additional_sources": [
+        "q-CLF"
+      ]
+    },
+    {
+      "title": "주택심리 29, 다음은 실제 착공",
+      "fact": "NAHB의 10월 HMI는 전월 32에서 29로 3pt 하락했습니다. 주택가격을 내린 업체는 43%, 판매 인센티브 사용은 65%였습니다. 이는 계절조정 설문이며 실제 주택착공·판매량은 아닙니다. 해석: 금리 부담이 실물 주택 수요에도 작용하는지 다음 Census 발표와 대조합니다. 발표 전 컨센서스의 독립 기록은 미확인입니다.",
+      "source": "housing",
+      "additional_sources": [
+        "census"
+      ]
+    },
+    {
+      "title": "일별 추세·시장 폭의 기준일",
+      "fact": "이번분석의실제기준일은2026-10-16,조회시각은2026-10-20T05:23:01+09:00입니다. SOXX의20거래일SPY대비가격수익률차이-7.6485%p,추세혼조,직전5거래일평균대비거래량1.5196배입니다. OTC제외전체증권상승은3643개/12431개(29.31%)입니다. ETF·우선주·워런트를포함해S&P500구성보통주상승비율이아닙니다. 전일배경자료로만사용하며10/19시장폭·수급으로사용하지않습니다. 해석: 거래량을기관순매수나반등확률로바꾸지않습니다.",
+      "source": "massive"
+    },
+    {
+      "title": "다음 한국장, 기술주와 비용 부담 충돌",
+      "fact": "미국 반도체 반등은 국내 반도체 심리에 우호적일 수 있습니다. 반대로 CRWV의 갭 반납과 국채·에너지 비용 부담은 추격 매수의 위험 요인입니다. 해석: 원/달러와 외국인 실제 흐름이 우호적이고 반도체가 갭을 유지하면 반등 연장을 검토합니다. 환율·수급 악화 또는 갭 반납이면 미국 지수 상승을 국내 상승 보장으로 해석하지 않습니다. 아직 한국장 실제 주문 흐름·가격은 확인하지 않았습니다.",
+      "source": "reuters",
+      "additional_sources": [
+        "q-CRWV",
+        "q-NVDA",
+        "q-MU",
+        "ap",
+        "krx"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "10/20 한국장 확인 순서",
+      "title": "반도체 반등과 갭 유지",
+      "detail": "미국 반도체 반등이 국내로 이어지는지 원/달러·외국인 흐름과 함께 보고 갭 반납 시 추격 해석을 낮춥니다."
+    },
+    {
+      "label": "10/20 21:30 KST",
+      "title": "미국 9월 주택착공·허가",
+      "detail": "2026-10-20 08:30 EDT 예정: 약한 설문과 실제 건설량·금리 반응이 일치하는지 확인합니다."
+    },
+    {
+      "label": "10/20 22:30 KST",
+      "title": "다음 미국 정규장 개장",
+      "detail": "2026-10-20 09:30 EDT: CRWV·반도체의 10월19일 종가 방어와 업종 대비 강도를 먼저 봅니다."
+    },
+    {
+      "label": "10/21 약05:01 KST",
+      "title": "Netflix 3분기 실적",
+      "detail": "2026-10-20 16:01 EDT 약: 매출·마진·전망을 발표 전 기대와 비교하고 시간외 반응을 분리합니다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "market_date": "2026-10-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-20T05:24:13+09:00",
+    "note": "NYSE·Nasdaq공식2026달력과정규장시간원문확인.정상09:30–16:00EDT=10/19 22:30–10/20 05:00KST.다음US거래일10/20;다음5거래일10/20,21,22,23,26.2026DST3/8–11/1은NIST확인."
+  },
+  "calculation_notes": "가격·포인트는Yahoo정규장표시값을사용.전일가격은같은조회응답의10/16일봉을표시정밀도(소수둘째자리)로반올림한값.변동액=현재−전일,등락률=(현재/전일−1)×100.시가대비=(종가/시가−1)×100.원시일봉float는quote_evidence보존,일봉timestamp를폐장시각으로사용하지않음.표시는2자리반올림,등락률역산으로가격생성하지않음.금리5bp=(5.14−5.09)×100.일별분석은분할보정가격수익률이며배당재투자총수익률아님.",
+  "execution": {
+    "scheduled_at_local": "2026-10-19T16:15:00-04:00",
+    "scheduled_timezone": "America/New_York",
+    "scheduled_at_kst": "2026-10-20T05:15:00+09:00",
+    "scheduled_at_utc": "2026-10-19T20:15:00+00:00",
+    "actual_start_at_local": "2026-10-19T16:15:06-04:00",
+    "actual_start_at_kst": "2026-10-20T05:15:06+09:00",
+    "actual_start_at_utc": "2026-10-19T20:15:06+00:00",
+    "delay_seconds": 6,
+    "environment": "Work cloud Bash/Python clean Git checkout; connected GitHub OAuth and Kakao self tools",
+    "model_setting": "not_verified",
+    "extra_http_browser_mobile_zoom_checks": "skipped_per_user",
+    "request_commit": "99119df5bfe9a63f124429f193097d5959f1d143",
+    "analysis_run_id": 39317860807
+  },
+  "massive_analysis": {
+    "provider": "Massive",
+    "requested_end_date": "2026-10-19",
+    "data_date": "2026-10-16",
+    "queried_at": "2026-10-20T05:23:01+09:00",
+    "request_count": 33,
+    "benchmarks_are_etfs_not_indices": true,
+    "benchmarks": [
+      {
+        "ticker": "SPY",
+        "name": "미국 대형주",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 763.25,
+        "daily_return_pct": -1.1065,
+        "return_5_sessions_pct": -1.9677,
+        "return_20_sessions_pct": 0.2048,
+        "ma20": 771.184,
+        "ma60": 765.4917,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.9377
+      },
+      {
+        "ticker": "QQQ",
+        "name": "나스닥100",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 709.8,
+        "daily_return_pct": -2.5,
+        "return_5_sessions_pct": -5.52,
+        "return_20_sessions_pct": -1.6148,
+        "ma20": 742.519,
+        "ma60": 721.1608,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.8878
+      },
+      {
+        "ticker": "DIA",
+        "name": "다우30",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 519.1,
+        "daily_return_pct": -0.3991,
+        "return_5_sessions_pct": 0.5793,
+        "return_20_sessions_pct": 0.6242,
+        "ma20": 514.645,
+        "ma60": 524.8452,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.6267
+      },
+      {
+        "ticker": "IWM",
+        "name": "미국 소형주",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 270.44,
+        "daily_return_pct": -1.6868,
+        "return_5_sessions_pct": -3.0473,
+        "return_20_sessions_pct": -4.8082,
+        "ma20": 279.311,
+        "ma60": 289.9875,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.2666
+      }
+    ],
+    "sectors": [
+      {
+        "ticker": "XLE",
+        "name": "에너지",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 68.24,
+        "daily_return_pct": 2.524,
+        "return_5_sessions_pct": 4.8556,
+        "return_20_sessions_pct": 6.111,
+        "ma20": 63.9215,
+        "ma60": 62.7045,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 1.4285,
+        "relative_to_spy_20_pct_points": 5.9062
+      },
+      {
+        "ticker": "XLP",
+        "name": "필수소비재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 87.62,
+        "daily_return_pct": 1.0844,
+        "return_5_sessions_pct": 5.0222,
+        "return_20_sessions_pct": 5.8213,
+        "ma20": 82.839,
+        "ma60": 84.3267,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.8467,
+        "relative_to_spy_20_pct_points": 5.6165
+      },
+      {
+        "ticker": "XLV",
+        "name": "헬스케어",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 176.71,
+        "daily_return_pct": -0.2709,
+        "return_5_sessions_pct": 3.4541,
+        "return_20_sessions_pct": 4.9409,
+        "ma20": 170.1405,
+        "ma60": 168.9723,
+        "trend": "상승 추세 조건 충족",
+        "volume_ratio_previous_5": 0.9511,
+        "relative_to_spy_20_pct_points": 4.7361
+      },
+      {
+        "ticker": "XLU",
+        "name": "유틸리티",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 42.21,
+        "daily_return_pct": 1.3445,
+        "return_5_sessions_pct": 1.9319,
+        "return_20_sessions_pct": 2.7007,
+        "ma20": 40.578,
+        "ma60": 42.4645,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2154,
+        "relative_to_spy_20_pct_points": 2.4959
+      },
+      {
+        "ticker": "XLB",
+        "name": "소재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 50.92,
+        "daily_return_pct": 0.712,
+        "return_5_sessions_pct": 3.0144,
+        "return_20_sessions_pct": 1.8604,
+        "ma20": 49.5945,
+        "ma60": 51.2508,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.4093,
+        "relative_to_spy_20_pct_points": 1.6556
+      },
+      {
+        "ticker": "XLY",
+        "name": "경기소비재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 112.46,
+        "daily_return_pct": -0.8377,
+        "return_5_sessions_pct": -0.3456,
+        "return_20_sessions_pct": 1.2879,
+        "ma20": 111.0995,
+        "ma60": 113.9895,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 2.6226,
+        "relative_to_spy_20_pct_points": 1.0831
+      },
+      {
+        "ticker": "XLC",
+        "name": "커뮤니케이션",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 110.32,
+        "daily_return_pct": -1.8855,
+        "return_5_sessions_pct": -0.0544,
+        "return_20_sessions_pct": -0.4422,
+        "ma20": 111.7975,
+        "ma60": 111.4758,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0007,
+        "relative_to_spy_20_pct_points": -0.647
+      },
+      {
+        "ticker": "XLF",
+        "name": "금융",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 55.52,
+        "daily_return_pct": 0.4523,
+        "return_5_sessions_pct": 1.4434,
+        "return_20_sessions_pct": -0.6087,
+        "ma20": 54.447,
+        "ma60": 56.4388,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.1359,
+        "relative_to_spy_20_pct_points": -0.8135
+      },
+      {
+        "ticker": "XLRE",
+        "name": "부동산",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 42.16,
+        "daily_return_pct": 0.4049,
+        "return_5_sessions_pct": 1.3218,
+        "return_20_sessions_pct": -0.87,
+        "ma20": 41.471,
+        "ma60": 43.5002,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0387,
+        "relative_to_spy_20_pct_points": -1.0748
+      },
+      {
+        "ticker": "XLI",
+        "name": "산업재",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 167.76,
+        "daily_return_pct": -0.0774,
+        "return_5_sessions_pct": -0.8804,
+        "return_20_sessions_pct": -1.1723,
+        "ma20": 169.0385,
+        "ma60": 175.4955,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.3933,
+        "relative_to_spy_20_pct_points": -1.3771
+      },
+      {
+        "ticker": "XLK",
+        "name": "정보기술",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 183.47,
+        "daily_return_pct": -3.0234,
+        "return_5_sessions_pct": -7.702,
+        "return_20_sessions_pct": -3.2331,
+        "ma20": 195.8225,
+        "ma60": 187.862,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.7704,
+        "relative_to_spy_20_pct_points": -3.4379
+      },
+      {
+        "ticker": "SOXX",
+        "name": "반도체",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 493.39,
+        "daily_return_pct": -4.1421,
+        "return_5_sessions_pct": -11.8001,
+        "return_20_sessions_pct": -7.4437,
+        "ma20": 559.971,
+        "ma60": 533.1463,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.5196,
+        "relative_to_spy_20_pct_points": -7.6485
+      }
+    ],
+    "watch": [
+      {
+        "ticker": "CRWV",
+        "name": "CRWV",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 61.39,
+        "daily_return_pct": -11.9099,
+        "return_5_sessions_pct": -25.2071,
+        "return_20_sessions_pct": -24.5452,
+        "ma20": 82.9635,
+        "ma60": 85.3502,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.5138,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 61.39,
+          "previous_close": 69.69,
+          "delta": -8.3,
+          "daily_return_pct": -11.9099,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 214.13,
+        "daily_return_pct": -1.4271,
+        "return_5_sessions_pct": -6.6076,
+        "return_20_sessions_pct": -3.6622,
+        "ma20": 228.177,
+        "ma60": 219.9463,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2495,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 214.13,
+          "previous_close": 217.23,
+          "delta": -3.1,
+          "daily_return_pct": -1.4271,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "MU",
+        "name": "MU",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 878.84,
+        "daily_return_pct": -5.6269,
+        "return_5_sessions_pct": -14.5928,
+        "return_20_sessions_pct": -13.483,
+        "ma20": 1033.003,
+        "ma60": 962.1848,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.0893,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 878.84,
+          "previous_close": 931.24,
+          "delta": -52.4,
+          "daily_return_pct": -5.6269,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "INTC",
+        "name": "INTC",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 89.85,
+        "daily_return_pct": -5.788,
+        "return_5_sessions_pct": -14.1834,
+        "return_20_sessions_pct": -17.2652,
+        "ma20": 112.562,
+        "ma60": 101.4137,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2572,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 89.85,
+          "previous_close": 95.37,
+          "delta": -5.52,
+          "daily_return_pct": -5.788,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      },
+      {
+        "ticker": "CLF",
+        "name": "CLF",
+        "data_date": "2026-10-16",
+        "history_sessions": 65,
+        "currency": "USD",
+        "price_basis": "split_adjusted_daily_aggregate",
+        "close": 12.12,
+        "daily_return_pct": -0.2469,
+        "return_5_sessions_pct": -6.6256,
+        "return_20_sessions_pct": -3.04,
+        "ma20": 12.123,
+        "ma60": 11.9935,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.1887,
+        "regular_session": {
+          "data_date": "2026-10-16",
+          "session": "regular",
+          "currency": "USD",
+          "close": 12.12,
+          "previous_close": 12.15,
+          "delta": -0.03,
+          "daily_return_pct": -0.2469,
+          "adjusted_for_splits": true,
+          "close_time": "공식 달력의 해당일 폐장 시각을 별도 확인; 일봉 시각을 폐장 시각으로 쓰지 않음"
+        }
+      }
+    ],
+    "breadth": {
+      "scope": "OTC 제외 전체 증권; ETF·우선주·워런트 등 포함, 보통주만의 시장 폭 아님",
+      "current_rows": 12630,
+      "paired_traded_rows": 12431,
+      "excluded_current_rows": 199,
+      "advancing": 3643,
+      "declining": 8526,
+      "unchanged": 262,
+      "advancing_share_pct": 29.31
+    },
+    "forecast_probability": null,
+    "backtest_status": "not_validated",
+    "limitations": [
+      "일별 자료이며 장중·장전 실시간 시세 아님",
+      "ETF 가격은 지수 값이 아님",
+      "분할 보정 가격수익률이며 배당 재투자 총수익률 아님",
+      "거래량 증가는 순자금 유입이나 기관 순매수를 뜻하지 않음",
+      "분석·공개 게시 권한은 API 조회 권한과 별개"
+    ]
+  },
+  "reading": {
+    "headline": "반도체 반등, AI 금융위험은 남음",
+    "summary_points": [
+      "나스닥은 반등했지만 다우는 약세였습니다.",
+      "CoreWeave는 상승 출발 뒤 갭을 반납했습니다.",
+      "다음 한국장은 반도체·환율·외국인 흐름을 봅니다."
+    ],
+    "notices": [
+      "지수·종목은10/19 정규장 기준입니다. 마감 직후 제공값은 잠정 정정 가능하며 일부 속보와 차이가 있습니다.",
+      "일별분석 기준일2026-10-16로10/19시장폭은미확인입니다. 국채는기사기준호가로정확한시각미확인,시간외가격은제외했습니다."
+    ],
+    "issues": [
+      {
+        "title": "반도체 반등, 전면 회복은 아님",
+        "preview": "반도체 반등과 시장 전체 회복을 구분합니다.",
+        "points": [
+          "반도체 반등과 시장 전체 회복을 구분합니다."
+        ],
+        "meaning": "반도체 반등과 시장 전체 회복을 구분합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20종가 대10/19종가. 반도체 반등과 시장 전체 회복을 구분합니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 반도체 반등과 시장 전체 회복을 구분합니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "reuters"
+            ]
+          }
+        }
+      },
+      {
+        "title": "CoreWeave, 좋은 뉴스에도 되돌림",
+        "preview": "좋은 뉴스보다 종가와 자금조달 조건을 봅니다.",
+        "points": [
+          "좋은 뉴스보다 종가와 자금조달 조건을 봅니다."
+        ],
+        "meaning": "좋은 뉴스보다 종가와 자금조달 조건을 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "CRWV",
+            "basis": "미국10/20종가 대10/19종가. 의견상향에도갭반납과전일종가하회가확인됐습니다.",
+            "counter": "급락후반등·추가자금조달호재가나오면약세해석이틀릴수있습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가회복·유지와업종대비강세또는실제금융조건개선공시를확인합니다.",
+            "sources": [
+              "reuters",
+              "q-CRWV"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 의견상향에도갭반납과전일종가하회가확인됐습니다.",
+            "counter": "급락후반등·추가자금조달호재가나오면약세해석이틀릴수있습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가회복·유지와업종대비강세또는실제금융조건개선공시를확인합니다.",
+            "sources": [
+              "reuters",
+              "q-CRWV"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가·금리, 장전 안도감 약화",
+        "preview": "유가·금리 부담이 반등의 속도를 제한할 수 있습니다.",
+        "points": [
+          "유가·금리 부담이 반등의 속도를 제한할 수 있습니다."
+        ],
+        "meaning": "유가·금리 부담이 반등의 속도를 제한할 수 있습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20종가 대10/19종가. 유가·금리 부담이 반등의 속도를 제한할 수 있습니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "reuters",
+              "ap"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 유가·금리 부담이 반등의 속도를 제한할 수 있습니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "reuters",
+              "ap"
+            ]
+          }
+        }
+      },
+      {
+        "title": "CLF, 실적 개선과 큰 갭",
+        "preview": "개선 기대와 발표일 급등의 선반영을 함께 봅니다.",
+        "points": [
+          "개선 기대와 발표일 급등의 선반영을 함께 봅니다."
+        ],
+        "meaning": "개선 기대와 발표일 급등의 선반영을 함께 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "미국10/20종가 대10/19종가. 개선 기대와 발표일 급등의 선반영을 함께 봅니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "clf",
+              "q-CLF"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 개선 기대와 발표일 급등의 선반영을 함께 봅니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "clf",
+              "q-CLF"
+            ]
+          }
+        }
+      },
+      {
+        "title": "주택심리 29, 다음은 실제 착공",
+        "preview": "약한 설문이 실제 건설량에도 이어지는지 확인합니다.",
+        "points": [
+          "약한 설문이 실제 건설량에도 이어지는지 확인합니다."
+        ],
+        "meaning": "약한 설문이 실제 건설량에도 이어지는지 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20종가 대10/19종가. 약한 설문이 실제 건설량에도 이어지는지 확인합니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "housing",
+              "census"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 약한 설문이 실제 건설량에도 이어지는지 확인합니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "housing",
+              "census"
+            ]
+          }
+        }
+      },
+      {
+        "title": "일별 추세·시장 폭의 기준일",
+        "preview": "자료 기준일이 다른 시장 폭을 당일 수급으로 쓰지 않습니다.",
+        "points": [
+          "자료 기준일이 다른 시장 폭을 당일 수급으로 쓰지 않습니다."
+        ],
+        "meaning": "자료 기준일이 다른 시장 폭을 당일 수급으로 쓰지 않습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20종가 대10/19종가. 자료 기준일이 다른 시장 폭을 당일 수급으로 쓰지 않습니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 관련 업종",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 자료 기준일이 다른 시장 폭을 당일 수급으로 쓰지 않습니다.",
+            "counter": "금리재상승·실적기대조정·반등선반영위험이남습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일종가재이탈과업종상대약세지속또는금리안정·강도회복에따라재판단합니다.",
+            "sources": [
+              "massive"
+            ]
+          }
+        }
+      },
+      {
+        "title": "다음 한국장, 기술주와 비용 부담 충돌",
+        "preview": "국내 반도체의 갭 유지·환율·수급이 확인 조건입니다.",
+        "points": [
+          "국내 반도체의 갭 유지·환율·수급이 확인 조건입니다."
+        ],
+        "meaning": "국내 반도체의 갭 유지·환율·수급이 확인 조건입니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체·주식",
+            "basis": "다음한국장종가 대직전한국장종가를평가하는별도조건. 미국반도체반등은우호적이나국내실제흐름미확인.",
+            "counter": "국내환율·외국인흐름·가격은아직미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "국내개장갭반납과환율·수급악화시반등연장해석을낮춥니다.",
+            "sources": [
+              "reuters",
+              "q-CRWV",
+              "q-NVDA",
+              "q-MU",
+              "ap",
+              "krx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체·주식",
+            "basis": "향후5개한국거래일의방향은추가국내자료부족으로보류. 미국5거래일기간을한국기간으로자동전환하지않음.",
+            "counter": "국내환율·외국인흐름·가격은아직미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "국내개장갭반납과환율·수급악화시반등연장해석을낮춥니다.",
+            "sources": [
+              "reuters",
+              "q-CRWV",
+              "q-NVDA",
+              "q-MU",
+              "ap",
+              "krx"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "CRWV": {
+        "reason": "매수 의견 상향에도 갭을 반납한 AI 금융위험 관찰 1순위입니다.",
+        "watch": "금일 종가 회복·유지와 실제 자금조달 공시를 확인하고 장중 반등만으로 신용위험 해소를 단정하지 않습니다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "CRWV",
+            "basis": "미국10/20종가 대10/19종가. 매수 의견 상향에도 갭을 반납한 AI 금융위험 관찰 1순위입니다. 확인시가65.82달러 대비 종가수익률−7.14%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 회복·유지와 실제 자금조달 공시를 확인하고 장중 반등만으로 신용위험 해소를 단정하지 않습니다.",
+            "sources": [
+              "q-CRWV",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 매수 의견 상향에도 갭을 반납한 AI 금융위험 관찰 1순위입니다. 확인시가65.82달러 대비 종가수익률−7.14%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 회복·유지와 실제 자금조달 공시를 확인하고 장중 반등만으로 신용위험 해소를 단정하지 않습니다.",
+            "sources": [
+              "q-CRWV",
+              "reuters"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "AI 대장주의 반등이 다음 날에도 유지되는지 볼 기준입니다.",
+        "watch": "금일 종가 방어와 SOXX 대비 강도, 실제 AI 고객 투자·현금흐름 확인을 기다립니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "미국10/20종가 대10/19종가. AI 대장주의 반등이 다음 날에도 유지되는지 볼 기준입니다. 확인시가218.01달러 대비 종가수익률−0.42%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 방어와 SOXX 대비 강도, 실제 AI 고객 투자·현금흐름 확인을 기다립니다.",
+            "sources": [
+              "q-NVDA",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. AI 대장주의 반등이 다음 날에도 유지되는지 볼 기준입니다. 확인시가218.01달러 대비 종가수익률−0.42%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 방어와 SOXX 대비 강도, 실제 AI 고객 투자·현금흐름 확인을 기다립니다.",
+            "sources": [
+              "q-NVDA",
+              "reuters"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "메모리 반등이 금리 부담을 이기고 이어지는지 확인합니다.",
+        "watch": "금일 종가 유지와 반도체 대비 상대강도를 보고 금리 재상승 시 재판단합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "미국10/20종가 대10/19종가. 메모리 반등이 금리 부담을 이기고 이어지는지 확인합니다. 확인시가913.01달러 대비 종가수익률−0.89%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 유지와 반도체 대비 상대강도를 보고 금리 재상승 시 재판단합니다.",
+            "sources": [
+              "q-MU",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 메모리 반등이 금리 부담을 이기고 이어지는지 확인합니다. 확인시가913.01달러 대비 종가수익률−0.89%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 유지와 반도체 대비 상대강도를 보고 금리 재상승 시 재판단합니다.",
+            "sources": [
+              "q-MU",
+              "reuters"
+            ]
+          }
+        }
+      },
+      "INTC": {
+        "reason": "중립 의견 상향과 업종 동반 반등을 구분해 봅니다.",
+        "watch": "금일 종가와 업종 대비 강도 유지, 실제 이익 추정 변경을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "미국10/20종가 대10/19종가. 중립 의견 상향과 업종 동반 반등을 구분해 봅니다. 확인시가94.53달러 대비 종가수익률−2.64%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가와 업종 대비 강도 유지, 실제 이익 추정 변경을 확인합니다.",
+            "sources": [
+              "q-INTC",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 중립 의견 상향과 업종 동반 반등을 구분해 봅니다. 확인시가94.53달러 대비 종가수익률−2.64%로 전일종가대비등락과구분합니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가와 업종 대비 강도 유지, 실제 이익 추정 변경을 확인합니다.",
+            "sources": [
+              "q-INTC",
+              "reuters"
+            ]
+          }
+        }
+      },
+      "CLF": {
+        "reason": "실적과 회사 전망 개선을 큰 발표일 상승이 얼마나 반영했는지 봅니다.",
+        "watch": "금일 종가 방어와 가이던스의 가격·계약·현금흐름 가정, 갭 반납 위험을 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "미국10/20종가 대10/19종가. 실적과 회사 전망 개선을 큰 발표일 상승이 얼마나 반영했는지 봅니다. 확인시가14.20달러 대비 종가수익률−0.70%로 전일종가대비등락과구분합니다. 발표 직전10/16까지5거래일 수익률은-6.6256%,20거래일은-3.0400%,20거래일 SPY 대비 단순 차이는-3.2448%p입니다. 선반영의 대용 비교이지 투자자의 실제 기대나 베타 조정 초과수익률은 아닙니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 방어와 가이던스의 가격·계약·현금흐름 가정, 갭 반납 위험을 확인합니다.",
+            "sources": [
+              "q-CLF",
+              "clf",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CLF",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 실적과 회사 전망 개선을 큰 발표일 상승이 얼마나 반영했는지 봅니다. 확인시가14.20달러 대비 종가수익률−0.70%로 전일종가대비등락과구분합니다. 발표 직전10/16까지5거래일 수익률은-6.6256%,20거래일은-3.0400%,20거래일 SPY 대비 단순 차이는-3.2448%p입니다. 선반영의 대용 비교이지 투자자의 실제 기대나 베타 조정 초과수익률은 아닙니다.",
+            "counter": "발표전기대·분봉VWAP·옵션·투자자주체는미확인입니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "금일 종가 방어와 가이던스의 가격·계약·현금흐름 가정, 갭 반납 위험을 확인합니다.",
+            "sources": [
+              "q-CLF",
+              "clf",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "반도체 반등과 갭 유지",
+        "detail": "미국 반도체 반등이 국내로 이어지는지 원/달러·외국인 흐름과 함께 보고 갭 반납 시 추격 해석을 낮춥니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체",
+            "basis": "다음한국장종가 대직전한국장종가;국내실제흐름을먼저확인합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "krx",
+              "reuters",
+              "ap"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체",
+            "basis": "향후5개한국거래일판단자료부족;미국기간을한국기간으로대체하지않습니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "krx",
+              "reuters",
+              "ap"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 9월 주택착공·허가",
+        "detail": "2026-10-20 08:30 EDT 예정: 약한 설문과 실제 건설량·금리 반응이 일치하는지 확인합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "census",
+              "housing"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "census",
+              "housing"
+            ]
+          }
+        }
+      },
+      {
+        "title": "다음 미국 정규장 개장",
+        "detail": "2026-10-20 09:30 EDT: CRWV·반도체의 10월19일 종가 방어와 업종 대비 강도를 먼저 봅니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "nyse",
+              "nasdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "nyse",
+              "nasdaq"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Netflix 3분기 실적",
+        "detail": "2026-10-20 16:01 EDT 약: 매출·마진·전망을 발표 전 기대와 비교하고 시간외 반응을 분리합니다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "nflx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 관련 시장·종목",
+            "basis": "미국10/20,21,22,23,26의5거래일;10/26종가 대10/19종가. 실제발표·가격반응을기대와대조한뒤판단합니다.",
+            "counter": "미발표결과를미리상방재료로쓰지않습니다. 개장갭·장중되돌림과최종종가방향은별개입니다.",
+            "invalidation": "실제발표·정규장반응이반대로나오면재판단합니다.",
+            "sources": [
+              "nflx"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "미국 반도체 반등은 한국 반도체의 우호 조건일 뿐 상승 보장이 아닙니다.",
+      "종가 방어·업종 대비 강도·금리 안정이 함께 나타나야 반등 지속 해석을 높입니다."
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래 달력",
+      "nasdaq": "Nasdaq · 정규장 시간",
+      "dst": "NIST · 서머타임",
+      "reuters": "Reuters · 미국장 마감",
+      "ap": "AP · 금리·유가",
+      "clf": "Cleveland-Cliffs IR · 실적",
+      "housing": "NAHB · 10월 주택심리",
+      "census": "Census · 주택착공 일정",
+      "nflx": "Netflix IR · 실적 예고",
+      "krx": "KRX · 휴장 안내",
+      "q-CRWV": "Yahoo Finance · CRWV 종가",
+      "q-NVDA": "Yahoo Finance · NVDA 종가",
+      "q-MU": "Yahoo Finance · MU 종가",
+      "q-INTC": "Yahoo Finance · INTC 종가",
+      "q-CLF": "Yahoo Finance · CLF 종가",
+      "q-GSPC": "Yahoo Finance · ^GSPC 종가",
+      "q-DJI": "Yahoo Finance · ^DJI 종가",
+      "q-IXIC": "Yahoo Finance · ^IXIC 종가",
+      "massive": "Massive · 미국 일별 분석"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-20T05:24:13+09:00",
+      "input_cutoff": "2026-10-20T05:24:13+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "다음미국거래일10/20과5거래일종료10/26의조건부해석·검증전.한국장시나리오는별도조건이며장중되돌림을배제하지않습니다."
+    }
+  }
+}

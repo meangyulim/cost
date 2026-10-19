@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-19",
+  "latest_id": "us-close-2026-10-19",
   "reports": [
+    {
+      "id": "us-close-2026-10-19",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-19",
+      "title": "10월 19일 미국장 마감",
+      "summary": "반도체 반등, AI 금융위험은 남음",
+      "as_of": "2026-10-20T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-19/"
+    },
     {
       "id": "us-pre-2026-10-19",
       "is_test": false,
