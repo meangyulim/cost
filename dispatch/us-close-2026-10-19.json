@@ -1,7 +1,7 @@
 {
   "report_id": "us-close-2026-10-19",
   "attempt_id": "us-close-2026-10-19-649688eaae6b",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-20T05:26:05+09:00",
   "attempted_at_utc": "2026-10-19T20:26:05+00:00",
   "url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-19/",
@@ -23,7 +23,7 @@
     "mobile_zoom": "skipped_per_user"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempt_count": 1,
   "execution": {
     "scheduled_at_local": "2026-10-19T16:15:00-04:00",
@@ -48,5 +48,14 @@
     ],
     "evidence_compiled_at_kst": "2026-10-20T05:24:13+09:00",
     "note": "Official calendars read during this run; normal 09:30–16:00 EDT session."
+  },
+  "attempted_record_remote_reread": "verified",
+  "sent_at_utc": "2026-10-19T20:26:27+00:00",
+  "sent_at_kst": "2026-10-20T05:26:27+09:00",
+  "result": {
+    "state": "success",
+    "tool": "mcp__codex_apps__kakao_kakaotalkchat_memochat",
+    "destination": "self",
+    "retried": false
   }
 }
