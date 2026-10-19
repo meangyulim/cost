@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-10-19",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-19T15:57:50+09:00",
   "attempted_at_utc": "2026-10-19T06:57:50+00:00",
   "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-19/",
@@ -58,5 +58,15 @@
     "previous_trading_day": "2026-10-16",
     "next_trading_day": "2026-10-20",
     "note": "이번 실행에서 KRX 공식2026년 연속휴장 관련 표의 원문·이미지와 공식 거래안내를 대조했다. 10월 연속휴장은3~5일·9~11일이며19일은 해당하지 않는다. 월~금 정규장09:00~15:30 규칙과 당일15:30 마감 보도를 확인해 정상 거래일로 판단했다. 별도 조기폐장 근거는 확인되지 않았다. 같은 기준으로 다음5거래일은10월20·21·22·23·26일이다."
+  },
+  "send_tool_called": true,
+  "result_recorded_at_kst": "2026-10-19T15:58:13+09:00",
+  "result_recorded_at_utc": "2026-10-19T06:58:13+00:00",
+  "kakao": {
+    "tool": "mcp__codex_apps__kakao_kakaotalkchat_memochat",
+    "destination": "self",
+    "attempt_count": 1,
+    "response_status": "sent",
+    "retried": false
   }
 }
