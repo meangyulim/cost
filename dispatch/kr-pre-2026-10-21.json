@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-10-21",
-  "status": "attempted",
+  "status": "sent",
   "attempt_id": "kr-pre-2026-10-21-20261021T084608+0900",
   "attempted_at_kst": "2026-10-21T08:46:08+09:00",
   "attempted_at_utc": "2026-10-20T23:46:08+00:00",
@@ -19,6 +19,10 @@
     "browser": "not_performed_user_instruction",
     "mobile_zoom": "not_performed_user_instruction"
   },
-  "send_tool_called": false,
-  "attempted_record_created": true
+  "send_tool_called": true,
+  "attempted_record_created": true,
+  "sent_at_utc": "2026-10-20T23:46:34Z",
+  "sent_at_kst": "2026-10-21T08:46:34+09:00",
+  "send_result": "success",
+  "retry_count": 0
 }
