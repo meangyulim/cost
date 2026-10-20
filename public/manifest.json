@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-20",
+  "latest_id": "kr-close-2026-10-20",
   "reports": [
+    {
+      "id": "kr-close-2026-10-20",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-20",
+      "title": "10월 20일 한국장 마감",
+      "summary": "외국인·기관 매도, 반등 되돌림",
+      "as_of": "2026-10-20T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-20/"
+    },
     {
       "id": "kr-pre-2026-10-20",
       "is_test": false,
