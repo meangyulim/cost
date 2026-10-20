@@ -1,0 +1,26 @@
+{
+  "report_id": "us-close-2026-10-20",
+  "status": "attempted",
+  "attempt_id": "us-close-2026-10-20-2026-10-20T20:24:25Z",
+  "attempted_at_kst": "2026-10-21T05:24:25+09:00",
+  "attempted_at_utc": "2026-10-20T20:24:25Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-20/",
+  "deployment_commit": "70c0f0da1c425ff13347237af7b9726df6f4d3dc",
+  "deployment": {
+    "run_id": 39491564077,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": {
+      "build": "success",
+      "deploy": "success"
+    },
+    "completed_at_utc": "2026-10-20T20:24:02Z",
+    "url": "https://github.com/meangyulim/cost/actions/runs/39491564077"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed"
+}
