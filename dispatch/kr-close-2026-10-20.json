@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-10-20",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-20T15:56:42+09:00",
   "attempted_at_utc": "2026-10-20T06:56:42.000Z",
   "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-20/",
@@ -21,7 +21,7 @@
     "browser": "not_performed_user_instruction"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "scheduled_start_kst": "2026-10-20T15:45:00+09:00",
   "scheduled_start_utc": "2026-10-20T06:45:00+00:00",
   "actual_start_kst": "2026-10-20T15:46:35+09:00",
@@ -34,5 +34,7 @@
     "official_source": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf"
   },
   "krx_data_date": "2026-10-19",
-  "model_setting": "not_verified"
+  "model_setting": "not_verified",
+  "response_status": "sent",
+  "response_at_utc": "2026-10-20 06:56:52 UTC"
 }
