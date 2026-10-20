@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-20",
+  "latest_id": "us-close-2026-10-20",
   "reports": [
+    {
+      "id": "us-close-2026-10-20",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-20",
+      "title": "10월 20일 미국장 마감 브리핑",
+      "summary": "실적주 순환, Netflix는 장후 경고",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-20/"
+    },
     {
       "id": "us-pre-2026-10-20",
       "is_test": false,
