@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-10-20",
-  "status": "attempted",
+  "status": "sent",
   "attempt_id": "us-close-2026-10-20-2026-10-20T20:24:25Z",
   "attempted_at_kst": "2026-10-21T05:24:25+09:00",
   "attempted_at_utc": "2026-10-20T20:24:25Z",
@@ -19,8 +19,69 @@
     "url": "https://github.com/meangyulim/cost/actions/runs/39491564077"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "http_inspection": "not_performed",
   "browser_inspection": "not_performed",
-  "mobile_zoom_inspection": "not_performed"
+  "mobile_zoom_inspection": "not_performed",
+  "sent_at_kst": "2026-10-21T05:24:46+09:00",
+  "sent_at_utc": "2026-10-20T20:24:46Z",
+  "updated_at_kst": "2026-10-21T05:24:46+09:00",
+  "updated_at_utc": "2026-10-20T20:24:46Z",
+  "notification": {
+    "surface": "Kakao 나에게 보내기",
+    "attempts": 1,
+    "response": "success",
+    "message_characters": 148
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-20T16:15:00-04:00",
+      "kst": "2026-10-21T05:15:00+09:00",
+      "utc": "2026-10-20T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-20T16:12:05-04:00",
+      "kst": "2026-10-21T05:12:05+09:00",
+      "utc": "2026-10-20T20:12:05Z"
+    },
+    "start_offset_seconds": -175,
+    "delay_seconds": 0,
+    "early_seconds": 175,
+    "environment": "Cloud Bash/Python; 연결 GitHub·Kakao; 실제 checkout /tmp/cost-usclose-20261020-UxEX1Q",
+    "model_setting": "not_verified",
+    "request_commit": "a5c383b4509c659bee1fce8b5ce9fa0de5ce8f77",
+    "analysis_run_id": 39490089937,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-20.json",
+    "index_finality": "unconfirmed_due_to_preliminary_source_difference",
+    "analysis_status": "completed/success",
+    "analysis_artifact": {
+      "id": 12295227821,
+      "name": "us-analysis-39490089937",
+      "sha256": "4ce32391ac96924d2acf20ef90836a73e44bcad427cc78e3ccbbd1e970bd3f45",
+      "data_date": "2026-10-19",
+      "queried_at": "2026-10-21T05:20:53+09:00",
+      "request_commit": "a5c383b4509c659bee1fce8b5ce9fa0de5ce8f77",
+      "head_sha": "a5c383b4509c659bee1fce8b5ce9fa0de5ce8f77"
+    },
+    "analysis_used_as": "2026-10-19 prior-session background only"
+  },
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-20",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-21T05:13:00+09:00",
+    "note": "NYSE·Nasdaq 2026공식휴장·조기폐장표에10/20포함안됨. core09:30~16:00ET. zoneinfo로10/20EDT UTC−04:00,폐장10/21 05:00KST확인. 다음미국거래일10/21;5거래일10/21·22·23·26·27. 한국거래일공식페이지403은미국거래일판단과별개;국내일정은확인순서로표시."
+  },
+  "data_notices": {
+    "indices": "Naver closing snapshot differs from Reuters preliminary numbers; finality unconfirmed and visibly disclosed",
+    "daily_analysis_date": "2026-10-19",
+    "daily_analysis_usage": "prior-session background"
+  }
 }
