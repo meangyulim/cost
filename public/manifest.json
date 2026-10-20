@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-20",
+  "latest_id": "us-pre-2026-10-20",
   "reports": [
+    {
+      "id": "us-pre-2026-10-20",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-20",
+      "title": "2026.10.20 미국장 시작 전 브리핑",
+      "summary": "AI 반등 시험대, 실적은 선별 대응",
+      "as_of": "2026-10-20T22:09:40+09:00",
+      "path": "reports/us-pre-2026-10-20/"
+    },
     {
       "id": "kr-close-2026-10-20",
       "is_test": false,
