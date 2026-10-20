@@ -1,12 +1,12 @@
 {
-  "end_date": "2026-10-19",
+  "end_date": "2026-10-20",
   "watch": [
-    "CRWV",
-    "GM",
     "MMM",
+    "GM",
     "HAL",
-    "NFLX",
-    "STLD"
+    "EFX",
+    "CRWV",
+    "NFLX"
   ],
-  "requested_at": "2026-10-20T22:00:29+09:00"
+  "requested_at": "2026-10-21T05:13:00+09:00"
 }
