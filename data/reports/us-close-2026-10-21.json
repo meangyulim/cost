@@ -1,0 +1,827 @@
+{
+  "id": "us-close-2026-10-21",
+  "is_test": false,
+  "market": "US",
+  "session": "close",
+  "market_date": "2026-10-21",
+  "title": "10월 21일 미국장 마감 브리핑",
+  "venue": "NYSE·Nasdaq · 2026-10-21 09:30~16:00 EDT 정규장(2026-10-21 22:30~10-22 05:00 KST)",
+  "as_of": "2026-10-22T05:00:00+09:00",
+  "queried_at": "2026-10-22T05:22:30+09:00",
+  "summary": "AI 반등이 나스닥을 이끌었지만 업종 차별화는 컸다",
+  "summary_detail": "SpaceX와 Supermicro가 AI 투자심리를 되살리며 나스닥이 주요 지수 상승을 주도했다. 반면 Netflix와 AT&T 약세로 커뮤니케이션 업종은 뒤처졌다. 정규장 뒤 Meta·Tesla 실적 설명회가 남아 있어 다음 세션은 가이던스 확인이 우선이다.",
+  "interpretation": "사실과 해석을 분리한다. Reuters 지수는 잠정 종가로 표시하고 종목은 Naver의 16:00 EDT 정규장 종가만 사용한다. 장후 실적·시간외 가격은 정규장 수익률에 섞지 않는다. 다음 한국장 방향은 미국 지수만으로 단정하지 않고 원화·반도체 상대강도·외국인 현물 수급을 확인한다.",
+  "calculation_notes": "직접계산 없음. 등락률로 종가를 역산하지 않았다. Reuters 잠정 지수값과 Naver 종목 정규장 종가를 서로 평균하거나 혼합하지 않았다. SMCI 수치는 미감사 예비치다. 환율은 하나은행 고시 스냅샷이며 서울외환시장 종가가 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,757.74",
+      "unit": "pt",
+      "delta": "+44.64",
+      "percent": "+0.58",
+      "direction": "up",
+      "source": "market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 정규장 Reuters 잠정 종가",
+      "final_status": "미확인",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,701.61",
+      "unit": "pt",
+      "delta": "+276.80",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 정규장 Reuters 잠정 종가",
+      "final_status": "미확인",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "52,851.78",
+      "unit": "pt",
+      "delta": "+355.90",
+      "percent": "+0.68",
+      "direction": "up",
+      "source": "market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 정규장 Reuters 잠정 종가",
+      "final_status": "미확인",
+      "provisional": true
+    }
+  ],
+  "stocks": [
+    {
+      "name": "스페이스X",
+      "ticker": "SPCX",
+      "price": "159.31",
+      "delta": "+11.52",
+      "percent": "+7.79",
+      "source": "qSPCX",
+      "reason": "상장 후 첫 흑자 보도와 AI·우주 인프라 기대가 정규장 강세를 이끌었다.",
+      "watch": "다음 정규장에서 실적 반응이 유지되는지와 Tesla 합병 논의의 공식 공시 여부를 확인한다.",
+      "direction": "up",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 미국 정규장 종가 · Nasdaq",
+      "reason_sources": [
+        "market",
+        "spacex"
+      ]
+    },
+    {
+      "name": "슈퍼마이크로컴퓨터",
+      "ticker": "SMCI",
+      "price": "35.57",
+      "delta": "+3.10",
+      "percent": "+9.55",
+      "source": "qSMCI",
+      "reason": "FY2027 1분기 예비 매출·매출총이익률 범위가 종전 가이던스를 웃돌았다.",
+      "watch": "11월 3일 확정 실적에서 예비치 수정과 고객·제품 믹스를 확인한다.",
+      "direction": "up",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 미국 정규장 종가 · Nasdaq",
+      "reason_sources": [
+        "smci",
+        "market"
+      ]
+    },
+    {
+      "name": "넷플릭스",
+      "ticker": "NFLX",
+      "price": "65.04",
+      "delta": "−3.65",
+      "percent": "−5.31",
+      "source": "qNFLX",
+      "reason": "Q4 이익 전망과 낮아진 2026 광고 매출 전망이 정규장 하락 부담이었다.",
+      "watch": "광고 기능 출시 속도와 Q4 영업마진 26.0% 가정의 변화 여부를 확인한다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 미국 정규장 종가 · Nasdaq",
+      "reason_sources": [
+        "nflx",
+        "market"
+      ]
+    },
+    {
+      "name": "AT&T",
+      "ticker": "T",
+      "price": "21.91",
+      "delta": "−1.51",
+      "percent": "−6.45",
+      "source": "qT",
+      "reason": "분기 매출·이익 기대 상회에도 SpaceX 무선 경쟁 우려가 커졌다.",
+      "watch": "경쟁 우려가 가입자·가격 전망에 실제 반영되는지 회사 설명을 확인한다.",
+      "direction": "down",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 미국 정규장 종가 · NYSE",
+      "reason_sources": [
+        "market"
+      ]
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "386.47",
+      "delta": "+12.76",
+      "percent": "+3.41",
+      "source": "qTSLA",
+      "reason": "SpaceX와의 합병 아이디어 언급과 AI주 반등 속에 정규장 강세였다.",
+      "watch": "장후 Q3 업데이트와 17:30 EDT Q&A의 마진·현금흐름·전망을 확인한다.",
+      "direction": "up",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "10/21 미국 정규장 종가 · Nasdaq",
+      "reason_sources": [
+        "market",
+        "tesla"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,326.70",
+    "unit": "원/USD",
+    "delta": "−0.30",
+    "direction": "down",
+    "source": "fx",
+    "as_of": "2026-10-21T22:07:53+09:00",
+    "session": "10/21 22:07:53 KST 은행 고시 · 서울외환시장 종가 아님"
+  },
+  "issues": [
+    {
+      "title": "AI 반등이 나스닥 주도",
+      "fact": "Reuters 잠정 종가 기준 나스닥은26701.61pt(+276.80,+1.05%)로 주요 지수 중 가장 강했다. SpaceX159.31USD(+7.79%)와SMCI35.57USD(+9.55%)가 AI 투자 수익성 우려를 일부 완화했고 기술 업종이 S&P500 11개 업종 중 최강이었다. 다만 단일 실적·예비치가 AI 투자 전반의 수익성을 증명하지는 않는다.",
+      "source": "market",
+      "additional_sources": [
+        "smci",
+        "spacex",
+        "qSPCX",
+        "qSMCI"
+      ]
+    },
+    {
+      "title": "커뮤니케이션 업종은 역행",
+      "fact": "Netflix는65.04USD(−5.31%),AT&T는21.91USD(−6.45%)에 마감했다. Netflix는Q4 영업이익3500백만USD·영업마진26.0%를 제시했고 2026 광고매출 전망을약27억USD로 낮췄다. AT&T는분기 매출·이익 기대를 웃돌았지만 SpaceX의무선경쟁우려가부각됐다. 서로다른사업의하락을하나의실적원인으로묶지않는다.",
+      "source": "market",
+      "additional_sources": [
+        "nflx",
+        "qNFLX",
+        "qT"
+      ]
+    },
+    {
+      "title": "Tesla·Meta 장후 이벤트 위험",
+      "fact": "Tesla는정규장386.47USD(+3.41%),Meta는697.52USD(+0.47%)였다. Meta는10/21 장후 결과 발표와16:30EDT 설명회를, Tesla는장후Q3자료와17:30EDT Q&A를 예고했다. 이 보고서의 정규장 종가와 장후 자료·시간외 가격은 합산하지 않으며 설명회 전 해석은 보류한다.",
+      "source": "meta",
+      "additional_sources": [
+        "tesla",
+        "qTSLA",
+        "qMETA"
+      ]
+    },
+    {
+      "title": "다음 한국장, AI 확산과 원화 확인",
+      "fact": "하나은행 USD/KRW 고시는10/21 22:07:53KST 기준1326.70원/USD(−0.30원,−0.02%)였다. 미국 기술주 반등은 국내 반도체에 우호적일 수 있으나 한국장 방향은10/22 개장 후 원화·외국인 현물 수급·반도체 상대강도로 확인한다. 은행 고시를 서울외환시장 종가로 보지 않는다.",
+      "source": "fx",
+      "additional_sources": [
+        "market",
+        "qSMCI",
+        "qSPCX"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-22 05:30 KST",
+      "title": "Meta 실적 설명회",
+      "detail": "10/21 16:30 EDT; 광고 성장·AI 인프라 비용·2026 지출 전망을 확인한다."
+    },
+    {
+      "label": "2026-10-22 06:30 KST",
+      "title": "Tesla Q3 Q&A",
+      "detail": "10/21 17:30 EDT; 자동차 마진·에너지·현금흐름과 SpaceX 관련 공식 설명을 확인한다."
+    },
+    {
+      "label": "2026-10-22 09:00 KST",
+      "title": "한국장 개장 반응",
+      "detail": "반도체 상대강도·원화·외국인 현물 수급을 순서대로 확인한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 공식 거래시간·달력",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026공식휴장·조기폐장표와core09:30~16:00ET확인.10/21정상거래일.조회2026-10-22T05:11:30+09:00."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 공식 휴장 일정",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026공식휴장·조기폐장표로10/21정상거래일교차확인.EDT UTC−04:00."
+    },
+    {
+      "id": "market",
+      "label": "Reuters · 10월 21일 미국장 마감",
+      "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/",
+      "note": "잠정종가와시장반응원문. S&P7757.74(+44.64,+0.58%),Nasdaq26701.61(+276.80,+1.05%),Dow52851.78(+355.90,+0.68%).preliminary data표시보존."
+    },
+    {
+      "id": "smci",
+      "label": "Supermicro · FY2027 1분기 예비 업데이트",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+      "note": "10/20공식원문.예비매출18.5~19.5bnUSDvs종전14.5~15.5bn,매출총이익률12.0~12.5%vs10.4~10.8%.미감사·수정가능."
+    },
+    {
+      "id": "spacex",
+      "label": "SpaceX · 투자자 자료",
+      "url": "https://ir.spacex.com/investors/default.aspx",
+      "note": "10/20 Q3자료게시확인.세부이익수치는이번공개페이지에서추출미확인;첫공개기업흑자와주가반응은Reuters원문으로확인."
+    },
+    {
+      "id": "nflx",
+      "label": "Netflix · Q3 2026 주주서한",
+      "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+      "note": "공식원문.Q3매출12874mUSD,영업이익4459m,마진34.6%,EPS0.87.Q4전망매출13442m,영업이익3500m,마진26.0%,EPS0.67;2026광고약2.7bn."
+    },
+    {
+      "id": "meta",
+      "label": "Meta · Q3 발표 일정",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "note": "10/21장후결과및16:30EDT설명회공식일정.설명회전후시간외가격은본문정규장종가에미반영."
+    },
+    {
+      "id": "tesla",
+      "label": "Tesla · Q3 발표·Q&A 일정",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "note": "10/21장후Q3자료와17:30EDT Q&A공식일정.정규장종가와장후자료구분."
+    },
+    {
+      "id": "fx",
+      "label": "Naver·하나은행 · USD/KRW 고시",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "실제HTTP조회2026-10-22T05:17:00+09:00.localTradedAt2026-10-21T22:07:53+09:00,1326.70원/USD,−0.30원(−0.02%),고시571회.서울외환시장종가아님."
+    },
+    {
+      "id": "qSPCX",
+      "label": "Naver · 스페이스X 종가",
+      "url": "https://api.stock.naver.com/stock/SPCX.O/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가159.31USD,변동+11.52USD(+7.79%)."
+    },
+    {
+      "id": "qSMCI",
+      "label": "Naver · 슈퍼마이크로컴퓨터 종가",
+      "url": "https://api.stock.naver.com/stock/SMCI.O/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가35.57USD,변동+3.10USD(+9.55%)."
+    },
+    {
+      "id": "qNFLX",
+      "label": "Naver · 넷플릭스 종가",
+      "url": "https://api.stock.naver.com/stock/NFLX.O/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가65.04USD,변동−3.65USD(−5.31%)."
+    },
+    {
+      "id": "qT",
+      "label": "Naver · AT&T 종가",
+      "url": "https://api.stock.naver.com/stock/T/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가21.91USD,변동−1.51USD(−6.45%)."
+    },
+    {
+      "id": "qTSLA",
+      "label": "Naver · 테슬라 종가",
+      "url": "https://api.stock.naver.com/stock/TSLA.O/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가386.47USD,변동+12.76USD(+3.41%)."
+    },
+    {
+      "id": "qMETA",
+      "label": "Naver · 메타 종가",
+      "url": "https://api.stock.naver.com/stock/META.O/basic",
+      "note": "실제HTTP조회2026-10-22T05:12~05:17KST. localTradedAt=2026-10-21T16:00:00-04:00,marketStatus=CLOSE. 정규장종가697.52USD,변동+3.27USD(+0.47%)."
+    }
+  ],
+  "quote_evidence": [
+    {
+      "url": "https://api.stock.naver.com/stock/SPCX.O/basic",
+      "queried_at": "2026-10-22T05:12:00+09:00",
+      "stockName": "스페이스X",
+      "closePrice": "159.31",
+      "compareToPreviousClosePrice": "11.52",
+      "fluctuationsRatio": "7.79",
+      "localTradedAt": "2026-10-21T16:00:00-04:00",
+      "marketStatus": "CLOSE"
+    },
+    {
+      "url": "https://api.stock.naver.com/stock/SMCI.O/basic",
+      "queried_at": "2026-10-22T05:12:00+09:00",
+      "stockName": "슈퍼마이크로컴퓨터",
+      "closePrice": "35.57",
+      "compareToPreviousClosePrice": "3.10",
+      "fluctuationsRatio": "9.55",
+      "localTradedAt": "2026-10-21T16:00:00-04:00",
+      "marketStatus": "CLOSE"
+    },
+    {
+      "url": "https://api.stock.naver.com/stock/NFLX.O/basic",
+      "queried_at": "2026-10-22T05:12:00+09:00",
+      "stockName": "넷플릭스",
+      "closePrice": "65.04",
+      "compareToPreviousClosePrice": "-3.65",
+      "fluctuationsRatio": "-5.31",
+      "localTradedAt": "2026-10-21T16:00:00-04:00",
+      "marketStatus": "CLOSE"
+    },
+    {
+      "url": "https://api.stock.naver.com/stock/T/basic",
+      "queried_at": "2026-10-22T05:12:00+09:00",
+      "stockName": "AT&T",
+      "closePrice": "21.91",
+      "compareToPreviousClosePrice": "-1.51",
+      "fluctuationsRatio": "-6.45",
+      "localTradedAt": "2026-10-21T16:00:00-04:00",
+      "marketStatus": "CLOSE"
+    },
+    {
+      "url": "https://api.stock.naver.com/stock/TSLA.O/basic",
+      "queried_at": "2026-10-22T05:12:00+09:00",
+      "stockName": "테슬라",
+      "closePrice": "386.47",
+      "compareToPreviousClosePrice": "12.76",
+      "fluctuationsRatio": "3.41",
+      "localTradedAt": "2026-10-21T16:00:00-04:00",
+      "marketStatus": "CLOSE"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-21",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-22T05:11:30+09:00",
+    "note": "NYSE·Nasdaq 2026공식휴장·조기폐장표에10/21포함안됨.core09:30~16:00ET.EDT UTC−04:00,폐장10/22 05:00KST.다음거래일10/22,5거래일10/22·23·26·27·28."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-21T16:15:00-04:00",
+      "kst": "2026-10-22T05:15:00+09:00",
+      "utc": "2026-10-21T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-21T16:11:21-04:00",
+      "kst": "2026-10-22T05:11:21+09:00",
+      "utc": "2026-10-21T20:11:21Z"
+    },
+    "start_offset_seconds": -219,
+    "delay_seconds": 0,
+    "early_seconds": 219,
+    "environment": "Cloud Bash/Python; 연결 GitHub·Kakao; 실제 checkout /tmp/cost-usclose-20261021-tXGPyO/repo",
+    "model_setting": "not_verified",
+    "request_commit": "8a86cdf33b866ad6fd2d7a3fa6ca67830080fa44",
+    "analysis_run_id": 39668883527,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-21.json",
+    "index_finality": "Reuters preliminary close; final official settlement not confirmed",
+    "analysis_status": "in_progress_at_editorial_cutoff; report continued per user instruction"
+  },
+  "reading": {
+    "headline": "AI 반등, 나스닥 주도",
+    "summary_points": [
+      "나스닥 +1.05%, AI주 반등이 지수를 이끌었다.",
+      "SMCI·SPCX 강세, NFLX·AT&T는 약세였다.",
+      "Meta·Tesla 장후 가이던스가 다음 확인 대상이다."
+    ],
+    "notices": [
+      "지수는 Reuters 잠정 종가다. 최종 확정치는 미확인이다.",
+      "기본 가격은2026-10-22 05:00 KST(10/21 미국 정규장) 종가다. 장후 실적·시간외 가격은 섞지 않는다.",
+      "SMCI 수치는 미감사 예비치다. 환율은 은행 고시이며 서울외환시장 종가가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "AI 반등이 나스닥 주도",
+        "preview": "SPCX·SMCI가 기술주 투자심리를 되살렸다.",
+        "points": [
+          "나스닥이 +1.05%로 주요 지수 상승을 주도했다.",
+          "SMCI 예비치는 미감사·수정 가능 자료다."
+        ],
+        "meaning": "AI 우려가 완화됐지만 한 세션으로 수익성을 확정하지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 AI·반도체",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. AI 관련 실적 반응과 나스닥 상대강도가 우호적이다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. Meta·Tesla 장후 결과와 차익실현이 방향을 바꿀 수 있다.",
+            "invalidation": "나스닥 상대강도와 반도체 확산이 꺾이면 재평가한다.",
+            "sources": [
+              "market",
+              "smci",
+              "qSPCX",
+              "qSMCI"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 AI·반도체",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. AI 관련 실적 반응과 나스닥 상대강도가 우호적이다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. Meta·Tesla 장후 결과와 차익실현이 방향을 바꿀 수 있다.",
+            "invalidation": "나스닥 상대강도와 반도체 확산이 꺾이면 재평가한다.",
+            "sources": [
+              "market",
+              "smci",
+              "qSPCX",
+              "qSMCI"
+            ]
+          }
+        }
+      },
+      {
+        "title": "커뮤니케이션 업종은 역행",
+        "preview": "NFLX·AT&T 약세가 지수 내부 차별화를 키웠다.",
+        "points": [
+          "Netflix는 광고·Q4 이익 전망 부담이 컸다.",
+          "AT&T는 실적 기대 상회에도 경쟁 우려가 우세했다."
+        ],
+        "meaning": "지수 상승을 모든 성장주의 동반 강세로 보지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 커뮤니케이션",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. Netflix와AT&T의 서로다른부담이업종약세로겹쳤다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 낮아진기대와후속회사설명이반등을만들수있다.",
+            "invalidation": "NFLX·T가10/21종가를안정적으로회복하면하방해석을낮춘다.",
+            "sources": [
+              "market",
+              "nflx",
+              "qNFLX",
+              "qT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 커뮤니케이션",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. Netflix와AT&T의 서로다른부담이업종약세로겹쳤다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 낮아진기대와후속회사설명이반등을만들수있다.",
+            "invalidation": "NFLX·T가10/21종가를안정적으로회복하면하방해석을낮춘다.",
+            "sources": [
+              "market",
+              "nflx",
+              "qNFLX",
+              "qT"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Tesla·Meta 장후 이벤트",
+        "preview": "정규장 종가 뒤 실적 재평가가 남아 있다.",
+        "points": [
+          "정규장 수익률과 장후 실적 반응을 분리한다.",
+          "설명회에서 AI 지출·마진·현금흐름을 확인한다."
+        ],
+        "meaning": "다음 세션 방향은 장후 숫자보다 가이던스 해석에 민감하다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "META·TSLA",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 장후실적과설명회가정규장종가뒤에있어판단을보류한다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 발표직후시간외가격은유동성이낮고정규장과다를수있다.",
+            "invalidation": "공식자료와설명회후다음정규장종가로재판단한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qTSLA",
+              "qMETA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "META·TSLA",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 장후실적과설명회가정규장종가뒤에있어판단을보류한다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 발표직후시간외가격은유동성이낮고정규장과다를수있다.",
+            "invalidation": "공식자료와설명회후다음정규장종가로재판단한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qTSLA",
+              "qMETA"
+            ]
+          }
+        }
+      },
+      {
+        "title": "다음 한국장 확인 순서",
+        "preview": "AI 반등·원화 안정이 국내 수급으로 이어지는지 본다.",
+        "points": [
+          "달러 고시는 1326.70원으로 0.30원 내렸다.",
+          "개장 후 반도체·원화·외국인 현물 수급을 함께 본다."
+        ],
+        "meaning": "미국 나스닥 상승만으로 한국장 강세를 단정하지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체·성장주",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 미국AI주반등과원화고시의소폭하락은우호적조건이다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 국내수급과장후Meta·Tesla반응이반대면전달효과가약해질수있다.",
+            "invalidation": "반도체상대강도·원화·외국인현물수급중두가지이상이반대면재평가한다.",
+            "sources": [
+              "market",
+              "fx",
+              "qSMCI",
+              "qSPCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 반도체·성장주",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 미국AI주반등과원화고시의소폭하락은우호적조건이다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 국내수급과장후Meta·Tesla반응이반대면전달효과가약해질수있다.",
+            "invalidation": "반도체상대강도·원화·외국인현물수급중두가지이상이반대면재평가한다.",
+            "sources": [
+              "market",
+              "fx",
+              "qSMCI",
+              "qSPCX"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "SPCX": {
+        "reason": "상장 후 첫 흑자 보도와 AI·우주 인프라 기대가 정규장 강세를 이끌었다.",
+        "watch": "다음 정규장에서 실적 반응이 유지되는지와 Tesla 합병 논의의 공식 공시 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SPCX",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 159.31USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. 상장 후 첫 흑자 보도와 AI·우주 인프라 기대가 정규장 강세를 이끌었다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "다음 정규장에서 실적 반응이 유지되는지와 Tesla 합병 논의의 공식 공시 여부를 확인한다.",
+            "sources": [
+              "market",
+              "spacex",
+              "qSPCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SPCX",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 159.31USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. 상장 후 첫 흑자 보도와 AI·우주 인프라 기대가 정규장 강세를 이끌었다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "다음 정규장에서 실적 반응이 유지되는지와 Tesla 합병 논의의 공식 공시 여부를 확인한다.",
+            "sources": [
+              "market",
+              "spacex",
+              "qSPCX"
+            ]
+          }
+        }
+      },
+      "SMCI": {
+        "reason": "FY2027 1분기 예비 매출·매출총이익률 범위가 종전 가이던스를 웃돌았다.",
+        "watch": "11월 3일 확정 실적에서 예비치 수정과 고객·제품 믹스를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SMCI",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 35.57USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. FY2027 1분기 예비 매출·매출총이익률 범위가 종전 가이던스를 웃돌았다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "11월 3일 확정 실적에서 예비치 수정과 고객·제품 믹스를 확인한다.",
+            "sources": [
+              "smci",
+              "market",
+              "qSMCI"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SMCI",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 35.57USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. FY2027 1분기 예비 매출·매출총이익률 범위가 종전 가이던스를 웃돌았다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "11월 3일 확정 실적에서 예비치 수정과 고객·제품 믹스를 확인한다.",
+            "sources": [
+              "smci",
+              "market",
+              "qSMCI"
+            ]
+          }
+        }
+      },
+      "NFLX": {
+        "reason": "Q4 이익 전망과 낮아진 2026 광고 매출 전망이 정규장 하락 부담이었다.",
+        "watch": "광고 기능 출시 속도와 Q4 영업마진 26.0% 가정의 변화 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NFLX",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 65.04USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. Q4 이익 전망과 낮아진 2026 광고 매출 전망이 정규장 하락 부담이었다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "광고 기능 출시 속도와 Q4 영업마진 26.0% 가정의 변화 여부를 확인한다.",
+            "sources": [
+              "nflx",
+              "market",
+              "qNFLX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NFLX",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 65.04USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. Q4 이익 전망과 낮아진 2026 광고 매출 전망이 정규장 하락 부담이었다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "광고 기능 출시 속도와 Q4 영업마진 26.0% 가정의 변화 여부를 확인한다.",
+            "sources": [
+              "nflx",
+              "market",
+              "qNFLX"
+            ]
+          }
+        }
+      },
+      "T": {
+        "reason": "분기 매출·이익 기대 상회에도 SpaceX 무선 경쟁 우려가 커졌다.",
+        "watch": "경쟁 우려가 가입자·가격 전망에 실제 반영되는지 회사 설명을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "T",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 21.91USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. 분기 매출·이익 기대 상회에도 SpaceX 무선 경쟁 우려가 커졌다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "경쟁 우려가 가입자·가격 전망에 실제 반영되는지 회사 설명을 확인한다.",
+            "sources": [
+              "market",
+              "qT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "T",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 21.91USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. 분기 매출·이익 기대 상회에도 SpaceX 무선 경쟁 우려가 커졌다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "경쟁 우려가 가입자·가격 전망에 실제 반영되는지 회사 설명을 확인한다.",
+            "sources": [
+              "market",
+              "qT"
+            ]
+          }
+        }
+      },
+      "TSLA": {
+        "reason": "SpaceX와의 합병 아이디어 언급과 AI주 반등 속에 정규장 강세였다.",
+        "watch": "장후 Q3 업데이트와 17:30 EDT Q&A의 마진·현금흐름·전망을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 386.47USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. SpaceX와의 합병 아이디어 언급과 AI주 반등 속에 정규장 강세였다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "장후 Q3 업데이트와 17:30 EDT Q&A의 마진·현금흐름·전망을 확인한다.",
+            "sources": [
+              "market",
+              "tesla",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 386.47USD(10/21정규장종가)를기준으로사건과가격반응을함께본다. SpaceX와의 합병 아이디어 언급과 AI주 반등 속에 정규장 강세였다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 급등락후되돌림과새공시는기존해석을바꿀수있다.",
+            "invalidation": "장후 Q3 업데이트와 17:30 EDT Q&A의 마진·현금흐름·전망을 확인한다.",
+            "sources": [
+              "market",
+              "tesla",
+              "qTSLA"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "Meta 설명회",
+        "detail": "광고 성장·AI 비용·지출 전망의 숫자와 경영진 설명을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "META·AI 플랫폼",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 16:30EDT설명회전이라방향을보류한다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 시간외초기반응과다음정규장종가는다를수있다.",
+            "invalidation": "공식가이던스와다음정규장종가로재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "META·AI 플랫폼",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 16:30EDT설명회전이라방향을보류한다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 시간외초기반응과다음정규장종가는다를수있다.",
+            "invalidation": "공식가이던스와다음정규장종가로재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Tesla Q3 Q&A",
+        "detail": "마진·현금흐름·전망과 SpaceX 관련 공식 발언을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "TSLA·전기차·AI",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 17:30EDT Q&A전이라방향을보류한다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 합병아이디어언급은합의나공시가아니다.",
+            "invalidation": "공식자료·Q&A와다음정규장종가로재판단한다.",
+            "sources": [
+              "tesla",
+              "market",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "TSLA·전기차·AI",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 17:30EDT Q&A전이라방향을보류한다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 합병아이디어언급은합의나공시가아니다.",
+            "invalidation": "공식자료·Q&A와다음정규장종가로재판단한다.",
+            "sources": [
+              "tesla",
+              "market",
+              "qTSLA"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국장 개장",
+        "detail": "반도체 상대강도·원화·외국인 현물 수급을 순서대로 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체·성장주",
+            "basis": "10/22 미국 정규장 종가를 10/21 정규장 종가와 비교한다. 미국AI주반등과원화고시의소폭하락이우호적이다.",
+            "counter": "장중 반응과 종가 방향은 다를 수 있다. 국내수급과장후실적반응이반대일수있다.",
+            "invalidation": "개장후세조건을실측해재판단한다.",
+            "sources": [
+              "market",
+              "fx",
+              "qSMCI",
+              "qSPCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 반도체·성장주",
+            "basis": "10/28 미국 정규장 종가(10/22·23·26·27·28의 5거래일)를 10/21 정규장 종가와 비교한다. 미국AI주반등과원화고시의소폭하락이우호적이다.",
+            "counter": "하루 반응을 5거래일 추세로 확정하지 않는다. 국내수급과장후실적반응이반대일수있다.",
+            "invalidation": "개장후세조건을실측해재판단한다.",
+            "sources": [
+              "market",
+              "fx",
+              "qSMCI",
+              "qSPCX"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래 달력",
+      "nasdaq": "Nasdaq · 휴장 일정",
+      "market": "Reuters · 미국장 마감",
+      "smci": "Supermicro · 예비 실적",
+      "spacex": "SpaceX · 투자자 자료",
+      "nflx": "Netflix · Q3 주주서한",
+      "meta": "Meta · Q3 일정",
+      "tesla": "Tesla · Q3 일정",
+      "fx": "Naver·하나은행 · 환율"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-22T05:22:30+09:00",
+      "input_cutoff": "2026-10-22T05:22:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일·5거래일 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  }
+}

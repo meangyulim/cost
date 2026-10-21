@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-21",
+  "latest_id": "us-close-2026-10-21",
   "reports": [
+    {
+      "id": "us-close-2026-10-21",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-21",
+      "title": "10월 21일 미국장 마감 브리핑",
+      "summary": "AI 반등이 나스닥을 이끌었지만 업종 차별화는 컸다",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-21/"
+    },
     {
       "id": "us-pre-2026-10-21",
       "is_test": false,
