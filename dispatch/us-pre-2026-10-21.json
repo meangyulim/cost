@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-10-21",
-  "status": "attempted",
+  "status": "sent",
   "attempt_id": "us-pre-2026-10-21-2026-10-21T13:15:36Z",
   "attempted_at_kst": "2026-10-21T22:15:36+09:00",
   "attempted_at_utc": "2026-10-21T13:15:36Z",
@@ -19,7 +19,7 @@
     "url": "https://github.com/meangyulim/cost/actions/runs/39606284800"
   },
   "attempted_record_created": true,
-  "send_tool_called": false,
+  "send_tool_called": true,
   "http_inspection": "not_performed",
   "browser_inspection": "not_performed",
   "mobile_zoom_inspection": "not_performed",
@@ -34,5 +34,15 @@
     "environment": "Cloud Bash/Python and connected GitHub/Kakao",
     "calendar": "NYSE/Nasdaq 2026-10-21 normal trading day; EDT UTC-04:00",
     "model_setting": "not_verified"
+  },
+  "sent_at_kst": "2026-10-21T22:16:13+09:00",
+  "sent_at_utc": "2026-10-21T13:16:13Z",
+  "updated_at_kst": "2026-10-21T22:16:13+09:00",
+  "updated_at_utc": "2026-10-21T13:16:13Z",
+  "notification": {
+    "surface": "Kakao 나에게 보내기",
+    "attempts": 1,
+    "response": "success",
+    "message_characters": 126
   }
 }
