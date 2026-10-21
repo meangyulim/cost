@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-21",
+  "latest_id": "kr-close-2026-10-21",
   "reports": [
+    {
+      "id": "kr-close-2026-10-21",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-21",
+      "title": "10월 21일 한국장 마감",
+      "summary": "반도체 급반등, 시장 폭은 제한",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-21/"
+    },
     {
       "id": "kr-pre-2026-10-21",
       "is_test": false,

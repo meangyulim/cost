@@ -1,0 +1,640 @@
+{
+  "id": "kr-close-2026-10-21",
+  "is_test": false,
+  "title": "10월 21일 한국장 마감",
+  "market": "KR",
+  "market_date": "2026-10-21",
+  "session": "close",
+  "venue": "지수·관찰 종목은 2026.10.21 15:30 KST KRX 정규장 종가. NXT·시간외 값은 제외했다. 수급은 마감 후 조회한 당일 잠정 현물 집계이며 정정될 수 있다. 환율은 하나은행 고시값으로 서울외환시장 종가가 아니다.",
+  "as_of": "2026-10-21T15:30:00+09:00",
+  "queried_at": "2026-10-21T15:49:47+09:00",
+  "summary": "반도체 급반등, 시장 폭은 제한",
+  "summary_detail": "코스피는 반도체 대형주와 외국인 매수로 3.29% 반등했고 장중 매수 사이드카가 발동됐다. 코스닥도 1.38% 올랐지만 코스피는 하락 종목이 상승 종목보다 많아 지수 상승의 확산은 제한적이었다. 다음 거래일에는 오늘 종가 유지와 반도체 동반 강도, 상승 종목 확산을 함께 확인한다.",
+  "interpretation": "10월 22일에는 코스피 5,735.66과 삼성전자·SK하이닉스 종가 유지, 외국인 매수 지속 여부를 먼저 본다. 장중 고점 5,816.43에서 종가로 상승폭이 줄어 장 초반 강세와 최종 종가 방향은 구분해야 한다. 향후 5거래일은 10월 22·23·26·27·28일이며 미국 대형 기술주 실적과 삼성바이오로직스 실제 발표가 재판단 조건이다. KRX 일별 분석은 10월 20일까지여서 오늘 장세의 검증 자료로 사용하지 않았다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,735.66",
+      "unit": "pt",
+      "delta": "+182.92",
+      "percent": "+3.29",
+      "direction": "up",
+      "source": "kospi",
+      "additional_sources": [
+        "flow-kospi",
+        "sidecar"
+      ],
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "792.76",
+      "unit": "pt",
+      "delta": "+10.79",
+      "percent": "+1.38",
+      "direction": "up",
+      "source": "kosdaq",
+      "additional_sources": [
+        "flow-kosdaq"
+      ],
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가"
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,325.00",
+    "unit": "원/USD",
+    "delta": "−2.00",
+    "direction": "down",
+    "source": "fx",
+    "as_of": "2026-10-21T15:45:04+09:00",
+    "session": "하나은행 376회차 고시환율 · 서울외환시장 주간종가 아님"
+  },
+  "issues": [
+    {
+      "title": "반도체 급반등과 매수 사이드카",
+      "fact": "코스피는 5,735.66(+182.92pt, +3.29%)로 마감했다. 시가 5,666.34, 고가 5,816.43, 저가 5,630.14였고 오전 10시 51분 코스피200선물 급등으로 프로그램 매수호가 효력이 5분간 정지되는 매수 사이드카가 발동됐다. 삼성전자와 SK하이닉스가 각각 5.67%, 5.81% 상승해 반등을 주도했다. 연합뉴스는 외국인 매수와 미국 기술주·AI 관련 기대를 장중 배경으로 전했으나, 오늘 상승 전체의 단일 원인으로 확정하지 않는다.",
+      "source": "kospi",
+      "additional_sources": [
+        "sidecar",
+        "price-005930",
+        "price-000660"
+      ]
+    },
+    {
+      "title": "외국인 매수에도 코스피 시장 폭은 좁음",
+      "fact": "15:47 조회 잠정 현물 수급은 코스피 개인 −11,318억원, 외국인 +6,602억원, 기관 −715억원이다. 코스피 상승 372·하락 490·보합 53종목으로 지수 상승과 달리 하락 종목이 더 많았다. 프로그램은 차익 −1,538억원, 비차익 +8,732억원, 전체 +7,194억원이었다. 코스닥은 개인 +516억원, 외국인 −1,720억원, 기관 +1,047억원이며 상승 832·하락 802·보합 100종목이었다. 잠정치와 기타 주체 때문에 수급 합계를 0으로 보정하지 않는다.",
+      "source": "flow-kospi",
+      "additional_sources": [
+        "flow-kosdaq"
+      ]
+    },
+    {
+      "title": "삼성바이오로직스 실적은 종가 뒤 확인",
+      "fact": "삼성바이오로직스는 1,417,000원(+26,000원, +1.87%)으로 정규장을 마쳤다. 회사 IR은 2026년 10월 21일 3분기 실적발표를 예고했지만, 이 보고서의 정보 마감 시각까지 회사의 실제 3분기 결과를 확보하지 못했다. 따라서 오늘 상승을 실적 서프라이즈로 단정하지 않는다. 발표 전 컨센서스·선반영 정도와 발표 후 정규장 반응은 아직 비교할 수 없으며, 실제 매출·영업이익·가이던스와 다음 거래일 가격 경로를 분리해 확인한다.",
+      "source": "price-207940",
+      "additional_sources": [
+        "sbio-ir"
+      ]
+    },
+    {
+      "title": "KRX 일별 분석은 한 거래일 지연",
+      "fact": "이번 요청 커밋의 Collect KRX briefing inputs 작업은 성공했으나 15:47:57 조회 산출물의 data_date는 2026년 10월 20일이었다. 당시 코스피 20거래일 수익률은 −17.345%, 상승 종목 비율은 12.9%였지만 이는 오늘 반등 전 자료다. 오늘 종가·시장 폭을 대신하지 않으며 전일 급락의 배경으로만 사용한다. 예측 확률은 제공되지 않았고 backtest_status는 not_validated다.",
+      "source": "krx-analysis",
+      "additional_sources": [
+        "krx-service"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "223,500",
+      "currency": "KRW",
+      "delta": "+12,000",
+      "percent": "+5.67",
+      "direction": "up",
+      "source": "price-005930",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT·시간외 제외",
+      "reason": "대형 반도체 반등과 코스피 지수 상승의 핵심 종목이다.",
+      "watch": "223,500원 유지와 SK하이닉스 동반 강도, 외국인 매수 지속을 확인한다.",
+      "reason_sources": [
+        "sidecar",
+        "flow-kospi"
+      ]
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,294,000",
+      "currency": "KRW",
+      "delta": "+71,000",
+      "percent": "+5.81",
+      "direction": "up",
+      "source": "price-000660",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT·시간외 제외",
+      "reason": "AI·메모리 투자심리 회복 여부를 가장 민감하게 보여준 대형주다.",
+      "watch": "1,294,000원 유지와 장중 고점 되돌림 축소, 삼성전자 동반 강도를 확인한다.",
+      "reason_sources": [
+        "sidecar",
+        "flow-kospi"
+      ]
+    },
+    {
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "price": "1,417,000",
+      "currency": "KRW",
+      "delta": "+26,000",
+      "percent": "+1.87",
+      "direction": "up",
+      "source": "price-207940",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT·시간외 제외",
+      "reason": "오늘 3분기 실적 발표 예정 종목으로 종가와 실제 결과를 구분해야 한다.",
+      "watch": "실제 매출·영업이익·가이던스와 1,417,000원 대비 다음 정규장 반응을 확인한다.",
+      "reason_sources": [
+        "sbio-ir"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "발표 후 확인",
+      "title": "삼성바이오로직스 3분기 실제 결과",
+      "detail": "회사 발표의 매출·영업이익·가이던스를 발표 전 기대와 구분하고 다음 정규장 반응을 확인한다. 정확한 발표 시각은 미확인이다."
+    },
+    {
+      "label": "2026.10.22 09:00 KST",
+      "title": "다음 한국장 개장과 반도체 동반 강도",
+      "detail": "코스피 5,735.66, 삼성전자 223,500원, SK하이닉스 1,294,000원 유지와 외국인 수급을 확인한다."
+    },
+    {
+      "label": "2026.10.22 정규장",
+      "title": "지수 상승의 시장 폭 확산",
+      "detail": "코스피 상승 종목 수가 하락 종목 수를 넘어서는지와 비반도체 업종 동참 여부를 본다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 2026 휴장 안내",
+      "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+      "note": "공식 휴장 구간과 KRX 거래일 원칙을 확인. 10월 21일은 수요일이며 휴장 구간 밖이고 실제 정규장 종료 데이터가 확인됐다.",
+      "queried_at": "2026-10-21T15:49:47+09:00"
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 거래일 및 매매시간",
+      "url": "https://ets.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+      "note": "월요일부터 금요일 거래 원칙과 휴장일 예외를 확인. 오늘은 조기폐장 없이 09:00~15:30 정규장이 종료됐다.",
+      "queried_at": "2026-10-21T15:49:47+09:00"
+    },
+    {
+      "id": "kospi",
+      "label": "네이버 증권 · 코스피 마감",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/basic",
+      "note": "15:46 응답 marketStatus=CLOSE. 정규장 종가 5735.66, 전일 대비 +182.92, +3.29%.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "kosdaq",
+      "label": "네이버 증권 · 코스닥 마감",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/basic",
+      "note": "15:46 응답 marketStatus=CLOSE. 정규장 종가 792.76, 전일 대비 +10.79, +1.38%.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "flow-kospi",
+      "label": "네이버 증권 · 코스피 수급·시장 폭",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/integration",
+      "note": "20261021 잠정 현물 수급, 프로그램 매매, 상승·하락 종목 수와 시가·고가·저가를 확인. 억원 단위 잠정치.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "flow-kosdaq",
+      "label": "네이버 증권 · 코스닥 수급·시장 폭",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/integration",
+      "note": "20261021 잠정 현물 수급과 상승·하락 종목 수를 확인. 억원 단위 잠정치.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "price-005930",
+      "label": "네이버 증권 · 삼성전자",
+      "url": "https://m.stock.naver.com/api/stock/005930/basic",
+      "note": "KRX 정규장 종가 223500원, 전일 대비 +12000원, +5.67%. 별도 시간외 값은 사용하지 않음.",
+      "queried_at": "2026-10-21T15:47:36+09:00"
+    },
+    {
+      "id": "price-000660",
+      "label": "네이버 증권 · SK하이닉스",
+      "url": "https://m.stock.naver.com/api/stock/000660/basic",
+      "note": "KRX 정규장 종가 1294000원, 전일 대비 +71000원, +5.81%. 별도 시간외 값은 사용하지 않음.",
+      "queried_at": "2026-10-21T15:47:39+09:00"
+    },
+    {
+      "id": "price-207940",
+      "label": "네이버 증권 · 삼성바이오로직스",
+      "url": "https://m.stock.naver.com/api/stock/207940/basic",
+      "note": "KRX 정규장 종가 1417000원, 전일 대비 +26000원, +1.87%. 별도 시간외 값은 사용하지 않음.",
+      "queried_at": "2026-10-21T15:47:47+09:00"
+    },
+    {
+      "id": "sidecar",
+      "label": "연합뉴스 · 코스피 매수 사이드카",
+      "url": "https://www.yna.co.kr/view/AKR20261021079700008",
+      "note": "10시 51분 코스피200선물 급등에 따른 매수 사이드카와 장중 외국인 매수·반도체 강세를 확인.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "sbio-ir",
+      "label": "삼성바이오로직스 IR · 3분기 실적발표 일정",
+      "url": "https://samsungbiologics.com/kr/ir/resource/events",
+      "note": "회사 IR에서 2026년 10월 21일 3분기 실적발표 일정을 확인. 정보 마감 시각에는 실제 결과 미확인.",
+      "queried_at": "2026-10-21T15:47:24+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "네이버 증권 · 원·달러 고시",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "하나은행 376회차 15:45:04 고시 1325.00원, 전회 대비 −2.00원. 서울외환시장 종가 아님.",
+      "queried_at": "2026-10-21T15:46:58+09:00"
+    },
+    {
+      "id": "krx-service",
+      "label": "KRX Open API · 서비스 목록",
+      "url": "https://openapi.krx.co.kr/contents/OPP/INFO/service/OPPINFO004.cmd",
+      "note": "KRX 일별 분석 수집의 공식 제공 범위 근거.",
+      "queried_at": "2026-10-21T15:47:57+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX 일별 분석 · 이번 실행 산출물",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39557601011",
+      "note": "요청 커밋 f214932f의 작업 성공과 artifact analysis.json 확인. requested_end_date 2026-10-21, 실제 data_date 2026-10-20, queried_at 15:47:57 KST. 오늘 자료로 사용하지 않음.",
+      "queried_at": "2026-10-21T15:48:16+09:00"
+    }
+  ],
+  "calendar_evidence": {
+    "market_date": "2026-10-21",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://ets.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+    "checked_at": "2026-10-21T15:49:47+09:00",
+    "note": "KRX 공식 거래일 원칙과 2026 휴장 안내를 대조했고, 10월 21일 수요일은 휴장 구간 밖이다. 15:30 정규장 종가와 marketStatus=CLOSE를 관찰해 정상 거래일·비조기폐장으로 판단했다."
+  },
+  "calculation_notes": "지수·종목 등락은 제공 원값을 사용했다. 코스피 장중 고점 대비 종가 차이는 5,816.43−5,735.66=80.77pt다. 코스피 시장 폭은 상승 372, 하락 490, 보합 53이며 하락−상승=118종목이다. 수급은 네이버 integration의 억원 단위 잠정값을 사용하고 기타 주체 때문에 합계를 0으로 맞추지 않았다. KRX 분석의 실제 data_date가 2026-10-20이라 오늘 값으로 대체하지 않았다. 전망은 정성적 조건부 해석이며 확률·목표수익률·적중률을 계산하지 않았다.",
+  "execution": {
+    "scheduled_start_kst": "2026-10-21T15:45:00+09:00",
+    "scheduled_start_utc": "2026-10-21T06:45:00Z",
+    "actual_start_kst": "2026-10-21T15:45:53+09:00",
+    "actual_start_utc": "2026-10-21T06:45:53Z",
+    "delay_seconds": 53,
+    "environment": "ChatGPT Work 클라우드 실행 공간 · GitHub/Kakao 연결 사용",
+    "model_setting": "요청 모델·추론 설정 적용 여부는 실행 메타데이터로 확인되지 않음",
+    "krx_analysis": {
+      "request_commit": "f214932ff4e46578a8b4beb2d7d8acaf21829cd0",
+      "run_id": 39557601011,
+      "status": "success",
+      "artifact": "krx-analysis-39557601011",
+      "requested_end_date": "2026-10-21",
+      "data_date": "2026-10-20",
+      "queried_at": "2026-10-21T15:47:57+09:00",
+      "usage": "전일 배경만 사용 · 오늘 종가 대체 안 함"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "reading": {
+    "headline": "반도체 급반등, 폭은 제한",
+    "summary_points": [
+      "코스피는 반도체 주도로 3.29% 반등했다.",
+      "외국인은 샀지만 하락 종목이 더 많았다.",
+      "다음 장은 종가 유지와 상승 확산을 본다."
+    ],
+    "notices": [
+      "가격은 10월 21일 KRX 정규장 종가이며 NXT·시간외는 제외했다. 수급은 잠정치다.",
+      "KRX 일별 분석은 10월 20일까지다. 환율은 은행 고시값이며 실적 발표 결과는 아직 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "반도체 급반등과 매수 사이드카",
+        "preview": "대형 반도체가 지수 반등을 이끌었다.",
+        "points": [
+          "코스피가 3.29% 올랐고 장중 매수 사이드카가 발동됐다.",
+          "삼성전자·SK하이닉스가 5%대 상승했다."
+        ],
+        "meaning": "다음 거래일 종가 유지와 동반 강도가 반등 지속의 핵심이다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "코스피·대형 반도체",
+            "basis": "2026.10.22 종가를 10.21 종가와 비교. 외국인 순매수와 삼성전자·SK하이닉스 동반 5%대 상승이 반등을 지지한다.",
+            "counter": "장중 고점보다 종가가 80.77pt 낮고 시장 폭은 좁았다. 장 초반 강세와 종가 방향은 별개다.",
+            "invalidation": "코스피 5,735.66과 두 반도체 종가가 무너지고 외국인이 매도로 전환하면 상방 해석을 낮춘다.",
+            "sources": [
+              "kospi",
+              "flow-kospi",
+              "price-005930",
+              "price-000660"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·대형 반도체",
+            "basis": "2026.10.28 종가를 10.21 종가와 비교하는 5거래일(10.22·23·26·27·28). 급락 뒤 외국인 매수와 반도체 반등이 회복의 출발점이다.",
+            "counter": "전일 급락과 좁은 시장 폭, 미국 기술주 실적 변동성이 남아 하루 반등을 5거래일 추세로 확정할 수 없다.",
+            "invalidation": "상승 종목 확산과 5,735.66 유지가 이어지면 개선, 반도체 재하락과 외국인 매도면 약화한다.",
+            "sources": [
+              "kospi",
+              "flow-kospi",
+              "krx-analysis"
+            ]
+          }
+        }
+      },
+      {
+        "title": "외국인 매수, 시장 폭은 좁음",
+        "preview": "지수 상승과 종목 확산 사이 간격이 컸다.",
+        "points": [
+          "코스피 외국인은 6,602억원 순매수했다.",
+          "상승 372종목보다 하락 490종목이 많았다."
+        ],
+        "meaning": "지수만 보지 말고 비반도체 업종의 동참을 확인해야 한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피 시장 폭",
+            "basis": "외국인 매수와 비차익 프로그램 매수가 지수를 지지했다.",
+            "counter": "기관은 순매도였고 하락 종목이 118개 더 많아 체감 확산은 제한됐다.",
+            "invalidation": "상승 종목이 하락 종목을 넘고 외국인 매수가 이어지면 상방으로 개선한다.",
+            "sources": [
+              "flow-kospi"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피 시장 폭",
+            "basis": "5거래일 동안 외국인 매수와 업종 확산이 이어지면 반등의 질이 개선될 수 있다.",
+            "counter": "대형 반도체 쏠림이 지속되면 지수 상승과 개별 종목 성과가 갈릴 수 있다.",
+            "invalidation": "반도체 외 업종의 상승 종목 확산 여부로 재판단한다.",
+            "sources": [
+              "flow-kospi",
+              "flow-kosdaq"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성바이오 실적은 발표 후 확인",
+        "preview": "오늘 상승을 실적 서프라이즈로 보지 않는다.",
+        "points": [
+          "정규장 종가는 1.87% 올랐다.",
+          "실제 3분기 결과는 정보 마감 시각에 미확인이다."
+        ],
+        "meaning": "실제 결과와 다음 정규장 반응을 분리해 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "2026.10.22 종가를 10.21 종가 1,417,000원과 비교. 회사 실적 발표가 예정돼 있다.",
+            "counter": "실제 결과·발표 전 기대·발표 후 반응이 아직 없어 방향 판단을 보류한다.",
+            "invalidation": "실제 매출·영업이익·가이던스와 다음 정규장 가격을 확인한 뒤 재판단한다.",
+            "sources": [
+              "sbio-ir",
+              "price-207940"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "2026.10.28 종가를 10.21 종가와 비교하는 5거래일. 실적 결과와 가이던스가 핵심 입력이다.",
+            "counter": "선반영 정도와 컨센서스가 확인되지 않아 서프라이즈 크기를 계산할 수 없다.",
+            "invalidation": "회사 발표와 시장 반응이 확인되면 새 근거로 갱신한다.",
+            "sources": [
+              "sbio-ir",
+              "price-207940"
+            ]
+          }
+        }
+      },
+      {
+        "title": "KRX 분석은 전일 배경",
+        "preview": "공식 일별 자료가 한 거래일 지연됐다.",
+        "points": [
+          "작업은 성공했지만 data_date는 10월 20일이다."
+        ],
+        "meaning": "오늘 반등 판단에는 오늘 종가·수급만 사용했다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피·코스닥",
+            "basis": "KRX 분석은 전일 급락 배경만 설명한다.",
+            "counter": "오늘 데이터가 없어 다음 종가 방향 근거로 직접 사용할 수 없다.",
+            "invalidation": "10월 21일 공식 일별 자료가 제공되면 시장 폭·추세를 다시 확인한다.",
+            "sources": [
+              "krx-analysis"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·코스닥",
+            "basis": "공식 일별 자료가 갱신되기 전까지 장기 방향 근거를 제한한다.",
+            "counter": "오늘 반등이 20일 추세를 바꿨는지 확인되지 않았다.",
+            "invalidation": "10월 21일 이후 공식 자료의 20일선·시장 폭으로 재판단한다.",
+            "sources": [
+              "krx-analysis"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "대형 반도체 반등과 코스피 상승의 핵심 종목이다.",
+        "watch": "223,500원 유지와 하이닉스 동반 강도·외국인 매수를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "삼성전자",
+            "basis": "10월 22일 종가를 223,500원과 비교. 5.67% 상승과 외국인 매수가 단기 반등을 지지한다.",
+            "counter": "급락 다음 날 반등이며 좁은 시장 폭과 장중 되돌림 위험이 있다.",
+            "invalidation": "223,500원 이탈과 하이닉스 동반 약세·외국인 매도 전환 시 낮춘다.",
+            "sources": [
+              "price-005930",
+              "flow-kospi"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월 28일 종가를 223,500원과 비교하는 5거래일. 반도체 동반 반등이 회복의 출발점이다.",
+            "counter": "미국 기술주 실적과 AI 투자심리 변동, 하루 반등의 선반영 위험이 남는다.",
+            "invalidation": "종가 유지와 시장 폭 확산이 이어지면 개선, 재급락이면 약화한다.",
+            "sources": [
+              "price-005930",
+              "sidecar"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "AI·메모리 투자심리 회복 여부를 민감하게 보여준 대형주다.",
+        "watch": "1,294,000원 유지와 삼성전자 동반 강도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SK하이닉스",
+            "basis": "10월 22일 종가를 1,294,000원과 비교. 5.81% 상승과 반도체 동반 강세가 단기 반등을 지지한다.",
+            "counter": "장중 고점 부근 매물과 급락 뒤 변동성 확대 가능성이 있다.",
+            "invalidation": "1,294,000원 이탈과 삼성전자 동반 약세 시 낮춘다.",
+            "sources": [
+              "price-000660",
+              "sidecar"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "10월 28일 종가를 1,294,000원과 비교하는 5거래일. AI·메모리 심리 회복이 지지 요인이다.",
+            "counter": "미국 기술주 실적과 고변동성 때문에 하루 반등을 추세로 확정하기 어렵다.",
+            "invalidation": "동반 강세와 외국인 매수가 이어지면 개선, 종가 재이탈이면 약화한다.",
+            "sources": [
+              "price-000660",
+              "flow-kospi"
+            ]
+          }
+        }
+      },
+      "207940": {
+        "reason": "3분기 실적 발표 예정 종목으로 종가와 실제 결과를 구분해야 한다.",
+        "watch": "실제 실적·가이던스와 1,417,000원 대비 다음 장 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "10월 22일 종가를 1,417,000원과 비교. 실적 발표가 핵심 재료다.",
+            "counter": "실제 결과와 발표 전 컨센서스가 미확인이다.",
+            "invalidation": "실제 결과·가이던스·다음 정규장 반응 확인 후 재판단한다.",
+            "sources": [
+              "price-207940",
+              "sbio-ir"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "10월 28일 종가를 1,417,000원과 비교하는 5거래일. 발표 결과가 핵심 입력이다.",
+            "counter": "선반영과 발표 후 경로 위험을 아직 평가할 수 없다.",
+            "invalidation": "발표 후 정규장 종가와 회사 설명이 확인되면 갱신한다.",
+            "sources": [
+              "price-207940",
+              "sbio-ir"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "삼성바이오 3분기 실제 결과",
+        "detail": "실제 실적·가이던스와 다음 정규장 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "실적 발표 결과가 다음 장 핵심 입력이다.",
+            "counter": "정보 마감 시각에 실제 결과가 없다.",
+            "invalidation": "회사 발표가 확인되면 즉시 재판단한다.",
+            "sources": [
+              "sbio-ir"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성바이오로직스",
+            "basis": "5거래일 반응은 실적·가이던스와 선반영을 함께 봐야 한다.",
+            "counter": "발표 전 기대와 경로 자료가 부족하다.",
+            "invalidation": "발표 후 종가 경로가 확인되면 갱신한다.",
+            "sources": [
+              "sbio-ir"
+            ]
+          }
+        }
+      },
+      {
+        "title": "다음 한국장 반도체 동반 강도",
+        "detail": "지수·두 반도체 종가 유지와 외국인 수급을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "코스피·대형 반도체",
+            "basis": "오늘 동반 5%대 상승과 외국인 매수가 단기 반등을 지지한다.",
+            "counter": "좁은 시장 폭과 장중 되돌림 위험이 있다.",
+            "invalidation": "오늘 종가 이탈·외국인 매도 전환 시 낮춘다.",
+            "sources": [
+              "flow-kospi",
+              "price-005930",
+              "price-000660"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·대형 반도체",
+            "basis": "5거래일 지속 여부는 종가 유지와 업종 확산에 달렸다.",
+            "counter": "하루 반등과 미국 실적 변동성은 반대 요인이다.",
+            "invalidation": "시장 폭 확산이 이어지면 개선한다.",
+            "sources": [
+              "flow-kospi"
+            ]
+          }
+        }
+      },
+      {
+        "title": "지수 상승의 시장 폭 확산",
+        "detail": "상승 종목 수와 비반도체 업종 동참을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피 시장 폭",
+            "basis": "외국인 매수는 지지 요인이다.",
+            "counter": "오늘은 하락 종목이 118개 더 많았다.",
+            "invalidation": "상승 종목이 하락 종목을 넘으면 개선한다.",
+            "sources": [
+              "flow-kospi"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피 시장 폭",
+            "basis": "업종 확산이 이어져야 반등의 질이 높아진다.",
+            "counter": "반도체 쏠림이 지속될 수 있다.",
+            "invalidation": "비반도체 동반 상승 여부로 재판단한다.",
+            "sources": [
+              "flow-kospi"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "코스피 5,735.66과 두 반도체 종가 유지 여부",
+      "외국인 매수 지속과 상승 종목 수 확산",
+      "삼성바이오 실제 실적과 다음 정규장 반응"
+    ],
+    "source_labels": {
+      "calendar": "KRX · 2026 휴장 안내",
+      "hours": "KRX · 거래일과 매매시간",
+      "kospi": "네이버 증권 · 코스피 마감",
+      "kosdaq": "네이버 증권 · 코스닥 마감",
+      "flow-kospi": "네이버 증권 · 코스피 수급",
+      "flow-kosdaq": "네이버 증권 · 코스닥 수급",
+      "price-005930": "네이버 증권 · 삼성전자",
+      "price-000660": "네이버 증권 · SK하이닉스",
+      "price-207940": "네이버 증권 · 삼성바이오로직스",
+      "sidecar": "연합뉴스 · 코스피 매수 사이드카",
+      "sbio-ir": "삼성바이오로직스 IR · 실적 일정",
+      "fx": "네이버 증권 · 원·달러 고시",
+      "krx-service": "KRX Open API · 서비스 목록",
+      "krx-analysis": "KRX 일별 분석 · 이번 실행"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-21T15:49:47+09:00",
+      "input_cutoff": "2026-10-21T15:49:47+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. d1은 10월 22일, d5는 10월 22·23·26·27·28일 정규장 종가 기준입니다."
+    }
+  }
+}
