@@ -1,0 +1,38 @@
+{
+  "report_id": "us-pre-2026-10-21",
+  "status": "attempted",
+  "attempt_id": "us-pre-2026-10-21-2026-10-21T13:15:36Z",
+  "attempted_at_kst": "2026-10-21T22:15:36+09:00",
+  "attempted_at_utc": "2026-10-21T13:15:36Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-21/",
+  "deployment_commit": "20c38d3e181d66975065847c4a0e5a6cd77f0db5",
+  "deployment": {
+    "run_id": 39606284800,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": {
+      "build": "success",
+      "deploy": "success"
+    },
+    "completed_at_utc": "2026-10-21T13:15:23Z",
+    "url": "https://github.com/meangyulim/cost/actions/runs/39606284800"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed",
+  "execution": {
+    "scheduled_start_kst": "2026-10-21T22:00:00+09:00",
+    "scheduled_start_utc": "2026-10-21T13:00:00Z",
+    "scheduled_start_new_york": "2026-10-21T09:00:00-04:00",
+    "actual_start_kst": "2026-10-21T22:00:44+09:00",
+    "actual_start_utc": "2026-10-21T13:00:44Z",
+    "start_offset_seconds": 44,
+    "delay_seconds": 44,
+    "environment": "Cloud Bash/Python and connected GitHub/Kakao",
+    "calendar": "NYSE/Nasdaq 2026-10-21 normal trading day; EDT UTC-04:00",
+    "model_setting": "not_verified"
+  }
+}
