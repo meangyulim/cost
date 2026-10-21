@@ -1,10 +1,12 @@
 {
-  "end_date": "2026-10-20",
+  "end_date": "2026-10-21",
   "watch": [
+    "SPCX",
     "SMCI",
     "NFLX",
-    "META",
-    "TSLA"
+    "T",
+    "TSLA",
+    "META"
   ],
-  "requested_at": "2026-10-21T22:03:49+09:00"
+  "requested_at": "2026-10-22T05:16:14+09:00"
 }
