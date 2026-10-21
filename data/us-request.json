@@ -1,12 +1,10 @@
 {
   "end_date": "2026-10-20",
   "watch": [
-    "MMM",
-    "GM",
-    "HAL",
-    "EFX",
-    "CRWV",
-    "NFLX"
+    "SMCI",
+    "NFLX",
+    "META",
+    "TSLA"
   ],
-  "requested_at": "2026-10-21T05:13:00+09:00"
+  "requested_at": "2026-10-21T22:03:49+09:00"
 }
