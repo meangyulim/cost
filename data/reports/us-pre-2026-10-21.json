@@ -1,0 +1,775 @@
+{
+  "id": "us-pre-2026-10-21",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-21",
+  "title": "2026.10.21 미국장 시작 전 브리핑",
+  "venue": "NYSE·Nasdaq · 2026-10-21 정상장 22:30 KST~2026-10-22 05:00 KST(10/21 09:30~16:00 EDT)",
+  "as_of": "2026-10-21T22:07:42+09:00",
+  "queried_at": "2026-10-21T22:07:42+09:00",
+  "summary": "AI 강세 출발, 실적 이벤트는 양방향",
+  "summary_detail": "Super Micro의 예비 실적 상향으로 AI 관련 선물이 강세지만 Netflix의 광고 매출 전망 하향은 실적 눈높이 위험을 드러낸다. Meta와 Tesla가 장후 실적을 발표하므로 장전 상승을 정규장 결론으로 보지 않는다.",
+  "interpretation": "회사 전망·예비 수치는 확정 실적과 다르다. 장전 가격은 유동성이 얕고 정규장 종가와 다를 수 있다. 가격 상승만으로 수요·수익성 개선을 확정하지 않는다.",
+  "calculation_notes": "지수와 종목은 원문 표시 정밀도를 사용했고 등락률로 가격을 역산하지 않았다. 장전 가격은 전일 정규장 종가 대비 별도 구간이다. USD/KRW는 하나은행 고시회차 값이다. Massive 일별 분석의 상대수익률은 종목 20거래일 분할보정 가격수익률−SPY의 −0.5599%로 계산했다. SMCI −21.8344−(−0.5599)=−21.2745%p, NFLX −4.8088−(−0.5599)=−4.2489%p, META −5.7487−(−0.5599)=−5.1888%p, TSLA −1.3698−(−0.5599)=−0.8099%p. 시장 폭은 8394/12404×100=67.67%(반올림)이며 보통주만의 비율이 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,712.57",
+      "unit": "pt",
+      "delta": "+21.84",
+      "percent": "+0.28",
+      "direction": "up",
+      "source": "spx",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,424.82",
+      "unit": "pt",
+      "delta": "−6.07",
+      "percent": "−0.02",
+      "direction": "down",
+      "source": "nas",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,495.88",
+      "unit": "pt",
+      "delta": "+529.85",
+      "percent": "+1.02",
+      "direction": "up",
+      "source": "dow",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가(16:00 EDT)"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "슈퍼마이크로컴퓨터",
+      "ticker": "SMCI",
+      "price": "32.47",
+      "currency": "USD",
+      "delta": "+0.37",
+      "percent": "+1.15",
+      "direction": "up",
+      "source": "qSMCI",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가 · Nasdaq",
+      "reason": "예비 매출·마진 상향 뒤 장전 급등을 관찰한다.",
+      "watch": "11/3 확정 실적에서 예비치 수정 여부를 확인한다.",
+      "reason_sources": [
+        "qSMCI",
+        "massive"
+      ],
+      "premarket": {
+        "price": "36.44",
+        "currency": "USD",
+        "delta": "+3.97",
+        "percent": "+12.23",
+        "as_of": "2026-10-21T22:06:16+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-21 9:06:16 EDT",
+        "comparison": "2026-10-20 정규장 종가 대비",
+        "source": "qSMCI"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-20",
+        "return_5_sessions_pct": -16.8928,
+        "return_20_sessions_pct": -21.8344,
+        "relative_to_spy_5_pct_points": -15.7411,
+        "relative_to_spy_20_pct_points": -21.2745,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.24,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "넷플릭스",
+      "ticker": "NFLX",
+      "price": "68.69",
+      "currency": "USD",
+      "delta": "−1.16",
+      "percent": "−1.66",
+      "direction": "down",
+      "source": "qNFLX",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가 · Nasdaq",
+      "reason": "광고 매출 전망 하향 뒤 장전 약세를 관찰한다.",
+      "watch": "광고 기능 출시 속도와 Q4 영업이익 전망을 확인한다.",
+      "reason_sources": [
+        "qNFLX",
+        "massive"
+      ],
+      "premarket": {
+        "price": "64.37",
+        "currency": "USD",
+        "delta": "−4.32",
+        "percent": "−6.29",
+        "as_of": "2026-10-21T22:06:29+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-21 9:06:29 EDT",
+        "comparison": "2026-10-20 정규장 종가 대비",
+        "source": "qNFLX"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-20",
+        "return_5_sessions_pct": -2.5121,
+        "return_20_sessions_pct": -4.8088,
+        "relative_to_spy_5_pct_points": -1.3604,
+        "relative_to_spy_20_pct_points": -4.2489,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 1.799,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "메타 플랫폼스",
+      "ticker": "META",
+      "price": "694.25",
+      "currency": "USD",
+      "delta": "−11.19",
+      "percent": "−1.59",
+      "direction": "down",
+      "source": "qMETA",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가 · Nasdaq",
+      "reason": "장후 실적·AI 투자 설명 전 이벤트 위험을 본다.",
+      "watch": "10/22 05:30 KST 광고 성장과 비용·설비투자 전망을 확인한다.",
+      "reason_sources": [
+        "qMETA",
+        "massive"
+      ],
+      "premarket": {
+        "price": "691.79",
+        "currency": "USD",
+        "delta": "−2.46",
+        "percent": "−0.35",
+        "as_of": "2026-10-21T22:06:15+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-21 9:06:15 EDT",
+        "comparison": "2026-10-20 정규장 종가 대비",
+        "source": "qMETA"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-20",
+        "return_5_sessions_pct": -8.9508,
+        "return_20_sessions_pct": -5.7487,
+        "relative_to_spy_5_pct_points": -7.7991,
+        "relative_to_spy_20_pct_points": -5.1888,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 0.9192,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "373.71",
+      "currency": "USD",
+      "delta": "+5.65",
+      "percent": "+1.54",
+      "direction": "up",
+      "source": "qTSLA",
+      "as_of": "2026-10-21T05:00:00+09:00",
+      "session": "2026-10-20 미국 정규장 종가 · Nasdaq",
+      "reason": "장후 실적 전 장전 상승과 분기 인도량을 분리한다.",
+      "watch": "10/22 06:30 KST 자동차 마진·현금흐름·제품 일정을 확인한다.",
+      "reason_sources": [
+        "qTSLA",
+        "massive"
+      ],
+      "premarket": {
+        "price": "380.15",
+        "currency": "USD",
+        "delta": "+6.44",
+        "percent": "+1.72",
+        "as_of": "2026-10-21T22:06:33+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-21 9:06:33 EDT",
+        "comparison": "2026-10-20 정규장 종가 대비",
+        "source": "qTSLA"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-20",
+        "return_5_sessions_pct": -0.4051,
+        "return_20_sessions_pct": -1.3698,
+        "relative_to_spy_5_pct_points": 0.7466,
+        "relative_to_spy_20_pct_points": -0.8099,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 0.9074,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    }
+  ],
+  "fx": {
+    "label": "USD/KRW",
+    "value": "1,326.60",
+    "unit": "KRW",
+    "delta": "−0.40",
+    "direction": "down",
+    "as_of": "2026-10-21T22:02:43+09:00",
+    "session": "하나은행 고시회차 570 · 실시간 거래소 체결가 아님",
+    "source": "fx"
+  },
+  "macro": [
+    {
+      "name": "Brent 선물",
+      "value": "약 110",
+      "unit": "USD/배럴",
+      "percent": "미확인",
+      "as_of": "2026-10-21T20:34:00+09:00",
+      "source": "reuters",
+      "note": "Reuters 07:34 EDT 기사 스냅샷. 계약 만기·정확한 체결시각·변동률 미제공."
+    }
+  ],
+  "issues": [
+    {
+      "title": "AI 서버, 예비치가 불씨",
+      "fact": "Super Micro는 FY2027 1분기 예비 매출 185억~195억USD, 예비 총마진 12.0~12.5%를 제시해 기존 가이던스 145억~155억USD와 10.4~10.8%를 웃돌았다. 미감사·잠정치다. 장전 22:06:16 KST 36.44USD(+12.23%). Reuters 07:34 EDT 기준 나스닥100 선물은 +0.67%였다. 10/20 일별 분석에서 SOXX 20거래일 SPY 대비 −12.1448%p, XLE +10.5793%p였다. OTC 제외 전체 증권(ETF·우선주·워런트 포함) 12404개 중 상승 8394개로 상승 비율 67.67%이며 S&P500 구성종목 상승 비율이 아니다.",
+      "source": "smci",
+      "additional_sources": [
+        "qSMCI",
+        "reuters"
+      ]
+    },
+    {
+      "title": "Netflix, 광고 눈높이 하향",
+      "fact": "Netflix Q3 매출 128.74억USD(+11.8% YoY), 영업이익 44.59억USD. 2026 광고 매출 전망은 약 27억USD로 이전 약 30억USD에서 낮아졌다. Q4 영업이익 전망은 35억USD다. 장전 22:06:29 KST 64.37USD(−6.29%).",
+      "source": "nflx",
+      "additional_sources": [
+        "qNFLX",
+        "reuters"
+      ]
+    },
+    {
+      "title": "Meta·Tesla, 장후 변동성",
+      "fact": "Meta는 10/21 장후 실적과 16:30 EDT 설명회, Tesla는 장후 실적과 17:30 EDT Q&A를 예정했다. Tesla Q3 인도량 486,532대·생산 464,391대는 회사가 재무성과의 단일 지표가 아니라고 명시했다.",
+      "source": "meta",
+      "additional_sources": [
+        "tesla",
+        "qMETA",
+        "qTSLA",
+        "reuters"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-21 22:30 KST",
+      "title": "정규장 개장",
+      "detail": "10/21 09:30 EDT; SMCI 장전 급등과 NFLX 장전 하락의 유지 여부를 확인한다."
+    },
+    {
+      "label": "2026-10-22 05:30 KST",
+      "title": "Meta 설명회",
+      "detail": "10/21 16:30 EDT; 광고 성장과 AI 투자·비용·설비투자 전망을 확인한다."
+    },
+    {
+      "label": "2026-10-22 06:30 KST",
+      "title": "Tesla Q&A",
+      "detail": "10/21 17:30 EDT; 자동차 마진·현금흐름·제품 일정을 확인한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 공식 휴장·조기폐장 목록과 core 09:30~16:00 ET 확인. 10/21 정상장. 2026-10-21 22:00 KST 조회."
+    },
+    {
+      "id": "nasdaq-cal",
+      "label": "Nasdaq · 2026 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "월~금 09:30~16:00 ET와 2026 휴장·조기폐장 목록 대조. 10/21 정상장."
+    },
+    {
+      "id": "reuters",
+      "label": "Reuters · 10월 21일 장전",
+      "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/",
+      "note": "07:34 EDT 선물·장전 흐름과 Brent 약110USD. 기사 스냅샷이지 작성 시점 실시간 시세가 아님."
+    },
+    {
+      "id": "smci",
+      "label": "Super Micro · FY2027 1분기 예비 업데이트",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+      "note": "10/20 발표. 매출·총마진 예비 범위와 11/3 확정 실적 일정. 미감사·잠정치."
+    },
+    {
+      "id": "nflx",
+      "label": "Netflix · 2026년 3분기 주주서한",
+      "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+      "note": "Q3 매출·영업이익, Q4 전망, 2026 광고매출 전망 약27억USD."
+    },
+    {
+      "id": "meta",
+      "label": "Meta · 3분기 실적 발표 일정",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "note": "10/21 장후 발표, 16:30 EDT 설명회."
+    },
+    {
+      "id": "tesla",
+      "label": "Tesla · 3분기 생산·인도 및 실적 일정",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "note": "Q3 생산464391대·인도486532대·저장13.7GWh, 10/21 장후 실적·17:30 EDT Q&A. 인도량은 재무성과의 단일 지표가 아님."
+    },
+    {
+      "id": "qSMCI",
+      "label": "Naver · SMCI 종가·장전",
+      "url": "https://api.stock.naver.com/stock/SMCI.O/basic",
+      "note": "10/20 정규장 종가와 10/21 09:06:16 EDT 장전을 분리 조회."
+    },
+    {
+      "id": "qNFLX",
+      "label": "Naver · NFLX 종가·장전",
+      "url": "https://api.stock.naver.com/stock/NFLX.O/basic",
+      "note": "10/20 정규장 종가와 10/21 09:06:29 EDT 장전을 분리 조회."
+    },
+    {
+      "id": "qMETA",
+      "label": "Naver · META 종가·장전",
+      "url": "https://api.stock.naver.com/stock/META.O/basic",
+      "note": "10/20 정규장 종가와 10/21 09:06:15 EDT 장전을 분리 조회."
+    },
+    {
+      "id": "qTSLA",
+      "label": "Naver · TSLA 종가·장전",
+      "url": "https://api.stock.naver.com/stock/TSLA.O/basic",
+      "note": "10/20 정규장 종가와 10/21 09:06:33 EDT 장전을 분리 조회."
+    },
+    {
+      "id": "spx",
+      "label": "Naver · S&P 500 일별 지수",
+      "url": "https://api.stock.naver.com/index/.INX/price",
+      "note": "10/20 정규장 최종치. 공식 폐장 16:00 EDT."
+    },
+    {
+      "id": "nas",
+      "label": "Naver · Nasdaq 종합 일별 지수",
+      "url": "https://api.stock.naver.com/index/.IXIC/price",
+      "note": "10/20 정규장 최종치. 공식 폐장 16:00 EDT."
+    },
+    {
+      "id": "dow",
+      "label": "Naver · Dow 일별 지수",
+      "url": "https://api.stock.naver.com/index/.DJI/price",
+      "note": "10/20 정규장 최종치. 공식 폐장 16:00 EDT."
+    },
+    {
+      "id": "fx",
+      "label": "Naver·하나은행 · USD/KRW",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "10/21 22:02:43 KST 570회 고시. 실시간 거래소 체결가 아님."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39604744192",
+      "note": "실제 제공업체 Massive. 요청 커밋 9a74bec35598302455a7f40caba7a65e77a223a9의 push 실행 성공, run 39604744192 artifact analysis.json 확인·ZIP SHA256 b2fff61363c68311acf3a36040562e653d5e9d50b509c82498f32249d5beaf12 검증. data_date 2026-10-20, queried_at 2026-10-21T22:10:28+09:00. 65거래일 분할보정 일봉, ETF 대용치, OTC 제외 전체 증권 시장 폭, 별도 정규장 조회 4종목. 배당재투자 총수익률 아님. 키는 Actions secret에서만 읽음. 공개 표시 생략이 게시 제한 해소를 뜻하지 않음.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-21",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-21T22:00:44+09:00",
+    "note": "NYSE·Nasdaq 공식 2026 목록 대조:10/21 정상장, 이전 거래일10/20. core09:30~16:00ET. EDT UTC−04:00; KST22:30~익일05:00. 5거래일은10/21·22·23·26·27."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-21T09:00:00-04:00",
+      "kst": "2026-10-21T22:00:00+09:00",
+      "utc": "2026-10-21T13:00:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-21T09:00:44-04:00",
+      "kst": "2026-10-21T22:00:44+09:00",
+      "utc": "2026-10-21T13:00:44Z"
+    },
+    "start_offset_seconds": 44,
+    "delay_seconds": 44,
+    "early_seconds": 0,
+    "environment": "클라우드 Bash/Python 실행 공간과 연결 GitHub·Kakao 도구; 실제 checkout /tmp/cost-uspre-20261021-8KICXR/repo",
+    "model_setting": "not_verified",
+    "request_commit": "9a74bec35598302455a7f40caba7a65e77a223a9",
+    "analysis_run_id": 39604744192,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-10-21.json",
+    "analysis_status": "completed/success",
+    "analysis_artifact": {
+      "id": 12347688317,
+      "name": "us-analysis-39604744192",
+      "sha256": "b2fff61363c68311acf3a36040562e653d5e9d50b509c82498f32249d5beaf12",
+      "data_date": "2026-10-20",
+      "queried_at": "2026-10-21T22:10:28+09:00",
+      "request_commit": "9a74bec35598302455a7f40caba7a65e77a223a9"
+    },
+    "inputs_completed_at": "2026-10-21T22:10:28+09:00"
+  },
+  "reading": {
+    "headline": "AI 강세 출발, 실적은 양방향",
+    "summary_points": [
+      "SMCI 예비 매출·마진 상향에 AI 선물이 강세다.",
+      "Netflix는 광고 전망 하향 뒤 장전 6%대 약세다.",
+      "Meta·Tesla 장후 실적 전 변동성을 경계한다."
+    ],
+    "notices": [
+      "기본 가격은 2026-10-21 05:00 KST(10/20 미국 정규장) 종가다. 장전은 별도 구간이다.",
+      "Super Micro 수치는 미감사 예비치다. Brent는 기사 스냅샷이고 정확한 체결시각·변동률은 미확인이다.",
+      "일별 분석 기준일은 10/20이다. 시장 폭은 ETF·우선주·워런트를 포함한 전체 증권이며 보통주만의 비율이 아니다."
+    ],
+    "interpretation_points": [
+      "장전 가격을 정규장 종가로 오해하지 않는다.",
+      "회사 전망과 확정 실적, 인도량과 수익성을 구분한다.",
+      "조건부 방향은 확률·매매 신호가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "AI 서버, 예비치가 불씨",
+        "preview": "상향 예비치와 유가 부담이 맞선다.",
+        "points": [
+          "예비 매출·총마진 범위가 기존 가이던스를 웃돌았다.",
+          "미감사·잠정치라 11/3 확정치 확인이 필요하다."
+        ],
+        "meaning": "AI 수요 기대가 강하지만 예비치 수정 위험이 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SMCI·AI 서버",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 예비 매출·마진 상향과 장전 급등이 상방 재료다.",
+            "counter": "예비치 수정·높은 유가·장전 갭 되돌림이 반대 요인이다.",
+            "invalidation": "상승분 반납 또는 확정치 미달 시 재평가한다.",
+            "sources": [
+              "smci",
+              "qSMCI",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SMCI·AI 서버",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 예비 매출·마진 상향과 장전 급등이 상방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "예비치 수정·높은 유가·장전 갭 되돌림이 반대 요인이다.",
+            "invalidation": "상승분 반납 또는 확정치 미달 시 재평가한다.",
+            "sources": [
+              "smci",
+              "qSMCI",
+              "reuters"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Netflix, 광고 눈높이 하향",
+        "preview": "광고 성장 속도에 재평가가 집중된다.",
+        "points": [
+          "매출은 늘었지만 광고 매출 전망은 낮아졌다.",
+          "장전 6%대 약세는 정규장 결과가 아니다."
+        ],
+        "meaning": "광고 기능 출시 지연이 단기 부담이다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "NFLX",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 광고 전망 하향과 장전 약세가 하방 재료다.",
+            "counter": "콘텐츠·구독 성과와 저가 매수가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복과 전망 개선 시 재평가한다.",
+            "sources": [
+              "nflx",
+              "qNFLX",
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NFLX",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 광고 전망 하향과 장전 약세가 하방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "콘텐츠·구독 성과와 저가 매수가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복과 전망 개선 시 재평가한다.",
+            "sources": [
+              "nflx",
+              "qNFLX",
+              "reuters"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Meta·Tesla, 장후 변동성",
+        "preview": "발표 전에는 방향보다 이벤트 위험이 크다.",
+        "points": [
+          "Meta 설명회는 05:30 KST다.",
+          "Tesla Q&A는 06:30 KST이며 인도량만으로 수익성을 알 수 없다."
+        ],
+        "meaning": "장후 전망이 다음 거래일 갭을 결정할 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "META·TSLA",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 장후 실적 미발표라 방향 판단을 보류한다.",
+            "counter": "정규장 기대와 시간외 반응이 다를 수 있다.",
+            "invalidation": "발표 후 광고·마진·현금흐름·가이던스로 재판단한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qMETA",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "META·TSLA",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 장후 실적 미발표라 방향 판단을 보류한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "정규장 기대와 시간외 반응이 다를 수 있다.",
+            "invalidation": "발표 후 광고·마진·현금흐름·가이던스로 재판단한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qMETA",
+              "qTSLA"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "SMCI": {
+        "reason": "예비 매출·마진 상향 뒤 장전 급등을 관찰한다.",
+        "watch": "11/3 확정치 수정 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SMCI",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 예비 실적 상향과 장전 +12.23%가 상방 재료다.",
+            "counter": "갭 되돌림과 예비치 수정 위험이 있다.",
+            "invalidation": "상승분 반납 또는 예비 범위 미달 시 재평가한다.",
+            "sources": [
+              "smci",
+              "qSMCI"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SMCI",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 예비 실적 상향과 장전 +12.23%가 상방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "갭 되돌림과 예비치 수정 위험이 있다.",
+            "invalidation": "상승분 반납 또는 예비 범위 미달 시 재평가한다.",
+            "sources": [
+              "smci",
+              "qSMCI"
+            ]
+          }
+        }
+      },
+      "NFLX": {
+        "reason": "광고 매출 전망 하향 뒤 장전 약세를 본다.",
+        "watch": "광고 기능 출시 속도와 Q4 전망을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "NFLX",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 광고 전망 하향과 장전 −6.29%가 하방 재료다.",
+            "counter": "콘텐츠·구독 성과가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복과 전망 개선 시 재평가한다.",
+            "sources": [
+              "nflx",
+              "qNFLX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NFLX",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 광고 전망 하향과 장전 −6.29%가 하방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "콘텐츠·구독 성과가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복과 전망 개선 시 재평가한다.",
+            "sources": [
+              "nflx",
+              "qNFLX"
+            ]
+          }
+        }
+      },
+      "META": {
+        "reason": "장후 실적·AI 투자 설명 전 이벤트 위험을 본다.",
+        "watch": "광고 성장과 비용·설비투자를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "META",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 장후 실적 미발표라 보류한다.",
+            "counter": "정규장과 시간외 반응이 다를 수 있다.",
+            "invalidation": "05:30 KST 설명 후 재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "META",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 장후 실적 미발표라 보류한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "정규장과 시간외 반응이 다를 수 있다.",
+            "invalidation": "05:30 KST 설명 후 재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          }
+        }
+      },
+      "TSLA": {
+        "reason": "장전 상승과 분기 인도량을 분리한다.",
+        "watch": "마진·현금흐름·제품 일정을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "TSLA",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 장후 실적 미발표이고 인도량만으로 수익성을 알 수 없다.",
+            "counter": "가격·믹스·비용이 인도량 효과를 상쇄할 수 있다.",
+            "invalidation": "06:30 KST Q&A 후 재판단한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "TSLA",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 장후 실적 미발표이고 인도량만으로 수익성을 알 수 없다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "가격·믹스·비용이 인도량 효과를 상쇄할 수 있다.",
+            "invalidation": "06:30 KST Q&A 후 재판단한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "정규장 개장",
+        "detail": "SMCI·NFLX 장전 갭의 유지 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 기술주",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. AI 상방과 Netflix 하방이 공존한다.",
+            "counter": "장전 갭은 되돌릴 수 있다.",
+            "invalidation": "전일 종가와 업종 동반 흐름을 확인한다.",
+            "sources": [
+              "reuters",
+              "qSMCI",
+              "qNFLX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 기술주",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. AI 상방과 Netflix 하방이 공존한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "장전 갭은 되돌릴 수 있다.",
+            "invalidation": "전일 종가와 업종 동반 흐름을 확인한다.",
+            "sources": [
+              "reuters",
+              "qSMCI",
+              "qNFLX"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Meta 설명회",
+        "detail": "광고 성장과 AI 투자·비용을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "META",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 발표 전이라 보류한다.",
+            "counter": "가이던스가 기대와 다를 수 있다.",
+            "invalidation": "광고·설비투자 전망 후 재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "META",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 발표 전이라 보류한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "가이던스가 기대와 다를 수 있다.",
+            "invalidation": "광고·설비투자 전망 후 재판단한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Tesla Q&A",
+        "detail": "마진·현금흐름·제품 일정을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "TSLA",
+            "basis": "2026-10-21 미국 정규장 종가를 10/20 정규장 종가와 비교한다. 인도량만으로 수익성을 알 수 없다.",
+            "counter": "가격·믹스·비용이 인도량 효과를 상쇄할 수 있다.",
+            "invalidation": "마진·현금흐름 확인 후 재판단한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "TSLA",
+            "basis": "2026-10-27 미국 정규장 종가(10/21·22·23·26·27)를 10/20 종가와 비교한다. 인도량만으로 수익성을 알 수 없다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "가격·믹스·비용이 인도량 효과를 상쇄할 수 있다.",
+            "invalidation": "마진·현금흐름 확인 후 재판단한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간",
+      "nasdaq-cal": "Nasdaq · 휴장 달력",
+      "reuters": "Reuters · 장전 흐름",
+      "smci": "Super Micro · 예비 업데이트",
+      "nflx": "Netflix · 주주서한",
+      "meta": "Meta · 발표 일정",
+      "tesla": "Tesla · 생산·인도·일정",
+      "qSMCI": "Naver · SMCI",
+      "qNFLX": "Naver · NFLX",
+      "qMETA": "Naver · META",
+      "qTSLA": "Naver · TSLA",
+      "spx": "Naver · S&P 500",
+      "nas": "Naver · Nasdaq",
+      "dow": "Naver · Dow",
+      "fx": "Naver·하나은행 · USD/KRW"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-21T22:07:42+09:00",
+      "input_cutoff": "2026-10-21T22:07:42+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "검증 전 조건부 해석이다. 당일은10/21,5거래일은10/21·22·23·26·27 미국 종가를10/20종가와 비교한다. 확률·매매 신호가 아니다."
+    }
+  }
+}
