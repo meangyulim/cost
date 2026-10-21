@@ -1,0 +1,731 @@
+{
+  "id": "kr-pre-2026-10-22",
+  "is_test": false,
+  "title": "10월 22일 한국장 시작 전",
+  "market": "KR",
+  "session": "pre",
+  "market_date": "2026-10-22",
+  "venue": "국내 지수·관찰 종목의 기본 가격은 2026.10.21 15:30 KST KRX 정규장 종가. 10월22일 08:30 KST 별도 PRE_MARKET 값은 NXT 장전 구간으로 분리. 미국 지수는 2026.10.22 05:00 KST(10.21 16:00 EDT) 완료 정규장.",
+  "as_of": "2026-10-22T08:30:30+09:00",
+  "queried_at": "2026-10-22T08:30:30+09:00",
+  "summary": "미 기술주 호재, 국내 확산은 확인 필요",
+  "summary_detail": "전일 코스피는 3.29% 반등했지만 상승 종목 비율은 40.66%에 그쳐 대형주 중심 회복이었다. 밤사이 나스닥 1.05%·필라델피아 반도체지수 2% 상승은 반도체에 우호적이지만, 삼성전자·SK하이닉스의 NXT 장전은 약세다. 삼성바이오로직스는 3분기 실적과 연간 매출 성장 가이던스 상향을 발표해 KRX 정규장 반응을 확인한다.",
+  "interpretation": "오늘은 미국 기술주 반등의 국내 전달과 전일 반등의 시장폭 확산을 함께 본다. 코스피 5735.66·코스닥 792.76, 삼성전자 223500원·SK하이닉스 1288000원·삼성바이오로직스 1412000원을 KRX 기준가격으로 둔다. NXT 장전값과 등락률은 별도 거래구간으로만 표시한다. 당일 판단은 10월22일 종가, 5거래일 판단은 10월28일 종가를 10월21일 KRX 종가와 비교하며 신규 공시·수급·미국 지표 확인 때 재판단한다.",
+  "calculation_notes": "지수·종목의 KRX 등락은 원자료가 제공한 10월21일 정규장 종가·변동액·등락률을 그대로 사용했다. NXT 장전 변동액·등락률은 overMarketPriceInfo가 제공한 NXT 전일 비교값이며 KRX와 합산하거나 재계산하지 않았다. 시장폭은 상승 종목/등락률 유효 거래 종목×100으로 KRX 산출물이 계산한 값이다. 5거래일 비교일은 10월22·23·26·27·28일이다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,735.66",
+      "unit": "pt",
+      "delta": "+182.92",
+      "percent": "+3.29",
+      "direction": "up",
+      "source": "kospi",
+      "additional_sources": [
+        "krx"
+      ],
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 10월21일 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "792.76",
+      "unit": "pt",
+      "delta": "+10.79",
+      "percent": "+1.38",
+      "direction": "up",
+      "source": "kosdaq",
+      "additional_sources": [
+        "krx"
+      ],
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 10월21일 정규장 종가"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,757.17",
+      "unit": "pt",
+      "delta": "+44.60",
+      "percent": "+0.58",
+      "direction": "up",
+      "source": "us-market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "미국 10월21일 정규장 종가 · 10월21일 16:00 EDT"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,856.09",
+      "unit": "pt",
+      "delta": "+360.21",
+      "percent": "+0.69",
+      "direction": "up",
+      "source": "us-market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "미국 10월21일 정규장 종가 · 10월21일 16:00 EDT"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,702.86",
+      "unit": "pt",
+      "delta": "+278.04",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "us-market",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "미국 10월21일 정규장 종가 · 10월21일 16:00 EDT"
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,327.00",
+    "unit": "원/USD",
+    "delta": "−0.50",
+    "percent": "−0.04",
+    "direction": "down",
+    "source": "fx",
+    "as_of": "2026-10-22T08:25:07+09:00",
+    "session": "하나은행 고시회차 · 서울외환시장 현물 종가 아님"
+  },
+  "issues": [
+    {
+      "title": "전일 급반등, 시장폭은 절반 미만",
+      "fact": "10월21일 KRX 정규장 코스피는 5735.66(+182.92pt,+3.29%), 코스닥은 792.76(+10.79pt,+1.38%)로 마감했다. 이번 회차 요청의 KRX 일별 산출물은 기준일 10월21일을 반환했다. 거래가 있었고 등락률이 유효한 종목 중 코스피 상승 372·하락 490·보합 53개(상승 40.66%,372/915), 코스닥 상승 832·하락 802·보합 100개(상승 47.98%,832/1734)였다. 우선주 등이 포함된 분모이며 지수 구성 보통주 비율이 아니다. 거래대금은 코스피 18441435440428원으로 직전 5거래일 평균의 0.8535배, 코스닥 5282049804611원으로 0.8911배였다. 거래대금은 순자금 유입이나 외국인 순매수를 뜻하지 않는다. 코스피 5일·20일 가격수익률은 −4.5458%·−14.5896%이고 MA20 6482.638, MA60 6584.8093보다 낮아 산출물상 하락 추세 조건이다. 미래 하락 확률은 아니다.",
+      "source": "krx",
+      "additional_sources": [
+        "kospi",
+        "kosdaq"
+      ]
+    },
+    {
+      "title": "나스닥 1.05%·반도체 2% 상승",
+      "fact": "10월21일 미국 정규장 다우는 52856.09(+360.21,+0.69%), S&P500은 7757.17(+44.60,+0.58%), 나스닥은 26702.86(+278.04,+1.05%)로 마감했다. Reuters는 SpaceX 7.8%·Super Micro 9.6% 상승과 함께 필라델피아 반도체지수가 2% 올랐다고 보도했다. 미국 기술업종은 1.6% 상승했지만 통신서비스는 1.3% 하락해 업종 차별화가 남았다. 미국 기술주 반등은 국내 반도체 심리에 우호적일 수 있으나 전일 국내 급등의 추가 상승을 보장하지 않는다.",
+      "source": "us-market"
+    },
+    {
+      "title": "삼성바이오 실적·가이던스 상향",
+      "fact": "삼성바이오로직스는 10월21일 공식 발표에서 2026년 3분기 매출 1490.3십억원, 영업이익 640.1십억원을 기록했다고 밝혔다. 전년 동기 대비 각각 +232.8십억원·+6.6십억원이며, 회사는 2026년 연간 매출 성장 가이던스를 종전 15~20%에서 20%로 높였다. 공장 1~4의 완전가동, 공장 5 램프업과 미국 Rockville 공장의 첫 매출 기여를 설명했다. 동시에 3조원 유상증자와 11월 기존주주 청약 계획도 밝혀 성장 재료와 희석·자금조달 부담을 함께 본다.",
+      "source": "samsungbio-ir"
+    },
+    {
+      "title": "Meta·Tesla, 매출 성장과 비용 부담 공존",
+      "fact": "Meta는 3분기 매출 646.01억달러(+26% YoY), 영업이익 129.88억달러(−37%), 영업이익률 20%(전년 40%)를 발표했다. 비용에는 주 검찰총장 합의 관련 98.9억달러 비용이 포함됐다. Tesla는 3분기 매출 280.46억달러(전년 대비 보합), 영업이익 7.18억달러(−56%), 영업이익률 2.6%, 잉여현금흐름 15.31억달러를 발표했다. Reuters는 정규장 후 Meta +3%, Tesla +1.6%를 보도했다. AI·자율주행 투자 기대와 비용·마진 부담을 분리해 국내 기술주 전달을 확인한다.",
+      "source": "meta",
+      "additional_sources": [
+        "tesla",
+        "us-market"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "223,500",
+      "currency": "KRW",
+      "delta": "+12,000",
+      "percent": "+5.67",
+      "direction": "up",
+      "source": "price-005930",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT 장전 별도",
+      "reason": "전일 급반등 뒤 미국 반도체지수 2% 상승과 NXT 장전 약세가 맞서 국내 반도체 확산을 볼 기준 종목이다.",
+      "watch": "KRX 223,500원 유지와 SK하이닉스 동반 강도·외국인 수급을 확인한다.",
+      "reason_sources": [
+        "price-005930",
+        "price-005930-nxt",
+        "us-market"
+      ],
+      "pre_market": {
+        "price": "220,500",
+        "currency": "KRW",
+        "delta": "−3,000",
+        "percent": "−1.34",
+        "as_of": "2026-10-22T08:30:22+09:00",
+        "session": "NXT PRE_MARKET · NXT 제공 전일 비교 · KRX 정규장 아님",
+        "source": "price-005930-nxt"
+      }
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,288,000",
+      "currency": "KRW",
+      "delta": "+65,000",
+      "percent": "+5.31",
+      "direction": "up",
+      "source": "price-000660",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT 장전 별도",
+      "reason": "미국 AI 서버·반도체 강세의 국내 전달과 전일 급등 후 매물 압력을 함께 볼 종목이다.",
+      "watch": "KRX 1,288,000원 유지와 삼성전자 대비 강도·외국인 수급을 확인한다.",
+      "reason_sources": [
+        "price-000660",
+        "price-000660-nxt",
+        "us-market"
+      ],
+      "pre_market": {
+        "price": "1,269,000",
+        "currency": "KRW",
+        "delta": "−25,000",
+        "percent": "−1.93",
+        "as_of": "2026-10-22T08:30:26+09:00",
+        "session": "NXT PRE_MARKET · NXT 제공 전일 비교 · KRX 정규장 아님",
+        "source": "price-000660-nxt"
+      }
+    },
+    {
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "price": "1,412,000",
+      "currency": "KRW",
+      "delta": "+21,000",
+      "percent": "+1.51",
+      "direction": "up",
+      "source": "price-207940",
+      "as_of": "2026-10-21T15:30:00+09:00",
+      "session": "KRX 2026.10.21 정규장 종가 · NXT 장전 별도",
+      "reason": "3분기 매출·영업이익과 연간 매출 성장 가이던스 상향, 3조원 유상증자의 가격 반영을 구분할 종목이다.",
+      "watch": "KRX 1,412,000원 대비 반응과 가이던스 상향·유상증자 희석 부담 중 어느 쪽이 우세한지 확인한다.",
+      "reason_sources": [
+        "price-207940",
+        "price-207940-nxt",
+        "samsungbio-ir"
+      ],
+      "pre_market": {
+        "price": "1,407,000",
+        "currency": "KRW",
+        "delta": "−10,000",
+        "percent": "−0.71",
+        "as_of": "2026-10-22T08:30:29+09:00",
+        "session": "NXT PRE_MARKET · NXT 제공 전일 비교 · KRX 정규장 아님",
+        "source": "price-207940-nxt"
+      }
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026.10.22 09:00 KST",
+      "title": "KRX 개장과 반도체 동반 강도",
+      "detail": "NXT와 KRX를 분리해 전일 KRX 종가 유지·외국인 현물 방향·상승 종목 비율 확산을 확인한다."
+    },
+    {
+      "label": "2026.10.22 15:30 KST",
+      "title": "정규장 종가와 시장폭",
+      "detail": "코스피 5,735.66 유지, 상승 종목 비율 50% 회복 여부와 반도체·삼성바이오 종가를 확인한다."
+    },
+    {
+      "label": "2026.10.22 21:30 KST · 08:30 EDT",
+      "title": "미국 주간 신규 실업수당 청구",
+      "detail": "10월17일 종료 주간 공식 발표와 미국 금리·기술주 반응을 확인한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 2026 휴장 안내",
+      "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+      "note": "공식 2026 휴장 구간과 거래일 안내를 대조. 10월22일 목요일은 휴장 구간 밖이며 조기폐장 공지가 없어 정상 거래일로 판단.",
+      "queried_at": "2026-10-22T08:30:15+09:00"
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 거래일·정규장 시간",
+      "url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+      "note": "월~금 개장, 정규장 09:00~15:30 KST 공식 안내.",
+      "queried_at": "2026-10-22T08:30:15+09:00"
+    },
+    {
+      "id": "krx",
+      "label": "한국거래소 · 10월21일 일별 통계",
+      "url": "https://openapi.krx.co.kr/contents/OPP/INFO/service/OPPINFO004.cmd",
+      "note": "이번 요청 커밋 3cc7fe6882bc7f7c372b425e866da669a0739baa, Collect KRX briefing inputs run 39693485981 completed/success, artifact 12390340762, digest sha256:c163ee5ee6b32a4dc7c9a11be3a43174163133f7b77ca7218ca775a2c74031b2. data_date=2026-10-21, queried_at=2026-10-22T08:27:43+09:00. 배당·분할 미보정 가격수익률, 우선주 등 포함 시장폭, 거래대금은 순매수 아님.",
+      "queried_at": "2026-10-22T08:27:43+09:00"
+    },
+    {
+      "id": "kospi",
+      "label": "네이버 증권 · 코스피 10월21일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/price?pageSize=2&page=1",
+      "note": "10월22일 08:29 KST 직접조회. 10월21일 5735.66,+182.92,+3.29%를 확인.",
+      "queried_at": "2026-10-22T08:29:02+09:00"
+    },
+    {
+      "id": "kosdaq",
+      "label": "네이버 증권 · 코스닥 10월21일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/price?pageSize=2&page=1",
+      "note": "10월22일 08:29 KST 직접조회. 10월21일 792.76,+10.79,+1.38%를 확인.",
+      "queried_at": "2026-10-22T08:29:02+09:00"
+    },
+    {
+      "id": "us-market",
+      "label": "Reuters · 10월21일 미국장 마감",
+      "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/",
+      "note": "최종 종가와 포인트·등락률, 필라델피아 반도체 +2%, Meta·Tesla 시간외 반응을 확인.",
+      "queried_at": "2026-10-22T08:29:45+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "네이버·하나은행 · 달러 고시환율",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "2026-10-22T08:25:07+09:00 하나은행 고시회차 1327.00KRW/USD,−0.50,−0.04%. 서울외환시장 현물 종가나 체결값 아님.",
+      "queried_at": "2026-10-22T08:30:30+09:00"
+    },
+    {
+      "id": "price-005930",
+      "label": "네이버 증권 · 삼성전자 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/005930/price?pageSize=2&page=1",
+      "note": "10월21일 KRX 정규장 종가 223500원,+12000,+5.67%를 확인.",
+      "queried_at": "2026-10-22T08:29:05+09:00"
+    },
+    {
+      "id": "price-005930-nxt",
+      "label": "네이버 증권 · 삼성전자 NXT 장전",
+      "url": "https://m.stock.naver.com/api/stock/005930/basic",
+      "note": "10월22일 08:30:22 KST overMarketPriceInfo PRE_MARKET 220500원, NXT 제공 전일 비교 −3000,−1.34%. KRX 정규장 아님.",
+      "queried_at": "2026-10-22T08:30:22+09:00"
+    },
+    {
+      "id": "price-000660",
+      "label": "네이버 증권 · SK하이닉스 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/000660/price?pageSize=2&page=1",
+      "note": "10월21일 KRX 정규장 종가 1288000원,+65000,+5.31%를 확인.",
+      "queried_at": "2026-10-22T08:29:07+09:00"
+    },
+    {
+      "id": "price-000660-nxt",
+      "label": "네이버 증권 · SK하이닉스 NXT 장전",
+      "url": "https://m.stock.naver.com/api/stock/000660/basic",
+      "note": "10월22일 08:30:26 KST overMarketPriceInfo PRE_MARKET 1269000원, NXT 제공 전일 비교 −25000,−1.93%. KRX 정규장 아님.",
+      "queried_at": "2026-10-22T08:30:26+09:00"
+    },
+    {
+      "id": "price-207940",
+      "label": "네이버 증권 · 삼성바이오 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/207940/price?pageSize=2&page=1",
+      "note": "10월21일 KRX 정규장 종가 1412000원,+21000,+1.51%를 확인.",
+      "queried_at": "2026-10-22T08:29:10+09:00"
+    },
+    {
+      "id": "price-207940-nxt",
+      "label": "네이버 증권 · 삼성바이오 NXT 장전",
+      "url": "https://m.stock.naver.com/api/stock/207940/basic",
+      "note": "10월22일 08:30:29 KST overMarketPriceInfo PRE_MARKET 1407000원, NXT 제공 전일 비교 −10000,−0.71%. KRX 정규장 아님.",
+      "queried_at": "2026-10-22T08:30:29+09:00"
+    },
+    {
+      "id": "samsungbio-ir",
+      "label": "삼성바이오 · 3분기 실적",
+      "url": "https://samsungbiologics.com/media/company-news/samsung-biologics-reports-third-quarter-2026-financial-results",
+      "note": "10월21일 공식 발표. 매출 1490.3십억원, 영업이익 640.1십억원, 2026 매출 성장 가이던스 20%, 3조원 유상증자 계획을 확인.",
+      "queried_at": "2026-10-22T08:29:45+09:00"
+    },
+    {
+      "id": "meta",
+      "label": "Meta · 3분기 실적",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "note": "10월21일 공식 발표. 매출 646.01억달러,+26%; 영업이익 129.88억달러,−37%; 영업이익률 20%를 확인.",
+      "queried_at": "2026-10-22T08:29:45+09:00"
+    },
+    {
+      "id": "tesla",
+      "label": "Tesla · 3분기 업데이트",
+      "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+      "note": "공식 Q3 업데이트. 매출 280.46억달러, 영업이익 7.18억달러, 영업이익률 2.6%, 잉여현금흐름 15.31억달러를 확인.",
+      "queried_at": "2026-10-22T08:29:45+09:00"
+    },
+    {
+      "id": "jobs",
+      "label": "뉴욕 연은 · 10월 경제지표 일정",
+      "url": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+      "note": "10월22일 08:30 EDT 신규 실업수당 청구 발표 일정을 확인. KST는 21:30.",
+      "queried_at": "2026-10-22T08:30:10+09:00"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+    "market_date": "2026-10-22",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-22T08:30:15+09:00",
+    "note": "KRX 공식 2026 휴장 구간표와 거래일·정규장 시간 안내를 대조. 10월22일 목요일은 휴장 구간 밖이며 09:00~15:30 정상장. 이전 거래일 10월21일, d5는 10월22·23·26·27·28일.",
+    "additional_urls": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-10-22T08:30:00+09:00",
+    "scheduled_start_utc": "2026-10-21T23:30:00+00:00",
+    "actual_start_kst": "2026-10-22T08:25:55+09:00",
+    "actual_start_utc": "2026-10-21T23:25:55+00:00",
+    "start_offset_seconds": -245,
+    "delay_seconds": 0,
+    "early_seconds": 245,
+    "environment": "지원 클라우드 Bash/Python 실행 공간, 연결된 GitHub 읽기·쓰기·Actions 조회, 연결된 Kakao self-send 도구 확인. 토큰 미출력.",
+    "model_setting": "not_verified",
+    "krx_request_commit": "3cc7fe6882bc7f7c372b425e866da669a0739baa",
+    "krx_run_id": 39693485981,
+    "krx_artifact_id": 12390340762,
+    "krx_artifact_sha256": "c163ee5ee6b32a4dc7c9a11be3a43174163133f7b77ca7218ca775a2c74031b2",
+    "krx_data_date": "2026-10-21",
+    "krx_queried_at": "2026-10-22T08:27:43+09:00",
+    "additional_http_check": "not_performed_user_instruction",
+    "browser_check": "not_performed_user_instruction"
+  },
+  "reading": {
+    "headline": "미 기술주 호재, 국내 확산은 확인 필요",
+    "summary_points": [
+      "코스피 +3.29%, 상승 종목 비율은 40.66%였다.",
+      "나스닥 +1.05%·반도체지수 +2%로 마감했다.",
+      "반도체 NXT 장전 약세, KRX 종가로 확인한다."
+    ],
+    "notices": [
+      "기본 가격·등락률은 10월21일 KRX 종가다. NXT 08:30 가격은 별도 거래구간이다.",
+      "KRX 일별 통계는 10월21일 자료이며 미래 확률이 아니다. 원·달러는 하나은행 고시회차다."
+    ],
+    "issues": [
+      {
+        "title": "전일 급반등, 시장폭은 절반 미만",
+        "preview": "대형주 반등이 종목 전반으로 번졌는지 본다.",
+        "points": [
+          "코스피는 +3.29%, 상승 종목 비율은 40.66%였다.",
+          "거래대금은 최근 5일 평균의 0.8535배였다."
+        ],
+        "meaning": "지수보다 상승 확산·종가 유지·수급을 함께 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월22일 종가를 10월21일 종가와 비교. 미국 기술주 강세는 우호적이다.",
+            "counter": "코스피 상승 종목 비율은 40.66%이고 20일 가격수익률은 −14.5896%다.",
+            "invalidation": "코스피 5735.66 유지와 상승 종목 비율 50% 회복이 동반되면 개선, 반대면 약화한다.",
+            "sources": [
+              "krx",
+              "kospi",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월28일 종가를 10월21일 종가와 비교하는 5거래일(22·23·26·27·28). 급락 뒤 회복 시도가 이어질 수 있다.",
+            "counter": "코스피는 MA20·MA60 아래이고 거래대금은 최근 5일 평균보다 낮다.",
+            "invalidation": "연속 종가 유지와 시장폭 회복이면 개선, 전일 저점 이탈·하락 확산이면 약화한다.",
+            "sources": [
+              "krx",
+              "kospi"
+            ]
+          }
+        }
+      },
+      {
+        "title": "나스닥 1.05%·반도체 2% 상승",
+        "preview": "미국 AI 반등의 국내 전달을 확인한다.",
+        "points": [
+          "미국 기술업종 +1.6%, 반도체지수 +2%였다.",
+          "삼성전자·하이닉스 NXT 장전은 약세였다."
+        ],
+        "meaning": "미국 호재보다 KRX 개장 후 동반 강도를 우선 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "미국 나스닥과 반도체지수 상승은 국내 반도체 심리에 우호적이다.",
+            "counter": "전일 국내 반도체가 5%대 상승했고 NXT 장전은 약세다.",
+            "invalidation": "KRX에서 두 종목이 전일 종가를 지키고 시장보다 강하면 개선, 반대면 약화한다.",
+            "sources": [
+              "us-market",
+              "price-005930-nxt",
+              "price-000660-nxt"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "미국 AI 서버 실적과 반도체 반등은 5거래일 심리의 완충 재료다.",
+            "counter": "AI 투자수익성 우려와 국내 지수 하락 추세가 남았다.",
+            "invalidation": "미국 반도체 후속 종가와 국내 외국인 수급·상대강도 확인 뒤 재판단한다.",
+            "sources": [
+              "us-market",
+              "krx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성바이오 실적·가이던스 상향",
+        "preview": "성장 확인과 3조원 유상증자 부담이 맞선다.",
+        "points": [
+          "3분기 매출 1.4903조원·영업이익 6401억원이었다.",
+          "연간 매출 성장 가이던스를 20%로 올렸다."
+        ],
+        "meaning": "실적보다 KRX 종가가 증자 부담까지 소화하는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스",
+            "basis": "가이던스 상향과 공장 5·미국 공장 기여는 긍정 재료다.",
+            "counter": "3조원 유상증자와 NXT 장전 약세는 부담이다.",
+            "invalidation": "KRX 1412000원 유지와 거래량 동반 강세면 개선, 종가 이탈이면 약화한다.",
+            "sources": [
+              "samsungbio-ir",
+              "price-207940",
+              "price-207940-nxt"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스·헬스케어",
+            "basis": "실적 성장과 가이던스 상향은 5거래일 재평가 근거다.",
+            "counter": "유상증자 조건과 취득 일정이 희석·재무 부담으로 작용할 수 있다.",
+            "invalidation": "후속 공시와 시장·헬스케어 대비 종가 강도 확인 뒤 재판단한다.",
+            "sources": [
+              "samsungbio-ir",
+              "krx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Meta·Tesla, 성장과 비용 부담 공존",
+        "preview": "AI·자율주행 기대와 마진 압박을 함께 본다.",
+        "points": [
+          "Meta 매출 +26%, 영업이익률은 20%였다.",
+          "Tesla 영업이익 −56%, FCF는 15.31억달러였다."
+        ],
+        "meaning": "국내 기술주에 단순 호재로 적용하지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 AI·2차전지",
+            "basis": "Meta·Tesla 시간외 상승과 기술주 강세는 심리에 우호적이다.",
+            "counter": "Meta 비용 급증과 Tesla 영업이익 감소·마진 2.6%가 남았다.",
+            "invalidation": "관련 국내 종목이 시장보다 약하면 긍정 전달 해석을 낮춘다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 AI·2차전지",
+            "basis": "AI 모델·로보택시·에너지 저장 투자 설명은 후속 관심 재료다.",
+            "counter": "투자비·법률비용·자동차 수익성 부담이 지속될 수 있다.",
+            "invalidation": "미국 다음 정규장과 국내 업종 5거래일 상대강도 확인 뒤 재판단한다.",
+            "sources": [
+              "meta",
+              "tesla"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "미국 반도체 강세와 NXT 장전 약세가 맞서 국내 확산을 볼 기준 종목이다.",
+        "watch": "KRX 223500원 유지와 하이닉스 동반 강도·외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월22일 종가를 기준가격 223500원과 비교. 미국 반도체 +2%는 우호적이다.",
+            "counter": "전일 +5.67% 급등 뒤 NXT 장전은 220500원,−1.34%다.",
+            "invalidation": "KRX 223500원 유지와 시장 대비 강도가 없으면 긍정 해석을 낮춘다.",
+            "sources": [
+              "price-005930",
+              "price-005930-nxt",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월28일 종가를 223500원과 비교. 미국 AI 수요 신호는 완충 재료다.",
+            "counter": "지수 하락 추세와 외국인 수급 미확인이 남았다.",
+            "invalidation": "연속 종가 강도·외국인 수급 확인 뒤 재판단한다.",
+            "sources": [
+              "price-005930",
+              "krx",
+              "us-market"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "미국 AI 서버·반도체 강세의 국내 전달과 전일 급등 후 매물을 함께 본다.",
+        "watch": "KRX 1288000원 유지와 삼성전자 대비 강도·외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "10월22일 종가를 기준가격 1288000원과 비교. 미국 반도체 상승은 긍정 재료다.",
+            "counter": "전일 +5.31% 뒤 NXT 장전은 1269000원,−1.93%다.",
+            "invalidation": "KRX 기준가격 유지와 삼성전자 동반 강도가 없으면 긍정 해석을 낮춘다.",
+            "sources": [
+              "price-000660",
+              "price-000660-nxt",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "10월28일 종가를 1288000원과 비교. AI 서버 수요 기대가 완충할 수 있다.",
+            "counter": "국내 지수 하락 추세와 높은 변동성이 남았다.",
+            "invalidation": "시장 대비 연속 종가 강도와 외국인 수급 확인 뒤 재판단한다.",
+            "sources": [
+              "price-000660",
+              "krx",
+              "us-market"
+            ]
+          }
+        }
+      },
+      "207940": {
+        "reason": "가이던스 상향과 3조원 유상증자 부담의 가격 반영을 구분한다.",
+        "watch": "KRX 1412000원 대비 종가와 후속 유상증자 공시를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스",
+            "basis": "10월22일 종가를 기준가격 1412000원과 비교. 실적 성장·가이던스 상향은 긍정 재료다.",
+            "counter": "3조원 유상증자와 NXT 장전 약세가 부담이다.",
+            "invalidation": "KRX 기준가격 유지와 거래량 동반 강세가 없으면 긍정 해석을 낮춘다.",
+            "sources": [
+              "samsungbio-ir",
+              "price-207940",
+              "price-207940-nxt"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스",
+            "basis": "10월28일 종가를 1412000원과 비교. 공장 5·미국 공장 기여가 재평가 근거다.",
+            "counter": "유상증자 조건과 취득 일정이 희석 우려로 작용할 수 있다.",
+            "invalidation": "후속 공시와 시장·헬스케어 대비 종가 강도 확인 뒤 재판단한다.",
+            "sources": [
+              "samsungbio-ir",
+              "krx"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "KRX 개장과 반도체 동반 강도",
+        "detail": "NXT와 KRX를 분리해 전일 종가 유지·외국인 수급·상승 확산을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피·국내 반도체",
+            "basis": "개장 전에는 KRX 결과를 예상 수치로 채우지 않는다.",
+            "counter": "NXT 장전과 KRX 정규장은 다른 거래구간이다.",
+            "invalidation": "09:00 이후 실제 가격·수급 확인 뒤 재판단한다.",
+            "sources": [
+              "hours",
+              "price-005930-nxt",
+              "price-000660-nxt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·국내 반도체",
+            "basis": "5거래일 판단은 10월28일 종가로 한다.",
+            "counter": "첫날 장중 반응만으로 추세를 확정하지 않는다.",
+            "invalidation": "연속 종가·시장폭·수급 확인 뒤 재판단한다.",
+            "sources": [
+              "krx",
+              "hours"
+            ]
+          }
+        }
+      },
+      {
+        "title": "정규장 종가와 시장폭",
+        "detail": "코스피 5735.66 유지, 상승 종목 비율 50% 회복과 관찰 종목 종가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피·관찰 종목",
+            "basis": "장전에는 종가와 시장폭이 미확정이다.",
+            "counter": "지수 상승과 상승 종목 확산은 다를 수 있다.",
+            "invalidation": "15:30 실제 종가·시장폭 확인 뒤 재판단한다.",
+            "sources": [
+              "krx",
+              "kospi"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·관찰 종목",
+            "basis": "5거래일 평가는 10월28일 종가로 한다.",
+            "counter": "하루 종가만으로 추세 전환을 확정하지 않는다.",
+            "invalidation": "연속 종가와 시장 대비 강도 확인 뒤 재판단한다.",
+            "sources": [
+              "krx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 주간 신규 실업수당 청구",
+        "detail": "21:30 KST 공식 발표와 미국 금리·기술주 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·기술주",
+            "basis": "발표 전 실제 수치는 미확인이다.",
+            "counter": "한 주 지표만으로 경기·금리 경로를 확정할 수 없다.",
+            "invalidation": "공식 수치와 시장 반응 확인 뒤 재판단한다.",
+            "sources": [
+              "jobs"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·국내 성장주",
+            "basis": "지표가 금리 기대를 바꾸면 5거래일 심리에 영향을 줄 수 있다.",
+            "counter": "FOMC·후속 물가·성장 자료가 남아 있다.",
+            "invalidation": "후속 공식 지표와 금리·주가 경로 확인 뒤 재판단한다.",
+            "sources": [
+              "jobs"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "코스피 5735.66 유지와 상승 종목 비율 50% 회복을 함께 본다.",
+      "NXT 장전 가격·등락률을 KRX 정규장 수치와 섞지 않는다.",
+      "당일·5거래일 전망은 검증 전 조건부 해석이며 상승 확률이 아니다."
+    ],
+    "source_labels": {
+      "calendar": "KRX · 2026 휴장 안내",
+      "hours": "KRX · 거래일·정규장 시간",
+      "krx": "한국거래소 · 10월21일 통계",
+      "kospi": "네이버 · 코스피 10월21일",
+      "kosdaq": "네이버 · 코스닥 10월21일",
+      "us-market": "Reuters · 미국장 마감",
+      "fx": "네이버·하나은행 · 달러 고시환율",
+      "price-005930": "네이버 · 삼성전자 KRX",
+      "price-005930-nxt": "네이버 · 삼성전자 NXT",
+      "price-000660": "네이버 · SK하이닉스 KRX",
+      "price-000660-nxt": "네이버 · SK하이닉스 NXT",
+      "price-207940": "네이버 · 삼성바이오 KRX",
+      "price-207940-nxt": "네이버 · 삼성바이오 NXT",
+      "samsungbio-ir": "삼성바이오 · 3분기 실적",
+      "meta": "Meta · 3분기 실적",
+      "tesla": "Tesla · 3분기 업데이트",
+      "jobs": "뉴욕 연은 · 지표 일정"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-22T08:30:30+09:00",
+      "input_cutoff": "2026-10-22T08:30:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "검증 전 조건부 해석이며 매매 신호·상승 확률이 아닙니다. 오늘과 10월28일 종가를 10월21일 KRX 종가와 비교합니다."
+    }
+  }
+}

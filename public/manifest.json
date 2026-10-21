@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-21",
+  "latest_id": "kr-pre-2026-10-22",
   "reports": [
+    {
+      "id": "kr-pre-2026-10-22",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-10-22",
+      "title": "10월 22일 한국장 시작 전",
+      "summary": "미 기술주 호재, 국내 확산은 확인 필요",
+      "as_of": "2026-10-22T08:30:30+09:00",
+      "path": "reports/kr-pre-2026-10-22/"
+    },
     {
       "id": "us-close-2026-10-21",
       "is_test": false,
