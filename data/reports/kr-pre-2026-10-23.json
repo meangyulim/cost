@@ -1,0 +1,720 @@
+{
+  "id": "kr-pre-2026-10-23",
+  "is_test": false,
+  "title": "10월 23일 한국장 시작 전",
+  "market": "KR",
+  "session": "pre",
+  "market_date": "2026-10-23",
+  "venue": "국내 지수·관찰 종목의 기본 가격은 2026.10.22 15:30 KST KRX 정규장 종가. 미국 지수는 2026.10.23 05:00 KST(10.22 16:00 EDT) 완료 정규장.",
+  "as_of": "2026-10-23T08:33:30+09:00",
+  "queried_at": "2026-10-23T08:33:30+09:00",
+  "summary": "AI·유가 충격, 반도체와 운송 방어 확인",
+  "summary_detail": "전일 코스피는 3.52% 하락했고 상승 종목 비율은 19.04%에 그쳤다. 밤사이 나스닥 2.60%·필라델피아 반도체지수 6.7% 하락은 국내 반도체에 부담이고, 브렌트유 113.17달러는 항공 비용과 정유 마진 기대를 엇갈리게 만든다. 지수 반등보다 10월22일 종가 유지와 상승 종목 확산을 우선 확인한다.",
+  "interpretation": "오늘은 국내 급락 뒤 미국 반도체 추가 충격이 겹친다. 코스피 5533.77·코스닥 764.10, 삼성전자 214500원·SK하이닉스 1223000원·대한항공 26450원·S-Oil 138900원을 기준가격으로 둔다. 당일 판단은 10월23일 종가, 5거래일 판단은 10월29일 종가를 10월22일 KRX 종가와 비교하며 국제유가·미국 반도체·외국인 수급 확인 때 재판단한다.",
+  "calculation_notes": "지수와 종목 값은 원자료의 10월22일 KRX 정규장 종가·변동액·등락률을 그대로 사용했다. 시장폭은 상승 종목/등락률 유효 거래 종목×100으로 KRX 산출물이 계산했다. 거래대금은 전체 제공 종목 합계이며 순매수나 순자금 유입이 아니다. 5거래일 비교일은 10월23·26·27·28·29일이다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,533.77",
+      "unit": "pt",
+      "delta": "−201.89",
+      "percent": "−3.52",
+      "direction": "down",
+      "source": "kospi",
+      "additional_sources": [
+        "krx"
+      ],
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 10월22일 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "764.10",
+      "unit": "pt",
+      "delta": "−28.66",
+      "percent": "−3.62",
+      "direction": "down",
+      "source": "kosdaq",
+      "additional_sources": [
+        "krx"
+      ],
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 10월22일 정규장 종가"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,663.43",
+      "unit": "pt",
+      "delta": "−93.74",
+      "percent": "−1.21",
+      "direction": "down",
+      "source": "us-market",
+      "as_of": "2026-10-23T05:00:00+09:00",
+      "session": "미국 10월22일 정규장 종가 · 10월22일 16:00 EDT"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,867.98",
+      "unit": "pt",
+      "delta": "+11.89",
+      "percent": "+0.02",
+      "direction": "up",
+      "source": "us-market",
+      "as_of": "2026-10-23T05:00:00+09:00",
+      "session": "미국 10월22일 정규장 종가 · 10월22일 16:00 EDT"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,008.86",
+      "unit": "pt",
+      "delta": "−694.00",
+      "percent": "−2.60",
+      "direction": "down",
+      "source": "us-market",
+      "as_of": "2026-10-23T05:00:00+09:00",
+      "session": "미국 10월22일 정규장 종가 · 10월22일 16:00 EDT"
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,326.50",
+    "unit": "원/USD",
+    "delta": "0.00",
+    "percent": "0.00",
+    "direction": "flat",
+    "source": "fx",
+    "as_of": "2026-10-23T08:28:09+09:00",
+    "session": "하나은행 고시회차 · 서울외환시장 현물 종가 아님"
+  },
+  "issues": [
+    {
+      "title": "전일 3.5%대 급락, 하락 확산",
+      "fact": "10월22일 KRX 정규장 코스피는 5533.77(−201.89pt,−3.52%), 코스닥은 764.10(−28.66pt,−3.62%)로 마감했다. 이번 회차 KRX 산출물에서 코스피는 상승 174·하락 708·보합 32개로 상승 종목 비율 19.04%(174/914), 코스닥은 상승 280·하락 1391·보합 66개로 16.12%(280/1737)였다. 우선주 등이 포함된 시장 전체 유효 종목 기준이며 지수 구성 보통주 비율이 아니다. 거래대금은 코스피 14.92조원으로 직전 5거래일 평균의 0.7097배, 코스닥 6.91조원으로 1.2013배였다. 거래대금은 외국인·기관 순매수가 아니다.",
+      "source": "krx",
+      "additional_sources": [
+        "kospi",
+        "kosdaq"
+      ]
+    },
+    {
+      "title": "미국 반도체 6.7% 급락",
+      "fact": "10월22일 미국 정규장 다우는 52867.98(+11.89,+0.02%), S&P500은 7663.43(−93.74,−1.21%), 나스닥은 26008.86(−694.00,−2.60%)로 마감했다. Reuters는 필라델피아 반도체지수가 6.7% 급락했고 Meta −7.0%, Tesla −3.1%, Intel·AMD·Sandisk·Marvell이 각각 8% 넘게 하락했다고 보도했다. AI 투자비와 수익성 우려가 국내 메모리 대형주의 추가 변동성을 키울 수 있으나 미국 기술주 하락만으로 국내 종가를 예단하지 않는다.",
+      "source": "us-market"
+    },
+    {
+      "title": "브렌트 113.17달러·미 10년 4.97%",
+      "fact": "AP는 브렌트유가 4% 오른 배럴당 113.17달러로 5개월 최고치에 도달했고, 미국 10년물 국채금리는 전일 5.13%에서 4.97%로 하락했다고 보도했다. 지정학적 위험에 따른 유가 상승은 항공·운송의 비용 부담이지만 정유는 제품마진·재고평가·원가 상승이 함께 작용해 방향을 단정할 수 없다. 금리 하락은 성장주 할인율에는 완충이지만 이번에는 위험회피와 동시에 나타났다.",
+      "source": "ap-market"
+    },
+    {
+      "title": "한은 3.00% 동결, 23일 통계 공표 없음",
+      "fact": "한국은행은 10월22일 기준금리를 3.00%로 동결했고 Reuters는 성장 전망 상향과 수출 호조를 근거로 긴축적 기조를 유지했다고 보도했다. 한국은행 월간 통계 공표 일정에는 10월23일 항목이 없고, 다음 확인 일정은 10월27일 06:00 소비자동향조사와 08:00 3분기 실질 GDP 속보다. 당일 미확인 발표 시각을 임의로 만들지 않는다.",
+      "source": "bok-rate",
+      "additional_sources": [
+        "bok-calendar"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "214,500",
+      "currency": "KRW",
+      "delta": "−9,000",
+      "percent": "−4.03",
+      "direction": "down",
+      "source": "price-005930",
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 2026.10.22 정규장 종가",
+      "reason": "전일 급락 뒤 미국 반도체지수 6.7% 하락의 국내 전달과 214,500원 방어를 확인할 지수 핵심 종목이다.",
+      "watch": "KRX 214,500원 회복·유지와 SK하이닉스 동반 강도, 외국인 현물 수급을 확인한다.",
+      "reason_sources": [
+        "price-005930",
+        "us-market"
+      ]
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,223,000",
+      "currency": "KRW",
+      "delta": "−71,000",
+      "percent": "−5.49",
+      "direction": "down",
+      "source": "price-000660",
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 2026.10.22 정규장 종가",
+      "reason": "AI 투자수익성 우려에 가장 민감한 국내 메모리 대형주로, 미국 반도체 급락의 추가 충격을 확인한다.",
+      "watch": "KRX 1,223,000원 유지와 삼성전자 대비 상대강도, 외국인 현물 수급을 확인한다.",
+      "reason_sources": [
+        "price-000660",
+        "us-market"
+      ]
+    },
+    {
+      "name": "대한항공",
+      "ticker": "003490",
+      "price": "26,450",
+      "currency": "KRW",
+      "delta": "−800",
+      "percent": "−2.94",
+      "direction": "down",
+      "source": "price-003490",
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 2026.10.22 정규장 종가",
+      "reason": "브렌트유 113.17달러가 연료비 부담으로 번지는지 볼 운송 대표 종목이다.",
+      "watch": "KRX 26,450원 유지와 유가·원달러의 동행, 운송지수 대비 상대강도를 확인한다.",
+      "reason_sources": [
+        "price-003490",
+        "ap-market",
+        "krx"
+      ]
+    },
+    {
+      "name": "S-Oil",
+      "ticker": "010950",
+      "price": "138,900",
+      "currency": "KRW",
+      "delta": "−9,000",
+      "percent": "−6.09",
+      "direction": "down",
+      "source": "price-010950",
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "session": "KRX 2026.10.22 정규장 종가",
+      "reason": "유가 급등이 정유사에 단순 호재인지, 원가·수요 부담인지 실제 가격으로 구분할 종목이다.",
+      "watch": "KRX 138,900원 회복과 정유업종 동반 강도, 제품마진·유가 후속 흐름을 확인한다.",
+      "reason_sources": [
+        "price-010950",
+        "ap-market"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026.10.23 09:00 KST",
+      "title": "KRX 개장과 반도체 동반 강도",
+      "detail": "삼성전자 214,500원·SK하이닉스 1,223,000원 유지, 외국인 현물 방향과 상승 종목 확산을 확인한다."
+    },
+    {
+      "label": "2026.10.23 15:30 KST",
+      "title": "정규장 종가와 시장폭",
+      "detail": "코스피 5,533.77 유지, 상승 종목 비율 30% 회복 여부와 반도체·운송·정유 종가를 확인한다."
+    },
+    {
+      "label": "2026.10.27 06:00·08:00 KST",
+      "title": "한국 소비심리와 3분기 GDP",
+      "detail": "한국은행 소비자동향조사와 3분기 실질 GDP 속보의 공식 수치·시장 반응을 순서대로 확인한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 2026 휴장 안내",
+      "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+      "note": "공식 2026 휴장 구간과 거래일 안내를 대조. 10월23일 금요일은 휴장 구간 밖이며 조기폐장 공지가 없어 정상 거래일로 판단.",
+      "queried_at": "2026-10-23T08:29:30+09:00"
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 거래일·정규장 시간",
+      "url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+      "note": "월~금 개장, 정규장 09:00~15:30 KST 공식 안내.",
+      "queried_at": "2026-10-23T08:29:30+09:00"
+    },
+    {
+      "id": "krx",
+      "label": "한국거래소 · 10월22일 일별 통계",
+      "url": "https://openapi.krx.co.kr/contents/OPP/INFO/service/OPPINFO004.cmd",
+      "note": "이번 요청 커밋 32856ed9156bf37e29ba6dd9b965ab7c699972f0, Collect KRX briefing inputs run 39872202615 completed/success, artifact 12466477405, digest sha256:b1533cc7fd2cf64c14c699dd4c50dc1fec6ee8a9fd3d1a11bca87a7de7cad81b. data_date=2026-10-22, queried_at=2026-10-23T08:32:47+09:00. 배당·분할 미보정 가격수익률, 우선주 등 포함 시장폭, 거래대금은 순매수 아님.",
+      "queried_at": "2026-10-23T08:32:47+09:00"
+    },
+    {
+      "id": "kospi",
+      "label": "네이버 증권 · 코스피 10월22일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/price?pageSize=3&page=1",
+      "note": "10월23일 08:30 KST 직접조회. 10월22일 5533.77,−201.89,−3.52%를 확인.",
+      "queried_at": "2026-10-23T08:30:45+09:00"
+    },
+    {
+      "id": "kosdaq",
+      "label": "네이버 증권 · 코스닥 10월22일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/price?pageSize=3&page=1",
+      "note": "10월23일 08:30 KST 직접조회. 10월22일 764.10,−28.66,−3.62%를 확인.",
+      "queried_at": "2026-10-23T08:30:45+09:00"
+    },
+    {
+      "id": "us-market",
+      "label": "Reuters · 10월22일 미국장 마감",
+      "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/",
+      "note": "미국 지수 종가와 등락, 필라델피아 반도체 −6.7%, Meta·Tesla·반도체 종목 반응을 확인.",
+      "queried_at": "2026-10-23T08:31:40+09:00"
+    },
+    {
+      "id": "ap-market",
+      "label": "AP · AI 급락·유가·금리",
+      "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
+      "note": "브렌트 113.17달러,+4%, 미국 10년물 4.97%, 기술주와 시장폭 차이를 확인.",
+      "queried_at": "2026-10-23T08:31:42+09:00"
+    },
+    {
+      "id": "bok-rate",
+      "label": "Reuters · 한국은행 3.00% 동결",
+      "url": "https://www.reuters.com/world/asia-pacific/bank-korea-holds-rates-after-back-to-back-hikes-2026-10-22/",
+      "note": "10월22일 기준금리 3.00% 동결, 성장 전망 상향과 긴축적 기조를 확인.",
+      "queried_at": "2026-10-23T08:32:10+09:00"
+    },
+    {
+      "id": "bok-calendar",
+      "label": "한국은행 · 10월 통계 일정",
+      "url": "https://www.bok.or.kr/portal/stats/statsPublictSchdul/listCldr.do?menuNo=200775",
+      "note": "10월23일 공표 항목이 없고 10월27일 06:00 소비자동향조사, 08:00 3분기 실질 GDP 속보가 예정됨을 확인.",
+      "queried_at": "2026-10-23T08:31:45+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "네이버·하나은행 · 달러 고시환율",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "10월23일 08:28:09 KST 하나은행 고시회차 1326.50원, 보합. 서울외환시장 현물 종가 아님.",
+      "queried_at": "2026-10-23T08:31:19+09:00"
+    },
+    {
+      "id": "price-005930",
+      "label": "네이버 증권 · 삼성전자 KRX",
+      "url": "https://m.stock.naver.com/api/stock/005930/price?pageSize=3&page=1",
+      "note": "10월22일 KRX 정규장 종가 214500원,−9000,−4.03%를 확인.",
+      "queried_at": "2026-10-23T08:30:46+09:00"
+    },
+    {
+      "id": "price-000660",
+      "label": "네이버 증권 · SK하이닉스 KRX",
+      "url": "https://m.stock.naver.com/api/stock/000660/price?pageSize=3&page=1",
+      "note": "10월22일 KRX 정규장 종가 1223000원,−71000,−5.49%를 확인.",
+      "queried_at": "2026-10-23T08:30:53+09:00"
+    },
+    {
+      "id": "price-003490",
+      "label": "네이버 증권 · 대한항공 KRX",
+      "url": "https://m.stock.naver.com/api/stock/003490/price?pageSize=3&page=1",
+      "note": "10월22일 KRX 정규장 종가 26450원,−800,−2.94%를 확인.",
+      "queried_at": "2026-10-23T08:31:00+09:00"
+    },
+    {
+      "id": "price-010950",
+      "label": "네이버 증권 · S-Oil KRX",
+      "url": "https://m.stock.naver.com/api/stock/010950/price?pageSize=3&page=1",
+      "note": "10월22일 KRX 정규장 종가 138900원,−9000,−6.09%를 확인.",
+      "queried_at": "2026-10-23T08:31:19+09:00"
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+    "market_date": "2026-10-23",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-23T08:29:30+09:00",
+    "note": "KRX 공식 2026 휴장 구간표와 거래일·정규장 시간 안내를 대조. 10월23일 금요일은 휴장 구간 밖이며 09:00~15:30 정상장. 이전 거래일 10월22일, d5는 10월23·26·27·28·29일.",
+    "additional_urls": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-10-23T08:30:00+09:00",
+    "scheduled_start_utc": "2026-10-22T23:30:00+00:00",
+    "actual_start_kst": "2026-10-23T08:28:33+09:00",
+    "actual_start_utc": "2026-10-22T23:28:33+00:00",
+    "start_offset_seconds": -87,
+    "delay_seconds": 0,
+    "early_seconds": 87,
+    "environment": "지원 클라우드 Bash/Python 실행 공간, 연결된 GitHub 읽기·쓰기·Actions 조회, 연결된 Kakao self-send 도구 확인. 토큰 미출력.",
+    "model_setting": "not_verified",
+    "krx_request_commit": "32856ed9156bf37e29ba6dd9b965ab7c699972f0",
+    "krx_run_id": 39872202615,
+    "krx_artifact_id": 12466477405,
+    "krx_artifact_sha256": "b1533cc7fd2cf64c14c699dd4c50dc1fec6ee8a9fd3d1a11bca87a7de7cad81b",
+    "krx_data_date": "2026-10-22",
+    "krx_queried_at": "2026-10-23T08:32:47+09:00",
+    "additional_http_check": "not_performed_user_instruction",
+    "browser_check": "not_performed_user_instruction"
+  },
+  "reading": {
+    "headline": "AI·유가 충격, 반도체와 운송 방어 확인",
+    "summary_points": [
+      "코스피 −3.52%, 상승 종목 비율은 19.04%였다.",
+      "나스닥 −2.60%·미 반도체 −6.7%로 마감했다.",
+      "브렌트 113.17달러, 항공·정유 반응을 본다."
+    ],
+    "notices": [
+      "기본 가격·등락률은 10월22일 KRX 정규장 종가다.",
+      "KRX 통계는 일별 자료이며 미래 확률이 아니다. 원·달러는 하나은행 고시회차다."
+    ],
+    "issues": [
+      {
+        "title": "전일 3.5%대 급락, 하락 확산",
+        "preview": "낙폭보다 상승 종목 비율 회복을 먼저 본다.",
+        "points": [
+          "코스피 −3.52%, 코스닥 −3.62%였다.",
+          "상승 종목 비율은 각각 19.04%·16.12%였다."
+        ],
+        "meaning": "지수 반등만으로 시장 전반의 회복을 판단하지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월23일 종가를 10월22일 종가와 비교. 급락 뒤 기술적 반등 여지가 있다.",
+            "counter": "코스피는 MA20·MA60 아래이고 상승 종목 비율이 19.04%다.",
+            "invalidation": "코스피 5533.77 유지와 상승 종목 비율 30% 회복이 동반되면 개선, 반대면 약화한다.",
+            "sources": [
+              "krx",
+              "kospi",
+              "kosdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월29일 종가를 10월22일 종가와 비교하는 5거래일. 과매도 뒤 회복 시도가 가능하다.",
+            "counter": "코스피 20거래일 가격수익률은 −19.7333%이고 하락 추세 조건이다.",
+            "invalidation": "연속 종가 유지와 시장폭 회복이면 개선, 전일 저점 이탈·하락 확산이면 약화한다.",
+            "sources": [
+              "krx",
+              "kospi"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 반도체 6.7% 급락",
+        "preview": "AI 투자비 우려의 국내 추가 전달을 확인한다.",
+        "points": [
+          "나스닥은 −2.60%, 반도체지수는 −6.7%였다.",
+          "Meta −7.0%, 주요 반도체주는 8% 넘게 내렸다."
+        ],
+        "meaning": "국내 반도체의 전일 종가 유지와 수급을 우선 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "국내 반도체",
+            "basis": "미국 반도체지수 급락과 AI 투자수익성 우려는 개장 심리에 부담이다.",
+            "counter": "미 10년물 금리 하락과 국내 전일 선반영은 낙폭을 완충할 수 있다.",
+            "invalidation": "삼성전자·SK하이닉스가 기준가격을 회복하고 시장보다 강하면 하방 해석을 낮춘다.",
+            "sources": [
+              "us-market",
+              "price-005930",
+              "price-000660"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "미국 AI 투자비 논쟁과 SOX 약세가 5거래일 변동성을 높일 수 있다.",
+            "counter": "메모리 수요와 개별 실적·수급이 지수 충격과 다르게 움직일 수 있다.",
+            "invalidation": "미국 반도체 후속 종가와 국내 외국인 수급·상대강도 확인 뒤 재판단한다.",
+            "sources": [
+              "us-market",
+              "krx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "브렌트 113.17달러·미 10년 4.97%",
+        "preview": "유가 충격과 안전자산 금리 하락이 엇갈린다.",
+        "points": [
+          "브렌트유는 +4%로 113.17달러였다.",
+          "미 10년물 금리는 5.13%에서 4.97%로 내렸다."
+        ],
+        "meaning": "항공 비용 부담과 정유 수익성 기대를 분리해 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "항공·정유·성장주",
+            "basis": "유가 상승은 항공에 부담이고 정유에는 재고·마진 기대가 될 수 있다.",
+            "counter": "정유도 원가·수요 부담이 있고 금리 하락은 위험회피 신호와 함께 나타났다.",
+            "invalidation": "대한항공·S-Oil의 업종 대비 종가와 유가 후속 흐름이 반대면 해석을 낮춘다.",
+            "sources": [
+              "ap-market",
+              "price-003490",
+              "price-010950"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "항공·정유·성장주",
+            "basis": "유가와 장기금리의 지속 방향이 5거래일 업종 차별화를 만들 수 있다.",
+            "counter": "지정학 뉴스와 정책 기대에 하루 만에 방향이 바뀔 수 있다.",
+            "invalidation": "브렌트·미 10년물·원달러와 업종 종가의 동행 여부를 확인해 재판단한다.",
+            "sources": [
+              "ap-market",
+              "fx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한은 3.00% 동결, 오늘 통계 없음",
+        "preview": "긴축 기조는 남고 다음 국내 지표는 27일이다.",
+        "points": [
+          "기준금리는 3.00%로 동결됐다.",
+          "23일 통계 공표는 없고 27일 GDP가 예정됐다."
+        ],
+        "meaning": "오늘은 예정 수치보다 주가·유가·수급 반응이 우선이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 금리민감주",
+            "basis": "동결은 즉각적 추가 긴축 충격을 제한한다.",
+            "counter": "성장 전망 상향과 긴축적 기조는 금리민감주에 부담일 수 있다.",
+            "invalidation": "국고채 금리와 성장·금융주 상대강도 확인 뒤 재판단한다.",
+            "sources": [
+              "bok-rate",
+              "bok-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 지수·금리민감주",
+            "basis": "10월27일 소비심리와 GDP가 성장·금리 기대를 바꿀 수 있다.",
+            "counter": "공식 수치 발표 전 방향을 확정할 수 없다.",
+            "invalidation": "공식 발표와 채권·주식 반응 확인 뒤 재판단한다.",
+            "sources": [
+              "bok-calendar",
+              "bok-rate"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "미국 반도체 급락의 국내 전달과 지수 방어력을 볼 핵심 종목이다.",
+        "watch": "KRX 214500원 유지와 하이닉스 동반 강도·외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "삼성전자",
+            "basis": "미국 반도체 −6.7%는 개장 심리에 부담이다.",
+            "counter": "전일 −4.03% 하락으로 일부 충격이 선반영됐을 수 있다.",
+            "invalidation": "KRX 214500원 회복·유지와 시장 대비 강도가 나타나면 하방 해석을 낮춘다.",
+            "sources": [
+              "price-005930",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "AI 투자 논쟁에도 메모리 수요와 개별 실적이 완충할 수 있다.",
+            "counter": "지수 하락 추세와 SOX 약세가 남았다.",
+            "invalidation": "10월29일 종가의 214500원 유지와 외국인 수급 확인 뒤 재판단한다.",
+            "sources": [
+              "price-005930",
+              "krx",
+              "us-market"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "AI 투자수익성 우려에 가장 민감한 국내 메모리 대형주다.",
+        "watch": "KRX 1223000원 유지와 삼성전자 대비 강도·외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스",
+            "basis": "미국 반도체 급락은 고베타 메모리주에 부담이다.",
+            "counter": "전일 −5.49% 하락과 개별 수급은 낙폭을 완충할 수 있다.",
+            "invalidation": "KRX 1223000원 회복·유지와 삼성전자 대비 강도가 나타나면 하방 해석을 낮춘다.",
+            "sources": [
+              "price-000660",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "AI 서버 수요와 메모리 공급 여건은 5거래일 완충 재료다.",
+            "counter": "AI 자금조달·투자효율 우려와 높은 변동성이 남았다.",
+            "invalidation": "10월29일 종가와 미국 반도체 후속 흐름·외국인 수급 확인 뒤 재판단한다.",
+            "sources": [
+              "price-000660",
+              "krx",
+              "us-market"
+            ]
+          }
+        }
+      },
+      "003490": {
+        "reason": "브렌트 113.17달러의 연료비 부담을 확인할 운송 대표 종목이다.",
+        "watch": "KRX 26450원 유지와 유가·원달러, 운송지수 대비 강도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "대한항공",
+            "basis": "유가 급등은 항공유 비용 부담을 키울 수 있다.",
+            "counter": "운임·헤지·환율과 이미 반영된 기대가 실제 손익을 달리 만들 수 있다.",
+            "invalidation": "KRX 26450원 유지와 운송지수 대비 강세가 나타나면 하방 해석을 낮춘다.",
+            "sources": [
+              "price-003490",
+              "ap-market",
+              "krx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "대한항공",
+            "basis": "유가가 고점에서 유지되면 비용 부담이 이어질 수 있다.",
+            "counter": "유가 되돌림·운임 강세·헤지가 완충할 수 있다.",
+            "invalidation": "브렌트 후속 흐름과 10월29일 종가의 26450원 유지 여부로 재판단한다.",
+            "sources": [
+              "price-003490",
+              "ap-market"
+            ]
+          }
+        }
+      },
+      "010950": {
+        "reason": "유가 급등의 정유업 이익·원가 효과를 실제 가격으로 구분한다.",
+        "watch": "KRX 138900원 회복과 정유 동반 강도·제품마진을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "S-Oil",
+            "basis": "유가 상승은 재고평가·마진 기대를 높일 수 있다.",
+            "counter": "원가 상승·수요 둔화 우려와 전일 −6.09% 약세가 남았다.",
+            "invalidation": "KRX 138900원 회복과 업종 동반 강세가 없으면 긍정 해석을 낮춘다.",
+            "sources": [
+              "price-010950",
+              "ap-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "S-Oil",
+            "basis": "유가 고점 유지와 제품마진 개선은 5거래일 재평가 근거가 될 수 있다.",
+            "counter": "유가 급등이 원가·수요 압력으로 작용할 수 있다.",
+            "invalidation": "브렌트·제품마진과 10월29일 종가의 138900원 회복 여부로 재판단한다.",
+            "sources": [
+              "price-010950",
+              "ap-market"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "KRX 개장과 반도체 동반 강도",
+        "detail": "전일 종가 유지·외국인 현물·상승 종목 확산을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피·국내 반도체",
+            "basis": "개장 전에는 KRX 결과를 예상 수치로 채우지 않는다.",
+            "counter": "미국 기술주 급락이 국내 종가와 동일하지 않을 수 있다.",
+            "invalidation": "09:00 이후 실제 가격·수급 확인 뒤 재판단한다.",
+            "sources": [
+              "hours",
+              "us-market"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·국내 반도체",
+            "basis": "5거래일 판단은 10월29일 종가로 한다.",
+            "counter": "첫날 장중 반응만으로 추세를 확정하지 않는다.",
+            "invalidation": "연속 종가·시장폭·수급 확인 뒤 재판단한다.",
+            "sources": [
+              "krx",
+              "hours"
+            ]
+          }
+        }
+      },
+      {
+        "title": "정규장 종가와 시장폭",
+        "detail": "코스피 5533.77 유지, 상승 종목 비율 30% 회복과 관찰 종목 종가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피·관찰 종목",
+            "basis": "장전에는 종가와 시장폭이 미확정이다.",
+            "counter": "지수 반등과 상승 종목 확산은 다를 수 있다.",
+            "invalidation": "15:30 실제 종가·시장폭 확인 뒤 재판단한다.",
+            "sources": [
+              "krx",
+              "kospi"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·관찰 종목",
+            "basis": "5거래일 평가는 10월29일 종가로 한다.",
+            "counter": "하루 종가만으로 추세 전환을 확정하지 않는다.",
+            "invalidation": "연속 종가와 시장 대비 강도 확인 뒤 재판단한다.",
+            "sources": [
+              "krx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국 소비심리와 3분기 GDP",
+        "detail": "10월27일 06:00·08:00 KST 공식 수치와 채권·주식 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 금리·지수",
+            "basis": "발표 전 실제 수치는 미확인이다.",
+            "counter": "오늘 장은 발표보다 미국 기술주·유가·수급 영향이 우선이다.",
+            "invalidation": "10월27일 공식 수치 확인 뒤 재판단한다.",
+            "sources": [
+              "bok-calendar"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 금리·지수",
+            "basis": "GDP와 소비심리가 5거래일 성장·금리 기대를 바꿀 수 있다.",
+            "counter": "한 번의 지표만으로 정책 경로를 확정할 수 없다.",
+            "invalidation": "공식 수치와 채권·주식 반응 확인 뒤 재판단한다.",
+            "sources": [
+              "bok-calendar",
+              "bok-rate"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "코스피 5533.77 유지와 상승 종목 비율 30% 회복을 함께 본다.",
+      "미국 기술주·유가 충격을 국내 종가로 확인하기 전 확정하지 않는다.",
+      "당일·5거래일 전망은 검증 전 조건부 해석이며 상승 확률이 아니다."
+    ],
+    "source_labels": {
+      "calendar": "KRX · 2026 휴장 안내",
+      "hours": "KRX · 거래일·정규장 시간",
+      "krx": "한국거래소 · 10월22일 통계",
+      "kospi": "네이버 · 코스피 10월22일",
+      "kosdaq": "네이버 · 코스닥 10월22일",
+      "us-market": "Reuters · 미국장 마감",
+      "ap-market": "AP · AI 급락·유가·금리",
+      "bok-rate": "Reuters · 한국은행 금리",
+      "bok-calendar": "한국은행 · 10월 통계 일정",
+      "fx": "네이버·하나은행 · 달러 고시환율",
+      "price-005930": "네이버 · 삼성전자 KRX",
+      "price-000660": "네이버 · SK하이닉스 KRX",
+      "price-003490": "네이버 · 대한항공 KRX",
+      "price-010950": "네이버 · S-Oil KRX"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-23T08:33:30+09:00",
+      "input_cutoff": "2026-10-23T08:33:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "검증 전 조건부 해석이며 매매 신호·상승 확률이 아닙니다. 오늘과 10월29일 종가를 10월22일 KRX 종가와 비교합니다."
+    }
+  }
+}

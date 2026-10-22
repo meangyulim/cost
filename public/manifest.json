@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-22",
+  "latest_id": "kr-pre-2026-10-23",
   "reports": [
+    {
+      "id": "kr-pre-2026-10-23",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-10-23",
+      "title": "10월 23일 한국장 시작 전",
+      "summary": "AI·유가 충격, 반도체와 운송 방어 확인",
+      "as_of": "2026-10-23T08:33:30+09:00",
+      "path": "reports/kr-pre-2026-10-23/"
+    },
     {
       "id": "us-close-2026-10-22",
       "is_test": false,
