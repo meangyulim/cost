@@ -1,10 +1,11 @@
 {
-  "end_date": "2026-10-21",
+  "end_date": "2026-10-22",
   "watch": [
     "META",
     "TSLA",
-    "IBM",
-    "LRCX"
+    "LRCX",
+    "NVDA",
+    "PG"
   ],
-  "requested_at": "2026-10-22T22:00:10+09:00"
+  "requested_at": "2026-10-23T05:16:34+09:00"
 }
