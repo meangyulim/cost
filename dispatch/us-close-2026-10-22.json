@@ -1,0 +1,24 @@
+{
+  "id": "us-close-2026-10-22",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-23T05:28:54+09:00",
+  "attempted_at_utc": "2026-10-22T20:28:54Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-10-22/",
+  "deploy_commit": "b6b59ed40dc343a618f97e1e82ed9260ff2868aa",
+  "deployment": {
+    "workflow": "Deploy static briefing site",
+    "run_id": 39849022429,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success"
+  },
+  "inspections": {
+    "http": "not_performed",
+    "browser": "not_performed",
+    "mobile_zoom": "not_performed"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false
+}
