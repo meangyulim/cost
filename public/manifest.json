@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-22",
+  "latest_id": "kr-close-2026-10-22",
   "reports": [
+    {
+      "id": "kr-close-2026-10-22",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-22",
+      "title": "10월 22일 한국장 마감",
+      "summary": "반도체 재약세, 반등 하루 만에 반납",
+      "as_of": "2026-10-22T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-22/"
+    },
     {
       "id": "kr-pre-2026-10-22",
       "is_test": false,
