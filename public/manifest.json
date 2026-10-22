@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-22",
+  "latest_id": "us-pre-2026-10-22",
   "reports": [
+    {
+      "id": "us-pre-2026-10-22",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-22",
+      "title": "2026.10.22 미국장 시작 전 브리핑",
+      "summary": "AI 투자 부담과 유가 급등에 기술주 선물 급락",
+      "as_of": "2026-10-22T22:06:51+09:00",
+      "path": "reports/us-pre-2026-10-22/"
+    },
     {
       "id": "kr-close-2026-10-22",
       "is_test": false,

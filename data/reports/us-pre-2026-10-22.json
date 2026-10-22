@@ -1,0 +1,807 @@
+{
+  "id": "us-pre-2026-10-22",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-22",
+  "title": "2026.10.22 미국장 시작 전 브리핑",
+  "venue": "NYSE·Nasdaq · 2026-10-22 정상장 22:30 KST~2026-10-23 05:00 KST(10/22 09:30~16:00 EDT)",
+  "as_of": "2026-10-22T22:06:51+09:00",
+  "queried_at": "2026-10-22T22:06:51+09:00",
+  "summary": "AI 투자 부담과 유가 급등에 기술주 선물 급락",
+  "summary_detail": "Meta·Tesla·IBM·Lam Research의 실적 숫자보다 설비투자와 높은 기대치가 부각됐다. 신규 실업수당은 낮았지만 유가 112달러와 안전선호가 나스닥100 선물을 2% 가까이 끌어내려 장전 약세를 정규장까지 추적해야 한다.",
+  "interpretation": "장전 가격은 유동성이 얕고 정규장 종가와 다를 수 있다. 실적 상회가 주가 상승을 보장하지 않으며 투자 규모·가이던스·이미 반영된 기대를 분리한다. 조건부 방향은 확률이나 매매 신호가 아니다.",
+  "calculation_notes": "지수와 종목은 원문 표시 정밀도를 사용했고 등락률로 가격을 역산하지 않았다. 장전 가격은 전일 정규장 종가 대비 별도 구간이다. Massive 상대수익률은 각 종목 분할보정 가격수익률에서 SPY 수익률을 단순 차감했다. 시장 폭은 7462/12376×100=60.29%이며 ETF·우선주·워런트 등을 포함해 보통주만의 비율이 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,757.17",
+      "unit": "pt",
+      "delta": "+44.60",
+      "percent": "+0.58",
+      "direction": "up",
+      "source": "spx",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,702.86",
+      "unit": "pt",
+      "delta": "+278.04",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "nas",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,856.09",
+      "unit": "pt",
+      "delta": "+360.21",
+      "percent": "+0.69",
+      "direction": "up",
+      "source": "dow",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가(16:00 EDT)"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "메타 플랫폼스",
+      "ticker": "META",
+      "price": "697.52",
+      "currency": "USD",
+      "delta": "+3.27",
+      "percent": "+0.47",
+      "direction": "up",
+      "source": "qMETA",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가 · Nasdaq",
+      "reason": "매출 성장과 대규모 AI 투자·신주 구조의 충돌을 본다.",
+      "watch": "장전 낙폭과 1,350억~1,450억USD 연간 설비투자 계획을 함께 확인한다.",
+      "reason_sources": [
+        "meta",
+        "qMETA",
+        "massive"
+      ],
+      "premarket": {
+        "price": "680.55",
+        "currency": "USD",
+        "delta": "−16.97",
+        "percent": "−2.43",
+        "as_of": "2026-10-22T21:59:41+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-22 EDT",
+        "comparison": "2026-10-21 정규장 종가 대비",
+        "source": "qMETA"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-21",
+        "return_5_sessions_pct": -5.4261,
+        "return_20_sessions_pct": -6.2599,
+        "relative_to_spy_5_pct_points": -5.8796,
+        "relative_to_spy_20_pct_points": -6.9476,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.6768,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "386.47",
+      "currency": "USD",
+      "delta": "+12.76",
+      "percent": "+3.41",
+      "direction": "up",
+      "source": "qTSLA",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가 · Nasdaq",
+      "reason": "예상 밖 현금흐름과 연간 설비투자 축소의 해석을 본다.",
+      "watch": "정규장에서 350억→200억USD 투자 축소 우려가 이어지는지 확인한다.",
+      "reason_sources": [
+        "tesla",
+        "qTSLA",
+        "massive"
+      ],
+      "premarket": {
+        "price": "372.44",
+        "currency": "USD",
+        "delta": "−14.03",
+        "percent": "−3.63",
+        "as_of": "2026-10-22T21:59:45+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-22 EDT",
+        "comparison": "2026-10-21 정규장 종가 대비",
+        "source": "qTSLA"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-21",
+        "return_5_sessions_pct": 5.2593,
+        "return_20_sessions_pct": 1.6705,
+        "relative_to_spy_5_pct_points": 4.8058,
+        "relative_to_spy_20_pct_points": 0.9828,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.2812,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "IBM",
+      "ticker": "IBM",
+      "price": "251.46",
+      "currency": "USD",
+      "delta": "+9.54",
+      "percent": "+3.94",
+      "direction": "up",
+      "source": "qIBM",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가 · NYSE",
+      "reason": "실적 상회 뒤에도 장전 급락해 기대치 재평가가 핵심이다.",
+      "watch": "소프트웨어 성장과 현금흐름 전망이 230USD대에서 지지를 만드는지 본다.",
+      "reason_sources": [
+        "ibm",
+        "qIBM",
+        "massive"
+      ],
+      "premarket": {
+        "price": "232.21",
+        "currency": "USD",
+        "delta": "−19.25",
+        "percent": "−7.66",
+        "as_of": "2026-10-22T22:05:33+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-22 EDT",
+        "comparison": "2026-10-21 정규장 종가 대비",
+        "source": "qIBM"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-21",
+        "return_5_sessions_pct": 10.3476,
+        "return_20_sessions_pct": 8.034,
+        "relative_to_spy_5_pct_points": 9.8941,
+        "relative_to_spy_20_pct_points": 7.3463,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.8391,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "램리서치",
+      "ticker": "LRCX",
+      "price": "260.81",
+      "currency": "USD",
+      "delta": "−2.64",
+      "percent": "−1.00",
+      "direction": "down",
+      "source": "qLRCX",
+      "as_of": "2026-10-22T05:00:00+09:00",
+      "session": "2026-10-21 미국 정규장 종가 · Nasdaq",
+      "reason": "기록적 실적에도 장전 10%대 하락해 높은 눈높이를 점검한다.",
+      "watch": "86억USD±4억USD 다음 분기 매출 전망과 반도체 업종 동행을 확인한다.",
+      "reason_sources": [
+        "lrcx",
+        "qLRCX",
+        "massive"
+      ],
+      "premarket": {
+        "price": "234.64",
+        "currency": "USD",
+        "delta": "−26.17",
+        "percent": "−10.03",
+        "as_of": "2026-10-22T22:05:09+09:00",
+        "session": "미국 PRE_MARKET · 2026-10-22 EDT",
+        "comparison": "2026-10-21 정규장 종가 대비",
+        "source": "qLRCX"
+      },
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-21",
+        "return_5_sessions_pct": -9.1001,
+        "return_20_sessions_pct": -15.123,
+        "relative_to_spy_5_pct_points": -9.5536,
+        "relative_to_spy_20_pct_points": -15.8107,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 1.5018,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률·선반영 증명이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    }
+  ],
+  "fx": {
+    "label": "USD/KRW",
+    "value": "1,325.90",
+    "unit": "KRW",
+    "delta": "−1.60",
+    "direction": "down",
+    "as_of": "2026-10-22T21:59:53+09:00",
+    "session": "하나은행 고시회차 682 · 실시간 거래소 체결가 아님",
+    "source": "fx"
+  },
+  "macro": [
+    {
+      "name": "신규 실업수당",
+      "value": "194",
+      "unit": "천 건",
+      "percent": "전주 대비 −6천",
+      "as_of": "2026-10-22T21:30:00+09:00",
+      "source": "dol",
+      "note": "10/17 종료 주간 계절조정 잠정치; 전주 수정 200천 건."
+    },
+    {
+      "name": "Brent 선물",
+      "value": "약 112",
+      "unit": "USD/배럴",
+      "percent": "+3%대",
+      "as_of": "2026-10-22T17:56:00+09:00",
+      "source": "reuters",
+      "note": "Reuters 04:56 EDT 기사 스냅샷. 실시간 체결가가 아님."
+    },
+    {
+      "name": "미국 10년물",
+      "value": "약 5.085",
+      "unit": "%",
+      "percent": "미확인",
+      "as_of": "2026-10-22T17:56:00+09:00",
+      "source": "reuters",
+      "note": "Reuters 기사 스냅샷. 정확한 체결시각·변동폭 미제공."
+    }
+  ],
+  "issues": [
+    {
+      "title": "기술주 선물, AI 비용에 급랭",
+      "fact": "Reuters 04:56 EDT 기준 다우 E-mini −367pt(−0.69%), S&P 500 E-mini −85.5pt(−1.10%), 나스닥100 E-mini −578.5pt(−1.93%). Brent는 112USD 부근, 미 10년물 수익률은 약 5.085%로 안전선호와 유가 충격이 겹쳤다.",
+      "source": "reuters",
+      "additional_sources": [
+        "massive"
+      ]
+    },
+    {
+      "title": "Meta·Tesla, 호실적 속 투자 논쟁",
+      "fact": "Meta Q3 매출 646.01억USD(+26% YoY), FCF −21.2억USD, 2026 설비투자 1,350억~1,450억USD. Tesla Q3 매출 280.46억USD, 영업이익 7.18억USD, FCF 15.31억USD이며 연간 설비투자 전망을 350억USD 이상에서 약 200억USD로 낮췄다. 장전 META −2.43%, TSLA −3.63%.",
+      "source": "meta",
+      "additional_sources": [
+        "tesla",
+        "reuters",
+        "qMETA",
+        "qTSLA"
+      ]
+    },
+    {
+      "title": "고용은 견조, 실적주는 급락",
+      "fact": "미 노동부는 10/17 주간 신규 실업수당 19.4만 건(전주 수정 20.0만, −0.6만), 계속 실업수당 172.8만 건(+2.5만)을 발표했다. IBM과 Lam Research는 실적을 웃돌았지만 장전 각각 −7.66%, −10.03%로 높은 기대치 부담이 드러났다.",
+      "source": "dol",
+      "additional_sources": [
+        "ibm",
+        "lrcx",
+        "qIBM",
+        "qLRCX"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-22 22:30 KST",
+      "title": "정규장 개장",
+      "detail": "10/22 09:30 EDT; 나스닥100 선물 낙폭과 META·TSLA·IBM·LRCX 장전 갭 유지 여부를 확인한다."
+    },
+    {
+      "label": "2026-10-22 23:00 KST",
+      "title": "첫 30분 가격 확인",
+      "detail": "반도체·대형기술주의 동반 하락과 미 10년물·유가 방향을 대조한다."
+    },
+    {
+      "label": "2026-10-23 장전",
+      "title": "PMI·심리 지표 준비",
+      "detail": "10/23 발표 예정 지표의 공식 시각과 기업 가이던스 후속 반응을 확인한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026 공식 휴장·조기폐장 목록과 core 09:30~16:00 ET 확인. 10/22 정상장."
+    },
+    {
+      "id": "nasdaq-cal",
+      "label": "Nasdaq · 2026 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "월~금 09:30~16:00 ET와 2026 휴장·조기폐장 목록 대조. 10/22 정상장."
+    },
+    {
+      "id": "reuters",
+      "label": "Reuters · 10월 22일 장전",
+      "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/",
+      "note": "04:56 EDT 선물·유가·10년물 및 개별주 장전 흐름. 기사 스냅샷."
+    },
+    {
+      "id": "dol",
+      "label": "미 노동부 · 주간 실업수당",
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "note": "10/22 08:30 EDT 발표. 10/17 주간 신규 194천, 계속 1,728천."
+    },
+    {
+      "id": "meta",
+      "label": "Meta · 2026년 3분기 실적",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "note": "Q3 매출·현금흐름·설비투자·4분기 가이던스·Class C 주식."
+    },
+    {
+      "id": "tesla",
+      "label": "Tesla · 2026년 3분기 업데이트",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+      "note": "Q3 매출·영업이익·현금흐름과 투자 전망."
+    },
+    {
+      "id": "ibm",
+      "label": "IBM · 2026년 3분기 실적",
+      "url": "https://newsroom.ibm.com/2026-10-21-IBM-RELEASES-THIRD-QUARTER-RESULTS",
+      "note": "매출 171억USD, 소프트웨어 매출 8% 성장과 전망."
+    },
+    {
+      "id": "lrcx",
+      "label": "Lam Research · 2026년 9월 분기 실적",
+      "url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
+      "note": "매출 82.2억USD, 비GAAP EPS 2.20USD, 다음 분기 가이던스."
+    },
+    {
+      "id": "qMETA",
+      "label": "Naver · META 종가·장전",
+      "url": "https://api.stock.naver.com/stock/META.O/basic",
+      "note": "10/21 정규장 종가와 10/22 08:59:41 EDT 장전 분리."
+    },
+    {
+      "id": "qTSLA",
+      "label": "Naver · TSLA 종가·장전",
+      "url": "https://api.stock.naver.com/stock/TSLA.O/basic",
+      "note": "10/21 정규장 종가와 10/22 08:59:45 EDT 장전 분리."
+    },
+    {
+      "id": "qIBM",
+      "label": "Naver · IBM 종가·장전",
+      "url": "https://api.stock.naver.com/stock/IBM/basic",
+      "note": "10/21 정규장 종가와 10/22 09:05:33 EDT 장전 분리."
+    },
+    {
+      "id": "qLRCX",
+      "label": "Naver · LRCX 종가·장전",
+      "url": "https://api.stock.naver.com/stock/LRCX.O/basic",
+      "note": "10/21 정규장 종가와 10/22 09:05:09 EDT 장전 분리."
+    },
+    {
+      "id": "spx",
+      "label": "Naver · S&P 500 일별 지수",
+      "url": "https://api.stock.naver.com/index/.INX/price",
+      "note": "10/21 정규장 최종치."
+    },
+    {
+      "id": "nas",
+      "label": "Naver · Nasdaq 종합 일별 지수",
+      "url": "https://api.stock.naver.com/index/.IXIC/price",
+      "note": "10/21 정규장 최종치."
+    },
+    {
+      "id": "dow",
+      "label": "Naver · Dow 일별 지수",
+      "url": "https://api.stock.naver.com/index/.DJI/price",
+      "note": "10/21 정규장 최종치."
+    },
+    {
+      "id": "fx",
+      "label": "Naver·하나은행 · USD/KRW",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "10/22 21:59:53 KST 682회 고시. 실시간 거래소 체결가 아님."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 10/21 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39783078695",
+      "note": "요청 커밋 3d7e0bc, data_date 10/21, 22:06:51 KST 조회. 개인 요금제 공개 게시 제한 때문에 독자 출처 목록에서는 숨김.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-22",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-22T21:57:34+09:00",
+    "note": "NYSE·Nasdaq 공식 2026 휴장 목록 대조: 10/22 정상장, 이전 거래일 10/21. 정규장 09:30~16:00 EDT(UTC−04:00), KST 22:30~익일05:00. 5거래일은 10/22·23·26·27·28."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-22T09:00:00-04:00",
+      "kst": "2026-10-22T22:00:00+09:00",
+      "utc": "2026-10-22T13:00:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-22T08:57:34-04:00",
+      "kst": "2026-10-22T21:57:34+09:00",
+      "utc": "2026-10-22T12:57:34Z"
+    },
+    "start_offset_seconds": -146,
+    "delay_seconds": 0,
+    "early_seconds": 146,
+    "environment": "클라우드 Bash/Python 실행 공간과 연결 GitHub·Kakao 도구; 실제 checkout /tmp/cost-uspre-20261022-Xdrmpk/repo",
+    "model_setting": "not_verified",
+    "request_commit": "3d7e0bce7927db9546041ddb180b826ee2be3775",
+    "analysis_run_id": 39783078695,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-10-22.json",
+    "analysis_status": "completed/success",
+    "analysis_artifact": {
+      "id": 12428151630,
+      "name": "us-analysis-39783078695",
+      "sha256": "57a6322f9dcddde047608f996de619ec4422ca4c414a0e119fee78973ad78cd6",
+      "data_date": "2026-10-21",
+      "queried_at": "2026-10-22T22:06:51+09:00",
+      "request_commit": "3d7e0bce7927db9546041ddb180b826ee2be3775"
+    },
+    "inputs_completed_at": "2026-10-22T22:06:51+09:00"
+  },
+  "reading": {
+    "headline": "AI 비용·유가 급등에 기술주 선물 급락",
+    "summary_points": [
+      "나스닥100 선물은 장전 약 1.9% 내렸다.",
+      "META·TSLA 실적 후 AI 투자 부담이 커졌다.",
+      "신규 실업수당 19.4만 건은 고용 견조를 시사했다."
+    ],
+    "notices": [
+      "기본 가격은 2026-10-22 05:00 KST(10/21 미국 정규장) 종가다. 장전은 별도 구간이다.",
+      "선물·Brent·10년물은 Reuters 기사 시점 스냅샷이며 실시간 체결가가 아니다.",
+      "시장 폭은 ETF·우선주·워런트 포함 전체 증권 기준이다. Massive 자료는 일별이며 장전 실시간이 아니다."
+    ],
+    "interpretation_points": [
+      "장전 갭을 정규장 결과로 확정하지 않는다.",
+      "실적 상회와 투자 회수 기간을 분리해 본다.",
+      "조건부 방향은 확률·매매 신호가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "기술주 선물, AI 비용에 급랭",
+        "preview": "유가와 AI 투자 부담이 선물 강세를 뒤집었다.",
+        "points": [
+          "나스닥100 선물은 04:56 EDT 약 1.9% 내렸다.",
+          "Brent 112달러 부근과 안전선호가 겹쳤다."
+        ],
+        "meaning": "기술주 장전 갭의 정규장 유지 여부가 핵심이다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 기술주",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. AI 비용 우려·유가 급등·나스닥100 선물 약세가 하방 재료다.",
+            "counter": "낮은 실업수당과 실적 숫자가 낙폭을 줄일 수 있다.",
+            "invalidation": "선물 낙폭 회복과 유가 진정 시 재평가한다.",
+            "sources": [
+              "reuters",
+              "dol"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 기술주",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. AI 비용 우려·유가 급등·나스닥100 선물 약세가 하방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "낮은 실업수당과 실적 숫자가 낙폭을 줄일 수 있다.",
+            "invalidation": "선물 낙폭 회복과 유가 진정 시 재평가한다.",
+            "sources": [
+              "reuters",
+              "dol"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Meta·Tesla, 호실적 속 투자 논쟁",
+        "preview": "강한 숫자보다 자금·투자 계획이 주가를 흔든다.",
+        "points": [
+          "Meta 매출은 26% 늘었지만 FCF는 마이너스였다.",
+          "Tesla는 자유현금흐름 흑자와 투자 축소를 함께 냈다."
+        ],
+        "meaning": "실적 숫자보다 AI 투자 회수 속도가 재평가된다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "META·TSLA",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 대규모 투자 논쟁과 장전 약세가 하방 재료다.",
+            "counter": "Meta 매출 성장과 Tesla 현금흐름이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 시 재평가한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qMETA",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "META·TSLA",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 대규모 투자 논쟁과 장전 약세가 하방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "Meta 매출 성장과 Tesla 현금흐름이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 시 재평가한다.",
+            "sources": [
+              "meta",
+              "tesla",
+              "qMETA",
+              "qTSLA"
+            ]
+          }
+        }
+      },
+      {
+        "title": "고용은 견조, 실적주는 급락",
+        "preview": "고용은 버티지만 높은 기대치가 실적주를 압박한다.",
+        "points": [
+          "신규 실업수당은 19.4만 건으로 줄었다.",
+          "IBM·LRCX는 실적 상회에도 장전 급락했다."
+        ],
+        "meaning": "서프라이즈보다 기대치와 가이던스가 중요하다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "IBM·LRCX",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 실적 상회와 장전 급락이 충돌한다.",
+            "counter": "높은 기대치와 업종 위험회피가 더 큰 부담일 수 있다.",
+            "invalidation": "장전 저점과 전일 종가 중 어느 쪽을 회복·이탈하는지 본다.",
+            "sources": [
+              "dol",
+              "ibm",
+              "lrcx",
+              "qIBM",
+              "qLRCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "IBM·LRCX",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 실적 상회와 장전 급락이 충돌한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "높은 기대치와 업종 위험회피가 더 큰 부담일 수 있다.",
+            "invalidation": "장전 저점과 전일 종가 중 어느 쪽을 회복·이탈하는지 본다.",
+            "sources": [
+              "dol",
+              "ibm",
+              "lrcx",
+              "qIBM",
+              "qLRCX"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "META": {
+        "reason": "매출 성장과 대규모 AI 투자·신주 구조의 충돌을 본다.",
+        "watch": "장전 낙폭과 1,350억~1,450억USD 연간 설비투자 계획을 함께 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "META",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 강한 매출 성장보다 AI 자금 수요와 장전 약세가 단기 부담이다.",
+            "counter": "광고 성장과 4분기 매출 가이던스가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "META",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 강한 매출 성장보다 AI 자금 수요와 장전 약세가 단기 부담이다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "광고 성장과 4분기 매출 가이던스가 낙폭을 줄일 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "meta",
+              "qMETA"
+            ]
+          }
+        }
+      },
+      "TSLA": {
+        "reason": "예상 밖 현금흐름과 연간 설비투자 축소의 해석을 본다.",
+        "watch": "정규장에서 350억→200억USD 투자 축소 우려가 이어지는지 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "TSLA",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 설비투자 축소와 장전 약세가 단기 부담이다.",
+            "counter": "자동차 마진 개선과 15.3억USD 자유현금흐름이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 설비투자 축소와 장전 약세가 단기 부담이다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "자동차 마진 개선과 15.3억USD 자유현금흐름이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "tesla",
+              "qTSLA"
+            ]
+          }
+        }
+      },
+      "IBM": {
+        "reason": "실적 상회 뒤에도 장전 급락해 기대치 재평가가 핵심이다.",
+        "watch": "소프트웨어 성장과 현금흐름 전망이 230USD대에서 지지를 만드는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "IBM",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 실적 상회에도 장전 급락해 기대 조정이 진행 중이다.",
+            "counter": "상향된 소프트웨어 전망과 현금흐름이 저가 매수를 부를 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "ibm",
+              "qIBM"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "IBM",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 실적 상회에도 장전 급락해 기대 조정이 진행 중이다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "상향된 소프트웨어 전망과 현금흐름이 저가 매수를 부를 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "ibm",
+              "qIBM"
+            ]
+          }
+        }
+      },
+      "LRCX": {
+        "reason": "기록적 실적에도 장전 10%대 하락해 높은 눈높이를 점검한다.",
+        "watch": "86억USD±4억USD 다음 분기 매출 전망과 반도체 업종 동행을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "LRCX",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 기록적 실적보다 장전 급락과 반도체 약세가 우세하다.",
+            "counter": "기록적 매출·마진과 86억USD 다음 분기 전망이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "lrcx",
+              "qLRCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LRCX",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 기록적 실적보다 장전 급락과 반도체 약세가 우세하다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "기록적 매출·마진과 86억USD 다음 분기 전망이 지지할 수 있다.",
+            "invalidation": "전일 종가 회복 또는 장전 저점 이탈 여부에 따라 재평가한다.",
+            "sources": [
+              "lrcx",
+              "qLRCX"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "정규장 개장",
+        "detail": "10/22 09:30 EDT; 나스닥100 선물 낙폭과 META·TSLA·IBM·LRCX 장전 갭 유지 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 기술주",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 개장 전 선물과 개별주 장전 갭이 하방 재료다.",
+            "counter": "현물 매수와 금리 하락이 낙폭을 줄일 수 있다.",
+            "invalidation": "나스닥100 선물 낙폭 회복 시 재평가한다.",
+            "sources": [
+              "reuters",
+              "qMETA",
+              "qTSLA",
+              "qIBM",
+              "qLRCX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 기술주",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 개장 전 선물과 개별주 장전 갭이 하방 재료다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "현물 매수와 금리 하락이 낙폭을 줄일 수 있다.",
+            "invalidation": "나스닥100 선물 낙폭 회복 시 재평가한다.",
+            "sources": [
+              "reuters",
+              "qMETA",
+              "qTSLA",
+              "qIBM",
+              "qLRCX"
+            ]
+          }
+        }
+      },
+      {
+        "title": "첫 30분 가격 확인",
+        "detail": "반도체·대형기술주의 동반 하락과 미 10년물·유가 방향을 대조한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "반도체·대형기술주",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 유가와 금리의 엇갈린 방향을 첫 30분에 확인한다.",
+            "counter": "장초반 유동성으로 방향이 뒤집힐 수 있다.",
+            "invalidation": "업종 동행이 약하면 단일 종목 신호로 보지 않는다.",
+            "sources": [
+              "reuters"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "반도체·대형기술주",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 유가와 금리의 엇갈린 방향을 첫 30분에 확인한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "장초반 유동성으로 방향이 뒤집힐 수 있다.",
+            "invalidation": "업종 동행이 약하면 단일 종목 신호로 보지 않는다.",
+            "sources": [
+              "reuters"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PMI·심리 지표 준비",
+        "detail": "10/23 발표 예정 지표의 공식 시각과 기업 가이던스 후속 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 경기민감주",
+            "basis": "2026-10-22 미국 정규장 종가를 10/21 종가와 비교한다. 10/23 지표는 아직 발표 전이라 방향을 보류한다.",
+            "counter": "공식 발표 시각·컨센서스가 달라질 수 있다.",
+            "invalidation": "공식 일정과 실제 발표 후 재판단한다.",
+            "sources": [
+              "dol"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 경기민감주",
+            "basis": "2026-10-28 미국 정규장 종가(10/22·23·26·27·28)를 10/21 종가와 비교한다. 10/23 지표는 아직 발표 전이라 방향을 보류한다. 장전 움직임만으로 5거래일을 확정하지 않는다.",
+            "counter": "공식 발표 시각·컨센서스가 달라질 수 있다.",
+            "invalidation": "공식 일정과 실제 발표 후 재판단한다.",
+            "sources": [
+              "dol"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간",
+      "nasdaq-cal": "Nasdaq · 휴장 달력",
+      "reuters": "Reuters · 10월 22일 장전",
+      "dol": "미 노동부 · 실업수당",
+      "meta": "Meta · Q3 실적",
+      "tesla": "Tesla · Q3 업데이트",
+      "ibm": "IBM · Q3 실적",
+      "lrcx": "Lam Research · 9월 분기 실적",
+      "qMETA": "Naver · META",
+      "qTSLA": "Naver · TSLA",
+      "qIBM": "Naver · IBM",
+      "qLRCX": "Naver · LRCX",
+      "spx": "Naver · S&P 500",
+      "nas": "Naver · Nasdaq",
+      "dow": "Naver · Dow",
+      "fx": "Naver·하나은행 · USD/KRW"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-22T22:06:51+09:00",
+      "input_cutoff": "2026-10-22T22:06:51+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "검증 전 조건부 해석이다. 당일은10/22, 5거래일은10/22·23·26·27·28 미국 종가를10/21 종가와 비교한다. 확률·매매 신호가 아니다."
+    }
+  }
+}
