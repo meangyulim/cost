@@ -1,11 +1,13 @@
 {
   "end_date": "2026-10-22",
   "watch": [
-    "META",
-    "TSLA",
-    "LRCX",
-    "NVDA",
-    "PG"
+    "T",
+    "VZ",
+    "TMUS",
+    "CCI",
+    "AMT",
+    "AXP",
+    "WDC"
   ],
-  "requested_at": "2026-10-23T05:16:34+09:00"
+  "requested_at": "2026-10-23T22:04:44+09:00"
 }
