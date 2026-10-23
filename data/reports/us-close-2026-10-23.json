@@ -1,0 +1,667 @@
+{
+  "id": "us-close-2026-10-23",
+  "title": "10월 23일 미국장 마감 브리핑",
+  "summary": "유가·통신 쇼크가 다우를 눌렀고 나스닥은 상대적으로 버텼다",
+  "summary_detail": "브렌트유가 중동 공급 우려로 116.72달러까지 오르며 다우가 1.23% 하락했다. 전일 급락했던 나스닥은 0.21% 하락에 그쳤다. SpaceX의 통신망 진입 보도에 통신사는 급락하고 타워 업체는 급등해 업종 내부 차별화가 컸다.",
+  "market": "US",
+  "market_date": "2026-10-23",
+  "session": "close",
+  "venue": "NYSE·Nasdaq · 2026-10-23 09:30~16:00 EDT 정규장(2026-10-23 22:30~10-24 05:00 KST)",
+  "as_of": "2026-10-24T05:00:00+09:00",
+  "queried_at": "2026-10-24T05:28:10+09:00",
+  "is_test": false,
+  "interpretation": "지수와 종목은 2026-10-23 미국 정규장 종가를 사용한다. 지수는 Reuters 마감 기사 잠정치를 보존했고, 종목은 공개 시세 조회의 정규장 종가를 사용했다. 유가·금리·주가의 동시 움직임을 단일 원인으로 단정하지 않으며, SpaceX 관련 보도는 당사자 확인이 없는 보도 단계로 구분한다.",
+  "calculation_notes": "지수 등락률은 AP 최종 종가와 10/22 종가로 계산했다: S&P500 (7623.68−7663.43)/7663.43×100=−0.52%, 나스닥 (25955.34−26008.86)/26008.86×100=−0.21%, 다우 (52215.16−52867.98)/52867.98×100=−1.23%. 미10년물 변화는 4.99%−4.96%=+0.03%p다. 주가를 등락률로 역산하지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,623.68",
+      "unit": "pt",
+      "delta": "−39.75",
+      "percent": "−0.52",
+      "direction": "down",
+      "source": "ap_index",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "10/23 미국 정규장 최종 종가",
+      "final_status": "확인",
+      "provisional": false
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,955.34",
+      "unit": "pt",
+      "delta": "−53.52",
+      "percent": "−0.21",
+      "direction": "down",
+      "source": "ap_index",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "10/23 미국 정규장 최종 종가",
+      "final_status": "확인",
+      "provisional": false
+    },
+    {
+      "name": "다우존스",
+      "value": "52,215.16",
+      "unit": "pt",
+      "delta": "−652.82",
+      "percent": "−1.23",
+      "direction": "down",
+      "source": "ap_index",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "10/23 미국 정규장 최종 종가",
+      "final_status": "확인",
+      "provisional": false
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.99",
+    "unit": "%",
+    "delta": "+0.03%p",
+    "direction": "up",
+    "source": "market_detail",
+    "as_of": "2026-10-24T04:43:00+09:00",
+    "session": "10/23 미국장 마감 직전 · 전일 4.96% 대비"
+  },
+  "stocks": [
+    {
+      "name": "AT&T",
+      "ticker": "T",
+      "price": "20.93",
+      "delta": "−1.81",
+      "percent": "−7.95954",
+      "source": "qT",
+      "reason": "SpaceX가 미국 제4 이동통신망 구축을 위해 수만 개 기지국 부지를 찾는다는 보도가 기존 통신사의 경쟁 우려를 키웠다.",
+      "watch": "SpaceX·AT&T의 공식 확인과 월요일 거래에서 20.93달러 지지 여부를 확인한다.",
+      "direction": "down",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-24T05:02:08+09:00",
+      "session": "10/23 미국 정규장 종가 · NYSE",
+      "reason_sources": [
+        "market",
+        "market_detail"
+      ]
+    },
+    {
+      "name": "크라운 캐슬",
+      "ticker": "CCI",
+      "price": "86.00",
+      "delta": "+7.16",
+      "percent": "+9.08284",
+      "source": "qCCI",
+      "reason": "동일 보도에서 타워 임차 수요 증가 가능성이 부각되며 통신사와 반대로 급등했다.",
+      "watch": "거래 당사자의 공식 확인과 92.27달러 장중 고점 회복 여부를 확인한다.",
+      "direction": "up",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "10/23 미국 정규장 종가 · NYSE",
+      "reason_sources": [
+        "market",
+        "market_detail"
+      ]
+    },
+    {
+      "name": "아메리칸 익스프레스",
+      "ticker": "AXP",
+      "price": "313.135",
+      "delta": "−12.035",
+      "percent": "−3.70114",
+      "source": "qAXP",
+      "reason": "조정 EPS 4.68달러와 연간 전망 상향에도 매출이 기대에 소폭 못 미쳤고 비용·구조조정 부담이 부각됐다.",
+      "watch": "연간 조정 EPS 17.60~17.90달러와 5% 인력 감축의 비용 절감 효과를 확인한다.",
+      "direction": "down",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-24T04:59:59+09:00",
+      "session": "10/23 미국 정규장 종가 · NYSE",
+      "reason_sources": [
+        "amex",
+        "market_detail"
+      ]
+    },
+    {
+      "name": "웨스턴 디지털",
+      "ticker": "WDC",
+      "price": "343.38",
+      "delta": "−10.63",
+      "percent": "−3.00121",
+      "source": "qWDC",
+      "reason": "매출·조정 EPS와 다음 분기 전망이 기대를 웃돌았지만 높아진 기대와 차익실현이 주가를 눌렀다.",
+      "watch": "클라우드 수요·상위 고객 집중도와 다음 분기 가이던스 이행 여부를 확인한다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-24T05:01:48+09:00",
+      "session": "10/23 미국 정규장 종가 · Nasdaq",
+      "reason_sources": [
+        "wdc",
+        "market_detail"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "title": "유가 급등 속 다우 낙폭 확대",
+      "fact": "브렌트유는 배럴당 116.72달러로 3.55달러(3.14%) 올라 4월 29일 이후 최고치를 기록했다. 최종 집계 기준 다우는 52215.16pt(−1.23%), S&P500은 7623.68pt(−0.52%), 나스닥은 25955.34pt(−0.21%)로 마감했다. 10/22까지의 일별 배경에서 에너지 ETF XLE는 SPY 대비 20거래일 +8.3590%p였고 OTC 제외 전체 증권 상승 비율은 42.34%였다. 이는 10/23 지수나 보통주 상승 비율이 아니다.",
+      "source": "oil",
+      "additional_sources": [
+        "ap_index",
+        "market",
+        "market_detail",
+        "massive"
+      ]
+    },
+    {
+      "title": "통신사는 급락, 타워는 급등",
+      "fact": "SpaceX가 미국 제4 이동통신망 구축을 위해 최소 8만 개 기지국 부지를 찾는다는 보도 뒤 AT&T는 20.93USD(−7.95954%), Crown Castle은 86.00USD(+9.08284%), American Tower는 189.03USD(+4.05353%)로 갈렸다. SpaceX와 Crown Castle의 공식 거래 확인은 없었다.",
+      "source": "market_detail",
+      "additional_sources": [
+        "market",
+        "qT",
+        "qCCI"
+      ]
+    },
+    {
+      "title": "호실적보다 높은 기대가 더 컸다",
+      "fact": "American Express는 조정 EPS 4.68달러로 예상치를 웃돌고 연간 전망을 높였지만 313.135USD(−3.70114%)로 마감했다. Western Digital도 매출 43.8억달러와 조정 EPS 4.64달러로 기대를 웃돌았으나 343.38USD(−3.00121%)로 하락했다. 숫자 개선만으로 주가 상승을 단정할 수 없는 장이었다.",
+      "source": "market_detail",
+      "additional_sources": [
+        "amex",
+        "wdc",
+        "qAXP",
+        "qWDC"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-26 22:30 KST",
+      "title": "월요일 미국장 재개",
+      "detail": "브렌트유 116달러대와 통신주·타워주의 상반된 움직임이 이어지는지 확인한다."
+    },
+    {
+      "label": "2026-10-29 03:00 KST",
+      "title": "FOMC 결정",
+      "detail": "10월 27~28일 회의 뒤 금리 결정과 03:30 KST 기자회견에서 인플레이션·유가 평가를 확인한다."
+    },
+    {
+      "label": "2026-10-30~31 KST",
+      "title": "대형 기술주 실적 주간",
+      "detail": "Alphabet·Microsoft·Amazon 실적에서 AI 투자비와 현금흐름 설명을 순서대로 확인한다."
+    }
+  ],
+  "reading": {
+    "headline": "유가·통신 충격에 다우 −1.23%",
+    "summary_points": [
+      "다우 −1.23%, 브렌트 116.72달러가 부담이었다.",
+      "나스닥 −0.21%, 전일 급락 뒤 낙폭은 작았다.",
+      "T −7.96%·CCI +9.08%, 통신 인프라가 갈렸다."
+    ],
+    "notices": [
+      "가격은 2026-10-24 05:00 KST(10/23 미국 정규장) 기준이다.",
+      "지수는 AP 최종 종가, 개별주는 공개 시세 정규장 종가다.",
+      "일별 분석은 10/22 기준이라 전일 배경으로만 사용했다.",
+      "미10년물 4.99%는 04:43 KST 마감 직전 값이다.",
+      "SpaceX 통신망 보도는 당사자 확인이 없는 보도 단계다."
+    ],
+    "issues": [
+      {
+        "title": "유가 급등, 다우 압박",
+        "preview": "브렌트 116.72달러에 다우가 1.23% 내렸다.",
+        "points": [
+          "브렌트는 3.14% 올라 4월 말 이후 최고였다.",
+          "나스닥은 전일 급락 뒤 0.21% 하락에 그쳤다."
+        ],
+        "meaning": "유가 부담이 기술주보다 경기민감·가치주에 더 크게 반영됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "다우·경기민감주",
+            "basis": "10/26 종가를 10/23과 비교한다. 고유가가 비용·소비 부담으로 남아 있다.",
+            "counter": "주말 중동 긴장 완화 시 유가 프리미엄이 줄 수 있다.",
+            "invalidation": "브렌트가 113달러 아래로 내려가고 다우가 10/23 낙폭의 절반 이상 회복하면 재평가한다.",
+            "sources": [
+              "oil",
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시 전반",
+            "basis": "10/30 종가를 10/23과 비교한다. FOMC와 대형 기술주 실적이 유가 충격과 함께 작용한다.",
+            "counter": "호실적과 정책 안도는 지수를 지지할 수 있다.",
+            "invalidation": "브렌트와 10년물이 모두 10/23 수준을 크게 되돌리면 유가·금리 부담 해석을 낮춘다.",
+            "sources": [
+              "oil",
+              "fed",
+              "market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "통신 인프라 급격한 차별화",
+        "preview": "통신사는 급락하고 타워주는 급등했다.",
+        "points": [
+          "AT&T는 7.96% 내렸다.",
+          "Crown Castle은 9.08% 올랐다."
+        ],
+        "meaning": "신규 경쟁자 우려와 임대 수요 기대가 같은 뉴스에서 반대로 가격화됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 통신·타워주",
+            "basis": "10/26 종가에서 T와 CCI의 상대수익률을 확인한다.",
+            "counter": "당사자 부인이나 세부조건 부재가 급등락을 되돌릴 수 있다.",
+            "invalidation": "T가 하락분의 절반 이상 회복하고 CCI가 상승분의 절반 이상 반납하면 재평가한다.",
+            "sources": [
+              "market",
+              "market_detail"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 통신·타워주",
+            "basis": "10/30까지 공식 확인과 상대수익률 지속 여부를 본다.",
+            "counter": "실제 계약 규모·시점이 불명확해 기대가 빠르게 축소될 수 있다.",
+            "invalidation": "공식 부인 또는 5거래일 내 상대수익률 역전 시 해석을 낮춘다.",
+            "sources": [
+              "market",
+              "market_detail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "실적보다 기대치가 우선",
+        "preview": "AXP·WDC는 호실적에도 하락했다.",
+        "points": [
+          "AXP는 전망 상향에도 3.70% 내렸다.",
+          "WDC는 실적·가이던스 호조에도 3.00% 내렸다."
+        ],
+        "meaning": "높아진 기대와 비용·밸류에이션이 실적 숫자보다 주가를 좌우했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "실적 발표주",
+            "basis": "10/26 종가에서 AXP·WDC 반등 여부를 본다.",
+            "counter": "호실적 재평가와 낙폭과대 매수가 유입될 수 있다.",
+            "invalidation": "두 종목이 모두 10/23 하락분의 절반 이상 회복하면 부정적 반응 지속 판단을 낮춘다.",
+            "sources": [
+              "amex",
+              "wdc",
+              "market_detail"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 실적 발표주",
+            "basis": "10/30까지 후속 실적의 매출·현금흐름 반응을 비교한다.",
+            "counter": "대형 기술주 호실적은 위험선호를 회복시킬 수 있다.",
+            "invalidation": "실적 상회 종목군이 S&P500을 3거래일 이상 웃돌면 재평가한다.",
+            "sources": [
+              "market",
+              "amex",
+              "wdc"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "T": {
+        "reason": "SpaceX의 신규 통신망 보도로 경쟁 우려가 급격히 반영됐다.",
+        "watch": "공식 확인과 20.93달러 지지 여부를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "T",
+            "basis": "10/26 종가를 20.93USD와 비교한다. 경쟁 우려가 해소되지 않았다.",
+            "counter": "보도 부인이나 낙폭과대 매수는 반등 요인이다.",
+            "invalidation": "10/23 하락분의 절반 이상 회복하면 재평가한다.",
+            "sources": [
+              "market",
+              "qT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "T",
+            "basis": "10/30 종가를 20.93USD와 비교한다.",
+            "counter": "공식 계약 내용과 업계 대응이 방향을 바꿀 수 있다.",
+            "invalidation": "CCI 대비 상대수익률이 회복되면 경쟁 충격 해석을 낮춘다.",
+            "sources": [
+              "market",
+              "market_detail"
+            ]
+          }
+        }
+      },
+      "CCI": {
+        "reason": "신규 통신망의 타워 임차 수요 기대가 급등을 만들었다.",
+        "watch": "공식 확인과 92.27달러 장중 고점 회복을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CCI",
+            "basis": "10/26 종가를 86.00USD와 비교한다.",
+            "counter": "거래 미확인과 9% 급등 뒤 차익실현 가능성이 있다.",
+            "invalidation": "10/23 상승분의 절반 이상 반납하면 재평가한다.",
+            "sources": [
+              "market_detail",
+              "qCCI"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CCI",
+            "basis": "10/30 종가를 86.00USD와 비교한다.",
+            "counter": "실제 부지 수요·요율이 확인되지 않았다.",
+            "invalidation": "공식 부인 또는 타워주 동반 상대강도 소멸 시 재평가한다.",
+            "sources": [
+              "market",
+              "market_detail"
+            ]
+          }
+        }
+      },
+      "AXP": {
+        "reason": "EPS 호조보다 매출·비용과 구조조정 부담이 부각됐다.",
+        "watch": "연간 EPS 전망과 비용 절감 효과를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AXP",
+            "basis": "10/26 종가를 313.135USD와 비교한다.",
+            "counter": "전망 상향과 견조한 카드 지출은 반등 근거다.",
+            "invalidation": "10/23 하락분의 절반 이상 회복하면 재평가한다.",
+            "sources": [
+              "amex",
+              "qAXP"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AXP",
+            "basis": "10/30 종가를 313.135USD와 비교한다.",
+            "counter": "금리·소비 지표가 카드 지출 기대를 바꿀 수 있다.",
+            "invalidation": "금융업종 대비 상대강도가 회복되면 부정적 해석을 낮춘다.",
+            "sources": [
+              "amex",
+              "market_detail"
+            ]
+          }
+        }
+      },
+      "WDC": {
+        "reason": "호실적에도 높아진 기대와 차익실현이 우세했다.",
+        "watch": "클라우드 수요와 다음 분기 가이던스 이행을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "WDC",
+            "basis": "10/26 종가를 343.38USD와 비교한다.",
+            "counter": "강한 실적·전망의 재평가가 반등을 만들 수 있다.",
+            "invalidation": "10/23 하락분의 절반 이상 회복하면 재평가한다.",
+            "sources": [
+              "wdc",
+              "qWDC"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "WDC",
+            "basis": "10/30 종가를 343.38USD와 비교한다.",
+            "counter": "대형 고객 AI 투자 계획이 저장장치 수요를 지지할 수 있다.",
+            "invalidation": "반도체·하드웨어 대비 상대강도가 회복되면 재평가한다.",
+            "sources": [
+              "wdc",
+              "market_detail"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "월요일 미국장",
+        "detail": "유가와 통신·타워주 상대강도를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시·통신주",
+            "basis": "10/26 종가에서 유가·다우·T·CCI를 함께 비교한다.",
+            "counter": "주말 뉴스가 가격을 크게 바꿀 수 있다.",
+            "invalidation": "유가와 통신주가 10/23 움직임을 절반 이상 되돌리면 재평가한다.",
+            "sources": [
+              "oil",
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시·통신주",
+            "basis": "10/30까지 상대수익률 지속 여부를 본다.",
+            "counter": "FOMC와 실적이 주도권을 바꿀 수 있다.",
+            "invalidation": "통신·타워주 차별화가 소멸하면 해석을 낮춘다.",
+            "sources": [
+              "fed",
+              "market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "FOMC 결정",
+        "detail": "금리 결정과 유가·물가 평가를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "10/28 14:00 EDT 성명과 14:30 기자회견을 확인한다.",
+            "counter": "시장은 동결을 상당 부분 선반영했을 수 있다.",
+            "invalidation": "정책 경로 신호가 기존 기대와 같으면 변동성 확대 판단을 낮춘다.",
+            "sources": [
+              "fed",
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "10/30 종가에서 10년물과 지수를 10/23과 비교한다.",
+            "counter": "기업 실적이 정책 재료를 상쇄할 수 있다.",
+            "invalidation": "10년물과 지수가 모두 10/23 수준으로 복귀하면 정책 충격 해석을 낮춘다.",
+            "sources": [
+              "fed",
+              "market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "대형 기술주 실적",
+        "detail": "AI 투자비와 현금흐름 설명을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "나스닥·AI주",
+            "basis": "각 발표 다음 정규장 종가와 나스닥 상대수익률을 본다.",
+            "counter": "높은 기대와 비용 우려가 호실적을 눌러도 이상하지 않다.",
+            "invalidation": "실적 상회와 현금흐름 개선이 함께 확인되면 부정적 해석을 낮춘다.",
+            "sources": [
+              "market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "나스닥·AI주",
+            "basis": "10/30 종가를 10/23과 비교한다.",
+            "counter": "FOMC·유가가 실적 효과를 압도할 수 있다.",
+            "invalidation": "나스닥이 5거래일 연속 다우를 밑돌면 성장주 회복 시나리오를 낮춘다.",
+            "sources": [
+              "market",
+              "fed"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·달력",
+      "nasdaq": "Nasdaq · 휴장 일정",
+      "market": "Reuters · 미국장 마감",
+      "ap_index": "AP · 주요 지수 최종 종가",
+      "oil": "Reuters · 브렌트유 마감",
+      "market_detail": "Investopedia · 미국장 마감",
+      "sentiment": "미시간대 · 소비심리",
+      "fed": "연준 · 10월 회의 일정",
+      "amex": "American Express · Q3 실적",
+      "wdc": "Western Digital · FY27 Q1 실적",
+      "qT": "공개 시세 · AT&T 종가",
+      "qCCI": "공개 시세 · Crown Castle 종가",
+      "qAXP": "공개 시세 · AmEx 종가",
+      "qWDC": "공개 시세 · WD 종가"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-24T05:28:10+09:00",
+      "input_cutoff": "2026-10-24T05:28:10+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 10/26과 5거래일 뒤 10/30 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-23",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-24T05:16:30+09:00",
+    "note": "NYSE·Nasdaq 2026 공식 휴장·조기폐장표에 10/23이 포함되지 않아 정상 거래일로 확인했다. EDT UTC−04:00, 정규장 폐장 10/24 05:00 KST."
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 공식 거래시간·달력",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "note": "2026 공식 휴장·조기폐장표. 10/23 정상 거래일."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 공식 휴장 일정",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026 휴장·조기폐장표. 10/23 정상 거래일."
+    },
+    {
+      "id": "market",
+      "label": "Reuters · 10월23일 미국장 마감",
+      "url": "https://www.reuters.com/business/wall-street-futures-dip-after-ai-rout-telecoms-slide-2026-10-23/",
+      "note": "지수 잠정 종가, 업종 흐름, 통신 인프라 보도와 다음 주 실적 일정."
+    },
+    {
+      "id": "ap_index",
+      "label": "AP · 10월23일 주요 지수 최종 종가",
+      "url": "https://apnews.com/article/e07c72bc5cbe5dffe352ddf30054e35f",
+      "note": "S&P500 7623.68, 나스닥 25955.34, 다우 52215.16, 러셀2000 2775.90 최종 종가."
+    },
+    {
+      "id": "oil",
+      "label": "Reuters · 10월23일 브렌트유 마감",
+      "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+      "note": "브렌트 116.72달러, +3.55달러(+3.14%), 4월29일 이후 최고."
+    },
+    {
+      "id": "market_detail",
+      "label": "Investopedia · 10월23일 미국장 마감",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10232026-12189475",
+      "note": "10년물 4.99%, 통신·타워주와 AXP·WDC 실적 반응. 15:43 EDT 기준 설명."
+    },
+    {
+      "id": "sentiment",
+      "label": "미시간대 · 10월 소비심리 최종",
+      "url": "https://www.sca.isr.umich.edu/",
+      "note": "10/23 최종치 발표. 소비심리는 9월보다 0.1pt 낮아 사실상 보합."
+    },
+    {
+      "id": "fed",
+      "label": "연준 · 2026년10월 일정",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "note": "10/27~28 FOMC, 10/28 14:00 EDT 성명·14:30 기자회견."
+    },
+    {
+      "id": "amex",
+      "label": "American Express · 2026년3분기 실적",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/financial-news/american-express-third-quarter-2026-financial-results.html",
+      "note": "조정 EPS 4.68달러, 매출 200.6억달러, 연간 조정 EPS 17.60~17.90달러."
+    },
+    {
+      "id": "wdc",
+      "label": "Western Digital · 2027회계연도1분기",
+      "url": "https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results",
+      "note": "매출 43.8억달러, 조정 EPS 4.64달러와 다음 분기 전망."
+    },
+    {
+      "id": "qT",
+      "label": "공개 시세 · AT&T 종가",
+      "url": "https://finance.yahoo.com/quote/T/",
+      "note": "조회 2026-10-24 05:18 KST. 정규장 20.93USD, −1.81(−7.95954%)."
+    },
+    {
+      "id": "qCCI",
+      "label": "공개 시세 · Crown Castle 종가",
+      "url": "https://finance.yahoo.com/quote/CCI/",
+      "note": "조회 2026-10-24 05:18 KST. 정규장 86.00USD, +7.16(+9.08284%)."
+    },
+    {
+      "id": "qAXP",
+      "label": "공개 시세 · American Express 종가",
+      "url": "https://finance.yahoo.com/quote/AXP/",
+      "note": "조회 2026-10-24 05:18 KST. 정규장 313.135USD, −12.035(−3.70114%)."
+    },
+    {
+      "id": "qWDC",
+      "label": "공개 시세 · Western Digital 종가",
+      "url": "https://finance.yahoo.com/quote/WDC/",
+      "note": "조회 2026-10-24 05:18 KST. 정규장 343.38USD, −10.63(−3.00121%)."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://massive.com/",
+      "note": "요청 종료일 2026-10-23, 실제 data_date 2026-10-22, queried_at 2026-10-24T05:26:49+09:00, 65거래일 범위. ETF 대용치·OTC 제외 전체 증권 시장 폭이며 10/23 당일 지수·실시간·기관수급이 아님.",
+      "show_public": false
+    }
+  ],
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-23T16:15:00-04:00",
+      "kst": "2026-10-24T05:15:00+09:00",
+      "utc": "2026-10-23T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-23T16:15:43-04:00",
+      "kst": "2026-10-24T05:15:43+09:00",
+      "utc": "2026-10-23T20:15:43Z"
+    },
+    "start_offset_seconds": 43,
+    "delay_seconds": 43,
+    "early_seconds": 0,
+    "environment": "Cloud Bash/Python; 연결 GitHub·Kakao; 실제 checkout 사용",
+    "model_setting": "not_verified",
+    "request_commit": "59eadbd77d5fa18a5a3d5c47593eec724b65c406",
+    "analysis_run_id": 40018190235,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-23.json",
+    "index_finality": "AP 최종 종가; Reuters 잠정치와 차이 보존",
+    "analysis_status": "success; artifact verified; data_date 2026-10-22 used only as prior-session background"
+  }
+}
