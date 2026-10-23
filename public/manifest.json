@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-23",
+  "latest_id": "us-pre-2026-10-23",
   "reports": [
+    {
+      "id": "us-pre-2026-10-23",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-23",
+      "title": "2026.10.23 미국장 시작 전 브리핑",
+      "summary": "AI 급락 뒤 숨고르기, 통신 재편·금리 5%가 개장 변수",
+      "as_of": "2026-10-23T22:04:44+09:00",
+      "path": "reports/us-pre-2026-10-23/"
+    },
     {
       "id": "kr-close-2026-10-23",
       "is_test": false,
