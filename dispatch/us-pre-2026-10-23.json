@@ -1,0 +1,15 @@
+{
+  "id": "us-pre-2026-10-23",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-23T22:18:32+09:00",
+  "attempted_at_utc": "2026-10-23T13:18:32Z",
+  "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-23/",
+  "deployment_commit": "03e3c6b85b6b955ccda5c4e37d8c03fb0221fef3",
+  "deployment_run_id": 39959928221,
+  "deployment_result": "completed/success; build=success; deploy=success",
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed",
+  "send_tool_called": false,
+  "note": "최초 발송 시도권 확보 기록. 추가 검사는 사용자 지시에 따라 생략."
+}
