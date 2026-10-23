@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-10-22",
+  "end_date": "2026-10-23",
   "watch": [
     "T",
-    "VZ",
-    "TMUS",
     "CCI",
     "AMT",
     "AXP",
-    "WDC"
+    "WDC",
+    "BE",
+    "DECK"
   ],
-  "requested_at": "2026-10-23T22:04:44+09:00"
+  "requested_at": "2026-10-24T05:18:15+09:00"
 }
