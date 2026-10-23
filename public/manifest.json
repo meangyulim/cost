@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-23",
+  "latest_id": "kr-close-2026-10-23",
   "reports": [
+    {
+      "id": "kr-close-2026-10-23",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-23",
+      "title": "한국장 마감 브리핑 · 2026.10.23",
+      "summary": "외국인 매도에도 반도체·기관이 코스피 반전",
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-23/"
+    },
     {
       "id": "kr-pre-2026-10-23",
       "is_test": false,

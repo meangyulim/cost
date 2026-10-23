@@ -1,0 +1,725 @@
+{
+  "id": "kr-close-2026-10-23",
+  "is_test": false,
+  "market": "KR",
+  "market_date": "2026-10-23",
+  "session": "close",
+  "venue": "KRX",
+  "title": "한국장 마감 브리핑 · 2026.10.23",
+  "as_of": "2026-10-23T15:30:00+09:00",
+  "queried_at": "2026-10-23T15:51:53+09:00",
+  "summary": "외국인 매도에도 반도체·기관이 코스피 반전",
+  "summary_detail": "코스피는 장중 4% 넘게 밀렸지만 저점에서 244.32pt 반등해 5,550.30(+0.30%)로 마감했다. 기관이 코스피에서 8,686억원 순매수하고 SK하이닉스가 4.42% 오르며 지수를 받쳤지만, 외국인은 9,829억원 순매도했고 코스피 하락 종목은 719개였다. 코스닥은 1.62% 하락해 대형 반도체 중심의 좁은 회복이었다.",
+  "interpretation": "사실과 해석을 분리한다. 코스피의 플러스 전환은 확인됐지만 외국인 대규모 순매도, 코스닥 하락, 취약한 시장 폭 때문에 전면적 위험선호 회복으로 보지 않는다. 다음 거래일 기본 시나리오는 대형 반도체 강도와 시장 폭이 엇갈리는 혼조다. 코스피 5,550.30 유지, 외국인 매도 축소, 상승 종목 확산이 동반되면 회복 해석을 높이고 반대면 낮춘다. KRX 자동 분석은 실제 data_date가 10월 22일이어서 오늘 시장 폭·추세의 근거로 사용하지 않았다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,550.30",
+      "unit": "pt",
+      "delta": "+16.53",
+      "percent": "+0.30",
+      "direction": "up",
+      "source": "kospi",
+      "additional_sources": [
+        "flow-kospi"
+      ],
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "751.69",
+      "unit": "pt",
+      "delta": "−12.41",
+      "percent": "−1.62",
+      "direction": "down",
+      "source": "kosdaq",
+      "additional_sources": [
+        "flow-kosdaq"
+      ],
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "장중 급락을 되돌렸지만 시장 폭은 약세",
+      "fact": "코스피는 5,403.17로 출발해 5,305.98까지 하락한 뒤 당일 고가 5,550.30(+16.53pt, +0.30%)로 마감했다. 저점 대비 회복폭은 244.32pt, 4.60%다. 잠정 현물 수급은 개인 +452억원, 외국인 -9,829억원, 기관 +8,686억원이었다. 상승 173·하락 719·보합 23종목으로 지수 상승과 종목 확산은 엇갈렸다. 코스닥은 751.69(-12.41pt, -1.62%), 상승 404·하락 1,248·보합 81종목이었다.",
+      "source": "kospi",
+      "additional_sources": [
+        "kosdaq",
+        "flow-kospi",
+        "flow-kosdaq"
+      ]
+    },
+    {
+      "title": "SK하이닉스가 반도체 회복을 주도",
+      "fact": "SK하이닉스는 1,277,000원(+54,000원, +4.42%), 삼성전자는 215,500원(+1,000원, +0.47%)에 KRX 정규장을 마쳤다. SK하이닉스는 Solidigm의 잠재적 미국 IPO 검토를 중단한다고 밝혔고, Solidigm의 성장 전망이나 투자 필요가 바뀐 것은 아니며 다른 자금조달 방안을 계속 검토한다고 설명했다. Reuters는 전일 미국 기술주 매도 뒤 아시아에서 매도세가 둔화됐다고 보도했다. 가격 상승을 실적 개선의 증거로 단정하지 않는다.",
+      "source": "price-000660",
+      "additional_sources": [
+        "price-005930",
+        "hynix-solidigm",
+        "global-markets"
+      ]
+    },
+    {
+      "title": "유가 5개월 고점과 항공·정유 약세",
+      "fact": "Reuters 확인 시점 브렌트유는 배럴당 114.10달러로 0.9% 올라 5개월 고점을 기록했다. 대한항공은 25,800원(-650원, -2.46%), S-Oil은 132,400원(-7,400원, -5.29%)에 마감했다. 높은 유가는 항공 원가 부담 요인이지만 환율·헤지·수요가 함께 작용한다. S-Oil 하락은 유가 상승과 엇갈렸으며 정제마진·수급 등 단일 원인은 확인하지 못했다.",
+      "source": "global-markets",
+      "additional_sources": [
+        "price-003490",
+        "price-010950"
+      ]
+    },
+    {
+      "title": "삼성바이오 실적 재료가 뒤늦게 반영",
+      "fact": "삼성바이오로직스는 1,466,000원(+105,000원, +7.71%)에 마감했다. 회사는 10월 21일 3분기 매출 1조4,903억원, 영업이익 6,401억원과 연간 매출 성장 가이던스 20% 상향을 발표했다. 발표 다음 날 하락 후 오늘 반등한 사실은 확인되지만, 오늘 상승의 전부가 실적 때문이라고 단정하지 않는다.",
+      "source": "price-207940",
+      "additional_sources": [
+        "sbio-results"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,277,000",
+      "currency": "KRW",
+      "delta": "+54,000",
+      "percent": "+4.42",
+      "direction": "up",
+      "source": "price-000660",
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가 · NXT·시간외 제외",
+      "reason": "장중 1,171,000원까지 밀린 뒤 Solidigm IPO 검토 중단 발표와 함께 대형 반도체 회복을 주도했다.",
+      "watch": "1,277,000원 유지, 삼성전자 동반 강도와 외국인 매도 축소를 확인한다.",
+      "reason_sources": [
+        "hynix-solidigm",
+        "flow-kospi"
+      ]
+    },
+    {
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "price": "1,466,000",
+      "currency": "KRW",
+      "delta": "+105,000",
+      "percent": "+7.71",
+      "direction": "up",
+      "source": "price-207940",
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가 · NXT·시간외 제외",
+      "reason": "매출 가이던스 상향 발표 뒤 하루 시차를 두고 강하게 반등했다.",
+      "watch": "1,466,000원 유지와 5공장 램프업·록빌 매출 인식 관련 후속 설명을 본다.",
+      "reason_sources": [
+        "sbio-results"
+      ]
+    },
+    {
+      "name": "대한항공",
+      "ticker": "003490",
+      "price": "25,800",
+      "currency": "KRW",
+      "delta": "−650",
+      "percent": "−2.46",
+      "direction": "down",
+      "source": "price-003490",
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가 · NXT·시간외 제외",
+      "reason": "브렌트유 5개월 고점 국면에서 비용 민감도를 확인할 항공 대표주다.",
+      "watch": "25,800원 유지와 브렌트유·원화·유류 헤지 관련 후속 변화를 함께 본다.",
+      "reason_sources": [
+        "global-markets",
+        "fx"
+      ]
+    },
+    {
+      "name": "S-Oil",
+      "ticker": "010950",
+      "price": "132,400",
+      "currency": "KRW",
+      "delta": "−7,400",
+      "percent": "−5.29",
+      "direction": "down",
+      "source": "price-010950",
+      "as_of": "2026-10-23T15:30:00+09:00",
+      "session": "KRX 2026.10.23 정규장 종가 · NXT·시간외 제외",
+      "reason": "유가 상승과 주가 하락이 엇갈려 원유 가격만으로 정유주를 판단하기 어렵다는 사례다.",
+      "watch": "132,400원 유지와 정제마진·수요·재고 관련 후속 근거를 확인한다.",
+      "reason_sources": [
+        "global-markets"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,325.60",
+    "unit": "원/USD",
+    "delta": "−0.90",
+    "direction": "down",
+    "source": "fx",
+    "as_of": "2026-10-23T15:51:53+09:00",
+    "session": "하나은행 388회차 고시환율 · 서울외환시장 주간종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026.10.26 정규장",
+      "title": "대형 반도체 회복의 지속성",
+      "detail": "코스피 5,550.30, SK하이닉스 1,277,000원, 삼성전자 215,500원 유지와 외국인 매도 축소를 본다."
+    },
+    {
+      "label": "2026.10.26 정규장",
+      "title": "시장 폭과 코스닥 추격",
+      "detail": "코스피·코스닥 상승 종목 수가 하락 종목 수를 따라잡고 코스닥 낙폭이 축소되는지 확인한다."
+    },
+    {
+      "label": "후속 확인",
+      "title": "유가 민감주의 엇갈림",
+      "detail": "브렌트유와 원화, 대한항공·S-Oil 종가, 정제마진·수요 관련 원문을 순서대로 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "market_date": "2026-10-23",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://ets.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+    "checked_at": "2026-10-23T15:51:53+09:00",
+    "note": "KRX 공식 거래일·매매시간 원칙과 2026 휴장 안내를 대조했다. 10월 23일 금요일은 휴장 구간 밖이며 09:00~15:30 정규장 일별 종가가 확인돼 정상 거래일·비조기폐장으로 판단했다."
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-10-23T15:45:00+09:00",
+    "scheduled_start_utc": "2026-10-23T06:45:00Z",
+    "actual_start_kst": "2026-10-23T15:45:17+09:00",
+    "actual_start_utc": "2026-10-23T06:45:17Z",
+    "start_offset_seconds": 17,
+    "delay_seconds": 17,
+    "early_seconds": 0,
+    "environment": "ChatGPT Work 클라우드 실행 공간 · GitHub/Kakao 연결 사용",
+    "model_setting": "요청 모델·추론 설정 적용 여부는 실행 메타데이터로 확인되지 않음",
+    "krx_analysis": {
+      "request_commit": "0875602604647c1986b14b76f61f84446c256265",
+      "run_id": 39913592149,
+      "status": "success",
+      "artifact": "krx-analysis-39913592149",
+      "artifact_digest": "sha256:79d968193f405c6d019d94bdcdd88ead34e783d9fec80d3701210776f1a56d43",
+      "requested_end_date": "2026-10-23",
+      "data_date": "2026-10-22",
+      "queried_at": "2026-10-23T15:47:33+09:00",
+      "usage": "전일 배경만 사용 · 오늘 종가·시장 폭 대체 안 함"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "코스피 저점 대비 회복폭은 5550.30-5305.98=244.32pt, 회복률은 244.32/5305.98×100=4.60%다. 지수·수급·시장 폭은 10월23일 Naver KRX integration/price 응답을 사용했다. 수급은 억원 단위 잠정 현물 집계이며 기타 주체와 정정 가능성이 있어 합계를 0으로 보정하지 않았다. 종목은 KRX 정규장 일별 종가를 사용하고 NXT·시간외를 제외했다. KRX 자동 분석은 requested_end_date가 10월23일이지만 실제 data_date가 10월22일이어서 오늘 수치로 사용하지 않았다. 하나은행 환율 고시는 서울외환시장 종가가 아니다. 외국인 선물·정제마진·분봉·VWAP·옵션·소셜 감성·검증된 상승확률은 미확인/미산출이다.",
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 2026 휴장 안내",
+      "url": "https://kind.krx.co.kr/external/dst/notice/11637/%5B%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C%5D%202026%EB%85%84%20%EC%98%AC%EB%B9%BC%EB%AF%B8%EA%B3%B5%EC%8B%9C%20%EC%95%88%EB%82%B4.pdf",
+      "note": "공식 휴장 안내와 거래일 원칙을 대조했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "hours",
+      "label": "KRX · 거래일과 매매시간",
+      "url": "https://ets.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+      "note": "월~금 거래 원칙과 09:00~15:30 정규장 시간을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "kospi",
+      "label": "네이버 증권 · 코스피 일별 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/price?pageSize=3&page=1",
+      "note": "10월23일 KRX 정규장 종가와 OHLC를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "kosdaq",
+      "label": "네이버 증권 · 코스닥 일별 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/price?pageSize=3&page=1",
+      "note": "10월23일 KRX 정규장 종가와 OHLC를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "flow-kospi",
+      "label": "네이버 증권 · 코스피 수급·시장 폭",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/integration",
+      "note": "20261023 억원 단위 잠정 현물 수급과 상승·하락 종목 수를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "flow-kosdaq",
+      "label": "네이버 증권 · 코스닥 수급·시장 폭",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/integration",
+      "note": "20261023 억원 단위 잠정 현물 수급과 상승·하락 종목 수를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "price-005930",
+      "label": "네이버 증권 · 삼성전자 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/005930/price?pageSize=2&page=1",
+      "note": "10월23일 KRX 정규장 OHLC·종가·등락을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "price-000660",
+      "label": "네이버 증권 · SK하이닉스 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/000660/price?pageSize=2&page=1",
+      "note": "10월23일 KRX 정규장 OHLC·종가·등락을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "price-207940",
+      "label": "네이버 증권 · 삼성바이오 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/207940/price?pageSize=2&page=1",
+      "note": "10월23일 KRX 정규장 OHLC·종가·등락을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "price-003490",
+      "label": "네이버 증권 · 대한항공 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/003490/price?pageSize=2&page=1",
+      "note": "10월23일 KRX 정규장 OHLC·종가·등락을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "price-010950",
+      "label": "네이버 증권 · S-Oil KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/010950/price?pageSize=2&page=1",
+      "note": "10월23일 KRX 정규장 OHLC·종가·등락을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "hynix-solidigm",
+      "label": "SK하이닉스 · Solidigm IPO 검토 중단",
+      "url": "https://news.skhynix.com/en/fact-12/",
+      "note": "시장·주가 여건을 고려한 IPO 검토 중단과 대체 자금조달 검토를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "sbio-results",
+      "label": "삼성바이오로직스 · 2026년 3분기 실적",
+      "url": "https://samsungbiologics.com/kr/media/company-news/samsung-biologics-reports-third-quarter-2026-financial-results",
+      "note": "매출·영업이익과 연간 매출 성장 가이던스 상향을 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "global-markets",
+      "label": "Reuters · 아시아 기술주와 유가",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/",
+      "note": "아시아 기술주 매도 둔화와 브렌트유 114.10달러를 확인했다.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "네이버 증권 · 원·달러 고시",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "하나은행 388회차 고시 1325.60원. 서울외환시장 종가 아님.",
+      "queried_at": "2026-10-23T15:51:53+09:00"
+    },
+    {
+      "id": "krx-service",
+      "label": "KRX Open API · 서비스 목록",
+      "url": "https://openapi.krx.co.kr/contents/OPP/INFO/service/OPPINFO004.cmd",
+      "note": "KRX 일별 분석 수집의 공식 제공 범위 근거.",
+      "queried_at": "2026-10-23T15:47:33+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX 일별 분석 · 이번 실행 산출물",
+      "url": "https://github.com/meangyulim/cost/actions/runs/39913592149",
+      "note": "요청 커밋 0875602 작업 성공. requested_end_date 10월23일, 실제 data_date 10월22일이므로 오늘 자료로 사용하지 않았다.",
+      "queried_at": "2026-10-23T15:47:33+09:00"
+    }
+  ],
+  "reading": {
+    "headline": "반도체·기관이 장중 급락을 뒤집었다",
+    "summary_points": [
+      "코스피 +0.30%, 코스닥 -1.62%로 엇갈렸다.",
+      "기관 +8,686억, 외국인 -9,829억원이었다.",
+      "하락 종목 719개로 회복 폭은 좁았다."
+    ],
+    "notices": [
+      "가격은 10월23일 KRX 정규장 종가이며 NXT·시간외는 제외했다. 수급·시장 폭은 잠정치다.",
+      "KRX 자동 분석은 실제 기준일이 10월22일로 하루 지연돼 오늘 판단에 사용하지 않았다. 환율은 은행 고시값이다."
+    ],
+    "issues": [
+      {
+        "title": "장중 급락 뒤 플러스 전환",
+        "preview": "저점 대비 244.32pt를 회복했다.",
+        "points": [
+          "기관은 8,686억원 순매수했다.",
+          "외국인은 9,829억원 순매도했다."
+        ],
+        "meaning": "지수 반전보다 외국인·시장 폭의 후속 개선이 중요하다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·시장 폭",
+            "basis": "10월26일 종가를 5,550.30과 비교한다. 기관 매수와 저점 회복은 지지 요인이지만 외국인 매도와 719개 하락 종목이 상충한다.",
+            "counter": "대형주 소수의 반등이 멈추면 지수가 다시 약해질 수 있다.",
+            "invalidation": "외국인 매도 축소와 상승 종목 우위가 동반되면 개선하고 5,305.98 재이탈이면 약화한다.",
+            "sources": [
+              "kospi",
+              "flow-kospi"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·시장 폭",
+            "basis": "10월26·27·28·29·30일의 마지막 종가를 오늘과 비교한다. 회복의 지속성은 대형주 밖 확산에 달렸다.",
+            "counter": "해외 기술주·유가·환율이 빠르게 바뀔 수 있다.",
+            "invalidation": "3거래일 이상 상승 종목 우위와 외국인 순매수가 이어지면 개선하고 저점 재이탈이면 약화한다.",
+            "sources": [
+              "flow-kospi",
+              "flow-kosdaq",
+              "global-markets"
+            ]
+          }
+        }
+      },
+      {
+        "title": "하이닉스가 반도체 회복 주도",
+        "preview": "Solidigm IPO 검토 중단 뒤 4.42% 올랐다.",
+        "points": [
+          "SK하이닉스는 1,277,000원이었다.",
+          "삼성전자는 0.47% 상승했다."
+        ],
+        "meaning": "IPO 불확실성 완화와 업황 기대를 구분해 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SK하이닉스·삼성전자",
+            "basis": "하이닉스는 장중 저점에서 크게 회복했고 회사가 IPO 검토 중단을 공식 확인했다.",
+            "counter": "외국인 코스피 순매도와 글로벌 AI 투자비 우려가 남아 있다.",
+            "invalidation": "하이닉스 1,277,000원 이탈과 삼성전자 약세가 겹치면 상방 해석을 낮춘다.",
+            "sources": [
+              "price-000660",
+              "price-005930",
+              "hynix-solidigm"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "대형 반도체",
+            "basis": "IPO 불확실성 완화는 지지지만 AI 투자비와 자금조달 부담은 남는다.",
+            "counter": "Solidigm 투자 재원과 규제 논의의 후속 내용이 달라질 수 있다.",
+            "invalidation": "두 반도체 동반 강세와 외국인 순매수가 2거래일 이상 이어지면 개선한다.",
+            "sources": [
+              "hynix-solidigm",
+              "global-markets",
+              "flow-kospi"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 고점과 민감주 약세",
+        "preview": "항공·정유 주가가 함께 내렸다.",
+        "points": [
+          "브렌트유는 114.10달러였다.",
+          "대한항공 -2.46%, S-Oil -5.29%였다."
+        ],
+        "meaning": "유가 방향 하나로 업종 수익률을 단정하지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "대한항공·S-Oil",
+            "basis": "높은 유가와 오늘 종가 약세가 단기 부담이다.",
+            "counter": "항공은 헤지·환율, 정유는 정제마진과 재고효과가 달라 반응이 갈릴 수 있다.",
+            "invalidation": "유가 안정과 두 종목의 오늘 종가 회복이 확인되면 하방 해석을 낮춘다.",
+            "sources": [
+              "global-markets",
+              "price-003490",
+              "price-010950",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "항공·정유",
+            "basis": "5거래일 방향은 유가뿐 아니라 수요·정제마진·원화에 달렸다.",
+            "counter": "중동 공급 우려가 완화되거나 정제마진이 개선되면 종목 반응이 달라질 수 있다.",
+            "invalidation": "브렌트유와 원화, 업종 종가가 같은 방향으로 2거래일 이상 움직이면 그 방향으로 갱신한다.",
+            "sources": [
+              "global-markets",
+              "fx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성바이오 실적 뒤 반등",
+        "preview": "가이던스 상향 재료에 7.71% 올랐다.",
+        "points": [
+          "3분기 매출은 1조4,903억원이었다.",
+          "연간 매출 성장 가이던스는 20%다."
+        ],
+        "meaning": "실적 재료와 하루 주가 반응을 분리해 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "삼성바이오로직스",
+            "basis": "가이던스 상향과 7.71% 종가 상승이 단기 지지 요인이다.",
+            "counter": "하루 급등 뒤 차익실현과 시장 위험회피가 나타날 수 있다.",
+            "invalidation": "1,466,000원 유지 실패와 거래량 동반 약세면 상방 해석을 낮춘다.",
+            "sources": [
+              "sbio-results",
+              "price-207940"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스",
+            "basis": "5공장 램프업과 록빌 매출 인식은 지지 요인이다.",
+            "counter": "실적 선반영과 시장 변동성이 주가를 흔들 수 있다.",
+            "invalidation": "후속 수주·가동 설명과 10월30일 종가 경로로 재판단한다.",
+            "sources": [
+              "sbio-results",
+              "price-207940"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "Solidigm IPO 검토 중단과 장중 급반등을 함께 확인할 핵심 반도체주다.",
+        "watch": "1,277,000원 유지와 삼성전자 동반 강도·외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SK하이닉스",
+            "basis": "오늘 4.42% 상승과 IPO 불확실성 완화가 지지한다.",
+            "counter": "외국인 매도와 AI 투자비 우려가 남는다.",
+            "invalidation": "1,277,000원 이탈 시 낮춘다.",
+            "sources": [
+              "price-000660",
+              "hynix-solidigm"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "자금조달 대안과 업황 기대가 상충한다.",
+            "counter": "규제·투자 계획 후속 내용이 변할 수 있다.",
+            "invalidation": "삼성전자 동반 강세와 외국인 매수 지속 시 개선한다.",
+            "sources": [
+              "hynix-solidigm",
+              "flow-kospi"
+            ]
+          }
+        }
+      },
+      "207940": {
+        "reason": "가이던스 상향 발표 뒤 강한 후속 반응이 나타났다.",
+        "watch": "1,466,000원 유지와 공장 가동·수주 후속 설명을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "삼성바이오로직스",
+            "basis": "실적·가이던스와 오늘 반등이 지지한다.",
+            "counter": "급등 뒤 차익실현 위험이 있다.",
+            "invalidation": "1,466,000원 유지 실패 시 낮춘다.",
+            "sources": [
+              "price-207940",
+              "sbio-results"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성바이오로직스",
+            "basis": "공장 가동과 성장 가이던스가 지지한다.",
+            "counter": "선반영과 시장 변동성이 상충한다.",
+            "invalidation": "10월30일 종가와 후속 수주로 갱신한다.",
+            "sources": [
+              "sbio-results"
+            ]
+          }
+        }
+      },
+      "003490": {
+        "reason": "유가 5개월 고점에서 비용 민감도를 확인할 항공 대표주다.",
+        "watch": "25,800원 유지와 유가·원화·헤지 변화를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "대한항공",
+            "basis": "유가 고점과 2.46% 하락이 부담이다.",
+            "counter": "헤지와 원화가 비용 충격을 완충할 수 있다.",
+            "invalidation": "25,800원 회복 유지와 유가 안정 시 낮춘다.",
+            "sources": [
+              "price-003490",
+              "global-markets",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "대한항공",
+            "basis": "유가·환율·수요가 함께 결정한다.",
+            "counter": "공급 우려 완화 시 빠른 반등이 가능하다.",
+            "invalidation": "유가와 종가의 2거래일 동행으로 갱신한다.",
+            "sources": [
+              "global-markets",
+              "fx"
+            ]
+          }
+        }
+      },
+      "010950": {
+        "reason": "유가 상승과 주가 하락이 엇갈린 정유 대표주다.",
+        "watch": "132,400원 유지와 정제마진·재고·수요 원문을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "S-Oil",
+            "basis": "오늘 5.29% 하락이 단기 부담이다.",
+            "counter": "유가 상승은 재고평가와 제품 가격에 긍정적일 수 있다.",
+            "invalidation": "132,400원 회복과 정제마진 개선 확인 시 낮춘다.",
+            "sources": [
+              "price-010950",
+              "global-markets"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "S-Oil",
+            "basis": "유가보다 정제마진·수요 확인이 필요하다.",
+            "counter": "공급 충격과 수요 둔화가 반대 방향으로 작용할 수 있다.",
+            "invalidation": "후속 정제마진 자료와 10월30일 종가로 갱신한다.",
+            "sources": [
+              "global-markets"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "대형 반도체 회복의 지속성",
+        "detail": "지수·두 반도체 종가 유지와 외국인 매도 축소를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·대형 반도체",
+            "basis": "기관 매수와 하이닉스 강세가 지지한다.",
+            "counter": "외국인 순매도와 약한 시장 폭이 부담이다.",
+            "invalidation": "오늘 종가 유지·시장 폭 개선 시 올린다.",
+            "sources": [
+              "flow-kospi",
+              "price-000660",
+              "price-005930"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·대형 반도체",
+            "basis": "업종 밖 확산 여부가 지속성을 결정한다.",
+            "counter": "해외 기술주 변동성이 크다.",
+            "invalidation": "2거래일 이상 동반 강세와 외국인 매수 시 개선한다.",
+            "sources": [
+              "global-markets",
+              "flow-kospi"
+            ]
+          }
+        }
+      },
+      {
+        "title": "시장 폭과 코스닥 추격",
+        "detail": "상승 종목 수와 코스닥 낙폭 축소를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "코스피·코스닥 시장 폭",
+            "basis": "양 시장 하락 종목이 상승 종목을 크게 웃돌았다.",
+            "counter": "잠정 집계이며 하루 만에 바뀔 수 있다.",
+            "invalidation": "상승 종목 우위가 확인되면 중립으로 올린다.",
+            "sources": [
+              "flow-kospi",
+              "flow-kosdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥 시장 폭",
+            "basis": "반등의 질은 종목 확산 여부가 결정한다.",
+            "counter": "대형주 반등만으로도 지수는 오를 수 있다.",
+            "invalidation": "3거래일 이상 상승 종목 우위 시 개선한다.",
+            "sources": [
+              "flow-kospi",
+              "flow-kosdaq"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 민감주의 엇갈림",
+        "detail": "브렌트유·원화·대한항공·S-Oil을 함께 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "항공·정유",
+            "basis": "유가 고점과 두 종목 약세가 부담이다.",
+            "counter": "업종별 이익 민감도가 다르다.",
+            "invalidation": "유가 안정과 종가 회복 시 낮춘다.",
+            "sources": [
+              "global-markets",
+              "price-003490",
+              "price-010950"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "항공·정유",
+            "basis": "수요·정제마진·환율 확인이 필요하다.",
+            "counter": "중동 상황이 빠르게 변할 수 있다.",
+            "invalidation": "유가와 업종 종가의 지속 동행으로 갱신한다.",
+            "sources": [
+              "global-markets",
+              "fx"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "코스피 5,550.30과 반도체 종가 유지",
+      "외국인 매도 축소와 상승 종목 확산",
+      "브렌트유·원화와 항공·정유의 후속 반응"
+    ],
+    "source_labels": {
+      "calendar": "KRX · 2026 휴장 안내",
+      "hours": "KRX · 거래일과 매매시간",
+      "kospi": "네이버 증권 · 코스피 일별 종가",
+      "kosdaq": "네이버 증권 · 코스닥 일별 종가",
+      "flow-kospi": "네이버 증권 · 코스피 수급·시장 폭",
+      "flow-kosdaq": "네이버 증권 · 코스닥 수급·시장 폭",
+      "price-005930": "네이버 증권 · 삼성전자 KRX 종가",
+      "price-000660": "네이버 증권 · SK하이닉스 KRX 종가",
+      "price-207940": "네이버 증권 · 삼성바이오 KRX 종가",
+      "price-003490": "네이버 증권 · 대한항공 KRX 종가",
+      "price-010950": "네이버 증권 · S-Oil KRX 종가",
+      "hynix-solidigm": "SK하이닉스 · Solidigm IPO 검토 중단",
+      "sbio-results": "삼성바이오로직스 · 3분기 실적",
+      "global-markets": "Reuters · 아시아 기술주와 유가",
+      "fx": "네이버 증권 · 원·달러 고시",
+      "krx-service": "KRX Open API · 서비스 목록",
+      "krx-analysis": "KRX 일별 분석 · 이번 실행"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-23T15:51:53+09:00",
+      "input_cutoff": "2026-10-23T15:51:53+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. d1은 10월26일, d5는 10월26·27·28·29·30일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
