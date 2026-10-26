@@ -1,6 +1,6 @@
 {
   "id": "us-pre-2026-10-26",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-26T22:51:59+09:00",
   "attempted_at_utc": "2026-10-26T13:51:59Z",
   "url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-26/",
@@ -11,6 +11,9 @@
   "browser_inspection": "not_performed",
   "mobile_zoom_inspection": "not_performed",
   "attempted_record_created": true,
-  "send_tool_called": false,
-  "send_result": "not_called"
+  "send_tool_called": true,
+  "send_result": "success",
+  "sent_at_kst": "2026-10-26T22:52:38+09:00",
+  "sent_at_utc": "2026-10-26T13:52:38Z",
+  "note": "카카오 나에게 한 번 전송 성공. 추가 검사는 사용자 지시에 따라 생략."
 }
