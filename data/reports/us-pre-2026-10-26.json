@@ -1,0 +1,841 @@
+{
+  "id": "us-pre-2026-10-26",
+  "is_test": false,
+  "market": "US",
+  "session": "pre",
+  "market_date": "2026-10-26",
+  "title": "2026.10.26 미국장 시작 전 브리핑",
+  "venue": "NYSE·Nasdaq · 2026-10-26 정상장 22:30 KST~2026-10-27 05:00 KST(10/26 09:30~16:00 EDT)",
+  "as_of": "2026-10-26T22:33:59+09:00",
+  "queried_at": "2026-10-26T22:46:33+09:00",
+  "summary": "AI 반등 출발, 자금조달·금리 시험은 남았다",
+  "summary_detail": "09:05 EDT 장전 선물은 다우 +0.40%, S&P 500 +0.34%, 나스닥100 +0.60%였다. 지연 실행 중 확인한 09:30 EDT 개장도 0.20~0.28% 상승했지만, 미국 10년물 약 5%와 AI 자금조달 부담은 반등 지속성을 시험한다.",
+  "interpretation": "전일 종가·장전 선물·개장 수치는 서로 다른 거래 구간이다. 장전 반응을 종가로 확정하지 않으며 조건부 방향은 확률이나 매매 신호가 아니다.",
+  "calculation_notes": "지수·종목은 원문과 수집 원값을 사용했다. 09:05 선물과 09:30 현물 개장은 분리했다. Massive 시장 폭은 4104/12360×100=33.20%이며 OTC 제외 전체 증권(ETF·우선주·워런트 포함)이다. 20거래일 SPY 대비는 분할보정 가격수익률 단순 차감이다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,623.68",
+      "unit": "pt",
+      "delta": "−39.75",
+      "percent": "−0.52",
+      "direction": "down",
+      "source": "ap-close",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,955.34",
+      "unit": "pt",
+      "delta": "−53.52",
+      "percent": "−0.21",
+      "direction": "down",
+      "source": "ap-close",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT)"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,215.16",
+      "unit": "pt",
+      "delta": "−652.82",
+      "percent": "−1.23",
+      "direction": "down",
+      "source": "ap-close",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT)"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "372.22",
+      "currency": "USD",
+      "delta": "−2.36",
+      "percent": "−0.63",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "Barclays 투자의견 상향 뒤 장전 2.5% 반등했다.",
+      "watch": "개장 후 372.22USD 위 유지와 거래량을 본다.",
+      "reason_sources": [
+        "reuters-market",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": 4.9335,
+        "return_20_sessions_pct": 0.0296,
+        "relative_to_spy_5_pct_points": 5.3632,
+        "relative_to_spy_20_pct_points": 1.5049,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 0.7444,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "버라이즌",
+      "ticker": "VZ",
+      "price": "44.66",
+      "currency": "USD",
+      "delta": "−0.54",
+      "percent": "−1.19",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "가입자 전망 상향·AWS 20억USD 이상 계약 뒤 장전 2.4% 올랐다.",
+      "watch": "매출 기대 미달보다 가이던스가 우세한지 본다.",
+      "reason_sources": [
+        "reuters-vz",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": -0.2902,
+        "return_20_sessions_pct": -5.1402,
+        "relative_to_spy_5_pct_points": 0.1395,
+        "relative_to_spy_20_pct_points": -3.6649,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 2.1078,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "메타",
+      "ticker": "META",
+      "price": "642.62",
+      "currency": "USD",
+      "delta": "−6.23",
+      "percent": "−0.96",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "AI 투자용 최대 950억USD 자금조달 계획이 성장 기대와 희석·부채 우려를 함께 만든다.",
+      "watch": "642.62USD 회복과 조달 조건 공개를 본다.",
+      "reason_sources": [
+        "reuters-market",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": -9.404,
+        "return_20_sessions_pct": -14.5066,
+        "relative_to_spy_5_pct_points": -8.9743,
+        "relative_to_spy_20_pct_points": -13.0313,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 0.5977,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "210.96",
+      "currency": "USD",
+      "delta": "−1.25",
+      "percent": "−0.59",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "반도체주는 AI 투자 기대에 장전 1% 넘게 반등했다.",
+      "watch": "SOXX의 20거래일 상대 약세가 완화되는지 본다.",
+      "reason_sources": [
+        "reuters-market",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": -1.4804,
+        "return_20_sessions_pct": -6.2692,
+        "relative_to_spy_5_pct_points": -1.0507,
+        "relative_to_spy_20_pct_points": -4.7939,
+        "trend": "혼조",
+        "volume_ratio_previous_5": 0.783,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "코어위브",
+      "ticker": "CRWV",
+      "price": "54.235",
+      "currency": "USD",
+      "delta": "−1.365",
+      "percent": "−2.46",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "AI 인프라 자금조달 경계 속 이달 30% 넘게 밀렸다.",
+      "watch": "54.235USD와 추가 조달 조건을 확인한다.",
+      "reason_sources": [
+        "reuters-market",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": -11.655,
+        "return_20_sessions_pct": -38.0808,
+        "relative_to_spy_5_pct_points": -11.2253,
+        "relative_to_spy_20_pct_points": -36.6055,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 0.5222,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    },
+    {
+      "name": "네비우스",
+      "ticker": "NBIS",
+      "price": "158.74",
+      "currency": "USD",
+      "delta": "−0.43",
+      "percent": "−0.27",
+      "direction": "down",
+      "source": "massive",
+      "as_of": "2026-10-24T05:00:00+09:00",
+      "session": "2026-10-23 미국 정규장 종가(16:00 EDT) · NYSE/Nasdaq",
+      "reason": "AI 인프라 자금조달 경계 속 이달 30% 넘게 밀렸다.",
+      "watch": "158.74USD와 추가 조달 조건을 확인한다.",
+      "reason_sources": [
+        "reuters-market",
+        "massive"
+      ],
+      "daily_context": {
+        "source": "massive",
+        "data_date": "2026-10-23",
+        "return_5_sessions_pct": -4.0672,
+        "return_20_sessions_pct": -33.1142,
+        "relative_to_spy_5_pct_points": -3.6375,
+        "relative_to_spy_20_pct_points": -31.6389,
+        "trend": "하락 추세 조건 충족",
+        "volume_ratio_previous_5": 0.5166,
+        "note": "분할보정 가격수익률. SPY 단순 차감은 베타 조정 초과수익률이 아니며 거래량비율은 기관순매수가 아니다."
+      }
+    }
+  ],
+  "fx": {
+    "label": "USD/KRW",
+    "value": "1,324.80",
+    "unit": "KRW",
+    "delta": "−1.20",
+    "direction": "down",
+    "as_of": "2026-10-26T21:01:34+09:00",
+    "session": "하나은행 고시 스냅샷 · 실시간 거래소 체결가 아님",
+    "source": "fx"
+  },
+  "macro": [
+    {
+      "name": "다우 선물",
+      "value": "+0.40",
+      "unit": "%",
+      "percent": "기사 시점",
+      "as_of": "2026-10-26T22:05:00+09:00",
+      "source": "reuters-market",
+      "note": "09:05 EDT 장전 스냅샷."
+    },
+    {
+      "name": "S&P 500 선물",
+      "value": "+0.34",
+      "unit": "%",
+      "percent": "기사 시점",
+      "as_of": "2026-10-26T22:05:00+09:00",
+      "source": "reuters-market",
+      "note": "09:05 EDT 장전 스냅샷."
+    },
+    {
+      "name": "나스닥100 선물",
+      "value": "+0.60",
+      "unit": "%",
+      "percent": "기사 시점",
+      "as_of": "2026-10-26T22:05:00+09:00",
+      "source": "reuters-market",
+      "note": "09:05 EDT 장전 스냅샷."
+    },
+    {
+      "name": "미국 10년물",
+      "value": "약 5.00",
+      "unit": "%",
+      "percent": "보합권",
+      "as_of": "2026-10-26T20:00:00+09:00",
+      "source": "reuters-global",
+      "note": "기사 시점 스냅샷; 정확한 체결시각은 미확인."
+    },
+    {
+      "name": "Brent 선물",
+      "value": "114.60",
+      "unit": "USD/배럴",
+      "percent": "−1.8",
+      "as_of": "2026-10-26T20:00:00+09:00",
+      "source": "reuters-global",
+      "note": "기사 시점 스냅샷; 실시간 체결가 아님."
+    }
+  ],
+  "issues": [
+    {
+      "title": "장전 반등, 개장 상승으로 이어짐",
+      "fact": "09:05 EDT 선물은 다우 +0.40%, S&P 500 +0.34%, 나스닥100 +0.60%였다. 지연 실행 중 확인한 09:30 EDT 개장치는 각각 +0.20%, +0.21%, +0.28%다.",
+      "source": "reuters-market",
+      "additional_sources": []
+    },
+    {
+      "title": "AI 자금조달이 기대와 부담을 동시 자극",
+      "fact": "Anthropic IPO 서류가 AI 관심을 높였고 Meta는 최대 950억USD 조달을 추진한다. 반면 CRWV·NBIS는 10월 들어 30% 넘게 하락했다.",
+      "source": "reuters-market",
+      "additional_sources": []
+    },
+    {
+      "title": "Verizon, 가입자 전망 상향",
+      "fact": "VZ는 3분기 후불전화 순증 40.6만명을 기록했고 연간 전망을 110만~120만명으로 높였다. AWS와 20억USD 이상 AI 인프라 계약도 발표했다.",
+      "source": "reuters-vz",
+      "additional_sources": []
+    },
+    {
+      "title": "금리 5%·빅테크 실적 주간",
+      "fact": "미국 10년물은 기사 시점 약 5.00%, Brent는 114.60USD로 1.8% 하락했다. FOMC는 10/27~28, 대형 기술주 실적은 이번 주 예정돼 있다.",
+      "source": "reuters-global",
+      "additional_sources": [
+        "fed"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-27 05:00 KST",
+      "title": "10/26 정규장 종가",
+      "detail": "09:05 장전 반등과 09:30 개장 상승이 종가까지 유지되는지 확인한다."
+    },
+    {
+      "label": "2026-10-29 03:00 KST",
+      "title": "FOMC 결정",
+      "detail": "10/28 14:00 EDT 성명과 03:30 KST 기자회견에서 금리 경로를 확인한다."
+    },
+    {
+      "label": "2026-10-29~30 KST",
+      "title": "빅테크 실적",
+      "detail": "Alphabet·Microsoft·Amazon 실적에서 AI 투자와 현금흐름을 대조한다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장·조기폐장 목록과 core 09:30~16:00 ET 확인."
+    },
+    {
+      "id": "nasdaq-cal",
+      "label": "Nasdaq · 2026 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "10/26 정상장과 09:30~16:00 ET 확인."
+    },
+    {
+      "id": "reuters-market",
+      "label": "Reuters · 10월 26일 미국장",
+      "url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/",
+      "note": "09:05 EDT 장전과 09:30 EDT 개장 수치, AI·종목 재료."
+    },
+    {
+      "id": "reuters-vz",
+      "label": "Reuters · Verizon 실적·AWS 계약",
+      "url": "https://www.reuters.com/business/media-telecom/verizon-lifts-annual-forecasts-signs-more-than-2-billion-ai-infrastructure-deal-2026-10-26/",
+      "note": "가입자·전망·매출·장전 반응."
+    },
+    {
+      "id": "reuters-global",
+      "label": "Reuters · 10월 26일 글로벌 시장",
+      "url": "https://www.reuters.com/world/asia-pacific/global-markets-pix-2026-10-26/",
+      "note": "미국 10년물·Brent·이번 주 일정 기사 스냅샷."
+    },
+    {
+      "id": "ap-close",
+      "label": "AP · 10월 23일 미국 종가",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-e07c72bc5cbe5dffe352ddf30054e35f",
+      "note": "S&P 500·나스닥·다우 종가와 변동폭."
+    },
+    {
+      "id": "fed",
+      "label": "Federal Reserve · 2026년 10월 일정",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "note": "10/27~28 FOMC, 10/28 14:00 EDT 성명·14:30 기자회견."
+    },
+    {
+      "id": "fx",
+      "label": "Naver · USD/KRW",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "10/26 21:01:34 KST 하나은행 고시 스냅샷."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/40332039485",
+      "note": "2026-10-23 정규장·ETF·시장 폭 분석. 공개 하단 출처에서는 생략.",
+      "show_public": false
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-26",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-26T22:34:57+09:00",
+    "note": "NYSE·Nasdaq 공식 2026 휴장 목록 대조: 10/26 정상장. 이전 거래일 10/23. 정규장 09:30~16:00 EDT(UTC−04:00), KST 22:30~익일05:00."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-26T09:00:00-04:00",
+      "kst": "2026-10-26T22:00:00+09:00",
+      "utc": "2026-10-26T13:00:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-26T09:33:59-04:00",
+      "kst": "2026-10-26T22:33:59+09:00",
+      "utc": "2026-10-26T13:33:59Z"
+    },
+    "start_offset_seconds": 2039,
+    "delay_seconds": 2039,
+    "early_seconds": 0,
+    "environment": "클라우드 Bash/Python 실행 공간과 연결 GitHub·Kakao 도구; 실제 checkout /tmp/cost-uspre-20261026-bmH5zh/repo",
+    "model_setting": "not_verified",
+    "request_commit": "b6f043c98898374c6080fecec9d3da169f7aa058",
+    "analysis_run_id": 40332039485,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-10-26.json",
+    "analysis_status": "completed/success",
+    "analysis_artifact": {
+      "id": 12654334974,
+      "name": "us-analysis-40332039485",
+      "sha256": "86663438be430df47ee66afb7750d8618d2ed978f92cd6c02142d5c5bd59ef5b",
+      "data_date": "2026-10-23",
+      "queried_at": "2026-10-26T22:44:01+09:00",
+      "request_commit": "b6f043c98898374c6080fecec9d3da169f7aa058"
+    },
+    "inputs_completed_at": "2026-10-26T22:46:33+09:00"
+  },
+  "reading": {
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-26T22:46:33+09:00",
+      "input_cutoff": "2026-10-26T22:33:59+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "당시 확인한 자료에 근거한 조건부 해석이며 검증 전입니다."
+    },
+    "headline": "AI 반등 출발, 자금조달·금리 시험은 남았다",
+    "summary_points": [
+      "09:05 장전 선물은 0.34~0.60% 올랐다.",
+      "AI 기대와 대규모 자금조달 부담이 맞선다.",
+      "10년물 5%·FOMC·빅테크 실적을 본다."
+    ],
+    "notices": [
+      "기본 가격은 2026-10-24 05:00 KST(10/23 미국 정규장) 종가다.",
+      "실행 지연으로 09:05 장전과 09:30 개장 수치를 분리해 표시했다.",
+      "선물·금리·유가는 기사 시점 스냅샷이며 실시간 체결가가 아니다.",
+      "Massive 시장 폭은 OTC 제외 전체 증권 기준이며 보통주 비율이 아니다."
+    ],
+    "interpretation_points": [
+      "장전 반등을 종가 결과로 확정하지 않는다.",
+      "AI 수요와 조달 비용을 함께 본다.",
+      "조건부 방향은 확률·매매 신호가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "장전 반등, 개장 상승으로 이어짐",
+        "preview": "장전 수치와 개장 수치를 같은 구간으로 섞지 않는다.",
+        "points": [
+          "09:05 EDT 선물은 다우 +0.40%, S&P 500 +0.34%, 나스닥100 +0.60%였다.",
+          "지연 실행 중 확인한 09:30 EDT 개장치는 각각 +0.20%, +0.21%, +0.28%다.."
+        ],
+        "meaning": "장전 수치와 개장 수치를 같은 구간으로 섞지 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 확인된 장전·뉴스 반응의 정규장 지속 여부를 본다.",
+            "counter": "금리·유가·실적 해석이 장중 바뀔 수 있다.",
+            "invalidation": "정규장 반응이 장전 방향을 뒤집으면 재평가한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. FOMC와 실적 소화를 확인한다.",
+            "counter": "자본비용과 높은 기대치가 변동성을 키울 수 있다.",
+            "invalidation": "공식 가이던스나 금리 경로가 달라지면 재평가한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AI 자금조달이 기대와 부담을 동시 자극",
+        "preview": "AI 수요와 자본비용을 함께 봐야 한다.",
+        "points": [
+          "Anthropic IPO 서류가 AI 관심을 높였고 Meta는 최대 950억USD 조달을 추진한다.",
+          "반면 CRWV·NBIS는 10월 들어 30% 넘게 하락했다.."
+        ],
+        "meaning": "AI 수요와 자본비용을 함께 봐야 한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AI 관련주",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 확인된 장전·뉴스 반응의 정규장 지속 여부를 본다.",
+            "counter": "금리·유가·실적 해석이 장중 바뀔 수 있다.",
+            "invalidation": "정규장 반응이 장전 방향을 뒤집으면 재평가한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AI 관련주",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. FOMC와 실적 소화를 확인한다.",
+            "counter": "자본비용과 높은 기대치가 변동성을 키울 수 있다.",
+            "invalidation": "공식 가이던스나 금리 경로가 달라지면 재평가한다.",
+            "sources": [
+              "reuters-market"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Verizon, 가입자 전망 상향",
+        "preview": "가이던스 상향이 매출 기대 미달을 상쇄하는지가 관건이다.",
+        "points": [
+          "VZ는 3분기 후불전화 순증 40.6만명을 기록했고 연간 전망을 110만~120만명으로 높였다.",
+          "AWS와 20억USD 이상 AI 인프라 계약도 발표했다.."
+        ],
+        "meaning": "가이던스 상향이 매출 기대 미달을 상쇄하는지가 관건이다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "VZ",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 확인된 장전·뉴스 반응의 정규장 지속 여부를 본다.",
+            "counter": "금리·유가·실적 해석이 장중 바뀔 수 있다.",
+            "invalidation": "정규장 반응이 장전 방향을 뒤집으면 재평가한다.",
+            "sources": [
+              "reuters-vz"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "VZ",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. FOMC와 실적 소화를 확인한다.",
+            "counter": "자본비용과 높은 기대치가 변동성을 키울 수 있다.",
+            "invalidation": "공식 가이던스나 금리 경로가 달라지면 재평가한다.",
+            "sources": [
+              "reuters-vz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "금리 5%·빅테크 실적 주간",
+        "preview": "고금리와 실적이 기술주 반등의 지속성을 가른다.",
+        "points": [
+          "미국 10년물은 기사 시점 약 5.00%, Brent는 114.60USD로 1.8% 하락했다.",
+          "FOMC는 10/27~28, 대형 기술주 실적은 이번 주 예정돼 있다.."
+        ],
+        "meaning": "고금리와 실적이 기술주 반등의 지속성을 가른다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 확인된 장전·뉴스 반응의 정규장 지속 여부를 본다.",
+            "counter": "금리·유가·실적 해석이 장중 바뀔 수 있다.",
+            "invalidation": "정규장 반응이 장전 방향을 뒤집으면 재평가한다.",
+            "sources": [
+              "reuters-global",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. FOMC와 실적 소화를 확인한다.",
+            "counter": "자본비용과 높은 기대치가 변동성을 키울 수 있다.",
+            "invalidation": "공식 가이던스나 금리 경로가 달라지면 재평가한다.",
+            "sources": [
+              "reuters-global",
+              "fed"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "TSLA": {
+        "reason": "Barclays 투자의견 상향 뒤 장전 2.5% 반등했다.",
+        "watch": "개장 후 372.22USD 위 유지와 거래량을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "TSLA",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "개장 후 372.22USD 위 유지와 거래량을 본다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "TSLA",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "VZ": {
+        "reason": "가입자 전망 상향·AWS 20억USD 이상 계약 뒤 장전 2.4% 올랐다.",
+        "watch": "매출 기대 미달보다 가이던스가 우세한지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "VZ",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "매출 기대 미달보다 가이던스가 우세한지 본다.",
+            "sources": [
+              "reuters-vz",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "VZ",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-vz",
+              "massive"
+            ]
+          }
+        }
+      },
+      "META": {
+        "reason": "AI 투자용 최대 950억USD 자금조달 계획이 성장 기대와 희석·부채 우려를 함께 만든다.",
+        "watch": "642.62USD 회복과 조달 조건 공개를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "META",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "642.62USD 회복과 조달 조건 공개를 본다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "META",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "반도체주는 AI 투자 기대에 장전 1% 넘게 반등했다.",
+        "watch": "SOXX의 20거래일 상대 약세가 완화되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "NVDA",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "SOXX의 20거래일 상대 약세가 완화되는지 본다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "CRWV": {
+        "reason": "AI 인프라 자금조달 경계 속 이달 30% 넘게 밀렸다.",
+        "watch": "54.235USD와 추가 조달 조건을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "54.235USD와 추가 조달 조건을 확인한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CRWV",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      },
+      "NBIS": {
+        "reason": "AI 인프라 자금조달 경계 속 이달 30% 넘게 밀렸다.",
+        "watch": "158.74USD와 추가 조달 조건을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NBIS",
+            "basis": "10/26 종가를 10/23 종가와 비교한다. 장전 재료와 전일 종가를 대조한다.",
+            "counter": "장전 가격은 정규장과 다를 수 있다.",
+            "invalidation": "158.74USD와 추가 조달 조건을 확인한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "NBIS",
+            "basis": "10/30 종가를 10/23 종가와 비교한다. 실적·금리·자금조달 후속을 본다.",
+            "counter": "높은 변동성과 자본비용이 반대 요인이다.",
+            "invalidation": "공식 발표나 추세 변화 시 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "massive"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "10/26 정규장 종가",
+        "detail": "09:05 장전 반등과 09:30 개장 상승이 종가까지 유지되는지 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/26 종가를 10/23과 비교하고 일정 전후 반응을 확인한다.",
+            "counter": "선반영과 장중 반전 가능성이 있다.",
+            "invalidation": "공식 발표가 예상과 다르면 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/30 종가를 10/23과 비교한다.",
+            "counter": "실적과 금리의 영향이 엇갈릴 수 있다.",
+            "invalidation": "후속 지표·가이던스 확인 시 재평가한다.",
+            "sources": [
+              "reuters-global",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "FOMC 결정",
+        "detail": "10/28 14:00 EDT 성명과 03:30 KST 기자회견에서 금리 경로를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/26 종가를 10/23과 비교하고 일정 전후 반응을 확인한다.",
+            "counter": "선반영과 장중 반전 가능성이 있다.",
+            "invalidation": "공식 발표가 예상과 다르면 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/30 종가를 10/23과 비교한다.",
+            "counter": "실적과 금리의 영향이 엇갈릴 수 있다.",
+            "invalidation": "후속 지표·가이던스 확인 시 재평가한다.",
+            "sources": [
+              "reuters-global",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "빅테크 실적",
+        "detail": "Alphabet·Microsoft·Amazon 실적에서 AI 투자와 현금흐름을 대조한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/26 종가를 10/23과 비교하고 일정 전후 반응을 확인한다.",
+            "counter": "선반영과 장중 반전 가능성이 있다.",
+            "invalidation": "공식 발표가 예상과 다르면 재평가한다.",
+            "sources": [
+              "reuters-market",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 증시",
+            "basis": "10/30 종가를 10/23과 비교한다.",
+            "counter": "실적과 금리의 영향이 엇갈릴 수 있다.",
+            "invalidation": "후속 지표·가이던스 확인 시 재평가한다.",
+            "sources": [
+              "reuters-global",
+              "fed"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

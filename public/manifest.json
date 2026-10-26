@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-26",
+  "latest_id": "us-pre-2026-10-26",
   "reports": [
+    {
+      "id": "us-pre-2026-10-26",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-26",
+      "title": "2026.10.26 미국장 시작 전 브리핑",
+      "summary": "AI 반등 출발, 자금조달·금리 시험은 남았다",
+      "as_of": "2026-10-26T22:33:59+09:00",
+      "path": "reports/us-pre-2026-10-26/"
+    },
     {
       "id": "kr-close-2026-10-26",
       "is_test": false,
