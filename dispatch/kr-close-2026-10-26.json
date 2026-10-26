@@ -1,0 +1,26 @@
+{
+  "id": "kr-close-2026-10-26",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-26T15:56:54+09:00",
+  "attempted_at_utc": "2026-10-26T06:56:54Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-26/",
+  "deployment_commit": "7d0e62c22c81684e997f21ac6faba03c9e3d7ff6",
+  "deployment": {
+    "workflow": "Deploy static briefing site",
+    "run_id": 40282733699,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "build_job": "success",
+    "deploy_job": "success"
+  },
+  "extra_checks": {
+    "anonymous_http": "not_performed_by_user_instruction",
+    "browser": "not_performed_by_user_instruction",
+    "mobile_390_430": "not_performed_by_user_instruction",
+    "zoom_200_percent": "not_performed_by_user_instruction"
+  },
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "kakao_result": "pending"
+}
