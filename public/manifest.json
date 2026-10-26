@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-10-26",
+  "latest_id": "us-close-2026-10-26",
   "reports": [
+    {
+      "id": "us-close-2026-10-26",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-26",
+      "title": "10월 26일 미국장 마감 브리핑",
+      "summary": "AI가 지수를 끌어올렸지만 자금조달 비용은 종목을 갈랐다",
+      "as_of": "2026-10-27T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-26/"
+    },
     {
       "id": "us-pre-2026-10-26",
       "is_test": false,
