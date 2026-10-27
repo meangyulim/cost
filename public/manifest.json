@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-10-27/"
     },
     {
+      "id": "us-pre-2026-10-27",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-27",
+      "title": "2026.10.27 미국장 시작 전 브리핑",
+      "summary": "선물은 소폭 상승, 실적 반응과 5% 금리가 방향을 가른다",
+      "as_of": "2026-10-27T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-27/"
+    },
+    {
       "id": "us-close-2026-10-26",
       "is_test": false,
       "market": "US",
