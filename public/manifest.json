@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-27",
+  "latest_id": "kr-close-2026-10-27",
   "reports": [
+    {
+      "id": "kr-close-2026-10-27",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-27",
+      "title": "한국장 마감 브리핑 · 2026.10.27",
+      "summary": "반도체와 외국인 매수가 코스피 3.09% 반등을 이끌었다",
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-27/"
+    },
     {
       "id": "kr-pre-2026-10-27",
       "is_test": false,
