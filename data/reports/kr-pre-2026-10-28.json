@@ -1,0 +1,940 @@
+{
+  "id": "kr-pre-2026-10-28",
+  "title": "10월 28일 한국장 시작 전",
+  "market": "KR",
+  "venue": "국내 지수·관찰 종목의 기본 가격은 2026.10.27 15:30 KST KRX 정규장 종가이며 NXT·시간외를 제외. 미국 지수는 2026.10.28 05:00 KST(2026.10.27 16:00 EDT) 정규장 종가.",
+  "session": "pre",
+  "market_date": "2026-10-28",
+  "as_of": "2026-10-28T08:43:00+09:00",
+  "queried_at": "2026-10-28T08:43:00+09:00",
+  "is_test": false,
+  "summary": "미 반도체 강세가 우호적이지만 하이닉스 실적·FOMC가 변동성을 가른다",
+  "summary_detail": "전일 코스피는 5,638.34(+3.09%), 코스닥은 743.83(+2.29%)로 반등했고 KRX 전체 종목 기준 상승 비율은 각각 65.03%, 62.73%였다. 미국 나스닥은 26,477.81(+1.18%), 필라델피아 반도체지수는 3%대 상승해 국내 반도체 개장 여건을 지지한다. 다만 SK하이닉스가 09:00 실적·주주환원 설명을 시작하고 10월29일 03:00 KST FOMC 결정이 예정돼 있어 시초가보다 발표 뒤 종가와 시장 폭을 우선 확인한다.",
+  "interpretation": "전일 반등은 외국인 매수와 시장 폭 확산이 동반됐지만 코스피의 20거래일 가격수익률은 -20.3728%, 20일선은 5거래일 동안 5.1968% 낮아져 중기 하락 추세 조건이 남아 있다. 미국 AI·반도체 강세를 단순 추종 신호로 보지 않고 SK하이닉스 공식 실적, 삼성전자·삼성전기의 동반 반응, 외국인 수급과 15:30 KRX 종가로 확인한다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,638.34",
+      "unit": "pt",
+      "delta": "+168.87",
+      "percent": "+3.09",
+      "direction": "up",
+      "source": "kospi",
+      "additional_sources": [
+        "krx-analysis"
+      ],
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "743.83",
+      "unit": "pt",
+      "delta": "+16.62",
+      "percent": "+2.29",
+      "direction": "up",
+      "source": "kosdaq",
+      "additional_sources": [
+        "krx-analysis"
+      ],
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,722.60",
+      "unit": "pt",
+      "delta": "+45.83",
+      "percent": "+0.60",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-28T05:00:00+09:00",
+      "session": "미국 2026.10.27 정규장 종가 · 16:00 EDT"
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,477.81",
+      "unit": "pt",
+      "delta": "+308.43",
+      "percent": "+1.18",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-28T05:00:00+09:00",
+      "session": "미국 2026.10.27 정규장 종가 · 16:00 EDT"
+    },
+    {
+      "name": "다우존스",
+      "value": "52,377.57",
+      "unit": "pt",
+      "delta": "+15.99",
+      "percent": "+0.03",
+      "direction": "up",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close"
+      ],
+      "as_of": "2026-10-28T05:00:00+09:00",
+      "session": "미국 2026.10.27 정규장 종가 · 16:00 EDT"
+    }
+  ],
+  "issues": [
+    {
+      "title": "SK하이닉스 09:00 실적·주주환원 발표",
+      "fact": "SK하이닉스는 10월28일 09:00 KST 3분기 컨퍼런스콜을 시작하며 보도자료는 09:00 이전 공개한다고 공식 안내했다. 08:43 KST 현재 공식 실적 수치는 아직 확인되지 않았다. 전일 KRX 정규장 종가는 1,341,000원(+66,000원, +5.18%)이었다. 시장 예상치와 특별배당 보도는 공식 확정치가 아니므로 매출·영업이익, 장기공급계약, 주주환원 결의의 실제 발표를 구분해 확인한다.",
+      "source": "hynix-ir",
+      "additional_sources": [
+        "price-000660",
+        "hynix-expect"
+      ]
+    },
+    {
+      "title": "미국 AI·반도체 강세, 국내 개장 지지",
+      "fact": "10월27일 미국 정규장에서 S&P500은 0.60%, 나스닥은 1.18% 올랐다. Reuters는 Anthropic IPO 기대와 컴퓨터·주변기기 신규주문 증가가 AI 투자 기대를 되살렸다고 전했다. Nasdaq의 필라델피아 반도체지수 화면도 전일 대비 3%대 상승을 가리켰다. 다만 대형 AI 기업의 차입·자금조달 비용 우려와 4.993%의 미국 10년물 금리는 남아 있다.",
+      "source": "us-close",
+      "additional_sources": [
+        "ap-close",
+        "sox",
+        "ust10"
+      ]
+    },
+    {
+      "title": "전일 반등 폭은 넓었지만 중기 추세는 하락",
+      "fact": "KRX 일별 분석에서 10월27일 코스피 상승 종목 비율은 65.03%(595/915), 코스닥은 62.73%(1,089/1,736)였다. 거래대금은 직전 5거래일 평균의 1.0162배와 1.0708배였다. 그러나 코스피 20거래일 가격수익률은 -20.3728%, 코스닥은 -11.9186%였고 이는 배당·분할 미보정 가격수익률이다. 한 번의 반등만으로 추세 전환을 확정하지 않는다.",
+      "source": "krx-analysis",
+      "additional_sources": [
+        "kospi",
+        "kosdaq"
+      ]
+    },
+    {
+      "title": "LG전자 16:00 실적 설명·삼성전자 내일 발표",
+      "fact": "LG전자는 10월28일 16:00 KST 3분기 경영실적 설명회를 연다. 회사가 10월7일 공개한 잠정치는 매출 23조8,270억원, 영업이익 7,818억원으로 전년 대비 각각 8.9%, 13.5% 증가했다. 삼성전자는 10월29일 10:00 KST 3분기 실적 컨퍼런스콜을 연다. 오늘 장중에는 하이닉스 발표가 삼성전자·삼성전기의 기대 선반영과 동반 변동성을 키울 수 있다.",
+      "source": "lg-ir",
+      "additional_sources": [
+        "lg-guidance",
+        "samsung-ir",
+        "price-005930",
+        "price-009150"
+      ]
+    },
+    {
+      "title": "유가 완화와 FOMC 대기",
+      "fact": "Brent는 10월27일 113.88달러, WTI는 99.90달러에 결제돼 중동 외교 기대에 약 2달러 하락했다. 원·달러는 10월28일 06:50 KST 하나은행 1,276회차 고시에서 1,328.00원으로 1.00원 올랐다. FOMC 성명은 10월29일 03:00 KST, 기자회견은 03:30 KST 예정이며 방향을 선결정하지 않고 금리·달러·성장주 반응을 함께 본다.",
+      "source": "oil",
+      "additional_sources": [
+        "fx",
+        "fed",
+        "ust10"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,341,000",
+      "currency": "KRW",
+      "delta": "+66,000",
+      "percent": "+5.18",
+      "direction": "up",
+      "source": "price-000660",
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가 · NXT·시간외 제외",
+      "reason": "09:00 실적·주주환원 발표가 오늘 반도체와 코스피 방향의 첫 확인점이다.",
+      "watch": "1,341,000원 기준, 공식 실적과 가이던스·주주환원 내용 및 15:30 종가를 확인한다.",
+      "reason_sources": [
+        "hynix-ir",
+        "hynix-expect",
+        "us-close"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "222,000",
+      "currency": "KRW",
+      "delta": "+9,000",
+      "percent": "+4.23",
+      "direction": "up",
+      "source": "price-005930",
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가 · NXT·시간외 제외",
+      "reason": "미국 반도체 강세와 하이닉스 발표를 먼저 반영한 뒤 내일 자체 실적 설명회를 앞둔다.",
+      "watch": "222,000원 유지, 하이닉스 발표 뒤 동반 방향과 외국인 현물 수급을 본다.",
+      "reason_sources": [
+        "us-close",
+        "hynix-ir",
+        "samsung-ir"
+      ]
+    },
+    {
+      "name": "삼성전기",
+      "ticker": "009150",
+      "price": "1,201,000",
+      "currency": "KRW",
+      "delta": "+83,000",
+      "percent": "+7.42",
+      "direction": "up",
+      "source": "price-009150",
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가 · NXT·시간외 제외",
+      "reason": "전일 7.42% 급등해 AI 하드웨어 기대가 이미 크게 반영됐는지 확인할 종목이다.",
+      "watch": "1,201,000원과 전일 상승분 유지, 반도체 대형주 대비 상대강도와 장중 되돌림을 본다.",
+      "reason_sources": [
+        "price-009150",
+        "us-close",
+        "krx-analysis"
+      ]
+    },
+    {
+      "name": "LG전자",
+      "ticker": "066570",
+      "price": "157,500",
+      "currency": "KRW",
+      "delta": "+1,500",
+      "percent": "+0.96",
+      "direction": "up",
+      "source": "price-066570",
+      "as_of": "2026-10-27T15:30:00+09:00",
+      "session": "KRX 2026.10.27 정규장 종가 · NXT·시간외 제외",
+      "reason": "16:00 실적 설명회에서 잠정 실적의 사업부별 수익성과 연말 전망이 확인된다.",
+      "watch": "157,500원 기준 종가와 16:00 설명회의 사업부별 마진·수요 전망을 확인한다.",
+      "reason_sources": [
+        "lg-ir",
+        "lg-guidance",
+        "price-066570"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(하나은행 고시)",
+    "value": "1,328.00",
+    "unit": "원/USD",
+    "delta": "+1.00",
+    "direction": "up",
+    "source": "fx",
+    "as_of": "2026-10-28T06:50:27+09:00",
+    "session": "하나은행 1,276회차 고시환율 · 서울외환시장 주간종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026.10.28 09:00 KST",
+      "title": "SK하이닉스 실적·컨퍼런스콜",
+      "detail": "공식 매출·영업이익과 HBM 수요, 장기공급계약, 주주환원 확정안을 확인한다."
+    },
+    {
+      "label": "2026.10.28 15:30 KST",
+      "title": "KRX 종가·시장 폭·외국인 수급",
+      "detail": "반도체 시초가가 종가까지 유지되는지와 상승 종목 비율, 외국인 현물 수급을 확인한다."
+    },
+    {
+      "label": "2026.10.28 16:00 KST",
+      "title": "LG전자 3분기 실적 설명회",
+      "detail": "잠정 실적의 사업부별 수익성, 수요·관세·연말 가이던스를 확인한다."
+    },
+    {
+      "label": "2026.10.29 03:00·03:30 KST",
+      "title": "FOMC 성명·기자회견",
+      "detail": "정책금리보다 12월 경로, 인플레이션 언급과 미국 10년물·달러 반응을 본다."
+    },
+    {
+      "label": "2026.10.29 10:00 KST",
+      "title": "삼성전자 3분기 실적 설명회",
+      "detail": "메모리 가격·HBM 수요·설비투자와 하이닉스 대비 주가 반응을 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+    "market_date": "2026-10-28",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-28T08:35:30+09:00",
+    "note": "KRX 공식 월~금 거래 원칙과 2026년 10월 시장운영 공지를 대조했다. 10월28일 수요일은 10월 휴장일인 5일·9일 밖이며 특별 휴장·조기폐장 공지가 없어 09:00~15:30 정상 거래일로 판단했다. d5는 10월28·29·30일과 11월2·3일이다.",
+    "additional_urls": [
+      "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list"
+    ]
+  },
+  "calculation_notes": "한국 지수·종목은 10월27일 KRX 정규장 종가·변동액·등락률을 사용하고 NXT 프리마켓·시간외를 제외했다. KRX 산출물의 시장 폭은 거래량>0이고 등락률이 유효한 전체 증권 중 상승 종목 비율로 우선주 등이 포함된다. 5/20거래일 수익률은 배당·분할 미보정 가격수익률이다. 거래대금 배수는 순자금 유입이나 외국인·기관 순매수를 뜻하지 않는다. 원·달러는 하나은행 고시값, 미국 10년물은 Cboe TNX 일별 종가 대용치다. 분봉·VWAP·옵션·소셜 감성·검증된 상승 확률은 미확인/미산출이다.",
+  "execution": {
+    "scheduled_start_kst": "2026-10-28T08:30:00+09:00",
+    "scheduled_start_utc": "2026-10-27T23:30:00Z",
+    "actual_start_kst": "2026-10-28T08:33:59+09:00",
+    "actual_start_utc": "2026-10-27T23:33:59Z",
+    "start_offset_seconds": 239,
+    "delay_seconds": 239,
+    "early_seconds": 0,
+    "environment": "ChatGPT Work 클라우드 Bash/Python 실행 공간 · 연결된 GitHub 읽기·쓰기·Actions 조회와 Kakao self-send 도구 사용",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "670e488ef0b0b3ae4df25b0eff37c308231a5ad0",
+      "run_id": 40603257741,
+      "status": "success",
+      "artifact": "krx-analysis-40603257741",
+      "artifact_id": 12779830584,
+      "artifact_digest": "sha256:5a7d8518b9a0f6bd4eb55860103312202e793889b670721ec702a53452aad4dc",
+      "requested_end_date": "2026-10-27",
+      "data_date": "2026-10-27",
+      "queried_at": "2026-10-28T08:37:08+09:00",
+      "usage": "전일 일별 배경 분석으로 사용 · 당일 장중 시세·순매수·확률로 해석하지 않음"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 거래일 및 휴장일",
+      "url": "https://www.krx.co.kr/contents/RGL/04/04030203/RGL04030203.jsp",
+      "note": "월~금 거래 원칙과 휴장 기준을 확인했다.",
+      "queried_at": "2026-10-28T08:35:30+09:00"
+    },
+    {
+      "id": "krx-october",
+      "label": "KRX · 2026년 10월 시장운영 안내",
+      "url": "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list",
+      "note": "10월 특별 휴장은 5일·9일이며 28일 휴장 공지는 없음을 확인했다.",
+      "queried_at": "2026-10-28T08:35:30+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX 일별 분석 · 10월27일",
+      "url": "https://github.com/meangyulim/cost/actions/runs/40603257741",
+      "note": "이번 요청 커밋의 artifact. data_date 2026-10-27, queried_at 2026-10-28 08:37:08 KST.",
+      "queried_at": "2026-10-28T08:37:08+09:00"
+    },
+    {
+      "id": "kospi",
+      "label": "네이버 증권 · 코스피 10월27일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSPI/price?pageSize=3&page=1",
+      "note": "KRX 정규장 종가 5,638.34, +168.87, +3.09%.",
+      "queried_at": "2026-10-28T08:36:30+09:00"
+    },
+    {
+      "id": "kosdaq",
+      "label": "네이버 증권 · 코스닥 10월27일 종가",
+      "url": "https://m.stock.naver.com/api/index/KOSDAQ/price?pageSize=3&page=1",
+      "note": "KRX 정규장 종가 743.83, +16.62, +2.29%.",
+      "queried_at": "2026-10-28T08:36:30+09:00"
+    },
+    {
+      "id": "price-000660",
+      "label": "네이버 증권 · SK하이닉스 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/000660/basic",
+      "note": "10월27일 KRX 정규장 종가 1,341,000원, +66,000원, +5.18%. NXT 제외.",
+      "queried_at": "2026-10-28T08:38:40+09:00"
+    },
+    {
+      "id": "price-005930",
+      "label": "네이버 증권 · 삼성전자 KRX 종가",
+      "url": "https://m.stock.naver.com/api/stock/005930/basic",
+      "note": "10월27일 KRX 정규장 종가 222,000원, +9,000원, +4.23%. NXT 제외.",
+      "queried_at": "2026-10-28T08:38:36+09:00"
+    },
+    {
+      "id": "price-009150",
+      "label": "삼성전기·공개 시세 · 10월27일 KRX 종가",
+      "url": "https://m.samsungsem.com/kr/about-us/investor-relations/stock.do",
+      "note": "일자별 KRX 종가 1,201,000원, +83,000원, +7.42%. NXT 제외.",
+      "queried_at": "2026-10-28T08:40:00+09:00"
+    },
+    {
+      "id": "price-066570",
+      "label": "공개 시세 · LG전자 10월27일 KRX 종가",
+      "url": "https://markets.hankyung.com/stock/066570/",
+      "note": "KRX 장마감 157,500원, +1,500원, +0.96%. NXT 제외.",
+      "queried_at": "2026-10-28T08:40:00+09:00"
+    },
+    {
+      "id": "us-close",
+      "label": "Reuters · 10월27일 미국장 마감",
+      "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27/",
+      "note": "미국 3대 지수 정규장 종가와 AI·반도체 배경을 확인했다.",
+      "queried_at": "2026-10-28T08:37:30+09:00"
+    },
+    {
+      "id": "ap-close",
+      "label": "AP · 10월27일 미국 지수 종가",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-eae2932c0c253be1039e1545909656a8",
+      "note": "지수 값·포인트·등락률을 교차확인했다.",
+      "queried_at": "2026-10-28T08:37:30+09:00"
+    },
+    {
+      "id": "sox",
+      "label": "Nasdaq · 필라델피아 반도체지수",
+      "url": "https://indexes.nasdaq.com/index/Overview/SOX",
+      "note": "10월27일 반도체지수 강세를 확인했다. 동적 화면 수치는 조회 시점에 따라 달라질 수 있다.",
+      "queried_at": "2026-10-28T08:40:30+09:00"
+    },
+    {
+      "id": "ust10",
+      "label": "Cboe TNX · 미국 10년물 종가",
+      "url": "https://www.cboe.com/us/indices/dashboard/tnx/",
+      "note": "10월27일 4.993%, 전일 대비 +0.007%p 대용치를 확인했다.",
+      "queried_at": "2026-10-28T08:40:30+09:00"
+    },
+    {
+      "id": "hynix-ir",
+      "label": "SK하이닉스 · 3분기 실적 일정",
+      "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+      "note": "10월28일 09:00 KST 컨퍼런스콜과 사전 보도자료 일정을 확인했다.",
+      "queried_at": "2026-10-28T08:42:30+09:00"
+    },
+    {
+      "id": "hynix-expect",
+      "label": "연합뉴스 · SK하이닉스 실적 관전점",
+      "url": "https://www.yna.co.kr/view/AKR20261026155100003",
+      "note": "시장 예상과 주주환원 관전점을 참고했으며 공식 결과로 쓰지 않았다.",
+      "queried_at": "2026-10-28T08:42:30+09:00"
+    },
+    {
+      "id": "lg-ir",
+      "label": "LG전자 IR · 3분기 실적 설명회",
+      "url": "https://www.lge.co.kr/company/investor/presentation",
+      "note": "10월28일 16:00 KST 일정을 확인했다.",
+      "queried_at": "2026-10-28T08:39:30+09:00"
+    },
+    {
+      "id": "lg-guidance",
+      "label": "LG전자 · 3분기 잠정실적",
+      "url": "https://www.lge.co.kr/story/newsroom/236203",
+      "note": "10월7일 공개 잠정 매출·영업이익을 확인했다.",
+      "queried_at": "2026-10-28T08:39:30+09:00"
+    },
+    {
+      "id": "samsung-ir",
+      "label": "삼성전자 IR · 3분기 실적 일정",
+      "url": "https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.84776/",
+      "note": "10월29일 10:00 KST 컨퍼런스콜을 확인했다.",
+      "queried_at": "2026-10-28T08:39:30+09:00"
+    },
+    {
+      "id": "fed",
+      "label": "Federal Reserve · 10월 FOMC 일정",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "note": "10월28일 14:00 EDT 성명, 14:30 기자회견을 확인했다.",
+      "queried_at": "2026-10-28T08:39:00+09:00"
+    },
+    {
+      "id": "oil",
+      "label": "Reuters · 10월27일 원유 결제",
+      "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+      "note": "Brent 113.88달러, WTI 99.90달러 결제와 하락 배경을 확인했다.",
+      "queried_at": "2026-10-28T08:40:30+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "네이버·하나은행 · 달러 고시환율",
+      "url": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+      "note": "10월28일 06:50:27 KST 1,276회차 1,328.00원, +1.00원.",
+      "queried_at": "2026-10-28T08:36:30+09:00"
+    }
+  ],
+  "reading": {
+    "headline": "미 반도체 강세, 하이닉스 실적이 관문",
+    "summary_points": [
+      "코스피 +3.09%, 상승 종목 비율은 65.03%였다.",
+      "나스닥 +1.18%로 국내 반도체 개장은 우호적이다.",
+      "09:00 하이닉스 실적·주주환원 확인이 먼저다."
+    ],
+    "notices": [
+      "국내 가격은 10월27일 KRX 종가이며 NXT·시간외를 제외했다.",
+      "08:43 현재 SK하이닉스 공식 실적 수치는 미확인이다.",
+      "원·달러는 은행 고시값, 미국 10년물은 TNX 종가 대용치다."
+    ],
+    "issues": [
+      {
+        "title": "SK하이닉스 09:00 실적",
+        "preview": "공식 수치와 주주환원안이 오늘 반도체를 가른다.",
+        "points": [
+          "08:43 현재 공식 결과는 아직 미확인이다.",
+          "전일 KRX 종가는 1,341,000원(+5.18%)이다."
+        ],
+        "meaning": "예상치보다 공식 발표와 15:30 종가를 우선한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스·국내 반도체",
+            "basis": "09:00 공식 실적·주주환원 발표와 1,341,000원 대비 15:30 종가를 본다.",
+            "counter": "전일 5.18% 상승과 미국 반도체 강세가 기대를 높여 발표 직후 되돌림이 가능하다.",
+            "invalidation": "공식 가이던스와 주주환원이 기대를 분명히 웃돌고 종가가 전일 대비 강하면 상향한다.",
+            "sources": [
+              "hynix-ir",
+              "price-000660",
+              "hynix-expect"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스·반도체 업종",
+            "basis": "10월28·29·30일과 11월2·3일 종가에서 하이닉스·삼성전자 발표의 누적 반응을 본다.",
+            "counter": "FOMC와 미국 빅테크 실적이 국내 개별 재료를 덮을 수 있다.",
+            "invalidation": "두 대형주가 발표 후 2거래일 이상 동반 상대강세면 상방으로 재평가한다.",
+            "sources": [
+              "hynix-ir",
+              "samsung-ir",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 AI·반도체 강세",
+        "preview": "나스닥 +1.18%, 반도체지수는 3%대 올랐다.",
+        "points": [
+          "S&P500 +0.60%, 다우 +0.03%였다.",
+          "10년물은 4.993%로 5% 부근이다."
+        ],
+        "meaning": "개장 지지는 가능하지만 금리·발표 전 변동성이 남는다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "국내 반도체",
+            "basis": "미국 정규장에서 기술주와 반도체가 동반 상승해 개장 심리에 우호적이다.",
+            "counter": "4.993%의 10년물과 하이닉스 실적 직전 기대 선반영이 장중 반락을 만들 수 있다.",
+            "invalidation": "삼성전자·하이닉스가 전일 종가를 하회하고 외국인 매도가 확대되면 상방 해석을 낮춘다.",
+            "sources": [
+              "us-close",
+              "sox",
+              "ust10"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체·코스피",
+            "basis": "미국 기술주 반등과 국내 실적이 5거래일 동안 이어지는지 확인한다.",
+            "counter": "FOMC·미국 빅테크 실적과 높은 차입비용이 AI주 변동성을 키울 수 있다.",
+            "invalidation": "FOMC 뒤 금리가 안정되고 반도체가 3거래일 이상 코스피 대비 강하면 상향한다.",
+            "sources": [
+              "us-close",
+              "fed",
+              "hynix-ir",
+              "samsung-ir"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반등 폭 확대·추세는 하락",
+        "preview": "상승 종목 65.03%에도 코스피 20일 수익률은 -20.37%다.",
+        "points": [
+          "코스닥 상승 종목 비율은 62.73%였다.",
+          "거래대금은 5일 평균보다 소폭 많았다."
+        ],
+        "meaning": "하루 반등보다 후속 시장 폭과 종가를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "전일 시장 폭이 넓고 거래대금도 5일 평균을 웃돌아 반등 확산 근거가 있다.",
+            "counter": "코스피·코스닥 모두 20거래일 가격수익률이 음수이고 코스피는 하락 추세 조건이다.",
+            "invalidation": "상승 종목 비율이 50% 아래로 내려가고 지수가 전일 상승분을 크게 반납하면 하방으로 낮춘다.",
+            "sources": [
+              "krx-analysis",
+              "kospi",
+              "kosdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "11월3일까지 20일선 회복과 상승 종목 비율의 반복 개선을 본다.",
+            "counter": "실적·정책 이벤트가 끝난 뒤 차익실현이 나올 수 있다.",
+            "invalidation": "3거래일 이상 시장 폭 개선과 외국인 순매수가 동반되면 추세 반전 가능성을 높인다.",
+            "sources": [
+              "krx-analysis",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "LG전자 오늘·삼성전자 내일 실적",
+        "preview": "16:00 LG전자, 내일 10:00 삼성전자 설명회가 이어진다.",
+        "points": [
+          "LG 잠정 영업이익은 전년 대비 13.5% 늘었다.",
+          "삼성전자는 전일 4.23% 상승했다."
+        ],
+        "meaning": "실적 수치뿐 아니라 사업부 전망과 선반영을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "LG전자·삼성전자",
+            "basis": "LG전자는 16:00 설명회, 삼성전자는 내일 실적을 앞두고 공식 전망 확인점이 있다.",
+            "counter": "LG 잠정치는 이미 공개됐고 삼성전자는 전일 4.23% 올라 기대가 일부 반영됐을 수 있다.",
+            "invalidation": "사업부 전망이 개선되고 종가가 기준가를 지키면 상방으로 재평가한다.",
+            "sources": [
+              "lg-ir",
+              "lg-guidance",
+              "samsung-ir",
+              "price-005930"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG전자·삼성전자",
+            "basis": "공식 설명 뒤 11월3일까지 업종 대비 종가 흐름을 확인한다.",
+            "counter": "FOMC·환율이 기업별 실적 효과를 압도할 수 있다.",
+            "invalidation": "발표 후 2거래일 이상 시장 대비 같은 방향이 유지되면 해당 방향으로 갱신한다.",
+            "sources": [
+              "lg-ir",
+              "samsung-ir",
+              "fed",
+              "fx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 완화·FOMC 대기",
+        "preview": "Brent 113.88달러로 내렸지만 10년물은 4.993%다.",
+        "points": [
+          "WTI는 99.90달러에 결제됐다.",
+          "FOMC 성명은 내일 03:00 KST다."
+        ],
+        "meaning": "비용 부담 완화와 할인율 부담이 상충한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·성장주·운송주",
+            "basis": "유가 하락은 비용 부담을 낮추지만 금리 결정 대기로 할인율 경계가 남는다.",
+            "counter": "중동 정세 재악화 시 유가가 다시 오를 수 있다.",
+            "invalidation": "유가 반등과 원·달러 상승이 동반되면 부담 쪽으로 낮춘다.",
+            "sources": [
+              "oil",
+              "ust10",
+              "fx",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·성장주",
+            "basis": "FOMC 뒤 10년물·달러·유가의 누적 방향을 11월3일까지 본다.",
+            "counter": "국내 실적 호조가 거시 부담을 상쇄할 수 있다.",
+            "invalidation": "10년물이 안정되고 원화가 강세로 전환하면 금리 부담을 낮춘다.",
+            "sources": [
+              "fed",
+              "ust10",
+              "oil",
+              "fx"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "09:00 공식 실적·주주환원 발표가 오늘 반도체의 핵심 변수다.",
+        "watch": "1,341,000원과 공식 가이던스, 발표 뒤 15:30 종가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "공식 발표와 1,341,000원 대비 정규장 종가를 직접 확인한다.",
+            "counter": "전일 5.18% 상승으로 기대 선반영·장중 되돌림 위험이 있다.",
+            "invalidation": "공식 전망이 기대를 웃돌고 전일 종가 위에서 마감하면 상향한다.",
+            "sources": [
+              "hynix-ir",
+              "price-000660",
+              "hynix-expect"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월3일까지 실적·주주환원·삼성전자 발표를 소화한 종가를 본다.",
+            "counter": "FOMC와 미국 빅테크 실적이 개별 재료를 덮을 수 있다.",
+            "invalidation": "2거래일 이상 업종 대비 상대강세면 상향하고 기준가 이탈 지속이면 낮춘다.",
+            "sources": [
+              "hynix-ir",
+              "samsung-ir",
+              "fed"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "미국 반도체 강세와 하이닉스 발표를 반영한 뒤 내일 자체 실적을 앞둔다.",
+        "watch": "222,000원 유지와 하이닉스 동반 방향·외국인 현물 수급을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "삼성전자",
+            "basis": "미국 반도체 강세와 하이닉스 실적 기대가 개장에 우호적이다.",
+            "counter": "전일 4.23% 상승과 실적 전 경계로 장중 반락할 수 있다.",
+            "invalidation": "222,000원을 하회하고 외국인 매도가 확대되면 혼조로 낮춘다.",
+            "sources": [
+              "us-close",
+              "hynix-ir",
+              "price-005930"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월29일 실적 뒤 11월3일까지 메모리·HBM 전망의 가격 반영을 본다.",
+            "counter": "FOMC·환율과 높은 기대가 호실적 효과를 제한할 수 있다.",
+            "invalidation": "실적 뒤 2거래일 이상 222,000원 위에서 업종 대비 강하면 상향한다.",
+            "sources": [
+              "samsung-ir",
+              "fed",
+              "fx"
+            ]
+          }
+        }
+      },
+      "009150": {
+        "reason": "전일 7.42% 급등해 AI 하드웨어 기대의 선반영 정도를 확인한다.",
+        "watch": "1,201,000원과 전일 상승분 유지, 반도체 대형주 대비 상대강도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전기",
+            "basis": "미국 반도체 강세는 지지지만 전일 7.42% 상승 후 되돌림 위험이 크다.",
+            "counter": "하이닉스 발표가 AI 부품 기대를 더 높일 수 있다.",
+            "invalidation": "1,201,000원을 지키고 전일 상승분의 절반 이상 유지하면 상방으로 재평가한다.",
+            "sources": [
+              "price-009150",
+              "us-close",
+              "hynix-ir"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전기",
+            "basis": "11월3일까지 코스피·반도체 대비 상대수익률을 본다.",
+            "counter": "실적 이벤트 종료 뒤 차익실현이 가능하다.",
+            "invalidation": "3거래일 이상 반도체 대형주 대비 약세면 하방으로 낮춘다.",
+            "sources": [
+              "price-009150",
+              "krx-analysis"
+            ]
+          }
+        }
+      },
+      "066570": {
+        "reason": "16:00 설명회에서 잠정 실적의 사업부별 수익성과 전망이 확인된다.",
+        "watch": "157,500원 종가와 사업부별 마진·연말 수요 전망을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "LG전자",
+            "basis": "잠정 실적은 전년 대비 개선됐고 16:00 공식 설명회가 있다.",
+            "counter": "잠정 수치는 이미 공개돼 있고 설명회가 정규장 종료 뒤 열린다.",
+            "invalidation": "157,500원 위 마감과 전망 상향이 함께 확인되면 상향한다.",
+            "sources": [
+              "lg-guidance",
+              "lg-ir",
+              "price-066570"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG전자",
+            "basis": "설명회 뒤 11월3일까지 사업부 전망의 가격 반영을 본다.",
+            "counter": "환율·유가와 소비 둔화가 수익성 기대를 제한할 수 있다.",
+            "invalidation": "전망 하향 또는 157,500원 이탈 지속이면 하방으로 낮춘다.",
+            "sources": [
+              "lg-ir",
+              "fx",
+              "oil"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "SK하이닉스 실적·컨퍼런스콜",
+        "detail": "공식 실적과 HBM 수요·주주환원 확정안을 먼저 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스·반도체",
+            "basis": "오늘 장중 가장 직접적인 가격 확인점이다.",
+            "counter": "기대 선반영으로 발표 직후 변동이 클 수 있다.",
+            "invalidation": "공식 수치와 15:30 종가로 갱신한다.",
+            "sources": [
+              "hynix-ir",
+              "price-000660"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "하이닉스·삼성전자 연속 발표의 누적 반응을 본다.",
+            "counter": "FOMC가 업종 반응을 덮을 수 있다.",
+            "invalidation": "11월3일 종가와 업종 상대강도로 갱신한다.",
+            "sources": [
+              "hynix-ir",
+              "samsung-ir",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "KRX 종가·시장 폭·외국인 수급",
+        "detail": "시초가보다 15:30 종가와 상승 종목 비율·현물 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "전일 반등의 지속 여부를 종가와 폭으로 확인한다.",
+            "counter": "대형 반도체 편중이면 지수와 체감이 다를 수 있다.",
+            "invalidation": "상승 종목 비율 50% 아래와 상승분 반납 시 낮춘다.",
+            "sources": [
+              "krx-analysis",
+              "kospi",
+              "kosdaq"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "후속 5거래일 시장 폭과 20일선 회복을 확인한다.",
+            "counter": "이벤트 종료 뒤 변동성이 커질 수 있다.",
+            "invalidation": "3거래일 이상 폭·수급 동반 개선 시 상향한다.",
+            "sources": [
+              "krx-analysis"
+            ]
+          }
+        }
+      },
+      {
+        "title": "LG전자 3분기 실적 설명회",
+        "detail": "사업부별 수익성과 수요·관세·연말 가이던스를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "LG전자",
+            "basis": "정규장 종료 뒤 설명회라 오늘 종가와 발표를 분리한다.",
+            "counter": "잠정 실적이 이미 가격에 반영됐을 수 있다.",
+            "invalidation": "공식 전망과 다음 거래일 종가로 갱신한다.",
+            "sources": [
+              "lg-ir",
+              "lg-guidance"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG전자",
+            "basis": "11월3일까지 설명회 후속 가격 반응을 본다.",
+            "counter": "거시 이벤트가 기업 재료를 덮을 수 있다.",
+            "invalidation": "2거래일 이상 시장 대비 같은 방향이면 갱신한다.",
+            "sources": [
+              "lg-ir",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "FOMC 성명·기자회견",
+        "detail": "12월 경로와 10년물·달러의 실제 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·국내 성장주",
+            "basis": "결정 전이라 정책 방향을 예단하지 않는다.",
+            "counter": "동결 기대가 이미 반영됐을 수 있다.",
+            "invalidation": "성명·기자회견과 다음 KRX 종가로 갱신한다.",
+            "sources": [
+              "fed",
+              "ust10",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·성장주",
+            "basis": "11월3일까지 금리·달러·성장주의 누적 반응을 본다.",
+            "counter": "기업 실적이 정책 효과를 상쇄할 수 있다.",
+            "invalidation": "10년물 안정과 원화 강세가 동반되면 상향한다.",
+            "sources": [
+              "fed",
+              "ust10",
+              "samsung-ir"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성전자 3분기 실적 설명회",
+        "detail": "메모리 가격·HBM 수요·설비투자 설명을 하이닉스와 비교한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자·반도체",
+            "basis": "하이닉스 발표 다음 핵심 기업 확인점이다.",
+            "counter": "미국 빅테크와 FOMC가 같은 시간대에 영향을 준다.",
+            "invalidation": "공식 설명과 10월29일 종가로 갱신한다.",
+            "sources": [
+              "samsung-ir",
+              "hynix-ir",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자·SK하이닉스",
+            "basis": "두 회사 발표 뒤 11월3일까지 동반 방향을 본다.",
+            "counter": "높은 기대와 차익실현 위험이 남는다.",
+            "invalidation": "2거래일 이상 동반 상대강세면 상향한다.",
+            "sources": [
+              "samsung-ir",
+              "hynix-ir"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "SK하이닉스 공식 실적·주주환원과 15:30 종가",
+      "외국인 현물 수급과 상승 종목 비율의 후속 확산",
+      "FOMC 뒤 10년물·원화와 국내 반도체 반응"
+    ],
+    "source_labels": {
+      "calendar": "KRX · 거래일·휴장 기준",
+      "krx-october": "KRX · 10월 시장운영",
+      "krx-analysis": "KRX · 10월27일 일별 분석",
+      "kospi": "네이버 증권 · 코스피 종가",
+      "kosdaq": "네이버 증권 · 코스닥 종가",
+      "price-000660": "네이버 증권 · SK하이닉스 KRX 종가",
+      "price-005930": "네이버 증권 · 삼성전자 KRX 종가",
+      "price-009150": "삼성전기 · KRX 종가",
+      "price-066570": "공개 시세 · LG전자 KRX 종가",
+      "us-close": "Reuters · 10월27일 미국장",
+      "ap-close": "AP · 미국 지수 종가",
+      "sox": "Nasdaq · 반도체지수",
+      "ust10": "Cboe · 미국 10년물",
+      "hynix-ir": "SK하이닉스 · 3분기 실적 일정",
+      "hynix-expect": "연합뉴스 · 하이닉스 관전점",
+      "lg-ir": "LG전자 · 3분기 설명회",
+      "lg-guidance": "LG전자 · 3분기 잠정실적",
+      "samsung-ir": "삼성전자 · 3분기 일정",
+      "fed": "연준 · 10월 FOMC 일정",
+      "oil": "Reuters · 10월27일 원유",
+      "fx": "네이버·하나은행 · 달러 고시환율"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-28T08:43:00+09:00",
+      "input_cutoff": "2026-10-28T08:43:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다. d1은 10월28일, d5는 10월28·29·30일과 11월2·3일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
