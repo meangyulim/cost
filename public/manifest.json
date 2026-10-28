@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-28",
+  "latest_id": "us-close-2026-10-28",
   "reports": [
+    {
+      "id": "us-close-2026-10-28",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-28",
+      "title": "10월 28일 미국장 마감 브리핑",
+      "summary": "연준 동결 뒤 지수는 보합권, 실적은 데이터센터와 태양광을 갈랐다",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-28/"
+    },
     {
       "id": "kr-close-2026-10-28",
       "is_test": false,

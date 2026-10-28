@@ -1,0 +1,678 @@
+{
+  "id": "us-close-2026-10-28",
+  "title": "10월 28일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-10-28 09:30~16:00 EDT 정규장(2026-10-28 22:30~10-29 05:00 KST)",
+  "market_date": "2026-10-28",
+  "session": "close",
+  "as_of": "2026-10-29T05:00:00+09:00",
+  "queried_at": "2026-10-29T05:20:00+09:00",
+  "is_test": false,
+  "summary": "연준 동결 뒤 지수는 보합권, 실적은 데이터센터와 태양광을 갈랐다",
+  "summary_detail": "연준이 기준금리를 3.75~4.00%로 동결하고 두 위원이 인상을 주장하면서 장중 상승폭이 줄었다. 주요 지수는 보합권에서 엇갈렸지만 Vertiv·Micron·Seagate는 AI·데이터센터 수요와 실적 기대에 강했고, Enphase·F5·Boston Scientific은 전망과 실행 우려로 급락했다. 10월 29일 GDP·PCE와 장후 Alphabet·Microsoft 설명이 다음 방향을 가를 핵심 확인 순서다.",
+  "interpretation": "지수는 10월 28일 정규장 역사값을 제공하는 공개 데이터 화면으로 확인했으며 제공처 정산 시차 때문에 잠정으로 표시했다. 개별주는 10월 28일 미국 정규장 종가이며 확인된 장후 가격과 섞지 않았다. 주가 반응은 공식 실적·가이던스와 당일 시장 기사로 연결하되 단일 원인으로 단정하지 않는다. 이번 요청의 Massive 수집은 성공했지만 data_date가 10월 27일이므로 전 거래일 배경 분석으로만 사용했다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,735.55",
+      "unit": "pt",
+      "delta": "+12.95",
+      "percent": "+0.17",
+      "direction": "up",
+      "source": "spx_history",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,464.56",
+      "unit": "pt",
+      "delta": "−13.25",
+      "percent": "−0.05",
+      "direction": "down",
+      "source": "ixic_history",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Dow Jones",
+      "value": "52,517.00",
+      "unit": "pt",
+      "delta": "+139.43",
+      "percent": "+0.27",
+      "direction": "up",
+      "source": "dji_history",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "연준 동결, 두 위원은 인상 주장",
+      "fact": "연방공개시장위원회는 목표금리를 3.75~4.00%로 유지했다. 표결은 10대2였고 Lisa Cook과 Beth Hammack은 25bp 인상을 선호했다. 연준은 경제활동이 견조하고 물가가 여전히 높다고 평가했다. Reuters는 결정 뒤 12월 인상 기대가 78.3%에서 87.4%로 높아졌고 주식시장 상승폭이 줄었다고 전했다.",
+      "source": "fed",
+      "additional_sources": [
+        "reuters_market"
+      ]
+    },
+    {
+      "title": "AI 인프라 수요가 데이터센터주를 견인",
+      "fact": "Vertiv는 3분기 매출 43.13억달러, 유기적 주문 100% 초과 증가, 조정 EPS 2.21달러를 발표하고 연간 매출 중간값을 146.5억달러로 올렸다. VRT는 243.12달러(+34.62, +16.59954%)로 마감했다. Micron은 982.57달러(+53.81, +5.79375%), Seagate는 698.10달러(+30.33, +4.54144%)로 올라 AI·저장장치 수요 기대가 이어졌다.",
+      "source": "vertiv",
+      "additional_sources": [
+        "seagate",
+        "qVRT",
+        "qMU",
+        "qSTX"
+      ]
+    },
+    {
+      "title": "가이던스와 실행 우려가 급락 종목을 만들었다",
+      "fact": "Enphase는 3분기 매출 2.933억달러를 발표했지만 4분기 매출을 2.25~2.55억달러로 제시하고 미국 주택 태양광 수요 약화를 언급해 24.96달러(−4.77, −16.02823%)로 마감했다. F5는 4분기 매출 9.17억달러와 FY27 매출 성장 8~9%를 제시했지만 365.61달러(−93.48, −20.35005%)로 급락했다. Boston Scientific은 3분기 매출 51.38억달러 발표 뒤 42.45달러(−2.61, −5.79228%)로 내렸다.",
+      "source": "enphase",
+      "additional_sources": [
+        "f5",
+        "boston",
+        "qENPH",
+        "qFFIV",
+        "qBSX"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Vertiv Holdings",
+      "ticker": "VRT",
+      "price": "243.12",
+      "delta": "+34.62",
+      "percent": "+16.59954",
+      "source": "qVRT",
+      "reason": "매출·이익 급증과 연간 가이던스 상향, 데이터센터 주문 급증이 반영됐다.",
+      "watch": "243.12달러 위 안착과 4분기 매출 중간값 44.13억달러의 실행 여부를 본다.",
+      "direction": "up",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 종가 · 공개 시세",
+      "reason_sources": [
+        "vertiv"
+      ]
+    },
+    {
+      "name": "Enphase Energy",
+      "ticker": "ENPH",
+      "price": "24.96",
+      "delta": "−4.77",
+      "percent": "−16.02823",
+      "source": "qENPH",
+      "reason": "4분기 매출 전망과 미국 주택 태양광 수요 약화가 실적보다 크게 반영됐다.",
+      "watch": "24.96달러 지지와 4분기 미국 판매량 10% 순차 감소 가정의 변화를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 종가 · 공개 시세",
+      "reason_sources": [
+        "enphase"
+      ]
+    },
+    {
+      "name": "F5",
+      "ticker": "FFIV",
+      "price": "365.61",
+      "delta": "−93.48",
+      "percent": "−20.35005",
+      "source": "qFFIV",
+      "reason": "분기 성장보다 FY27 전망과 높은 기대에 대한 실망이 강하게 반영됐다.",
+      "watch": "365.61달러 지지와 FY27 매출 성장 8~9%·EPS 18.00~18.30달러의 추정치 변화를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-29T05:00:00+09:00",
+      "session": "10/28 미국 정규장 종가 · 공개 시세",
+      "reason_sources": [
+        "f5"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 5.00",
+    "unit": "%",
+    "delta": "+장중 상승",
+    "direction": "up",
+    "source": "macro_snapshot",
+    "as_of": "2026-10-29T05:00:00+09:00",
+    "session": "10/28 미국장 마감 무렵 공개 시장 스냅샷"
+  },
+  "next_checks": [
+    {
+      "label": "2026-10-29 05:30 KST",
+      "title": "Alphabet 실적 콜",
+      "detail": "클라우드 성장, AI 투자비와 검색 광고 수익화를 확인한다."
+    },
+    {
+      "label": "2026-10-29 06:30 KST",
+      "title": "Microsoft 실적 콜",
+      "detail": "Azure 성장, AI 수요와 데이터센터 투자·마진을 함께 본다."
+    },
+    {
+      "label": "2026-10-29 21:30 KST",
+      "title": "미국 3분기 GDP·9월 PCE",
+      "detail": "성장과 물가가 12월 인상 기대와 10년물에 주는 방향을 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-28",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-29T05:14:50+09:00",
+    "note": "NYSE·Nasdaq 2026 공식 휴장·조기폐장표에 10/28이 포함되지 않아 정상 거래일로 확인했다. EDT UTC−04:00, 정규장 폐장 10/29 05:00 KST."
+  },
+  "calculation_notes": "지수 변화량은 각 공개 역사값과 10/27 확정 종가(S&P500 7722.60, Nasdaq 26477.81, Dow 52377.57)의 직접 차이로 계산했다. 제공처 정산 시차와 지수 라이선스 화면 간 소수점 차이가 있어 지수는 잠정 표시했다. 개별주 가격·변화량·등락률은 공개 시세 제공값을 원문 정밀도로 보존했고 등락률로 종가를 역산하지 않았다. ETF 대용치와 실제 지수 값을 섞지 않았다.",
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-28T16:15:00-04:00",
+      "kst": "2026-10-29T05:15:00+09:00",
+      "utc": "2026-10-28T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-28T16:14:33-04:00",
+      "kst": "2026-10-29T05:14:33+09:00",
+      "utc": "2026-10-28T20:14:33Z"
+    },
+    "start_offset_seconds": -27,
+    "delay_seconds": 0,
+    "early_seconds": 27,
+    "environment": "Cloud Bash/Python; 연결 GitHub·Kakao; 실제 checkout 사용",
+    "model_setting": "not_verified",
+    "request_commit": "540b2cb9280235adc11fb64fa306b415d1bde0fa",
+    "analysis_run_id": 40761672449,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-28.json",
+    "index_finality": "공개 역사값으로 확인했으나 제공처 정산 시차 때문에 잠정",
+    "analysis_status": "success; artifact digest verified; data_date 2026-10-27 used only as prior-session background"
+  },
+  "reading": {
+    "headline": "연준 동결 뒤 보합권, 실적은 극명하게 갈렸다",
+    "summary_points": [
+      "S&P500 +0.17%, 나스닥 −0.05%로 엇갈렸다.",
+      "VRT +16.60%, ENPH −16.03%로 갈렸다.",
+      "내일 GDP·PCE와 빅테크 설명이 방향을 가른다."
+    ],
+    "notices": [
+      "지수 포인트는 제공처 정산 시차로 잠정 표시했다.",
+      "개별주는 10/28 정규장 종가이며 장후 가격이 아니다.",
+      "Massive 분석은 10/27 기준이라 전 거래일 배경으로만 썼다.",
+      "10년물은 장 마감 무렵 공개 스냅샷이다."
+    ],
+    "issues": [
+      {
+        "title": "연준 동결·두 명 인상표",
+        "preview": "금리 3.75~4.00% 유지, 표결은 10대2였다.",
+        "points": [
+          "두 위원은 25bp 인상을 선호했다.",
+          "12월 인상 기대가 높아지며 상승폭이 줄었다."
+        ],
+        "meaning": "정책 완화보다 물가 경계가 강해 성장주 할인율 부담이 남았다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 주요 지수",
+            "basis": "10/29 종가에서 GDP·PCE 뒤 금리와 지수를 함께 본다.",
+            "counter": "빅테크 실적이 금리 부담을 상쇄할 수 있다.",
+            "invalidation": "10년물이 하락하고 나스닥이 10/28 고점을 넘으면 금리 부담 판단을 낮춘다.",
+            "sources": [
+              "fed",
+              "reuters_market",
+              "bea"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주요 지수",
+            "basis": "11/4 종가를 10/28과 비교해 정책·실적의 누적 반응을 본다.",
+            "counter": "추가 경제지표와 기업 가이던스가 방향을 바꿀 수 있다.",
+            "invalidation": "금리 기대가 10/28 이전 수준으로 되돌아오면 동결 충격 해석을 낮춘다.",
+            "sources": [
+              "fed",
+              "bea"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AI 인프라주 강세",
+        "preview": "VRT +16.60%, MU +5.79%, STX +4.54%였다.",
+        "points": [
+          "Vertiv 유기적 주문은 100% 넘게 늘었다.",
+          "Seagate는 다음 분기 매출 48억달러를 전망했다."
+        ],
+        "meaning": "실제 주문과 가이던스가 있는 종목에 매수가 집중됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "VRT·MU·STX",
+            "basis": "10/29 종가에서 급등 갭과 반도체 상대강도 유지를 본다.",
+            "counter": "급등 뒤 차익실현과 5% 부근 금리가 부담이다.",
+            "invalidation": "세 종목이 당일 상승분의 절반 이상을 반납하면 상방 판단을 낮춘다.",
+            "sources": [
+              "vertiv",
+              "seagate",
+              "qVRT",
+              "qMU",
+              "qSTX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AI 인프라주",
+            "basis": "11/4 종가와 빅테크 AI 투자 설명을 10/28과 비교한다.",
+            "counter": "고객 자본지출 둔화나 금리 상승이 밸류에이션을 압박할 수 있다.",
+            "invalidation": "빅테크가 AI 투자 축소를 제시하면 수요 지속 판단을 재평가한다.",
+            "sources": [
+              "vertiv",
+              "seagate",
+              "alphabet",
+              "msft"
+            ]
+          }
+        }
+      },
+      {
+        "title": "가이던스 실망주 급락",
+        "preview": "FFIV −20.35%, ENPH −16.03%, BSX −5.79%였다.",
+        "points": [
+          "Enphase는 4분기 매출 2.25~2.55억달러를 제시했다.",
+          "BSX는 4분기 매출 감소를 전망했다."
+        ],
+        "meaning": "과거 실적보다 다음 분기 성장률과 실행 위험이 가격을 지배했다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "ENPH·FFIV·BSX",
+            "basis": "10/29 종가에서 급락 저점과 거래량을 확인한다.",
+            "counter": "과매도 반등과 경영진 후속 설명이 나올 수 있다.",
+            "invalidation": "각 종목이 10/28 하락분의 절반 이상을 회복하면 하방 판단을 낮춘다.",
+            "sources": [
+              "enphase",
+              "f5",
+              "boston",
+              "qENPH",
+              "qFFIV",
+              "qBSX"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "ENPH·FFIV·BSX",
+            "basis": "11/4 종가와 애널리스트 추정치 변화를 본다.",
+            "counter": "저가 매수와 전망 보완이 낙폭을 줄일 수 있다.",
+            "invalidation": "가이던스 상향이나 사고 영향 축소가 확인되면 부정적 해석을 낮춘다.",
+            "sources": [
+              "enphase",
+              "f5",
+              "boston"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "VRT": {
+        "reason": "가이던스 상향과 주문 급증에 16.60% 올랐다.",
+        "watch": "243.12달러 지지와 4분기 실행을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "VRT",
+            "basis": "10/29 종가를 243.12USD와 비교한다.",
+            "counter": "급등 뒤 차익실현이 가능하다.",
+            "invalidation": "상승분 절반 이상 반납 시 재평가한다.",
+            "sources": [
+              "vertiv",
+              "qVRT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "VRT",
+            "basis": "11/4 종가와 수주 후속 설명을 본다.",
+            "counter": "높은 기대와 금리가 밸류에이션을 압박할 수 있다.",
+            "invalidation": "수주·매출 전망 하향 시 재평가한다.",
+            "sources": [
+              "vertiv"
+            ]
+          }
+        }
+      },
+      "ENPH": {
+        "reason": "약한 4분기 전망에 16.03% 내렸다.",
+        "watch": "24.96달러 지지와 미국 수요를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "ENPH",
+            "basis": "10/29 종가를 24.96USD와 비교한다.",
+            "counter": "과매도 반등이 가능하다.",
+            "invalidation": "하락분 절반 이상 회복 시 재평가한다.",
+            "sources": [
+              "enphase",
+              "qENPH"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "ENPH",
+            "basis": "11/4 종가와 수요 추정치 변화를 본다.",
+            "counter": "금리 하락과 정책 기대가 반등을 도울 수 있다.",
+            "invalidation": "판매량 전망 개선 시 부정적 판단을 낮춘다.",
+            "sources": [
+              "enphase"
+            ]
+          }
+        }
+      },
+      "FFIV": {
+        "reason": "전망이 높은 기대를 못 채워 20.35% 내렸다.",
+        "watch": "365.61달러 지지와 FY27 추정치를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "FFIV",
+            "basis": "10/29 종가를 365.61USD와 비교한다.",
+            "counter": "과매도 반등이 가능하다.",
+            "invalidation": "하락분 절반 이상 회복 시 재평가한다.",
+            "sources": [
+              "f5",
+              "qFFIV"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "FFIV",
+            "basis": "11/4 종가와 추정치 변화를 본다.",
+            "counter": "제품 매출 성장 23%가 재평가될 수 있다.",
+            "invalidation": "FY27 전망 보완 시 부정적 해석을 낮춘다.",
+            "sources": [
+              "f5"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "label": "10/29 05:30 KST",
+        "title": "Alphabet 실적 콜",
+        "detail": "AI 투자비와 클라우드 수익성을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "GOOGL·나스닥",
+            "basis": "10/29 정규장 종가와 클라우드·AI 지출 반응을 본다.",
+            "counter": "높은 기대가 호실적에도 매도를 부를 수 있다.",
+            "invalidation": "성장과 현금흐름 개선이 함께 확인되면 비용 우려를 낮춘다.",
+            "sources": [
+              "alphabet"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "GOOGL·나스닥",
+            "basis": "11/4 종가를 10/28과 비교한다.",
+            "counter": "금리와 다른 빅테크 실적이 효과를 압도할 수 있다.",
+            "invalidation": "나스닥 상대강도가 사라지면 AI 실적 지속 판단을 낮춘다.",
+            "sources": [
+              "alphabet",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "label": "10/29 06:30 KST",
+        "title": "Microsoft 실적 콜",
+        "detail": "Azure와 AI 투자·마진을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MSFT·AI 인프라주",
+            "basis": "10/29 종가와 Azure 성장·AI 투자 반응을 본다.",
+            "counter": "투자비 증가가 이익률 우려를 키울 수 있다.",
+            "invalidation": "AI 수요와 마진 개선이 함께 확인되면 비용 우려를 낮춘다.",
+            "sources": [
+              "msft"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MSFT·AI 인프라주",
+            "basis": "11/4 종가를 10/28과 비교한다.",
+            "counter": "금리 상승이 호실적을 상쇄할 수 있다.",
+            "invalidation": "AI 투자 축소 신호 시 인프라주 상방 판단을 낮춘다.",
+            "sources": [
+              "msft",
+              "fed"
+            ]
+          }
+        }
+      },
+      {
+        "label": "10/29 21:30 KST",
+        "title": "미국 GDP·PCE",
+        "detail": "성장·물가가 12월 인상 기대에 주는 방향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "10/29 종가에서 10년물과 성장주 반응을 함께 본다.",
+            "counter": "기업 실적이 거시지표를 압도할 수 있다.",
+            "invalidation": "10년물이 안정되고 지수가 상승하면 정책 부담을 낮춘다.",
+            "sources": [
+              "bea",
+              "fed"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "11/4 종가와 금리 기대를 10/28과 비교한다.",
+            "counter": "추가 고용·실적 뉴스가 최초 반응을 바꿀 수 있다.",
+            "invalidation": "금리와 지수가 10/28 수준으로 복귀하면 거시 충격 해석을 낮춘다.",
+            "sources": [
+              "bea",
+              "fed"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 공식 거래시간·달력",
+      "nasdaq": "Nasdaq · 공식 휴장 일정",
+      "fed": "연준 · 10월 FOMC 성명",
+      "reuters_market": "Reuters · 10월28일 미국장",
+      "spx_history": "GuruFocus · S&P500 역사값",
+      "ixic_history": "YCharts · 나스닥 역사값",
+      "dji_history": "Investing.com · 다우 역사값",
+      "vertiv": "Vertiv IR · 3분기 실적",
+      "enphase": "Enphase IR · 3분기 실적",
+      "seagate": "Seagate IR · 1분기 실적",
+      "f5": "F5 IR · 4분기 실적",
+      "boston": "Boston Scientific IR · 3분기 실적",
+      "alphabet": "Alphabet IR · 실적 일정",
+      "msft": "Microsoft IR · 실적 일정",
+      "bea": "BEA · GDP·소득지출 일정",
+      "macro_snapshot": "공개 시장 화면 · 미국 10년물",
+      "qVRT": "공개 시세 · VRT 종가",
+      "qENPH": "공개 시세 · ENPH 종가",
+      "qMU": "공개 시세 · MU 종가",
+      "qSTX": "공개 시세 · STX 종가",
+      "qFFIV": "공개 시세 · FFIV 종가",
+      "qBSX": "공개 시세 · BSX 종가"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-29T05:20:00+09:00",
+      "input_cutoff": "2026-10-29T05:20:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 10/29와 5거래일 뒤 11/4 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 공식 거래시간·달력",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 공식 휴장·조기폐장표. 10/28 정상 거래일."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 공식 휴장 일정",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026 휴장·조기폐장표. 10/28 정상 거래일."
+    },
+    {
+      "id": "fed",
+      "label": "연준 · 10월 FOMC 성명",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "note": "목표금리 3.75~4.00% 유지, 10대2 표결과 두 위원의 인상 선호."
+    },
+    {
+      "id": "reuters_market",
+      "label": "Reuters · 10월28일 미국장",
+      "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-28/",
+      "note": "연준 결정 뒤 시장 반응, 업종·주요 종목 움직임."
+    },
+    {
+      "id": "spx_history",
+      "label": "GuruFocus · S&P500 역사값",
+      "url": "https://www.gurufocus.com/economic_indicators/63/sp-500-index",
+      "note": "10/28 종가 역사값. 제공처 정산 시차로 잠정 표시."
+    },
+    {
+      "id": "ixic_history",
+      "label": "YCharts · 나스닥 역사값",
+      "url": "https://ycharts.com/indices/%5EIXIC/level",
+      "note": "10/28 종가 역사값. 제공처 정산 시차로 잠정 표시."
+    },
+    {
+      "id": "dji_history",
+      "label": "Investing.com · 다우 역사값",
+      "url": "https://au.investing.com/indices/us-30-historical-data?cid=23656",
+      "note": "10/28 종가 역사값. 제공처 정산 시차로 잠정 표시."
+    },
+    {
+      "id": "vertiv",
+      "label": "Vertiv IR · 3분기 실적",
+      "url": "https://www.prnewswire.com/news-releases/vertiv-reports-strong-third-quarter-results-and-raises-full-year-guidance-302920912.html",
+      "note": "매출, 유기적 주문, EPS와 연간·4분기 전망."
+    },
+    {
+      "id": "enphase",
+      "label": "Enphase IR · 3분기 실적",
+      "url": "https://investor.enphase.com/news-releases/news-release-details/enphase-energy-reports-financial-results-third-quarter-2026",
+      "note": "매출, 판매량과 4분기 전망·수요 설명."
+    },
+    {
+      "id": "seagate",
+      "label": "Seagate IR · FY27 1분기 실적",
+      "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-First-Quarter-2027-Financial-Results/default.aspx",
+      "note": "매출, EPS, 현금흐름과 다음 분기 전망."
+    },
+    {
+      "id": "f5",
+      "label": "F5 IR · FY26 4분기 실적",
+      "url": "https://investors.f5.com/news/news-details/2026/F5-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+      "note": "매출, 제품 매출, EPS와 FY27·1분기 전망."
+    },
+    {
+      "id": "boston",
+      "label": "Boston Scientific IR · 3분기 실적",
+      "url": "https://news.bostonscientific.com/2026-10-28-Boston-Scientific-Announces-Results-For-Third-Quarter-2026",
+      "note": "매출, EPS와 연간·4분기 전망."
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet IR · Q3 실적 일정",
+      "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx",
+      "note": "10/28 16:30 EDT 실적 콜."
+    },
+    {
+      "id": "msft",
+      "label": "Microsoft IR · FY27 Q1 일정",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+      "note": "10/28 17:30 EDT 실적 콜."
+    },
+    {
+      "id": "bea",
+      "label": "BEA · GDP·소득지출 일정",
+      "url": "https://www.bea.gov/news/schedule",
+      "note": "10/29 08:30 EDT 3분기 GDP 속보치와 9월 개인소득·지출."
+    },
+    {
+      "id": "macro_snapshot",
+      "label": "공개 시장 화면 · 미국 10년물",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "note": "10/28 미국장 마감 무렵 10년물 시장 스냅샷."
+    },
+    {
+      "id": "qVRT",
+      "label": "공개 시세 · VRT 종가",
+      "url": "https://finance.yahoo.com/quote/VRT/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "qENPH",
+      "label": "공개 시세 · ENPH 종가",
+      "url": "https://finance.yahoo.com/quote/ENPH/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "qMU",
+      "label": "공개 시세 · MU 종가",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "qSTX",
+      "label": "공개 시세 · STX 종가",
+      "url": "https://finance.yahoo.com/quote/STX/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "qFFIV",
+      "label": "공개 시세 · FFIV 종가",
+      "url": "https://finance.yahoo.com/quote/FFIV/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "qBSX",
+      "label": "공개 시세 · BSX 종가",
+      "url": "https://finance.yahoo.com/quote/BSX/",
+      "note": "10/28 정규장 종가."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/40761672449",
+      "note": "이번 요청 성공. data_date 2026-10-27, queried_at 2026-10-29 05:23:26 KST. 전 거래일 배경으로만 사용. artifact sha256 e164ff48f5b87f6335e741c657fcb79c34d09862e0df409edae5c736cf60d223.",
+      "show_public": false
+    }
+  ]
+}
