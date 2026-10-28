@@ -1,0 +1,22 @@
+{
+  "id": "kr-pre-2026-10-29",
+  "status": "attempted",
+  "attempted_at_kst": "2026-10-29T08:40:28+09:00",
+  "attempted_at_utc": "2026-10-28T23:40:28Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-10-29/",
+  "deploy_commit": "8afcf96ae304f6216bdda6e278118190f2cc5b4e",
+  "deployment": {
+    "workflow_run_id": 40788898516,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "8afcf96ae304f6216bdda6e278118190f2cc5b4e"
+  },
+  "extra_checks": {
+    "anonymous_http": "not_performed_by_user_instruction",
+    "browser": "not_performed_by_user_instruction",
+    "mobile_390_430": "not_performed_by_user_instruction",
+    "zoom_200_percent": "not_performed_by_user_instruction"
+  },
+  "send_tool_called": false
+}
