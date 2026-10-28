@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-10-28/"
     },
     {
+      "id": "us-pre-2026-10-28",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-28",
+      "title": "2026.10.28 미국장 시작 전 브리핑",
+      "summary": "나스닥 선물은 오르지만 FOMC와 빅테크 실적이 장중 방향을 가른다",
+      "as_of": "2026-10-28T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-28/"
+    },
+    {
       "id": "us-close-2026-10-27",
       "is_test": false,
       "market": "US",
