@@ -1,6 +1,6 @@
 {
   "report_id": "kr-intraday-2026-10-29-1420",
-  "status": "attempted",
+  "status": "sent",
   "trigger": "user_request_manual_intraday",
   "attempted_at_kst": "2026-10-29T15:15:39+09:00",
   "attempted_at_utc": "2026-10-29T06:15:39Z",
@@ -12,6 +12,9 @@
   "additional_http_check": "not_performed_by_user_instruction",
   "browser_check": "not_performed_by_user_instruction",
   "attempted_record_created": true,
-  "send_tool_called": false,
-  "retry_count": 0
+  "send_tool_called": true,
+  "retry_count": 0,
+  "sent_at_kst": "2026-10-29T15:15:58+09:00",
+  "sent_at_utc": "2026-10-29T06:15:58Z",
+  "kakao_response": "success"
 }
