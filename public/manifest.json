@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-29",
+  "latest_id": "kr-intraday-2026-10-29-1420",
   "reports": [
+    {
+      "id": "kr-intraday-2026-10-29-1420",
+      "is_test": false,
+      "market": "KR",
+      "session": "intraday",
+      "market_date": "2026-10-29",
+      "title": "10월 29일 한국장 장중 (14:20 KST)",
+      "summary": "삼성전자 실적 뒤 하락 전환, 하이닉스만 버텼다",
+      "as_of": "2026-10-29T14:20:00+09:00",
+      "path": "reports/kr-intraday-2026-10-29-1420/"
+    },
     {
       "id": "kr-pre-2026-10-29",
       "is_test": false,

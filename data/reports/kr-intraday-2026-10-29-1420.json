@@ -1,0 +1,791 @@
+{
+  "id": "kr-intraday-2026-10-29-1420",
+  "title": "10월 29일 한국장 장중 (14:20 KST)",
+  "market": "KR",
+  "venue": "국내 지수·종목은 2026.10.29 KRX 정규장 장중 값이며 기사별 기준 시각이 다르다(지수·삼성전자·SK하이닉스 14:20 KST, 원전주 10:12 KST). NXT·시간외 제외. 종가가 아니다.",
+  "session": "intraday",
+  "market_date": "2026-10-29",
+  "as_of": "2026-10-29T14:20:00+09:00",
+  "queried_at": "2026-10-29T15:12:00+09:00",
+  "is_test": false,
+  "summary": "삼성전자 실적 뒤 하락 전환, 하이닉스만 버텼다",
+  "summary_detail": "코스피는 6,100.11까지 올랐다가 삼성전자 실적 발표 뒤 11:20 KST 5,831.34(−3.01%)까지 밀렸고, 14:20 KST 5,976.42(−0.60%)로 낙폭을 줄였다. 같은 시각 삼성전자는 −4.13%, SK하이닉스는 +4.37%였다. 외국인 1,683억원·기관 7,956억원 순매도이고 코스닥은 −1.72%였다.",
+  "interpretation": "사상 최대 영업이익에도 삼성전자가 하락한 것은 전일 9.01% 급등의 선반영과 잔여 주주환원안의 1월 이사회 연기가 겹친 결과로 보도됐다. 체코 원전 시공계약 결렬과 LG화학의 LG에너지솔루션 지분 처분이 개별 악재로 더해졌다. 오후 낙폭 축소가 15:30 종가까지 이어지는지, 기관 순매도가 줄어드는지를 먼저 확인한다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,976.42",
+      "unit": "pt",
+      "delta": "−36.02",
+      "percent": "−0.60",
+      "direction": "down",
+      "source": "fn-1420",
+      "additional_sources": [
+        "yna-1120",
+        "gukje-1045"
+      ],
+      "as_of": "2026-10-29T14:20:00+09:00",
+      "session": "KRX 2026.10.29 정규장 장중 14:20 · 종가 아님"
+    },
+    {
+      "name": "코스닥",
+      "value": "758.04",
+      "unit": "pt",
+      "delta": "−13.24",
+      "percent": "−1.72",
+      "direction": "down",
+      "source": "fn-1420",
+      "as_of": "2026-10-29T14:20:00+09:00",
+      "session": "KRX 2026.10.29 정규장 장중 14:20 · 종가 아님 · 변동액은 전일 종가 771.28 기준 계산"
+    }
+  ],
+  "issues": [
+    {
+      "title": "삼성전자 사상 최대 실적에도 하락 전환",
+      "fact": "삼성전자는 3분기 연결 매출 195.3조원, 영업이익 107.4조원과 보통주 1주당 4,601원(총 약 30조원)의 분기 배당을 발표했다. 장중 249,000원까지 올랐지만 하락 전환해 14:20 KST 232,000원(−10,000원, −4.13%)에 거래됐다. 보도는 잔여 주주환원 재원 활용안을 내년 1월 이사회에서 확정하기로 한 점과 전일 9.01% 급등 뒤 차익실현을 배경으로 들었다. 시장 예상 대비 결과는 매체마다 '소폭 상회'와 '하회'로 엇갈려 미확정이다.",
+      "source": "samsung-q3",
+      "additional_sources": [
+        "fn-1420",
+        "gukje-1045",
+        "samsung-return",
+        "samsung-consensus"
+      ]
+    },
+    {
+      "title": "지수는 3% 급락 뒤 오후 낙폭 축소",
+      "fact": "코스피는 6,017.22로 출발해 6,100.11까지 올랐다가 11:20 KST 5,831.34(−181.10, −3.01%)까지 밀렸다. 14:20 KST에는 5,976.42(−36.02, −0.60%)로 낙폭을 줄였다. 같은 시각 외국인은 1,683억원, 기관은 7,956억원 순매도였다. 외국인은 10:45 KST에는 3,948억원 순매수였다가 오후 매도로 돌아섰다. 오전 하락 종목은 상승 종목의 약 7배로 보도됐다.",
+      "source": "fn-1420",
+      "additional_sources": [
+        "yna-1120",
+        "gukje-1045",
+        "mt-breadth"
+      ]
+    },
+    {
+      "title": "체코 원전 시공계약 결렬로 원전·건설주 급락",
+      "fact": "한수원과 대우건설·두산에너빌리티 컨소시엄의 두코바니 원전 시공계약 협상이 주요 계약조건 이견으로 종료됐다. 10:12 KST 대우건설은 11,030원(−3,240원, −22.7%), 두산에너빌리티는 54,100원(−7,300원, −11.89%), 한전기술은 −9.14%였다. 한수원은 신규 시공사 선정을 준비하며 사업 전체 무산은 아니라고 보도됐다.",
+      "source": "czech",
+      "additional_sources": [
+        "czech-next"
+      ]
+    },
+    {
+      "title": "LG화학, LG에너지솔루션 지분 2.5조원 처분",
+      "fact": "LG화학은 LG에너지솔루션 보통주 653만5,939주(약 2.5조원)를 11월27일~12월24일 PRS 방식으로 처분하기로 결정했고 지분율은 79.38%에서 76.59%로 낮아진다. 4,000억원은 주주환원에 배정했다. LG에너지솔루션은 29일 오전 9%대 하락으로 보도됐으며 정확한 가격·시각은 이번 실행에서 확인하지 못했다.",
+      "source": "lges",
+      "additional_sources": [
+        "lges-detail",
+        "yna-1120"
+      ]
+    },
+    {
+      "title": "하이닉스 강세와 반도체 내부 차별화",
+      "fact": "SK하이닉스는 14:20 KST 1,552,000원(+65,000원, +4.37%)으로 전일 10.89% 급등 뒤에도 올랐다. 같은 시각 삼성전자는 −4.13%로 두 대형 반도체주가 반대로 움직였다. 삼성SDI는 3분기 매출 4조6,856억원, 영업이익 4,078억원을 발표했고 AMPC 등 일회성 요인 포함 분석이 있다.",
+      "source": "fn-1420",
+      "additional_sources": [
+        "sdi",
+        "gukje-1045"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "232,000",
+      "currency": "KRW",
+      "delta": "−10,000",
+      "percent": "−4.13",
+      "direction": "down",
+      "source": "fn-1420",
+      "as_of": "2026-10-29T14:20:00+09:00",
+      "session": "KRX 정규장 장중 14:20 · 종가 아님 · NXT 제외",
+      "reason": "사상 최대 실적에도 주주환원안 1월 연기와 전일 급등 뒤 차익실현으로 하락했다.",
+      "watch": "15:30 종가가 232,000원 위로 회복하는지와 기관 매도 축소를 확인한다.",
+      "reason_sources": [
+        "samsung-q3",
+        "gukje-1045",
+        "samsung-consensus"
+      ]
+    },
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,552,000",
+      "currency": "KRW",
+      "delta": "+65,000",
+      "percent": "+4.37",
+      "direction": "up",
+      "source": "fn-1420",
+      "as_of": "2026-10-29T14:20:00+09:00",
+      "session": "KRX 정규장 장중 14:20 · 종가 아님 · NXT 제외",
+      "reason": "전일 실적·주주환원 재료가 이어지며 지수 하락 속에서도 올랐다.",
+      "watch": "전일 종가 1,487,000원 위 마감과 삼성전자 대비 상대강도 지속을 본다.",
+      "reason_sources": [
+        "fn-1420"
+      ]
+    },
+    {
+      "name": "대우건설",
+      "ticker": "047040",
+      "price": "11,030",
+      "currency": "KRW",
+      "delta": "−3,240",
+      "percent": "−22.7",
+      "direction": "down",
+      "source": "czech",
+      "as_of": "2026-10-29T10:12:00+09:00",
+      "session": "KRX 정규장 장중 10:12 · 종가 아님 · 이후 가격 미확인",
+      "reason": "체코 두코바니 원전 시공계약 협상 결렬로 급락했다.",
+      "watch": "한수원의 시공사 재선정 방식과 15:30 종가의 낙폭 유지 여부를 본다.",
+      "reason_sources": [
+        "czech",
+        "czech-next"
+      ]
+    },
+    {
+      "name": "두산에너빌리티",
+      "ticker": "034020",
+      "price": "54,100",
+      "currency": "KRW",
+      "delta": "−7,300",
+      "percent": "−11.89",
+      "direction": "down",
+      "source": "czech",
+      "as_of": "2026-10-29T10:12:00+09:00",
+      "session": "KRX 정규장 장중 10:12 · 종가 아님 · 이후 가격 미확인",
+      "reason": "체코 원전 시공 컨소시엄 협상 종료로 원전 기대가 꺾였다.",
+      "watch": "주기기 공급 범위 등 사업 영향 공시와 종가 회복 여부를 확인한다.",
+      "reason_sources": [
+        "czech",
+        "czech-next"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(장중 거래값)",
+    "value": "1,341.2",
+    "unit": "원/USD",
+    "delta": "미확인",
+    "direction": "missing",
+    "source": "fx-0900",
+    "as_of": "2026-10-29T09:00:00+09:00",
+    "session": "서울외환시장 09:00 장중 · 오후 값과 전일 종가 대비 변동 미확인"
+  },
+  "next_checks": [
+    {
+      "label": "2026.10.29 15:30 KST",
+      "title": "KRX 종가·최종 수급",
+      "detail": "코스피 6,000선 회복 여부, 삼성전자·하이닉스 종가와 외국인·기관 최종 순매수를 확인한다."
+    },
+    {
+      "label": "2026.10.29 21:30 KST",
+      "title": "미국 GDP 속보·9월 PCE",
+      "detail": "미국 금리·달러 반응이 다음 한국장 개장에 주는 영향을 본다."
+    },
+    {
+      "label": "2026.10.29 22:15·22:45 KST",
+      "title": "ECB 결정·기자회견",
+      "detail": "유로·달러와 글로벌 금리 반응을 다음 한국장 배경으로 확인한다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "삼성 주주환원·체코 원전 후속",
+      "detail": "1월 이사회 일정 공시와 한수원 시공사 재선정 방식을 차례로 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "market_date": "2026-10-29",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-29T15:12:00+09:00",
+    "note": "이번 실행에서는 KRX 원문 직접 열람이 네트워크 정책으로 차단됐다. 같은 날 08:31 KST 장전 회차가 KRX 원문과 10월 시장운영 공지로 확인한 정상 거래일(09:00~15:30, 조기폐장 없음) 판단을 사용하고, 당일 정규장 실제 거래 보도로 교차확인했다. d5는 10월29·30일과 11월2·3·4일이다.",
+    "additional_urls": [
+      "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list"
+    ]
+  },
+  "execution": {
+    "trigger": "user_request_manual_intraday",
+    "actual_start_kst": "2026-10-29T15:08:56+09:00",
+    "actual_start_utc": "2026-10-29T06:08:56Z",
+    "environment": "Claude Code 클라우드 세션 · Bash/Git, GitHub MCP, WebSearch, Kakao PlayMCP 나에게 보내기 도구. 시세 사이트·뉴스 원문 직접 HTTP 열람과 Actions artifact 다운로드는 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 수치를 확인했다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "169fde61fd13e3b214f69d62e79328cef84a5aa8",
+      "run_id": 40827509258,
+      "status": "success",
+      "artifact": "krx-analysis-40827509258",
+      "artifact_id": 12877297299,
+      "requested_end_date": "2026-10-28",
+      "data_date": "미확인(artifact 다운로드 차단)",
+      "usage": "내용 미확인으로 보고서 수치에 사용하지 않음"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "코스닥 변동액 −13.24는 14:20 KST 758.04에서 10월28일 KRX 종가 771.28을 뺀 값이며 기사 등락률 −1.72%와 일치한다(−13.24/771.28=−1.717%). SK하이닉스 변동액 +65,000원은 기사 값이며 전일 종가 1,487,000원 대비 +4.37%와 일치한다. 원전주 가격은 10:12 KST 기사 값이고 이후 가격은 미확인이다. 장중 값은 기사별 기준 시각이 달라 서로 같은 시점이 아니다. 투자자별 순매수는 기사 보도치이며 최종치가 아니다. KRX 일별 분석, 분봉·VWAP·옵션·소셜 감성·검증된 확률은 미확인/미산출이다.",
+  "reading": {
+    "headline": "삼성 실적 뒤 하락, 하이닉스는 강세",
+    "summary_points": [
+      "코스피는 한때 −3.01%, 14:20엔 −0.60%로 낙폭 축소.",
+      "삼성전자 −4.13%, SK하이닉스 +4.37%로 엇갈렸다.",
+      "체코 원전 결렬·LG엔솔 지분 매각이 개별 악재다."
+    ],
+    "notices": [
+      "장중 기사 값이며 종가가 아니다. 지수·삼성·하이닉스 14:20, 원전주 10:12 KST.",
+      "원문 직접 열람이 막혀 검색 원문 발췌로 확인했고 KRX 일별 분석은 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "삼성전자 최대 실적에도 하락",
+        "preview": "영업이익 107.4조원에도 14:20 −4.13%였다.",
+        "points": [
+          "주주환원안 확정이 내년 1월 이사회로 미뤄졌다.",
+          "기대 대비 결과는 매체별로 엇갈려 미확정이다."
+        ],
+        "meaning": "좋은 숫자보다 선반영과 주주환원 기대가 주가를 좌우했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "14:20 KST 232,000원 기준 남은 장 종가를 본다. 오후 지수 낙폭 축소는 지지 요인이다.",
+            "counter": "기관 순매도와 주주환원 실망이 남아 있다. 종가 동시호가 변동은 예측하지 않는다.",
+            "invalidation": "232,000원 아래 마감과 기관 매도 확대가 함께면 하방으로 본다.",
+            "sources": [
+              "fn-1420",
+              "gukje-1045"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가을 기준으로 1월 주주환원 기대와 실적 반영을 본다.",
+            "counter": "전일 9.01% 급등의 차익실현과 AI 투자 우려가 이어질 수 있다.",
+            "invalidation": "2거래일 이상 242,000원 회복이면 상방, 232,000원 이탈 지속이면 하방으로 갱신한다.",
+            "sources": [
+              "samsung-q3",
+              "samsung-return",
+              "samsung-consensus"
+            ]
+          }
+        }
+      },
+      {
+        "title": "지수 3% 급락 뒤 낙폭 축소",
+        "preview": "11:20 −3.01%에서 14:20 −0.60%로 회복했다.",
+        "points": [
+          "외국인·기관이 14:20 기준 동반 순매도였다.",
+          "오전 하락 종목은 상승 종목의 약 7배였다."
+        ],
+        "meaning": "지수 회복보다 하락 종목 확산과 기관 매도가 부담이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "14:20 KST 5,976.42 기준 남은 장 종가를 본다. 오후 반등이 이어지고 있다.",
+            "counter": "외국인 1,683억원·기관 7,956억원 순매도이고 시장 폭이 약하다.",
+            "invalidation": "6,012.44 위 마감이면 상방, 5,900 아래 재하락이면 하방으로 본다.",
+            "sources": [
+              "fn-1420",
+              "yna-1120",
+              "mt-breadth"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·코스닥",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가을 기준으로 반도체 외 업종 확산을 본다.",
+            "counter": "개별 악재와 미국 금리·성장 지표가 변동성을 키울 수 있다.",
+            "invalidation": "3거래일 이상 시장 폭 개선과 외국인 순매수면 상방으로 갱신한다.",
+            "sources": [
+              "fn-1420",
+              "mt-breadth",
+              "bea"
+            ]
+          }
+        }
+      },
+      {
+        "title": "체코 원전 결렬, 원전·건설 급락",
+        "preview": "대우건설 −22.7%, 두산에너빌리티 −11.89%(10:12).",
+        "points": [
+          "주요 계약조건 이견으로 시공 협상이 종료됐다.",
+          "한수원은 시공사 재선정을 준비한다."
+        ],
+        "meaning": "원전 수출 기대에 기댄 종목의 재평가가 시작됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "대우건설·두산에너빌리티",
+            "basis": "10:12 KST 급락 뒤 협상 종료라는 확정 사실이 남은 장에도 유지된다.",
+            "counter": "사업 전체 무산이 아니고 급락 뒤 저가 매수가 나올 수 있다. 이후 가격은 미확인이다.",
+            "invalidation": "두 종목이 10:12 가격 위에서 마감하면 판단을 보류로 낮춘다.",
+            "sources": [
+              "czech",
+              "czech-next"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "원전·건설주",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가을 기준으로 시공사 재선정 방식과 회사별 영향 공시를 본다.",
+            "counter": "재선정 조건과 컨소시엄의 다른 역할 유지 여부가 아직 없다.",
+            "invalidation": "회사의 사업 영향 공시가 나오면 그 내용으로 재판단한다.",
+            "sources": [
+              "czech-next"
+            ]
+          }
+        }
+      },
+      {
+        "title": "LG화학, LG엔솔 지분 2.5조 처분",
+        "preview": "LG에너지솔루션이 오전 9%대 하락했다.",
+        "points": [
+          "11월27일~12월24일 PRS 방식으로 처분한다.",
+          "4,000억원은 LG화학 주주환원에 쓴다."
+        ],
+        "meaning": "물량 부담이 배터리 대형주 수급을 누를 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "LG에너지솔루션",
+            "basis": "오전 9%대 하락은 보도됐지만 이번 실행에서 장중 가격·시각을 확인하지 못했다.",
+            "counter": "자료 부족으로 남은 장 방향을 판단하지 않는다.",
+            "invalidation": "종가와 기관 수급이 확인되면 재판단한다.",
+            "sources": [
+              "lges"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LG에너지솔루션",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가을 기준으로 처분 일정 전 물량 부담을 본다.",
+            "counter": "처분은 11월27일부터라 5거래일 내 실제 매도는 없고 급락 뒤 반발 가능성이 있다.",
+            "invalidation": "2거래일 이상 추가 하락이면 하방, 낙폭 절반 회복이면 보류로 갱신한다.",
+            "sources": [
+              "lges",
+              "lges-detail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "하이닉스 강세, 반도체 차별화",
+        "preview": "하이닉스 +4.37%, 삼성전자 −4.13%로 갈렸다.",
+        "points": [
+          "하이닉스는 전일 10.89% 급등 뒤에도 올랐다.",
+          "삼성SDI는 영업이익 4,078억원을 발표했다."
+        ],
+        "meaning": "반도체를 한 묶음이 아니라 종목별 재료로 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SK하이닉스",
+            "basis": "14:20 KST 1,552,000원으로 전일 종가 1,487,000원 위이며 지수 하락 속 상대강세다.",
+            "counter": "이틀 누적 급등으로 종가 무렵 차익실현이 나올 수 있다.",
+            "invalidation": "1,487,000원 아래 마감이면 하방으로 바꾼다.",
+            "sources": [
+              "fn-1420"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스·반도체",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가을 기준으로 상대강도 지속을 본다.",
+            "counter": "Alphabet 급락 뒤 AI 투자 우려와 단기 과열이 남아 있다.",
+            "invalidation": "2거래일 이상 코스피 대비 강세면 상방으로 갱신한다.",
+            "sources": [
+              "fn-1420",
+              "gukje-1045",
+              "sdi"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "005930": {
+        "reason": "최대 실적에도 주주환원안 연기와 차익실현으로 하락했다.",
+        "watch": "232,000원 위 마감과 기관 매도 축소를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "14:20 KST 232,000원 기준 남은 장 종가를 본다.",
+            "counter": "기관 순매도와 주주환원 실망이 남아 있다.",
+            "invalidation": "232,000원 아래 마감이면 하방으로 본다.",
+            "sources": [
+              "fn-1420",
+              "gukje-1045"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준으로 242,000원 회복 여부를 본다.",
+            "counter": "선반영 차익실현이 이어질 수 있다.",
+            "invalidation": "2거래일 이상 242,000원 위면 상방으로 갱신한다.",
+            "sources": [
+              "samsung-q3",
+              "samsung-consensus"
+            ]
+          }
+        }
+      },
+      "000660": {
+        "reason": "지수 하락 속에서도 전일 호재가 이어져 올랐다.",
+        "watch": "1,487,000원 위 마감과 상대강도 지속을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "SK하이닉스",
+            "basis": "14:20 KST 1,552,000원으로 전일 종가 위다.",
+            "counter": "이틀 급등 뒤 종가 무렵 차익실현 위험이 있다.",
+            "invalidation": "1,487,000원 아래 마감이면 하방으로 바꾼다.",
+            "sources": [
+              "fn-1420"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준으로 코스피 대비 상대강도를 본다.",
+            "counter": "AI 투자 우려와 단기 과열이 반대 요인이다.",
+            "invalidation": "2거래일 이상 상대강세면 상방으로 갱신한다.",
+            "sources": [
+              "fn-1420",
+              "gukje-1045"
+            ]
+          }
+        }
+      },
+      "047040": {
+        "reason": "체코 원전 시공계약 협상 결렬로 급락했다.",
+        "watch": "시공사 재선정 방식과 종가 낙폭을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "대우건설",
+            "basis": "10:12 KST 11,030원으로 협상 종료가 확정된 재료다.",
+            "counter": "이후 가격이 미확인이고 급락 뒤 반발 매수가 나올 수 있다.",
+            "invalidation": "11,030원 위 마감이면 보류로 낮춘다.",
+            "sources": [
+              "czech"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "대우건설",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준이나 재선정 조건이 아직 없다.",
+            "counter": "사업 전체 무산이 아니라는 점이 반대 요인이다.",
+            "invalidation": "회사 영향 공시가 나오면 재판단한다.",
+            "sources": [
+              "czech-next"
+            ]
+          }
+        }
+      },
+      "034020": {
+        "reason": "원전 시공 컨소시엄 협상 종료로 급락했다.",
+        "watch": "사업 영향 공시와 종가 회복 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "두산에너빌리티",
+            "basis": "10:12 KST 54,100원으로 협상 종료가 확정된 재료다.",
+            "counter": "이후 가격이 미확인이고 주기기 공급 역할은 별도일 수 있다.",
+            "invalidation": "54,100원 위 마감이면 보류로 낮춘다.",
+            "sources": [
+              "czech"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "두산에너빌리티",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준이나 사업 영향 범위가 미확인이다.",
+            "counter": "재선정 과정에서 역할이 유지될 가능성이 있다.",
+            "invalidation": "회사 영향 공시가 나오면 재판단한다.",
+            "sources": [
+              "czech-next"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "KRX 종가·최종 수급",
+        "detail": "6,000선 회복과 외국인·기관 최종 순매수를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "14:20 KST 5,976.42 기준 15:30 종가를 확인한다.",
+            "counter": "기관 순매도가 크다.",
+            "invalidation": "6,012.44 위 마감이면 상방으로 본다.",
+            "sources": [
+              "fn-1420"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준 시장 폭 개선을 본다.",
+            "counter": "개별 악재가 남아 있다.",
+            "invalidation": "3거래일 시장 폭 개선이면 상방으로 갱신한다.",
+            "sources": [
+              "mt-breadth"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 GDP 속보·9월 PCE",
+        "detail": "금리·달러 반응이 다음 한국장에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "발표가 남은 장 이후라 남은 장에는 영향이 없다.",
+            "counter": "발표 전 자료로 방향을 정하지 않는다.",
+            "invalidation": "발표 뒤 미국 10년물·달러 반응으로 재판단한다.",
+            "sources": [
+              "bea"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피·성장주",
+            "basis": "발표 대기로 판단 보류다.",
+            "counter": "성장·물가가 금리와 이익에 다른 방향으로 작용할 수 있다.",
+            "invalidation": "발표 뒤 금리·달러 방향으로 재판단한다.",
+            "sources": [
+              "bea"
+            ]
+          }
+        }
+      },
+      {
+        "title": "ECB 결정·기자회견",
+        "detail": "유로·달러와 글로벌 금리 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "발표가 장 마감 뒤라 남은 장에는 영향이 없다.",
+            "counter": "발표 전 자료로 방향을 정하지 않는다.",
+            "invalidation": "결정 뒤 금리·환율 반응으로 재판단한다.",
+            "sources": [
+              "ecb"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "발표 대기로 판단 보류다.",
+            "counter": "결정과 기자회견 해석이 다를 수 있다.",
+            "invalidation": "결정 뒤 금리·환율 반응으로 재판단한다.",
+            "sources": [
+              "ecb"
+            ]
+          }
+        }
+      },
+      {
+        "title": "삼성 주주환원·체코 원전 후속",
+        "detail": "1월 이사회 공시와 시공사 재선정 방식을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "삼성전자·원전주",
+            "basis": "후속 공시 시각이 미확인이다.",
+            "counter": "자료 부족으로 판단 보류다.",
+            "invalidation": "공시가 나오면 재판단한다.",
+            "sources": [
+              "samsung-return",
+              "czech-next"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성전자·원전주",
+            "basis": "후속 공시 일정이 미확인이다.",
+            "counter": "자료 부족으로 판단 보류다.",
+            "invalidation": "공시 내용으로 재판단한다.",
+            "sources": [
+              "samsung-return",
+              "czech-next"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "15:30 종가가 오후 낙폭 축소를 유지하는지",
+      "기관 순매도 축소와 하락 종목 확산의 완화",
+      "미국 GDP·PCE·ECB 뒤 금리·달러와 다음 한국장 개장"
+    ],
+    "source_labels": {
+      "calendar": "KRX · 거래일 및 휴장일",
+      "krx-october": "KRX · 2026년 10월 시장운영 안내",
+      "fn-1420": "파이낸셜뉴스 · 14:20 오후 시황",
+      "yna-1120": "Korea Times(연합) · 오전 시황",
+      "gukje-1045": "국제뉴스 · 장중 하락 전환",
+      "samsung-q3": "삼성전자 뉴스룸 · 3분기 실적",
+      "samsung-return": "Korea Times · 삼성전자 배당",
+      "samsung-consensus": "서울경제 · 삼성전자 실적 반응",
+      "mt-breadth": "머니투데이 · 하락 종목 확산",
+      "czech": "한국경제 · 체코 원전 시공계약 결렬",
+      "czech-next": "한국경제 · 시공사 재선정",
+      "lges": "한국경제 · LG엔솔 지분 처분 반응",
+      "lges-detail": "시사저널 · LG화학 주주환원",
+      "sdi": "이투데이 · 삼성SDI 3분기",
+      "fx-0900": "디지털데일리 · 개장 시황",
+      "krx-analysis": "KRX 일별 분석 작업 · 10월28일 요청",
+      "bea": "BEA · GDP·개인소득 발표 일정",
+      "ecb": "ECB · 10월29일 통화정책 일정"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-29T15:12:00+09:00",
+      "input_cutoff": "2026-10-29T15:12:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. 남은 장은 10월29일 15:30 KRX 종가, 5거래일은 10월29·30일과 11월2·3·4일 KRX 정규장 종가 기준입니다. 게시가 장 마감 무렵이라 예측 성과 평가에서 제외합니다."
+    }
+  },
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 거래일 및 휴장일",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "이번 실행 네트워크에서 KRX 원문 직접 열람이 차단됐다. 같은 날 08:31 KST 장전 회차가 이 원문과 10월 시장운영 공지로 확인한 정상 거래일 판단을 재사용하고, 당일 정규장 거래 보도로 실제 거래를 교차확인했다.",
+      "queried_at": "2026-10-29T08:31:45+09:00"
+    },
+    {
+      "id": "krx-october",
+      "label": "KRX · 2026년 10월 시장운영 안내",
+      "url": "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list",
+      "note": "10월 특별 휴장 5일·9일, 29일 별도 휴장·조기폐장 공지 없음(08:31 KST 장전 회차 조회 기록).",
+      "queried_at": "2026-10-29T08:31:45+09:00"
+    },
+    {
+      "id": "fn-1420",
+      "label": "파이낸셜뉴스 · 14:20 오후 시황",
+      "url": "https://www.fnnews.com/news/202610291422162601",
+      "note": "14:20 KST 코스피 5,976.42(−36.02, −0.60%), 코스닥 758.04(−1.72%), 외국인 1,683억원·기관 7,956억원 코스피 순매도, 삼성전자 232,000원(−10,000, −4.13%), SK하이닉스 1,552,000원(+65,000, +4.37%). 원문 직접 열람은 네트워크 차단으로 불가해 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "yna-1120",
+      "label": "Korea Times(연합) · 오전 시황",
+      "url": "https://www.koreatimes.co.kr/economy/20261029/seoul-stocks-down-3-late-thursday-morning-after-weaker-than-expected-samsung-earnings",
+      "note": "11:20 KST 코스피 5,831.34(−181.10, −3.01%), 장중 고점 6,100.11. LG에너지솔루션·체코 원전 관련 건설주 약세를 언급. 검색 원문 발췌로 확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "gukje-1045",
+      "label": "국제뉴스 · 장중 하락 전환",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3736139",
+      "note": "시가 6,017.22, 장중 6,100.11, 10:45 KST 5,842.21(−170.23, −2.83%), 외국인 3,948억원 순매수(10:45). 주주환원 재원 활용안의 내년 1월 이사회 확정과 Alphabet 급락 뒤 AI 투자 우려를 하락 배경으로 보도.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "samsung-q3",
+      "label": "삼성전자 뉴스룸 · 3분기 실적",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "note": "연결 매출 195.3조원, 영업이익 107.4조원, 분기 배당 보통주 1주당 4,601원(총 약 30조원). 검색 원문 발췌로 확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "samsung-return",
+      "label": "Korea Times · 삼성전자 배당",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261029/samsung-electronics-q3-dividend-jumps-12-fold-totals-to-225-bil",
+      "note": "3분기 배당 총액 약 30조원과 주가·실적 괴리 대응 배경 보도.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "samsung-consensus",
+      "label": "서울경제 · 삼성전자 실적 반응",
+      "url": "https://en.sedaily.com/finance/2026/10/29/samsung-shares-slide-5-percent-despite-record-107-trillion",
+      "note": "사상 최대 영업이익에도 장중 5% 하락 보도. 시장 예상치와 비교는 매체별로 '소폭 상회'와 '하회'가 엇갈려 기대 대비 결과는 미확정으로 둔다.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "mt-breadth",
+      "label": "머니투데이 · 하락 종목 확산",
+      "url": "https://www.mt.co.kr/stock/2026/10/29/2026102911020397673",
+      "note": "오전 코스피 하락 종목이 상승 종목의 약 7배라는 보도. 정확한 종목 수와 시각은 검색 발췌로 확인하지 못했다.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "czech",
+      "label": "한국경제 · 체코 원전 시공계약 결렬",
+      "url": "https://www.hankyung.com/article/2026102927056",
+      "note": "한수원-대우건설·두산에너빌리티 두코바니 시공계약 협상 종료. 10:12 KST 대우건설 11,030원(−3,240, −22.7%), 두산에너빌리티 54,100원(−7,300, −11.89%), 한전기술 −9.14%. 검색 원문 발췌로 확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "czech-next",
+      "label": "한국경제 · 시공사 재선정",
+      "url": "https://www.hankyung.com/article/202610292607i",
+      "note": "한수원 공동협력협약 종료 절차와 신규 시공사 선정 준비. 사업 전체 무산은 아님.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "lges",
+      "label": "한국경제 · LG엔솔 지분 처분 반응",
+      "url": "https://www.hankyung.com/article/202610292699i",
+      "note": "LG화학 이사회가 LG에너지솔루션 보통주 653만5,939주(약 2.5조원)를 11월27일~12월24일 PRS 방식으로 처분 결정. 29일 오전 LG에너지솔루션 9%대 하락. 정확한 가격 시각은 미확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "lges-detail",
+      "label": "시사저널 · LG화학 주주환원",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=392063",
+      "note": "세후 현금유입 중 4,000억원 주주환원 배정, 지분율 79.38%→76.59%.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "sdi",
+      "label": "이투데이 · 삼성SDI 3분기",
+      "url": "https://www.etoday.co.kr/news/view/2641710",
+      "note": "삼성SDI 3분기 매출 4조6,856억원, 영업이익 4,078억원 보도. AMPC 등 일회성 요인 포함 분석은 증권사 의견으로 구분. 장중 가격 시각 미확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "fx-0900",
+      "label": "디지털데일리 · 개장 시황",
+      "url": "https://m.ddaily.co.kr/page/view/2026102909264920267",
+      "note": "09:00 KST 원·달러 1,341.2원(장중 거래값). 오후 값과 전일 서울 종가 대비 변동은 미확인.",
+      "queried_at": "2026-10-29T15:12:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "KRX 일별 분석 작업 · 10월28일 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/40827509258",
+      "note": "요청 커밋 169fde6의 작업은 성공했으나 이번 실행 네트워크에서 artifact 다운로드가 차단돼 analysis.json 내용과 data_date를 확인하지 못했다. 보고서에 일별 분석 수치를 쓰지 않았다.",
+      "queried_at": "2026-10-29T15:11:00+09:00"
+    },
+    {
+      "id": "bea",
+      "label": "BEA · GDP·개인소득 발표 일정",
+      "url": "https://www.bea.gov/news/schedule",
+      "note": "10월29일 08:30 EDT(21:30 KST) GDP 속보치·9월 개인소득·지출(08:34 KST 장전 회차 조회 기록).",
+      "queried_at": "2026-10-29T08:34:30+09:00"
+    },
+    {
+      "id": "ecb",
+      "label": "ECB · 10월29일 통화정책 일정",
+      "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html",
+      "note": "14:15 CET(22:15 KST) 결정, 14:45 CET(22:45 KST) 기자회견(08:34 KST 장전 회차 조회 기록).",
+      "queried_at": "2026-10-29T08:34:30+09:00"
+    }
+  ]
+}
