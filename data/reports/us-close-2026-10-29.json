@@ -1,0 +1,1035 @@
+{
+  "id": "us-close-2026-10-29",
+  "title": "10월 29일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-10-29 09:30~16:00 EDT 정규장(2026-10-29 22:30~10-30 05:00 KST)",
+  "market_date": "2026-10-29",
+  "session": "close",
+  "as_of": "2026-10-30T05:00:00+09:00",
+  "queried_at": "2026-10-30T07:52:15+09:00",
+  "is_test": false,
+  "summary": "Alphabet 실적 충격에 나스닥 1.38% 하락, 장후 Amazon·Intel도 약세",
+  "summary_detail": "Alphabet이 매출·EPS 예상 미달과 잉여현금흐름 적자로 12.64% 급락하고 Caterpillar가 전망 유지에 9.25% 내리면서 나스닥은 −1.38%, S&P500은 −0.30%, 다우는 −0.25%로 마감했다. 3분기 GDP가 3.4%로 강했고 Eli Lilly가 전망 상향으로 6.63% 오르는 등 헬스케어로의 순환이 있었다. 장후 Amazon·Intel이 시간외 하락해 다음 거래일 기술·반도체주와 한국장 개장이 부담이다.",
+  "interpretation": "지수와 개별 종목 종가는 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 검색 결과에 요약된 CNBC·Yahoo·Google Finance·StockAnalysis 등의 값을 사용했고 잠정으로 표시했다. 개별주는 10/29 미국 정규장 종가이며 AMZN·INTC의 장후 시간외 가격과 섞지 않았다. 주가 반응은 공식 실적·가이던스와 당일 보도를 연결했지만 단일 원인으로 단정하지 않는다. 이번 요청의 Massive 수집은 성공했지만 기준일이 10/28이고 산출물 내용을 내려받지 못해 분석 수치는 사용하지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,720.39",
+      "unit": "pt",
+      "delta": "−23.59",
+      "percent": "−0.30",
+      "direction": "down",
+      "source": "cnbc_close",
+      "additional_sources": [
+        "yahoo_spx"
+      ],
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,184.72",
+      "unit": "pt",
+      "delta": "−미확인",
+      "percent": "−1.38",
+      "direction": "down",
+      "source": "cnbc_close",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 잠정 종가 · 포인트 변화 미확인",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Dow Jones",
+      "value": "52,342.56",
+      "unit": "pt",
+      "delta": "−132.54",
+      "percent": "−0.25",
+      "direction": "down",
+      "source": "cnbc_close",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "Alphabet 매출 미달·현금흐름 적자에 기술주 급락",
+      "fact": "Alphabet은 3분기 매출 1,276억달러(+25%), Google Cloud 307억달러(+103%), 영업이익률 31.8%를 발표했지만 설비투자로 잉여현금흐름이 −91억달러였다. 매출은 LSEG 예상 1,279.1억달러를, EPS 2.67달러는 예상 2.97달러를 밑돌았다는 보도다. GOOGL은 283.82달러(−41.07, −12.64%)로 마감했고 나스닥은 −1.38%로 3대 지수 중 가장 약했다.",
+      "source": "alphabet",
+      "additional_sources": [
+        "googl_cons",
+        "qGOOGL",
+        "cnbc_close"
+      ]
+    },
+    {
+      "title": "Caterpillar, 실적 상회에도 전망 유지로 급락",
+      "fact": "Caterpillar는 매출 207억달러(+17%), 조정 EPS 7.20달러, 영업이익률 20.4%를 발표했다. 그러나 연간 매출 성장 전망을 유지하고 4분기 '완만한' 성장을 제시했으며 관세 회수가 1.28억달러로 2분기 3.92억달러보다 줄었다. CAT는 647.39달러(−65.99, −9.25%)로 마감해 다우(−132.54포인트, −0.25%)를 끌어내렸다.",
+      "source": "cat_ir",
+      "additional_sources": [
+        "cat_reason",
+        "cat_tariff",
+        "qCAT",
+        "cnbc_close"
+      ]
+    },
+    {
+      "title": "GDP 3.4% 강세, 9월 PCE는 예상 부합",
+      "fact": "BEA는 3분기 실질 GDP가 연율 3.4%(2분기 2.2%) 늘었다고 발표했다. 9월 PCE 물가는 전월 대비 0.5%로 예상에 부합했다는 보도다. 10년물 금리는 약 4.982%로 6.3bp 내렸다는 장 마감 무렵 보도가 있으나 확정 종가는 미확인이다.",
+      "source": "bea",
+      "additional_sources": [
+        "pce_sec",
+        "ust10"
+      ]
+    },
+    {
+      "title": "Eli Lilly 전망 상향, 방어·헬스케어로 순환",
+      "fact": "Lilly는 3분기 매출 244억달러(+39%)와 2026 매출 전망 910~920억달러(이전 850~870억달러)를 발표했다. 물량은 53% 늘고 실현가격은 15% 내렸으며 EPS 전망은 인수 관련 비용으로 35.00~36.00달러로 낮췄다. LLY는 1,373.70달러(+85.40, +6.63%)로 마감했다.",
+      "source": "lilly",
+      "additional_sources": [
+        "lilly_react",
+        "qLLY",
+        "yahoo_live"
+      ]
+    },
+    {
+      "title": "Microsoft, Azure 48%에도 상승분 반납",
+      "fact": "Microsoft는 10/28 장후 매출 약 922.8억달러(+19%), Azure 성장 48%를 발표했고 다음 분기 Azure 49~50% 성장 전망이 보도됐다. 그러나 10/29 정규장에서는 장중 519.56~541.29달러를 오간 끝에 530.14달러(−0.87, −0.16%)로 마감했다.",
+      "source": "msft",
+      "additional_sources": [
+        "msft_react",
+        "qMSFT"
+      ]
+    },
+    {
+      "title": "장후 Amazon·Intel 하락, 다음 장 위험",
+      "fact": "Amazon은 매출 2,019억달러(+12%), AWS 460억달러(+39%)를 발표했지만 EPS 1.89달러가 예상 1.96달러를 밑돌았다는 보도 속에 16:17 EDT 시간외 약 230달러(약 −5.7%)를 기록했다. Intel은 비GAAP EPS 0.52달러로 예상을 넘었으나 4분기 매출 전망 150~160억달러가 예상 약 170억달러를 밑돌아 시간외 16~20% 하락이 보도됐다. 시간외 가격은 확정 종가가 아니다.",
+      "source": "amzn",
+      "additional_sources": [
+        "amzn_react",
+        "qAMZN",
+        "intc",
+        "intc_react",
+        "qINTC"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Alphabet (Class A)",
+      "ticker": "GOOGL",
+      "price": "283.82",
+      "delta": "−41.07",
+      "percent": "−12.64",
+      "source": "qGOOGL",
+      "reason": "매출·EPS 예상 미달과 잉여현금흐름 −91억달러가 Cloud 고성장보다 크게 반영됐다.",
+      "watch": "283.82달러와 장중 저점 280.36달러 지지, 설비투자 회수 설명과 추정치 변화를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "alphabet",
+        "googl_cons"
+      ]
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
+      "price": "647.39",
+      "delta": "−65.99",
+      "percent": "−9.25",
+      "source": "qCAT",
+      "reason": "실적은 예상을 넘었지만 전망 유지·4분기 완만한 성장·관세 부담이 실망을 불렀다.",
+      "watch": "647.39달러 지지, 시가 636.33달러 재이탈 여부와 전력·데이터센터 수주 설명을 본다.",
+      "direction": "down",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "cat_ir",
+        "cat_reason",
+        "cat_tariff"
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "ticker": "LLY",
+      "price": "1,373.70",
+      "delta": "+85.40",
+      "percent": "+6.63",
+      "source": "qLLY",
+      "reason": "Mounjaro·Zepbound 물량 급증과 연간 매출 전망 상향이 가격 하락 부담보다 컸다.",
+      "watch": "1,373.70달러 유지와 실현가격 −15% 추세, 일회성 이익 제외 성장률을 본다.",
+      "direction": "up",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "lilly",
+        "lilly_react"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "price": "530.14",
+      "delta": "−0.87",
+      "percent": "−0.16",
+      "source": "qMSFT",
+      "reason": "Azure 48% 성장 호재가 기술주 매도와 AI 투자비 우려에 상쇄돼 보합 마감했다.",
+      "watch": "530.14달러와 장중 고점 541.29달러 회복 여부, Azure 49~50% 전망 신뢰를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "msft",
+        "msft_react"
+      ]
+    },
+    {
+      "name": "Amazon.com",
+      "ticker": "AMZN",
+      "price": "243.79",
+      "delta": "−10.81",
+      "percent": "−4.25",
+      "source": "qAMZN",
+      "reason": "정규장은 실적 전 기술주 약세로 내렸고, 장후 EPS 미달 보도에 시간외 추가 하락했다.",
+      "watch": "시간외 약 230달러가 10/30 정규장에서 유지되는지와 AWS 39% 성장의 재평가를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정) · 장후 시간외 가격 별도",
+      "reason_sources": [
+        "amzn",
+        "amzn_react"
+      ]
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "price": "92.07",
+      "delta": "−3.46",
+      "percent": "−3.62",
+      "source": "qINTC",
+      "reason": "정규장은 반도체 약세로 내렸고, 장후 4분기 매출 전망 미달에 시간외 급락이 보도됐다.",
+      "watch": "10/30 정규장 시가·종가가 92.07달러 대비 얼마나 낮은지와 데이터센터 수요 설명을 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "10/29 미국 정규장 종가 · 검색 요약 시세(잠정) · 장후 시간외 가격 별도",
+      "reason_sources": [
+        "intc",
+        "intc_react"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 4.982",
+    "unit": "%",
+    "delta": "약 −0.063(보도)",
+    "direction": "down",
+    "source": "ust10",
+    "as_of": "2026-10-30T05:00:00+09:00",
+    "session": "10/29 미국장 마감 무렵 보도값 · 확정 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "다음 한국장 개장 · 확인 순서",
+      "title": "한국 반도체·AI 인프라주 첫 반응",
+      "detail": "Alphabet·Intel 충격과 Amazon 시간외 하락이 삼성전자·SK하이닉스 등 반도체와 코스피 개장에 주는 영향을 본다. KRX 달력과 원·달러는 한국 회차에서 확인한다."
+    },
+    {
+      "label": "2026-10-30 19:30 KST",
+      "title": "ExxonMobil 3분기 실적 발표",
+      "detail": "05:30 CT 발표, 22:30 KST 콜. 유가와 에너지주가 기술주 약세를 상쇄하는지 본다."
+    },
+    {
+      "label": "2026-10-30 22:30 KST",
+      "title": "미국 정규장 개장: AMZN·INTC 반응",
+      "detail": "시간외 하락이 정규장에서 확대되는지, 나스닥이 10/29 종가 26,184.72를 지키는지 본다."
+    },
+    {
+      "label": "2026-11-03 07:00 KST",
+      "title": "Apple FY26 4분기 실적 콜",
+      "detail": "11/2 14:00 PST. 빅테크 실적 시즌의 마지막 대형 확인 지점이다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-29",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-30T07:41:30+09:00",
+    "note": "NYSE·Nasdaq 2026 공식 휴장·조기폐장표(11/26 휴장, 11/27·12/24 13:00 조기폐장)에 10/29(목)가 없어 정상 거래일로 판단했다. 원문 페이지는 네트워크 정책으로 직접 열지 못했고 공식 도메인 한정 검색 결과로 확인했다. EDT UTC−04:00, 정규장 폐장 2026-10-30 05:00 KST."
+  },
+  "calculation_notes": "S&P500 −23.59포인트와 다우 −132.54포인트는 검색 결과에 요약된 Yahoo·CNBC 값이며 직접 계산하지 않았다. 나스닥은 −1.38%만 확인해 포인트 변화를 미확인으로 두었고 등락률로 역산하지 않았다. 이 값들이 함축하는 10/28 종가(S&P500 7,743.98, 다우 52,475.10)는 이전 회차의 잠정 10/28 값(7,735.55, 52,517.00)과 다르며 이전 회차는 수정하지 않았다. 개별주 가격·변화량·등락률은 검색 요약의 제공값을 그대로 보존했다. LLY 약 1,331USD와 GOOGL 약 304USD는 10/29 상승·하락분 절반을 되돌리는 재판단 기준으로, 1,373.70−85.40/2=1,331.00, 283.82+41.07/2=304.355로 계산했다. ETF 대용치와 실제 지수 값을 섞지 않았다. Massive 산출물(data_date 2026-10-28)은 내용 미확인으로 계산에 쓰지 않았다.",
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-29T16:15:00-04:00",
+      "kst": "2026-10-30T05:15:00+09:00",
+      "utc": "2026-10-29T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-29T18:40:11-04:00",
+      "kst": "2026-10-30T07:40:11+09:00",
+      "utc": "2026-10-29T22:40:11Z"
+    },
+    "start_offset_seconds": 8411,
+    "delay_seconds": 8411,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python; 외부 웹 직접 열람은 네트워크 정책으로 차단, WebSearch와 GitHub(git·API·MCP)만 사용; 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "a215a8a111ab4261626b39b18d6b902ebe62509b",
+    "analysis_run_id": 40967910099,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-29.json",
+    "index_finality": "검색 요약으로 확인한 잠정값",
+    "data_access": "원문 사이트 직접 열람 불가(프록시 정책). 수치는 검색 결과 요약 기준",
+    "analysis_status": "workflow success; data_date 2026-10-28 (log); artifact download blocked by network policy; analysis.json not inspected; not used"
+  },
+  "reading": {
+    "headline": "Alphabet 충격에 나스닥 1.38% 하락",
+    "summary_points": [
+      "GOOGL −12.64%, CAT −9.25%가 지수를 눌렀다.",
+      "GDP 3.4%에도 기술주에서 헬스케어로 돈이 옮겨갔다.",
+      "장후 AMZN·INTC 시간외 하락이 다음 장 부담이다."
+    ],
+    "notices": [
+      "원문 사이트 직접 열람이 막혀 지수·종가는 검색 요약으로 확인한 잠정값이다.",
+      "나스닥 포인트 변화는 확인하지 못해 미확인으로 두었다.",
+      "AMZN·INTC 시간외 가격은 확정 종가가 아니며 매체별 폭이 다르다.",
+      "10년물은 장 마감 무렵 보도값이다.",
+      "Massive 분석은 10/28 기준이고 내용 확인이 안 돼 쓰지 않았다."
+    ],
+    "issues": [
+      {
+        "title": "Alphabet 실적 충격",
+        "preview": "매출·EPS 예상 미달, GOOGL −12.64%였다.",
+        "points": [
+          "Cloud는 103% 늘었지만 잉여현금흐름이 −91억달러였다.",
+          "나스닥은 −1.38%로 가장 약했다."
+        ],
+        "meaning": "AI 투자비가 현금흐름을 앞지르면 고성장도 할인된다는 신호다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "GOOGL·나스닥",
+            "basis": "10/30 종가를 GOOGL 283.82USD, 나스닥 26,184.72와 비교한다. 장후 AMZN·INTC 하락이 기술주 부담을 더한다.",
+            "counter": "급락 뒤 저가 매수로 장 초반 반등 후 다시 밀리거나 그 반대 경로가 가능하다. 장중 경로는 별개다.",
+            "invalidation": "GOOGL이 10/29 하락분 절반(약 304USD) 이상 회복하면 하방 판단을 낮춘다.",
+            "sources": [
+              "alphabet",
+              "googl_cons",
+              "qGOOGL",
+              "amzn_react"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "GOOGL·대형 기술주",
+            "basis": "11/5 종가를 10/29와 비교해 AI 투자 회수 설명과 추정치 하향 폭을 본다.",
+            "counter": "Cloud 103% 성장이 재평가되면 낙폭이 줄 수 있다.",
+            "invalidation": "추정치 하향이 이어지고 283.82USD를 밑돌면 하방으로 재판단한다.",
+            "sources": [
+              "alphabet",
+              "googl_cons"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Caterpillar 전망 실망",
+        "preview": "실적은 상회, 전망 유지로 CAT −9.25%였다.",
+        "points": [
+          "4분기는 '완만한' 성장 전망이었다.",
+          "관세 회수는 1.28억달러로 줄었다."
+        ],
+        "meaning": "높은 기대가 걸린 경기민감주는 가이던스 상향이 없으면 크게 조정된다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CAT·산업재",
+            "basis": "10/30 종가를 647.39USD와 비교한다.",
+            "counter": "급락 뒤 기술적 반등과 추가 추정치 하향이 함께 가능하다.",
+            "invalidation": "시가 636.33USD를 종가로 밑돌면 하방, 680USD 위 회복이면 반등 판단으로 바꾼다.",
+            "sources": [
+              "cat_ir",
+              "cat_reason",
+              "qCAT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CAT·산업재",
+            "basis": "11/5 종가와 애널리스트 추정치 변화를 본다.",
+            "counter": "전력·데이터센터 수주 780억달러 백로그가 하단을 지지할 수 있다.",
+            "invalidation": "관세 비용 확대나 추가 하향 조정이 나오면 하방으로 재판단한다.",
+            "sources": [
+              "cat_ir",
+              "cat_tariff"
+            ]
+          }
+        }
+      },
+      {
+        "title": "GDP 강세·PCE 부합",
+        "preview": "3분기 GDP 3.4%, 10년물은 약 4.98%였다.",
+        "points": [
+          "성장은 예상 3.2%보다 강했다.",
+          "9월 PCE는 전월 대비 0.5%로 예상 부합 보도다."
+        ],
+        "meaning": "강한 성장과 높은 물가가 겹쳐 금리 부담은 크게 줄지 않았다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "10/30 종가에서 10년물 5% 재돌파 여부와 지수 반응을 본다.",
+            "counter": "실적 뉴스가 거시 재료를 압도할 수 있다.",
+            "invalidation": "10년물이 4.95% 아래로 내려가며 나스닥이 반등하면 금리 부담 판단을 낮춘다.",
+            "sources": [
+              "bea",
+              "pce_sec",
+              "ust10"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 금리·주식",
+            "basis": "11/5 종가와 금리 기대를 10/29와 비교한다.",
+            "counter": "11/6 고용지표 전 관망이 커질 수 있다.",
+            "invalidation": "12월 인상 기대가 뚜렷이 낮아지면 정책 부담 해석을 낮춘다.",
+            "sources": [
+              "bea",
+              "ust10"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Lilly 전망 상향",
+        "preview": "연간 매출 전망 상향, LLY +6.63%였다.",
+        "points": [
+          "물량은 53% 늘고 가격은 15% 내렸다.",
+          "EPS 전망은 인수 비용으로 낮췄다."
+        ],
+        "meaning": "기술주 매도 자금이 실적이 확인된 헬스케어로 옮겨간 모습이다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "LLY",
+            "basis": "10/30 종가를 1,373.70USD와 비교한다. 전망 상향은 실제 발표값이다.",
+            "counter": "급등 뒤 차익 실현과 가격 인하 우려로 장중 되돌림이 가능하다.",
+            "invalidation": "10/29 상승분 절반(약 1,331USD) 아래로 마감하면 상방 판단을 낮춘다.",
+            "sources": [
+              "lilly",
+              "qLLY"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LLY·헬스케어",
+            "basis": "11/5 종가와 업종 상대강도를 본다.",
+            "counter": "기술주 반등 시 순환 자금이 되돌아갈 수 있다.",
+            "invalidation": "미국 Zepbound 가격 인하 폭 확대가 나오면 재평가한다.",
+            "sources": [
+              "lilly",
+              "lilly_react"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Microsoft 상승분 반납",
+        "preview": "Azure 48% 성장에도 MSFT −0.16%였다.",
+        "points": [
+          "장중 541.29달러까지 올랐다가 밀렸다.",
+          "다음 분기 Azure 49~50% 전망이 보도됐다."
+        ],
+        "meaning": "좋은 실적도 업종 전체의 AI 투자 우려를 혼자 막지 못했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MSFT",
+            "basis": "10/30 종가를 530.14USD와 비교한다.",
+            "counter": "AMZN 시간외 하락이 클라우드주 전체로 번질 수 있다.",
+            "invalidation": "541.29USD 위 마감이면 상방, 519.56USD 아래면 하방으로 바꾼다.",
+            "sources": [
+              "msft",
+              "qMSFT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MSFT·클라우드",
+            "basis": "11/5 종가를 10/29와 비교한다.",
+            "counter": "AI 투자비와 현금흐름 감소가 부담이다.",
+            "invalidation": "Azure 성장 전망 신뢰가 흔들리면 하방으로 재판단한다.",
+            "sources": [
+              "msft",
+              "msft_react"
+            ]
+          }
+        }
+      },
+      {
+        "title": "장후 Amazon·Intel 하락",
+        "preview": "AMZN 시간외 약 −5.7%, INTC 급락 보도.",
+        "points": [
+          "Amazon EPS가 예상을 밑돌았다는 보도다.",
+          "Intel 4분기 매출 전망이 예상보다 낮았다."
+        ],
+        "meaning": "다음 거래일 기술·반도체주 개장 부담이 크다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "AMZN·INTC·반도체",
+            "basis": "10/30 종가를 AMZN 243.79USD, INTC 92.07USD와 비교한다. 시간외 하락이 실제 발표 후 반응이다.",
+            "counter": "시간외 낙폭이 정규장에서 일부 회복될 수 있다. 장 초반과 종가 방향은 다를 수 있다.",
+            "invalidation": "두 종목이 10/29 종가 위로 마감하면 하방 판단을 철회한다.",
+            "sources": [
+              "amzn",
+              "qAMZN",
+              "intc",
+              "intc_react"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AMZN·INTC",
+            "basis": "11/5 종가를 10/29 정규장 종가와 비교한다.",
+            "counter": "AWS 39% 성장·Intel 데이터센터 수요가 재평가될 수 있다.",
+            "invalidation": "추가 가이던스 하향이 나오면 하방으로 재판단한다.",
+            "sources": [
+              "amzn",
+              "intc"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "GOOGL": {
+        "reason": "매출 미달·현금흐름 적자에 12.64% 급락했다.",
+        "watch": "283.82달러 지지와 추정치 변화를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "GOOGL",
+            "basis": "10/30 종가를 283.82USD와 비교한다.",
+            "counter": "급락 뒤 반등이 가능하다.",
+            "invalidation": "약 304USD 위 마감 시 재평가한다.",
+            "sources": [
+              "alphabet",
+              "qGOOGL"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "GOOGL",
+            "basis": "11/5 종가와 추정치 하향 폭을 본다.",
+            "counter": "Cloud 고성장이 재평가될 수 있다.",
+            "invalidation": "283.82USD 하회 지속 시 하방으로 바꾼다.",
+            "sources": [
+              "alphabet"
+            ]
+          }
+        }
+      },
+      "CAT": {
+        "reason": "전망 유지·관세 부담에 9.25% 내렸다.",
+        "watch": "647.39달러와 636.33달러 지지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "CAT",
+            "basis": "10/30 종가를 647.39USD와 비교한다.",
+            "counter": "기술적 반등과 추가 하향이 함께 가능하다.",
+            "invalidation": "636.33USD 하회 마감 시 하방으로 본다.",
+            "sources": [
+              "cat_ir",
+              "qCAT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CAT",
+            "basis": "11/5 종가와 추정치 변화를 본다.",
+            "counter": "백로그가 하단을 지지할 수 있다.",
+            "invalidation": "관세 비용 확대 시 하방으로 바꾼다.",
+            "sources": [
+              "cat_ir",
+              "cat_tariff"
+            ]
+          }
+        }
+      },
+      "LLY": {
+        "reason": "매출 전망 상향에 6.63% 올랐다.",
+        "watch": "1,373.70달러 유지와 가격 추세를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "LLY",
+            "basis": "10/30 종가를 1,373.70USD와 비교한다.",
+            "counter": "차익 실현 되돌림이 가능하다.",
+            "invalidation": "약 1,331USD 아래 마감 시 재평가한다.",
+            "sources": [
+              "lilly",
+              "qLLY"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "LLY",
+            "basis": "11/5 종가와 헬스케어 상대강도를 본다.",
+            "counter": "기술주 반등 시 자금이 되돌아갈 수 있다.",
+            "invalidation": "가격 인하 폭 확대 시 재평가한다.",
+            "sources": [
+              "lilly"
+            ]
+          }
+        }
+      },
+      "MSFT": {
+        "reason": "Azure 호재에도 기술주 매도로 0.16% 내렸다.",
+        "watch": "541.29달러 회복 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MSFT",
+            "basis": "10/30 종가를 530.14USD와 비교한다.",
+            "counter": "AMZN 하락이 클라우드주로 번질 수 있다.",
+            "invalidation": "519.56USD 하회 시 하방으로 본다.",
+            "sources": [
+              "msft",
+              "qMSFT"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "MSFT",
+            "basis": "11/5 종가를 10/29와 비교한다.",
+            "counter": "AI 투자비가 부담이다.",
+            "invalidation": "Azure 전망 신뢰 저하 시 하방으로 바꾼다.",
+            "sources": [
+              "msft"
+            ]
+          }
+        }
+      },
+      "AMZN": {
+        "reason": "정규장 4.25% 하락 뒤 시간외 추가 하락했다.",
+        "watch": "시간외 약 230달러 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "AMZN",
+            "basis": "10/30 종가를 243.79USD와 비교한다.",
+            "counter": "AWS 성장으로 장중 낙폭이 줄 수 있다.",
+            "invalidation": "243.79USD 위 마감 시 철회한다.",
+            "sources": [
+              "amzn",
+              "qAMZN"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AMZN",
+            "basis": "11/5 종가와 추정치 변화를 본다.",
+            "counter": "역대 최고 영업이익률이 재평가될 수 있다.",
+            "invalidation": "추가 하향 시 하방으로 바꾼다.",
+            "sources": [
+              "amzn",
+              "amzn_react"
+            ]
+          }
+        }
+      },
+      "INTC": {
+        "reason": "4분기 전망 미달에 시간외 급락이 보도됐다.",
+        "watch": "10/30 정규장 종가와 92.07달러 차이를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "INTC",
+            "basis": "10/30 종가를 92.07USD와 비교한다.",
+            "counter": "EPS 상회로 일부 회복이 가능하다.",
+            "invalidation": "92.07USD 위 마감 시 철회한다.",
+            "sources": [
+              "intc",
+              "intc_react"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "11/5 종가와 추정치 변화를 본다.",
+            "counter": "데이터센터 수요가 재평가될 수 있다.",
+            "invalidation": "추가 하향 시 하방으로 바꾼다.",
+            "sources": [
+              "intc"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "label": "다음 한국장 개장",
+        "title": "한국 반도체주 첫 반응",
+        "detail": "Alphabet·Intel 충격이 삼성전자·SK하이닉스와 코스피에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "한국 반도체·AI 인프라주",
+            "basis": "다음 한국 거래일 종가를 10/29 KRX 종가와 비교한다. 미국 기술·반도체주 약세와 장후 INTC 급락이 근거다.",
+            "counter": "한국은 10/29에 이미 코스피 −1.24%로 일부 반영했고 메모리 수요 기대가 하단을 지지할 수 있다. 개장 갭과 종가 방향은 다를 수 있다.",
+            "invalidation": "SK하이닉스가 10/29 종가 위로 마감하면 하방 판단을 낮춘다.",
+            "sources": [
+              "alphabet",
+              "intc",
+              "intc_react"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 반도체·코스피",
+            "basis": "5거래일 뒤 KRX 종가를 10/29와 비교한다.",
+            "counter": "AWS·Azure 고성장으로 AI 수요 판단이 다시 강화될 수 있다.",
+            "invalidation": "빅테크가 설비투자 축소를 시사하면 하방으로 재판단한다.",
+            "sources": [
+              "amzn",
+              "msft",
+              "alphabet"
+            ]
+          }
+        }
+      },
+      {
+        "label": "10/30 19:30 KST",
+        "title": "ExxonMobil 실적",
+        "detail": "에너지주가 기술주 약세를 상쇄하는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "XOM·에너지 업종",
+            "basis": "10/30 종가와 실적 반응을 본다. 발표 전이라 판단을 보류한다.",
+            "counter": "유가 변동이 실적 효과를 압도할 수 있다.",
+            "invalidation": "발표 뒤 가이던스와 주가 반응으로 판단한다.",
+            "sources": [
+              "xom"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "XOM·에너지 업종",
+            "basis": "11/5 종가를 10/29와 비교한다.",
+            "counter": "유가·금리 재료가 섞인다.",
+            "invalidation": "발표 내용 확인 후 재판단한다.",
+            "sources": [
+              "xom"
+            ]
+          }
+        }
+      },
+      {
+        "label": "10/30 22:30 KST",
+        "title": "AMZN·INTC 정규장 반응",
+        "detail": "시간외 하락이 정규장에서 확대되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "AMZN·INTC·나스닥",
+            "basis": "10/30 종가를 10/29 정규장 종가와 비교한다.",
+            "counter": "정규장에서 낙폭 일부 회복이 가능하다.",
+            "invalidation": "두 종목이 10/29 종가 위로 마감하면 철회한다.",
+            "sources": [
+              "qAMZN",
+              "intc_react"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "나스닥",
+            "basis": "11/5 종가를 26,184.72와 비교한다.",
+            "counter": "Apple 실적과 고용지표가 방향을 바꿀 수 있다.",
+            "invalidation": "나스닥이 10/28 수준을 회복하면 하방 판단을 낮춘다.",
+            "sources": [
+              "cnbc_close",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "label": "11/3 07:00 KST",
+        "title": "Apple 실적 콜",
+        "detail": "빅테크 실적 시즌의 마지막 대형 확인 지점이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL·나스닥",
+            "basis": "발표 전이라 판단을 보류한다.",
+            "counter": "기술주 전반 심리가 실적 효과를 압도할 수 있다.",
+            "invalidation": "발표 뒤 반응으로 판단한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL·나스닥",
+            "basis": "11/5 종가를 10/29와 비교한다.",
+            "counter": "다른 거시 재료가 섞인다.",
+            "invalidation": "발표 내용 확인 후 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 공식 거래시간·달력",
+      "nasdaq": "Nasdaq · 공식 휴장 일정",
+      "cnbc_close": "CNBC · 10월29일 미국장 마감",
+      "yahoo_spx": "Yahoo Finance · S&P500 시세",
+      "yahoo_live": "Yahoo Finance · 10월29일 장 흐름",
+      "alphabet": "Alphabet · 3분기 실적(SEC 8-K)",
+      "googl_cons": "CNBC · Alphabet 기대 대비 결과",
+      "qGOOGL": "Google Finance · GOOGL 종가",
+      "cat_ir": "Caterpillar · 3분기 실적(SEC 8-K)",
+      "cat_reason": "MarketBeat · CAT 갭 하락 이유",
+      "cat_tariff": "24/7 Wall St. · CAT 관세·지역 약세",
+      "qCAT": "Finviz · CAT 종가",
+      "bea": "BEA · 3분기 GDP 속보치",
+      "pce_sec": "Fox Business · 9월 PCE",
+      "ust10": "Rallies · 미국 국채금리 반응",
+      "lilly": "Eli Lilly · 3분기 실적(SEC 8-K)",
+      "lilly_react": "Quartz · Lilly 세 번째 전망 상향",
+      "qLLY": "StockAnalysis · LLY 종가",
+      "msft": "Microsoft · FY27 1분기 실적(SEC 8-K)",
+      "msft_react": "SiliconANGLE · MSFT 실적 반응",
+      "qMSFT": "StockAnalysis · MSFT 종가",
+      "amzn": "Amazon · 3분기 실적(SEC 8-K)",
+      "amzn_react": "Motley Fool · Amazon 하락",
+      "qAMZN": "StockAnalysis · AMZN 종가·시간외",
+      "intc": "Intel · 3분기 실적(SEC 8-K)",
+      "intc_react": "Investing.com · 장후 움직임",
+      "qINTC": "Morningstar · INTC 시세",
+      "xom": "ExxonMobil IR · 3분기 실적 일정",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "massive": "Massive · 미국 일별 분석"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-30T07:52:15+09:00",
+      "input_cutoff": "2026-10-30T07:52:15+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 10/30과 5거래일 뒤 11/5 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 공식 거래시간·달력",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장·조기폐장표. 11/26 추수감사절 휴장, 11/27·12/24 13:00 조기폐장이며 10/29는 목록에 없다. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 공식 휴장 일정",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026 휴장·조기폐장표가 NYSE와 일치. 10/29 정상 거래일. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "cnbc_close",
+      "label": "CNBC · 10월29일 미국장 마감",
+      "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+      "note": "S&P500 −0.3% 7,720.39, 나스닥 −1.38% 26,184.72, 다우 −132.54(−0.25%) 52,342.56. URL 날짜는 10/28이나 본문은 목요일(10/29) 세션. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "yahoo_spx",
+      "label": "Yahoo Finance · S&P500 시세",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "10/29 종가 7,720.39, −23.59포인트. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "yahoo_live",
+      "label": "Yahoo Finance · 10월29일 장 흐름",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+      "note": "Alphabet 급락과 AI 투자 우려, 장중 흐름. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "note": "매출 1,276억달러(+25%), Google Cloud 307억달러(+103%), 영업이익률 31.8%, 영업현금흐름 423억달러, 잉여현금흐름 −91억달러. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "googl_cons",
+      "label": "CNBC · Alphabet 기대 대비 결과",
+      "url": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-premarket-.html",
+      "note": "발표 매출 1,275.8억달러 vs LSEG 예상 1,279.1억달러, EPS 2.67달러 vs 2.97달러 보도. 장전 약 10% 하락. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qGOOGL",
+      "label": "Google Finance · GOOGL 종가",
+      "url": "https://www.google.com/finance/quote/GOOGL:NASDAQ",
+      "note": "10/29 16:00 EDT 종가 283.82, −41.07(−12.64%), 전일 324.89, 장중 280.36~288.33. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "cat_ir",
+      "label": "Caterpillar · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823026000052/ex991toformcat3q2026earnin.htm",
+      "note": "매출 207억달러(+17%), 조정 EPS 7.20달러, 영업이익률 20.4%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "cat_reason",
+      "label": "MarketBeat · CAT 갭 하락 이유",
+      "url": "https://www.marketbeat.com/instant-alerts/price-caterpillar-nyse-cat-shares-gap-down-heres-why-2026-10-29/",
+      "note": "2026 매출 성장 전망 유지·4분기 '완만한' 성장 제시가 기대에 못 미쳤다는 보도. 매출 206.8억달러 vs 예상 약 207.6억달러. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "cat_tariff",
+      "label": "24/7 Wall St. · CAT 관세·지역 약세",
+      "url": "https://247wallst.com/investing/etf/2026/10/29/caterpillars-earnings-plunge-hits-these-3-popular-etfs-hardest/",
+      "note": "3분기 관세 회수 1.28억달러(2분기 3.92억달러), 아시아태평양 매출 −2%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qCAT",
+      "label": "Finviz · CAT 종가",
+      "url": "https://finviz.com/stock?t=CAT",
+      "note": "10/29 종가 647.39, −65.99(−9.25%), 전일 713.38, 시가 636.33(CNN 동일 보도). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "bea",
+      "label": "BEA · 3분기 GDP 속보치",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "note": "10/29 08:30 EDT 발표. 실질 GDP 연율 3.4%(2분기 2.2%), 3분기 PCE 물가 2.1%, 근원 2.5%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "pce_sec",
+      "label": "Fox Business · 9월 PCE",
+      "url": "https://www.foxbusiness.com/economy/september-2026-pce-inflation",
+      "note": "9월 PCE 물가 전월 대비 0.5%, 예상 부합 보도. 전년 대비 수치는 BEA 원문과 대조하지 못했다. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "ust10",
+      "label": "Rallies · 미국 국채금리 반응",
+      "url": "https://rallies.ai/news/treasury-yields-fall-after-in-line-inflation-data-as-equities-drop-bc2bacebbb66358c",
+      "note": "10년물 약 4.982%, 6.3bp 하락 보도. 장 마감 무렵 보도값이며 공식 확정 종가가 아니다. 10/28 재무부 par curve 5.05%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "lilly",
+      "label": "Eli Lilly · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+      "note": "매출 244억달러(+39%), 물량 +53%, 실현가격 −15%. 2026 매출 전망 910~920억달러로 상향(이전 850~870억달러), EPS 전망은 인수 IPR&D 비용으로 35.00~36.00달러로 하향. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "lilly_react",
+      "label": "Quartz · Lilly 세 번째 전망 상향",
+      "url": "https://qz.com/eli-lilly-raises-outlook-third-time-zepbound-102926",
+      "note": "Mounjaro 107억달러(+65%), Zepbound 53.5억달러(+49%), 일회성 이익 약 9억달러. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qLLY",
+      "label": "StockAnalysis · LLY 종가",
+      "url": "https://stockanalysis.com/stocks/lly/",
+      "note": "10/29 16:00 EDT 종가 1,373.70, +85.40(+6.63%), 전일 1,288.30. 단일 출처이며 Finviz 15:42 스냅샷 1,373.24(+6.59%). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "msft",
+      "label": "Microsoft · FY27 1분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436149/msft-ex99_1.htm",
+      "note": "10/28 장후 발표. 매출 약 922.8억달러(+19%), Azure +48%. 2분기 Azure 성장 49~50%(고정환율) 전망 보도. 잉여현금흐름 −27%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "msft_react",
+      "label": "SiliconANGLE · MSFT 실적 반응",
+      "url": "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/",
+      "note": "Azure 48% 성장, 시간외 상승 보도. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qMSFT",
+      "label": "StockAnalysis · MSFT 종가",
+      "url": "https://stockanalysis.com/stocks/msft/",
+      "note": "10/29 16:00 EDT 종가 530.14, −0.87(−0.16%), 전일 531.01, 장중 519.56~541.29. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "amzn",
+      "label": "Amazon · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+      "note": "10/29 장후 발표. 매출 2,019억달러(+12%), 영업이익 281억달러(13.9%), AWS 460억달러(+39%). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "amzn_react",
+      "label": "Motley Fool · Amazon 하락",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/",
+      "note": "정규장 243.79, −10.81(−4.25%). 실적 발표 뒤 시간외 하락, EPS 1.89달러 vs 예상 1.96달러 보도. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qAMZN",
+      "label": "StockAnalysis · AMZN 종가·시간외",
+      "url": "https://stockanalysis.com/stocks/amzn/",
+      "note": "10/29 정규장 종가 243.79, −10.81(−4.25%). 16:17 EDT 시간외 약 229.99~230.00(약 −5.7%). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "intc",
+      "label": "Intel · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "note": "10/29 장후 발표. 매출 165억달러(+21%), 비GAAP EPS 0.52달러. 4분기 매출 150~160억달러, 비GAAP EPS 0.25달러 전망. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "intc_react",
+      "label": "Investing.com · 장후 움직임",
+      "url": "https://uk.investing.com/news/stock-market-news/afterhours-movers-amzn-twlo-intc-sndk-rddt-rblx-pins-rivn-sbux-ilmn-432SI-4943382",
+      "note": "AMZN·INTC 시간외 하락 보도. 4분기 매출 전망이 예상 약 170억달러를 밑돌았다는 보도. 시간외 하락폭은 매체·시각별로 16~20% 범위로 엇갈린다. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qINTC",
+      "label": "Morningstar · INTC 시세",
+      "url": "https://www.morningstar.com/stocks/xnas/intc/quote",
+      "note": "10/29 종가 92.07, −3.46(−3.62%), 전일 95.53. 지연 시세·단일 출처. 시간외 72.39 표시. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "xom",
+      "label": "ExxonMobil IR · 3분기 실적 일정",
+      "url": "https://investor.exxonmobil.com/news-events/ir-calendar/detail/20261030-3q-2026-earnings-call",
+      "note": "10/30 05:30 CT 실적 발표, 08:30 CT 콜. CDT(UTC−5) 기준 10/30 19:30·22:30 KST. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "11/2 14:00 PT(PST, 11/1 DST 종료 후) 실적 콜 = 11/3 07:00 KST. 회사 IR 원문은 직접 열람하지 못했다. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/40967910099",
+      "note": "이번 요청 커밋 a215a8a의 수집 실행 성공(39개 요청). 작업 로그상 data_date 2026-10-28로 전 거래일 자료다. artifact us-analysis-40967910099(zip sha256 b0002648fb4e2b7930388e4fc7d610b7fd8add5a9ab89e4b7f2aac32cf0d4b85)는 다운로드 호스트가 네트워크 정책으로 차단돼 analysis.json 내용을 확인하지 못했고 보고서 수치에 사용하지 않았다.",
+      "show_public": false
+    }
+  ]
+}

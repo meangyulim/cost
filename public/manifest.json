@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-29",
+  "latest_id": "us-close-2026-10-29",
   "reports": [
+    {
+      "id": "us-close-2026-10-29",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-29",
+      "title": "10월 29일 미국장 마감 브리핑",
+      "summary": "Alphabet 실적 충격에 나스닥 1.38% 하락, 장후 Amazon·Intel도 약세",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-29/"
+    },
     {
       "id": "kr-close-2026-10-29",
       "is_test": false,
