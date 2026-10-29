@@ -1,0 +1,17 @@
+{
+  "report_id": "kr-intraday-2026-10-29-1420",
+  "status": "attempted",
+  "trigger": "user_request_manual_intraday",
+  "attempted_at_kst": "2026-10-29T15:15:39+09:00",
+  "attempted_at_utc": "2026-10-29T06:15:39Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-intraday-2026-10-29-1420/",
+  "deployment_commit": "46c9f1791d7ee9b5a4cb89b60ac2c8933a805444",
+  "deployment_run_id": 40828033055,
+  "deployment_status": "completed",
+  "deployment_conclusion": "success",
+  "additional_http_check": "not_performed_by_user_instruction",
+  "browser_check": "not_performed_by_user_instruction",
+  "attempted_record_created": true,
+  "send_tool_called": false,
+  "retry_count": 0
+}
