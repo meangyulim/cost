@@ -22,5 +22,12 @@
   },
   "send_tool_called": true,
   "kakao_result": "success",
-  "retry_count": 0
+  "retry_count": 0,
+  "user_requested_resend": {
+    "reason": "user_reported_not_received",
+    "requested_by": "user_live_instruction",
+    "sent_at_kst": "2026-10-29T09:26:31+09:00",
+    "sent_at_utc": "2026-10-29T00:26:31Z",
+    "kakao_result": "success"
+  }
 }
