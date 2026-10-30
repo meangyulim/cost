@@ -1,0 +1,737 @@
+{
+  "id": "us-pre-2026-10-30",
+  "title": "10월 30일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 기준 2026-10-29 정규장 종가(2026-10-30 05:00 KST) · 당일 정규장 2026-10-30 09:30~16:00 EDT(22:30~10-31 05:00 KST)",
+  "market_date": "2026-10-30",
+  "session": "pre",
+  "as_of": "2026-10-30T05:00:00+09:00",
+  "queried_at": "2026-10-31T03:00:17+09:00",
+  "is_test": false,
+  "summary": "Amazon·Intel 실적 충격에 나스닥 선물 2%대 급락, 유가 급등에 에너지주만 강세",
+  "summary_detail": "Intel은 3분기 실적이 예상을 넘었지만 4분기 매출 전망 150억~160억USD가 기대(약 171억USD)에 크게 못 미쳐 장전 23~26% 급락이 보도됐다. Amazon은 AWS 39% 성장에도 EPS 미달·자본지출 초과·12개월 잉여현금흐름 −424억USD로 장전 약 7% 내렸다. 나스닥100 선물은 약 2.3~2.7% 하락, 다우 선물은 보합권이었다. 호르무즈 해협 유조선 공격 보도에 브렌트유가 배럴당 113~117USD로 오른 가운데 ExxonMobil·Chevron은 예상을 넘는 실적으로 장전 1%대 상승했다.",
+  "interpretation": "이번 회차는 정규 예약 시각(09:00 EDT)보다 약 4시간 55분 늦은 13:55 EDT에 시작돼 정규장 진행 중 작성했다. 기본 가격은 10/29 정규장 종가이며, 장전 가격·선물 등락률은 기사별 시점 값이라 서로 다르고 정규장 가격과 섞지 않았다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 검색 결과에 요약된 CNBC·AP·Yahoo·Kitco 등의 값을 잠정으로 사용했다. 실적 반응은 공식 발표와 보도를 연결했지만 단일 원인으로 단정하지 않으며, 장전 갭을 정규장 종가 방향으로 확정하지 않는다. 이번 요청의 Massive 수집은 작성 시점까지 대기(queued) 상태여서 분석 수치를 사용하지 않았다.",
+  "calculation_notes": "지수 종가와 포인트 변화는 전 회차(us-close-2026-10-29)가 CNBC·Yahoo 검색 요약에서 확인한 잠정값을 같은 원문으로 다시 인용했고 새로 계산하지 않았다. 나스닥 포인트 변화는 원문 미확인으로 등락률에서 역산하지 않았다. AMZN 장전 226.55USD(09:09 EDT)와 10/29 종가 243.79USD, −7.07%는 FinanceFeeds 제공값이며 직접 검산하면 (226.55−243.79)/243.79=−7.07%다. INTC 장전 68.52USD(−25.6%)는 Benzinga 보도값으로 시각 미확인이다. 10/29 종가 92.07USD 기준 직접 계산은 (68.52−92.07)/92.07=−25.58%로 보도값과 일치한다. Intel 4분기 매출 전망 중간값 155억USD와 컨센서스 171.1억USD의 차이는 (155−171.1)/171.1=−9.4%로 계산했으며 보도의 '약 9%'와 같다. XOM·CVX의 10/29 종가는 이번 실행에서 확인하지 못해 미확인으로 두고 장전 등락률만 원문 표기로 남겼다. ETF 대용치와 실제 지수 값을 섞지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,720.39",
+      "unit": "pt",
+      "delta": "−23.59",
+      "percent": "−0.30",
+      "direction": "down",
+      "source": "cnbc_close",
+      "additional_sources": [
+        "yahoo_spx"
+      ],
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 미국 정규장 종가(16:00 EDT) · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "26,184.72",
+      "unit": "pt",
+      "delta": "−미확인",
+      "percent": "−1.38",
+      "direction": "down",
+      "source": "cnbc_close",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 미국 정규장 종가(16:00 EDT) · 잠정 · 포인트 변화 미확인",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "52,342.56",
+      "unit": "pt",
+      "delta": "−132.54",
+      "percent": "−0.25",
+      "direction": "down",
+      "source": "cnbc_close",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 미국 정규장 종가(16:00 EDT) · 잠정",
+      "provisional": true
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 4.98",
+    "unit": "%",
+    "delta": "약 −0.07(10/29 보도)",
+    "direction": "down",
+    "source": "kitco",
+    "as_of": "2026-10-30T05:00:00+09:00",
+    "session": "10/29 마감 무렵 보도값 · 확정 종가 아님"
+  },
+  "macro": [
+    {
+      "label": "브렌트유",
+      "value": "약 113.51~117",
+      "unit": "USD/배럴",
+      "session": "10/30 장전 보도 범위 · 기사별 시점 상이",
+      "source": "ttnews",
+      "additional_sources": [
+        "kitco"
+      ]
+    },
+    {
+      "label": "WTI",
+      "value": "약 103~104",
+      "unit": "USD/배럴",
+      "session": "10/30 장전 보도 범위",
+      "source": "kitco"
+    },
+    {
+      "label": "나스닥100 선물",
+      "value": "약 −2.3~−2.7",
+      "unit": "%",
+      "session": "10/30 장전 기사별 시점 · 정규장 지수 아님",
+      "source": "cnbc_pre",
+      "additional_sources": [
+        "kitco",
+        "ttnews"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "title": "Amazon·Intel 실적이 AI 투자 부담을 키웠다",
+      "fact": "Intel은 3분기 조정 EPS 0.52USD·매출 165억USD로 예상(0.40USD·164.8억USD)을 넘었지만 4분기 매출 150억~160억USD·조정 EPS 0.25USD·매출총이익률 38%를 제시해 기대(171.1억USD·42.4%)를 밑돌았다. 메모리 가격 급등에 PC 업체 재고 축소, 이스라엘 공장 사고(약 3억USD 매출 손실)가 이유로 제시됐다. Amazon은 매출 2,019억USD로 예상과 비슷했고 AWS가 39% 성장했지만 EPS 1.89USD가 예상 1.96USD에 못 미쳤고 3분기 자본지출이 예상을 크게 넘어 12개월 잉여현금흐름이 −424억USD가 됐다. 장전 INTC는 23~26%, AMZN은 약 6~8% 하락이 보도됐고 나스닥100 선물은 약 2.3~2.7% 내렸다.",
+      "source": "intc_ir",
+      "additional_sources": [
+        "intc_pre",
+        "amzn_ir",
+        "amzn_pre",
+        "cnbc_pre"
+      ]
+    },
+    {
+      "title": "호르무즈 유조선 공격에 유가 급등, 에너지 실적 상회",
+      "fact": "호르무즈 해협을 통과하던 유조선 선체에 소형 보트가 폭발물을 부착한 공격이 보도된 뒤 브렌트유는 배럴당 약 113.51~117USD, WTI는 약 103~104USD로 올랐다. ExxonMobil은 조정 EPS 4.23USD로 예상(약 4.12~4.13USD)을 넘었고 Chevron은 순이익 99억USD(주당 5.06USD, 조정 5.28USD)로 거의 세 배가 됐다. 정제 마진이 실적을 이끌었으며 두 종목은 장전 1%대 상승이 보도됐다.",
+      "source": "ttnews",
+      "additional_sources": [
+        "kitco",
+        "oil_cnbc",
+        "oil_ap",
+        "cnbc_pre"
+      ]
+    },
+    {
+      "title": "금리 하락에도 매파적 연준과 인건비 지표 확인",
+      "fact": "미국 10년물 국채수익률은 10/29 기술주 약세에 약 7bp 내린 약 4.98%로 보도됐다. 10/28 FOMC는 10대2로 동결했고 반대 2명은 즉시 25bp 인상을 주장했다. BLS는 3분기 고용비용지수(ECI)를 10/30 08:30 EDT(21:30 KST)에 발표할 예정이었으며 컨센서스 0.8%·직전 0.9%였다. 발표 결과는 이번 실행에서 원문을 확인하지 못해 미확인이다.",
+      "source": "kitco",
+      "additional_sources": [
+        "bls_eci",
+        "td_cal"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "인텔",
+      "ticker": "INTC",
+      "price": "92.07",
+      "currency": "USD",
+      "delta": "−3.46",
+      "percent": "−3.62",
+      "direction": "down",
+      "source": "qINTC",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 장전 가격 별도",
+      "reason": "3분기는 예상을 넘었지만 4분기 매출 전망 150억~160억USD·매출총이익률 38%가 기대에 크게 못 미쳐 장전 68.52USD(−25.6%, Benzinga·시각 미확인)가 보도됐다.",
+      "watch": "정규장에서 장전 68USD대 저점을 지키는지와 4분기 PC 매출 20% 이상 감소 전망이 애널리스트 추정치에 얼마나 반영되는지 본다.",
+      "reason_sources": [
+        "intc_ir",
+        "intc_pre",
+        "cnbc_pre"
+      ]
+    },
+    {
+      "name": "아마존",
+      "ticker": "AMZN",
+      "price": "243.79",
+      "currency": "USD",
+      "delta": "−10.81",
+      "percent": "−4.25",
+      "direction": "down",
+      "source": "amzn_pre",
+      "additional_sources": [
+        "qAMZN"
+      ],
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 장전 가격 별도",
+      "reason": "AWS 39% 성장에도 EPS 미달, 예상을 넘은 자본지출과 12개월 잉여현금흐름 −424억USD로 09:09 EDT 장전 226.55USD(−7.07%)였다.",
+      "watch": "장전 226USD대 지지 여부와 2027년 자본지출 확대 발언이 AWS 40%대 성장 기대를 상쇄하는지 본다.",
+      "reason_sources": [
+        "amzn_ir",
+        "amzn_pre",
+        "cnbc_pre"
+      ]
+    },
+    {
+      "name": "엑슨모빌",
+      "ticker": "XOM",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "10/29 정규장 종가를 이번 실행에서 원문으로 확인하지 못했다. 장전 +1.4% 이상(CNBC)은 별도 구간 값이다.",
+      "source": "cnbc_pre",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 정규장 종가 미확인 · NYSE · 장전 등락률만 확인",
+      "reason": "조정 EPS 4.23USD로 예상을 넘고 정제 이익이 약 72억USD에 달해 장전 1.4% 이상 상승이 보도됐다.",
+      "watch": "유가 급등이 정규장에서 유지되는지와 정제 마진이 호르무즈 통항 정상화에 민감하다는 점을 함께 본다.",
+      "reason_sources": [
+        "oil_cnbc",
+        "oil_ap",
+        "cnbc_pre"
+      ]
+    },
+    {
+      "name": "셰브론",
+      "ticker": "CVX",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "10/29 정규장 종가를 이번 실행에서 원문으로 확인하지 못했다. 장전 약 +1.4%(CNBC)는 별도 구간 값이다.",
+      "source": "cnbc_pre",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "session": "2026-10-29 정규장 종가 미확인 · NYSE · 장전 등락률만 확인",
+      "reason": "순이익이 99억USD로 거의 세 배가 되고 정유 설비 가동률 98%를 기록해 장전 약 1.4% 상승이 보도됐다.",
+      "watch": "브렌트 110USD대 유지와 생산량이 전년보다 소폭 줄어든 점이 주가 상승을 제한하는지 본다.",
+      "reason_sources": [
+        "oil_cnbc",
+        "oil_ap",
+        "cnbc_pre"
+      ]
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-10-31 05:00 KST",
+      "title": "10/30 미국 정규장 마감",
+      "detail": "10/30 16:00 EDT 종가에서 INTC·AMZN 장전 하락폭이 유지·확대됐는지, 나스닥이 10/29 종가 26,184.72 대비 어디서 끝나는지 확인한다."
+    },
+    {
+      "label": "다음 한국장 개장 · 확인 순서",
+      "title": "한국 반도체·AI 인프라주 반응",
+      "detail": "Intel 전망 하향과 Amazon 자본지출 부담, 유가 급등이 삼성전자·SK하이닉스와 정유·조선주에 주는 영향을 본다. KRX 달력과 원·달러는 한국 회차에서 확인한다."
+    },
+    {
+      "label": "2026-11-03 07:00 KST",
+      "title": "Apple FY26 4분기 실적",
+      "detail": "11/2 14:00 PST 실적 콜. 빅테크 실적 시즌의 마지막 대형 확인 지점이다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-30",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-31T02:56:30+09:00",
+    "note": "NYSE·Nasdaq 공식 2026 휴장 목록(11/26 추수감사절 휴장, 11/27·12/24 13:00 ET 조기폐장)에 10/30(금)이 없어 정상 거래일로 판단했다. 이전 거래일 10/29. 원문 페이지는 네트워크 정책으로 직접 열지 못했고 공식 도메인 한정 검색 결과로 확인했다. EDT UTC−04:00, 정규장 09:30~16:00 EDT = 2026-10-30 22:30~10-31 05:00 KST."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-30T09:00:00-04:00",
+      "kst": "2026-10-30T22:00:00+09:00",
+      "utc": "2026-10-30T13:00:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-30T13:55:29-04:00",
+      "kst": "2026-10-31T02:55:29+09:00",
+      "utc": "2026-10-30T17:55:29Z"
+    },
+    "start_offset_seconds": 17729,
+    "delay_seconds": 17729,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python; 외부 웹 직접 열람은 네트워크 정책으로 차단, WebSearch와 GitHub(git·MCP)만 사용; 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "fbaeb2b81bf6bc399f90a160abf89fe550aaa987",
+    "analysis_run_id": 41102665601,
+    "analysis_status": "queued (작성 시점 미완료, 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-10-30.json"
+  },
+  "reading": {
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-31T03:00:17+09:00",
+      "input_cutoff": "2026-10-31T03:00:17+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "정규장 진행 중(13:55 EDT 이후) 작성된 조건부 해석이라 장전 예측으로 평가하지 않으며 검증 전입니다."
+    },
+    "headline": "Amazon·Intel 충격, 기술주 급락 출발",
+    "summary_points": [
+      "INTC 장전 −25%대, 4분기 전망이 크게 낮다.",
+      "AMZN 장전 −7%, 자본지출·현금흐름이 부담이다.",
+      "유가 급등에 XOM·CVX만 실적 상회로 강세다."
+    ],
+    "notices": [
+      "예약보다 약 5시간 늦은 정규장 중 작성됐다. 기본 가격은 10/29 정규장 잠정 종가다.",
+      "장전 가격·선물 등락률은 기사별 시점 값이며 정규장 가격과 다르다. XOM·CVX 전일 종가와 ECI 결과는 미확인이다."
+    ],
+    "interpretation_points": [
+      "장전 갭을 종가 방향으로 확정하지 않는다.",
+      "실적 수치보다 가이던스·현금흐름 반응을 본다.",
+      "조건부 방향은 확률·매매 신호가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "AI 투자 부담 재부각",
+        "preview": "INTC 전망 미달과 AMZN 현금흐름이 기술주를 눌렀다.",
+        "points": [
+          "INTC 4분기 매출 전망 중간값은 기대보다 약 9% 낮다.",
+          "AMZN은 AWS 39% 성장에도 자본지출이 예상을 넘었다."
+        ],
+        "meaning": "AI 수요보다 투자 대비 현금흐름이 가격을 결정하고 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "미국 대형 기술·반도체주",
+            "basis": "10/30 종가를 10/29 종가와 비교한다. INTC·AMZN 장전 급락과 나스닥100 선물 2%대 하락이 지지한다.",
+            "counter": "GOOGL 등 이미 하락한 종목의 저가 매수와 금리 하락이 장중 되돌림을 만들 수 있다. 분봉·수급 자료는 없다.",
+            "invalidation": "나스닥이 10/29 종가 26,184.72를 회복하면 혼조로 재평가한다.",
+            "sources": [
+              "intc_pre",
+              "amzn_pre",
+              "cnbc_pre"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 대형 기술·반도체주",
+            "basis": "11/5 종가를 10/29 종가와 비교한다. 빅테크 자본지출 우려가 이어지고 Apple 실적이 남았다.",
+            "counter": "AWS 40%대 성장 전망과 연속 하락 뒤 반발 매수가 하락을 제한할 수 있다.",
+            "invalidation": "Apple 실적 뒤 나스닥이 10/29 종가 위로 안착하거나 추가 전망 하향이 나오면 재평가한다.",
+            "sources": [
+              "amzn_ir",
+              "intc_ir",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 급등·에너지 강세",
+        "preview": "호르무즈 공격에 브렌트 110USD대, 정유 마진이 실적을 끌었다.",
+        "points": [
+          "브렌트는 배럴당 약 113.51~117USD로 보도됐다.",
+          "XOM·CVX는 정제 이익으로 예상을 넘었다."
+        ],
+        "meaning": "유가는 에너지주에 호재지만 물가·금리 부담을 다시 키운다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "XOM·CVX 등 대형 에너지주",
+            "basis": "10/30 종가를 10/29 종가와 비교한다. 실적 상회와 유가 급등, 장전 1%대 상승이 지지한다.",
+            "counter": "XOM은 1년간 약 64% 올라 기대가 선반영됐을 수 있고 장중 유가 반락 위험이 있다.",
+            "invalidation": "브렌트가 110USD 아래로 밀리고 두 종목이 장전 상승을 반납하면 재평가한다.",
+            "sources": [
+              "oil_cnbc",
+              "oil_ap",
+              "ttnews"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "XOM·CVX 등 대형 에너지주",
+            "basis": "11/5 종가를 10/29 종가와 비교한다. 해협 긴장이 이어지면 유가가 지지된다.",
+            "counter": "호르무즈 통항 정상화는 정제 마진을 가장 크게 낮출 수 있다는 분석이 있다.",
+            "invalidation": "해협 상황과 유가 방향이 확정되면 재평가한다.",
+            "sources": [
+              "oil_yahoo",
+              "ttnews"
+            ]
+          }
+        }
+      },
+      {
+        "title": "금리 하락·매파 연준 공존",
+        "preview": "10년물 약 4.98%로 내렸지만 인상 주장 2명이 남았다.",
+        "points": [
+          "10/28 FOMC는 10대2 동결, 반대 2명은 인상을 주장했다.",
+          "3분기 ECI는 08:30 EDT 발표, 결과는 미확인이다."
+        ],
+        "meaning": "유가 상승과 인건비가 금리 재상승 위험을 남긴다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "10/30 종가를 10/29 종가와 비교한다. 금리 하락과 기술주 매도가 함께 나타났다.",
+            "counter": "ECI 결과와 유가 상승에 따른 금리 반응을 확인하지 못했다.",
+            "invalidation": "10년물이 5%를 다시 넘거나 4.9% 아래로 내려가면 재평가한다.",
+            "sources": [
+              "kitco",
+              "bls_eci"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/5 종가를 10/29 종가와 비교한다. 다음 물가·고용 지표가 금리 경로를 정한다.",
+            "counter": "연준 내 인상 주장과 유가 상승이 할인율을 높일 수 있다.",
+            "invalidation": "11월 초 고용·물가 지표와 10년물 방향이 일치하면 재평가한다.",
+            "sources": [
+              "kitco",
+              "td_cal"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "INTC": {
+        "reason": "4분기 전망 미달로 장전 68.52USD(−25.6%)였다.",
+        "watch": "68USD대 지지와 추정치 하향 폭을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "INTC",
+            "basis": "10/30 종가를 92.07USD와 비교한다. 4분기 매출·마진 전망 미달과 장전 25%대 급락이 지지한다.",
+            "counter": "급락 뒤 장중 되돌림이 클 수 있고 3분기 실적은 예상을 넘었다.",
+            "invalidation": "정규장에서 장전 저점 대비 반등이 이어져 80USD대를 회복하면 재평가한다.",
+            "sources": [
+              "intc_ir",
+              "intc_pre"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "11/5 종가를 92.07USD와 비교한다. 추정치 하향이 이어질 수 있다.",
+            "counter": "하루 25%대 하락이 악재를 상당 부분 반영했을 수 있다.",
+            "invalidation": "애널리스트 목표가 하향이 멈추고 장전 저점을 지키면 재평가한다.",
+            "sources": [
+              "intc_pre",
+              "cnbc_pre"
+            ]
+          }
+        }
+      },
+      "AMZN": {
+        "reason": "자본지출 초과·현금흐름 적자로 장전 226.55USD(−7.07%)였다.",
+        "watch": "226USD 지지와 AWS 성장 기대를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "AMZN",
+            "basis": "10/30 종가를 243.79USD와 비교한다. EPS 미달·4분기 전망 미달과 장전 7% 하락이 지지한다.",
+            "counter": "AWS 39% 성장과 사상 최고 영업이익률 13.9%가 저가 매수를 부를 수 있다.",
+            "invalidation": "정규장에서 243.79USD에 근접하게 회복하면 재평가한다.",
+            "sources": [
+              "amzn_ir",
+              "amzn_pre"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "AMZN",
+            "basis": "11/5 종가를 243.79USD와 비교한다. AWS 성장과 자본지출 부담이 맞선다.",
+            "counter": "2027년 지출 확대 발언이 현금흐름 우려를 지속시킬 수 있다.",
+            "invalidation": "추정치 조정 방향과 기술주 전반 흐름이 같아지면 재평가한다.",
+            "sources": [
+              "amzn_ir",
+              "amzn_pre"
+            ]
+          }
+        }
+      },
+      "XOM": {
+        "reason": "정제 이익으로 예상을 넘어 장전 1.4% 이상 상승했다.",
+        "watch": "유가 유지와 정제 마진 민감도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "XOM",
+            "basis": "10/30 종가를 10/29 종가(미확인)와 비교한다. 실적 상회와 유가 급등이 지지한다.",
+            "counter": "1년간 약 64% 상승으로 기대가 선반영됐을 수 있다.",
+            "invalidation": "장전 상승을 반납하고 유가가 반락하면 재평가한다.",
+            "sources": [
+              "oil_cnbc",
+              "oil_ap"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "XOM",
+            "basis": "11/5 종가를 10/29 종가(미확인)와 비교한다. 유가 강세가 지지한다.",
+            "counter": "해협 정상화 시 정제 마진 축소 위험이 있다.",
+            "invalidation": "유가와 정제 마진 방향이 확정되면 재평가한다.",
+            "sources": [
+              "oil_yahoo",
+              "ttnews"
+            ]
+          }
+        }
+      },
+      "CVX": {
+        "reason": "순이익이 약 세 배로 늘어 장전 약 1.4% 상승했다.",
+        "watch": "브렌트 110USD대 유지와 생산량을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "up",
+            "target": "CVX",
+            "basis": "10/30 종가를 10/29 종가(미확인)와 비교한다. 순이익 급증과 유가 급등이 지지한다.",
+            "counter": "생산량이 전년보다 소폭 줄었고 장중 유가 반락 위험이 있다.",
+            "invalidation": "장전 상승을 반납하고 브렌트가 110USD를 밑돌면 재평가한다.",
+            "sources": [
+              "oil_cnbc",
+              "oil_ap"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "CVX",
+            "basis": "11/5 종가를 10/29 종가(미확인)와 비교한다. 정제 가동률 98%와 유가가 지지한다.",
+            "counter": "정제 마진은 해협 상황 변화에 가장 민감하다는 분석이 있다.",
+            "invalidation": "해협 상황과 유가 방향이 확정되면 재평가한다.",
+            "sources": [
+              "oil_yahoo",
+              "ttnews"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "10/30 정규장 마감",
+        "detail": "INTC·AMZN 하락폭과 나스닥 26,184.72 회복 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "나스닥 종합",
+            "basis": "10/30 종가를 10/29 종가 26,184.72와 비교한다. 대형 기술주 실적 충격이 지지한다.",
+            "counter": "금리 하락과 장중 저가 매수가 낙폭을 줄일 수 있다.",
+            "invalidation": "종가가 26,184.72 위면 판단을 바꾼다.",
+            "sources": [
+              "cnbc_pre",
+              "cnbc_close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "나스닥 종합",
+            "basis": "11/5 종가를 26,184.72와 비교한다. Apple 실적과 지표가 남았다.",
+            "counter": "연속 하락 뒤 반발 매수 가능성이 있다.",
+            "invalidation": "Apple 실적 반응이 확정되면 재평가한다.",
+            "sources": [
+              "apple",
+              "cnbc_close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국 반도체·에너지 반응",
+        "detail": "Intel·Amazon 충격과 유가 급등의 영향을 한국 회차에서 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "한국 반도체·정유주",
+            "basis": "다음 한국 거래일 종가를 직전 종가와 비교한다. 미국 기술주 약세와 유가 급등이 전달될 수 있다.",
+            "counter": "메모리 가격 급등은 한국 메모리주에 별도 호재일 수 있고 KRX 자료는 이번 회차에서 확인하지 않았다.",
+            "invalidation": "한국 회차에서 개장 시세와 원·달러를 확인하면 재판단한다.",
+            "sources": [
+              "intc_ir",
+              "ttnews"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체·정유주",
+            "basis": "5거래일 뒤 종가를 직전 종가와 비교한다.",
+            "counter": "한국 자료 미확인이다.",
+            "invalidation": "한국 회차의 KRX 일별 분석으로 재판단한다.",
+            "sources": [
+              "intc_ir",
+              "ttnews"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple 실적",
+        "detail": "11/2 14:00 PST에 아이폰·서비스 성장과 가이던스를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL",
+            "basis": "발표 전 거래일이라 10/30 종가는 실적과 무관하다.",
+            "counter": "실적 내용 미확인이다.",
+            "invalidation": "실적 발표 후 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL",
+            "basis": "11/5 종가를 10/29 종가와 비교한다. 실적 발표가 기간 안에 있다.",
+            "counter": "컨센서스와 결과 모두 미확인이다.",
+            "invalidation": "실적·가이던스 확인 후 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nasdaq": "Nasdaq · 2026 휴장 달력",
+      "cnbc_close": "CNBC · 10월 29일 미국장 마감",
+      "yahoo_spx": "Yahoo Finance · S&P500 시세",
+      "cnbc_pre": "CNBC · 10월 30일 장전 주요 종목",
+      "intc_ir": "MarketScreener · Intel 4분기 가이던스",
+      "intc_pre": "Benzinga · Intel 장전 급락",
+      "qINTC": "Morningstar · INTC 시세",
+      "amzn_ir": "Amazon · 3분기 실적(SEC 8-K)",
+      "amzn_pre": "FinanceFeeds · Amazon 장전 반응",
+      "qAMZN": "StockAnalysis · AMZN 종가",
+      "oil_cnbc": "CNBC · Exxon·Chevron 3분기 실적",
+      "oil_ap": "AP · Exxon·Chevron 예상 상회",
+      "oil_yahoo": "Yahoo Finance · 정제 마진 위험",
+      "ttnews": "Transport Topics · 해상 공격과 유가",
+      "kitco": "Kitco · 10월 30일 시장 동향",
+      "bls_eci": "BLS · 고용비용지수",
+      "td_cal": "TD Economics · 주간 일정",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "massive": "Massive · 미국 일별 분석 요청"
+    }
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장·조기폐장 목록. 10/30 정상장."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 2026 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "11/26 휴장, 11/27·12/24 조기폐장 교차 확인."
+    },
+    {
+      "id": "cnbc_close",
+      "label": "CNBC · 10월 29일 미국장 마감",
+      "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+      "note": "10/29 지수 잠정 종가. 전 회차와 같은 값을 검색 요약으로 재인용."
+    },
+    {
+      "id": "yahoo_spx",
+      "label": "Yahoo Finance · S&P500 시세",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "S&P500 10/29 포인트 변화 교차 확인(전 회차)."
+    },
+    {
+      "id": "cnbc_pre",
+      "label": "CNBC · 10월 30일 장전 주요 종목",
+      "url": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-premarket-intc-amzn-rddt-cvx.html",
+      "note": "INTC −23%, AMZN 하락, CVX +1.4%, XOM +1.4% 이상, 나스닥100 선물 약 −2.7% 보도. 검색 요약."
+    },
+    {
+      "id": "intc_ir",
+      "label": "MarketScreener · Intel 4분기 가이던스",
+      "url": "https://www.marketscreener.com/news/intel-corporation-provides-earnings-guidance-for-the-fourth-quarter-of-2026-ce785fdadc80f726",
+      "note": "4분기 매출 150억~160억USD 가이던스 공시 요약. 원 공시는 SEC 8-K."
+    },
+    {
+      "id": "intc_pre",
+      "label": "Benzinga · Intel 장전 급락",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62731810/why-is-intel-stock-sinking-friday",
+      "note": "장전 68.52USD(−25.6%), 컨센서스 171.1억USD·매출총이익률 42.4% 대비. 검색 요약, 시각 미확인."
+    },
+    {
+      "id": "qINTC",
+      "label": "Morningstar · INTC 시세",
+      "url": "https://www.morningstar.com/stocks/xnas/intc/quote",
+      "note": "10/29 정규장 종가 92.07USD(−3.46, −3.62%) 전 회차 확인 잠정값."
+    },
+    {
+      "id": "amzn_ir",
+      "label": "Amazon · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+      "note": "매출·AWS·영업이익·잉여현금흐름 공식 발표."
+    },
+    {
+      "id": "amzn_pre",
+      "label": "FinanceFeeds · Amazon 장전 반응",
+      "url": "https://financefeeds.com/amazon-amzn-stock-227-after-q3-aws-39-percent-negative-42-billion-free-cash-flow-220-billion-capex-bull-255-bear-205/",
+      "note": "09:09 EDT 장전 226.55USD, 10/29 종가 243.79USD 대비 −7.07%. 자본지출 수치는 매체별로 759억~773억USD로 매체별 차이가 있어 본문에 쓰지 않음."
+    },
+    {
+      "id": "qAMZN",
+      "label": "StockAnalysis · AMZN 종가",
+      "url": "https://stockanalysis.com/stocks/amzn/",
+      "note": "10/29 정규장 종가 243.79USD(−10.81, −4.25%) 전 회차 확인 잠정값."
+    },
+    {
+      "id": "oil_cnbc",
+      "label": "CNBC · Exxon·Chevron 3분기 실적",
+      "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+      "note": "XOM 조정 EPS 4.23USD vs 약 4.12~4.13USD, 정제 이익 약 72억USD, CVX 생산 소폭 감소. 검색 요약."
+    },
+    {
+      "id": "oil_ap",
+      "label": "AP · Exxon·Chevron 예상 상회",
+      "url": "https://www.wsls.com/business/2026/10/30/exxonmobil-and-chevron-top-q3-estimates-on-higher-prices-and-strong-output/",
+      "note": "CVX 순이익 99억USD(주당 5.06, 조정 5.28), 정유 가동률 98%, XOM 1년 약 64% 상승. 검색 요약."
+    },
+    {
+      "id": "oil_yahoo",
+      "label": "Yahoo Finance · 정제 마진 위험",
+      "url": "https://finance.yahoo.com/energy/articles/trump-says-gasoline-prices-come-152439960.html",
+      "note": "호르무즈 재개방 시 정제 마진 타격이 크다는 분석. 해석 근거."
+    },
+    {
+      "id": "ttnews",
+      "label": "Transport Topics · 해상 공격과 유가",
+      "url": "https://www.ttnews.com/articles/oil-prices-attacks-shipping",
+      "note": "유조선 공격 뒤 브렌트 약 113.51USD 보도. 검색 요약."
+    },
+    {
+      "id": "kitco",
+      "label": "Kitco · 10월 30일 시장 동향",
+      "url": "https://www.kitco.com/news/article/2026-10-30/gold-drops-below-4000-silver-tumbles-hormuz-attack-lifts-oil-prices-kitco",
+      "note": "10년물 10/29 약 7bp 하락 약 4.98%, 브렌트 116~117USD대, FOMC 10대2 동결(2명 인상 주장). 검색 요약."
+    },
+    {
+      "id": "bls_eci",
+      "label": "BLS · 고용비용지수",
+      "url": "https://www.bls.gov/ncs/eci/",
+      "note": "3분기 ECI 10/30 08:30 ET 발표 일정. 결과 미확인."
+    },
+    {
+      "id": "td_cal",
+      "label": "TD Economics · 주간 일정",
+      "url": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-10-23/upcoming.htm",
+      "note": "ECI 컨센서스 0.8%, 직전 0.9%."
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "11/2 실적 발표 일정(전 회차 확인)."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41102665601",
+      "note": "요청 커밋 fbaeb2b의 Collect US briefing inputs 실행. 작성 시점 queued로 분석 수치 미사용.",
+      "show_public": false
+    }
+  ]
+}

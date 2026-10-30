@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-10-30/"
     },
     {
+      "id": "us-pre-2026-10-30",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-10-30",
+      "title": "10월 30일 미국장 시작 전 브리핑",
+      "summary": "Amazon·Intel 실적 충격에 나스닥 선물 2%대 급락, 유가 급등에 에너지주만 강세",
+      "as_of": "2026-10-30T05:00:00+09:00",
+      "path": "reports/us-pre-2026-10-30/"
+    },
+    {
       "id": "us-close-2026-10-29",
       "is_test": false,
       "market": "US",
