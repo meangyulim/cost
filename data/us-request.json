@@ -1,11 +1,13 @@
 {
-  "end_date": "2026-10-29",
+  "end_date": "2026-10-30",
   "watch": [
     "INTC",
     "AMZN",
-    "XOM",
-    "CVX",
-    "GOOGL"
+    "AMD",
+    "RDDT",
+    "REGN",
+    "DELL",
+    "NVDA"
   ],
-  "requested_at": "2026-10-31T02:57:01+09:00"
+  "requested_at": "2026-10-31T06:17:42+09:00"
 }
