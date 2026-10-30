@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-10-30",
+  "latest_id": "us-close-2026-10-30",
   "reports": [
+    {
+      "id": "us-close-2026-10-30",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-10-30",
+      "title": "10월 30일 미국장 마감 브리핑",
+      "summary": "Intel 전망 쇼크에 나스닥 2.86% 급락, 10월 2025년 3월 이후 최악의 달",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "path": "reports/us-close-2026-10-30/"
+    },
     {
       "id": "kr-close-2026-10-30",
       "is_test": false,

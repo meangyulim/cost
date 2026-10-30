@@ -1,0 +1,959 @@
+{
+  "id": "us-close-2026-10-30",
+  "title": "10월 30일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-10-30 09:30~16:00 EDT 정규장(2026-10-30 22:30~10-31 05:00 KST)",
+  "market_date": "2026-10-30",
+  "session": "close",
+  "as_of": "2026-10-31T05:00:00+09:00",
+  "queried_at": "2026-10-31T06:21:07+09:00",
+  "is_test": false,
+  "summary": "Intel 전망 쇼크에 나스닥 2.86% 급락, 10월 2025년 3월 이후 최악의 달",
+  "summary_detail": "Intel이 4분기 매출·EPS 전망을 예상보다 크게 낮게 제시해 28.58% 급락하고 AMD −10.88%, NVDA −4.22% 등 반도체지수가 7.2% 떨어졌다. Amazon은 EPS·매출 미달과 현금흐름 적자로 장전 −7%까지 밀렸다가 −1.41%로 마감했다. Reddit은 AI 검색 요약에 따른 유입 감소와 약한 전망으로 29.22% 급락했다. 나스닥 −2.86%, S&P500 −1.82%, 다우 −1.09%로 마감했고 나스닥은 10월 한 달 −5% 이상 하락했다.",
+  "interpretation": "이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 지수·종가는 검색 결과에 요약된 Investing.com·Reuters(Yahoo)·CNBC·Google Finance·StockAnalysis 등의 값을 잠정으로 사용했다. 개별주는 10/30 미국 정규장 종가이며 장전·장중 가격과 섞지 않았다. 매체별 종가 차이가 있는 Dell·Regeneron은 관찰 종목 가격에서 제외했다. 주가 반응은 공식 실적·가이던스와 당일 보도를 연결했지만 단일 원인으로 단정하지 않는다. 이번 요청의 Massive 수집은 작성 시점까지 진행 중이어서 분석 수치를 사용하지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "unit": "pt",
+      "delta": "−140.32",
+      "percent": "−1.82",
+      "direction": "down",
+      "source": "wsj_pts",
+      "additional_sources": [
+        "inv_close",
+        "sp_card"
+      ],
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,437.00",
+      "unit": "pt",
+      "delta": "−747.73",
+      "percent": "−2.86",
+      "direction": "down",
+      "source": "wsj_pts",
+      "additional_sources": [
+        "inv_close"
+      ],
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    },
+    {
+      "name": "Dow Jones",
+      "value": "51,770.31",
+      "unit": "pt",
+      "delta": "−572.25",
+      "percent": "−1.09",
+      "direction": "down",
+      "source": "wsj_pts",
+      "additional_sources": [
+        "inv_close"
+      ],
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가",
+      "final_status": "잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "Intel 4분기 전망 쇼크와 반도체 급락",
+      "fact": "Intel은 3분기 매출 165억달러(+21%)와 비GAAP EPS 0.52달러를 발표했지만 4분기 매출 150억~160억달러, 비GAAP EPS 0.25달러를 제시해 예상(약 170.7억달러·0.43달러)을 크게 밑돌았다. PC 둔화가 최소 내년 상반기까지 이어지고 이스라엘 공장 사고로 4분기 매출이 약 3억달러 줄 것이라고 밝혔다. INTC는 65.76달러(−28.58%)로 마감했고 AMD −10.88%, NVDA −4.22%, 반도체지수는 −7.2%로 월간 −15% 이상이 됐다.",
+      "source": "intc_8k",
+      "additional_sources": [
+        "reuters_wrap",
+        "intc_yahoo",
+        "qINTC",
+        "qAMD",
+        "qNVDA",
+        "chips_1t"
+      ]
+    },
+    {
+      "title": "Amazon 미달·현금 소진, 장중 낙폭 축소",
+      "fact": "Amazon은 3분기 EPS 1.89달러(예상 1.97달러), 매출 2,019억달러(예상 2,022.5억달러)로 미달했고 AWS는 약 39% 성장했지만 12개월 잉여현금흐름이 약 −424억달러였다. 장전 09:09 EDT 226.55달러(−7.07%)까지 밀렸으나 정규장은 240.35달러(−3.44, −1.41%)로 마감했다. 시장 전체의 'AI 현금 소진' 우려를 키운 재료로 보도됐다.",
+      "source": "amzn_ir",
+      "additional_sources": [
+        "amzn_cons",
+        "amzn_pre",
+        "qAMZN",
+        "reuters_wrap"
+      ]
+    },
+    {
+      "title": "Reddit, AI 검색 요약에 유입 감소로 29% 급락",
+      "fact": "Reddit은 3분기 매출 8.95억달러·조정 EPS 1.40달러로 예상을 넘었지만 4분기 매출 전망 10억~10.3억달러가 예상(약 10.5억달러)을 밑돌고 DAU 1억3,030만명이 예상에 못 미쳤다. CEO는 10월 검색 유입이 주당 평균 100만 이상 줄었다며 AI 검색 요약을 원인으로 들었다. RDDT는 91.73달러(−29.22%)로 상장 이후 최악의 날이었다.",
+      "source": "rddt_cnbc",
+      "additional_sources": [
+        "qRDDT"
+      ]
+    },
+    {
+      "title": "PC·하드웨어주 동반 약세",
+      "fact": "Intel의 PC 둔화와 메모리 부족 경고에 Dell은 약 11%, HP 약 9%, HPE·Super Micro 약 7% 하락했다는 장중 보도가 나왔다. Reuters 마감 기사는 Dell −10.8%로 집계했으나 종가는 매체별로 달라 미확인이다.",
+      "source": "dell",
+      "additional_sources": [
+        "reuters_wrap"
+      ]
+    },
+    {
+      "title": "10월 마감: 나스닥 최악의 달, 다우는 상승",
+      "fact": "나스닥은 10월 한 달 −5% 이상으로 2025년 3월 이후 최악의 달을 기록했고 S&P500은 10월 −0.9%, 다우는 +1.7%였다. 금은 4,000달러 아래로 1년 최저, 브렌트유는 10/30 장중 117달러대로 10월 약 14% 올랐다. 10년물은 약 4.90%로 소폭 하락했다.",
+      "source": "inv_close",
+      "additional_sources": [
+        "gold",
+        "oil",
+        "ust10"
+      ]
+    },
+    {
+      "title": "헬스케어 실적 강세: Regeneron",
+      "fact": "Regeneron은 3분기 매출 51억달러(+36%), 비GAAP EPS 20.07달러(예상 16.19달러 보도)를 발표해 장중 약 11.5% 올랐다. 종가는 확인하지 못했다. 기술주 급락 속 실적이 확인된 방어 업종으로의 이동 사례다.",
+      "source": "regn"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "price": "65.76",
+      "delta": "−26.31",
+      "percent": "−28.58",
+      "source": "qINTC",
+      "reason": "4분기 매출·EPS 전망이 예상보다 크게 낮고 PC 둔화가 내년 상반기까지 이어진다고 밝혔다.",
+      "watch": "65달러대 지지와 실적 후 목표가·추정치 하향 폭, 데이터센터 매출 설명을 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 종가 · 검색 요약 시세(잠정) · 매체별 65.12~65.76USD",
+      "reason_sources": [
+        "intc_8k",
+        "reuters_wrap",
+        "intc_yahoo"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "price": "240.35",
+      "delta": "−3.44",
+      "percent": "−1.41",
+      "source": "qAMZN",
+      "reason": "EPS·매출 미달과 현금흐름 적자에도 AWS 39% 성장이 부각되며 장전 −7%에서 낙폭을 크게 줄였다.",
+      "watch": "10/29 종가 243.79달러 회복 여부와 설비투자 회수 설명, 장전 저점 226.55달러 재이탈 여부를 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 종가(16:00 EDT) · 잠정 · 장전 226.55USD(09:09 EDT) 별도",
+      "reason_sources": [
+        "amzn_ir",
+        "amzn_cons",
+        "amzn_pre"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "ticker": "RDDT",
+      "price": "91.73",
+      "delta": "−37.87",
+      "percent": "−29.22",
+      "source": "qRDDT",
+      "reason": "실적은 예상을 넘었지만 4분기 전망·DAU가 부진했고 AI 검색 요약에 따른 유입 감소를 밝혔다.",
+      "watch": "장중 저점 89.28달러 지지와 등급 하향 이후 추정치 변화, 검색 유입 추이를 본다.",
+      "direction": "down",
+      "venue": "NYSE",
+      "currency": "USD",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "rddt_cnbc"
+      ]
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "price": "504.80",
+      "delta": "−61.62",
+      "percent": "−10.88",
+      "source": "qAMD",
+      "reason": "자체 발표는 없었고 Intel 전망 쇼크와 AI 투자 우려로 반도체주가 동반 급락했다.",
+      "watch": "500달러 지지 여부와 자체 실적 일정·데이터센터 수요 설명을 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "reuters_wrap",
+        "chips_1t"
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "204.64",
+      "delta": "−9.02",
+      "percent": "−4.22",
+      "source": "qNVDA",
+      "reason": "반도체 급락에 동반 하락해 시가총액이 5조달러 아래(약 4.93조달러)로 내려왔다.",
+      "watch": "반도체지수 대비 상대 강도와 200달러 지지, 빅테크 설비투자 발언을 본다.",
+      "direction": "down",
+      "venue": "Nasdaq",
+      "currency": "USD",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 종가 · 검색 요약 시세(잠정)",
+      "reason_sources": [
+        "reuters_wrap",
+        "chips_1t"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 4.90",
+    "unit": "%",
+    "delta": "하락(−0.03%p 보도, 매체별 상이)",
+    "direction": "down",
+    "source": "ust10",
+    "as_of": "2026-10-31T05:00:00+09:00",
+    "session": "10/30 보도값 · 확정 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "다음 한국장 개장 · 2026-11-02(월) · 확인 순서",
+      "title": "한국 반도체·PC 부품주 첫 반응",
+      "detail": "Intel 쇼크와 미국 반도체지수 −7.2%가 삼성전자·SK하이닉스와 코스피 개장에 주는 영향을 본다. KRX 달력과 원·달러는 한국 회차에서 확인한다."
+    },
+    {
+      "label": "2026-11-01 서머타임 종료",
+      "title": "미국 정규장 시각 1시간 늦어짐",
+      "detail": "11/2부터 정규장은 23:30~06:00 KST(EST)로 바뀐다. 마감 브리핑 기준 시각도 06:00 KST가 된다."
+    },
+    {
+      "label": "2026-11-03 07:00 KST",
+      "title": "Apple FY26 4분기 실적",
+      "detail": "11/2 장 마감 후 발표, 14:00 PT 콜. 빅테크 AI 투자 부담 속 마지막 대형 실적 확인 지점이다."
+    },
+    {
+      "label": "11/6 고용보고서 · 확인 순서",
+      "title": "10월 미국 고용보고서",
+      "detail": "11/6 08:30 ET(22:30 KST) 예정으로 보도됐으나 BLS 원문 일정은 확인하지 못했다. 금리·성장 기대를 다시 점검한다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-10-30",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-10-31T06:16:40+09:00",
+    "note": "NYSE·Nasdaq 2026 공식 휴장·조기폐장표(11/26 휴장, 11/27·12/24 13:00 조기폐장)에 10/30(금)이 없어 정상 거래일로 판단했다. 원문 페이지는 네트워크 정책으로 직접 열지 못했고 공식 도메인 한정 검색 결과로 확인했다. EDT UTC−04:00, 정규장 폐장 2026-10-31 05:00 KST. 2026-11-01 서머타임 종료 후 EST."
+  },
+  "calculation_notes": "지수 포인트·등락률은 검색 결과에 요약된 마감 보도의 값을 그대로 썼고 직접 계산하지 않았다. 대조: 이전 회차 잠정 10/29 종가에서 S&P500 7,720.39−140.32=7,580.07, 다우 52,342.56−572.25=51,770.31, 나스닥 26,184.72−747.73=25,436.99(보도 25,437.00과 0.01 차이, 반올림 추정). Investing.com은 S&P500 7,579.97, 다우 51,771.14로 소폭 다르다. INTC 변동액 −26.31은 92.07−65.76으로 직접 계산했고 등락률 −28.58%는 보도값(26.31/92.07=28.58%). AMZN·RDDT·AMD·NVDA의 변동액·등락률은 제공값을 보존했다. AMZN 장전 대비 회복: 240.35−226.55=13.80USD. 재판단 기준 INTC 약 78.92USD=65.76+26.31/2, RDDT 약 110.67USD=91.73+37.87/2. Dell·Regeneron은 종가 미확인으로 계산에 쓰지 않았다. ETF 대용치와 실제 지수 값을 섞지 않았다. Massive 분석은 작성 시점 미완료로 사용하지 않았다.",
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-10-30T16:15:00-04:00",
+      "kst": "2026-10-31T05:15:00+09:00",
+      "utc": "2026-10-30T20:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-10-30T17:16:05-04:00",
+      "kst": "2026-10-31T06:16:05+09:00",
+      "utc": "2026-10-30T21:16:05Z"
+    },
+    "start_offset_seconds": 3665,
+    "delay_seconds": 3665,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python; 외부 웹 직접 열람은 네트워크 정책으로 차단, WebSearch와 GitHub(git·MCP)만 사용; 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "df2eba842303545cc73ad012785a26f29addbf0c",
+    "analysis_run_id": 41129953865,
+    "analysis_status": "in_progress (작성 시점 미완료, 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-10-30.json"
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 공식 거래시간·달력",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 10/30(금)이 없어 정상 거래일. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 공식 휴장 일정",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "2026 휴장·조기폐장표가 NYSE와 일치. 10/30 정상 거래일. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "inv_close",
+      "label": "Investing.com · 10월30일 미국장 마감",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
+      "note": "나스닥 −2.9% 25,437.00, S&P500 −1.8% 7,579.97, 다우 −1.1% 51,771.14. 나스닥 10월 −5% 이상으로 2025년 3월 이후 최악의 달, S&P500 10월 −0.9%, 다우 10월 +1.7%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "wsj_pts",
+      "label": "Bloomingbit · 뉴욕증시 마감",
+      "url": "https://en.bloomingbit.io/feed/news/123328",
+      "note": "나스닥 −2.86% 25,437. 다른 마감 요약에서 다우 −572.25(−1.09%) 51,770.31, S&P500 −140.32(−1.82%) 7,580.07, 나스닥 −747.73(−2.86%) 25,437.00 확인. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "sp_card",
+      "label": "24/7 Wall St. · S&P500 −1.8% 마감",
+      "url": "https://247wallst.com/cards/the-nasdaq-s-2-86-drop-was-more-than-double-the-dow-s-decli-gspc-market-bell-01m676j9fvbar2t12035t2hhqp",
+      "note": "S&P500 −1.8%, 나스닥 −2.86%가 다우 하락폭의 두 배 이상. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "reuters_wrap",
+      "label": "Yahoo Finance(Reuters) · 월가 급락 마감",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
+      "note": "16:23 EDT 마감 기사. INTC −28.6%, NVDA −4.2%, AMD −10.9%, DELL −10.8%, 반도체지수 −7.2%로 월간 −15% 이상. Intel 4분기 매출 가이던스 150억~160억USD·조정 EPS 0.25USD vs 예상 170.7억USD·0.43USD. AI 현금 소진 우려. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "yahoo_live",
+      "label": "Yahoo Finance · 10월30일 장 흐름",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+      "note": "라이브 블로그. 장중 시점 등락률(나스닥 −2.8%, S&P500 −2%, 다우 −1.2%)은 마감값과 달라 종가로 쓰지 않음. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "intc_8k",
+      "label": "Intel · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "note": "3분기 매출 165억USD(+21%), GAAP EPS 0.60USD, 비GAAP EPS 0.52USD. 4분기 매출 150억~160억USD, 비GAAP EPS 0.25USD 전망. 데이터센터 매출 15년 만의 최대 성장, PC 둔화 최소 내년 상반기까지. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "intc_yahoo",
+      "label": "Yahoo Finance · Intel 1974년 이후 최악의 날",
+      "url": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-30-on-pace-for-its-worst-day-since-1974-135850305.html",
+      "note": "종가 기준 약 29% 하락. 이스라엘 공장 사고로 4분기 매출 약 3억USD 감소 예상. '1974년 이후 최악'은 장중 '페이스' 표현이라 확정 기록으로 쓰지 않음. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qINTC",
+      "label": "Motley Fool · INTC 종가",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-intel-plunges-nearly-29-as-weak-outlook-rattles-wall-street/",
+      "note": "10/30 종가 65.76USD, 10/29 종가 92.07USD 대비 −28.58%. Finviz 동일. 247 Wall St.는 65.12USD(−29.27%), TheStreet은 −29.04%로 매체별 차이. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "amzn_ir",
+      "label": "Amazon · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+      "note": "3분기 매출·AWS·영업이익·잉여현금흐름 공식 발표(전 회차 확인 링크). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "amzn_cons",
+      "label": "TradingKey · Amazon 기대 대비 결과",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262259603-amazon-stock-forecast-q3-earnings-aws-39-percent-cash-burn-226-support-october-30-2026-tradingkey",
+      "note": "EPS 1.89USD vs 예상 1.97USD, 매출 2,019억USD vs 2,022.5억USD, AWS 약 +39%(약 460억USD), 12개월 잉여현금흐름 약 −424억USD, 4분기 가이던스 컨센서스 하회. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "amzn_pre",
+      "label": "FinanceFeeds · AMZN 장전 226.55USD",
+      "url": "https://financefeeds.com/amazon-amzn-stock-227-after-q3-aws-39-percent-negative-42-billion-free-cash-flow-220-billion-capex-bull-255-bear-205/",
+      "note": "10/30 09:09 EDT 장전 226.55USD, 10/29 종가 243.79USD 대비 −7.07%. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qAMZN",
+      "label": "Google Finance · AMZN 종가",
+      "url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+      "note": "10/30 16:00:01 EDT 종가 240.35USD(−3.44, −1.41%). CNBC·CNN 동일. CNBC 시간외 약 240.28USD. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "rddt_cnbc",
+      "label": "CNBC · Reddit 상장 후 최악의 날",
+      "url": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
+      "note": "10/30 −29.22%로 2024년 상장 이후 최악. 3분기 매출 8.95억USD vs 예상 8.749억USD, 조정 EPS 1.40USD vs 1.33USD. 4분기 매출 10억~10.3억USD vs 예상 약 10.5억USD. DAU 1억3,030만 vs 1억3,340만~1억3,400만. 10월 검색 유입 주당 평균 100만 이상 감소, AI 검색 요약과 연결(CEO). 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qRDDT",
+      "label": "CNBC · RDDT 시세",
+      "url": "https://www.cnbc.com/quotes/RDDT",
+      "note": "10/30 종가 91.73USD(−37.87, −29.22%), 장중 저점 89.28USD, 10/29 종가 129.60USD. Finviz 91.72USD로 1센트 차이. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qAMD",
+      "label": "StockAnalysis · AMD 종가",
+      "url": "https://stockanalysis.com/stocks/amd/",
+      "note": "10/30 정규장 종가 504.80USD(−61.62, −10.88%), 전일 566.42USD, 거래량 약 3,950만주. GuruFocus 494.04USD는 전일 종가와 맞지 않아 사용하지 않음. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "qNVDA",
+      "label": "CNBC · NVDA 시세",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "note": "10/30 정규장 종가 204.64USD(−9.02, −4.22%), 전일 213.66USD, 시가총액 4.932조USD. Motley Fool 동일 종가. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "chips_1t",
+      "label": "Benzinga · 반도체주 하루 1조달러 증발",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
+      "note": "Intel 급락 이후 반도체주 시가총액 약 1조USD 감소 보도. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "dell",
+      "label": "24/7 Wall St. · Dell·HP 하드웨어주 급락",
+      "url": "https://247wallst.com/investing/2026/10/30/dell-sinks-11-as-intels-warning-on-pc-slump-and-memory-shortage-hits-hardware-stocks-hp-tumbles-9-hewlett-packard-enterprise-and-super-micro-fall-7/",
+      "note": "Intel의 PC 둔화·메모리 부족 경고에 Dell 약 −11%, HP 약 −9%, HPE·Super Micro 약 −7%(장중 기사). Dell 종가는 419.78USD(GuruFocus)와 −10.8%(Reuters)가 맞지 않아 미확인. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "regn",
+      "label": "Regeneron · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000032/exhibit991q32026.htm",
+      "note": "3분기 매출 51억USD(+36%), 비GAAP EPS 20.07USD(+70%). 컨센서스 16.19USD(보도). 장중 약 +11.5%(912~913USD), 종가 미확인. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "ust10",
+      "label": "Trading Economics · 미국 10년물",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "note": "10/30 4.91%로 전일 대비 −0.03%p. Investing.com 과거표는 4.898%(전일 대비 −1.82%)로 하락폭이 다름. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "gold",
+      "label": "FXStreet · 금 1년 최저",
+      "url": "https://fxstreet.com/analysis/gold-hits-a-one-year-low-below-4-000-heres-what-the-chart-reveals-202610301349",
+      "note": "금 4,000USD 아래로 1년 최저, 1월 고점(약 5,600USD) 대비 25% 이상 조정. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "oil",
+      "label": "Investify · 10월30일 유가",
+      "url": "https://www.investify.pk/news/100000159708/oil-prices-today-brent-at-117-62-wti-at-104-18",
+      "note": "10/30 10:45 GMT 12월물 브렌트 117.62USD, WTI 104.18USD. 10월 브렌트 약 +14%, WTI 약 +15%. 장중 값이며 결제가 미확인. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "11/2(월) 장 마감 후 FY26 4분기 실적, 14:00 PT 콜. 11/1 서머타임 종료 후 PST로 2026-11-03 07:00 KST. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "jobs",
+      "label": "FinanceCalendar · 10월 고용보고서 일정",
+      "url": "https://www.financecalendar.com/event/us-employment-situation-non-farm-payrolls-october-2026/",
+      "note": "10월 고용보고서 11/6(금) 08:30 ET 예정. BLS 원문 일정표로는 확인하지 못함. 검색 결과 요약으로 확인했다. 이번 실행의 네트워크 정책으로 원문 페이지를 직접 열람하지 못했다."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41129953865",
+      "note": "이번 요청 커밋 df2eba8의 Collect US briefing inputs 실행. 작성 시점(2026-10-31 06:21 KST) 진행 중(in_progress)이고 artifact가 없어 분석 수치를 사용하지 않았다.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "Intel 쇼크에 나스닥 2.86% 급락",
+    "summary_points": [
+      "INTC −28.58%, 반도체지수 −7.2%가 지수를 끌어내렸다.",
+      "AMZN은 장전 −7%에서 −1.41%로 낙폭을 줄였다.",
+      "나스닥은 10월 −5% 넘게 빠져 최악의 달이었다."
+    ],
+    "notices": [
+      "원문 사이트 직접 열람이 막혀 지수·종가는 검색 요약으로 확인한 잠정값이다.",
+      "INTC 종가는 매체별 65.12~65.76달러로 차이가 있다.",
+      "Dell·Regeneron 종가와 유가 결제가는 확인하지 못했다.",
+      "Massive 분석은 작성 시점 미완료로 쓰지 않았다."
+    ],
+    "issues": [
+      {
+        "title": "Intel 전망 쇼크",
+        "preview": "4분기 전망 대폭 미달, INTC −28.58%였다.",
+        "points": [
+          "4분기 매출 150억~160억달러로 예상 약 170.7억달러를 밑돌았다.",
+          "AMD −10.88%, NVDA −4.22%, 반도체지수 −7.2%였다."
+        ],
+        "meaning": "AI 수혜 기대가 큰 업종일수록 전망 하향에 더 크게 흔들린다는 신호다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 반도체주(INTC·AMD·NVDA)",
+            "basis": "다음 거래일 11/2 정규장 종가를 10/30 종가(INTC 65.76USD, AMD 504.80USD)와 비교한다. 전망 하향이 확정된 악재라 추가 추정치 하향이 이어질 수 있다.",
+            "counter": "하루 −7.2% 급락 뒤 기술적 반등이 가능하고, 장 초반 반등 후 다시 밀리는 경로도 있을 수 있다. 장중 경로와 종가 방향은 별개다.",
+            "invalidation": "INTC가 하락분 절반(약 78.92USD) 이상 회복하면 매도 과잉 해석을, 65USD 아래 마감이 이어지면 하방 해석을 강화한다.",
+            "sources": [
+              "intc_8k",
+              "reuters_wrap",
+              "qINTC",
+              "qAMD"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체 업종",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다. Apple 실적(11/2)과 고용보고서(11/6)가 같은 기간에 있다.",
+            "counter": "데이터센터 수요가 견조하다는 Intel 설명이 업종 전체 판단을 지지할 수 있으나 PC 둔화가 길다. 자료가 상충해 판단을 보류한다.",
+            "invalidation": "빅테크가 설비투자 축소를 시사하면 하방, 수요 지속을 확인하면 상방으로 재판단한다.",
+            "sources": [
+              "intc_8k",
+              "apple",
+              "jobs"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Amazon 미달·낙폭 축소",
+        "preview": "실적 미달에도 AMZN은 −1.41%로 선방했다.",
+        "points": [
+          "EPS·매출 미달, 12개월 잉여현금흐름 약 −424억달러였다.",
+          "장전 226.55달러에서 240.35달러로 13.80달러 회복했다."
+        ],
+        "meaning": "AWS 성장은 인정받았지만 현금 소진 우려는 시장 전체로 번졌다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMZN",
+            "basis": "다음 거래일 11/2 정규장 종가를 240.35USD와 비교한다. 장전 저점에서 대부분 회복해 매도가 흡수됐을 가능성이 있다.",
+            "counter": "분봉·VWAP 자료가 없어 매도 흡수를 확인하지 못했다. 시장 전체 약세가 이어지면 장 초반 재하락이 가능하다.",
+            "invalidation": "10/29 종가 243.79USD 위 마감이면 상방, 226.55USD 하회면 하방으로 재판단한다.",
+            "sources": [
+              "amzn_cons",
+              "amzn_pre",
+              "qAMZN"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMZN·대형 기술주",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다.",
+            "counter": "AWS 39% 성장과 현금흐름 적자 해석이 상충한다. 자료가 부족해 판단을 보류한다.",
+            "invalidation": "추정치 상향이 이어지면 상방, 설비투자 확대가 추가되면 하방으로 재판단한다.",
+            "sources": [
+              "amzn_ir",
+              "amzn_cons"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Reddit 유입 감소",
+        "preview": "AI 검색 요약 여파, RDDT −29.22%였다.",
+        "points": [
+          "4분기 전망과 DAU가 예상에 못 미쳤다.",
+          "CEO가 10월 검색 유입 감소를 AI 요약과 연결했다."
+        ],
+        "meaning": "AI가 검색 의존 플랫폼의 유입을 줄이는 위험이 실제 실적에 나타났다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "RDDT",
+            "basis": "다음 거래일 11/2 정규장 종가를 91.73USD와 비교한다.",
+            "counter": "상장 후 최악의 하락 뒤 반등과 등급 하향에 따른 추가 매도가 모두 가능하다. 판단을 보류한다.",
+            "invalidation": "장중 저점 89.28USD 하회 마감이면 하방, 하락분 절반(약 110.67USD) 회복이면 상방으로 재판단한다.",
+            "sources": [
+              "rddt_cnbc",
+              "qRDDT"
+            ]
+          },
+          "d5": {
+            "direction": "down",
+            "target": "RDDT",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다. 유입 감소는 구조적 요인이라 추정치 하향이 이어질 수 있다.",
+            "counter": "급락으로 상당 부분이 이미 반영됐을 수 있고 단기 반등 폭이 클 수 있다.",
+            "invalidation": "회사가 유입 회복 지표를 제시하거나 110.67USD 위로 회복하면 하방 판단을 철회한다.",
+            "sources": [
+              "rddt_cnbc"
+            ]
+          }
+        }
+      },
+      {
+        "title": "PC·하드웨어주 약세",
+        "preview": "Dell 약 −11%, HP 약 −9%였다(장중).",
+        "points": [
+          "Intel의 PC 둔화·메모리 부족 경고가 하드웨어주로 번졌다.",
+          "Dell 종가는 매체별로 달라 미확인이다."
+        ],
+        "meaning": "부품 공급 부족과 수요 둔화가 겹치면 하드웨어 마진 우려가 커진다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "Dell·HP 등 PC 하드웨어",
+            "basis": "다음 거래일 11/2 정규장 종가를 10/30 종가와 비교한다. 종가 자체가 미확인이다.",
+            "counter": "기준 종가가 확인되지 않아 판단을 보류한다.",
+            "invalidation": "확정 종가 확인 후 10/30 저점 하회 여부로 재판단한다.",
+            "sources": [
+              "dell",
+              "reuters_wrap"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "PC 하드웨어",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다.",
+            "counter": "PC 둔화 지속과 AI 서버 수요가 상충한다.",
+            "invalidation": "업체별 가이던스 변경이 나오면 재판단한다.",
+            "sources": [
+              "dell",
+              "intc_8k"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 마감",
+        "preview": "나스닥 10월 −5%↑, 다우는 +1.7%였다.",
+        "points": [
+          "나스닥은 2025년 3월 이후 최악의 달이었다.",
+          "금은 1년 최저, 브렌트유는 10월 약 14% 올랐다."
+        ],
+        "meaning": "기술주에서 경기·방어 업종으로 돈이 옮겨가는 흐름이 월간으로 확인됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "나스닥 종합",
+            "basis": "다음 거래일 11/2 정규장 종가를 25,437.00과 비교한다. 월말 리밸런싱 이후 새 달 첫 거래일이다.",
+            "counter": "급락 뒤 반발 매수와 Apple 실적 대기가 상충한다. 장 초반 반등 후 되밀림이 가능하다.",
+            "invalidation": "나스닥이 10/30 하락분 절반(약 25,810.87) 이상 회복하면 상방으로 재판단한다.",
+            "sources": [
+              "inv_close",
+              "wsj_pts"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 주요 지수",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다.",
+            "counter": "금리 소폭 하락은 지지 요인이지만 유가 상승과 AI 투자 회수 의문이 부담이다.",
+            "invalidation": "고용보고서 이후 10년물 5% 재돌파 시 하방, 4.8% 아래 안착 시 상방으로 재판단한다.",
+            "sources": [
+              "ust10",
+              "oil",
+              "jobs"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Regeneron 실적 강세",
+        "preview": "EPS 예상 상회, 장중 약 +11.5%였다.",
+        "points": [
+          "3분기 매출 +36%, 비GAAP EPS 20.07달러였다.",
+          "종가는 확인하지 못했다."
+        ],
+        "meaning": "기술주 급락 속에도 실적이 확인된 헬스케어로는 매수가 들어왔다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "REGN",
+            "basis": "다음 거래일 11/2 정규장 종가를 10/30 종가와 비교한다. 종가 미확인이다.",
+            "counter": "기준 종가가 없어 판단을 보류한다.",
+            "invalidation": "확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "regn"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "REGN·헬스케어",
+            "basis": "5거래일 뒤 11/6 정규장 종가를 10/30과 비교한다.",
+            "counter": "실적 상회와 급등 후 차익 실현이 상충한다.",
+            "invalidation": "목표가 상향이 이어지면 상방으로 재판단한다.",
+            "sources": [
+              "regn"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "INTC": {
+        "reason": "4분기 전망 대폭 미달로 28.58% 급락했다.",
+        "watch": "65달러대 지지와 추정치 하향 폭을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "11/2 종가를 65.76USD와 비교한다.",
+            "counter": "급락 뒤 반등과 추가 하향이 상충한다.",
+            "invalidation": "78.92USD 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "intc_8k",
+              "qINTC"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "INTC",
+            "basis": "11/6 종가를 65.76USD와 비교한다.",
+            "counter": "PC 둔화 기간과 데이터센터 수요가 상충한다.",
+            "invalidation": "추정치 하향 지속 시 하방으로 바꾼다.",
+            "sources": [
+              "intc_8k"
+            ]
+          }
+        }
+      },
+      "AMZN": {
+        "reason": "실적 미달에도 장전 −7%에서 −1.41%로 회복했다.",
+        "watch": "243.79달러 회복과 226.55달러 지지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMZN",
+            "basis": "11/2 종가를 240.35USD와 비교한다.",
+            "counter": "분봉 자료가 없어 매도 흡수를 확인하지 못했다.",
+            "invalidation": "243.79USD 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "qAMZN",
+              "amzn_pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMZN",
+            "basis": "11/6 종가를 240.35USD와 비교한다.",
+            "counter": "AWS 성장과 현금흐름 적자가 상충한다.",
+            "invalidation": "226.55USD 하회 시 하방으로 바꾼다.",
+            "sources": [
+              "amzn_ir",
+              "amzn_cons"
+            ]
+          }
+        }
+      },
+      "RDDT": {
+        "reason": "AI 검색 요약에 유입이 줄고 전망이 약해 29.22% 급락했다.",
+        "watch": "89.28달러 지지와 유입 추이를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "RDDT",
+            "basis": "11/2 종가를 91.73USD와 비교한다.",
+            "counter": "반등과 추가 매도가 모두 가능하다.",
+            "invalidation": "89.28USD 하회 시 하방으로 바꾼다.",
+            "sources": [
+              "qRDDT"
+            ]
+          },
+          "d5": {
+            "direction": "down",
+            "target": "RDDT",
+            "basis": "11/6 종가를 91.73USD와 비교한다. 유입 감소는 구조적이다.",
+            "counter": "이미 크게 반영됐을 수 있다.",
+            "invalidation": "110.67USD 위 회복 시 철회한다.",
+            "sources": [
+              "rddt_cnbc"
+            ]
+          }
+        }
+      },
+      "AMD": {
+        "reason": "Intel 쇼크와 AI 투자 우려로 10.88% 동반 급락했다.",
+        "watch": "500달러 지지와 데이터센터 수요 설명을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/2 종가를 504.80USD와 비교한다.",
+            "counter": "자체 악재가 아닌 동반 하락이라 반등 여지와 업종 매도 지속이 상충한다.",
+            "invalidation": "500USD 하회 마감 시 하방으로 바꾼다.",
+            "sources": [
+              "qAMD",
+              "reuters_wrap"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "11/6 종가를 504.80USD와 비교한다.",
+            "counter": "업종 심리와 AI 수요 자료가 상충한다.",
+            "invalidation": "빅테크 설비투자 축소 시사 시 하방으로 바꾼다.",
+            "sources": [
+              "reuters_wrap"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "반도체 급락에 4.22% 내려 시가총액 5조달러를 밑돌았다.",
+        "watch": "200달러 지지와 업종 대비 강도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "11/2 종가를 204.64USD와 비교한다.",
+            "counter": "업종보다 낙폭이 작았지만 업종 매도가 이어질 수 있다.",
+            "invalidation": "200USD 하회 마감 시 하방으로 바꾼다.",
+            "sources": [
+              "qNVDA",
+              "reuters_wrap"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "NVDA",
+            "basis": "11/6 종가를 204.64USD와 비교한다.",
+            "counter": "AI 투자 회수 의문과 수요 지속이 상충한다.",
+            "invalidation": "빅테크 설비투자 발언으로 재판단한다.",
+            "sources": [
+              "qNVDA",
+              "apple"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국 반도체주 첫 반응",
+        "detail": "Intel 쇼크와 반도체지수 −7.2%가 삼성전자·SK하이닉스에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "한국 반도체·코스피",
+            "basis": "다음 한국 거래일 종가를 10/30 KRX 종가와 비교한다. 미국 반도체지수 −7.2%와 나스닥 −2.86%가 근거다.",
+            "counter": "Intel 악재는 PC 중심이고 메모리 부족 언급은 메모리 가격에 우호적일 수 있다. 개장 갭과 종가 방향은 다를 수 있다.",
+            "invalidation": "SK하이닉스가 10/30 종가 위로 마감하면 하방 판단을 낮춘다.",
+            "sources": [
+              "reuters_wrap",
+              "intc_8k",
+              "dell"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "한국 반도체·코스피",
+            "basis": "5거래일 뒤 KRX 종가를 10/30과 비교한다.",
+            "counter": "메모리 공급 부족과 미국 AI 투자 회의론이 상충한다.",
+            "invalidation": "Apple 실적과 미국 반도체 반등 여부로 재판단한다.",
+            "sources": [
+              "intc_8k",
+              "apple"
+            ]
+          }
+        },
+        "label": "다음 한국장 개장 · 2026-11-02(월) · 확인 순서"
+      },
+      {
+        "title": "서머타임 종료",
+        "detail": "11/2부터 미국 정규장은 23:30~06:00 KST다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "시각 변경(시장 방향 무관)",
+            "basis": "일정 변경 항목으로 방향 판단 대상이 아니다.",
+            "counter": "해당 없음.",
+            "invalidation": "해당 없음.",
+            "sources": [
+              "nyse"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "시각 변경(시장 방향 무관)",
+            "basis": "일정 변경 항목으로 방향 판단 대상이 아니다.",
+            "counter": "해당 없음.",
+            "invalidation": "해당 없음.",
+            "sources": [
+              "nyse"
+            ]
+          }
+        },
+        "label": "2026-11-01 서머타임 종료"
+      },
+      {
+        "title": "Apple 실적",
+        "detail": "11/2 장 마감 후 발표, 빅테크 실적의 마지막 대형 확인 지점이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL·나스닥",
+            "basis": "발표 전이라 판단을 보류한다.",
+            "counter": "컨센서스와 사전 기대 반영 정도를 확인하지 못했다.",
+            "invalidation": "발표 후 매출·가이던스와 시간외 반응을 확인한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL·대형 기술주",
+            "basis": "발표 후 11/6까지의 정규장 종가로 본다.",
+            "counter": "발표 대기 상태다.",
+            "invalidation": "가이던스와 설비투자 발언 확인 후 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          }
+        },
+        "label": "2026-11-03 07:00 KST"
+      },
+      {
+        "title": "10월 고용보고서",
+        "detail": "11/6 예정 보도, BLS 원문은 미확인이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "발표 전이라 판단을 보류한다.",
+            "counter": "고용 결과는 이익과 할인율에 서로 다른 영향을 준다.",
+            "invalidation": "결과와 10년물 반응을 확인한다.",
+            "sources": [
+              "jobs"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "발표 전이라 판단을 보류한다.",
+            "counter": "발표 대기 상태다.",
+            "invalidation": "결과와 10년물 반응을 확인한다.",
+            "sources": [
+              "jobs",
+              "ust10"
+            ]
+          }
+        },
+        "label": "11/6 고용보고서 · 확인 순서"
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 공식 거래시간·달력",
+      "nasdaq": "Nasdaq · 공식 휴장 일정",
+      "inv_close": "Investing.com · 10월30일 미국장 마감",
+      "wsj_pts": "Bloomingbit · 뉴욕증시 마감",
+      "sp_card": "24/7 Wall St. · S&P500 −1.8% 마감",
+      "reuters_wrap": "Yahoo Finance(Reuters) · 월가 급락 마감",
+      "yahoo_live": "Yahoo Finance · 10월30일 장 흐름",
+      "intc_8k": "Intel · 3분기 실적(SEC 8-K)",
+      "intc_yahoo": "Yahoo Finance · Intel 1974년 이후 최악의 날",
+      "qINTC": "Motley Fool · INTC 종가",
+      "amzn_ir": "Amazon · 3분기 실적(SEC 8-K)",
+      "amzn_cons": "TradingKey · Amazon 기대 대비 결과",
+      "amzn_pre": "FinanceFeeds · AMZN 장전 226.55USD",
+      "qAMZN": "Google Finance · AMZN 종가",
+      "rddt_cnbc": "CNBC · Reddit 상장 후 최악의 날",
+      "qRDDT": "CNBC · RDDT 시세",
+      "qAMD": "StockAnalysis · AMD 종가",
+      "qNVDA": "CNBC · NVDA 시세",
+      "chips_1t": "Benzinga · 반도체주 하루 1조달러 증발",
+      "dell": "24/7 Wall St. · Dell·HP 하드웨어주 급락",
+      "regn": "Regeneron · 3분기 실적(SEC 8-K)",
+      "ust10": "Trading Economics · 미국 10년물",
+      "gold": "FXStreet · 금 1년 최저",
+      "oil": "Investify · 10월30일 유가",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "jobs": "FinanceCalendar · 10월 고용보고서 일정",
+      "massive": "Massive · 미국 일별 분석"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-31T06:21:07+09:00",
+      "input_cutoff": "2026-10-31T06:21:07+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/2와 5거래일 뒤 11/6 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  }
+}
