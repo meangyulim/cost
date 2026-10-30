@@ -1,13 +1,11 @@
 {
   "end_date": "2026-10-29",
   "watch": [
-    "GOOGL",
-    "MSFT",
-    "CAT",
-    "LLY",
-    "META",
+    "INTC",
     "AMZN",
-    "INTC"
+    "XOM",
+    "CVX",
+    "GOOGL"
   ],
-  "requested_at": "2026-10-30T07:42:34+09:00"
+  "requested_at": "2026-10-31T02:57:01+09:00"
 }
