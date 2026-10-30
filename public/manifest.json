@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-10-30",
+  "latest_id": "kr-close-2026-10-30",
   "reports": [
+    {
+      "id": "kr-close-2026-10-30",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-10-30",
+      "title": "한국장 마감 브리핑 · 2026.10.30",
+      "summary": "미국 AI 투자 우려에 코스피 3.48% 급락, 5,730선 마감",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "path": "reports/kr-close-2026-10-30/"
+    },
     {
       "id": "kr-pre-2026-10-30",
       "is_test": false,

@@ -1,0 +1,915 @@
+{
+  "id": "kr-close-2026-10-30",
+  "is_test": false,
+  "market": "KR",
+  "market_date": "2026-10-30",
+  "session": "close",
+  "venue": "KRX",
+  "title": "한국장 마감 브리핑 · 2026.10.30",
+  "as_of": "2026-10-30T15:30:00+09:00",
+  "queried_at": "2026-10-30T15:51:00+09:00",
+  "summary": "미국 AI 투자 우려에 코스피 3.48% 급락, 5,730선 마감",
+  "summary_detail": "코스피는 5,730.74(−3.48%), 코스닥은 724.38(−3.83%)으로 마감했다. 10:04 KST 매도 사이드카가 발동되며 장중 5%대 하락했고 외국인이 1조8,255억원 순매도했다. SK하이닉스 −7.08%, 삼성전자 −3.02%, 실적이 전망을 밑돈 기아는 −11.73%로 보도됐다. 일본은행은 1.25% 동결했다.",
+  "interpretation": "확인된 사실과 조건부 해석을 구분한다. 전날 미국 Alphabet·Intel·Amazon 실적 뒤 AI 투자비 부담이 부각되며 외국인 매도가 반도체 대형주에 집중됐다. 오후 개인·기관 매수로 장중 저점에서 낙폭을 줄였지만, 다음 거래일 방향은 오늘 밤 미국 정규장의 기술주 반응과 외국인 매도 축소 여부를 함께 확인해야 한다. 기아 급락은 시장 하락과 실적 하회가 겹친 결과다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,730.74",
+      "unit": "pt",
+      "delta": "−206.92",
+      "percent": "−3.48",
+      "direction": "down",
+      "source": "kospi-close",
+      "additional_sources": [
+        "kospi-close-etoday",
+        "kospi-close-sedaily"
+      ],
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "724.38",
+      "unit": "pt",
+      "delta": "−28.85",
+      "percent": "−3.83",
+      "direction": "down",
+      "source": "kosdaq-close",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "코스피 3.48% 급락·매도 사이드카",
+      "fact": "코스피는 5,730.74(−206.92, −3.48%)로 마감했다. 2.99% 내린 5,760.35로 출발해 10:04:55 KST 코스피200 선물이 5.12% 떨어지며 11거래일 만에 매도 사이드카가 발동됐고 장중 한때 5%대 하락했다. 오후 개인·기관 매수로 낙폭을 줄였다. 이틀간 하락폭은 −281.70포인트(6,012.44→5,730.74).",
+      "source": "kospi-close",
+      "additional_sources": [
+        "kospi-close-etoday",
+        "kospi-close-sedaily",
+        "sidecar",
+        "newspim-intraday"
+      ]
+    },
+    {
+      "title": "반도체 투톱 동반 급락",
+      "fact": "SK하이닉스는 1,418,000원(−108,000원, −7.08%)으로 마감했다. 시가 1,460,000원, 장중 저가 1,381,000원이었다. 삼성전자는 225,000원(−7,000원, −3.02%)으로 이틀째 하락했다. 전날 SK하이닉스만 오르며 지수를 받쳤던 구도가 깨졌다.",
+      "source": "close-fn",
+      "additional_sources": [
+        "close-slist",
+        "hynix-1056"
+      ]
+    },
+    {
+      "title": "외국인 1.8조 순매도",
+      "fact": "코스피에서 외국인은 1조8,255억원 순매도했고 개인 8,713억원, 기관 7,168억원 순매수로 보도됐다(마감 직후 보도 기준). 전날 매도하던 기관이 매수로 돌아섰다. 상승·하락 종목 수는 확인하지 못했다.",
+      "source": "close-fn",
+      "additional_sources": [
+        "newspim-intraday"
+      ]
+    },
+    {
+      "title": "미국 AI 투자 부담 재평가",
+      "fact": "전날 미국에서 Alphabet 실적 뒤 AI 투자비 부담이 부각됐고 장후 Intel의 4분기 전망 부진과 Amazon 하락이 이어졌다. 국내 하락의 핵심 배경으로 이 재평가가 지목됐다.",
+      "source": "close-fn",
+      "additional_sources": [
+        "alphabet",
+        "intc",
+        "amzn",
+        "ah-movers"
+      ]
+    },
+    {
+      "title": "기아 실적 전망 하회·급락",
+      "fact": "기아 3분기 영업이익 1조8,183억원(전년 대비 +24.3%)은 연합인포맥스 집계 전망 2조3,313억원보다 약 22% 낮았다. 순이익은 1조2,855억원(−9.6%), 영업이익률 5.8%다. 관세 인하 기저효과(약 5,300억원)를 원자재·중동 영향(약 5,700억원)이 상쇄했다. 주가는 13:50 KST 95,800원(−11.54%), 마감 기준 −11.73%로 보도됐다(종가 가격 미확인).",
+      "source": "kia-consensus",
+      "additional_sources": [
+        "kia-q3",
+        "kia-price",
+        "close-fn"
+      ]
+    },
+    {
+      "title": "코스닥 −3.83%",
+      "fact": "코스닥은 724.38(−28.85, −3.83%)로 마감해 코스피보다 낙폭이 컸다. 이틀 연속 2% 이상 하락했다(전날 −2.34%).",
+      "source": "kosdaq-close"
+    },
+    {
+      "title": "일본은행 1.25% 동결",
+      "fact": "일본은행은 기준금리를 1.25%로 동결했다(8대 1, 다카타 위원 인상 주장). 기조적 물가가 2%에 대체로 부합한다고 판단했고 발표 직후 달러/엔이 157.12엔까지 내려 엔화가 강세를 보였다. 원·달러는 10:54 KST 1,337.90원으로 1,330원대에서 안정적이었다(주간 종가 미확인).",
+      "source": "boj",
+      "additional_sources": [
+        "boj-detail",
+        "fx"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,418,000",
+      "currency": "KRW",
+      "delta": "−108,000",
+      "percent": "−7.08",
+      "direction": "down",
+      "source": "close-slist",
+      "additional_sources": [
+        "close-fn",
+        "hynix-1056"
+      ],
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가 · NXT·시간외 제외",
+      "reason": "미국 AI 투자 부담이 메모리로 번지며 시가 1,460,000원에서 장중 1,381,000원까지 밀린 뒤 7.08% 하락 마감했다.",
+      "watch": "11월2일 1,381,000원 저점 유지와 외국인 순매도 축소, 미국 메모리주 반응을 확인한다.",
+      "reason_sources": [
+        "close-slist",
+        "close-fn",
+        "ah-movers"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "225,000",
+      "currency": "KRW",
+      "delta": "−7,000",
+      "percent": "−3.02",
+      "direction": "down",
+      "source": "close-fn",
+      "additional_sources": [
+        "kospi-close"
+      ],
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가 · NXT·시간외 제외",
+      "reason": "전날 주주환원 실망(−4.13%)에 미국 기술주 충격이 겹쳐 이틀째 하락했다.",
+      "watch": "225,000원 지지와 SK하이닉스 대비 상대강도, 외국인 매도 지속 여부를 본다.",
+      "reason_sources": [
+        "close-fn",
+        "alphabet",
+        "intc"
+      ]
+    },
+    {
+      "name": "기아",
+      "ticker": "000270",
+      "price": "95,800",
+      "currency": "KRW",
+      "delta": "−12,500",
+      "percent": "−11.54",
+      "direction": "down",
+      "source": "kia-price",
+      "additional_sources": [
+        "close-fn"
+      ],
+      "as_of": "2026-10-30T13:50:00+09:00",
+      "session": "KRX 정규장 장중 13:50 · 종가 아님 · 마감 −11.73% 보도, 종가 가격 미확인",
+      "reason": "3분기 영업이익이 시장 전망보다 약 22% 낮게 발표되며 지수 급락과 겹쳐 11%대 급락했다.",
+      "watch": "14:10 실적 설명회의 4분기 비용·관세 언급과 증권사 전망 조정, 95,800원 아래 하락 확대 여부를 확인한다.",
+      "reason_sources": [
+        "kia-consensus",
+        "kia-q3",
+        "kia-price"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(장중 거래값)",
+    "value": "1,337.90",
+    "unit": "원/USD",
+    "delta": "미확인",
+    "direction": "missing",
+    "missing_reason": "서울외환시장 주간 종가를 이번 실행에서 확인하지 못했고, 보도된 장중 변동(−2.6원)의 비교 기준이 전일 주간 종가 1,336.8원과 맞지 않아 변동값을 표시하지 않았다.",
+    "source": "fx",
+    "additional_sources": [
+      "fx-prev"
+    ],
+    "as_of": "2026-10-30T10:54:00+09:00",
+    "session": "서울외환시장 10:54 장중 · 주간 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026.10.30 22:30 KST",
+      "title": "미국 정규장: Amazon·Intel 반응",
+      "detail": "장후 하락이 정규장에서 확대되는지와 나스닥·반도체지수 종가를 다음 한국장 입력으로 본다."
+    },
+    {
+      "label": "확인 순서 · 11월2일(미 현지)",
+      "title": "Apple 3분기(회계 4분기) 실적",
+      "detail": "발표 시각은 미확인이며 아이폰·AI 투자 언급과 시간외 반응을 확인한다."
+    },
+    {
+      "label": "2026.11.02 09:00 KST",
+      "title": "한국 정규장 개장 시나리오",
+      "detail": "코스피 5,730.74·하이닉스 1,418,000원 대비 시초가와 외국인 순매도 지속, 장 초반 저점 뒤 회복 여부를 본다."
+    },
+    {
+      "label": "2026.11.02 15:30 KST",
+      "title": "KRX 종가·외국인 수급",
+      "detail": "외국인 1조8,255억원 순매도가 줄어드는지와 기아 등 실적 실망주 추가 하락을 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "market_date": "2026-10-30",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "checked_at": "2026-10-30T15:51:00+09:00",
+    "note": "KRX 원문 직접 열람은 이번 실행 네트워크에서 차단됐다. 같은 날 08:37 KST 장전 회차가 KRX 휴장일 원칙과 10월 시장운영 안내(10월 5일·9일만 휴장)로 확인한 정상 거래일·비조기폐장 판단을 사용했고, 15:33 KST 코스피·코스닥 장마감 속보와 10:04 KST 사이드카 발동 공지 보도로 실제 정규장 거래(09:00~15:30)를 교차확인했다. 다음 거래일은 11월2일(월), d5는 11월2·3·4·5·6일이며 11월 휴장 공지는 이번 실행에서 원문 재확인하지 못했다(11월에는 법정 공휴일이 없음).",
+    "additional_urls": [
+      "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-10-30T15:45:00+09:00",
+    "scheduled_start_utc": "2026-10-30T06:45:00Z",
+    "actual_start_kst": "2026-10-30T15:47:12+09:00",
+    "actual_start_utc": "2026-10-30T06:47:12Z",
+    "start_offset_seconds": 132,
+    "delay_seconds": 132,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행 · Bash/Git, GitHub MCP, WebSearch, Kakao PlayMCP 나에게 보내기 도구. 뉴스 원문 직접 HTTP 열람(WebFetch)과 Actions artifact 다운로드는 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 수치를 확인했다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "92c7035d58c216847736265cf46c7195937ecf5f",
+      "run_id": 41016163958,
+      "status": "success",
+      "artifact": "krx-analysis-41016163958",
+      "artifact_id": 12959264420,
+      "artifact_digest": "sha256:cd457e921ca4aac8edc877ad17e012986cc342cf1a0208ba00c1fe441a742fdb",
+      "requested_end_date": "2026-10-30",
+      "data_date": "미확인(artifact 열람 불가)",
+      "usage": "artifact 내용 미확인 · 오늘 종가·수급·시장 폭 대체 안 함"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "코스피 −206.92 = 5,730.74 − 5,937.66(10월29일 종가), −206.92/5,937.66 = −3.485%로 보도 −3.48%와 일치. 이틀 누적 −281.70 = 5,730.74 − 6,012.44(10월28일 종가). 코스닥 −28.85 = 724.38 − 753.23, −28.85/753.23 = −3.830%. 삼성전자 −7,000 = 225,000 − 232,000, −3.017%. SK하이닉스 −108,000 = 1,418,000 − 1,526,000, −7.077%. 기아 13:50 가격 95,800원은 시세표 값이며 마감 −11.73%는 보도 등락률로, 이를 역산한 종가는 쓰지 않았다. 기아 영업이익 하회율 1조8,183억/2조3,313억 − 1 = −22.0%. 투자자별 순매수는 마감 직후 보도 값이며 KRX 확정치 대조는 하지 못했다. 장중 저점 지수값은 매체별로 달라 수치를 표기하지 않았다. 일부 검색 결과에 5,728.04(−3.53%) 값이 있었으나 다수 속보(아시아경제·이투데이·서울경제)의 5,730.74를 채택했다.",
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 거래일 및 휴장일",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "월~금 거래·공휴일 휴장 원칙. 같은 날 08:37 KST 장전 회차의 확인을 재사용했다. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "krx-october",
+      "label": "KRX · 2026년 10월 시장운영 안내",
+      "url": "https://strn.krx.co.kr/corebbs5/BHPSTRN0401/list",
+      "note": "10월 휴장은 5일·9일. 10월30일 별도 휴장·조기폐장 공지 없음(장전 회차 확인). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kospi-close",
+      "label": "아시아경제 · 코스피 마감 속보",
+      "url": "https://view.asiae.co.kr/article/2026103015333631457",
+      "note": "2026-10-30 15:33 KST: 코스피 206.92P 내린 5,730.74 마감(3.48%↓). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kospi-close-etoday",
+      "label": "이투데이 · 코스피 마감 속보",
+      "url": "https://www.etoday.co.kr/news/view/2642375",
+      "note": "코스피 206.92p(3.48%) 내린 5,730.74(마감) 교차확인. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kospi-close-sedaily",
+      "label": "서울경제 · 코스피 마감",
+      "url": "https://m.sedaily.com/article/20108356",
+      "note": "206.92포인트(3.48%) 내린 5,730.74 마감 교차확인. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kosdaq-close",
+      "label": "아시아경제 · 코스닥 마감 속보",
+      "url": "https://view.asiae.co.kr/article/2026103015343256789",
+      "note": "코스닥 28.85P 내린 724.38 마감(3.83%↓). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "close-fn",
+      "label": "파이낸셜뉴스 · 마감시황",
+      "url": "https://www.fnnews.com/news/202610301540505038",
+      "note": "미 AI 투자 부담 재평가로 코스피 3.48% 급락. 삼성전자 3.02% 내린 225,000원, SK하이닉스 7.08% 하락, 외국인 1조8,255억원 순매도·개인 8,713억원·기관 7,168억원 순매수, 기아 11.73% 급락 보도(검색 발췌 기준). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "close-slist",
+      "label": "싱글리스트 · 반도체 투톱 동반 약세",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=777852",
+      "note": "SK하이닉스 전 거래일 대비 108,000원(7.08%) 내린 1,418,000원 마감, 시가 1,460,000원, 장중 저가 1,381,000원. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "hynix-1056",
+      "label": "파이낸셜뉴스 · SK하이닉스 장중 급락",
+      "url": "https://fnnews.com/news/202610301035486255",
+      "note": "10:56 KST SK하이닉스 1,388,000원(−138,000원, −9.04%). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "sidecar",
+      "label": "핀포인트뉴스 · 매도 사이드카 발동",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499999",
+      "note": "10:04:55 KST 유가증권시장 매도 사이드카 발동. 코스피200 선물 기준가 935.84 → 887.92(−5.12%). 15일 이후 11거래일 만, 올해 매도 사이드카 28회째. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "newspim-intraday",
+      "label": "뉴스핌 · 장중 5% 급락",
+      "url": "https://www.newspim.com/news/view/20261030000389",
+      "note": "코스피 장중 5% 급락, 11거래일 만의 매도 사이드카 보도(장중 기사). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kia-q3",
+      "label": "파이낸셜뉴스 · 기아 3분기 실적",
+      "url": "https://www.fnnews.com/news/202610301359560710",
+      "note": "기아 3분기 영업이익 1조8,183억원(전년 대비 +24.3%). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kia-consensus",
+      "label": "비건뉴스 · 기아 실적 시장 전망 하회",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=398443",
+      "note": "매출 31조5,974억원(+10.1%), 순이익 1조2,855억원(−9.6%). 연합인포맥스 전망 영업이익 2조3,313억원 대비 약 22% 낮음. 관세 15% 기저효과 약 5,300억원, 원자재·중동 영향 약 5,700억원 감소 요인. 영업이익률 5.8%. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "kia-price",
+      "label": "아시아경제 · 기아 실적·시세",
+      "url": "https://view.asiae.co.kr/article/2026103014101377367",
+      "note": "시세표 2026.10.30 13:50 기준 현재가 95,800원, 전일 대비 −12,500원(−11.54%), 전일가 108,300원. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "boj",
+      "label": "아시아경제 · 일본은행 동결 속보",
+      "url": "https://view.asiae.co.kr/article/2026103012390281590",
+      "note": "일본은행 기준금리 1.25% 동결. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "boj-detail",
+      "label": "MTN · 일본은행 결정 상세",
+      "url": "https://news.mtn.co.kr/article/2026103013304093311",
+      "note": "9명 중 8명 동결 찬성, 다카타 위원 인상 주장. 기조적 물가 2% 대체로 부합 판단. 발표 직후 달러/엔 157.12엔까지 하락(엔 강세) 보도. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "투어코리아 · 장중 환율",
+      "url": "https://www.tournews21.com/news/articleView.html?idxno=147086",
+      "note": "10:54 KST 원/달러 1,337.90원, 전거래일 대비 −2.6원(−0.19%) 보도. 비교 기준은 기사에 명시되지 않음. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "fx-prev",
+      "label": "아시아경제 · 10월29일 환율 마감",
+      "url": "https://view.asiae.co.kr/article/2026102915355929222",
+      "note": "10월29일 서울외환시장 주간 종가 1,336.8원. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "alphabet",
+      "label": "SEC · Alphabet 3분기 실적",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "note": "Alphabet 3분기 실적 공시(장전 회차에서 확인한 원문). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "intc",
+      "label": "SEC · Intel 3분기 실적",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "note": "Intel 4분기 전망 부진(장전 회차에서 확인한 원문). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "amzn",
+      "label": "SEC · Amazon 3분기 실적",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+      "note": "Amazon 3분기 실적 공시(장전 회차에서 확인한 원문). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "ah-movers",
+      "label": "CNBC · 장후 주요 종목",
+      "url": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-after-hours-amzn-intc-twlo-rddt.html",
+      "note": "10월29일(미 동부) 장후 Amazon·Intel 하락(장전 회차에서 확인). 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "nyse-hours",
+      "label": "NYSE · 거래 시간·휴장",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "정규장 09:30~16:00 ET. 10월30일(금)은 EDT(UTC−4), 미국 DST 종료는 11월1일. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "Apple 11월2일(미 현지, 월) 실적 발표 예정. 원문 직접 열람은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-10-30T15:51:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "한국거래소 통계정보 · 일별 분석 작업",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41016163958",
+      "note": "요청 커밋 92c7035 · run 41016163958 success · artifact krx-analysis-41016163958. artifact 내용과 data_date는 이번 실행에서 열람하지 못해 수치를 쓰지 않았다.",
+      "queried_at": "2026-10-30T15:50:00+09:00",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "AI 우려에 코스피 3.48% 급락",
+    "summary_points": [
+      "코스피 5,730.74, 장중 매도 사이드카가 발동됐다.",
+      "외국인 1.8조 매도에 하이닉스 −7.08%였다.",
+      "기아는 실적 하회로 11%대 급락했다."
+    ],
+    "notices": [
+      "기아 가격은 13:50 장중 값이며 종가는 −11.73% 보도, 가격 미확인이다.",
+      "수급은 마감 직후 보도 값, 원·달러 주간 종가와 KRX 분석 수치는 미확인이다.",
+      "국내 종가는 KRX 정규장 기준이며 NXT·시간외를 제외했다."
+    ],
+    "issues": [
+      {
+        "title": "코스피 3.48% 급락",
+        "preview": "5,730.74 마감, 장중 5%대 하락에 매도 사이드카.",
+        "points": [
+          "10:04 매도 사이드카, 11거래일 만이다.",
+          "오후 개인·기관 매수로 낙폭을 줄였다."
+        ],
+        "meaning": "이틀 새 6,000선에서 280포인트 넘게 밀렸다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월2일 KRX 종가를 5,730.74와 비교한다. 이틀 급락과 장중 5%대 저점 뒤 개인·기관 매수가 낙폭을 줄였다.",
+            "counter": "오늘 밤 미국 정규장에서 Amazon·Intel 하락이 확대되면 월요일 장 초반 추가 하락 위험이 크다. 장 초반 하락과 종가 방향은 구분한다.",
+            "invalidation": "미국 기술주 반등과 외국인 순매도 축소가 함께 나오면 상방, 5,730.74 아래 마감 지속이면 하방으로 갱신한다.",
+            "sources": [
+              "kospi-close",
+              "sidecar",
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월2·3·4·5·6일 KRX 종가 기준. 미국 AI 투자 재평가와 국내 실적 시즌이 맞선다.",
+            "counter": "Apple 실적(11월2일 미 현지)과 외국인 수급 방향이 미확인이다.",
+            "invalidation": "2거래일 이상 외국인 순매수 전환이면 상방, 5,600선 이탈이면 하방으로 갱신한다.",
+            "sources": [
+              "close-fn",
+              "apple",
+              "alphabet"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 투톱 급락",
+        "preview": "하이닉스 −7.08%, 삼성전자 −3.02%로 마감했다.",
+        "points": [
+          "하이닉스는 장중 1,381,000원까지 밀렸다.",
+          "삼성전자는 이틀째 하락해 225,000원이다."
+        ],
+        "meaning": "전날 지수를 받친 하이닉스까지 꺾였다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자·SK하이닉스",
+            "basis": "11월2일 KRX 종가를 225,000원·1,418,000원과 비교한다. 급락 뒤 저가 매수와 미국 기술주 추가 약세가 맞선다.",
+            "counter": "오늘 밤 미국 반도체주 반응이 월요일 시초가를 좌우할 수 있고 장 초반 되돌림 위험이 있다.",
+            "invalidation": "미국 메모리주 반등과 두 종목 전일 종가 위 마감이면 상방으로 갱신한다.",
+            "sources": [
+              "close-fn",
+              "close-slist",
+              "ah-movers"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자·SK하이닉스",
+            "basis": "11월2·3·4·5·6일 기준. 강한 메모리 실적과 미국 AI 지출 재평가가 맞선다.",
+            "counter": "빅테크 설비투자 우려가 커지면 메모리 수요 기대가 낮아질 수 있다.",
+            "invalidation": "하이닉스가 2거래일 이상 1,381,000원 아래면 하방으로 갱신한다.",
+            "sources": [
+              "close-slist",
+              "alphabet",
+              "intc"
+            ]
+          }
+        }
+      },
+      {
+        "title": "외국인 1.8조 순매도",
+        "preview": "외국인 −1조8,255억, 개인·기관은 순매수했다.",
+        "points": [
+          "기관은 전날 매도에서 7,168억원 매수로 바뀌었다.",
+          "상승·하락 종목 수는 확인하지 못했다."
+        ],
+        "meaning": "외국인 매도 지속 여부가 반등의 첫 조건이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "월요일 외국인 순매도 규모를 오늘 1조8,255억원과 비교한다.",
+            "counter": "외국인 수급의 원인(헤지·환율·차익)은 자료가 없어 추정하지 않는다.",
+            "invalidation": "외국인 순매수 전환이 확인되면 재판단한다.",
+            "sources": [
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "11월2·3·4·5·6일 누적 외국인 순매수를 본다.",
+            "counter": "미국 실적·금리 경로에 따라 방향이 바뀔 수 있다.",
+            "invalidation": "3거래일 이상 같은 방향이면 갱신한다.",
+            "sources": [
+              "close-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 AI 투자 부담",
+        "preview": "Alphabet·Intel·Amazon 실적 뒤 AI 투자비 우려가 번졌다.",
+        "points": [
+          "Intel 4분기 전망 부진, Amazon 장후 하락이 이어졌다."
+        ],
+        "meaning": "국내 반도체 방향은 미국 정규장 반응이 먼저다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체·AI 인프라",
+            "basis": "오늘 밤 미국 정규장(22:30 KST 개장) 결과가 11월2일 장의 핵심 입력이며 아직 나오지 않았다.",
+            "counter": "장후 하락이 정규장에서 축소될 수도 있다.",
+            "invalidation": "나스닥·반도체지수 종가 방향을 확인한 뒤 판단한다.",
+            "sources": [
+              "ah-movers",
+              "nyse-hours"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체·AI 인프라",
+            "basis": "11월2·3·4·5·6일 기준. AI 투자비 부담과 견조한 메모리 수요가 맞선다.",
+            "counter": "Apple 실적 등 추가 빅테크 결과가 남았다.",
+            "invalidation": "미국 반도체지수가 2거래일 이상 같은 방향이면 갱신한다.",
+            "sources": [
+              "alphabet",
+              "intc",
+              "amzn",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "기아 실적 하회",
+        "preview": "영업익 전망 대비 약 22% 낮아 11%대 급락했다.",
+        "points": [
+          "영업이익 1조8,183억원, 영업이익률 5.8%다.",
+          "관세 기저효과를 원자재·중동 영향이 상쇄했다."
+        ],
+        "meaning": "지수 급락과 별개로 실적 실망이 겹친 하락이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "기아",
+            "basis": "11월2일 KRX 종가를 오늘 종가(−11.73% 보도, 가격 미확인)와 비교한다. 전망 대비 22% 하회는 실제 실망이다.",
+            "counter": "하루 11%대 급락으로 실망이 상당 부분 반영됐을 수 있다. 2분기 발표 뒤에도 급락 전례가 있다.",
+            "invalidation": "13:50 가격 95,800원 아래로 하락 확대 마감하면 하방으로 갱신한다.",
+            "sources": [
+              "kia-consensus",
+              "kia-price",
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "down",
+            "target": "기아",
+            "basis": "11월2·3·4·5·6일 기준. 영업이익이 전분기 대비 감소했고 원자재·중동 비용이 남아 있다.",
+            "counter": "배당·환원 발표나 환율 효과가 반등 요인이 될 수 있다.",
+            "invalidation": "증권사 전망 조정 뒤 2거래일 이상 코스피 대비 강세면 철회한다.",
+            "sources": [
+              "kia-consensus",
+              "kia-q3"
+            ]
+          }
+        }
+      },
+      {
+        "title": "코스닥 −3.83%",
+        "preview": "724.38 마감, 이틀 연속 2% 넘게 내렸다.",
+        "points": [
+          "코스피보다 낙폭이 컸다."
+        ],
+        "meaning": "위험 회피가 중소형주에 더 크게 나타났다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스닥",
+            "basis": "11월2일 종가를 724.38과 비교한다. 이틀 급락 뒤 되돌림과 위험 회피 지속이 맞선다.",
+            "counter": "개별 종목 수급 자료가 없다.",
+            "invalidation": "코스피 대비 강세 마감이면 상방으로 갱신한다.",
+            "sources": [
+              "kosdaq-close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스닥",
+            "basis": "11월2·3·4·5·6일 기준 판단할 업종별 자료가 부족하다.",
+            "counter": "업종·수급 자료 미확인.",
+            "invalidation": "700선 이탈 또는 750선 회복이면 재판단한다.",
+            "sources": [
+              "kosdaq-close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "일본은행 동결·엔 강세",
+        "preview": "BOJ 1.25% 동결, 원·달러는 1,330원대 유지.",
+        "points": [
+          "8대 1 동결, 위원 1명은 인상을 주장했다.",
+          "원·달러 주간 종가는 확인하지 못했다."
+        ],
+        "meaning": "거시 변수보다 기술주 실적이 시장을 움직였다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·원화",
+            "basis": "예상대로 동결돼 아시아 금리 충격은 작았고 원·달러도 안정적이었다.",
+            "counter": "추가 인상 신호에 엔 강세가 이어지면 엔캐리 청산 우려가 나올 수 있다.",
+            "invalidation": "달러/엔 급락과 원·달러 1,350원 돌파가 겹치면 하방으로 갱신한다.",
+            "sources": [
+              "boj",
+              "boj-detail",
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·원화",
+            "basis": "11월2·3·4·5·6일 기준. BOJ 추가 인상 기대와 미국 금리 경로가 맞선다.",
+            "counter": "미국 지표 일정은 이번 실행에서 확인하지 못했다.",
+            "invalidation": "원·달러가 1,350원 위에서 2거래일 이상 머물면 하방으로 갱신한다.",
+            "sources": [
+              "boj-detail",
+              "fx"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "AI 투자 우려에 7.08% 급락, 장중 1,381,000원까지 밀렸다.",
+        "watch": "1,381,000원 저점 유지와 미국 메모리주 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월2일 KRX 종가를 1,418,000원과 비교한다. 장중 저점 대비 일부 회복했지만 외국인 매도가 집중됐다.",
+            "counter": "오늘 밤 미국 반도체주가 더 밀리면 장 초반 1,381,000원 시험 위험이 있다.",
+            "invalidation": "1,418,000원 위 마감과 코스피 대비 강세면 상방으로 갱신한다.",
+            "sources": [
+              "close-slist",
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월2·3·4·5·6일 기준. 메모리 실적 강세와 AI 지출 재평가가 맞선다.",
+            "counter": "빅테크 설비투자 축소 신호가 나오면 하방 위험이 커진다.",
+            "invalidation": "2거래일 이상 1,381,000원 아래면 하방으로 갱신한다.",
+            "sources": [
+              "close-slist",
+              "alphabet",
+              "intc"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "환원 실망 뒤 미국 기술주 충격으로 이틀째 내렸다.",
+        "watch": "225,000원 지지와 외국인 매도 축소를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월2일 KRX 종가를 225,000원과 비교한다. 이틀 7% 넘게 조정돼 실망이 일부 반영됐다.",
+            "counter": "미국 기술주 추가 약세가 장 초반 하락을 키울 수 있다.",
+            "invalidation": "225,000원 아래 하락 확대 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월2·3·4·5·6일 기준. 사상 최대 실적·배당과 환원 지연·AI 투자 우려가 맞선다.",
+            "counter": "외국인 수급 방향 미확인.",
+            "invalidation": "2거래일 이상 232,000원 회복이면 상방으로 갱신한다.",
+            "sources": [
+              "close-fn",
+              "alphabet"
+            ]
+          }
+        }
+      },
+      "000270": {
+        "reason": "영업이익이 전망보다 약 22% 낮아 11%대 급락했다.",
+        "watch": "설명회 4분기 비용 언급과 전망 하향 폭을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "기아",
+            "basis": "11월2일 KRX 종가를 오늘 종가(−11.73% 보도, 가격 미확인)와 비교한다. 전망 대비 22% 하회는 실제 실망이다.",
+            "counter": "하루 11%대 급락으로 실망이 상당 부분 반영됐을 수 있다. 2분기 발표 뒤에도 급락 전례가 있다.",
+            "invalidation": "13:50 가격 95,800원 아래로 하락 확대 마감하면 하방으로 갱신한다.",
+            "sources": [
+              "kia-consensus",
+              "kia-price",
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "down",
+            "target": "기아",
+            "basis": "11월2·3·4·5·6일 기준. 영업이익이 전분기 대비 감소했고 원자재·중동 비용이 남아 있다.",
+            "counter": "배당·환원 발표나 환율 효과가 반등 요인이 될 수 있다.",
+            "invalidation": "증권사 전망 조정 뒤 2거래일 이상 코스피 대비 강세면 철회한다.",
+            "sources": [
+              "kia-consensus",
+              "kia-q3"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "미국 정규장 반응",
+        "detail": "Amazon·Intel 하락 확대 여부와 반도체지수 종가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "결과가 나오기 전이라 판단을 보류한다.",
+            "counter": "장후 하락의 정규장 축소 가능성.",
+            "invalidation": "반도체지수 종가 방향 확인 뒤 판단한다.",
+            "sources": [
+              "ah-movers",
+              "nyse-hours"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월2·3·4·5·6일 기준 미국 실적 반응 누적을 본다.",
+            "counter": "Apple 실적이 방향을 바꿀 수 있다.",
+            "invalidation": "2거래일 연속 같은 방향이면 갱신한다.",
+            "sources": [
+              "apple",
+              "ah-movers"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple 실적",
+        "detail": "발표 시각 미확인, 시간외 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 IT 부품",
+            "basis": "발표 전이며 컨센서스를 확인하지 못했다.",
+            "counter": "자료 부족.",
+            "invalidation": "발표 뒤 시간외 반응으로 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 IT 부품",
+            "basis": "발표 전이다.",
+            "counter": "자료 부족.",
+            "invalidation": "발표 뒤 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "월요일 개장 시나리오",
+        "detail": "5,730.74 대비 시초가와 외국인 매도 지속을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "급락 뒤 되돌림과 미국발 추가 충격이 맞선다. 장 초반 하락과 종가 방향을 구분한다.",
+            "counter": "외국인 매도가 이어지면 반등이 제한된다.",
+            "invalidation": "5,730.74 위 마감이면 상방, 5,600선 이탈이면 하방으로 갱신한다.",
+            "sources": [
+              "kospi-close",
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월2·3·4·5·6일 기준.",
+            "counter": "수급·미국 실적 미확인.",
+            "invalidation": "3거래일 이상 같은 방향이면 갱신한다.",
+            "sources": [
+              "close-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "종가·외국인 수급",
+        "detail": "외국인 순매도 축소와 실적 실망주 추가 하락을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "월요일 자료 전이다.",
+            "counter": "원인 자료 부족.",
+            "invalidation": "외국인 순매수 전환 시 재판단한다.",
+            "sources": [
+              "close-fn"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "11월2·3·4·5·6일 누적을 본다.",
+            "counter": "자료 부족.",
+            "invalidation": "3거래일 같은 방향이면 갱신한다.",
+            "sources": [
+              "close-fn"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "오늘 밤 미국 반도체·빅테크 정규장 종가 방향.",
+      "11월2일 외국인 순매도 축소와 5,730.74 회복 여부.",
+      "하이닉스 1,381,000원 저점 유지와 기아 추가 하락 여부."
+    ],
+    "source_labels": {
+      "calendar": "KRX · 거래일 및 휴장일",
+      "krx-october": "KRX · 2026년 10월 시장운영 안내",
+      "kospi-close": "아시아경제 · 코스피 마감 속보",
+      "kospi-close-etoday": "이투데이 · 코스피 마감 속보",
+      "kospi-close-sedaily": "서울경제 · 코스피 마감",
+      "kosdaq-close": "아시아경제 · 코스닥 마감 속보",
+      "close-fn": "파이낸셜뉴스 · 마감시황",
+      "close-slist": "싱글리스트 · 반도체 투톱 동반 약세",
+      "hynix-1056": "파이낸셜뉴스 · SK하이닉스 장중 급락",
+      "sidecar": "핀포인트뉴스 · 매도 사이드카 발동",
+      "newspim-intraday": "뉴스핌 · 장중 5% 급락",
+      "kia-q3": "파이낸셜뉴스 · 기아 3분기 실적",
+      "kia-consensus": "비건뉴스 · 기아 실적 시장 전망 하회",
+      "kia-price": "아시아경제 · 기아 실적·시세",
+      "boj": "아시아경제 · 일본은행 동결 속보",
+      "boj-detail": "MTN · 일본은행 결정 상세",
+      "fx": "투어코리아 · 장중 환율",
+      "fx-prev": "아시아경제 · 10월29일 환율 마감",
+      "alphabet": "SEC · Alphabet 3분기 실적",
+      "intc": "SEC · Intel 3분기 실적",
+      "amzn": "SEC · Amazon 3분기 실적",
+      "ah-movers": "CNBC · 장후 주요 종목",
+      "nyse-hours": "NYSE · 거래 시간·휴장",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "krx-analysis": "한국거래소 통계정보 · 일별 분석 작업"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-10-30T15:51:00+09:00",
+      "input_cutoff": "2026-10-30T15:51:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. 다음 거래일은 11월2일 KRX 정규장 종가, 5거래일은 11월2·3·4·5·6일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
