@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-10-30",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-31T03:12:50+09:00",
   "attempted_at_utc": "2026-10-30T18:12:50Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-10-30/",
@@ -11,6 +11,9 @@
   "browser_inspection": "not_performed",
   "mobile_zoom_inspection": "not_performed",
   "attempted_record_created": true,
-  "send_tool_called": false,
-  "retry_count": 0
+  "send_tool_called": true,
+  "retry_count": 0,
+  "sent_at_kst": "2026-10-31T03:13:07+09:00",
+  "sent_at_utc": "2026-10-30T18:13:07Z",
+  "kakao_response": "success"
 }
