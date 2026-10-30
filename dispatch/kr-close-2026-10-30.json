@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-10-30",
-  "status": "attempted",
+  "status": "sent",
   "attempted_at_kst": "2026-10-30T15:54:03+09:00",
   "attempted_at_utc": "2026-10-30T06:54:03Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-10-30/",
@@ -11,6 +11,9 @@
   "additional_http_check": "not_performed_by_user_instruction",
   "browser_check": "not_performed_by_user_instruction",
   "attempted_record_created": true,
-  "send_tool_called": false,
-  "retry_count": 0
+  "send_tool_called": true,
+  "retry_count": 0,
+  "sent_at_kst": "2026-10-30T15:54:25+09:00",
+  "sent_at_utc": "2026-10-30T06:54:25Z",
+  "kakao_response": "success"
 }
