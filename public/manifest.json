@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-10-30",
+  "latest_id": "kr-pre-2026-11-02",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-02",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-02",
+      "title": "11월 2일 한국장 시작 전",
+      "summary": "미 반도체 7% 급락 반영 vs 10월 수출 호조, 변동성 장세 예상",
+      "as_of": "2026-11-02T08:42:00+09:00",
+      "path": "reports/kr-pre-2026-11-02/"
+    },
     {
       "id": "us-close-2026-10-30",
       "is_test": false,

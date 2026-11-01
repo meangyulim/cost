@@ -1,0 +1,896 @@
+{
+  "id": "kr-pre-2026-11-02",
+  "title": "11월 2일 한국장 시작 전",
+  "market": "KR",
+  "venue": "국내 지수·관찰 종목의 기본 가격은 2026.10.30 15:30 KST KRX 정규장 종가이며 NXT·시간외를 제외. 미국 지수는 2026.10.31 05:00 KST(2026.10.30 16:00 EDT) 정규장 잠정 종가. 미국 선물은 2026.11.02 08:00 KST(11.01 18:00 EST) 직후 보도값.",
+  "session": "pre",
+  "market_date": "2026-11-02",
+  "as_of": "2026-11-02T08:42:00+09:00",
+  "queried_at": "2026-11-02T08:42:00+09:00",
+  "is_test": false,
+  "summary": "미 반도체 7% 급락 반영 vs 10월 수출 호조, 변동성 장세 예상",
+  "summary_detail": "10월30일 코스피는 5,730.74(−3.48%), 코스닥은 724.38(−3.83%)으로 마감했고 외국인은 1조6,172억원 순매도했다. 같은 날 밤 미국은 Intel 전망 쇼크로 반도체지수가 약 7.2%, 나스닥이 2.86% 급락했으며 이는 오늘 한국장에 처음 반영된다. 반면 10월 수출은 1,153억달러(+93.7%), 반도체 수출은 564억달러(+259.4%)로 역대 2위였고 미국 선물은 일요일 저녁 0.2% 안팎 반등 출발했다. 이번 주 Apple 실적(11.3 새벽 KST), 미국 중간선거(11.3 미 현지), 11.6 고용보고서를 차례로 확인한다.",
+  "interpretation": "확인된 사실과 조건부 해석을 구분한다. 미국 10월30일 반도체 급락은 국내 반도체 대형주에 개장 부담이지만, 국내는 10월29~30일 이미 281.70포인트 하락했고 미 선물이 소폭 반등 출발해 낙폭 일부는 선반영됐을 수 있다. 10월 반도체 수출 564억달러는 AI 투자 우려와 달리 실제 수요가 견조하다는 근거다. 개장 갭보다 15:30 종가의 전일 종가 회복 여부와 외국인 순매도 지속을 우선 확인한다. 상승 확률·목표 수익률은 산출하지 않았다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,730.74",
+      "unit": "pt",
+      "delta": "−206.92",
+      "percent": "−3.48",
+      "direction": "down",
+      "source": "kospi-close",
+      "additional_sources": [
+        "close-polinews"
+      ],
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "724.38",
+      "unit": "pt",
+      "delta": "−28.85",
+      "percent": "−3.83",
+      "direction": "down",
+      "source": "kosdaq-close",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "unit": "pt",
+      "delta": "−140.32",
+      "percent": "−1.82",
+      "direction": "down",
+      "source": "us-close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가"
+    },
+    {
+      "name": "나스닥",
+      "value": "25,437.00",
+      "unit": "pt",
+      "delta": "−747.73",
+      "percent": "−2.86",
+      "direction": "down",
+      "source": "us-close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가"
+    },
+    {
+      "name": "다우",
+      "value": "51,770.31",
+      "unit": "pt",
+      "delta": "−572.25",
+      "percent": "−1.09",
+      "direction": "down",
+      "source": "us-close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 미국 정규장 잠정 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "미 반도체 7% 급락 뒤 선물 소폭 반등",
+      "fact": "10월30일(미 현지) Intel이 4분기 매출 전망 150억~160억달러로 예상을 크게 밑돌며 28.58% 급락했고 AMD −10.88%, NVIDIA −4.22% 등 반도체지수가 약 7.2% 떨어졌다. 나스닥은 25,437.00(−2.86%), S&P500 7,580.07(−1.82%), 다우 51,770.31(−1.09%)로 마감했다(잠정 종가). 이 미국장 마감은 10월30일 한국장 종료 후여서 한국 시장엔 오늘 처음 반영된다. 11월1일 18:00 EST(11월2일 08:00 KST) 직후 S&P500 선물은 +0.2%, 다우 선물은 +103포인트(+0.2%)로 소폭 반등 출발했다. 선물은 확정 가격이 아니다.",
+      "source": "us-close",
+      "additional_sources": [
+        "intc",
+        "chips",
+        "futures",
+        "futures-fxl"
+      ]
+    },
+    {
+      "title": "10월 수출 1,153억달러, 반도체 564억달러",
+      "fact": "산업통상부는 11월1일 10월 수출이 약 1,152.8억달러로 전년 대비 93.7% 늘어 역대 2위(1위 9월 1,211억달러)라고 발표했다. 반도체 수출은 564.4억달러(+259.4%)로 역대 2위였고 무역수지는 약 425억달러 흑자, 일평균 수출은 52.4억달러(+76%)였다. 1~10월 누적은 약 9,300억달러로 정부는 11월 연간 1조달러 돌파를 예상했다. 선박 수출은 부진했다는 보도가 있다.",
+      "source": "exports",
+      "additional_sources": [
+        "exports-newspim",
+        "exports-aju"
+      ]
+    },
+    {
+      "title": "코스피 이틀 −281.70p, 외국인 1.6조 매도",
+      "fact": "10월30일 코스피는 5,730.74(−206.92, −3.48%), 코스닥은 724.38(−28.85, −3.83%)로 마감했다. 이틀간 코스피 하락폭은 −281.70포인트(6,012.44→5,730.74)다. 외국인은 코스피에서 1조6,172억원 순매도했다고 보도됐다(장 마감 직후 보도 1조8,255억원과 집계 시점 차이). 국내 시장은 미국 10월30일 반도체 급락이 반영되기 전 이미 3% 넘게 하락했다.",
+      "source": "kospi-close",
+      "additional_sources": [
+        "kosdaq-close",
+        "flow-joseilbo",
+        "close-polinews"
+      ]
+    },
+    {
+      "title": "이번 주: Apple·중간선거·고용",
+      "fact": "Apple은 11월2일(미 현지) 장 마감 후 FY26 4분기 실적을 발표하며 예상 EPS는 1.98달러, 매출 1,133억달러로 보도됐다. 미국 중간선거는 11월3일(미 현지), AMD 실적은 3일, Qualcomm은 4일, 10월 고용보고서는 11월6일 22:30 KST 예정이다. 증권가는 이번 주 코스피 밴드를 5,700~6,500으로 제시했다(증권사 전망치, 매체별 5,300~6,600도 있음). 미국은 11월1일 서머타임이 끝나 정규장이 23:30~06:00 KST로 1시간 늦어졌다.",
+      "source": "week-fn",
+      "additional_sources": [
+        "week-newsworks",
+        "futures",
+        "apple",
+        "jobs",
+        "nyse-hours"
+      ]
+    },
+    {
+      "title": "원·달러 1,334.3원, 환율은 안정",
+      "fact": "10월30일 서울외환시장 주간거래 종가는 1,334.3원으로 전일 대비 2.5원(−0.19%) 내렸다. 증시 급락에도 월말 수출업체 달러 매도가 우세했고, 외국인 주식 매도에 따른 커스터디 달러 매수가 하락폭을 제한했다는 해석이 나왔다. 10월31일 02:00 야간거래 종가는 이번 실행에서 확인하지 못했다.",
+      "source": "fx",
+      "additional_sources": [
+        "flow-joseilbo"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,418,000",
+      "currency": "KRW",
+      "delta": "−108,000",
+      "percent": "−7.08",
+      "direction": "down",
+      "source": "close-slist",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가 · NXT·시간외 제외",
+      "reason": "10월30일 −7.08% 급락 뒤 미국 반도체지수 −7.2%가 오늘 처음 반영되지만 10월 반도체 수출 564억달러가 맞선다.",
+      "watch": "1,418,000원 대비 오늘 15:30 종가와 외국인 순매도 지속, 장중 저점 이후 회복 여부를 본다.",
+      "reason_sources": [
+        "chips",
+        "intc",
+        "exports",
+        "futures"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "225,000",
+      "currency": "KRW",
+      "delta": "−7,000",
+      "percent": "−3.02",
+      "direction": "down",
+      "source": "close-slist",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가 · NXT·시간외 제외",
+      "reason": "주주환원 실망과 미국 AI 투자 우려로 이틀 연속 하락했고 미국 반도체 급락이 추가 부담이다.",
+      "watch": "225,000원 대비 종가, 하이닉스 대비 상대 강도와 외국인 매도 규모를 확인한다.",
+      "reason_sources": [
+        "chips",
+        "exports",
+        "kospi-close"
+      ]
+    },
+    {
+      "name": "기아",
+      "ticker": "000270",
+      "price": "미확인",
+      "currency": "KRW",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "10월30일 마감 −11.73% 보도는 있으나 종가 가격 원문을 이번 실행에서 확인하지 못했다. 13:50 KST 장중 95,800원(−11.54%)은 종가가 아니다.",
+      "source": "kia-price",
+      "as_of": "2026-10-30T15:30:00+09:00",
+      "session": "KRX 2026.10.30 정규장 종가 기준(가격 미확인) · 13:50 장중 95,800원 별도",
+      "reason": "3분기 영업이익 1조8,183억원이 전망 2조3,313억원을 약 22% 밑돌아 마감 −11.73%가 보도됐다.",
+      "watch": "실적 발표 다음 거래일 추가 매물과 저가 매수 중 어느 쪽이 우세한지, 10월 자동차 수출 호조 반영을 본다.",
+      "reason_sources": [
+        "kia-q3",
+        "kia-consensus",
+        "exports-aju"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(서울외환시장 주간 종가)",
+    "value": "1,334.3",
+    "unit": "원/USD",
+    "delta": "−2.5",
+    "direction": "down",
+    "source": "fx",
+    "additional_sources": [
+      "flow-joseilbo"
+    ],
+    "as_of": "2026-10-30T15:30:00+09:00",
+    "session": "2026.10.30 15:30 KST 주간 종가 · 10.31 02:00 야간거래 종가 미확인"
+  },
+  "next_checks": [
+    {
+      "label": "2026.11.02 09:00 KST",
+      "title": "한국 정규장 개장: 반도체 첫 반응",
+      "detail": "미국 반도체지수 −7.2%와 10월 반도체 수출 호조가 SK하이닉스·삼성전자 시초가와 코스피 5,730.74 지지에 주는 영향을 본다."
+    },
+    {
+      "label": "2026.11.02 15:30 KST",
+      "title": "KRX 종가·외국인 수급",
+      "detail": "장 초반 낙폭을 종가까지 회복하는지와 외국인 순매도 지속 여부를 확인한다."
+    },
+    {
+      "label": "확인 순서 · 11.03 새벽 KST",
+      "title": "Apple FY26 4분기 실적",
+      "detail": "11월2일(미 현지) 장 마감 후 발표되는 EPS·매출과 가이던스가 국내 부품주와 기술주 심리에 주는 영향을 본다."
+    },
+    {
+      "label": "2026.11.03(미 현지)",
+      "title": "미국 중간선거",
+      "detail": "의회 구도 변화가 미국 정책·반도체 수출통제 법안 기대에 주는 영향을 확인한다."
+    },
+    {
+      "label": "2026.11.06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "고용·임금이 예상보다 강하면 금리 부담, 약하면 경기 우려로 해석이 갈릴 수 있다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "market_date": "2026-11-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-02T08:41:00+09:00",
+    "note": "KRX 공식 휴장일 페이지의 월~금 거래·공휴일 휴장 원칙을 기준으로 했다. 11월2일은 월요일이며 2026년 11월에는 법정 공휴일이 없고, 보조 휴장일 목록에서도 10월9일 다음 KRX 휴장은 12월25일이다. 별도 휴장·조기폐장 공지가 검색되지 않아 09:00~15:30 정상 거래일로 판단했다. 이번 실행 네트워크에서 KRX 원문 직접 열람은 차단돼 검색 발췌·보조 목록으로 확인했다. d5는 11월2·3·4·5·6일이다.",
+    "additional_urls": [
+      "https://www.calendarlabs.com/krx-market-holidays-2026/"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-11-02T08:30:00+09:00",
+    "scheduled_start_utc": "2026-11-01T23:30:00Z",
+    "actual_start_kst": "2026-11-02T08:39:20+09:00",
+    "actual_start_utc": "2026-11-01T23:39:20Z",
+    "start_offset_seconds": 560,
+    "delay_seconds": 560,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행 · Bash/Git, 공개 GitHub REST API, WebSearch, Kakao PlayMCP 나에게 보내기 도구. 뉴스·시세 원문 직접 HTTP 열람(WebFetch)과 Actions artifact 다운로드는 네트워크 정책으로 차단돼 웹 검색 원문 발췌와 직전 회차에서 확인한 원문으로 수치를 확인했다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "963c9d85e436fc3854f12b999bf2e8de4db1ff0b",
+      "run_id": 41363225687,
+      "status": "success",
+      "artifact": "krx-analysis-41363225687",
+      "artifact_id": 13106156372,
+      "artifact_digest": "sha256:1ac5e8df2e201ddc5295186a90b0cd9901cb36fe05faf72c5336ab81c8eceea5",
+      "requested_end_date": "2026-10-30",
+      "data_date": "미확인(artifact 내용 미열람)",
+      "usage": "artifact 내용 미확인 · 시장 폭·추세 수치를 보고서에 쓰지 않음"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "한국 지수·종목은 10월30일 KRX 정규장 종가이며 NXT·시간외를 제외했다. 코스피 이틀 하락폭 −281.70포인트는 5,730.74−6,012.44(10월28일 종가)다. SK하이닉스 −108,000원/1,526,000원(전일 종가)=−7.08%, 삼성전자 −7,000원/232,000원=−3.02%로 원문 등락률과 일치한다. 원·달러 −2.5원은 1,334.3−1,336.8(10월29일 주간 종가)이다. 10월 수출은 원문 1,152.8억달러(보도 반올림 1,153억달러), 반도체 564.4억달러다. 미국 지수는 잠정 종가, 선물은 보도 시점 값이다. 기아 10월30일 종가 가격, 야간 환율, KRX 일별 분석 수치, 시장 폭, 분봉·VWAP·옵션·소셜 감성, 검증된 상승 확률은 미확인/미산출이다.",
+  "reading": {
+    "headline": "미 반도체 급락 vs 수출 호조",
+    "summary_points": [
+      "미 반도체지수 −7.2%가 오늘 처음 반영된다.",
+      "10월 반도체 수출은 564억달러로 역대 2위다.",
+      "외국인 매도 지속과 15:30 종가 회복을 본다."
+    ],
+    "notices": [
+      "국내 가격은 10월30일 KRX 종가이며 NXT·시간외를 제외했다.",
+      "미국 지수는 잠정 종가, 선물은 11.2 08:00 KST 직후 보도값이다.",
+      "기아 종가 가격·야간 환율·KRX 분석 수치는 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "미 반도체 급락, 선물은 소폭 반등",
+        "preview": "반도체지수 −7.2% 뒤 미 선물은 +0.2% 출발했다.",
+        "points": [
+          "Intel 전망 쇼크로 나스닥이 2.86% 내렸다.",
+          "일요일 저녁 미 선물은 0.2% 안팎 올랐다."
+        ],
+        "meaning": "국내 반도체에 개장 부담이 남지만 추가 급락 신호는 약하다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "코스피·국내 반도체",
+            "basis": "미국 10월30일 반도체지수 약 −7.2%가 한국장에 처음 반영돼 10월30일 종가 대비 오늘 15:30 종가에 하방 압력이다.",
+            "counter": "국내는 이미 10월29~30일 −281.70p 하락해 일부 선반영됐고 미 선물은 +0.2%로 반등 출발했다. 장 초반 급락 뒤 되돌림 가능성도 있다.",
+            "invalidation": "코스피가 5,730.74 위에서 마감하고 반도체 대형주가 전일 종가를 회복하면 하방 해석을 철회한다.",
+            "sources": [
+              "us-close",
+              "chips",
+              "futures",
+              "kospi-close"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·국내 반도체",
+            "basis": "11월2~6일 동안 Apple·AMD·Qualcomm 실적과 미국 중간선거가 AI 투자 우려를 키우거나 완화할 수 있다.",
+            "counter": "실적 결과·선거 결과가 모두 미발표라 방향 근거가 상충한다.",
+            "invalidation": "미국 반도체지수와 국내 반도체 대형주가 2거래일 이상 같은 방향이면 그 방향으로 갱신한다.",
+            "sources": [
+              "week-fn",
+              "futures",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 수출 역대 2위",
+        "preview": "수출 1,153억달러, 반도체 564억달러로 역대 2위다.",
+        "points": [
+          "반도체 수출은 전년 대비 259.4% 늘었다.",
+          "무역수지는 약 425억달러 흑자였다."
+        ],
+        "meaning": "AI 투자 우려와 달리 메모리 수요 실적은 견조하다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 반도체·수출주",
+            "basis": "반도체 수출 564.4억달러(+259.4%)는 실제 수요 지표로 오늘 하방을 완충할 수 있다.",
+            "counter": "9월 603억달러보다 줄어 정점 논란이 생길 수 있고, 오늘은 미국 반도체 급락이 우선 반영될 가능성이 크다.",
+            "invalidation": "반도체주가 개장 갭을 메우며 전일 종가 위로 마감하면 상방으로 갱신한다.",
+            "sources": [
+              "exports",
+              "exports-newspim",
+              "chips"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체·수출주",
+            "basis": "11월2~6일 동안 수출 호조와 미국 AI 지출 재평가가 맞선다.",
+            "counter": "11월 1~10일 수출(관세청) 발표 전까지 추가 수요 자료가 없다.",
+            "invalidation": "미국 빅테크 실적에서 설비투자 축소 신호가 나오면 하방으로 낮춘다.",
+            "sources": [
+              "exports",
+              "week-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "코스피 이틀 −281p, 외국인 매도",
+        "preview": "5,730.74로 마감, 외국인 1조6,172억원 순매도다.",
+        "points": [
+          "코스피 −3.48%, 코스닥 −3.83%로 마감했다.",
+          "외국인은 나흘 만에 매도로 돌아섰다."
+        ],
+        "meaning": "외국인 매도 지속 여부가 반등 가능성의 핵심이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피 전체",
+            "basis": "이틀 급락 뒤 반발 매수와 미국 반도체 급락 반영이 맞서 오늘 종가 방향을 판단할 근거가 부족하다.",
+            "counter": "외국인 선물·현물 수급은 개장 후에야 확인할 수 있다.",
+            "invalidation": "장 초반 외국인 순매수 전환이 확인되면 상방, 순매도 확대면 하방으로 재판단한다.",
+            "sources": [
+              "kospi-close",
+              "flow-joseilbo",
+              "futures"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피 전체",
+            "basis": "11월2~6일 동안 증권가 밴드 5,700~6,500은 반등 여지를 보지만 이벤트 변동성이 크다.",
+            "counter": "증권사 밴드는 검증된 예측이 아니며 매체별로 5,300~6,600까지 다르다.",
+            "invalidation": "코스피가 5,700을 2거래일 이상 하회하면 하방으로 낮춘다.",
+            "sources": [
+              "week-fn",
+              "week-newsworks"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple·중간선거·고용 대기",
+        "preview": "Apple은 11.3 새벽, 중간선거는 11.3(미 현지)이다.",
+        "points": [
+          "Apple 예상 EPS는 1.98달러로 보도됐다.",
+          "미 정규장은 23:30 KST로 1시간 늦어졌다."
+        ],
+        "meaning": "대형 이벤트 전 관망과 변동성 확대가 함께 나올 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 기술·부품주",
+            "basis": "Apple 실적은 오늘 한국장 종료 후 발표돼 오늘 종가 판단 근거가 없다.",
+            "counter": "발표 전 기대 쏠림·차익실현 여부를 확인할 자료가 없다.",
+            "invalidation": "Apple 발표 후 시간외 반응이 확인되면 11월3일 판단에 반영한다.",
+            "sources": [
+              "apple",
+              "futures"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 기술·부품주",
+            "basis": "11월2~6일 동안 Apple·AMD·Qualcomm 실적, 중간선거, 고용보고서 결과가 모두 미발표다.",
+            "counter": "결과에 따라 AI 투자 우려 완화와 확대가 모두 가능하다.",
+            "invalidation": "실적 가이던스와 선거 결과 확인 후 재판단한다.",
+            "sources": [
+              "week-fn",
+              "apple",
+              "jobs"
+            ]
+          }
+        }
+      },
+      {
+        "title": "원·달러 1,334.3원 안정",
+        "preview": "주간 종가 1,334.3원, 전일보다 2.5원 내렸다.",
+        "points": [
+          "월말 네고가 외국인 주식 매도를 상쇄했다.",
+          "야간거래 종가는 확인하지 못했다."
+        ],
+        "meaning": "환율은 이번 하락의 주된 부담 요인이 아니다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "원화·외국인 수급",
+            "basis": "환율 안정은 외국인 매도 압력을 줄이는 요인이다.",
+            "counter": "외국인 주식 매도가 이어지면 커스터디 달러 매수로 환율이 반등할 수 있다.",
+            "invalidation": "원·달러가 1,345원 위로 오르면 외국인 수급 부담 확대로 재판단한다.",
+            "sources": [
+              "fx",
+              "flow-joseilbo"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "원화·외국인 수급",
+            "basis": "11월2~6일 동안 고용보고서·선거 결과에 따라 달러 방향이 바뀔 수 있다.",
+            "counter": "월초에는 월말 네고 효과가 줄어든다.",
+            "invalidation": "고용보고서 후 달러 급등이면 하방으로 낮춘다.",
+            "sources": [
+              "fx",
+              "jobs"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "개장 갭보다 15:30 종가의 전일 종가 회복 여부를 본다.",
+      "외국인 순매도가 줄면 반등 근거가 생긴다.",
+      "Apple·AMD 실적이 AI 투자 평가를 바꿀 수 있다."
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "미 반도체 급락과 수출 호조가 맞선다.",
+        "watch": "1,418,000원 대비 종가와 외국인 매도 지속을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스",
+            "basis": "미국 반도체지수 −7.2%·NVIDIA −4.22%가 오늘 처음 반영돼 1,418,000원 대비 15:30 종가에 하방 압력이다.",
+            "counter": "10월30일 이미 −7.08% 하락해 일부 선반영됐고 10월 반도체 수출 호조가 지지할 수 있다. 장 초반 급락 뒤 되돌림 위험이 크다.",
+            "invalidation": "1,418,000원 위에서 마감하면 하방 해석을 철회한다.",
+            "sources": [
+              "close-slist",
+              "chips",
+              "exports"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월2~6일 동안 메모리 수출 호조와 AMD·Qualcomm 실적에 따른 AI 지출 평가가 맞선다.",
+            "counter": "외국인 수급과 미국 반도체 반등 여부가 미확인이다.",
+            "invalidation": "2거래일 이상 전일 종가 회복 지속이면 상방으로 갱신한다.",
+            "sources": [
+              "exports",
+              "week-fn"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "환원 실망 뒤 미국 반도체 급락이 겹쳤다.",
+        "watch": "225,000원 대비 종가와 상대 강도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "삼성전자",
+            "basis": "미국 반도체 급락이 오늘 처음 반영돼 225,000원 대비 15:30 종가에 하방 압력이다.",
+            "counter": "이틀간 약 7% 조정돼 실망이 일부 반영됐고 수출 호조가 지지할 수 있다.",
+            "invalidation": "225,000원 위에서 마감하면 하방 해석을 낮춘다.",
+            "sources": [
+              "close-slist",
+              "chips"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월2~6일 동안 메모리 수출 호조와 주주환원 일정 지연·AI 지출 우려가 맞선다.",
+            "counter": "외국인 수급과 추가 환원 공시가 미확인이다.",
+            "invalidation": "2거래일 이상 232,000원 회복이면 상방, 220,000원 이탈 지속이면 하방으로 갱신한다.",
+            "sources": [
+              "exports",
+              "kospi-close"
+            ]
+          }
+        }
+      },
+      "000270": {
+        "reason": "실적이 전망을 약 22% 밑돌아 급락했다.",
+        "watch": "추가 매물과 저가 매수 중 우세 쪽을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "기아",
+            "basis": "실적 미달은 이미 전일 −11.73%로 크게 반영됐고 10월 자동차 수출 호조 보도가 있다.",
+            "counter": "실적 발표 다음 날 추가 매물이 나올 수 있고 종가 가격 자체가 미확인이다.",
+            "invalidation": "오늘 종가가 전일 종가 아래로 하락 확대 마감하면 하방으로 낮춘다.",
+            "sources": [
+              "kia-q3",
+              "kia-consensus",
+              "kia-price",
+              "exports-aju"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "기아",
+            "basis": "11월2~6일 동안 증권사 목표가 조정과 4분기 이익 전망이 아직 확인되지 않았다.",
+            "counter": "원자재·중동 비용 부담 지속 여부가 미확인이다.",
+            "invalidation": "목표가 하향 집중이나 4분기 가이던스 확인 후 재판단한다.",
+            "sources": [
+              "kia-q3",
+              "kia-consensus"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "개장 반도체 첫 반응",
+        "detail": "미 반도체 급락과 수출 호조 중 어느 쪽이 우세한지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "국내 반도체 시초가",
+            "basis": "미국 반도체지수 −7.2%가 처음 반영된다.",
+            "counter": "미 선물 +0.2% 반등과 국내 선반영이 낙폭을 줄일 수 있다.",
+            "invalidation": "시초가가 전일 종가 부근이면 하방 해석을 낮춘다.",
+            "sources": [
+              "chips",
+              "futures"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월2~6일 동안 실적 이벤트가 이어진다.",
+            "counter": "결과가 미발표다.",
+            "invalidation": "미 반도체 반등 지속 여부로 재판단한다.",
+            "sources": [
+              "week-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "종가·외국인 수급",
+        "detail": "장 초반 낙폭 회복과 외국인 순매도 지속을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피 종가",
+            "basis": "장중 수급 자료가 아직 없다.",
+            "counter": "반발 매수와 추가 매도가 모두 가능하다.",
+            "invalidation": "외국인 순매수 전환 시 상방으로 재판단한다.",
+            "sources": [
+              "flow-joseilbo"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월2~6일 동안 증권가 밴드는 5,700~6,500이다.",
+            "counter": "전망치는 검증되지 않았다.",
+            "invalidation": "5,700 하회 지속 시 하방으로 낮춘다.",
+            "sources": [
+              "week-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple 실적",
+        "detail": "EPS·매출·가이던스가 기술주 심리에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 기술·부품주",
+            "basis": "발표가 오늘 한국장 이후다.",
+            "counter": "기대 반영 정도가 미확인이다.",
+            "invalidation": "시간외 반응 확인 후 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 기술·부품주",
+            "basis": "가이던스 미발표다.",
+            "counter": "AI 지출 평가가 엇갈린다.",
+            "invalidation": "발표 결과로 재판단한다.",
+            "sources": [
+              "apple",
+              "futures"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 중간선거",
+        "detail": "의회 구도가 정책·수출통제 기대에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "선거는 오늘 이후다.",
+            "counter": "결과가 미확정이다.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week-fn"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "결과에 따른 정책 경로가 미확정이다.",
+            "counter": "시장 해석이 엇갈린다.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week-fn",
+              "week-newsworks"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 고용보고서",
+        "detail": "강하면 금리 부담, 약하면 경기 우려로 갈릴 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "발표는 11월6일이다.",
+            "counter": "오늘 장과 무관하다.",
+            "invalidation": "발표 후 재판단한다.",
+            "sources": [
+              "jobs"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·성장주",
+            "basis": "결과에 따라 금리 부담과 경기 우려가 상충한다.",
+            "counter": "예상치가 미확인이다.",
+            "invalidation": "발표 후 금리 방향으로 재판단한다.",
+            "sources": [
+              "jobs"
+            ]
+          }
+        }
+      }
+    ],
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-02T08:42:00+09:00",
+      "input_cutoff": "2026-11-02T08:41:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다. d1은 11월2일, d5는 11월2·3·4·5·6일 KRX 정규장 종가 기준입니다."
+    },
+    "source_labels": {
+      "calendar": "KRX · 거래일 및 휴장일",
+      "krx-holidays-list": "CalendarLabs · KRX 2026 휴장일",
+      "kospi-close": "아시아경제 · 10월30일 코스피 마감",
+      "kosdaq-close": "아시아경제 · 10월30일 코스닥 마감",
+      "close-slist": "싱글리스트 · 반도체 투톱 동반 약세",
+      "close-polinews": "폴리뉴스 · 10월30일 마감시황",
+      "flow-joseilbo": "조세일보 · 환율·외국인 순매도",
+      "fx": "서울경제 · 원·달러 1,334.3원 마감",
+      "kia-q3": "파이낸셜뉴스 · 기아 3분기 실적",
+      "kia-consensus": "비건뉴스 · 기아 실적 시장 전망 하회",
+      "kia-price": "아시아경제 · 기아 실적·시세",
+      "exports": "산업통상부 · 2026년 10월 수출입 동향",
+      "exports-newspim": "뉴스핌 · 10월 수출 역대 2위",
+      "exports-aju": "아주경제 · 10월 수출 양극화",
+      "us-close": "Bloomingbit · 10월30일 뉴욕증시 마감",
+      "intc": "Intel · 3분기 실적(SEC 8-K)",
+      "chips": "Benzinga · 반도체주 하루 1조달러 증발",
+      "futures": "CNBC · 11월1일 일요일 선물 동향",
+      "futures-fxl": "FX Leaders · 나스닥·다우 선물 상승 출발",
+      "week-fn": "파이낸셜뉴스 · 주간 증시 전망",
+      "week-newsworks": "뉴스웍스 · 주간 증시 전망",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "nyse-hours": "NYSE · 거래 시간·휴장",
+      "jobs": "FinanceCalendar · 10월 고용보고서 일정",
+      "krx-analysis": "한국거래소 통계정보 · 일별 분석 작업"
+    }
+  },
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 거래일 및 휴장일",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "KRX 공식 휴장일 페이지의 월~금 거래·공휴일 휴장 원칙을 기준으로 했다. 2026년 11월에는 법정 공휴일이 없고 휴장일 목록에서도 10월9일 다음 휴장은 12월25일로 정리돼 있다. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "krx-holidays-list",
+      "label": "CalendarLabs · KRX 2026 휴장일",
+      "url": "https://www.calendarlabs.com/krx-market-holidays-2026/",
+      "note": "보조 자료. 10월9일 다음 KRX 휴장일을 12월25일로 표기해 11월 휴장이 없음을 대조했다. 공식 원문이 아니므로 보조로만 사용.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "kospi-close",
+      "label": "아시아경제 · 10월30일 코스피 마감",
+      "url": "https://view.asiae.co.kr/article/2026103015333631457",
+      "note": "코스피 5,730.74(−206.92, −3.48%) 10월30일 KRX 정규장 종가. 직전 회차 kr-close-2026-10-30에서 확인한 원문. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "kosdaq-close",
+      "label": "아시아경제 · 10월30일 코스닥 마감",
+      "url": "https://view.asiae.co.kr/article/2026103015343256789",
+      "note": "코스닥 724.38(−28.85, −3.83%) 10월30일 KRX 정규장 종가.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "close-slist",
+      "label": "싱글리스트 · 반도체 투톱 동반 약세",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=777852",
+      "note": "SK하이닉스 1,418,000원(−108,000원, −7.08%), 삼성전자 225,000원(−7,000원, −3.02%) 10월30일 정규장 종가.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "close-polinews",
+      "label": "폴리뉴스 · 10월30일 마감시황",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=747341",
+      "note": "美 빅테크 충격에 코스피 3.48% 급락, 반도체주 동반 약세 보도. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "flow-joseilbo",
+      "label": "조세일보 · 환율·외국인 순매도",
+      "url": "https://m.joseilbo.com/news/view.htm?newsid=578575",
+      "note": "외국인 코스피 1조6,172억6,600만원 순매도(나흘 만에 매도 전환)와 원·달러 1,334.3원 마감 보도. 다른 보도는 1조6,168억원. 장 마감 직후 보도의 1조8,255억원과 집계 시점 차이로 판단. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "서울경제 · 원·달러 1,334.3원 마감",
+      "url": "https://m.sedaily.com/article/20108385",
+      "note": "10월30일 15:30 KST 주간거래 종가 1,334.3원(전일 대비 −2.5원, −0.19%), 장중 저점 1,333.6원. 월말 수출업체 네고와 외국인 주식 매도 커스터디 달러 매수가 맞섰다는 해석. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "kia-q3",
+      "label": "파이낸셜뉴스 · 기아 3분기 실적",
+      "url": "https://www.fnnews.com/news/202610301359560710",
+      "note": "기아 3분기 영업이익 1조8,183억원(+24.3%), 순이익 1조2,855억원(−9.6%).",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "kia-consensus",
+      "label": "비건뉴스 · 기아 실적 시장 전망 하회",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=398443",
+      "note": "연합인포맥스 집계 전망 2조3,313억원 대비 영업이익 약 22% 하회.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "kia-price",
+      "label": "아시아경제 · 기아 실적·시세",
+      "url": "https://view.asiae.co.kr/article/2026103014101377367",
+      "note": "10월30일 13:50 KST 95,800원(−11.54%) 장중 시세. 마감 −11.73% 보도는 있으나 종가 가격 원문은 이번 실행에서 확인하지 못했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "exports",
+      "label": "산업통상부 · 2026년 10월 수출입 동향",
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+      "note": "2026.11.01 발표. 10월 수출 약 1,152.8억달러(+93.7%, 역대 2위), 반도체 564.4억달러(+259.4%, 역대 2위), 무역수지 약 425억달러 흑자, 일평균 수출 52.4억달러(+76%). 1~10월 누적 약 9,300억달러. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "exports-newspim",
+      "label": "뉴스핌 · 10월 수출 역대 2위",
+      "url": "https://www.newspim.com/news/view/20261031000112",
+      "note": "10월 수출 1,153억달러·반도체 564억달러, 역대 1위는 9월(1,211억달러·반도체 603억달러) 보도.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "exports-aju",
+      "label": "아주경제 · 10월 수출 양극화",
+      "url": "https://www.ajunews.com/view/20261101141115683",
+      "note": "반도체·자동차 호조, 선박 부진 보도(2026.11.01).",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "us-close",
+      "label": "Bloomingbit · 10월30일 뉴욕증시 마감",
+      "url": "https://en.bloomingbit.io/feed/news/123328",
+      "note": "S&P500 7,580.07(−140.32, −1.82%), 나스닥 25,437.00(−747.73, −2.86%), 다우 51,770.31(−572.25, −1.09%) 잠정 종가. 직전 회차 us-close-2026-10-30에서 확인.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "intc",
+      "label": "Intel · 3분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "note": "4분기 매출 전망 150억~160억달러, 비GAAP EPS 0.25달러.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "chips",
+      "label": "Benzinga · 반도체주 하루 1조달러 증발",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
+      "note": "10월30일 Intel·NVIDIA·AMD 등 반도체주 급락, 반도체지수 약 −7.2%(직전 회차 확인 값).",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "futures",
+      "label": "CNBC · 11월1일 일요일 선물 동향",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "note": "2026.11.01 18:00 EST(11.02 08:00 KST) 직후 S&P500 선물 +0.2%, Nasdaq-100 선물 소폭 상승, 다우 선물 +103포인트(+0.2%). Apple 실적 11월2일 장 마감 후, 예상 EPS 1.98달러·매출 1,133억달러. 선물은 확정 가격이 아님. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "futures-fxl",
+      "label": "FX Leaders · 나스닥·다우 선물 상승 출발",
+      "url": "https://www.fxleaders.com/news/2026/11/01/nasdaq-and-dow-futures-open-higher-ahead-of-midterms-nfp-and-major-corporate-earnings/",
+      "note": "11월1일 저녁 미국 선물 상승 출발 보도(보조).",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "week-fn",
+      "label": "파이낸셜뉴스 · 주간 증시 전망",
+      "url": "https://www.fnnews.com/news/202611011833165536",
+      "note": "이번 주 코스피 예상 밴드 5,700~6,500, 미국 중간선거(11월3일)·Apple(2일)·AMD(3일)·Qualcomm(4일) 실적·6일 고용보고서를 변수로 제시. 증권사 전망치이며 검증된 예측 아님. 이번 실행 네트워크 정책으로 원문 직접 열람(WebFetch)이 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "week-newsworks",
+      "label": "뉴스웍스 · 주간 증시 전망",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901476",
+      "note": "미 중간선거·반도체 반등 여부를 변수로 제시. 다른 보도는 5,300~6,600 박스권 전망.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "Apple FY26 4분기 실적 2026.11.02(미 현지 월요일) 장 마감 후 발표. 정확한 KST 시각은 확인 순서로 표기.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "nyse-hours",
+      "label": "NYSE · 거래 시간·휴장",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "정규장 09:30~16:00 ET. 2026.11.01 서머타임 종료로 EST 적용, 정규장은 23:30~06:00 KST.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "jobs",
+      "label": "FinanceCalendar · 10월 고용보고서 일정",
+      "url": "https://www.financecalendar.com/event/us-employment-situation-non-farm-payrolls-october-2026/",
+      "note": "10월 고용보고서 2026.11.06 08:30 EST(22:30 KST) 예정.",
+      "queried_at": "2026-11-02T08:42:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "한국거래소 통계정보 · 일별 분석 작업",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41363225687",
+      "note": "요청 커밋 963c9d85e436fc3854f12b999bf2e8de4db1ff0b의 push 실행 41363225687 성공, artifact krx-analysis-41363225687(sha256:1ac5e8df…) 생성. 이번 실행에서 artifact 내용은 다운로드하지 못해 수치를 보고서에 쓰지 않았다.",
+      "queried_at": "2026-11-02T08:42:00+09:00",
+      "show_public": false
+    }
+  ]
+}
