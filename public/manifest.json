@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-02",
+  "latest_id": "kr-close-2026-11-02",
   "reports": [
+    {
+      "id": "kr-close-2026-11-02",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-02",
+      "title": "한국장 마감 브리핑 · 2026.11.02",
+      "summary": "미 반도체 쇼크 딛고 기관 매수에 코스피 2.24% 반등, 5,859선 마감",
+      "as_of": "2026-11-02T15:30:00+09:00",
+      "path": "reports/kr-close-2026-11-02/"
+    },
     {
       "id": "kr-pre-2026-11-02",
       "is_test": false,

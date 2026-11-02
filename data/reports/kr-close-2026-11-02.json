@@ -1,0 +1,887 @@
+{
+  "id": "kr-close-2026-11-02",
+  "is_test": false,
+  "market": "KR",
+  "market_date": "2026-11-02",
+  "session": "close",
+  "venue": "KRX",
+  "title": "한국장 마감 브리핑 · 2026.11.02",
+  "as_of": "2026-11-02T15:30:00+09:00",
+  "queried_at": "2026-11-02T15:49:00+09:00",
+  "summary": "미 반도체 쇼크 딛고 기관 매수에 코스피 2.24% 반등, 5,859선 마감",
+  "summary_detail": "코스피는 5,859.08(+2.24%), 코스닥은 734.36(+1.38%)으로 마감했다. 미국 반도체지수 7% 급락 여파로 1.62% 하락 출발했지만 기관이 1조2,329억원 순매수하며 장중 5,910.83까지 올랐다. 외국인은 3,731억원 순매도로 매도를 이어갔다. SK하이닉스 +3.81%, 삼성전자 +1.78%, 한화오션은 잠수함 장비 국산화에 장중 10%대 급등했다. 원·달러는 1,343.8원(+9.5원).",
+  "interpretation": "확인된 사실과 조건부 해석을 구분한다. 미국 10월30일 반도체 급락이 처음 반영된 날이었지만 국내는 이틀간 281.70포인트 하락으로 일부를 선반영했고, 기관 저가 매수가 지수를 끌어올렸다. 다만 외국인 순매도와 원화 약세가 이어져 반등 지속성은 미확인이다. 오늘 밤 미국 반도체 재반등, Apple 실적(11월3일 새벽 KST), 미국 중간선거를 차례로 확인한다. 상승 확률·목표 수익률은 산출하지 않았다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,859.08",
+      "unit": "pt",
+      "delta": "+128.34",
+      "percent": "+2.24",
+      "direction": "up",
+      "source": "kospi-close",
+      "additional_sources": [
+        "kospi-close-sedaily",
+        "close-etoday"
+      ],
+      "as_of": "2026-11-02T15:30:00+09:00",
+      "session": "KRX 2026.11.02 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "734.36",
+      "unit": "pt",
+      "delta": "+9.98",
+      "percent": "+1.38",
+      "direction": "up",
+      "source": "kosdaq-close",
+      "additional_sources": [
+        "kosdaq-close-etoday",
+        "kosdaq-close-sedaily"
+      ],
+      "as_of": "2026-11-02T15:30:00+09:00",
+      "session": "KRX 2026.11.02 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "코스피 2.24% 반등, 하락 출발 뒤 역전",
+      "fact": "코스피는 5,859.08(+128.34, +2.24%)로 마감했다. 미국 10월30일(현지) 인텔 28%·필라델피아 반도체지수 7% 급락 여파로 1.62% 내린 5,637.77에 출발해 장중 5,616.50까지 밀렸다가 최고 5,910.83까지 올랐다. 코스닥은 734.36(+9.98, +1.38%). 유가증권시장 거래대금은 약 14조8,702억원, 상승 653·보합 29·하락 230종목이었다.",
+      "source": "kospi-close",
+      "additional_sources": [
+        "kospi-close-sedaily",
+        "close-etoday",
+        "open-ajunews",
+        "kosdaq-close"
+      ]
+    },
+    {
+      "title": "기관 1.2조 순매수, 외국인은 3,731억 매도",
+      "fact": "유가증권시장에서 기관이 1조2,329억원 순매수했고 개인 1조3,475억원, 외국인 3,731억원 순매도했다(마감 직후 보도 집계). 코스닥은 기관 623억원 순매수, 개인 260억원·외국인 322억원 순매도. 외국인은 10월30일 1조6,172억원 순매도에 이어 매도를 이어갔지만 규모는 줄었다.",
+      "source": "close-etoday",
+      "additional_sources": [
+        "close-wikitree",
+        "open-etoday"
+      ]
+    },
+    {
+      "title": "반도체 대형주 반등: 하이닉스 +3.81%",
+      "fact": "SK하이닉스는 1,472,000원(+54,000, +3.81%), 삼성전자는 229,000원(+4,000, +1.78%)으로 마감했다. SK스퀘어는 +5.91%(종가 미확인). 장중에는 반도체에서 자동차로도 매수세가 옮겨갔다는 분석이 나왔다. 미국 반도체 급락이 처음 반영된 날이지만 국내는 10월29~30일 이미 281.70포인트 하락한 상태였다.",
+      "source": "close-gukje",
+      "additional_sources": [
+        "close-etoday",
+        "close-viva",
+        "senmoney"
+      ]
+    },
+    {
+      "title": "한화오션 잠수함 장비 국산화에 10%대 급등",
+      "fact": "한화오션은 국방과학연구소와 잠수함용 수평발사장치를 국내 기술로 개발했다고 발표했고 09:58 KST 55,100원(+5,100, +10.20%)에 거래됐다. 3분기 영업이익은 4,857억원(전년 대비 +104.8%)이었다. 종가는 이번 실행에서 확인하지 못했다.",
+      "source": "hanwha-fn",
+      "additional_sources": [
+        "hanwha-etoday",
+        "hanwha-jobpost"
+      ]
+    },
+    {
+      "title": "공개매수·합병 개별 이벤트 급등",
+      "fact": "KISCO홀딩스가 11월2일~23일 한국철강 보통주 8,592,668주를 주당 13,000원에 공개매수해 상장폐지를 추진한다고 밝혔고, 한국철강은 장 초반 12,900원(+23.68%)에 거래됐다(전 거래일 10,430원). 샘표·샘표식품은 합병·자사주 소각 기대에 장 초반 동반 상한가였다. 세 종목 종가는 미확인이다.",
+      "source": "kisco-namdo",
+      "additional_sources": [
+        "kisco-hankyung",
+        "sempio-etoday"
+      ]
+    },
+    {
+      "title": "원·달러 1,343.8원, 9.5원 상승",
+      "fact": "15:30 KST 원·달러 환율은 1,343.8원으로 10월30일 주간종가(1,334.3원) 대비 9.5원 올랐다. 외국인 주식 순매도와 미국 기술주 약세가 겹친 날 원화는 약세였다.",
+      "source": "fx",
+      "additional_sources": [
+        "fx-prev"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,472,000",
+      "currency": "KRW",
+      "delta": "+54,000",
+      "percent": "+3.81",
+      "direction": "up",
+      "source": "close-gukje",
+      "additional_sources": [
+        "close-etoday",
+        "close-wikitree"
+      ],
+      "as_of": "2026-11-02T15:30:00+09:00",
+      "session": "KRX 2026.11.02 정규장 종가 · NXT·시간외 제외",
+      "reason": "미국 반도체 7% 급락이 처음 반영된 날에도 3.81% 올라 10월30일 −7.08% 낙폭 일부를 되찾았다.",
+      "watch": "외국인 순매도 축소 여부와 Apple 실적 뒤 미국 반도체주 반응, 1,418,000원(10월30일 종가) 위 유지를 확인한다.",
+      "reason_sources": [
+        "close-gukje",
+        "close-etoday"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "229,000",
+      "currency": "KRW",
+      "delta": "+4,000",
+      "percent": "+1.78",
+      "direction": "up",
+      "source": "close-gukje",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-02T15:30:00+09:00",
+      "session": "KRX 2026.11.02 정규장 종가 · NXT·시간외 제외",
+      "reason": "이틀 하락 뒤 기관 매수 속 1.78% 반등했지만 상승폭은 하이닉스보다 작았다.",
+      "watch": "225,000원(10월30일 종가) 지지와 외국인 매도 전환 여부를 확인한다.",
+      "reason_sources": [
+        "close-gukje",
+        "close-etoday"
+      ]
+    },
+    {
+      "name": "한화오션",
+      "ticker": "042660",
+      "price": "55,100",
+      "currency": "KRW",
+      "delta": "+5,100",
+      "percent": "+10.20",
+      "direction": "up",
+      "source": "hanwha-fn",
+      "additional_sources": [
+        "hanwha-etoday",
+        "hanwha-jobpost"
+      ],
+      "as_of": "2026-11-02T09:58:00+09:00",
+      "session": "KRX 정규장 장중 09:58 · 종가 아님 · 종가 미확인",
+      "reason": "잠수함 수평발사장치 국산화 발표와 3분기 영업이익 104.8% 증가가 겹치며 장중 10%대 급등했다.",
+      "watch": "종가 기준 상승 유지 여부와 다음 거래일 차익 매물 소화, 방산 수주 후속 공시를 확인한다.",
+      "reason_sources": [
+        "hanwha-fn",
+        "hanwha-jobpost"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(15:30 주간거래)",
+    "value": "1,343.80",
+    "unit": "원/USD",
+    "delta": "+9.50",
+    "direction": "up",
+    "source": "fx",
+    "additional_sources": [
+      "fx-prev"
+    ],
+    "as_of": "2026-11-02T15:30:00+09:00",
+    "session": "서울외환시장 주간거래 15:30 · 전 거래일 주간종가 1,334.3원 대비"
+  },
+  "next_checks": [
+    {
+      "label": "확인 순서 · 11.03 새벽 KST",
+      "title": "Apple FY26 4분기 실적",
+      "detail": "11월2일(미 현지) 장 마감 후 발표. 매출·가이던스와 시간외 반응을 국내 IT·부품주 입력으로 본다."
+    },
+    {
+      "label": "2026.11.02 23:30 KST",
+      "title": "미국 정규장: 반도체 재반등 여부",
+      "detail": "10월30일 7% 급락한 반도체지수가 반등하는지와 나스닥 종가(11월3일 06:00 KST)를 확인한다."
+    },
+    {
+      "label": "2026.11.03(미 현지)",
+      "title": "미국 중간선거",
+      "detail": "결과 윤곽과 금리·달러 반응이 11월4일 이후 국내 수급에 영향을 줄 수 있다."
+    },
+    {
+      "label": "2026.11.03 15:30 KST",
+      "title": "KRX 종가·외국인 수급",
+      "detail": "기관 매수 지속과 외국인 순매도 축소 여부, 코스피 5,859.08 유지를 본다."
+    },
+    {
+      "label": "2026.11.06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "금리 경로 재평가가 성장주·반도체 밸류에이션에 주는 영향을 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "market_date": "2026-11-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "checked_at": "2026-11-02T15:49:00+09:00",
+    "note": "KRX 휴장일 원칙(월~금 거래, 공휴일 휴장) 기준. 11월2일은 월요일이며 2026년 11월 법정 공휴일·KRX 휴장일이 없다(보조 목록: 10월9일 다음 휴장 12월25일). 같은 날 08:41 KST 장전 회차가 정상 거래일·비조기폐장으로 판단했고, 15:33 KST 코스피·코스닥 장마감 속보로 15:30 정규장 종료를 확인했다. KRX 원문 직접 열람은 이번 실행 네트워크에서 차단돼 검색 발췌로 확인했다. d5는 11월3·4·5·6·9일이다.",
+    "additional_urls": [
+      "https://www.calendarlabs.com/krx-market-holidays-2026/"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-11-02T15:45:00+09:00",
+    "scheduled_start_utc": "2026-11-02T06:45:00Z",
+    "actual_start_kst": "2026-11-02T15:47:08+09:00",
+    "actual_start_utc": "2026-11-02T06:47:08Z",
+    "start_offset_seconds": 128,
+    "delay_seconds": 128,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행 · Bash/Git, 공개 GitHub REST API, WebSearch, Kakao PlayMCP 나에게 보내기 도구. 뉴스 원문 직접 HTTP 열람(WebFetch)은 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 수치를 확인했다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "152942a7e7a00b46a375b39d3bd5c92a37eeba91",
+      "run_id": 41402146854,
+      "status": "success",
+      "artifact": "krx-analysis-41402146854",
+      "artifact_id": 13121697500,
+      "artifact_digest": "sha256:b950e069fc4eff31ea75025bb21f30573d3d5c7ec2fa8679942b8aaf79a0d42f",
+      "requested_end_date": "2026-11-02",
+      "data_date": "미확인(artifact 내용 미열람)",
+      "usage": "artifact 내용 미확인 · 오늘 종가·수급·시장 폭 대체 안 함"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "코스피 +128.34 = 5,859.08 − 5,730.74(10월30일 종가), 128.34/5,730.74 = +2.240%로 보도 +2.24%와 일치. 장중 저점 대비 반등 = 5,859.08 − 5,616.50 = 242.58포인트, 고점 5,910.83 − 저점 5,616.50 = 294.33포인트. 10월29~30일 하락 281.70 대비 회복 비율 128.34/281.70 = 45.6%. 코스닥 +9.98 = 734.36 − 724.38, 9.98/724.38 = +1.378%. SK하이닉스 +54,000 = 1,472,000 − 1,418,000, 54,000/1,418,000 = +3.808%. 삼성전자 +4,000 = 229,000 − 225,000, +1.778%. 한화오션 09:58 +5,100/50,000(전 거래일) = +10.20%. 한국철강 12,900 − 10,430 = 2,470, 2,470/10,430 = +23.68%; 공개매수가 13,000/10,430 = +24.64% 프리미엄. 원·달러 1,343.8 − 1,334.3 = +9.5원.",
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 거래일 및 휴장일",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "월~금 거래·공휴일 휴장 원칙. 같은 날 08:41 KST 장전 회차가 11월2일 정상 거래일·비조기폐장으로 확인했고, 15:33 KST 장마감 속보로 정규장 종료를 확인했다. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "krx-holidays",
+      "label": "CalendarLabs · KRX 2026 휴장일 목록",
+      "url": "https://www.calendarlabs.com/krx-market-holidays-2026/",
+      "note": "보조 목록: 10월9일 다음 KRX 휴장은 12월25일. 11월 휴장일 없음. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kospi-close",
+      "label": "아시아경제 · 코스피 마감 속보",
+      "url": "https://view.asiae.co.kr/article/2026110215335467893",
+      "note": "2026-11-02 15:33 KST: 코스피 128.34P 오른 5,859.08 마감(2.24%↑). 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kospi-close-sedaily",
+      "label": "서울경제 · 코스피 마감",
+      "url": "https://m.sedaily.com/article/20109153",
+      "note": "코스피 128.34포인트(2.24%) 오른 5,859.08 마감. 시가 5,637.77, 장중 저가 5,616.50, 고가 5,910.83, 거래대금 약 14조8,702억원. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kosdaq-close",
+      "label": "아시아경제 · 코스닥 마감 속보",
+      "url": "https://view.asiae.co.kr/article/2026110215341181434",
+      "note": "코스닥 9.98P 오른 734.36 마감(1.38%↑). 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kosdaq-close-etoday",
+      "label": "이투데이 · 코스닥 장마감 속보",
+      "url": "https://www.etoday.co.kr/news/view/2643105",
+      "note": "[속보] 코스닥 9.98p(1.38%) 오른 734.36(장마감). 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kosdaq-close-sedaily",
+      "label": "서울경제 · 코스닥 마감",
+      "url": "https://m.sedaily.com/article/20109154",
+      "note": "코스닥 9.98포인트(1.38%) 오른 734.36 마감. 전일 724.38, 장중 고가 738.01, 거래대금 약 4조8,000억원. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "close-etoday",
+      "label": "이투데이 · 코스피 마감시황",
+      "url": "https://www.etoday.co.kr/news/view/2643112",
+      "note": "인텔 28%·필라델피아 반도체지수 7% 급락에도 코스피 2.24% 상승. 유가증권시장 기관 1조2,329억원 순매수, 개인 1조3,475억원·외국인 3,731억원 순매도. 상승 653·보합 29·하락 230. SK하이닉스 1,472,000원(+3.81%), 삼성전자 229,000원(+1.78%). 키움증권은 미국 이벤트에 따른 변동성 확대 가능성을 경계. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "close-wikitree",
+      "label": "위키트리 · 코스피 마감",
+      "url": "https://www.wikitree.co.kr/articles/1171119",
+      "note": "코스피 5,859.08 마감, 기관 1조2,329억원 순매수·개인 1조3,475억원·외국인 3,731억원 순매도. 코스닥 기관 623억원 순매수, 개인 260억원·외국인 322억원 순매도. SK하이닉스 54,000원(3.81%) 오른 1,472,000원. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "close-gukje",
+      "label": "국제뉴스 · SK하이닉스·SK스퀘어 급등 마감",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739754",
+      "note": "SK하이닉스 1,472,000원(+54,000, +3.81%), 삼성전자 229,000원(+4,000, +1.78%), SK스퀘어 +5.91%. 코스피·코스닥 동반 상승 마감. SK스퀘어 종가는 확인하지 못함. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "close-viva",
+      "label": "브릿지경제 · 마감시황",
+      "url": "https://www.viva100.com/article/20261102501136",
+      "note": "코스피 2.24% 오르며 5,800선 회복, SK하이닉스 3%대 상승. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "open-etoday",
+      "label": "이투데이 · 장중 상승 전환",
+      "url": "https://www.etoday.co.kr/news/view/2642989",
+      "note": "하락 출발 뒤 2%대 상승 전환, 기관 1조원 순매수(장중 집계). 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "open-ajunews",
+      "label": "아주경제 · 기관 1.2조 매수에 반등",
+      "url": "https://www.ajunews.com/view/20261102140947436",
+      "note": "전 거래일 3.48% 급락과 미국 반도체 매도 확산 뒤 1.62% 내린 5,637.77 출발. 13:44 KST 5,900.74(+2.97%) 장중 기록. 장중 기관 1조2,114억원 순매수. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "senmoney",
+      "label": "센머니 · 반도체·자동차 매수세",
+      "url": "https://www.senmoney.co.kr/news/articleView.html?idxno=38302",
+      "note": "시가총액 상위에서 반도체와 자동차 쪽으로 매수세가 이동했다는 분석(장중 기사). 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "hanwha-fn",
+      "label": "파이낸셜뉴스 · 한화오션 10%대 급등",
+      "url": "https://www.fnnews.com/news/202611021002113686",
+      "note": "09:58 KST 한화오션 55,100원(+5,100, +10.20%). 국방과학연구소와 잠수함 수평발사장치 국산화 발표. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "hanwha-etoday",
+      "label": "이투데이 · 한화오션 장 초반 강세",
+      "url": "https://www.etoday.co.kr/news/view/2642817",
+      "note": "잠수함 핵심장비 국산화 성공에 장 초반 7%대 급등. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "hanwha-jobpost",
+      "label": "잡포스트 · 한화오션 급등",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=235901",
+      "note": "한화오션 10.20% 급등, 고선가 수주잔고 재평가. 3분기 매출 3조4,139억원, 영업이익 4,857억원(전년 대비 +12.9%, +104.8%). 조선 3사 3분기 영업이익 합계 2조2,700억원(+43.6%). 기사 표기 시각의 가격이 종가인지 명시되지 않아 종가로 쓰지 않음. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kisco-hankyung",
+      "label": "한국경제 · 한국철강 공개매수",
+      "url": "https://www.hankyung.com/article/2026110293736",
+      "note": "KISCO홀딩스가 한국철강 비상장 전환을 위한 공개매수 추진, 장 초반 23% 급등. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "kisco-namdo",
+      "label": "남도일보 · 한국철강 1만3,000원 공개매수",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=927884",
+      "note": "11월2일~23일 보통주 8,592,668주를 주당 13,000원에 공개매수, 응모 전량 매수. 지분 83.91% 목표 후 포괄적 주식교환·코스닥 상장폐지 계획. 장 초반 12,900원(+23.68%), 전 거래일 종가 10,430원. 종가는 확인하지 못함. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "sempio-etoday",
+      "label": "이투데이 · 샘표·샘표식품 상한가",
+      "url": "https://www.etoday.co.kr/news/view/2642831",
+      "note": "10월30일 공시된 샘표식품 존속 합병·자사주 소각 기대에 샘표·샘표식품 장 초반 동반 상한가. 종가는 확인하지 못함. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "파이낸셜뉴스 · 원·달러 환율 마감",
+      "url": "https://www.fnnews.com/news/202611021542051062",
+      "note": "15:30 KST 원·달러 1,343.8원, 전 거래일 주간종가 대비 9.5원 상승. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "fx-prev",
+      "label": "kbthink · 11월2일 환율 동향",
+      "url": "https://kbthink.com/investment/fx/daily/261102.html",
+      "note": "11월2일 환율 동향 참고. 전 거래일(10월30일) 주간종가 1,334.3원은 직전 회차에서 확인. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "apple",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "Apple FY26 4분기 실적 11월2일(미 현지) 장 마감 후 발표, 컨퍼런스콜 14:00 PT. 미국 서머타임 종료(11월1일) 후라 한국 시각으로 11월3일 새벽·아침. 기사의 PDT/EDT 표기는 서머타임 종료와 맞지 않아 KST 정확한 시각은 확인 순서로 둠. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "한국거래소 통계정보 · 일별 분석 작업",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41402146854",
+      "note": "요청 커밋 152942a7 push 실행 41402146854 success, artifact krx-analysis-41402146854 생성. artifact 내용은 이번 실행에서 열람하지 못해 수치를 쓰지 않음. 원문 직접 열람(WebFetch)은 이번 실행 네트워크 정책으로 차단돼 웹 검색 원문 발췌로 확인했다.",
+      "queried_at": "2026-11-02T15:49:00+09:00"
+    }
+  ],
+  "reading": {
+    "headline": "기관 매수에 코스피 2.24% 반등",
+    "summary_points": [
+      "코스피 5,859.08, 하락 출발 뒤 2.24% 올랐다.",
+      "기관 1.2조 매수, 외국인은 3,731억 팔았다.",
+      "하이닉스 +3.81%, 한화오션 장중 10%대 급등."
+    ],
+    "notices": [
+      "수급은 마감 직후 보도 집계이며 확정치와 다를 수 있다.",
+      "한화오션 가격은 09:58 장중 값이며 종가는 미확인이다.",
+      "국내 종가는 KRX 정규장 기준이며 NXT·시간외를 제외했다."
+    ],
+    "issues": [
+      {
+        "title": "코스피 2.24% 반등",
+        "preview": "5,637 출발 뒤 5,859.08 마감, 장중 5,910 터치.",
+        "points": [
+          "미국 반도체 급락 여파로 1.62% 하락 출발했다.",
+          "오후 기관 매수로 장중 고점 5,910.83까지 올랐다."
+        ],
+        "meaning": "이틀 급락분 281포인트의 절반 가까이(128포인트)를 되찾았다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월3일 KRX 정규장 종가를 5,859.08과 비교한다. 장중 저점 5,616.50 대비 242포인트 반등해 저가 매수 수요는 확인됐다.",
+            "counter": "외국인 매도가 지속됐고, 오늘 밤 미국 반도체와 Apple 실적이 약하면 장 초반 되돌림 위험이 크다. 장 초반 하락과 종가 방향은 구분한다.",
+            "invalidation": "미국 반도체 반등과 외국인 매도 축소가 함께 나오면 상방, 5,730.74(10월30일 종가) 아래 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "kospi-close-sedaily",
+              "close-etoday",
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 국내 반도체 수출 호조와 미국 AI 투자 재평가가 맞선다.",
+            "counter": "미국 중간선거(11월3일)와 고용보고서(11월6일) 결과가 미확인이다.",
+            "invalidation": "2거래일 이상 외국인 순매수 전환이면 상방, 5,616.50(오늘 장중 저점) 이탈이면 하방으로 갱신한다.",
+            "sources": [
+              "close-etoday",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "기관 홀로 매수",
+        "preview": "기관 1조2,329억 순매수, 개인·외국인은 매도.",
+        "points": [
+          "개인 1조3,475억원, 외국인 3,731억원 순매도였다.",
+          "외국인 매도 규모는 10월30일 1조6,172억원보다 줄었다."
+        ],
+        "meaning": "반등이 기관 주도라 외국인 복귀 여부가 지속성의 관건이다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "11월3일 KRX 정규장 종가과 외국인 순매수 금액으로 판단한다. 기관 매수의 지속 여부는 아직 자료가 없다.",
+            "counter": "기관 매수가 하루 반등에 그치면 장중 매물 부담이 커질 수 있다.",
+            "invalidation": "11월3일 외국인 순매수 전환이면 상방으로, 기관 순매도 전환이면 하방으로 판단한다.",
+            "sources": [
+              "close-etoday",
+              "close-wikitree"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피 수급",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준 외국인 누적 순매수 방향을 본다.",
+            "counter": "원·달러 상승(원화 약세)이 외국인 매도를 이어지게 할 수 있다.",
+            "invalidation": "5거래일 중 3일 이상 외국인 순매수면 상방으로 갱신한다.",
+            "sources": [
+              "close-etoday",
+              "fx"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 대형주 반등",
+        "preview": "하이닉스 +3.81%, 삼성전자 +1.78% 마감.",
+        "points": [
+          "미국 반도체 7% 급락이 처음 반영된 날에도 올랐다.",
+          "국내는 10월29~30일 이미 크게 내린 상태였다."
+        ],
+        "meaning": "미국 충격이 일부 선반영됐다는 해석이 가능하나 확인은 이르다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월3일 KRX 정규장 종가를 하이닉스 1,472,000원·삼성전자 229,000원과 비교한다.",
+            "counter": "Apple 실적·미국 반도체 재반등 실패 시 장 초반 하락 위험. 하루 반등만으로 추세 전환을 단정하지 않는다.",
+            "invalidation": "미국 반도체지수 반등 마감이면 상방, 하이닉스 1,418,000원 아래 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "close-gukje",
+              "close-etoday",
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 실적·수출 호조와 미국 AI 투자 우려가 상충한다.",
+            "counter": "미국 빅테크 투자비 논쟁과 외국인 매도가 이어질 수 있다.",
+            "invalidation": "외국인이 2거래일 이상 반도체 순매수하면 상방으로 갱신한다.",
+            "sources": [
+              "close-etoday",
+              "close-gukje"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한화오션 장중 10%대 급등",
+        "preview": "잠수함 수평발사장치 국산화 발표, 종가 미확인.",
+        "points": [
+          "09:58 55,100원(+10.20%)에 거래됐다.",
+          "3분기 영업이익 4,857억원으로 전년 대비 두 배였다."
+        ],
+        "meaning": "조선·방산 개별 재료가 지수 반등과 함께 부각됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한화오션",
+            "basis": "11월3일 KRX 정규장 종가를 오늘 종가(미확인)와 비교한다. 국산화는 비용·납기 개선 재료다.",
+            "counter": "하루 10%대 급등 뒤 차익 매물로 장 초반 되돌림 위험이 있다. 국산화의 매출 기여는 미확인이다.",
+            "invalidation": "종가 확인 뒤 다음 거래일 상승 유지면 상방, 50,000원(전 거래일 종가) 아래 하락이면 하방으로 갱신한다.",
+            "sources": [
+              "hanwha-fn",
+              "hanwha-jobpost"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한화오션",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 수주 후속 공시가 아직 없다.",
+            "counter": "재료 소멸 시 급등분 반납 가능성.",
+            "invalidation": "수주·계약 공시가 나오면 재판단한다.",
+            "sources": [
+              "hanwha-fn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "공개매수·합병 급등",
+        "preview": "한국철강 공개매수가 1만3,000원, 샘표 상한가.",
+        "points": [
+          "한국철강은 공개매수가 근처 12,900원까지 올랐다.",
+          "샘표·샘표식품은 합병 기대에 상한가였다."
+        ],
+        "meaning": "지수 방향과 무관한 개별 이벤트로, 공개매수가가 상단 기준이 된다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "한국철강",
+            "basis": "11월3일 KRX 정규장 종가 기준. 주가가 공개매수가 13,000원에 근접해 추가 방향 근거가 부족하다.",
+            "counter": "공개매수 조건 변경·철회 시 급락 위험.",
+            "invalidation": "공개매수가 변경 공시가 나오면 재판단한다.",
+            "sources": [
+              "kisco-namdo"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국철강",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 공개매수 기간(11월23일까지) 중이다.",
+            "counter": "응모 결과는 기간 종료 뒤 확인된다.",
+            "invalidation": "정정 공시 시 재판단한다.",
+            "sources": [
+              "kisco-namdo",
+              "kisco-hankyung"
+            ]
+          }
+        }
+      },
+      {
+        "title": "원·달러 1,343.8원",
+        "preview": "9.5원 올라 원화 약세, 외국인 매도와 겹쳤다.",
+        "points": [
+          "10월30일 1,334.3원에서 9.5원 올랐다."
+        ],
+        "meaning": "원화 약세가 이어지면 외국인 순매수 전환이 늦어질 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "원·달러",
+            "basis": "11월3일 15:30 주간거래 값을 1,343.8원과 비교한다.",
+            "counter": "미국 선거·고용 일정 전이라 방향 근거가 부족하다.",
+            "invalidation": "외국인 순매수 전환 시 하락(원화 강세) 쪽으로 재판단한다.",
+            "sources": [
+              "fx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "원·달러",
+            "basis": "11월3~9일 주간거래 기준.",
+            "counter": "미국 고용보고서(11월6일) 결과 미확인.",
+            "invalidation": "1,350원 위 마감이 이어지면 재판단한다.",
+            "sources": [
+              "fx"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "오늘 밤 미국 반도체지수와 Apple 실적 반응.",
+      "11월3일 외국인 순매도 축소·전환과 5,859.08 유지 여부.",
+      "하이닉스 1,418,000원·삼성전자 225,000원 위 유지 여부."
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "미국 반도체 급락에도 3.81% 올라 전일 낙폭 일부를 되찾았다.",
+        "watch": "1,418,000원 위 유지와 외국인 매도 축소를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월3일 KRX 정규장 종가를 1,472,000원과 비교한다. 기관 매수 속 반등했다.",
+            "counter": "Apple 실적·미국 반도체 약세 시 장 초반 하락 위험. 외국인 매도는 지속 중이다.",
+            "invalidation": "미국 반도체 반등 마감이면 상방, 1,418,000원 아래 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "close-gukje",
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 메모리 수요 호조와 AI 투자 우려가 맞선다.",
+            "counter": "외국인 매도 지속과 미국 빅테크 투자 논쟁.",
+            "invalidation": "외국인 2거래일 연속 순매수면 상방으로 갱신한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "이틀 하락 뒤 1.78% 반등했으나 하이닉스보다 약했다.",
+        "watch": "225,000원 지지와 외국인 매도 전환을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월3일 KRX 정규장 종가를 229,000원과 비교한다.",
+            "counter": "주주환원 실망 이후 상대 약세가 이어질 수 있다. 장 초반 되돌림 위험은 별도다.",
+            "invalidation": "225,000원 아래 마감이면 하방, 외국인 순매수 전환이면 상방으로 갱신한다.",
+            "sources": [
+              "close-gukje",
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준.",
+            "counter": "외국인 수급 방향 미확인.",
+            "invalidation": "2거래일 이상 코스피 대비 강세면 상방으로 갱신한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          }
+        }
+      },
+      "042660": {
+        "reason": "잠수함 장비 국산화 발표에 장중 10%대 급등했다.",
+        "watch": "종가 상승 유지와 차익 매물 소화를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한화오션",
+            "basis": "11월3일 KRX 정규장 종가를 오늘 종가(미확인)와 비교한다. 실적·국산화 재료가 겹쳤다.",
+            "counter": "급등 뒤 차익 실현으로 장 초반 되돌림 위험이 있다.",
+            "invalidation": "다음 거래일 종가 상승 유지면 상방, 50,000원(전 거래일 종가) 아래 하락이면 하방으로 갱신한다.",
+            "sources": [
+              "hanwha-fn",
+              "hanwha-jobpost"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한화오션",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준. 후속 수주 공시 전이다.",
+            "counter": "재료 소멸 시 급등분 반납.",
+            "invalidation": "수주 공시 시 재판단한다.",
+            "sources": [
+              "hanwha-fn"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "Apple 실적",
+        "detail": "매출·가이던스와 시간외 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 IT·부품",
+            "basis": "결과 발표 전이라 판단을 보류한다.",
+            "counter": "기대치 대비 결과 미확인.",
+            "invalidation": "발표 뒤 시간외 반응을 보고 판단한다.",
+            "sources": [
+              "apple"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 IT·부품",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준.",
+            "counter": "결과 미확인.",
+            "invalidation": "발표 뒤 재판단한다.",
+            "sources": [
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 반도체 재반등",
+        "detail": "반도체지수와 나스닥 종가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "미국 정규장 결과 전이라 보류한다.",
+            "counter": "10월30일 급락 뒤 추가 매도 가능성.",
+            "invalidation": "반도체지수 종가 방향 확인 뒤 판단한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준 미국 반응 누적을 본다.",
+            "counter": "Apple·선거 결과가 방향을 바꿀 수 있다.",
+            "invalidation": "2거래일 연속 같은 방향이면 갱신한다.",
+            "sources": [
+              "close-etoday",
+              "apple"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 중간선거",
+        "detail": "결과 윤곽과 금리·달러 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "결과 전이라 보류한다.",
+            "counter": "결과 지연 가능성.",
+            "invalidation": "결과 윤곽 확인 뒤 판단한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준.",
+            "counter": "정책 경로 미확인.",
+            "invalidation": "결과 확정 뒤 재판단한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          }
+        }
+      },
+      {
+        "title": "KRX 종가·수급",
+        "detail": "외국인 매도 축소와 5,859.08 유지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월3일 KRX 정규장 종가를 5,859.08과 비교한다.",
+            "counter": "외국인 매도 지속.",
+            "invalidation": "외국인 순매수 전환이면 상방으로 갱신한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준.",
+            "counter": "미국 이벤트 변동성.",
+            "invalidation": "5,616.50 이탈이면 하방으로 갱신한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 고용보고서",
+        "detail": "금리 경로와 성장주 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월6일 발표 전이라 보류한다.",
+            "counter": "결과 미확인.",
+            "invalidation": "발표 뒤 판단한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월3·4·5·6·9일 KRX 정규장 종가 기준.",
+            "counter": "결과 미확인.",
+            "invalidation": "발표 뒤 재판단한다.",
+            "sources": [
+              "close-etoday"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "KRX · 거래일 및 휴장일",
+      "krx-holidays": "CalendarLabs · KRX 2026 휴장일 목록",
+      "kospi-close": "아시아경제 · 코스피 마감 속보",
+      "kospi-close-sedaily": "서울경제 · 코스피 마감",
+      "kosdaq-close": "아시아경제 · 코스닥 마감 속보",
+      "kosdaq-close-etoday": "이투데이 · 코스닥 장마감 속보",
+      "kosdaq-close-sedaily": "서울경제 · 코스닥 마감",
+      "close-etoday": "이투데이 · 코스피 마감시황",
+      "close-wikitree": "위키트리 · 코스피 마감",
+      "close-gukje": "국제뉴스 · SK하이닉스·SK스퀘어 급등 마감",
+      "close-viva": "브릿지경제 · 마감시황",
+      "open-etoday": "이투데이 · 장중 상승 전환",
+      "open-ajunews": "아주경제 · 기관 1.2조 매수에 반등",
+      "senmoney": "센머니 · 반도체·자동차 매수세",
+      "hanwha-fn": "파이낸셜뉴스 · 한화오션 10%대 급등",
+      "hanwha-etoday": "이투데이 · 한화오션 장 초반 강세",
+      "hanwha-jobpost": "잡포스트 · 한화오션 급등",
+      "kisco-hankyung": "한국경제 · 한국철강 공개매수",
+      "kisco-namdo": "남도일보 · 한국철강 1만3,000원 공개매수",
+      "sempio-etoday": "이투데이 · 샘표·샘표식품 상한가",
+      "fx": "파이낸셜뉴스 · 원·달러 환율 마감",
+      "fx-prev": "kbthink · 11월2일 환율 동향",
+      "apple": "MacDailyNews · Apple 실적 일정",
+      "krx-analysis": "한국거래소 통계정보 · 일별 분석 작업"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-02T15:49:00+09:00",
+      "input_cutoff": "2026-11-02T15:49:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. 다음 거래일은 11월3일 KRX 정규장 종가, 5거래일은 11월3·4·5·6·9일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
