@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-11-02/"
     },
     {
+      "id": "us-pre-2026-11-02",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-02",
+      "title": "11월 2일 미국장 시작 전 브리핑",
+      "summary": "Intel 쇼크 뒤 반도체 반발 시도, 유가 급락 속 Apple·Palantir 장후 실적 대기",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "path": "reports/us-pre-2026-11-02/"
+    },
+    {
       "id": "us-close-2026-10-30",
       "is_test": false,
       "market": "US",

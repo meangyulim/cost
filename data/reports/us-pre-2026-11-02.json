@@ -1,0 +1,1163 @@
+{
+  "id": "us-pre-2026-11-02",
+  "title": "11월 2일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 기준 2026-10-30 정규장 종가(2026-10-31 05:00 KST) · 당일 정규장 2026-11-02 09:30~16:00 EST(23:30~11-03 06:00 KST)",
+  "market_date": "2026-11-02",
+  "session": "pre",
+  "as_of": "2026-10-31T05:00:00+09:00",
+  "queried_at": "2026-11-02T23:09:54+09:00",
+  "is_test": false,
+  "summary": "Intel 쇼크 뒤 반도체 반발 시도, 유가 급락 속 Apple·Palantir 장후 실적 대기",
+  "summary_detail": "10/30 Intel이 4분기 전망 미달로 28.58% 급락하며 나스닥이 2.86%, S&P500이 1.82% 내렸다. 11/2 장전에는 S&P500 선물 약 +0.5%, 나스닥100 선물 약 +0.8%로 반등이 보도됐고 AMD·NVDA·MU가 1~2% 올랐지만 INTC는 약 1% 더 내렸다. 미국·이란 외교 기대에 브렌트가 4~6% 내려 배럴당 약 106~109USD가 되며 에너지주는 장전 약세다. 오늘 장 마감 후 Apple·Palantir 실적, 11/3 중간선거·AMD 실적, 11/6 고용보고서가 이어진다.",
+  "interpretation": "이번 회차는 예정 09:00 EST보다 약 5분 늦은 09:04 EST에 시작해 정규장 개장 전에 작성했다. 기본 가격은 10/30 정규장 잠정 종가이며, 장전 가격·선물 등락률은 기사별 시점 값이라 정규장 가격과 섞지 않았다. 네트워크 정책으로 원문 페이지를 직접 열지 못해 검색 결과에 요약된 각 매체 값을 잠정으로 사용했다. 장전 반등을 정규장 종가 방향으로 확정하지 않으며, 장후 실적은 결과 미확인이다. 이번 요청의 Massive 수집은 작성 시점에 진행 중이고 artifact 다운로드 인증이 없어 분석 수치를 사용하지 않았다.",
+  "calculation_notes": "S&P500·나스닥 포인트 변화(−140.32, −747.73)는 원문 값이다. 다우 포인트 변화는 원문 미확인이라 전 회차 10/29 잠정 종가 52,342.56과 비교해 51,770.31−52,342.56=−572.25로 계산했고, −572.25/52,342.56=−1.093%로 보도 등락률 −1.09%와 일치한다. 나스닥 전일 종가는 원문 26,184.73으로 전 회차 표기 26,184.72와 0.01 차이가 있다. INTC 변동액은 전 회차 10/29 종가 92.07USD 기준 65.76−92.07=−26.31, 등락률 −26.31/92.07=−28.58%로 보도와 일치한다. AAPL 변동액 −4.28은 원문 전일 종가 348.91과 종가 344.63의 차이로 원문과 같고 −4.28/348.91=−1.23%다. PLTR·AMD·NVDA·MU 변동액은 원문 미확인이라 등락률로 역산하지 않았다. XOM 10/30 종가는 미확인이다. ETF 대용치와 실제 지수 값을 섞지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "unit": "pt",
+      "delta": "−140.32",
+      "percent": "−1.82",
+      "direction": "down",
+      "source": "close_pt",
+      "additional_sources": [
+        "close_bbn"
+      ],
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,437.00",
+      "unit": "pt",
+      "delta": "−747.73",
+      "percent": "−2.86",
+      "direction": "down",
+      "source": "close_bbn",
+      "additional_sources": [
+        "close_pt"
+      ],
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "51,770.31",
+      "unit": "pt",
+      "delta": "−572.25",
+      "percent": "−1.09",
+      "direction": "down",
+      "source": "close_pt",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · 포인트 변화는 전 회차 종가 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,811.84",
+      "unit": "pt",
+      "delta": "−미확인",
+      "percent": "−1.66",
+      "direction": "down",
+      "source": "close_pt",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · 포인트 변화 미확인",
+      "provisional": true
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.92",
+    "unit": "%",
+    "delta": "약 −0.01(10/30 4.93% 대비)",
+    "direction": "down",
+    "source": "yield_te",
+    "additional_sources": [
+      "week_sensei"
+    ],
+    "as_of": "2026-11-02T23:09:54+09:00",
+    "session": "11/2 장중 보도값(Trading Economics) · 10/30 종가 4.93%는 Sensei · 확정 종가 아님"
+  },
+  "macro": [
+    {
+      "label": "브렌트유",
+      "value": "약 106.50~108.85",
+      "unit": "USD/배럴",
+      "session": "11/2 장전 보도 범위(−4~6%) · 기사별 시점 상이",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "energy_pre",
+        "oil_tr"
+      ]
+    },
+    {
+      "label": "WTI",
+      "value": "약 97.70~99.88",
+      "unit": "USD/배럴",
+      "session": "11/2 장전 보도 범위",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "energy_pre"
+      ]
+    },
+    {
+      "label": "S&P500 선물",
+      "value": "약 +0.5",
+      "unit": "%",
+      "session": "11/2 장전 08:57 EST 무렵(CNBC) · 정규장 지수 아님",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "reuters_inv"
+      ]
+    },
+    {
+      "label": "나스닥100 선물",
+      "value": "약 +0.8~+0.9",
+      "unit": "%",
+      "session": "11/2 장전 기사별 시점 · 정규장 지수 아님",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "reuters_inv"
+      ]
+    },
+    {
+      "label": "필라델피아 반도체지수",
+      "value": "약 −7.2",
+      "unit": "%",
+      "session": "10/30 정규장 · 보도값, 거래소 원문 미확인",
+      "source": "intc_close",
+      "additional_sources": [
+        "mu_close"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "title": "Intel 쇼크 뒤 반도체 반발 시도",
+      "fact": "10/30 Intel은 4분기 매출 전망 150억~160억USD(예상 171억USD)와 조정 EPS 0.25USD(예상 0.43USD), 2027년 상반기까지 PC 약세 경고로 28.58% 급락해 65.76USD에 마감했다(1974년 이후 최악이라는 보도). AMD −10.88%, NVDA −4.22%, MU −5.30%였고 필라델피아 반도체지수는 약 7.2% 내렸다는 보도가 있다(거래소 원문 미확인). 11/2 장전에는 AMD·NVDA·MU가 약 1~2% 반등했지만 INTC는 08:09 EST 65.09USD(−1.02%)로 약세였다.",
+      "source": "intc_close",
+      "additional_sources": [
+        "amd_close",
+        "nvda_close",
+        "mu_close",
+        "chips_tr",
+        "intc_pre"
+      ]
+    },
+    {
+      "title": "이란 외교 기대에 유가 급락",
+      "fact": "트럼프 대통령이 이란 재공격 전에 외교 시간을 더 주려 한다는 보도 뒤 11/2 장전 브렌트는 배럴당 약 106.50~108.85USD(−4~6%), WTI는 약 97.70~99.88USD로 내렸다(기사별 시각 상이). XOM은 약 −1.3%, CVX는 약 −1.1% 장전 하락이 보도됐다. 미국이 직접 당사자라 정상화 반영은 이르다는 분석도 있다.",
+      "source": "oil_bbg",
+      "additional_sources": [
+        "cnbc_live",
+        "energy_pre",
+        "oil_tr"
+      ]
+    },
+    {
+      "title": "선물 반등, 지수 하락 뒤 첫 거래일",
+      "fact": "10/30 S&P500은 1.82%, 나스닥은 2.86%, 다우는 1.09% 내렸다. 11/2 장전 S&P500 선물은 약 +0.5%, 나스닥100 선물은 약 +0.8~0.9%, 다우 선물은 약 +0.5~0.6%로 보도됐다(08:57 EST CNBC 등, 시각별 상이). 미국 10년물 국채수익률은 10/30 4.93%에서 11/2 4.92%로 소폭 내렸다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "reuters_inv",
+        "close_pt",
+        "yield_te",
+        "week_sensei"
+      ]
+    },
+    {
+      "title": "Apple·Palantir 장후 실적, AMD는 11/3",
+      "fact": "Apple은 11/2 장 마감 후 FY26 4분기 실적을 발표한다(매출 약 1,134억USD·EPS 1.99USD 예상, 옵션 예상 변동폭 약 4.25%). Palantir도 장후 발표하며 EPS 0.41USD·매출 약 21.8억USD가 예상되고 옵션 예상 변동폭은 약 13%다. AMD는 11/3 장후 실적을 낸다. 결과는 작성 시점에 나오지 않았다.",
+      "source": "aapl_prev",
+      "additional_sources": [
+        "aapl_tr",
+        "pltr_tr",
+        "pltr_bz",
+        "chips_tr"
+      ]
+    },
+    {
+      "title": "중간선거·고용 지표 주간",
+      "fact": "11/3 미국 중간선거와 JOLTS, 11/4 국채 분기 발행 계획, 11/6 08:30 EST 10월 고용보고서(예상 +5.5만명, 직전 +2.9만명)가 예정돼 있다. 11/2 10:00 EST ISM 제조업 PMI 발표가 예정돼 있으나 컨센서스는 확인하지 못했다.",
+      "source": "week_fattail",
+      "additional_sources": [
+        "week_sensei",
+        "ism_cal"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "인텔",
+      "ticker": "INTC",
+      "price": "65.76",
+      "currency": "USD",
+      "delta": "−26.31",
+      "percent": "−28.58",
+      "direction": "down",
+      "source": "intc_close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 변동액은 10/29 종가 92.07 기준 계산 · 장전 가격 별도",
+      "reason": "4분기 매출 전망 150억~160억USD(예상 171억USD)·EPS 0.25USD(예상 0.43USD) 미달로 10/30 하루 28.58% 급락했고, 11/2 08:09 EST 장전 65.09USD(−1.02%)로 반도체 반등에서 소외됐다.",
+      "watch": "정규장에서 10/30 종가 65.76USD를 회복하는지와 목표가 하향(Barclays 100→75USD)이 이어지는지 본다.",
+      "reason_sources": [
+        "intc_close",
+        "intc_pre",
+        "intc_bz"
+      ]
+    },
+    {
+      "name": "애플",
+      "ticker": "AAPL",
+      "price": "344.63",
+      "currency": "USD",
+      "delta": "−4.28",
+      "percent": "−1.23",
+      "direction": "down",
+      "source": "aapl_q",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 10/30 시간외 345.10USD 별도",
+      "reason": "11/2 장 마감 후 FY26 4분기 실적(매출 약 1,134억USD·EPS 1.99USD 예상)을 발표한다. 옵션은 약 4.25% 변동을 반영하고 있다.",
+      "watch": "아이폰 매출(예상 약 564억USD)과 매출총이익률 가이던스 47~48% 하단 여부, 장후 반응을 본다.",
+      "reason_sources": [
+        "aapl_prev",
+        "aapl_tr",
+        "apple_date"
+      ]
+    },
+    {
+      "name": "팔란티어",
+      "ticker": "PLTR",
+      "price": "184.11",
+      "currency": "USD",
+      "delta": "−미확인",
+      "percent": "−6.27",
+      "direction": "down",
+      "source": "pltr_tr",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 변동액 원문 미확인",
+      "reason": "11/2 장 마감 후 3분기 실적(EPS 0.41USD·매출 약 21.8억USD 예상)을 낸다. 옵션 내재 예상 변동폭은 약 13%로 크다.",
+      "watch": "매출이 회사 가이던스 상단(21.64억USD)과 컨센서스를 넘는지, 연간 전망 상향 여부를 본다.",
+      "reason_sources": [
+        "pltr_tr",
+        "pltr_bz"
+      ],
+      "missing_reason": "10/30 변동액은 원문에서 확인하지 못해 등락률로 역산하지 않았다."
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "504.80",
+      "currency": "USD",
+      "delta": "−미확인",
+      "percent": "−10.88",
+      "direction": "down",
+      "source": "amd_close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 변동액 원문 미확인 · 장전 등락 별도",
+      "reason": "Intel의 PC 수요 둔화 경고에 10/30 10.88% 급락했다. 11/2 장전에는 반도체 저가 매수로 약 1~2% 반등이 보도됐다(시각·매체별 상이).",
+      "watch": "11/3 장후 3분기 실적에서 데이터센터 GPU·PC 매출 전망이 Intel 경고를 확인하는지 본다.",
+      "reason_sources": [
+        "amd_close",
+        "chips_tr"
+      ],
+      "missing_reason": "10/30 변동액 원문 미확인."
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "204.64",
+      "currency": "USD",
+      "delta": "−미확인",
+      "percent": "−4.22",
+      "direction": "down",
+      "source": "nvda_close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 매체별 종가 차이(206.94USD·−3.15%) · 변동액 미확인",
+      "reason": "10/30 반도체지수 약 7% 급락에 4.22% 내렸고, 11/2 장전 약 1.4% 반등이 보도됐다(시각 미확인).",
+      "watch": "정규장에서 반도체 반등이 유지되는지와 11/17 실적 전 AI 투자 회의론이 완화되는지 본다.",
+      "reason_sources": [
+        "nvda_close",
+        "chips_tr"
+      ],
+      "missing_reason": "매체별 종가가 달라 변동액을 계산하지 않았다."
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "884.74",
+      "currency": "USD",
+      "delta": "−미확인",
+      "percent": "−5.30",
+      "direction": "down",
+      "source": "mu_close",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "2026-10-30 미국 정규장 종가(16:00 EDT) · 잠정 · Nasdaq · 변동액 미확인 · 장전 등락 별도",
+      "reason": "Intel이 메모리 가격 급등을 PC 부진 원인으로 지목한 뒤 10/30 5.30% 내렸고, 11/2 장전 2% 이상 반등이 보도됐다.",
+      "watch": "메모리 가격 상승이 수요 둔화로 이어지는지에 대한 AMD 실적·업계 발언을 본다.",
+      "reason_sources": [
+        "mu_close",
+        "mu_pre"
+      ],
+      "missing_reason": "10/30 변동액 원문 미확인."
+    },
+    {
+      "name": "엑슨모빌",
+      "ticker": "XOM",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "source": "energy_pre",
+      "as_of": "2026-10-31T05:00:00+09:00",
+      "session": "10/30 정규장 종가 미확인 · NYSE · 11/2 장전 등락률만 확인",
+      "reason": "미국·이란 외교 기대에 브렌트가 4~6% 내린 가운데 11/2 장전 약 1.3% 하락이 보도됐다.",
+      "watch": "브렌트가 100USD대 초반으로 더 밀리는지와 이란 협상 진전 여부를 본다.",
+      "reason_sources": [
+        "energy_pre",
+        "oil_bbg",
+        "cnbc_live"
+      ],
+      "missing_reason": "10/30 정규장 종가를 이번 실행에서 원문으로 확인하지 못했다. 장전 −1.3%는 별도 구간 값이다."
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-11-03 00:00 KST",
+      "title": "ISM 10월 제조업 PMI",
+      "detail": "11/2 10:00 EST 발표 예정(일정 2차 출처). 결과와 10년물 4.92% 반응을 확인한다. 컨센서스 미확인."
+    },
+    {
+      "label": "2026-11-03 06:00 KST",
+      "title": "11/2 정규장 마감",
+      "detail": "11/2 16:00 EST 종가에서 반도체 반등 유지 여부와 나스닥 25,437.00·S&P500 7,580.07 회복 여부를 확인한다."
+    },
+    {
+      "label": "2026-11-03 07:00 KST",
+      "title": "Apple·Palantir 실적 콜",
+      "detail": "두 회사 모두 11/2 장 마감 후 발표하고 17:00 EST(14:00 PST) 콜. 결과·가이던스와 시간외 반응을 본다."
+    },
+    {
+      "label": "다음 한국장 개장 · 확인 순서",
+      "title": "한국 반도체·정유주 반응",
+      "detail": "미국 반도체 반등 지속 여부와 유가 급락이 삼성전자·SK하이닉스·정유주에 주는 영향을 한국 회차에서 KRX 달력과 함께 확인한다."
+    },
+    {
+      "label": "2026-11-03 (미국)",
+      "title": "중간선거·AMD 실적",
+      "detail": "11/3 미국 중간선거와 JOLTS, AMD 장후 3분기 실적(시각 미확인)을 확인한다."
+    },
+    {
+      "label": "2026-11-06 22:30 KST",
+      "title": "10월 고용보고서",
+      "detail": "11/6 08:30 EST 발표, 예상 +5.5만명(직전 +2.9만명)."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-11-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-02T23:05:00+09:00",
+    "note": "NYSE 공식 2026 휴장 목록(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)과 조기폐장(11/27·12/24 13:00 ET)에 11/2(월)이 없어 정상 거래일로 판단했다. Nasdaq 목록과 일치. 이전 거래일 10/30(금). 원문 페이지는 네트워크 정책(DNS 차단)으로 직접 열지 못했고 공식 도메인 한정 검색 결과로 확인했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-02 23:30~11-03 06:00 KST."
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-02T09:00:00-05:00",
+      "kst": "2026-11-02T23:00:00+09:00",
+      "utc": "2026-11-02T14:00:00Z"
+    },
+    "routine_scheduled_utc": "2026-11-02T13:59:00Z",
+    "actual_start": {
+      "new_york": "2026-11-02T09:04:33-05:00",
+      "kst": "2026-11-02T23:04:33+09:00",
+      "utc": "2026-11-02T14:04:33Z"
+    },
+    "start_offset_seconds": 273,
+    "delay_seconds": 273,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, WebSearch. WebFetch 원문 열람은 네트워크 정책(DNS 차단)으로 실패. gh CLI 인증 실패. 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "23dabc1fe32f5f02524dd9b3749fd81b3badaa3d",
+    "analysis_run_id": 41458670544,
+    "analysis_status": "in_progress (작성 시점 미완료, artifact 다운로드 인증 불가로 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-11-02.json"
+  },
+  "reading": {
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-02T23:09:54+09:00",
+      "input_cutoff": "2026-11-02T23:09:54+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "정규장 개장 전 작성한 조건부 해석이며 검증 전입니다. 확률·매매 신호가 아닙니다."
+    },
+    "headline": "Intel 쇼크 뒤 반도체 반발 시도",
+    "summary_points": [
+      "10/30 INTC −28.58%, 나스닥 −2.86% 급락했다.",
+      "장전 선물 반등, AMD·NVDA·MU 1~2% 올랐다.",
+      "유가 4~6% 급락, 오늘 장후 Apple·Palantir 실적."
+    ],
+    "notices": [
+      "기본 가격은 10/30 정규장 잠정 종가다. 장전 가격·선물·유가는 기사별 시점 값이며 정규장 가격과 다르다.",
+      "XOM 전일 종가, ISM 컨센서스, 일부 종목 변동액은 미확인이다. 원문은 검색 요약으로 확인했다."
+    ],
+    "interpretation_points": [
+      "장전 반등을 종가 방향으로 확정하지 않는다.",
+      "INTC가 반등에서 소외되는지 반도체 확산 여부를 본다.",
+      "조건부 방향은 확률·매매 신호가 아니다."
+    ],
+    "issues": [
+      {
+        "title": "반도체 반발 vs Intel 소외",
+        "preview": "10/30 반도체 급락 뒤 장전 반등, INTC만 약세다.",
+        "points": [
+          "INTC는 4분기 전망 미달로 하루 28.58% 급락했다.",
+          "AMD·NVDA·MU는 장전 1~2% 반등이 보도됐다."
+        ],
+        "meaning": "PC 수요 경고가 AI 반도체 전체로 번질지가 오늘의 핵심이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 반도체주(AMD·NVDA·MU, INTC 별도)",
+            "basis": "11/2 종가를 10/30 종가와 비교한다. 장전 1~2% 반등은 하루 7% 급락 뒤 저가 매수 시도다.",
+            "counter": "개장 직후 반등이 꺾이면 10/30 저가권을 다시 시험할 수 있다. 분봉·수급 자료는 없고 AMD 실적 전 관망 가능성이 있다.",
+            "invalidation": "반도체 대표주가 장 막판까지 장전 상승폭을 유지하면 상방, 10/30 종가를 밑돌면 하방으로 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "intc_close",
+              "mu_pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체주(AMD·NVDA·MU, INTC 별도)",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 11/3 AMD 실적이 PC·데이터센터 수요를 확인할 핵심이다.",
+            "counter": "AMD 실적 내용 미확인. Intel 경고가 메모리 원가 문제에 국한되면 영향이 줄 수 있다.",
+            "invalidation": "AMD 실적·가이던스 확인 후 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "amd_close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 급락·에너지 약세",
+        "preview": "이란 외교 기대에 브렌트 4~6% 하락, 에너지주 약세다.",
+        "points": [
+          "브렌트는 약 106.5~108.9USD로 내렸다.",
+          "XOM·CVX는 장전 1%대 하락이 보도됐다."
+        ],
+        "meaning": "유가 하락은 물가·금리 부담을 덜지만 에너지주에는 악재다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "XOM·CVX 등 대형 에너지주",
+            "basis": "11/2 종가를 10/30 종가와 비교한다. 유가 4~6% 하락과 장전 1%대 약세가 지지한다.",
+            "counter": "미국이 직접 당사자여서 협상 기대가 꺾이면 유가가 장중 되돌릴 수 있다.",
+            "invalidation": "브렌트가 110USD 위로 회복하면 재판단한다.",
+            "sources": [
+              "energy_pre",
+              "oil_bbg",
+              "cnbc_live"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "XOM·CVX 등 대형 에너지주",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 외교 진전은 유가 하락 요인이다.",
+            "counter": "중간선거 이후 재공격 가능성이 보도돼 방향이 뒤집힐 수 있다.",
+            "invalidation": "미·이란 협상 결과나 해협 통항 상황이 확인되면 재판단한다.",
+            "sources": [
+              "oil_bbg",
+              "energy_pre"
+            ]
+          }
+        }
+      },
+      {
+        "title": "선물 반등 출발",
+        "preview": "S&P500 선물 +0.5%, 나스닥100 선물 +0.8%대다.",
+        "points": [
+          "10/30 나스닥은 2.86% 내린 25,437.00이었다.",
+          "10년물은 4.92%로 소폭 내렸다."
+        ],
+        "meaning": "급락 뒤 반발이지만 대형 실적 전이라 지속성은 미확인이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "S&P500·나스닥 종합",
+            "basis": "11/2 종가를 10/30 종가(S&P500 7,580.07·나스닥 25,437.00)와 비교한다. 선물 상승과 유가·금리 하락이 지지한다.",
+            "counter": "Apple·Palantir 실적이 장후라 장중 관망과 중간선거 전 포지션 축소로 상승폭이 줄 수 있다.",
+            "invalidation": "나스닥이 장중 10/30 종가 아래로 내려가 회복하지 못하면 하방으로 재판단한다.",
+            "sources": [
+              "cnbc_live",
+              "reuters_inv",
+              "close_pt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "S&P500·나스닥 종합",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 실적·선거·고용 지표가 모두 기간 안에 있다.",
+            "counter": "핵심 이벤트 결과가 모두 미확인이다.",
+            "invalidation": "Apple·AMD 실적과 11/6 고용 결과 확인 후 재판단한다.",
+            "sources": [
+              "week_sensei",
+              "week_fattail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple·Palantir 장후 실적",
+        "preview": "오늘 장 마감 뒤 발표, 결과는 미확인이다.",
+        "points": [
+          "Apple은 EPS 1.99USD·매출 약 1,134억USD가 예상된다.",
+          "Palantir 옵션은 약 13% 변동을 반영한다."
+        ],
+        "meaning": "AI 투자 회의론 속 결과가 내일 기술주 방향을 가른다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL·PLTR",
+            "basis": "발표가 장 마감 후라 11/2 정규장 종가는 실적 결과와 무관하다.",
+            "counter": "실적 결과 미확인. 발표 전 관망 외 방향 근거가 부족하다.",
+            "invalidation": "장후 실적·시간외 반응 확인 후 다음 회차에서 재판단한다.",
+            "sources": [
+              "aapl_prev",
+              "pltr_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL·PLTR",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 실적 반응이 기간 안에 반영된다.",
+            "counter": "컨센서스만 확인됐고 결과·가이던스가 미확인이다.",
+            "invalidation": "실적 발표 후 재판단한다.",
+            "sources": [
+              "aapl_tr",
+              "pltr_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "중간선거·고용 주간",
+        "preview": "11/3 선거, 11/6 고용보고서가 남았다.",
+        "points": [
+          "10월 고용은 +5.5만명이 예상된다.",
+          "ISM 제조업 컨센서스는 확인하지 못했다."
+        ],
+        "meaning": "선거·고용 결과는 금리 경로와 위험 선호를 동시에 흔든다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/2 종가를 10/30 종가와 비교한다. ISM 결과가 장중에 나온다.",
+            "counter": "ISM 컨센서스·결과 미확인.",
+            "invalidation": "ISM 결과와 10년물 반응 확인 후 재판단한다.",
+            "sources": [
+              "ism_cal",
+              "yield_te"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 선거·고용이 기간 안에 있다.",
+            "counter": "선거 결과와 고용 수치 모두 미확인이다.",
+            "invalidation": "선거 결과·고용 발표 후 재판단한다.",
+            "sources": [
+              "week_fattail",
+              "week_sensei"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "INTC": {
+        "reason": "4분기 전망 미달로 10/30 −28.58%, 장전도 약 −1%다.",
+        "watch": "65.76USD 회복과 목표가 하향 지속 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "11/2 종가를 65.76USD와 비교한다. 반도체 반등 속에서도 장전 약 1% 하락으로 소외됐다.",
+            "counter": "하루 28% 급락 뒤 저가 매수와 New Street 매수 상향 보도가 장중 반등을 만들 수 있다.",
+            "invalidation": "정규장에서 65.76USD 위로 안착하면 재판단한다.",
+            "sources": [
+              "intc_pre",
+              "intc_bz"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "INTC",
+            "basis": "11/6 종가를 65.76USD와 비교한다. 추정치 하향이 이어질 수 있다.",
+            "counter": "급락이 악재를 상당 부분 반영했을 수 있고 AMD 실적이 업황 판단을 바꿀 수 있다.",
+            "invalidation": "AMD 실적 뒤 PC 수요 판단이 확인되면 재판단한다.",
+            "sources": [
+              "intc_close",
+              "chips_tr"
+            ]
+          }
+        }
+      },
+      "AAPL": {
+        "reason": "오늘 장후 실적, 옵션은 약 4% 변동을 반영한다.",
+        "watch": "아이폰 매출과 마진 가이던스를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL",
+            "basis": "발표가 장 마감 후라 11/2 종가는 실적 결과와 무관하다. 10/30 −1.23%로 기술주 대비 낙폭이 작았다.",
+            "counter": "실적 전 관망과 지난 분기 발표 뒤 약 7% 하락 전례가 있다.",
+            "invalidation": "실적 발표 후 다음 회차에서 재판단한다.",
+            "sources": [
+              "aapl_q",
+              "aapl_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL",
+            "basis": "11/6 종가를 344.63USD와 비교한다.",
+            "counter": "실적 결과·가이던스 미확인.",
+            "invalidation": "실적·가이던스 확인 후 재판단한다.",
+            "sources": [
+              "aapl_prev"
+            ]
+          }
+        }
+      },
+      "PLTR": {
+        "reason": "오늘 장후 실적, 옵션 예상 변동폭이 약 13%다.",
+        "watch": "가이던스 상단 초과와 연간 전망 상향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "PLTR",
+            "basis": "발표가 장 마감 후라 11/2 종가는 실적 결과와 무관하다. 10/30 −6.27%로 기술주 매도에 동참했다.",
+            "counter": "실적 전 변동성 확대 외 방향 근거가 부족하다.",
+            "invalidation": "실적 발표 후 재판단한다.",
+            "sources": [
+              "pltr_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "PLTR",
+            "basis": "11/6 종가를 184.11USD와 비교한다.",
+            "counter": "컨센서스가 가이던스 상단보다 높아 기대 부담이 있다. 결과 미확인.",
+            "invalidation": "실적 확인 후 재판단한다.",
+            "sources": [
+              "pltr_bz",
+              "pltr_tr"
+            ]
+          }
+        }
+      },
+      "AMD": {
+        "reason": "10/30 −10.88% 뒤 장전 1~2% 반등이 보도됐다.",
+        "watch": "11/3 장후 실적의 PC·데이터센터 전망을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/2 종가를 504.80USD와 비교한다. 장전 반등은 급락 뒤 저가 매수 성격이다.",
+            "counter": "실적 하루 전이라 장중 관망·차익 실현으로 반등이 줄 수 있다.",
+            "invalidation": "504.80USD를 밑돌아 마감하면 하방으로 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "amd_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "11/6 종가를 504.80USD와 비교한다. 11/3 실적이 기간 안에 있다.",
+            "counter": "실적 결과 미확인.",
+            "invalidation": "실적·가이던스 확인 후 재판단한다.",
+            "sources": [
+              "chips_tr"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "10/30 −4.22% 뒤 장전 약 1.4% 반등했다.",
+        "watch": "반도체 반등 유지와 AI 투자 심리를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "11/2 종가를 204.64USD와 비교한다. 장전 반등과 선물 상승이 지지한다.",
+            "counter": "Intel 소외처럼 반등이 장중 꺾일 수 있고 매체별 종가 차이가 있다.",
+            "invalidation": "10/30 종가 아래로 마감하면 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "nvda_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "NVDA",
+            "basis": "11/6 종가를 204.64USD와 비교한다. AMD 실적이 AI 수요 판단에 영향을 준다.",
+            "counter": "AMD 실적 미확인, 자체 실적은 11/17이다.",
+            "invalidation": "AMD 실적 확인 후 재판단한다.",
+            "sources": [
+              "nvda_close"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "10/30 −5.30% 뒤 장전 2% 이상 반등했다.",
+        "watch": "메모리 가격 상승이 수요를 꺾는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MU",
+            "basis": "11/2 종가를 884.74USD와 비교한다. 장전 2% 이상 반등이 보도됐다.",
+            "counter": "Intel의 메모리 원가 경고가 메모리 가격 정점 우려로 해석될 수 있다.",
+            "invalidation": "884.74USD 아래로 마감하면 재판단한다.",
+            "sources": [
+              "mu_pre",
+              "mu_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "MU",
+            "basis": "11/6 종가를 884.74USD와 비교한다.",
+            "counter": "메모리 가격·수요 전망 자료 미확인.",
+            "invalidation": "AMD 실적과 메모리 업황 발언 확인 후 재판단한다.",
+            "sources": [
+              "mu_close"
+            ]
+          }
+        }
+      },
+      "XOM": {
+        "reason": "유가 4~6% 하락에 장전 약 1.3% 내렸다.",
+        "watch": "브렌트 추가 하락과 이란 협상 진전을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "XOM",
+            "basis": "11/2 종가를 10/30 종가(미확인)와 비교한다. 유가 급락과 장전 약세가 지지한다.",
+            "counter": "협상 기대가 꺾이면 유가와 함께 장중 되돌릴 수 있다.",
+            "invalidation": "브렌트가 110USD 위로 회복하면 재판단한다.",
+            "sources": [
+              "energy_pre",
+              "oil_bbg"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "XOM",
+            "basis": "11/6 종가를 10/30 종가(미확인)와 비교한다. 외교 진전은 하방 요인이다.",
+            "counter": "중간선거 후 재공격 가능성이 반대 요인이다.",
+            "invalidation": "협상 결과 확인 후 재판단한다.",
+            "sources": [
+              "oil_bbg"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "ISM 제조업 PMI",
+        "detail": "00:00 KST 발표, 결과와 금리 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/2 종가를 10/30 종가와 비교한다.",
+            "counter": "컨센서스·결과 미확인.",
+            "invalidation": "ISM 발표 후 재판단한다.",
+            "sources": [
+              "ism_cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/6 종가를 10/30 종가와 비교한다.",
+            "counter": "고용 지표가 더 큰 변수다.",
+            "invalidation": "고용 발표 후 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          }
+        }
+      },
+      {
+        "title": "11/2 정규장 마감",
+        "detail": "반도체 반등 유지와 지수 10/30 종가 회복을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "나스닥 종합",
+            "basis": "11/2 종가를 25,437.00과 비교한다. 선물 +0.8%대가 지지한다.",
+            "counter": "장후 실적 대기와 선거 전 관망이 상승폭을 줄일 수 있다.",
+            "invalidation": "나스닥이 25,437.00 아래로 마감하면 하방으로 재판단한다.",
+            "sources": [
+              "cnbc_live",
+              "close_pt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "나스닥 종합",
+            "basis": "11/6 종가를 25,437.00과 비교한다.",
+            "counter": "실적·선거·고용 결과 미확인.",
+            "invalidation": "주요 이벤트 확인 후 재판단한다.",
+            "sources": [
+              "week_fattail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Apple·Palantir 실적",
+        "detail": "07:00 KST 콜, 결과·가이던스와 시간외 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL·PLTR",
+            "basis": "정규장 종가는 실적과 무관하다.",
+            "counter": "결과 미확인.",
+            "invalidation": "실적 발표 후 재판단한다.",
+            "sources": [
+              "aapl_prev",
+              "pltr_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL·PLTR",
+            "basis": "11/6 종가를 10/30 종가와 비교한다.",
+            "counter": "결과 미확인.",
+            "invalidation": "실적 발표 후 재판단한다.",
+            "sources": [
+              "apple_date",
+              "pltr_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국 반도체·정유주",
+        "detail": "미국 반도체 반등·유가 급락 영향을 한국 회차에서 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "한국 반도체·정유주",
+            "basis": "다음 한국 거래일 종가를 직전 종가와 비교한다.",
+            "counter": "KRX 자료와 원·달러는 이번 회차에서 확인하지 않았다.",
+            "invalidation": "한국 회차에서 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "oil_bbg"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체·정유주",
+            "basis": "5거래일 뒤 종가를 직전 종가와 비교한다.",
+            "counter": "한국 자료 미확인.",
+            "invalidation": "한국 회차의 KRX 분석으로 재판단한다.",
+            "sources": [
+              "chips_tr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "중간선거·AMD 실적",
+        "detail": "11/3 선거·JOLTS와 AMD 장후 실적을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 반도체·증시 전체",
+            "basis": "11/3 이벤트는 11/2 종가 이후다.",
+            "counter": "결과 미확인.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week_fattail",
+              "chips_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체·증시 전체",
+            "basis": "11/6 종가를 10/30 종가와 비교한다.",
+            "counter": "결과 미확인.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week_fattail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 고용보고서",
+        "detail": "11/6 22:30 KST, 예상 +5.5만명.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "d1 기간 밖 발표다.",
+            "counter": "해당 없음.",
+            "invalidation": "발표 후 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 증시 전체",
+            "basis": "11/6 종가를 10/30 종가와 비교한다. 발표 당일이 d5 마지막 날이다.",
+            "counter": "고용 결과가 금리·이익 전망에 상반된 영향을 줄 수 있다.",
+            "invalidation": "발표 후 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE · 2026 거래 달력(PDF)",
+      "nasdaq": "Nasdaq · 휴장 달력",
+      "close_pt": "Portfolio Terminal · 10/30 마감",
+      "close_bbn": "BBN Times · 나스닥 25,437.00",
+      "close_street": "TheStreet · 10/30 장 마감",
+      "intc_close": "GuruFocus · Intel 급락",
+      "cnbc_live": "CNBC · 11월 2일 장전 라이브",
+      "reuters_inv": "Reuters(Investing.com) · 선물 상승",
+      "intc_pre": "FinanceFeeds · Intel 장전",
+      "intc_bz": "Benzinga · Intel 추가 하락",
+      "chips_tr": "TipRanks · 반도체 장전 반등",
+      "amd_close": "Gotrade · AMD 10/30",
+      "nvda_close": "Gotrade · Nvidia 10/30",
+      "mu_close": "FinanceFeeds · Micron 주간 전망",
+      "mu_pre": "Benzinga · Micron 장전",
+      "pltr_tr": "TipRanks · Palantir 실적 전 옵션",
+      "pltr_bz": "Benzinga · Palantir 실적 예상",
+      "aapl_q": "CNBC · AAPL 시세",
+      "aapl_prev": "AppleInsider · Apple 4분기 예상",
+      "aapl_tr": "TipRanks · Apple 실적 핵심 지표",
+      "apple_date": "MacDailyNews · Apple 실적 일정",
+      "oil_bbg": "Bloomberg · 유가 하락",
+      "energy_pre": "Rallies · 에너지주 장전 약세",
+      "oil_tr": "TipRanks · 11/2 장전 시장",
+      "yield_te": "Trading Economics · 미국 10년물",
+      "week_sensei": "Sensei · 11/2~6 주간 일정",
+      "week_fattail": "FatTail · 주간 일정",
+      "ism_cal": "Thrive · ISM 발표 일정",
+      "massive": "Massive · 미국 일별 분석 요청"
+    }
+  },
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26)·조기폐장(11/27·12/24 13:00 ET) 목록. 11/2 정상장. 공식 도메인 한정 검색 결과로 확인."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE · 2026 거래 달력(PDF)",
+      "url": "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+      "note": "2026 연간 거래 달력."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "NYSE와 동일한 휴장·조기폐장 교차 확인."
+    },
+    {
+      "id": "close_pt",
+      "label": "Portfolio Terminal · 10/30 마감",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/october-30-2026",
+      "note": "S&P500 7,580.07(−1.82%), 다우 51,770.31(−1.09%), 나스닥 25,437.00(−2.86%), 러셀2000 2,811.84(−1.66%). 검색 요약."
+    },
+    {
+      "id": "close_bbn",
+      "label": "BBN Times · 나스닥 25,437.00",
+      "url": "https://www.bbntimes.com/technology/nasdaq-slides-to-25-437-00-as-intel-has-worst-day-since-1974-and-october-loss-tops-5-amid-us-iran-tensions",
+      "note": "나스닥 −747.73pt, 전일 26,184.73. S&P500 −140.32pt. 검색 요약."
+    },
+    {
+      "id": "close_street",
+      "label": "TheStreet · 10/30 장 마감",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026",
+      "note": "Intel·Reddit 실적 충격, 나스닥 약 3% 하락."
+    },
+    {
+      "id": "intc_close",
+      "label": "GuruFocus · Intel 급락",
+      "url": "https://www.gurufocus.com/news/9160147/nasdaq-drops-nearly-3-on-intels-q3-miss-intc-shares-plunge-29",
+      "note": "INTC 65.76USD(−28.58%), 3분기 매출 165억USD(+21%), 4분기 전망 150억~160억USD. 검색 요약."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 2일 장전 라이브",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "note": "08:57 ET 갱신: S&P500 선물 약 +0.5%, 나스닥100 선물 약 +0.8%, 다우 선물 +305pt(+0.6%), 브렌트 약 −6% 106.50USD, WTI 약 97.70USD. 검색 요약."
+    },
+    {
+      "id": "reuters_inv",
+      "label": "Reuters(Investing.com) · 선물 상승",
+      "url": "https://investing.com/news/stock-market-news/wall-street-futures-rise-as-ai-stocks-catch-their-breath-midterms-in-focus-4990733",
+      "note": "다우 E-mini +270pt(+0.52%), S&P500 E-mini +39.75pt(+0.52%), 나스닥100 E-mini +253.5pt(+0.89%). 시각 미확인."
+    },
+    {
+      "id": "intc_pre",
+      "label": "FinanceFeeds · Intel 장전",
+      "url": "https://financefeeds.com/intel-intc-stock-65-09-monday-first-session-after-28-6-percent-drop-amd-results-3-november-bull-72-bear-58/",
+      "note": "11/2 08:09 ET 장전 65.09USD(−1.02%)."
+    },
+    {
+      "id": "intc_bz",
+      "label": "Benzinga · Intel 추가 하락",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62776331/intel-stock-slides-again-monday-whats-going-on",
+      "note": "장전 약 64.74USD(−1.55%), 4분기 EPS 전망 0.25USD vs 예상 0.43USD, Barclays 목표가 100→75USD. 시각 미확인."
+    },
+    {
+      "id": "chips_tr",
+      "label": "TipRanks · 반도체 장전 반등",
+      "url": "https://www.tipranks.com/news/why-are-amd-nvidia-and-broadcom-stocks-rising-in-premarket-today-november-2",
+      "note": "AMD·NVDA·AVGO 장전 반등, INTC 약세. AMD 11/3 실적."
+    },
+    {
+      "id": "amd_close",
+      "label": "Gotrade · AMD 10/30",
+      "url": "https://www.heygotrade.com/en/news/amd-amd-stock-news-november-2-2026/",
+      "note": "AMD 504.80USD(−10.88%). 검색 요약."
+    },
+    {
+      "id": "nvda_close",
+      "label": "Gotrade · Nvidia 10/30",
+      "url": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-2-2026/",
+      "note": "NVDA 204.64USD(−4.22%). 다른 매체(JKN) 206.94USD(−3.15%)로 차이. 실적 11/17."
+    },
+    {
+      "id": "mu_close",
+      "label": "FinanceFeeds · Micron 주간 전망",
+      "url": "https://financefeeds.com/micron-mu-stock-885-saturday-week-ahead-after-intel-memory-cost-warning-amd-3-november-results-bull-985-bear-800/",
+      "note": "MU 10/30 종가 884.74USD(−5.30%). 검색 요약."
+    },
+    {
+      "id": "mu_pre",
+      "label": "Benzinga · Micron 장전",
+      "url": "https://benzinga.com/markets/tech/26/11/62772505/whats-going-on-with-micron-technology-stock-monday-8",
+      "note": "11/2 장전 2% 이상 상승. 시각 미확인."
+    },
+    {
+      "id": "pltr_tr",
+      "label": "TipRanks · Palantir 실적 전 옵션",
+      "url": "https://www.tipranks.com/news/pltr-stock-what-options-traders-and-analysts-expect",
+      "note": "10/30 종가 184.11USD(−6.27%), 옵션 내재 예상 변동폭 약 13%(±24.53USD)."
+    },
+    {
+      "id": "pltr_bz",
+      "label": "Benzinga · Palantir 실적 예상",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62770075/top-wall-street-forecasters-revamp-palantir-expectations-ahead-of-q3-earnings",
+      "note": "3분기 EPS 예상 0.41USD, 매출 약 21.8억USD."
+    },
+    {
+      "id": "aapl_q",
+      "label": "CNBC · AAPL 시세",
+      "url": "https://www.cnbc.com/quotes/AAPL",
+      "note": "10/30 종가 344.63USD, 전일 348.91USD, 시간외 345.10USD. 검색 요약."
+    },
+    {
+      "id": "aapl_prev",
+      "label": "AppleInsider · Apple 4분기 예상",
+      "url": "https://appleinsider.com/articles/26/11/01/what-to-expect-from-apples-q4-2026-results-on-november-2",
+      "note": "11/2 장 마감 후 발표. 매출 약 1,134억USD·EPS 1.99USD 예상."
+    },
+    {
+      "id": "aapl_tr",
+      "label": "TipRanks · Apple 실적 핵심 지표",
+      "url": "https://www.tipranks.com/news/apple-q4-earnings-today-4-key-metrics-that-could-drive-the-stock",
+      "note": "옵션 내재 예상 변동폭 약 4.25%, 회사 가이던스 매출총이익률 47~48%."
+    },
+    {
+      "id": "apple_date",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "11/2 실적 발표·14:00 PT 콜 일정(전 회차 확인)."
+    },
+    {
+      "id": "oil_bbg",
+      "label": "Bloomberg · 유가 하락",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-02/oil-slides-after-report-says-trump-favors-iran-diplomacy",
+      "note": "트럼프 대통령이 이란 외교를 선호한다는 보도 뒤 유가 하락."
+    },
+    {
+      "id": "energy_pre",
+      "label": "Rallies · 에너지주 장전 약세",
+      "url": "https://rallies.ai/news/us-energy-stocks-slip-as-crude-drops-on-iran-deal-hopes-aa1cd08aa24a0a92",
+      "note": "XOM 장전 −1.3%, CVX −1.1%, 브렌트 −4% 108.85USD, WTI −4.1% 99.88USD. 시각 미확인."
+    },
+    {
+      "id": "oil_tr",
+      "label": "TipRanks · 11/2 장전 시장",
+      "url": "https://www.tipranks.com/news/stock-market-today-nov-2-futures-rise-ahead-of-earnings-and-midterm-elections-oil-prices-fall",
+      "note": "브렌트 약 108.68USD, WTI 약 99.77USD(이른 시각)."
+    },
+    {
+      "id": "yield_te",
+      "label": "Trading Economics · 미국 10년물",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "note": "11/2 10년물 4.92%로 하락, 1개월 −0.40%p."
+    },
+    {
+      "id": "week_sensei",
+      "label": "Sensei · 11/2~6 주간 일정",
+      "url": "https://www.sensei.news/p/the-week-ahead-november-2-to-6",
+      "note": "10/30 10년물 4.93%, 10월 고용 11/6 08:30 ET 예상 +5.5만명."
+    },
+    {
+      "id": "week_fattail",
+      "label": "FatTail · 주간 일정",
+      "url": "https://fattail.ai/fattail-week-ahead-nov-2-6-2026/",
+      "note": "11/3 중간선거·JOLTS, 11/4 국채 분기 발행 계획."
+    },
+    {
+      "id": "ism_cal",
+      "label": "Thrive · ISM 발표 일정",
+      "url": "https://thriveinmarkets.com/fr/calendar/indicator/pmi/",
+      "note": "다음 ISM 제조업 PMI 11/2 10:00 ET. 컨센서스 미확인."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41458670544",
+      "note": "요청 커밋 23dabc1의 Collect US briefing inputs 실행(end_date 2026-10-30). 작성 시점 in_progress이고 artifact 다운로드 인증(gh) 실패로 분석 수치 미사용.",
+      "show_public": false
+    }
+  ]
+}
