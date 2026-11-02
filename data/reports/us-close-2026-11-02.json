@@ -1,0 +1,1009 @@
+{
+  "id": "us-close-2026-11-02",
+  "title": "11월 2일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-02 09:30~16:00 EST 정규장(2026-11-02 23:30~11-03 06:00 KST)",
+  "market_date": "2026-11-02",
+  "session": "close",
+  "as_of": "2026-11-03T06:00:00+09:00",
+  "queried_at": "2026-11-03T06:21:45+09:00",
+  "is_test": false,
+  "summary": "기술주 매도 재개에 나스닥 −1.07%, 유가 7%대 급락 속 다우는 +0.41%",
+  "summary_detail": "Oracle이 보통주·채권 각 100억달러 조달을 신고해 −7.51%, Marvell은 1,150억달러 규모 전액 주식 Lumentum 인수 발표 뒤 장중 −13% 안팎으로 밀리며 AI 투자 부담 우려가 다시 커졌다. 나스닥은 25,164.32(−1.07%), S&P500은 7,541.40(−0.51%)로 내렸고 다우는 51,983.98(+0.41%)로 올랐다. 미국·이란 외교 기대에 브렌트가 약 7.6% 내려 배럴당 104.77달러가 되자 XOM은 약 4% 하락, 항공주는 상승했다. 10월 ISM 제조업 PMI는 55.5로 예상 54.6을 웃돌았다. Palantir는 장 마감 후 3분기 매출 약 23.1억달러로 가이던스를 넘고 연간 전망을 올렸으며, Apple 실적은 작성 시점 미확인이다.",
+  "interpretation": "이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 지수·종가는 검색 결과에 요약된 CNBC·Yahoo·MoneyCheck·Google Finance 등의 값을 잠정으로 사용했다. MRVL·PLTR은 정규장 종가를 확인하지 못해 장중 시각 시세를 시각과 함께 별도 표기했다. 유가 하락은 비용 측면에서 항공주에, 매출 측면에서 정유·에너지주에 반대로 작용했다. 기술주 약세는 Oracle 증자와 Marvell 인수의 희석 부담이 직접 재료였고, 이를 AI 수요 둔화로 단정하지 않는다. 이번 요청의 Massive 수집은 작성 시점까지 진행 중이어서 분석 수치를 쓰지 않았다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,541.40",
+      "unit": "pt",
+      "delta": "−38.67",
+      "percent": "−0.51",
+      "direction": "down",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yahoo_live",
+        "thestreet"
+      ],
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "session": "2026-11-02 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 10/30 잠정 종가 7,580.07 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,164.32",
+      "unit": "pt",
+      "delta": "−272.68",
+      "percent": "−1.07",
+      "direction": "down",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "thestreet"
+      ],
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "session": "2026-11-02 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 10/30 잠정 종가 25,437.00 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "51,983.98",
+      "unit": "pt",
+      "delta": "+213.67",
+      "percent": "+0.41",
+      "direction": "up",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yahoo_live"
+      ],
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "session": "2026-11-02 미국 정규장 종가(16:00 EST) · 잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "기술주 매도 재개, 다우는 상승",
+      "fact": "11/2 정규장에서 나스닥은 25,164.32로 1.07%, S&P500은 7,541.40으로 0.51% 내렸고 다우는 213.67포인트(0.41%) 오른 51,983.98로 마감했다(잠정). 10/30 나스닥 −2.86%에 이어 기술주 매도가 이어졌고 NVDA·META는 약 1% 하락이 보도됐다. 장전 선물 반등(나스닥100 약 +0.8%)은 유지되지 않았다. 다우는 장중 1% 안팎 올랐다는 보도가 있으나 마감은 +0.41%였다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yahoo_live",
+        "thestreet",
+        "ust10"
+      ]
+    },
+    {
+      "title": "Oracle 200억달러 조달 신고",
+      "fact": "Oracle은 11/2 SEC 신고로 보통주 100억USD와 선순위채 100억USD 발행 계획을 밝혔다. 10/30 종가 130.67USD 가정 시 약 7,650만주로 발행주식이 약 30.2억주에서 31.0억주로 늘어난다는 보도가 있다. ORCL은 120.86USD(−9.81USD, −7.51%)로 마감했다(잠정, 매체별 120.86~121.47USD). 이미 예고한 범위의 조달이라는 애널리스트 평가도 있다.",
+      "source": "orcl_cnbc",
+      "additional_sources": [
+        "orcl_rtt",
+        "orcl_close"
+      ]
+    },
+    {
+      "title": "Marvell, Lumentum 1,150억달러 인수",
+      "fact": "Marvell은 Lumentum을 전액 주식 교환(1주당 Marvell 4.500주)으로 인수한다고 SEC 8-K로 발표했다. 기업가치 약 1,150억USD, 2028년 상반기 종결 예상이며 주주·규제 승인이 필요하다. MRVL은 15:52 EST 170.91USD(−12.98%)였고 LITE도 매체·시각별 약 11~18% 하락이 보도됐다(종가 미확인). 고정 교환비율이라 MRVL 하락이 Lumentum 주주의 실제 인수가치를 낮춘다.",
+      "source": "mrvl_8k",
+      "additional_sources": [
+        "mrvl_q",
+        "mrvl_bz",
+        "lite_yahoo"
+      ]
+    },
+    {
+      "title": "이란 외교 기대에 유가 7%대 급락",
+      "fact": "이란 대통령의 협상 권한 발언과 루비오 국무장관 발언 뒤 브렌트는 104.77USD(−7.63%)로 마감했다는 보도가 있고 10/30 결제가는 113.43USD였다. WTI는 약 96.39USD(−7.4%)로 100달러를 밑돌았다(결제가 확정 여부 미확인). XOM은 179.67USD(−4.05%), 화석연료 업종 약 −3.7%였고 UAL +4.80%·AAL +3.81%는 상승 마감했다.",
+      "source": "oil_prev",
+      "additional_sources": [
+        "oil_px",
+        "st_live",
+        "xom_close",
+        "xom_tk",
+        "ual_ms"
+      ]
+    },
+    {
+      "title": "ISM 제조업 55.5, 예상 상회",
+      "fact": "10월 ISM 제조업 PMI는 55.5로 9월 54.5와 예상 54.6을 웃돌았다. 생산지수 59.0, 가격지수 75.2였다. 미국 10년물 국채수익률은 장중 4.89%(−5bp)로 보도됐고 11/2 확정 종가는 미확인이다.",
+      "source": "ism",
+      "additional_sources": [
+        "ism_fx",
+        "ust10"
+      ]
+    },
+    {
+      "title": "Palantir 실적 상회, Apple은 대기",
+      "fact": "Palantir는 장 마감 후 3분기 매출 약 23.13억USD(+96%)로 회사 가이던스 21.60~21.64억USD와 컨센서스 21.8억USD를 넘었고 2026 매출 가이던스를 85.30~85.34억USD로 올렸다. 발표 직후 시간외 주가는 '초기 보합'과 +2.0%(187.82USD) 보도가 엇갈린다. 옵션 내재 예상 변동폭은 약 13%였다. Apple 4분기 실적(컨센서스 매출 약 1,134억USD·EPS 1.99USD)은 작성 시점 검색 결과에 나오지 않았다.",
+      "source": "pltr_pr",
+      "additional_sources": [
+        "pltr_live",
+        "pltr_tr",
+        "aapl_prev",
+        "aapl_live"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "오라클",
+      "ticker": "ORCL",
+      "price": "120.86",
+      "currency": "USD",
+      "delta": "−9.81",
+      "percent": "−7.51",
+      "direction": "down",
+      "source": "orcl_close",
+      "venue": "NYSE",
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "session": "2026-11-02 미국 정규장 종가(16:00 EST) · 잠정 · 매체별 120.86~121.47USD · 전일 130.67USD",
+      "reason": "보통주 100억달러 발행 신고로 희석 우려가 커져 7.51% 내렸다.",
+      "watch": "공모 가격과 발행 규모 확정, 120달러 지지 여부를 본다.",
+      "reason_sources": [
+        "orcl_cnbc",
+        "orcl_rtt",
+        "orcl_close"
+      ]
+    },
+    {
+      "name": "마벨 테크놀로지",
+      "ticker": "MRVL",
+      "price": "170.91",
+      "currency": "USD",
+      "delta": "−25.49",
+      "percent": "−12.98",
+      "direction": "down",
+      "source": "mrvl_q",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-03T05:52:00+09:00",
+      "session": "2026-11-02 15:52 EST 장중 시세(05:52 KST) · 정규장 종가 아님 · 종가 미확인",
+      "reason": "1,150억달러 전액 주식 Lumentum 인수로 희석·가격 부담이 부각됐다.",
+      "watch": "정규장 종가 확인과 인수 재무 설명, LITE와의 교환비율 괴리를 본다.",
+      "reason_sources": [
+        "mrvl_8k",
+        "mrvl_bz",
+        "lite_yahoo"
+      ]
+    },
+    {
+      "name": "엑슨모빌",
+      "ticker": "XOM",
+      "price": "179.67",
+      "currency": "USD",
+      "delta": "−미확인",
+      "percent": "−4.05",
+      "direction": "down",
+      "source": "xom_close",
+      "venue": "NYSE",
+      "as_of": "2026-11-03T06:01:00+09:00",
+      "session": "2026-11-02 16:01 EST 표시 종가 · 잠정 · 매체별 −3.57~−4.05% · 변동액 원문 미확인",
+      "missing_reason": "변동액은 원문에서 확인하지 못해 등락률로 역산하지 않았다.",
+      "reason": "브렌트 7%대 급락과 사상 최고가 이후 차익실현으로 내렸다.",
+      "watch": "유가 반등 여부와 이란 협상 진전 보도를 본다.",
+      "reason_sources": [
+        "xom_tk",
+        "oil_prev",
+        "st_live"
+      ]
+    },
+    {
+      "name": "유나이티드항공",
+      "ticker": "UAL",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "+4.80(보도)",
+      "direction": "missing",
+      "source": "st_live",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "session": "2026-11-02 정규장 마감 등락률 보도값 · 가격 미확인",
+      "missing_reason": "종가를 원문에서 확인하지 못했다. +4.80%는 보도된 마감 등락률이며 장중 약 7% 보도와 다르다.",
+      "reason": "유가 급락으로 연료비 부담 완화 기대가 반영됐다.",
+      "watch": "유가 100달러 하회 지속과 항공주 동반 강세를 본다.",
+      "reason_sources": [
+        "st_live",
+        "ual_ms",
+        "oil_px"
+      ]
+    },
+    {
+      "name": "팔란티어",
+      "ticker": "PLTR",
+      "price": "181.25",
+      "currency": "USD",
+      "delta": "−2.86",
+      "percent": "−1.55",
+      "direction": "down",
+      "source": "pltr_q",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-03T04:59:00+09:00",
+      "session": "2026-11-02 14:59 ET 장중 시세(04:59 KST) · 정규장 종가 미확인 · 전일 184.11USD 기준 · 시간외 반응 별도",
+      "reason": "실적 발표 전 약세였고 장 마감 후 매출이 가이던스를 넘었다.",
+      "watch": "11/3 정규장에서 시간외 반응 유지와 13% 예상 변동폭 대비 실제 움직임을 본다.",
+      "reason_sources": [
+        "pltr_pr",
+        "pltr_live",
+        "pltr_tr"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.89",
+    "unit": "%",
+    "delta": "−0.05%p(5bp, 보도)",
+    "direction": "down",
+    "source": "ust10",
+    "as_of": "2026-11-03T06:00:00+09:00",
+    "session": "11/2 장중 보도값 · 시각 미확인 · 확정 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-03 07:00 KST",
+      "title": "Apple·Palantir 실적 콜",
+      "detail": "두 회사 모두 11/2 17:00 EST(14:00 PST) 콜. Apple 매출·12월 분기 가이던스와 시간외 반응을 확인한다."
+    },
+    {
+      "label": "다음 한국장 개장 · 2026-11-03(화) · 확인 순서",
+      "title": "한국 반도체·정유·항공주 반응",
+      "detail": "미국 기술주 약세와 유가 급락이 삼성전자·SK하이닉스, 정유·항공주에 주는 영향을 한국 회차에서 KRX 달력과 함께 확인한다."
+    },
+    {
+      "label": "2026-11-03 (미국) · 확인 순서",
+      "title": "중간선거·AMD 실적",
+      "detail": "11/3 미국 중간선거와 JOLTS, AMD 장후 실적(시각 미확인)을 확인한다."
+    },
+    {
+      "label": "2026-11-06 22:30 KST",
+      "title": "10월 고용보고서",
+      "detail": "11/6 08:30 EST 발표, 예상 +5.5만명(직전 +2.9만명)."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-11-02",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-03T06:17:30+09:00",
+    "note": "NYSE Group 2026 휴장(11/26 추수감사절 등)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/2(월)이 없어 정상 거래일·정규 폐장으로 판단했다. Nasdaq 목록과 일치. 원문 페이지는 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-02 23:30~11-03 06:00 KST. 다음 거래일 11/3(화), 5거래일 11/3·4·5·6·9(11/11 재향군인의 날은 주식시장 정상 개장)."
+  },
+  "calculation_notes": "지수 값·등락률은 검색 결과에 요약된 CNBC 마감 보도의 값을 그대로 썼다. 포인트 변화: S&P500 7,541.40−7,580.07=−38.67(−38.67/7,580.07=−0.51%), 나스닥 25,164.32−25,437.00=−272.68(−1.07%), 다우 51,983.98−51,770.31=+213.67(보도값과 일치). 이전 종가는 전 회차 잠정값. ORCL 130.67−9.81=120.86 확인, 9.81/130.67=7.51%. MRVL 직전 종가 역산 170.91+25.49=196.40(참고용, 실제 종가로 쓰지 않음). PLTR 184.11−181.25=2.86, 2.86/184.11=1.55%. 브렌트 113.43×(1−0.0763)=104.78로 보도값 104.77과 정합. XOM 변동액은 원문 미확인으로 역산하지 않았다. Massive 분석은 작성 시점 미완료로 사용하지 않았고 ETF 대용치를 지수 값으로 쓰지 않았다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/2(월)이 없어 정상 거래일. 원문 페이지는 이번 실행 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "note": "NYSE Group IR 문서. 11/27(금) 13:00 조기폐장, 11/26 휴장. 11/2는 목록에 없음. 검색 요약."
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq · 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "NYSE와 동일한 휴장·조기폐장 교차 확인. 검색 결과로 확인."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 2일 장 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "note": "제목 'Nasdaq starts November with 1% loss as tech melts down again'. 나스닥 −1.07% 25,164.32, S&P500 −0.51% 7,541.40, 다우 +213.67pt(+0.41%) 51,983.98. NVDA·META 약 −1%, ORCL 약 −8%, MRVL 약 −13% 언급. 검색 요약(원문 직접 열람 불가)."
+    },
+    {
+      "id": "yahoo_live",
+      "label": "Yahoo Finance · 11월 2일 장 흐름",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+      "note": "'S&P 500 and Nasdaq extend tech sell-off, Dow gains as oil prices plunge'. 다우 +0.4%, S&P500 −0.5%. 검색 요약."
+    },
+    {
+      "id": "thestreet",
+      "label": "TheStreet · 11월 2일 장 마감",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026",
+      "note": "S&P500·나스닥 하락 마감, Apple 실적·중간선거 대기. 검색 요약."
+    },
+    {
+      "id": "orcl_cnbc",
+      "label": "CNBC · Oracle 200억달러 조달",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "note": "Oracle이 SEC 신고로 보통주 100억USD·선순위채 100억USD 발행 계획. 장중 6% 넘게 하락 보도. 검색 요약."
+    },
+    {
+      "id": "orcl_close",
+      "label": "MoneyCheck · Oracle 7% 넘게 하락",
+      "url": "https://moneycheck.com/oracle-orcl-stock-tumbles-over-7-after-unveiling-massive-20-billion-capital-raise",
+      "note": "ORCL 120.86USD에 마감, −9.81USD(−7.51%). 전일 종가 130.67USD(Yahoo 동일). 다른 시점 시세: Finviz 13:59 ET 121.37(−7.12%), Chartmill 121.47(−7.04%). 검색 요약, 거래소 원문 미확인."
+    },
+    {
+      "id": "orcl_rtt",
+      "label": "RTTNews · Oracle 주식·채권 각 100억달러",
+      "url": "https://www.rttnews.com/3707263/oracle-to-raise-10-bln-each-in-stock-and-senior-notes-shares-down.aspx",
+      "note": "예비 투자설명서 기준 약 7,650만주(10/30 종가 130.67USD 가정), 발행주식 약 30.2억→31.0억주. 장중 123.81USD(−5.25%). 검색 요약."
+    },
+    {
+      "id": "mrvl_8k",
+      "label": "Marvell · Lumentum 인수 발표(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm",
+      "note": "전액 주식 교환, Lumentum 1주당 Marvell 4.500주, 기업가치 약 1,150억USD(주당 약 1,132USD 기준), 2028년 상반기 종결 예상, 주주·규제 승인 조건. 연간 10억USD 이상 비용 절감 기대. 검색 요약."
+    },
+    {
+      "id": "mrvl_q",
+      "label": "CNBC · MRVL 시세",
+      "url": "https://www.cnbc.com/quotes/MRVL",
+      "note": "11/2 15:52 EST 170.91USD, −25.49USD(−12.98%). 정규장 종가 아님. 검색 요약."
+    },
+    {
+      "id": "mrvl_bz",
+      "label": "Benzinga · Marvell 3일 낙폭",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62785648/marvell-stock-worst-3-day-drop-since-september-2001-lumentum",
+      "note": "2001년 9월 이후 최악의 3거래일 하락 가능성 보도. 시각별 시세 상이. 검색 요약."
+    },
+    {
+      "id": "lite_yahoo",
+      "label": "Yahoo Finance · Marvell·Lumentum 동반 급락",
+      "url": "https://finance.yahoo.com/markets/stocks/article/marvell-to-purchase-lumentum-in-115-billion-deal-as-ai-124702761.html",
+      "note": "두 종목 모두 급락. LITE 하락률은 매체·시각별 약 11~18%로 상이, 종가 미확인. 검색 요약."
+    },
+    {
+      "id": "oil_px",
+      "label": "OilPrice · 유가 7% 급락",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
+      "note": "미국·이란이 외교 여지를 시사하며 유가 약 7% 급락. 검색 요약."
+    },
+    {
+      "id": "st_live",
+      "label": "StockTitan · 11월 2일 장 라이브",
+      "url": "https://stocktitan.net/articles/stock-market-today-live-november-2-2026",
+      "note": "브렌트 104.77USD(−7.63%) 마감, UAL +4.80%·AAL +3.81% 마감, XOM 15:59 ET −4.02%. 검색 요약(원문 직접 열람 불가)."
+    },
+    {
+      "id": "oil_prev",
+      "label": "Invezz · WTI 100달러 하회",
+      "url": "https://invezz.com/ca/news/2026/11/02/oil-price-today-wti-crude-falls-below-dollar100-as-iran-peace-talk-hopes-build/",
+      "note": "10/30 결제가 브렌트(1월물) 113.43USD, WTI(12월물) 104.12USD. 11/2 WTI 약 96.39USD(−7.4%) 보도, 결제가 확정 여부 미확인. 이란 대통령 협상 권한 발언·루비오 국무장관 발언. 검색 요약."
+    },
+    {
+      "id": "xom_close",
+      "label": "Google Finance · XOM 시세",
+      "url": "https://www.google.com/finance/quote/XOM:NYSE",
+      "note": "11/2 16:01 ET 179.67USD(−4.05%). 변동액 미표시. 검색 요약."
+    },
+    {
+      "id": "xom_tk",
+      "label": "TradingKey · XOM 11/2 하락",
+      "url": "https://www.tradingkey.com/news/market-movers/262264638-market-movers-xom-20261102",
+      "note": "XOM −3.57%(시각 미확인), 화석연료 업종 −3.73%, CVX −3.24%, VLO −3.75%. 사상 최고가 이후 차익실현 언급. 검색 요약."
+    },
+    {
+      "id": "ual_ms",
+      "label": "MarketScreener · 오늘의 주요 종목",
+      "url": "https://www.marketscreener.com/news/latest/Today-s-Biggest-Movers-United-Airlines-Stock-Soars-as-Oil-Prices-Decline-Oracle-Unveils-Costly-AI-54631327/",
+      "note": "유가 하락에 UAL 장중 약 7% 상승 보도(시각 미확인). 검색 요약."
+    },
+    {
+      "id": "ism",
+      "label": "ISM · 10월 제조업 PMI(PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
+      "note": "10월 제조업 PMI 55.5%(9월 54.5), 생산 59.0, 가격 75.2. 11/2 10:00 EST 발표. 검색 요약."
+    },
+    {
+      "id": "ism_fx",
+      "label": "FXStreet · ISM 예상 대비",
+      "url": "https://www.fxstreet.com/news/us-ism-manufacturing-pmi-improces-to-555-in-october-vs-546-expected-202611021510",
+      "note": "예상 54.6 대비 55.5. 검색 요약."
+    },
+    {
+      "id": "ust10",
+      "label": "Benzinga · 장중 시장(10년물)",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+      "note": "미국 10년물 4.89%, 5bp 하락(장중 보도, 시각 미확인). 다우 장중 +1% 보도. 검색 요약."
+    },
+    {
+      "id": "yield_te",
+      "label": "Trading Economics · 미국 10년물",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "note": "전 회차 참고: 10/30 4.93%. 11/2 확정 종가 미확인."
+    },
+    {
+      "id": "pltr_pr",
+      "label": "Palantir · 3분기 실적(보도자료)",
+      "url": "https://www.stocktitan.net/news/PLTR/palantir-reports-q3-2026-u-s-comm-revenue-growth-of-148-y-y-and-quyw16dj59bm.html",
+      "note": "3분기 매출 약 23.13억USD(+96%), 회사 가이던스 21.60~21.64억USD, 미국 상업 매출 +148%. 2026 매출 가이던스 85.30~85.34억USD(기존 81.50~81.58억), 조정 영업이익 52.45~52.49억USD, 조정 FCF 48~50억USD. 보도자료 전재본, 검색 요약."
+    },
+    {
+      "id": "pltr_live",
+      "label": "24/7 Wall St. · Palantir 실적 라이브",
+      "url": "https://247wallst.com/investing/2026/11/02/live-will-palantir-smash-q3-earnings-tonight-after-the-bell/",
+      "note": "발표 직후 시간외 주가 '초기 보합' 보도. 컨센서스 매출 21.8억USD. Investing.com은 시간외 +2.0% 187.82USD 보도(메타데이터 불일치). 검색 요약."
+    },
+    {
+      "id": "pltr_q",
+      "label": "Finviz · PLTR 시세",
+      "url": "https://finviz.com/stock?t=PLTR",
+      "note": "11/2 14:59 ET 181.25USD(−1.55%), 전일 종가 184.11USD. 다른 보도 15:42 EST 178.95USD(−2.80%). 정규장 종가 미확인. 검색 요약."
+    },
+    {
+      "id": "pltr_tr",
+      "label": "TipRanks · Palantir 옵션 예상 변동",
+      "url": "https://www.tipranks.com/news/pltr-stock-what-options-traders-and-analysts-expect",
+      "note": "옵션 내재 예상 변동폭 약 13.32%(±24.53USD), EPS 예상 0.41USD·매출 21.8억USD."
+    },
+    {
+      "id": "aapl_prev",
+      "label": "AppleInsider · Apple 4분기 예상",
+      "url": "https://appleinsider.com/articles/26/11/01/what-to-expect-from-apples-q4-2026-results-on-november-2",
+      "note": "11/2 장 마감 후 발표. LSEG 컨센서스 매출 약 1,133.9억USD·EPS 1.99USD, 아이폰 약 565억USD. Ternus CEO 첫 실적."
+    },
+    {
+      "id": "aapl_live",
+      "label": "CNBC · Apple 실적 라이브",
+      "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+      "note": "작성 시점 검색 결과에는 실적 수치·시간외 반응이 없었다."
+    },
+    {
+      "id": "apple_date",
+      "label": "MacDailyNews · Apple 실적 일정",
+      "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+      "note": "11/2 장 마감 후 발표, 14:00 PT 콜."
+    },
+    {
+      "id": "week_sensei",
+      "label": "Sensei · 11/2~6 주간 일정",
+      "url": "https://www.sensei.news/p/the-week-ahead-november-2-to-6",
+      "note": "10월 고용 11/6 08:30 ET 예상 +5.5만명(직전 +2.9만명)."
+    },
+    {
+      "id": "week_fattail",
+      "label": "FatTail · 주간 일정",
+      "url": "https://fattail.ai/fattail-week-ahead-nov-2-6-2026/",
+      "note": "11/3 중간선거·JOLTS, 11/4 국채 분기 발행 계획."
+    },
+    {
+      "id": "chips_tr",
+      "label": "TipRanks · AMD 11/3 실적",
+      "url": "https://www.tipranks.com/news/why-are-amd-nvidia-and-broadcom-stocks-rising-in-premarket-today-november-2",
+      "note": "AMD 11/3 장후 실적(시각 미확인)."
+    },
+    {
+      "id": "massive",
+      "label": "Massive · 미국 일별 분석 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41526911840",
+      "note": "요청 커밋 66ea879(end_date 2026-11-02, watch AAPL·PLTR·INTC·AMD·NVDA·MU·XOM)의 Collect US briefing inputs 실행. 작성 시점(2026-11-03 06:19 KST) in_progress, artifact 0개, gh CLI 인증 실패로 다운로드 불가. 분석 수치 미사용.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "기술주 또 약세, 유가 7%대 급락",
+    "summary_points": [
+      "Oracle 증자·Marvell 인수 부담에 나스닥 1.07% 하락.",
+      "브렌트 7.6% 급락에 에너지 약세, 항공주 강세.",
+      "Palantir 실적 상회, Apple 결과는 확인 대기."
+    ],
+    "notices": [
+      "원문 사이트 직접 열람이 막혀 지수·종가는 검색 요약으로 확인한 잠정값이다.",
+      "MRVL·PLTR은 정규장 종가 미확인이라 장중 시각 시세를 표시했고 UAL 가격은 미확인이다.",
+      "10년물·WTI는 장중 보도값이며 Massive 분석은 작성 시점 미완료로 쓰지 않았다."
+    ],
+    "issues": [
+      {
+        "title": "기술주 매도 재개",
+        "preview": "나스닥 −1.07%, S&P500 −0.51%, 다우 +0.41%였다.",
+        "points": [
+          "장전 선물 반등이 유지되지 않고 기술주가 다시 밀렸다.",
+          "다우는 유가 하락 수혜주 중심으로 올랐다."
+        ],
+        "meaning": "AI 대형주 부담이 지수 간 차별화로 이어지고 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 기술주·나스닥",
+            "basis": "다음 거래일 11/3 정규장 종가를 11/2 나스닥 25,164.32와 비교한다. Apple·Palantir 실적과 중간선거가 겹친다.",
+            "counter": "실적 호조면 반등, 증자·희석 우려 확산이면 추가 약세다. 장 초반 갭과 종가 방향은 다를 수 있다.",
+            "invalidation": "Apple 시간외가 크게 오르고 반도체가 동반 반등하면 상방으로 바꾼다.",
+            "sources": [
+              "cnbc_live",
+              "pltr_pr",
+              "aapl_prev"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 기술주·나스닥",
+            "basis": "5거래일 뒤 11/9 정규장 종가를 11/2와 비교한다. AMD 실적·고용보고서가 기간 안에 있다.",
+            "counter": "재료가 여러 개 남아 있어 판단을 보류한다.",
+            "invalidation": "11/6 고용과 금리 반응을 보고 재판단한다.",
+            "sources": [
+              "week_sensei",
+              "chips_tr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Oracle 200억달러 조달",
+        "preview": "주식·채권 각 100억달러 신고에 −7.51%였다.",
+        "points": [
+          "발행주식이 약 30.2억주에서 31.0억주로 늘 수 있다.",
+          "이미 예고한 조달이라는 평가도 있다."
+        ],
+        "meaning": "AI 설비투자 자금 조달 방식이 주가에 직접 부담이 되고 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "ORCL",
+            "basis": "11/3 종가를 120.86USD와 비교한다. 공모 가격 결정이 남아 있다.",
+            "counter": "하루 7%대 급락 뒤 반발과 공모 할인 부담이 상충한다. 장중 되돌림 위험이 크다.",
+            "invalidation": "공모가가 120달러를 크게 밑돌면 하방, 125달러 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "orcl_cnbc",
+              "orcl_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "ORCL",
+            "basis": "11/9 종가를 120.86USD와 비교한다.",
+            "counter": "공모 소화 과정과 AI 수주 기대가 상충한다.",
+            "invalidation": "공모 완료 후 주가 흐름으로 재판단한다.",
+            "sources": [
+              "orcl_rtt"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Marvell의 Lumentum 인수",
+        "preview": "1,150억달러 전액 주식 인수, MRVL 장중 −13%.",
+        "points": [
+          "Lumentum 1주당 Marvell 4.5주, 2028년 상반기 종결 예상이다.",
+          "LITE도 약 11~18% 하락이 보도됐다."
+        ],
+        "meaning": "광통신 AI 수혜 기대보다 희석과 가격 부담이 먼저 반영됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MRVL·LITE·광통신주",
+            "basis": "11/3 종가를 11/2 종가(미확인, 15:52 EST 170.91USD 참고)와 비교한다.",
+            "counter": "3거래일 급락 뒤 반발과 인수 반대·추가 희석 우려가 상충한다.",
+            "invalidation": "MRVL이 180달러 위로 회복하면 상방, 170달러 아래 마감이 이어지면 하방을 강화한다.",
+            "sources": [
+              "mrvl_8k",
+              "mrvl_q",
+              "mrvl_bz"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "MRVL·LITE",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "주주 반응과 애널리스트 평가가 아직 나오지 않았다.",
+            "invalidation": "투자의견·목표가 변화로 재판단한다.",
+            "sources": [
+              "mrvl_8k"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 7%대 급락",
+        "preview": "브렌트 104.77달러(−7.63%), WTI 100달러 하회.",
+        "points": [
+          "미국·이란 외교 기대가 직접 재료였다.",
+          "XOM −4.05%, UAL +4.80%로 갈렸다."
+        ],
+        "meaning": "유가 하락이 업종별로 반대 방향의 수익 기대를 만든다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "에너지·항공주",
+            "basis": "11/3 종가를 11/2 종가(XOM 179.67USD)와 비교한다.",
+            "counter": "협상 기대가 이어지면 에너지 약세, 중간선거 뒤 긴장 재부각 시 유가 반등 가능성이 있다.",
+            "invalidation": "브렌트가 110달러 위로 반등하면 에너지 하방 판단을 낮춘다.",
+            "sources": [
+              "oil_prev",
+              "oil_px",
+              "xom_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "에너지·항공주",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "이란 협상 결과가 아직 정해지지 않았다.",
+            "invalidation": "협상 개시·결렬 보도로 재판단한다.",
+            "sources": [
+              "oil_prev"
+            ]
+          }
+        }
+      },
+      {
+        "title": "ISM 제조업 55.5",
+        "preview": "예상 54.6을 웃돌고 가격지수는 75.2였다.",
+        "points": [
+          "생산지수 59.0으로 확장세가 이어졌다.",
+          "10년물은 장중 4.89%로 내렸다."
+        ],
+        "meaning": "경기 확장과 유가 하락이 함께 나와 금리 부담은 다소 줄었다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/3 10년물과 지수 종가를 비교한다. 10년물 확정 종가가 없다.",
+            "counter": "가격지수 75.2는 물가 부담, 유가 하락은 완화 요인이다.",
+            "invalidation": "10년물이 5%를 다시 넘으면 하방으로 바꾼다.",
+            "sources": [
+              "ism",
+              "ust10"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "11/6 고용보고서가 핵심이다.",
+            "invalidation": "고용 결과로 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Palantir 상회, Apple 대기",
+        "preview": "PLTR 매출 23.1억달러로 가이던스 상회.",
+        "points": [
+          "2026 매출 가이던스를 85.3억달러대로 올렸다.",
+          "시간외 반응은 보합~+2%로 보도가 엇갈린다."
+        ],
+        "meaning": "실적은 강했지만 높은 기대가 이미 반영돼 반응이 제한될 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PLTR",
+            "basis": "11/3 종가를 11/2 정규장 종가(미확인, 전일 184.11USD)와 비교한다.",
+            "counter": "실적·가이던스 상회와 이미 높은 기대(옵션 예상 변동폭 약 13%)가 상충한다. 개장 직후 상승 뒤 되돌림 경로도 가능하다.",
+            "invalidation": "11/3 종가가 시간외 가격 위에서 유지되면 상방, 정규장 중 시간외 상승분을 반납하면 하방을 검토한다.",
+            "sources": [
+              "pltr_pr",
+              "pltr_live",
+              "pltr_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "PLTR·Apple",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "Apple 결과가 아직 확인되지 않았다.",
+            "invalidation": "Apple 가이던스와 대형 기술주 반응으로 재판단한다.",
+            "sources": [
+              "aapl_prev",
+              "aapl_live"
+            ]
+          }
+        }
+      }
+    ],
+    "stocks": {
+      "ORCL": {
+        "reason": "100억달러 증자 신고로 희석 우려가 커졌다.",
+        "watch": "공모가와 120달러 지지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "ORCL",
+            "basis": "11/3 종가를 120.86USD와 비교한다.",
+            "counter": "급락 뒤 반발과 공모 할인이 상충한다.",
+            "invalidation": "125달러 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "orcl_close",
+              "orcl_cnbc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "ORCL",
+            "basis": "11/9 종가를 120.86USD와 비교한다.",
+            "counter": "공모 소화 과정이 불확실하다.",
+            "invalidation": "공모 완료 후 재판단한다.",
+            "sources": [
+              "orcl_rtt"
+            ]
+          }
+        }
+      },
+      "MRVL": {
+        "reason": "전액 주식 대형 인수로 희석 부담이 커졌다.",
+        "watch": "종가 확인과 인수 재무 설명을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "MRVL",
+            "basis": "11/3 종가를 11/2 종가(미확인)와 비교한다.",
+            "counter": "급락 뒤 반발과 희석 우려가 상충한다.",
+            "invalidation": "180달러 위 회복 시 상방으로 바꾼다.",
+            "sources": [
+              "mrvl_q",
+              "mrvl_8k"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "MRVL",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "주주·애널리스트 반응이 미확인이다.",
+            "invalidation": "투자의견 변화로 재판단한다.",
+            "sources": [
+              "mrvl_bz"
+            ]
+          }
+        }
+      },
+      "XOM": {
+        "reason": "유가 급락과 차익실현으로 4% 안팎 내렸다.",
+        "watch": "유가 반등과 이란 협상 진전을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "XOM",
+            "basis": "11/3 종가를 179.67USD와 비교한다.",
+            "counter": "유가 추가 하락과 반발 매수가 상충한다.",
+            "invalidation": "브렌트 110달러 위 반등 시 상방으로 바꾼다.",
+            "sources": [
+              "xom_close",
+              "oil_prev"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "XOM",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "협상 결과가 정해지지 않았다.",
+            "invalidation": "협상 진전 여부로 재판단한다.",
+            "sources": [
+              "oil_px"
+            ]
+          }
+        }
+      },
+      "UAL": {
+        "reason": "유가 급락으로 연료비 부담 완화 기대가 커졌다.",
+        "watch": "유가 100달러 하회 지속을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "UAL",
+            "basis": "11/3 종가를 11/2 종가(미확인)와 비교한다.",
+            "counter": "기준 가격이 없고 유가 방향이 유동적이다.",
+            "invalidation": "WTI가 100달러 위로 돌아오면 하방을 검토한다.",
+            "sources": [
+              "st_live",
+              "oil_px"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "UAL",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "기준 가격 미확인이다.",
+            "invalidation": "종가 확인 후 재판단한다.",
+            "sources": [
+              "st_live"
+            ]
+          }
+        }
+      },
+      "PLTR": {
+        "reason": "매출이 가이던스를 넘고 연간 전망을 올렸다.",
+        "watch": "시간외 반응이 11/3 정규장에서 유지되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "PLTR",
+            "basis": "11/3 종가를 11/2 정규장 종가(미확인)와 비교한다.",
+            "counter": "실적 상회와 높은 기대 선반영이 상충한다.",
+            "invalidation": "시간외 상승분 유지 시 상방으로 바꾼다.",
+            "sources": [
+              "pltr_pr",
+              "pltr_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "PLTR",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "실적 후 추정치 조정이 아직 없다.",
+            "invalidation": "목표가·추정치 상향 폭으로 재판단한다.",
+            "sources": [
+              "pltr_tr"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "Apple·Palantir 실적 콜",
+        "detail": "Apple 매출·12월 분기 가이던스와 시간외 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AAPL·대형 기술주",
+            "basis": "11/3 정규장 종가를 11/2 종가와 비교한다. Apple 결과가 작성 시점 미확인이다.",
+            "counter": "결과를 모르므로 방향을 정하지 않는다.",
+            "invalidation": "매출·가이던스가 컨센서스(약 1,134억USD)를 넘으면 상방을 검토한다.",
+            "sources": [
+              "aapl_prev",
+              "aapl_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AAPL·대형 기술주",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "결과 미확인이다.",
+            "invalidation": "실적 후 반응으로 재판단한다.",
+            "sources": [
+              "aapl_prev"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국 반도체·정유·항공주",
+        "detail": "미국 기술주 약세와 유가 급락의 한국 개장 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체·정유·항공·코스피",
+            "basis": "다음 한국 거래일 종가를 직전 KRX 종가와 비교한다. 나스닥 −1.07%와 유가 급락이 근거다.",
+            "counter": "미국 반도체 지수 종가 미확인, NVDA 약 −1% 수준으로 충격은 10/30보다 작다. 정유는 약세, 항공은 강세 요인으로 업종별로 갈린다.",
+            "invalidation": "SK하이닉스가 직전 종가 위로 마감하면 하방 판단을 낮춘다.",
+            "sources": [
+              "cnbc_live",
+              "oil_prev"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체·코스피",
+            "basis": "5거래일 뒤 KRX 종가를 비교한다.",
+            "counter": "AMD 실적·미국 고용이 남아 있다.",
+            "invalidation": "AMD 실적과 고용 결과로 재판단한다.",
+            "sources": [
+              "chips_tr",
+              "week_sensei"
+            ]
+          }
+        }
+      },
+      {
+        "title": "중간선거·AMD 실적",
+        "detail": "11/3 중간선거·JOLTS와 AMD 장후 실적을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 지수·AMD",
+            "basis": "11/3 종가를 11/2와 비교한다.",
+            "counter": "선거 결과와 실적이 아직 나오지 않았다.",
+            "invalidation": "결과 발표 후 재판단한다.",
+            "sources": [
+              "week_fattail",
+              "chips_tr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수·반도체",
+            "basis": "11/9 종가를 비교한다.",
+            "counter": "선거·실적 결과 미확인이다.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week_fattail"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 고용보고서",
+        "detail": "예상 +5.5만명(직전 +2.9만명)을 기준으로 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/6 발표 전 구간으로 d1 대상이 아니다.",
+            "counter": "발표 전이다.",
+            "invalidation": "발표 후 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/9 종가를 11/2와 비교한다.",
+            "counter": "고용 결과가 금리·이익 기대에 상반된 영향을 줄 수 있다.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "week_sensei"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "nasdaq": "Nasdaq · 휴장 달력",
+      "cnbc_live": "CNBC · 11월 2일 장 마감 라이브",
+      "yahoo_live": "Yahoo Finance · 11월 2일 장 흐름",
+      "thestreet": "TheStreet · 11월 2일 장 마감",
+      "orcl_cnbc": "CNBC · Oracle 200억달러 조달",
+      "orcl_close": "MoneyCheck · Oracle 7% 넘게 하락",
+      "orcl_rtt": "RTTNews · Oracle 주식·채권 각 100억달러",
+      "mrvl_8k": "Marvell · Lumentum 인수 발표(SEC 8-K)",
+      "mrvl_q": "CNBC · MRVL 시세",
+      "mrvl_bz": "Benzinga · Marvell 3일 낙폭",
+      "lite_yahoo": "Yahoo Finance · Marvell·Lumentum 동반 급락",
+      "oil_px": "OilPrice · 유가 7% 급락",
+      "st_live": "StockTitan · 11월 2일 장 라이브",
+      "oil_prev": "Invezz · WTI 100달러 하회",
+      "xom_close": "Google Finance · XOM 시세",
+      "xom_tk": "TradingKey · XOM 11/2 하락",
+      "ual_ms": "MarketScreener · 오늘의 주요 종목",
+      "ism": "ISM · 10월 제조업 PMI(PR Newswire)",
+      "ism_fx": "FXStreet · ISM 예상 대비",
+      "ust10": "Benzinga · 장중 시장(10년물)",
+      "yield_te": "Trading Economics · 미국 10년물",
+      "pltr_pr": "Palantir · 3분기 실적(보도자료)",
+      "pltr_live": "24/7 Wall St. · Palantir 실적 라이브",
+      "pltr_q": "Finviz · PLTR 시세",
+      "pltr_tr": "TipRanks · Palantir 옵션 예상 변동",
+      "aapl_prev": "AppleInsider · Apple 4분기 예상",
+      "aapl_live": "CNBC · Apple 실적 라이브",
+      "apple_date": "MacDailyNews · Apple 실적 일정",
+      "week_sensei": "Sensei · 11/2~6 주간 일정",
+      "week_fattail": "FatTail · 주간 일정",
+      "chips_tr": "TipRanks · AMD 11/3 실적"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-03T06:21:45+09:00",
+      "input_cutoff": "2026-11-03T06:21:45+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/3과 5거래일 뒤 11/9 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-02T16:15:00-05:00",
+      "kst": "2026-11-03T06:15:00+09:00",
+      "utc": "2026-11-02T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-02T16:16:24-05:00",
+      "kst": "2026-11-03T06:16:24+09:00",
+      "utc": "2026-11-02T21:16:24Z"
+    },
+    "start_offset_seconds": 84,
+    "delay_seconds": 84,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, WebSearch. WebFetch 원문 열람은 네트워크 정책(DNS 차단)으로 실패. gh CLI 인증 실패. 카카오 PlayMCP 도구 ToolSearch 미노출. 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "66ea879d3a83c763f63c7f7c787b7158685a8855",
+    "analysis_run_id": 41526911840,
+    "analysis_status": "in_progress (작성 시점 미완료, artifact 0개·gh 인증 실패로 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-02.json"
+  }
+}

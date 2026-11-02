@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-02",
+  "latest_id": "us-close-2026-11-02",
   "reports": [
+    {
+      "id": "us-close-2026-11-02",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-02",
+      "title": "11월 2일 미국장 마감 브리핑",
+      "summary": "기술주 매도 재개에 나스닥 −1.07%, 유가 7%대 급락 속 다우는 +0.41%",
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "path": "reports/us-close-2026-11-02/"
+    },
     {
       "id": "kr-close-2026-11-02",
       "is_test": false,
