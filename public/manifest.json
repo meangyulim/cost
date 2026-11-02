@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-02",
+  "latest_id": "kr-pre-2026-11-03",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-03",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-03",
+      "title": "11월 3일 한국장 시작 전",
+      "summary": "미 반도체 3.4% 하락·애플 마진 전망 부담 vs 유가 급락, 반도체 약세 출발 경계",
+      "as_of": "2026-11-03T08:43:00+09:00",
+      "path": "reports/kr-pre-2026-11-03/"
+    },
     {
       "id": "us-close-2026-11-02",
       "is_test": false,
