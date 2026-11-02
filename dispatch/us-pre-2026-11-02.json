@@ -1,0 +1,24 @@
+{
+  "report_id": "us-pre-2026-11-02",
+  "status": "failed",
+  "failure_reason": "tool_unavailable_auth_required",
+  "failure_detail": "카카오 PlayMCP 커넥터('카카오 mcp')가 needs_reconnect 상태이며 이 실행에서 '나에게 보내기' 도구가 ToolSearch에 노출되지 않아 전송하지 않음",
+  "recorded_at_kst": "2026-11-02T23:11:34+09:00",
+  "recorded_at_utc": "2026-11-02T14:11:34Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-02/",
+  "deployed_commit": "e41a78f678d5849c27f2e45a836d16c744e40bc9",
+  "deployment": {
+    "workflow_run_id": 41459437078,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "completed_at": "2026-11-02T14:11:13Z"
+  },
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "kakao_result": "not_sent",
+  "retry_count": 0
+}
