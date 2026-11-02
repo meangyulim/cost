@@ -2,12 +2,12 @@
   "end_date": "2026-10-30",
   "watch": [
     "INTC",
-    "AMZN",
+    "PLTR",
     "AMD",
-    "RDDT",
-    "REGN",
-    "DELL",
-    "NVDA"
+    "NVDA",
+    "MU",
+    "AAPL",
+    "XOM"
   ],
-  "requested_at": "2026-10-31T06:17:42+09:00"
+  "requested_at": "2026-11-02T23:05:32+09:00"
 }
