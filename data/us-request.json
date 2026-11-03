@@ -3,11 +3,11 @@
   "watch": [
     "AAPL",
     "PLTR",
-    "INTC",
     "AMD",
+    "ORCL",
+    "MRVL",
     "NVDA",
-    "MU",
     "XOM"
   ],
-  "requested_at": "2026-11-03T06:16:54+09:00"
+  "requested_at": "2026-11-03T23:00:54+09:00"
 }
