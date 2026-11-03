@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-03",
+  "latest_id": "kr-pre-2026-11-04",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-04",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-04",
+      "title": "11월 4일 한국장 시작 전",
+      "summary": "미 반도체 반등·AMD 시간외 7%대↑, 3.59% 급락 뒤 반등 시도 vs 중간선거 개표·외국인 매도",
+      "as_of": "2026-11-04T08:42:00+09:00",
+      "path": "reports/kr-pre-2026-11-04/"
+    },
     {
       "id": "us-close-2026-11-03",
       "is_test": false,
