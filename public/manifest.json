@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-11-03/"
     },
     {
+      "id": "us-pre-2026-11-03",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-03",
+      "title": "11월 3일 미국장 시작 전 브리핑",
+      "summary": "Apple·Palantir 실적 상회에도 장전 약세, 선거일 선물 혼조",
+      "as_of": "2026-11-03T06:00:00+09:00",
+      "path": "reports/us-pre-2026-11-03/"
+    },
+    {
       "id": "us-close-2026-11-02",
       "is_test": false,
       "market": "US",
