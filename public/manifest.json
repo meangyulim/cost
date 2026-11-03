@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-03",
+  "latest_id": "kr-close-2026-11-03",
   "reports": [
+    {
+      "id": "kr-close-2026-11-03",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-03",
+      "title": "한국장 마감 브리핑 · 2026.11.03",
+      "summary": "AI 투자 회의론·외국인 2조 매도에 코스피 3.59% 급락, 5,648선 마감",
+      "as_of": "2026-11-03T15:30:00+09:00",
+      "path": "reports/kr-close-2026-11-03/"
+    },
     {
       "id": "kr-pre-2026-11-03",
       "is_test": false,
