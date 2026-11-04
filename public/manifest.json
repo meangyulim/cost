@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-04",
+  "latest_id": "kr-close-2026-11-04",
   "reports": [
+    {
+      "id": "kr-close-2026-11-04",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-04",
+      "title": "한국장 마감 브리핑 · 2026.11.04",
+      "summary": "미 중간선거 개표에 장중 −4% 급락 뒤 막판 반등, 코스피 0.62% 오른 5,683선 마감",
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "path": "reports/kr-close-2026-11-04/"
+    },
     {
       "id": "kr-pre-2026-11-04",
       "is_test": false,
