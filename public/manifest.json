@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-11-04/"
     },
     {
+      "id": "us-pre-2026-11-04",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-04",
+      "title": "11월 4일 미국장 시작 전 브리핑",
+      "summary": "민주당 상·하원 장악에 선물 상승, AMD 가이던스 상회",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "path": "reports/us-pre-2026-11-04/"
+    },
+    {
       "id": "us-close-2026-11-03",
       "is_test": false,
       "market": "US",

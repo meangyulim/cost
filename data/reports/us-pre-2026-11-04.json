@@ -1,0 +1,1028 @@
+{
+  "id": "us-pre-2026-11-04",
+  "title": "11월 4일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-04 09:30~16:00 EST 정규장(2026-11-04 23:30~11-05 06:00 KST)",
+  "market_date": "2026-11-04",
+  "session": "pre",
+  "as_of": "2026-11-04T06:00:00+09:00",
+  "queried_at": "2026-11-04T23:03:04+09:00",
+  "is_test": false,
+  "summary": "민주당 상·하원 장악에 선물 상승, AMD 가이던스 상회",
+  "summary_detail": "민주당이 중간선거에서 상·하원을 모두 장악했다는 보도 뒤 다우 선물은 초반 하락에서 한때 1,000pt 안팎 상승으로 돌아섰으나 이후 상승 폭이 크게 줄었다는 보도도 있다. AMD는 3분기 매출·EPS와 4분기 매출 가이던스(약 170억USD)가 예상을 넘어 장전 최대 +7% 보도가 나왔지만 이후 상승분을 반납했다는 보도가 엇갈린다. 반면 Tesla·SpaceX·Trump Media와 CoreWeave 등 AI 인프라주는 '트럼프 트레이드' 되돌림과 데이터센터 규제 우려로 장전 약세다.",
+  "interpretation": "정치 불확실성 해소는 지수에 우호적이지만, 데이터센터 규제 우려가 AI 인프라·반도체에 반대 방향으로 작용한다. 선물·장전 수치는 시각별로 크게 달라 개장 후 실제 방향 확인이 필요하다. 이번 실행은 원문 페이지를 직접 열지 못해 검색 요약 값을 잠정으로 썼다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,568.92",
+      "unit": "pt",
+      "delta": "+27.52",
+      "percent": "+0.36",
+      "direction": "up",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "thestreet"
+      ],
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 변동은 11/2 잠정 종가 7,541.40 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,372.01",
+      "unit": "pt",
+      "delta": "+207.69",
+      "percent": "+0.83",
+      "direction": "up",
+      "source": "cnbc_live",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 변동은 11/2 잠정 종가 25,164.32 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "51,786.72",
+      "unit": "pt",
+      "delta": "−197.26",
+      "percent": "−0.38",
+      "direction": "down",
+      "source": "cnbc_live",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "Russell 2000",
+      "value": "2,812.45",
+      "unit": "pt",
+      "delta": "+6.57",
+      "percent": "+0.23",
+      "direction": "up",
+      "source": "investrade",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 매체별 +0.23~+0.24%",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "민주당 상·하원 장악, 선물 급등락",
+      "fact": "CNN·AP는 민주당이 11/3 중간선거에서 상·하원 모두 다수당이 됐다고 보도했다. 다우 선물은 초기 개표 때 1~2.5% 내렸다가 +801pt(+1.6%, Investing.com), 한때 +1,083pt(+2.1%, CNBC)까지 올랐다는 보도가 있다. 이후 시점 보도는 다우 선물 약 +0.6%, S&P500 선물 +0.2%, 나스닥100 보합권(Yahoo Finance)으로 상승 폭이 크게 줄었다. 정확한 시각은 매체별로 확인하지 못했다. 10년물 국채금리는 4.91%(−5bp, Benzinga)·4.906%(−6bp, Fox Business)로 내렸다. Capital Economics는 상원 필리버스터 저지 의석이 없어 단기 정책 변화는 제한적이라고 봤다.",
+      "source": "cnn_elec",
+      "additional_sources": [
+        "ap_fut",
+        "inv_pre",
+        "cnbc_fut",
+        "yf_live",
+        "fox_fut",
+        "bz_sweep"
+      ]
+    },
+    {
+      "title": "AMD 실적·4분기 가이던스 상회",
+      "fact": "AMD 3분기 매출 133.8억USD(예상 130.6억), 조정 EPS 2.09USD(예상 1.94), 데이터센터 85.5억USD(+97%, 예상 82.0억)였다. 4분기 매출 가이던스는 약 170억USD±3%로 컨센서스 162.3억USD를 넘었고, 조정 총이익률은 약 55%로 3분기 56%보다 낮다. 11/3 정규장 종가 483.91USD(+3.66%) 대비 시간외 518.68USD(+7.19%) 보도, 장전 +7.3%(Investing.com) 뒤 상승분을 반납·하락 전환했다는 보도(Yahoo Finance)가 엇갈린다.",
+      "source": "amd_inv",
+      "additional_sources": [
+        "amd_pr",
+        "amd_tk",
+        "inv_pre",
+        "yf_live",
+        "amd_q"
+      ]
+    },
+    {
+      "title": "트럼프 트레이드·AI 인프라 되돌림",
+      "fact": "장전 Trump Media −7.4%(5.51USD)~약 −11%, Tesla 약 −5~−6%, SpaceX −6.9~−7% 이상이 보도됐다(매체·시각별 상이). CoreWeave −3.2~−7%, Iren −6%, Nebius 약 −5%로 네오클라우드가 약세이며, 새 의원들의 데이터센터 확장 비판·규제 우려가 이유로 거론됐다. Nvidia·Micron도 장전 −1% 이상 보도가 있다. 반면 First Solar 약 +8%, Sunrun +8.6% 등 신재생주는 강세 보도.",
+      "source": "cnbc_movers",
+      "additional_sources": [
+        "inv_pre",
+        "bbg_tsla",
+        "bz_sweep",
+        "yf_live",
+        "st_fut"
+      ]
+    },
+    {
+      "title": "Super Micro 매출 급증",
+      "fact": "Supermicro의 FY27 1분기 매출은 199억USD로 10/20 잠정치 185~195억USD 상단을 넘었고(전분기 111억, 전년 50억), 총이익률 12.7%(전분기 17.5%), 비GAAP EPS 1.81USD다. 장전 +6~7% 이상 보도와 보합권 보도(TipRanks)가 엇갈린다. 11/3 정규장 종가는 원문으로 확인하지 못했다.",
+      "source": "smci_pr",
+      "additional_sources": [
+        "smci_pre",
+        "inv_pre",
+        "st_fut"
+      ]
+    },
+    {
+      "title": "ADP 민간고용 예상 소폭 상회",
+      "fact": "10월 ADP 민간고용은 +8.6만명으로 Dow Jones 예상 +7.5만명을 웃돌았다. 9월은 9.0만명에서 8.6만명으로 하향 수정됐다. 전문·사업서비스는 −2.7만명으로 3개월 연속 감소했다. 공식 10월 고용보고서는 11/6 발표 예정이다.",
+      "source": "adp",
+      "additional_sources": [
+        "adp_cnbc"
+      ]
+    },
+    {
+      "title": "Novo Nordisk 실적·연간 전망 상향",
+      "fact": "Novo Nordisk는 분기 실적이 예상을 넘고 2026 연간 가이던스를 올려 미국 ADR이 장전 약 +5~6% 보도됐다. 가이던스 세부 수치와 전일 종가는 이번 실행에서 확인하지 못했다.",
+      "source": "nvo_inv",
+      "additional_sources": [
+        "cnbc_movers"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "483.91",
+      "currency": "USD",
+      "delta": "+17.07",
+      "percent": "+3.66",
+      "direction": "up",
+      "source": "amd_q",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 실적 발표 전 가격 · 시간외 518.68USD(+7.19%)·장전 +7.3%는 별도 구간, 이후 반납 보도",
+      "reason": "4분기 매출 가이던스 약 170억USD가 컨센서스 162.3억USD를 넘었고 데이터센터 매출이 97% 늘었다.",
+      "watch": "정규장에서 483.91USD 위를 유지하는지, 장전 상승분 반납이 이어지는지 본다.",
+      "reason_sources": [
+        "amd_inv",
+        "amd_tk",
+        "yf_live"
+      ]
+    },
+    {
+      "name": "슈퍼마이크로",
+      "ticker": "SMCI",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "source": "smci_pr",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가 미확인 · 장전 +6~7% 보도는 별도 구간",
+      "missing_reason": "11/3 정규장 종가를 원문에서 확인하지 못했다. 장전 등락률로 가격을 역산하지 않았다.",
+      "reason": "1분기 매출 199억USD로 잠정치 상단을 넘었지만 총이익률은 12.7%다.",
+      "watch": "장전 상승이 정규장에서 유지되는지와 AI 인프라 규제 우려에 대한 상대 강도를 본다.",
+      "reason_sources": [
+        "smci_pr",
+        "smci_pre",
+        "inv_pre",
+        "st_fut"
+      ]
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "source": "bbg_tsla",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가 미확인 · 장전 약 −5~−6% 보도는 별도 구간",
+      "missing_reason": "11/3 정규장 종가를 원문에서 확인하지 못했다. 장전 등락률로 가격을 역산하지 않았다.",
+      "reason": "민주당 압승으로 머스크·트럼프 관련 종목 매도가 나오며 장전 5~6% 하락 보도.",
+      "watch": "정규장에서 낙폭이 유지되는지와 SpaceX·방산주 동반 약세를 본다.",
+      "reason_sources": [
+        "bbg_tsla",
+        "cnbc_movers",
+        "bz_sweep"
+      ]
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "207.95",
+      "currency": "USD",
+      "delta": "+5.89",
+      "percent": "+2.9",
+      "direction": "up",
+      "source": "bz_mkt",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 전일 202.06USD · 변동액 직접 계산 · 장전 −1% 이상 보도는 별도 구간",
+      "reason": "11/3 반등 뒤 데이터센터 규제 우려로 장전 1% 넘게 하락 보도.",
+      "watch": "AMD 호실적과 규제 우려 중 어느 쪽이 정규장 종가를 이끄는지 본다.",
+      "reason_sources": [
+        "yf_live",
+        "bz_mkt",
+        "nvda_247"
+      ]
+    },
+    {
+      "name": "팔란티어",
+      "ticker": "PLTR",
+      "price": "175.40",
+      "currency": "USD",
+      "delta": "−2.94",
+      "percent": "−1.65",
+      "direction": "down",
+      "source": "pltr_cnbc",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-04T06:00:00+09:00",
+      "session": "2026-11-03 정규장 종가(16:00 EST) · 잠정 · 전일 178.34USD · 장전 −2.3% 보도는 별도 구간",
+      "reason": "실적 뒤 수주 둔화 우려에 이어 데이터센터 규제 우려로 장전 2.3% 하락 보도.",
+      "watch": "175.40USD 아래로 이틀째 약세가 이어지는지 본다.",
+      "reason_sources": [
+        "st_fut"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.91",
+    "unit": "%",
+    "delta": "−0.05%p(5bp, 보도)",
+    "direction": "down",
+    "source": "bz_sweep",
+    "as_of": "2026-11-04T23:03:04+09:00",
+    "session": "11/4 장전 보도값 · 시각 미확인 · Fox Business 4.906%(−6bp)"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-04 23:30 KST",
+      "title": "정규장 개장",
+      "detail": "09:30 EST. 선물 상승 폭과 AMD·TSLA 장전 움직임이 개장 뒤 유지되는지 본다."
+    },
+    {
+      "label": "2026-11-05 00:00 KST",
+      "title": "10월 ISM 서비스업",
+      "detail": "10:00 EST(셋째 영업일 원칙). 컨센서스 미확인, 금리 반응을 본다."
+    },
+    {
+      "label": "2026-11-05 06:00 KST 이후",
+      "title": "Qualcomm 장후 실적",
+      "detail": "11/4 장 마감 후 발표, 콜 16:45 EST(11/5 06:45 KST)."
+    },
+    {
+      "label": "다음 한국장 · 2026-11-05(목) 09:00 KST · 확인 순서",
+      "title": "한국 반도체·AI 인프라주",
+      "detail": "AMD 가이던스와 미국 데이터센터 규제 우려가 삼성전자·SK하이닉스에 주는 영향을 본다."
+    },
+    {
+      "label": "2026-11-06 22:30 KST",
+      "title": "10월 고용보고서",
+      "detail": "11/6 08:30 EST. ADP +8.6만명 이후 공식 고용과 금리를 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://www.businesswire.com/news/home/20251223981478/en",
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "market_date": "2026-11-04",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-04T23:03:04+09:00",
+    "note": "NYSE Group 2026 휴장(11/26 추수감사절 등)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/4(수)가 없어 정상 거래일·정규 폐장으로 판단했다. 원문 페이지는 네트워크 정책(DNS 차단)으로 직접 열지 못했고 직전 회차와 같은 공식 목록 출처로 판단했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-04 23:30~11-05 06:00 KST. 직전 거래일 11/3(화) 정상 거래."
+  },
+  "calculation_notes": "지수·종목의 11/3 종가와 변동은 직전 회차(us-close-2026-11-03)에서 검색 요약으로 확인한 잠정값을 그대로 썼고 이번 검색 요약과 일치했다. Russell 2000: 2,812.45−6.57=2,805.88(11/2 잠정 종가와 일치), 6.57/2,805.88=+0.234%. AMD 시간외 518.68−483.90=+34.78(+7.19%)은 보도값(정규장 종가 표기 483.90, 다른 출처 483.91). NVDA 207.95−202.06=+5.89. 선물·장전 수치는 매체·시각별 스냅샷이라 하나로 확정하지 않았다. Massive 분석(run 41843431831)은 작성 시점 진행 중·artifact 다운로드 불가로 사용하지 않았다. 유가는 이번 실행에서 11/4 값을 확인하지 못해 생략했다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "NYSE 공식 거래시간·휴장 달력. 네트워크 정책으로 원문 직접 열람 실패, 직전 회차와 같은 2026 휴장·조기폐장 목록 기준."
+    },
+    {
+      "id": "nyse_bw",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://www.businesswire.com/news/home/20251223981478/en",
+      "note": "2026 휴장(11/26 추수감사절 등)·조기폐장(11/27·12/24 13:00 ET). 11/4는 목록에 없음."
+    },
+    {
+      "id": "nasdaq_cal",
+      "label": "Nasdaq · 휴장 달력",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "note": "Nasdaq 휴장 달력. 11/4 휴장 아님."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 3일 장 마감",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "note": "11/3 S&P500 +0.36% 7,568.92, 나스닥 +0.83% 25,372.01, 다우 −197.26(−0.38%) 51,786.72. 직전 us-close-2026-11-03 회차가 검색 요약으로 확인한 값과 이번 검색 요약 일치."
+    },
+    {
+      "id": "thestreet",
+      "label": "TheStreet · 11월 3일 장 흐름",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+      "note": "11/3 혼조 마감, 중간선거 민주당 우세 보도. 검색 요약."
+    },
+    {
+      "id": "investrade",
+      "label": "Investrade · 11월 3일 시장 리뷰",
+      "url": "https://investrade.com/market-review-november-03-2026/",
+      "note": "11/3 Russell 2000 +6.57pt 2,812.45(검색 요약 +0.23%, Investrade 원문 +0.24%로 반올림 차이). 검색 요약."
+    },
+    {
+      "id": "cnbc_fut",
+      "label": "CNBC · 11월 4일 선물 라이브",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "note": "다우 선물 한때 +1,083pt(+2.1%), 다른 시점 −0.1%. 민주당 압승이 정치 불확실성을 제거했다는 해석. 시각별 스냅샷, 검색 요약."
+    },
+    {
+      "id": "inv_pre",
+      "label": "Investing.com · 장전 주요 종목",
+      "url": "https://www.investing.com/news/stock-market-news/premarket-movers-trump-media-ai-infrastructure-stocks-fall-amd-jumps-4998777",
+      "note": "AMD 장전 +7.3%, Super Micro +7% 이상, Trump Media −7.4% 5.51USD, CoreWeave 최대 −3.2%, S&P500 선물 +80pt(+1.1%), 다우 선물 +801pt(+1.6%), 초기 −1~−2.5%에서 반전. 조기 장전 시점, 시각 미확인. 검색 요약."
+    },
+    {
+      "id": "yf_live",
+      "label": "Yahoo Finance · 11월 4일 장전 라이브",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html",
+      "note": "이후 시점 다우 선물 약 +0.6%, S&P500 +0.2%, 나스닥100 보합권; 데이터센터 규제 우려로 Nvidia·Micron 장전 −1% 이상; AMD 장전 초반 상승 뒤 하락 전환 보도. 시각 미확인. 검색 요약."
+    },
+    {
+      "id": "st_fut",
+      "label": "Stocktwits · 민주당 약진과 선물",
+      "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rise-as-democrats-make-midterm-gains-amd-smci-pltr-spcx-djt-in-focus/cNGLEtIR93P",
+      "note": "조기 장전 S&P500 선물 +0.18%, 나스닥100 +0.09%; AMD +7% 이상, SMCI +6% 이상, PLTR −2.3%, SpaceX 약 −4.5%. 데이터센터 규제 우려 언급. 검색 요약."
+    },
+    {
+      "id": "cnn_elec",
+      "label": "CNN · 2026 중간선거 결과",
+      "url": "https://www.cnn.com/2026/11/04/politics/live-news/midterm-election-congress",
+      "note": "민주당 상·하원 모두 장악 보도. 검색 요약."
+    },
+    {
+      "id": "ap_fut",
+      "label": "AP(13abc) · 민주당 압승 뒤 선물 상승",
+      "url": "https://www.13abc.com/2026/11/04/stock-futures-rise-after-democrats-take-control-congress/",
+      "note": "다우 선물 +1.4%, S&P500 선물 +1%(시각 미확인), 상·하원 민주당 다수. 검색 요약."
+    },
+    {
+      "id": "fox_fut",
+      "label": "Fox Business · 선물 혼조",
+      "url": "https://www.foxbusiness.com/markets/us-stock-futures-mixed-democrats-score-key-midterm-election-wins",
+      "note": "한 시점 S&P500 선물 약 +0.35%, 10년물 4.906%(−6bp). Capital Economics: 필리버스터 저지 의석 부족으로 단기 정책 전망 변화 제한. 검색 요약."
+    },
+    {
+      "id": "bz_sweep",
+      "label": "Benzinga · 블루 스윕과 트럼프 트레이드",
+      "url": "https://www.benzinga.com/news/politics/26/11/62862271/midterm-blue-sweep-trump-trade-spacex-tesla-defense-stocks",
+      "note": "SpaceX·Tesla 4% 넘게 하락, 방산·Trump Media 약세, 10년물 4.91%(−5bp). 검색 요약."
+    },
+    {
+      "id": "bbg_tsla",
+      "label": "Bloomberg · Tesla·SpaceX 하락",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds",
+      "note": "Tesla 장전 약 −5%, SpaceX −6.9%. 검색 요약."
+    },
+    {
+      "id": "cnbc_movers",
+      "label": "CNBC · 장전 주요 종목",
+      "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html",
+      "note": "Trump Media 약 −11%, Tesla 약 −6%, SpaceX −7% 이상, CoreWeave −7%, Iren −6%, Nebius 약 −5%, Novo Nordisk +6% 이상. 시각 미확인, 검색 요약."
+    },
+    {
+      "id": "amd_pr",
+      "label": "AMD · 3분기 실적 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
+      "note": "매출 134억USD, GAAP EPS 1.46USD, 비GAAP EPS 2.09USD, 비GAAP 총이익률 56%. 원문 직접 열람 불가(sec.gov DNS 차단), 검색 요약."
+    },
+    {
+      "id": "amd_inv",
+      "label": "Investing.com · AMD 실적·가이던스 상회",
+      "url": "https://www.investing.com/news/earnings/amd-stock-jumps-after-hours-as-quarterly-results-revenue-guidance-beat-estimates-4996344",
+      "note": "3분기 매출 133.8억USD(예상 130.6억), 조정 EPS 2.09(예상 1.94), 데이터센터 85.5억USD(+97%, 예상 82.0억). 4분기 매출 가이던스 약 170억USD±3%(컨센서스 162.3억), 조정 총이익률 약 55%. 검색 요약."
+    },
+    {
+      "id": "amd_tk",
+      "label": "TradingKey · AMD 시간외",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262271700-amd-forecast-q3-beat-after-hours-rise-600-target-tradingkey",
+      "note": "시간외 518.68USD(+34.78, +7.19%, 정규장 483.90 기준) 등 5~7% 상승 보도. 다른 매체의 시간외 −9% 제목은 상충. 검색 요약."
+    },
+    {
+      "id": "amd_q",
+      "label": "StockAnalysis · AMD 시세",
+      "url": "https://stockanalysis.com/stocks/amd/",
+      "note": "11/3 정규장 종가 483.91USD(+17.07, +3.66%). 직전 회차 확인값."
+    },
+    {
+      "id": "smci_pr",
+      "label": "Supermicro · 1분기 FY27 실적 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001375365/000137536526000026/exhibit991_20260930.htm",
+      "note": "FY27 1분기 매출 199억USD(전분기 111억, 전년 50억), 총이익률 12.7%(전분기 17.5%, 전년 동기 9.3%), 비GAAP 희석 EPS 1.81USD. 검색 요약."
+    },
+    {
+      "id": "smci_pre",
+      "label": "Supermicro · 1분기 잠정 실적(10/20)",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+      "note": "잠정 매출 185~195억USD(기존 가이던스 145~155억). 검색 요약."
+    },
+    {
+      "id": "pltr_cnbc",
+      "label": "CNBC · PLTR 시세",
+      "url": "https://www.cnbc.com/quotes/PLTR",
+      "note": "11/3 종가 175.40USD(−2.94, −1.65%). 직전 회차 확인값."
+    },
+    {
+      "id": "bz_mkt",
+      "label": "Benzinga(TradingView) · Nvidia·Apple 마감",
+      "url": "https://www.tradingview.com/news/benzinga:665639cb3094b:0-nasdaq-100-gets-a-lift-as-nvidia-overtakes-apple-stock-market-today/",
+      "note": "11/3 NVDA 207.95USD(+2.9%). 직전 회차 확인값."
+    },
+    {
+      "id": "nvda_247",
+      "label": "24/7 Wall St. · Nvidia 3% 상승",
+      "url": "https://247wallst.com/investing/2026/11/03/nvidia-rises-3-despite-ai-ceos-warning-on-chinese-chip-competition-amd-climbs-5-broadcom-gains-3/",
+      "note": "NVDA 전일 종가 202.06USD 보도. 직전 회차 확인값."
+    },
+    {
+      "id": "adp",
+      "label": "ADP · 10월 민간고용",
+      "url": "https://mediacenter.adp.com/2026-11-04-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-86,000-Jobs-in-October",
+      "note": "10월 민간고용 +8.6만명, 9월 9.0만→8.6만명 수정. 검색 요약."
+    },
+    {
+      "id": "adp_cnbc",
+      "label": "CNBC · ADP 예상 소폭 상회",
+      "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
+      "note": "Dow Jones 예상 +7.5만명. 전문·사업서비스 −2.7만명(3개월 연속 감소). 검색 요약."
+    },
+    {
+      "id": "nvo_inv",
+      "label": "Investing.com · Novo Nordisk 급등",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-novo-nordisk-stock-surging-today-93CH-4997630",
+      "note": "분기 실적 상회와 2026 연간 가이던스 상향. 검색 요약."
+    },
+    {
+      "id": "ism_cal",
+      "label": "ISM · 보고서 발표 일정",
+      "url": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "note": "서비스업 PMI는 매월 셋째 영업일 10:00 ET 발표 원칙 → 11/4(수). 컨센서스 미확인."
+    },
+    {
+      "id": "qcom_date",
+      "label": "Qualcomm · 4분기 실적 발표 일정",
+      "url": "https://www.qualcomm.com/news/releases/2026/10/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-relea",
+      "note": "11/4 장 마감 후 발표, 콜 13:45 PT(16:45 EST, 11/5 06:45 KST). 검색 요약."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41843431831",
+      "note": "요청 커밋 16aaf64의 Collect US briefing inputs 실행. 작성 시점 진행 중·artifact 0개이며 gh 인증 실패로 다운로드 불가해 분석 수치를 쓰지 않았다. 제공업체는 Massive.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "민주당 압승에 선물 상승, AI 인프라는 약세",
+    "summary_points": [
+      "민주당 상·하원 장악 뒤 선물이 오르나 폭은 줄었다.",
+      "AMD는 4분기 가이던스가 예상을 넘었다.",
+      "Tesla·SpaceX·네오클라우드는 장전 약세다."
+    ],
+    "notices": [
+      "11/3 종가는 잠정치이며 선물·장전 수치는 매체·시각별 차이가 크다.",
+      "원문 직접 열람이 막혀 검색 요약 값을 썼다. SMCI·TSLA 전일 종가는 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "민주당 상·하원 장악",
+        "preview": "선물 초반 하락 뒤 급등, 이후 상승 폭 축소 보도.",
+        "points": [
+          "민주당이 상·하원 모두 다수당이 됐다.",
+          "다우 선물은 한때 +1,000pt 안팎에서 약 +0.6%로 줄었다는 보도가 있다."
+        ],
+        "meaning": "정치 불확실성 해소는 지수에 우호적이나 정책 수혜·피해 업종이 갈린다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수(S&P500)",
+            "basis": "11/4 정규장 종가를 S&P500 7,568.92와 비교한다. 선물 상승과 10년물 하락은 우호적이다.",
+            "counter": "선물 상승 폭이 시각별로 크게 줄었고 AI 인프라·반도체 규제 우려가 반대로 작용한다. 개장 갭 뒤 장중 되돌림 위험이 있다.",
+            "invalidation": "개장 뒤 S&P500이 선물 상승 폭을 유지하고 반도체가 회복하면 상방으로 본다.",
+            "sources": [
+              "cnbc_fut",
+              "yf_live",
+              "fox_fut"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수(S&P500)",
+            "basis": "11/10 정규장 종가를 7,568.92와 비교한다. 11/6 고용보고서가 기간 안에 있다.",
+            "counter": "정책 영향은 제한적이라는 해석과 규제 업종 재평가가 상충한다.",
+            "invalidation": "11/6 고용과 10년물 반응을 보고 재판단한다.",
+            "sources": [
+              "fox_fut",
+              "adp"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AMD 가이던스 상회",
+        "preview": "4분기 매출 170억USD 제시, 장전 반응은 엇갈림.",
+        "points": [
+          "매출·EPS·데이터센터가 모두 예상을 넘었다.",
+          "장전 +7% 보도 뒤 상승분 반납 보도도 있다."
+        ],
+        "meaning": "AI 수요는 확인됐지만 높은 기대와 규제 우려가 반응을 제한한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/4 정규장 종가를 483.91USD와 비교한다. 4분기 가이던스가 컨센서스를 약 5% 넘었다.",
+            "counter": "11/3 실적 전 +3.66% 선반영과 장전 상승분 반납 보도가 있다. 장 초반 갭 상승 뒤 되돌림 위험이 크다.",
+            "invalidation": "정규장에서 시간외 수준(약 518USD) 근처를 유지하면 상방, 483.91USD 아래로 밀리면 하방으로 본다.",
+            "sources": [
+              "amd_inv",
+              "amd_tk",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "up",
+            "target": "AMD",
+            "basis": "11/10 정규장 종가를 483.91USD와 비교한다. 가이던스 상회와 데이터센터 +97%가 실적 추정 상향 근거다.",
+            "counter": "AI 인프라 규제 우려와 총이익률 하락(56→55%)이 반대 요인이다. 실적 후 드리프트는 검증되지 않았다.",
+            "invalidation": "483.91USD 아래 종가가 이어지면 판단을 낮춘다.",
+            "sources": [
+              "amd_inv",
+              "amd_pr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "트럼프 트레이드 되돌림",
+        "preview": "Tesla·SpaceX·DJT, 네오클라우드 장전 약세.",
+        "points": [
+          "Trump Media 7~11%, Tesla 약 5~6% 하락이 보도됐다.",
+          "데이터센터 규제 우려로 CoreWeave 등이 내렸다."
+        ],
+        "meaning": "정치 관련·AI 인프라 종목에 단기 매도 압력이 집중된다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "Tesla·Trump Media·네오클라우드",
+            "basis": "11/4 정규장 종가를 각 11/3 종가와 비교한다. 장전 하락이 여러 매체에서 같은 방향으로 보도됐다.",
+            "counter": "장전 낙폭이 매체별로 크게 다르고 개장 뒤 저가 매수로 줄어들 수 있다.",
+            "invalidation": "개장 뒤 낙폭을 대부분 회복하면 하방 판단을 철회한다.",
+            "sources": [
+              "cnbc_movers",
+              "bbg_tsla",
+              "inv_pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "Tesla·Trump Media·네오클라우드",
+            "basis": "11/10 정규장 종가를 11/3 종가와 비교한다.",
+            "counter": "실제 규제 입법 일정이 없어 영향의 지속성은 미확인이다.",
+            "invalidation": "새 의회의 데이터센터 관련 구체 법안·발언을 보고 재판단한다.",
+            "sources": [
+              "cnbc_movers",
+              "fox_fut"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Super Micro 매출 급증",
+        "preview": "매출 199억USD, 잠정치 상단 넘어.",
+        "points": [
+          "매출이 전년 대비 약 4배로 늘었다.",
+          "총이익률은 12.7%로 전분기 17.5%보다 낮다."
+        ],
+        "meaning": "AI 서버 수요는 강하지만 마진 압박이 남아 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "SMCI",
+            "basis": "11/3 종가 미확인으로 기준 가격을 고정하지 못했다.",
+            "counter": "장전 +6~7%와 보합 보도가 엇갈리고 마진 하락이 반대 요인이다.",
+            "invalidation": "11/3 종가 확인 후 재판단한다.",
+            "sources": [
+              "smci_pr",
+              "inv_pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SMCI",
+            "basis": "기준 가격 미확인.",
+            "counter": "규제 우려와 수요 강세가 상충한다.",
+            "invalidation": "기준 가격 확인 후 재판단한다.",
+            "sources": [
+              "smci_pr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "ADP 고용 예상 소폭 상회",
+        "preview": "+8.6만명, 예상 +7.5만명.",
+        "points": [
+          "9월 수치는 9.0만→8.6만명으로 내려갔다.",
+          "전문·사업서비스는 3개월 연속 감소다."
+        ],
+        "meaning": "고용 급랭 우려는 줄었지만 11/6 공식 고용이 더 중요하다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "ADP는 공식 고용과 차이가 커 당일 방향 근거로 약하다.",
+            "counter": "선거 재료가 당일 움직임을 지배한다.",
+            "invalidation": "10년물이 ADP 뒤 크게 움직이면 재판단한다.",
+            "sources": [
+              "adp",
+              "adp_cnbc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/6 공식 고용이 5거래일 안에 있다.",
+            "counter": "발표 전 판단 보류.",
+            "invalidation": "11/6 고용 결과 후 재판단한다.",
+            "sources": [
+              "adp"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Novo Nordisk 전망 상향",
+        "preview": "실적 상회·연간 가이던스 상향, ADR 장전 강세.",
+        "points": [
+          "올해 처음 연간 매출 성장 가능성을 제시했다.",
+          "미국 ADR이 장전 5~6% 오른 것으로 보도됐다."
+        ],
+        "meaning": "비만치료제 경쟁 속 실적 개선 신호다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "NVO(미국 ADR)",
+            "basis": "전일 종가 미확인으로 기준 가격을 고정하지 못했다.",
+            "counter": "가이던스 세부 수치 미확인.",
+            "invalidation": "종가 확인 후 재판단한다.",
+            "sources": [
+              "nvo_inv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "NVO(미국 ADR)",
+            "basis": "기준 가격 미확인.",
+            "counter": "자료 부족.",
+            "invalidation": "세부 가이던스 확인 후 재판단한다.",
+            "sources": [
+              "nvo_inv"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "개장 뒤 선물 상승 폭이 유지되는지 확인한다.",
+      "AMD 호실적과 데이터센터 규제 우려 중 어느 쪽이 반도체를 이끄는지 본다.",
+      "10년물 4.91% 하락이 성장주에 이어지는지 본다."
+    ],
+    "stocks": {
+      "AMD": {
+        "reason": "4분기 가이던스 170억USD로 예상(162.3억)을 넘었다.",
+        "watch": "483.91USD 위 유지와 장전 상승분 반납 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/4 정규장 종가를 483.91USD와 비교한다. 4분기 가이던스가 컨센서스를 약 5% 넘었다.",
+            "counter": "11/3 실적 전 +3.66% 선반영과 장전 상승분 반납 보도가 있다. 장 초반 갭 상승 뒤 되돌림 위험이 크다.",
+            "invalidation": "정규장에서 시간외 수준(약 518USD) 근처를 유지하면 상방, 483.91USD 아래로 밀리면 하방으로 본다.",
+            "sources": [
+              "amd_inv",
+              "amd_tk",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "up",
+            "target": "AMD",
+            "basis": "11/10 정규장 종가를 483.91USD와 비교한다. 가이던스 상회와 데이터센터 +97%가 실적 추정 상향 근거다.",
+            "counter": "AI 인프라 규제 우려와 총이익률 하락(56→55%)이 반대 요인이다. 실적 후 드리프트는 검증되지 않았다.",
+            "invalidation": "483.91USD 아래 종가가 이어지면 판단을 낮춘다.",
+            "sources": [
+              "amd_inv",
+              "amd_pr"
+            ]
+          }
+        }
+      },
+      "SMCI": {
+        "reason": "매출 199억USD로 잠정치 상단을 넘었다.",
+        "watch": "장전 상승 유지와 마진 우려 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "SMCI",
+            "basis": "11/3 종가 미확인으로 기준 가격을 고정하지 못했다.",
+            "counter": "장전 +6~7%와 보합 보도가 엇갈리고 마진 하락이 반대 요인이다.",
+            "invalidation": "11/3 종가 확인 후 재판단한다.",
+            "sources": [
+              "smci_pr",
+              "inv_pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SMCI",
+            "basis": "기준 가격 미확인.",
+            "counter": "규제 우려와 수요 강세가 상충한다.",
+            "invalidation": "기준 가격 확인 후 재판단한다.",
+            "sources": [
+              "smci_pr"
+            ]
+          }
+        }
+      },
+      "TSLA": {
+        "reason": "민주당 압승에 장전 약 5~6% 하락 보도.",
+        "watch": "정규장 낙폭 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "TSLA",
+            "basis": "11/4 정규장 종가를 11/3 종가와 비교한다. 장전 하락이 다수 매체에서 확인됐다.",
+            "counter": "11/3 종가 미확인이며 장전 낙폭 보도가 −1.3~−6%로 넓다.",
+            "invalidation": "개장 뒤 낙폭을 대부분 회복하면 철회한다.",
+            "sources": [
+              "bbg_tsla",
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "TSLA",
+            "basis": "11/10 종가를 11/3 종가와 비교한다.",
+            "counter": "정책 영향 지속성 미확인.",
+            "invalidation": "정책 관련 후속 보도를 보고 재판단한다.",
+            "sources": [
+              "bz_sweep"
+            ]
+          }
+        }
+      },
+      "NVDA": {
+        "reason": "데이터센터 규제 우려로 장전 1% 넘게 하락 보도.",
+        "watch": "AMD 호재와 규제 우려 중 어느 쪽이 우세한지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "NVDA",
+            "basis": "11/4 정규장 종가를 207.95USD와 비교한다.",
+            "counter": "AMD 가이던스 상회는 AI 수요 근거이나 규제 우려로 장전 약세다. 장중 되돌림 양방향 가능.",
+            "invalidation": "207.95USD 위 마감이면 상방, 205USD 아래 약세가 이어지면 하방으로 본다.",
+            "sources": [
+              "yf_live",
+              "amd_inv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "NVDA",
+            "basis": "11/10 종가를 207.95USD와 비교한다.",
+            "counter": "규제 우려 지속성 미확인.",
+            "invalidation": "데이터센터 규제 관련 후속 보도를 보고 재판단한다.",
+            "sources": [
+              "yf_live"
+            ]
+          }
+        }
+      },
+      "PLTR": {
+        "reason": "수주 둔화 우려에 규제 우려가 겹쳐 장전 −2.3% 보도.",
+        "watch": "175.40USD 아래 약세 지속 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "PLTR",
+            "basis": "11/4 정규장 종가를 175.40USD와 비교한다. 장전 −2.3% 보도.",
+            "counter": "단일 매체 조기 장전 수치이며 개장 뒤 반등 가능성.",
+            "invalidation": "175.40USD 위 마감이면 철회한다.",
+            "sources": [
+              "st_fut"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "PLTR",
+            "basis": "11/10 종가를 175.40USD와 비교한다.",
+            "counter": "실적 후 수주 둔화와 가이던스 상향이 상충한다.",
+            "invalidation": "추가 수주 발표를 보고 재판단한다.",
+            "sources": [
+              "st_fut"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "정규장 개장",
+        "detail": "09:30 EST. 선물 상승 폭과 AMD·TSLA 장전 움직임이 개장 뒤 유지되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 대형주 지수",
+            "basis": "개장 직후 선물 상승 폭 유지 여부.",
+            "counter": "시각별 선물 수치 차이가 크다.",
+            "invalidation": "개장 30분 뒤 지수 방향으로 재판단.",
+            "sources": [
+              "cnbc_fut",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 대형주 지수",
+            "basis": "11/10 종가 기준.",
+            "counter": "자료 부족.",
+            "invalidation": "11/6 고용 뒤 재판단.",
+            "sources": [
+              "adp"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 ISM 서비스업",
+        "detail": "10:00 EST(셋째 영업일 원칙). 컨센서스 미확인, 금리 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "컨센서스 미확인.",
+            "counter": "발표 전 판단 보류.",
+            "invalidation": "발표 후 10년물 반응으로 재판단.",
+            "sources": [
+              "ism_cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "발표 전.",
+            "counter": "자료 부족.",
+            "invalidation": "발표 후 재판단.",
+            "sources": [
+              "ism_cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Qualcomm 장후 실적",
+        "detail": "11/4 장 마감 후 발표, 콜 16:45 EST(11/5 06:45 KST).",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "QCOM·스마트폰 반도체",
+            "basis": "발표 전, 컨센서스 미확인.",
+            "counter": "발표 전 판단 보류.",
+            "invalidation": "발표 후 시간외 반응으로 재판단.",
+            "sources": [
+              "qcom_date"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "QCOM",
+            "basis": "발표 전.",
+            "counter": "자료 부족.",
+            "invalidation": "발표 후 재판단.",
+            "sources": [
+              "qcom_date"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국 반도체·AI 인프라주",
+        "detail": "AMD 가이던스와 미국 데이터센터 규제 우려가 삼성전자·SK하이닉스에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한국 반도체(삼성전자·SK하이닉스)",
+            "basis": "AMD 가이던스 상회와 미국 데이터센터 규제 우려가 상충한다.",
+            "counter": "미국 정규장 결과 미확인.",
+            "invalidation": "미국 반도체 지수 종가 방향으로 재판단.",
+            "sources": [
+              "amd_inv",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한국 반도체",
+            "basis": "미국 고용·정책 재료가 남아 있다.",
+            "counter": "자료 부족.",
+            "invalidation": "11/6 고용 뒤 재판단.",
+            "sources": [
+              "adp"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 고용보고서",
+        "detail": "11/6 08:30 EST. ADP +8.6만명 이후 공식 고용과 금리를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "11/6 발표 전.",
+            "counter": "발표 전 판단 보류.",
+            "invalidation": "발표 후 재판단.",
+            "sources": [
+              "adp"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 금리·지수",
+            "basis": "발표 전.",
+            "counter": "자료 부족.",
+            "invalidation": "발표 후 재판단.",
+            "sources": [
+              "adp"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_bw": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "nasdaq_cal": "Nasdaq · 휴장 달력",
+      "cnbc_live": "CNBC · 11월 3일 장 마감",
+      "thestreet": "TheStreet · 11월 3일 장 흐름",
+      "investrade": "Investrade · 11월 3일 시장 리뷰",
+      "cnbc_fut": "CNBC · 11월 4일 선물 라이브",
+      "inv_pre": "Investing.com · 장전 주요 종목",
+      "yf_live": "Yahoo Finance · 11월 4일 장전 라이브",
+      "st_fut": "Stocktwits · 민주당 약진과 선물",
+      "cnn_elec": "CNN · 2026 중간선거 결과",
+      "ap_fut": "AP(13abc) · 민주당 압승 뒤 선물 상승",
+      "fox_fut": "Fox Business · 선물 혼조",
+      "bz_sweep": "Benzinga · 블루 스윕과 트럼프 트레이드",
+      "bbg_tsla": "Bloomberg · Tesla·SpaceX 하락",
+      "cnbc_movers": "CNBC · 장전 주요 종목",
+      "amd_pr": "AMD · 3분기 실적 8-K",
+      "amd_inv": "Investing.com · AMD 실적·가이던스 상회",
+      "amd_tk": "TradingKey · AMD 시간외",
+      "amd_q": "StockAnalysis · AMD 시세",
+      "smci_pr": "Supermicro · 1분기 FY27 실적 8-K",
+      "smci_pre": "Supermicro · 1분기 잠정 실적(10/20)",
+      "pltr_cnbc": "CNBC · PLTR 시세",
+      "bz_mkt": "Benzinga(TradingView) · Nvidia·Apple 마감",
+      "nvda_247": "24/7 Wall St. · Nvidia 3% 상승",
+      "adp": "ADP · 10월 민간고용",
+      "adp_cnbc": "CNBC · ADP 예상 소폭 상회",
+      "nvo_inv": "Investing.com · Novo Nordisk 급등",
+      "ism_cal": "ISM · 보고서 발표 일정",
+      "qcom_date": "Qualcomm · 4분기 실적 발표 일정",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-04T23:03:04+09:00",
+      "input_cutoff": "2026-11-04T23:03:04+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 당일 11/4와 5거래일 뒤 11/10 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-04T09:00:00-05:00",
+      "kst": "2026-11-04T23:00:00+09:00",
+      "utc": "2026-11-04T14:00:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-04T09:00:11-05:00",
+      "kst": "2026-11-04T23:00:11+09:00",
+      "utc": "2026-11-04T14:00:11Z"
+    },
+    "start_offset_seconds": 11,
+    "delay_seconds": 11,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, WebSearch. WebFetch·curl 원문 열람은 네트워크 정책(DNS 차단/프록시 403)으로 실패. gh CLI 인증 실패. 카카오 PlayMCP 도구는 ToolSearch에 노출되지 않음. 실제 checkout /home/user/cost",
+    "model_setting": "not_verified",
+    "request_commit": "16aaf64e0e134af1cb30b68e79869e1876e2111c",
+    "analysis_run_id": 41843431831,
+    "analysis_status": "in_progress (작성 시점 미완료, artifact 0개·gh 인증 실패로 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-11-04.json"
+  }
+}
