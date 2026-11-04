@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-03",
+  "end_date": "2026-11-04",
   "watch": [
     "AMD",
-    "SMCI",
-    "ANET",
-    "TSLA",
     "NVDA",
-    "AAPL",
-    "MU"
+    "MU",
+    "VST",
+    "HCA",
+    "LMT",
+    "FSLR"
   ],
-  "requested_at": "2026-11-04T23:01:09+09:00"
+  "requested_at": "2026-11-05T06:16:47+09:00"
 }
