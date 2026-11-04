@@ -1,0 +1,932 @@
+{
+  "id": "us-close-2026-11-04",
+  "title": "11월 4일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-04 09:30~16:00 EST 정규장(2026-11-04 23:30~11-05 06:00 KST)",
+  "market_date": "2026-11-04",
+  "session": "close",
+  "as_of": "2026-11-05T06:00:00+09:00",
+  "queried_at": "2026-11-05T06:20:43+09:00",
+  "is_test": false,
+  "summary": "민주당 의회 장악에 다우 +3.03% 급등, 데이터센터·메모리주는 급락",
+  "summary_detail": "중간선거에서 민주당이 상·하원을 확보하자 분열 정부가 정책 극단화를 제약할 것이란 기대에 다우는 1,569.40포인트 올라 2025년 4월 이후 최고의 하루를 기록했다. 유가·금리가 함께 내렸다. 반면 텍사스 주지사 당선인의 데이터센터 유예 공약에 비스트라 등 AI 전력·건설주와 마이크론 등 메모리주가 장중 급락했다. 병원·보험·태양광은 강세, 방산은 약세였다.",
+  "interpretation": "이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 지수·종가는 검색 결과에 요약된 CNBC 등의 값을 잠정으로 썼고, 일부 종목 종가는 확인하지 못했다. 지수 상승은 정책 불확실성 해소 성격이지만 AI 인프라 투자에는 새 정책 위험이 생겼다. 한국장은 지수 강세와 메모리주 약세가 상충한다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,688.62",
+      "unit": "pt",
+      "delta": "+119.70",
+      "percent": "+1.58",
+      "direction": "up",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "abc_dow"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 11/3 잠정 종가 7,568.92 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,736.51",
+      "unit": "pt",
+      "delta": "+364.50",
+      "percent": "+1.44",
+      "direction": "up",
+      "source": "cnbc_live",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 11/3 잠정 종가 25,372.01 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "다우존스",
+      "value": "53,356.12",
+      "unit": "pt",
+      "delta": "+1,569.40",
+      "percent": "+3.03",
+      "direction": "up",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "cnn_mid",
+        "pbs_ap"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 미국 정규장 종가(16:00 EST) · 잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "민주당 의회 장악, 다우 3% 급등",
+      "fact": "11/3 중간선거에서 민주당이 상·하원을 모두 확보했다는 보도 속에 11/4 정규장 다우는 1,569.40포인트(3.03%) 오른 53,356.12로 마감해 2025-04-09 이후 최고의 하루를 기록했다. S&P500은 1.58% 오른 7,688.62, 나스닥은 1.44% 오른 25,736.51이었다(잠정). 분석가들은 트럼프 대통령의 거부권이 유지되는 분열 정부가 극단적 정책을 제약해 위험 프리미엄을 낮출 수 있다고 봤다(Deutsche Bank). 유가·금리·달러 하락이 동반됐다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "abc_dow",
+        "cnn_mid",
+        "pbs_ap"
+      ]
+    },
+    {
+      "title": "텍사스 변수에 데이터센터·전력주 급락",
+      "fact": "텍사스 주지사 당선인 지나 이노호사가 신규 데이터센터 유예를 공약했고, Wells Fargo 기준 미국 계획 데이터센터 용량의 약 27%가 텍사스에 있다. 장중 비스트라 약 −13.5%(KeyBanc 투자의견 하향), 컴포트시스템즈 약 −15~17%, 코어위브 약 −9%가 보도됐다. 지수 급등과 반대로 AI 인프라 노출 종목이 약했다. 각 종목 종가는 작성 시점 미확인이다.",
+      "source": "inv_vst",
+      "additional_sources": [
+        "st_dc",
+        "cnbc_midday",
+        "cnbc_election"
+      ]
+    },
+    {
+      "title": "메모리주 약세, 마이크론 약 −7%",
+      "fact": "마이크론은 15:27 ET 기준 795.68USD(−6.95%)로 장중 큰 폭 하락했고 샌디스크 약 −9%, WDC 약 −7%가 보도됐다. 선거에 따른 데이터센터 투자 둔화 우려와 중국 CXMT의 DRAM 기술 보도가 겹쳤다. 엔비디아는 약 1~2% 하락이 보도됐다. 마이크론 종가는 미확인이다.",
+      "source": "fool_mu",
+      "additional_sources": [
+        "mu_247",
+        "mu_cxmt",
+        "st_dc"
+      ]
+    },
+    {
+      "title": "AMD, 4분기 170억USD 전망",
+      "fact": "AMD는 11/3 장후 3분기 매출 134억USD, non-GAAP EPS 2.09USD, 데이터센터 매출 85억USD(+97%)를 발표하고 4분기 매출을 약 170억USD(±3%)로 제시해 발표 전 예상 약 162~163억USD를 웃돌았다. 2027년 매출 80% 이상 성장 전망도 냈다. 오전에는 483USD대 보합이었으나 498.69USD(+3.06%)로 마감했다는 보도가 있다(단일 출처, 잠정).",
+      "source": "amd_ir",
+      "additional_sources": [
+        "amd_yf",
+        "amd_247",
+        "jkn_amd"
+      ]
+    },
+    {
+      "title": "헬스케어 강세, 방산 약세",
+      "fact": "메디케이드 감축 시행이 늦춰질 수 있다는 분석에 장중 HCA 약 +10%, 센틴 +10.66%, 몰리나 +8.02%가 보도됐다. 반대로 국방 지출 억제 우려로 록히드마틴은 604.20USD(−5.45%)로 마감했다는 보도가 있고(단일 출처, 잠정) 노스럽·GD도 장중 하락했다. 퍼스트솔라 등 태양광은 장중 약 8% 상승이 보도됐다.",
+      "source": "rt_health",
+      "additional_sources": [
+        "cnbc_def",
+        "jkn_lmt",
+        "cnbc_election",
+        "st_live"
+      ]
+    },
+    {
+      "title": "유가·금리 동반 하락",
+      "fact": "브렌트유는 장중 약 한 달 만에 100달러 아래로, 95달러 밑까지 내렸다(AP, 정산가 미확인). 이란 전쟁 종식 압력과 협상 기대가 거론됐다. 미국 10년물 금리는 5bp 넘게 내린 4.898%가 보도됐다(장중 보도값, 시각 미확인).",
+      "source": "pbs_ap",
+      "additional_sources": [
+        "ust_cnbc"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "498.69",
+      "currency": "USD",
+      "delta": "+14.79",
+      "percent": "+3.06",
+      "direction": "up",
+      "source": "jkn_amd",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 미국 정규장 종가(16:00 EST) · 잠정 · 단일 출처 · 전일 483.90USD(직전 회차 483.91과 0.01 차이)",
+      "reason": "4분기 매출 전망 약 170억USD가 예상치를 넘고 2027년 80% 이상 성장을 제시했다.",
+      "watch": "11/5 정규장에서 반도체 약세 속에도 483.90USD(11/3 종가) 위를 지키는지 본다.",
+      "reason_sources": [
+        "amd_ir",
+        "amd_yf",
+        "amd_247"
+      ]
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "작성 시점 정규장 종가 원문을 확인하지 못함. 장중 15:27 ET 795.68USD(−59.42, −6.95%)는 종가가 아님.",
+      "source": "fool_mu",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 정규장 종가 미확인 · 장중 15:27 ET 795.68USD(−6.95%) 참고",
+      "reason": "데이터센터 투자 둔화 우려와 CXMT DRAM 보도가 겹쳐 장중 약 7% 하락했다.",
+      "watch": "정규장 종가 확인과 한국 메모리주 개장 반응, CXMT 양산 근거를 본다.",
+      "reason_sources": [
+        "mu_247",
+        "mu_cxmt"
+      ]
+    },
+    {
+      "name": "비스트라",
+      "ticker": "VST",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "작성 시점 정규장 종가 원문을 확인하지 못함. 보도된 −13.5%는 장중 수치.",
+      "source": "inv_vst",
+      "venue": "NYSE",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 정규장 종가 미확인 · 장중 약 −13.5% 보도",
+      "reason": "텍사스 데이터센터 유예 공약과 KeyBanc 하향으로 AI 전력주 대표로 급락했다.",
+      "watch": "텍사스 주지사 당선인의 구체적 정책과 추가 투자의견 조정을 본다.",
+      "reason_sources": [
+        "st_dc",
+        "cnbc_election"
+      ]
+    },
+    {
+      "name": "HCA 헬스케어",
+      "ticker": "HCA",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "작성 시점 정규장 종가 원문을 확인하지 못함. 15:02 ET +10.84%, 장중 +9.97% 보도는 종가가 아님.",
+      "source": "rt_health",
+      "venue": "NYSE",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 정규장 종가 미확인 · 장중 약 +10% 보도",
+      "reason": "메디케이드 감축 지연 기대에 병원주가 장중 약 10% 올랐다.",
+      "watch": "종가 확인과 하루 급등 뒤 되돌림 여부, 의회 일정 보도를 본다.",
+      "reason_sources": [
+        "st_live",
+        "cnbc_election"
+      ]
+    },
+    {
+      "name": "록히드마틴",
+      "ticker": "LMT",
+      "price": "604.20",
+      "currency": "USD",
+      "delta": "−(변동액 미확인)",
+      "percent": "−5.45",
+      "direction": "down",
+      "source": "jkn_lmt",
+      "venue": "NYSE",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026-11-04 미국 정규장 종가(16:00 EST) · 잠정 · 단일 출처 · 변동액 원문 미확인(역산하지 않음)",
+      "reason": "민주당 의회가 국방 예산 증액을 제약할 수 있다는 우려로 방산주가 내렸다.",
+      "watch": "국방 수권·예산 일정 보도와 600USD 부근 지지를 본다.",
+      "reason_sources": [
+        "cnbc_def",
+        "cnbc_election"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.898",
+    "unit": "%",
+    "delta": "−0.05%p 이상(5bp+, 보도)",
+    "direction": "down",
+    "source": "ust_cnbc",
+    "as_of": "2026-11-05T06:00:00+09:00",
+    "session": "11/4 장중 보도값 · 시각 미확인 · 확정 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-05 09:00 KST",
+      "title": "한국장 개장 메모리·전력주",
+      "detail": "11/4 코스피는 5,683.80(+0.62%)으로 마감했다. 미국 지수 급등과 마이크론 약 −7%가 상충해 삼성전자·SK하이닉스는 갭 방향이 엇갈릴 수 있다. 전력기기·데이터센터 관련주의 미국 동조 약세와 원/달러·외국인 수급을 확인한다."
+    },
+    {
+      "label": "2026-11-05 23:30 KST",
+      "title": "미국 데이터센터주 반발 여부",
+      "detail": "11/5(목) 정규장 개장. 비스트라·컴포트시스템즈·마이크론 종가 확인 후 반발 매수인지 추가 하락인지와 텍사스 정책 구체화 보도를 본다."
+    },
+    {
+      "label": "확인 순서 1",
+      "title": "선거 최종 의석·정책 일정",
+      "detail": "상·하원 최종 의석, 국방 예산·메디케이드 관련 일정과 유가의 이란 협상 진전을 확인한다."
+    },
+    {
+      "label": "2026-11-06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "11/6(금) 08:30 EST 발표 예정(제3자 일정표). 금리 4.9% 부근 반응을 본다. 컨센서스는 미확인이다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf"
+    ],
+    "market_date": "2026-11-04",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-05T06:18:30+09:00",
+    "note": "NYSE 2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/4(수)가 없어 정상 거래일·정규 폐장으로 판단했다. 같은 날 정규장 마감 보도(CNBC)도 거래를 확인한다. 원문 페이지는 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-04 23:30~11-05 06:00 KST. d5 구간 11/5·6·9·10·11은 휴장 목록에 없다(11/11 재향군인의 날은 NYSE 휴장 아님)."
+  },
+  "calculation_notes": "지수 값·등락률은 CNBC 마감 보도값. 포인트 변화: S&P500 7,688.62−7,568.92=+119.70(+1.581%), 나스닥 25,736.51−25,372.01=+364.50(+1.437%); 기준값은 11/3 회차의 잠정 종가. 다우 51,786.72+1,569.40=53,356.12로 일치. AMD 498.69−14.79=483.90(보도 전일 종가; 직전 회차 483.91과 0.01 차이), 14.79/483.90=+3.056%. LMT −5.45%는 보도값이며 변동액은 원문 미확인이라 등락률로 역산하지 않았다. MU·VST·HCA는 종가 미확인으로 장중 값만 참고 표시. Massive 분석(run 41914594466)은 작성 시점 진행 중이었고 artifact 다운로드 호스트가 프록시 403으로 막혀 사용하지 않았다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/4(수)가 없어 정상 거래일·정규 폐장. 정규장 09:30~16:00 ET. 원문 페이지는 이번 실행 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "note": "NYSE Group 공식 휴장·조기폐장 발표 문서. 11/4는 목록에 없음. 검색 결과로 확인."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 4일 장 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "note": "다우 1,569.40p(3.03%) 오른 53,356.12, S&P500 1.58% 오른 7,688.62, 나스닥 1.44% 오른 25,736.51 마감. 2025-04-09 이후 최고의 날. URL 날짜는 11/3이나 본문은 11/4(수) 세션. 검색 요약으로 확인한 잠정값."
+    },
+    {
+      "id": "cnn_mid",
+      "label": "CNN · 중간선거 후 시장",
+      "url": "https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections",
+      "note": "CFRA 기준 1982년 이후 최대 중간선거 다음날 다우 상승 전망(장중 기사). 검색 요약."
+    },
+    {
+      "id": "abc_dow",
+      "label": "ABC News · 민주당 의회 장악",
+      "url": "https://abcnews.com/Business/dow-surges-1000-points-democrats-control-congress/story?id=137842989",
+      "note": "민주당 상·하원 장악, 장중 다우 +1,511p(2.9%), S&P500 +1.8%, 나스닥 +2.1%(장중). Deutsche Bank 사라벨로스 '극단적 정책 결과 제동' 인용. 검색 요약."
+    },
+    {
+      "id": "pbs_ap",
+      "label": "AP(PBS) · 다우 급등·브렌트 95달러 하회",
+      "url": "https://www.pbs.org/newshour/economy/u-s-stocks-surge-and-the-dow-soars-1500-points-as-brent-oils-price-drops-below-95-per-barrel",
+      "note": "브렌트유가 약 한 달 만에 100달러 아래, 95달러 하회(장중). 정산가 미확인. 검색 요약."
+    },
+    {
+      "id": "cnbc_election",
+      "label": "CNBC · 선거 영향 종목 총정리",
+      "url": "https://www.cnbc.com/2026/11/04/every-stock-thats-moving-as-a-result-of-the-election.html",
+      "note": "장중: 록히드 −7% 가까이, 비스트라 −14%, HCA +10%, 퍼스트솔라 +8%. 시각별 수치 상이. 검색 요약."
+    },
+    {
+      "id": "cnbc_midday",
+      "label": "CNBC · 장중 주요 종목",
+      "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-midday-crwv-mu-bkng-mcd-cvs.html",
+      "note": "장중: 컴포트시스템즈 −17%, 비스트라 −13%, 코어위브 −9%, 블록 +16% 가까이, 부킹 +11%. 검색 요약."
+    },
+    {
+      "id": "inv_vst",
+      "label": "Investing.com · 비스트라 13.5% 급락·KeyBanc 하향",
+      "url": "https://www.investing.com/news/stock-market-news/vistra-plunges-135-as-texas-election-rattles-ai-power-trade-keybanc-downgrades-5000811",
+      "note": "텍사스 주지사 당선인 지나 이노호사의 신규 데이터센터 유예 공약으로 비스트라 13.5% 급락(장중 기사). KeyBanc 비중확대→중립 하향, 목표가 철회. 검색 요약."
+    },
+    {
+      "id": "st_dc",
+      "label": "StockTitan · AI 데이터센터주 하락 배경",
+      "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026",
+      "note": "데이터센터 건설·장비주 최대 약 20~24% 하락, Wells Fargo 기준 미국 계획 데이터센터 용량의 약 27%가 텍사스. 엔비디아 표 203.19USD(−1.7%, 전일 206.69)이나 종가 여부 불명확. 검색 요약."
+    },
+    {
+      "id": "fool_mu",
+      "label": "Motley Fool · 마이크론 하락 이유",
+      "url": "https://www.fool.com/investing/2026/11/04/why-micron-stock-is-falling-today/",
+      "note": "11/4 14:58 ET 기준 −6.4%, 15:27 ET 시세 상자 795.68USD(−59.42, −6.95%). 종가 아님. 검색 요약."
+    },
+    {
+      "id": "mu_247",
+      "label": "24/7 Wall St. · 메모리주 약세",
+      "url": "https://247wallst.com/investing/2026/11/04/sandisk-slides-5-micron-and-western-digital-fall-3-as-election-and-memory-price-worries-weigh/",
+      "note": "샌디스크 약 −9%, 마이크론·WDC 약 −7%(장중), 선거 및 메모리 가격 우려. 표의 MU 796.39USD(−6.87%)는 종가 여부 불명확. 검색 요약."
+    },
+    {
+      "id": "mu_cxmt",
+      "label": "Timothy Sykes · CXMT DRAM 우려",
+      "url": "https://www.timothysykes.com/news/micron-technology-inc-mu-news-2026_11_04/",
+      "note": "중국 CXMT의 DRAM 신기술 보도가 메모리주 부담으로 거론. 양산·가격 영향은 미확인. 검색 요약."
+    },
+    {
+      "id": "amd_ir",
+      "label": "AMD · 3분기 실적 발표",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "note": "3분기 매출 134억USD, 매출총이익률 54%, 희석 EPS 1.46USD, non-GAAP EPS 2.09USD, 데이터센터 85억USD(+97%). 4분기 매출 약 170억USD±3% 전망. 검색 요약."
+    },
+    {
+      "id": "amd_yf",
+      "label": "Yahoo Finance · AMD 실적 후 반응",
+      "url": "https://finance.yahoo.com/technology/article/amd-stock-rises-after-q3-earnings-beat-as-data-center-revenue-climbs-97-213907282.html",
+      "note": "실적 상회 뒤 오전 보합 흐름. 4분기 가이던스 약 170억USD는 컨센서스 약 162~163억USD 상회. 2027년 매출 80% 이상 성장 전망(리사 수). 검색 요약."
+    },
+    {
+      "id": "amd_247",
+      "label": "24/7 Wall St. · AMD 오전 보합·인텔 하락",
+      "url": "https://247wallst.com/investing/2026/11/04/intel-drops-5-nvidia-retreats-2-after-amd-earnings-beat-and-strong-2027-outlook-as-intel-falls-3-amd-stock-goes-nowhere/",
+      "note": "오전 AMD 483.34USD 보합, 인텔 −3~5%, 엔비디아 −2%(오전). 검색 요약."
+    },
+    {
+      "id": "jkn_amd",
+      "label": "JKN · AMD 3.06% 상승 마감",
+      "url": "https://news.jkn.co.kr/editions/english/post/1070786",
+      "note": "AMD 11/4 종가 498.69USD, +14.79USD(+3.06%). 자동 생성형 기사 단일 출처라 잠정. 검색 요약."
+    },
+    {
+      "id": "jkn_lmt",
+      "label": "JKN · 록히드마틴 5.45% 하락 마감",
+      "url": "https://news.jkn.co.kr/editions/english/post/1070690",
+      "note": "록히드마틴 11/4 종가 604.20USD(−5.45%). 변동액은 원문에서 확인하지 못함. 자동 생성형 기사 단일 출처라 잠정. 검색 요약."
+    },
+    {
+      "id": "cnbc_def",
+      "label": "CNBC · 방산주 하락",
+      "url": "https://www.cnbc.com/2026/11/04/defense-stocks-slide-on-fear-democrats-will-curb-spending-one-analyst-say-its-a-buying-opportunity.html",
+      "note": "민주당의 국방 지출 억제 우려로 방산주 하락. AP 장중 록히드 −6.4%, 노스럽 −4.5%, GD −3%. 검색 요약."
+    },
+    {
+      "id": "rt_health",
+      "label": "Reuters(Investing.com) · 보험·병원주 급등",
+      "url": "https://www.investing.com/news/stock-market-news/health-insurers-hospitals-rally-after-sweeping-midterm-win-for-democrats-5000171",
+      "note": "메디케이드 비중 큰 보험사·병원 강세. 갱신본 장중 CNC +10.66%, MOH +8.02%, HCA +9.97%, THC +8.38%. OBBBA 메디케이드 감축 시행 지연 가능성. 종가 미확인. 검색 요약."
+    },
+    {
+      "id": "st_live",
+      "label": "StockTitan · 11월 4일 장 라이브",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026",
+      "note": "15:02 ET HCA +10.84% 등 장중 수치. 종가 아님. 검색 요약."
+    },
+    {
+      "id": "ust_cnbc",
+      "label": "CNBC · 10년물 금리 하락",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "note": "10년물 5bp 넘게 내린 4.898%(장중 보도값, 시각 미확인, 확정 종가 아님). 검색 요약."
+    },
+    {
+      "id": "bls_cal",
+      "label": "SimianX · 미국 고용보고서 발표 일정",
+      "url": "https://www.simianx.ai/stories/us-jobs-report-nonfarm-payrolls-latest-data-and-release-schedule",
+      "note": "10월 고용보고서 2026-11-06 08:30 ET 발표 예정(제3자 일정표). BLS 원문은 직접 확인하지 못함. 검색 요약."
+    },
+    {
+      "id": "kr_close",
+      "label": "머니투데이방송 · 11/4 코스피 마감",
+      "url": "https://news.mtn.co.kr/article/2026110415413677797",
+      "note": "이 저장소 kr-close-2026-11-04 회차 출처. 코스피 5,683.80(+0.62%), 장중 −4% 급락 뒤 반등."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41914594466",
+      "note": "요청 커밋 85f1ae735ffede9e930ca50e11b5edee4a9bf092의 Collect US briefing inputs 실행. 작성 시점 진행 중이었고 artifact 다운로드 호스트가 프록시 403으로 차단되어 analysis.json을 확인하지 못해 분석 수치를 사용하지 않음.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "민주당 의회 장악에 다우 3% 급등",
+    "summary_points": [
+      "분열 정부 기대에 다우 +3.03%, 2025년 4월 이후 최대.",
+      "텍사스 변수로 데이터센터·메모리주는 급락.",
+      "헬스케어·태양광 강세, 방산 약세, 유가·금리 하락."
+    ],
+    "notices": [
+      "원문 사이트 직접 열람이 막혀 지수는 검색 요약으로 확인한 잠정 종가다. AMD·LMT 종가는 단일 자동 생성 기사 기반이며 MU·VST·HCA 종가는 미확인(장중 수치만 표시)이다.",
+      "10년물·유가는 장중 보도값이며 Massive 일별 분석은 다운로드가 막혀 쓰지 않았다."
+    ],
+    "issues": [
+      {
+        "title": "민주당 의회 장악, 다우 3% 급등",
+        "preview": "다우 +1,569p, S&P500 +1.58%, 나스닥 +1.44%.",
+        "points": [
+          "민주당이 상·하원을 확보해 분열 정부가 됐다.",
+          "정책 극단화 제약 기대로 위험 프리미엄이 낮아졌다."
+        ],
+        "meaning": "정책 불확실성 해소가 지수 전반을 끌어올렸다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/5 정규장 종가를 S&P500 7,688.62와 비교한다. 정책 불확실성 해소와 유가·금리 하락이 지지한다.",
+            "counter": "하루 3% 급등 뒤 차익실현 가능성, 데이터센터·반도체 약세가 지수 상단을 막을 수 있다. 개장 갭과 종가 방향은 다를 수 있다.",
+            "invalidation": "S&P500이 7,688.62 위에서 마감하고 데이터센터주 낙폭이 줄면 상방으로 바꾼다.",
+            "sources": [
+              "cnbc_live",
+              "abc_dow"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(S&P500)",
+            "basis": "5거래일 뒤 11/11 정규장 종가를 7,688.62와 비교한다. 11/6 고용보고서가 기간 안에 있다.",
+            "counter": "선거 랠리 지속 여부, 고용·금리 재료가 남아 판단을 보류한다.",
+            "invalidation": "11/6 고용과 10년물 반응을 보고 재판단한다.",
+            "sources": [
+              "ust_cnbc",
+              "bls_cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "텍사스 변수에 데이터센터·전력주 급락",
+        "preview": "비스트라 약 −13.5%, 컴포트시스템즈 약 −15% 이상.",
+        "points": [
+          "텍사스 주지사 당선인이 신규 데이터센터 유예를 공약했다.",
+          "미국 계획 데이터센터 용량의 약 27%가 텍사스다."
+        ],
+        "meaning": "AI 인프라 투자 경로에 정책 위험이 새로 붙었다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AI 전력·데이터센터 건설주",
+            "basis": "11/5 정규장 종가를 11/4 종가와 비교한다. 다만 11/4 종가 자체가 미확인이다.",
+            "counter": "급락 뒤 반발 매수와 정책 구체화 우려가 상충한다. 장 초반 반등 뒤 되밀릴 위험이 있다.",
+            "invalidation": "유예 범위가 신규 일부로 좁혀진다는 보도가 나오면 상방을 검토한다.",
+            "sources": [
+              "inv_vst",
+              "st_dc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AI 전력·데이터센터 건설주",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "정책 세부안·추가 투자의견 조정이 미확인이다.",
+            "invalidation": "텍사스 정책 일정과 기업 코멘트로 재판단한다.",
+            "sources": [
+              "inv_vst"
+            ]
+          }
+        }
+      },
+      {
+        "title": "메모리주 약세, 마이크론 약 −7%",
+        "preview": "마이크론 장중 −6.95%, 샌디스크 약 −9%.",
+        "points": [
+          "데이터센터 투자 둔화 우려와 CXMT 보도가 겹쳤다.",
+          "엔비디아도 약 1~2% 하락이 보도됐다."
+        ],
+        "meaning": "지수 랠리에서 AI 반도체가 소외돼 한국 메모리주 부담이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "메모리주(MU)",
+            "basis": "11/5 정규장 종가를 11/4 종가(미확인)와 비교한다.",
+            "counter": "급락 뒤 반발과 CXMT·정책 우려가 상충한다.",
+            "invalidation": "MU가 11/4 종가 대비 상승 마감하고 메모리 가격 보도가 견조하면 상방으로 바꾼다.",
+            "sources": [
+              "fool_mu",
+              "mu_247"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "메모리주(MU)",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "CXMT 양산·가격 영향이 미확인이다.",
+            "invalidation": "CXMT 양산 근거와 데이터센터 정책 보도로 재판단한다.",
+            "sources": [
+              "mu_cxmt"
+            ]
+          }
+        }
+      },
+      {
+        "title": "AMD, 4분기 170억USD 전망",
+        "preview": "가이던스 약 170억USD로 예상 약 163억USD 상회.",
+        "points": [
+          "데이터센터 매출이 97% 늘어난 85억USD였다.",
+          "오전 보합 뒤 +3.06% 마감이 보도됐다(잠정)."
+        ],
+        "meaning": "AI 칩 수요 자체는 견조하다는 근거가 됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/5 정규장 종가를 498.69USD(잠정)와 비교한다. 가이던스 상회가 지지한다.",
+            "counter": "반도체·데이터센터 정책 우려가 남았고 시간외 급등분 일부가 이미 반영됐다. 장 초반 되돌림 위험이 있다.",
+            "invalidation": "498.69USD 위 마감과 반도체 동반 반등 시 상방으로 바꾼다.",
+            "sources": [
+              "amd_ir",
+              "amd_yf",
+              "jkn_amd"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "5거래일 뒤 11/11 정규장 종가를 498.69USD와 비교한다.",
+            "counter": "추정치 상향 폭과 정책 위험이 미확인이다.",
+            "invalidation": "애널리스트 추정치 조정으로 재판단한다.",
+            "sources": [
+              "amd_yf"
+            ]
+          }
+        }
+      },
+      {
+        "title": "헬스케어 강세, 방산 약세",
+        "preview": "HCA 장중 약 +10%, 록히드 −5.45%(잠정).",
+        "points": [
+          "메디케이드 감축 지연 기대에 병원·보험주가 올랐다.",
+          "국방 지출 억제 우려로 방산주가 내렸다."
+        ],
+        "meaning": "정책 수혜·피해 업종 간 로테이션이 뚜렷했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "병원·보험주 / 방산주",
+            "basis": "11/5 정규장 종가를 11/4 종가와 비교한다.",
+            "counter": "하루 급등락 뒤 되돌림과 정책 기대 지속이 상충한다. J.P. Morgan은 대형 의료 정책 변화 가능성을 낮게 봤다.",
+            "invalidation": "의회 지도부의 예산·메디케이드 일정 발언으로 재판단한다.",
+            "sources": [
+              "rt_health",
+              "cnbc_def"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "병원·보험주 / 방산주",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "실제 입법은 2027년 이후 가능성이 커 판단을 보류한다.",
+            "invalidation": "예산안 협상 보도로 재판단한다.",
+            "sources": [
+              "cnbc_def"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가·금리 동반 하락",
+        "preview": "브렌트 장중 95달러 하회, 10년물 4.898%.",
+        "points": [
+          "이란 전쟁 종식 압력과 협상 기대가 거론됐다.",
+          "정산가·금리 종가는 미확인이다."
+        ],
+        "meaning": "인플레이션·금리 부담 완화는 지수에 우호적이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국제유가·미 10년물",
+            "basis": "11/5 브렌트 정산가와 10년물 종가를 비교한다.",
+            "counter": "협상 기대와 이란 측 회의적 발언이 상충한다.",
+            "invalidation": "협상 진전 공식 발표 시 유가 하방을 검토한다.",
+            "sources": [
+              "pbs_ap",
+              "ust_cnbc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국제유가·미 10년물",
+            "basis": "5거래일 뒤 11/11 값과 비교한다.",
+            "counter": "고용보고서·협상 일정이 남았다.",
+            "invalidation": "11/6 고용 뒤 재판단한다.",
+            "sources": [
+              "bls_cal"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "지수 급등은 정책 불확실성 해소 성격이며 AI 인프라주는 반대로 정책 위험을 반영했다.",
+      "한국장은 미국 지수 강세와 메모리주 약세가 상충해 업종별로 갈릴 수 있다.",
+      "11/6 고용보고서와 텍사스 정책 구체화가 다음 방향 재료다."
+    ],
+    "stocks": {
+      "AMD": {
+        "reason": "4분기 전망 약 170억USD로 예상을 넘었다.",
+        "watch": "483.90USD 위 유지와 반도체 동반 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/5 정규장 종가를 498.69USD(잠정)와 비교한다.",
+            "counter": "데이터센터 정책 우려와 실적 상회가 상충한다. 개장 직후 변동이 클 수 있다.",
+            "invalidation": "498.69USD 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "amd_ir",
+              "jkn_amd"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "5거래일 뒤 11/11 정규장 종가를 498.69USD와 비교한다.",
+            "counter": "추정치 조정 전이다.",
+            "invalidation": "추정치 변화로 재판단한다.",
+            "sources": [
+              "amd_yf"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "선거·CXMT 우려로 장중 약 7% 내렸다.",
+        "watch": "종가 확인과 한국 메모리주 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "MU",
+            "basis": "11/5 정규장 종가를 11/4 종가(미확인)와 비교한다.",
+            "counter": "기준 종가가 미확인이라 방향을 정하지 않는다.",
+            "invalidation": "종가 확인 뒤 재판단한다.",
+            "sources": [
+              "fool_mu"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "MU",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "CXMT 영향이 미확인이다.",
+            "invalidation": "CXMT·정책 보도로 재판단한다.",
+            "sources": [
+              "mu_cxmt"
+            ]
+          }
+        }
+      },
+      "VST": {
+        "reason": "텍사스 데이터센터 유예 공약에 장중 약 13.5% 급락했다.",
+        "watch": "텍사스 정책 세부안과 투자의견 조정을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "VST",
+            "basis": "11/5 정규장 종가를 11/4 종가(미확인)와 비교한다.",
+            "counter": "급락 뒤 반발과 정책 우려가 상충한다.",
+            "invalidation": "정책 범위 축소 보도 시 상방을 검토한다.",
+            "sources": [
+              "inv_vst"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "VST",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "정책 일정이 미확인이다.",
+            "invalidation": "정책 발표로 재판단한다.",
+            "sources": [
+              "st_dc"
+            ]
+          }
+        }
+      },
+      "HCA": {
+        "reason": "메디케이드 감축 지연 기대에 장중 약 10% 올랐다.",
+        "watch": "하루 급등 뒤 되돌림과 의회 일정을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "HCA",
+            "basis": "11/5 정규장 종가를 11/4 종가(미확인)와 비교한다.",
+            "counter": "기준 종가 미확인, 급등 뒤 차익실현 위험이 있다.",
+            "invalidation": "종가 확인 뒤 재판단한다.",
+            "sources": [
+              "rt_health"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "HCA",
+            "basis": "5거래일 뒤 11/11 정규장 종가와 비교한다.",
+            "counter": "입법 시점이 불확실하다.",
+            "invalidation": "의회 일정으로 재판단한다.",
+            "sources": [
+              "rt_health"
+            ]
+          }
+        }
+      },
+      "LMT": {
+        "reason": "국방 지출 억제 우려로 5.45% 내렸다(잠정).",
+        "watch": "국방 예산 일정과 600USD 부근을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "LMT",
+            "basis": "11/5 정규장 종가를 604.20USD(잠정)와 비교한다.",
+            "counter": "저가 매수 의견(CNBC 인용 분석가)과 예산 우려가 상충한다.",
+            "invalidation": "600USD 아래 마감 시 하방으로 바꾼다.",
+            "sources": [
+              "cnbc_def",
+              "jkn_lmt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "LMT",
+            "basis": "5거래일 뒤 11/11 정규장 종가를 604.20USD와 비교한다.",
+            "counter": "예산 협상 일정이 미확인이다.",
+            "invalidation": "예산 보도로 재판단한다.",
+            "sources": [
+              "cnbc_def"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국장 개장 메모리·전력주",
+        "detail": "미국 지수 강세와 마이크론 약세가 삼성전자·SK하이닉스에 어떻게 반영되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자·SK하이닉스(KRX)",
+            "basis": "11/5 KRX 정규장 종가를 11/4 종가(삼성전자 218,000원, SK하이닉스 1,396,000원)와 비교한다.",
+            "counter": "미국 지수 랠리와 미국 메모리주 약 −7%가 상충한다. 장 초반 약세 뒤 회복 또는 그 반대 경로가 모두 가능하다.",
+            "invalidation": "개장 후 외국인 순매수 전환과 지수 동반 상승 시 상방으로 바꾼다.",
+            "sources": [
+              "kr_close",
+              "fool_mu"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "삼성전자·SK하이닉스(KRX)",
+            "basis": "5거래일 뒤 KRX 종가와 비교한다.",
+            "counter": "미국 데이터센터 정책·CXMT 영향이 미확인이다.",
+            "invalidation": "정책 세부안과 메모리 가격 보도로 재판단한다.",
+            "sources": [
+              "mu_cxmt"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 데이터센터주 반발 여부",
+        "detail": "11/4 종가 확인 뒤 반발 매수인지 추가 하락인지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AI 인프라주",
+            "basis": "11/5 정규장 종가를 비교한다.",
+            "counter": "11/4 종가 미확인이다.",
+            "invalidation": "종가 확인 뒤 재판단한다.",
+            "sources": [
+              "st_dc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AI 인프라주",
+            "basis": "11/11 정규장 종가를 비교한다.",
+            "counter": "정책 일정 미확인이다.",
+            "invalidation": "정책 발표로 재판단한다.",
+            "sources": [
+              "inv_vst"
+            ]
+          }
+        }
+      },
+      {
+        "title": "선거 최종 의석·정책 일정",
+        "detail": "최종 의석과 예산·메디케이드·이란 협상 일정을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "정책 수혜·피해 업종",
+            "basis": "11/5 업종 종가를 비교한다.",
+            "counter": "최종 의석·일정이 미확인이다.",
+            "invalidation": "지도부 발언으로 재판단한다.",
+            "sources": [
+              "abc_dow"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "정책 수혜·피해 업종",
+            "basis": "11/11 업종 종가를 비교한다.",
+            "counter": "입법 일정이 미확인이다.",
+            "invalidation": "예산 협상 보도로 재판단한다.",
+            "sources": [
+              "cnbc_def"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 10월 고용보고서",
+        "detail": "11/6 08:30 EST 발표 예정, 금리 4.9% 부근 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미 10년물·지수",
+            "basis": "발표 전이라 d1(11/5)에는 영향이 없다.",
+            "counter": "발표 대기다.",
+            "invalidation": "발표 후 재판단한다.",
+            "sources": [
+              "bls_cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미 10년물·지수",
+            "basis": "11/11 종가와 비교한다.",
+            "counter": "컨센서스 미확인이다.",
+            "invalidation": "결과 확인 후 재판단한다.",
+            "sources": [
+              "bls_cal"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "cnbc_live": "CNBC · 11월 4일 장 마감 라이브",
+      "cnn_mid": "CNN · 중간선거 후 시장",
+      "abc_dow": "ABC News · 민주당 의회 장악",
+      "pbs_ap": "AP(PBS) · 다우 급등·브렌트 95달러 하회",
+      "cnbc_election": "CNBC · 선거 영향 종목 총정리",
+      "cnbc_midday": "CNBC · 장중 주요 종목",
+      "inv_vst": "Investing.com · 비스트라 13.5% 급락·KeyBanc 하향",
+      "st_dc": "StockTitan · AI 데이터센터주 하락 배경",
+      "fool_mu": "Motley Fool · 마이크론 하락 이유",
+      "mu_247": "24/7 Wall St. · 메모리주 약세",
+      "mu_cxmt": "Timothy Sykes · CXMT DRAM 우려",
+      "amd_ir": "AMD · 3분기 실적 발표",
+      "amd_yf": "Yahoo Finance · AMD 실적 후 반응",
+      "amd_247": "24/7 Wall St. · AMD 오전 보합·인텔 하락",
+      "jkn_amd": "JKN · AMD 3.06% 상승 마감",
+      "jkn_lmt": "JKN · 록히드마틴 5.45% 하락 마감",
+      "cnbc_def": "CNBC · 방산주 하락",
+      "rt_health": "Reuters(Investing.com) · 보험·병원주 급등",
+      "st_live": "StockTitan · 11월 4일 장 라이브",
+      "ust_cnbc": "CNBC · 10년물 금리 하락",
+      "bls_cal": "SimianX · 미국 고용보고서 발표 일정",
+      "kr_close": "머니투데이방송 · 11/4 코스피 마감",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-05T06:20:43+09:00",
+      "input_cutoff": "2026-11-05T06:20:43+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/5와 5거래일 뒤 11/11 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-04T16:15:00-05:00",
+      "kst": "2026-11-05T06:15:00+09:00",
+      "utc": "2026-11-04T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-04T16:15:47-05:00",
+      "kst": "2026-11-05T06:15:47+09:00",
+      "utc": "2026-11-04T21:15:47Z"
+    },
+    "start_offset_seconds": 47,
+    "delay_seconds": 47,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, GitHub MCP, WebSearch. WebFetch 원문 열람은 네트워크 정책(DNS 차단)으로 실패, artifact 다운로드 호스트는 프록시 403. 카카오 PlayMCP 도구는 ToolSearch에 노출되지 않음.",
+    "model_setting": "not_verified",
+    "request_commit": "85f1ae735ffede9e930ca50e11b5edee4a9bf092",
+    "analysis_run_id": 41914594466,
+    "analysis_status": "in_progress (작성 시점 미완료, artifact 다운로드 호스트 403·gh 인증 실패로 분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-04.json"
+  }
+}

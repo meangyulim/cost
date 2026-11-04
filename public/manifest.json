@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-04",
+  "latest_id": "us-close-2026-11-04",
   "reports": [
+    {
+      "id": "us-close-2026-11-04",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-04",
+      "title": "11월 4일 미국장 마감 브리핑",
+      "summary": "민주당 의회 장악에 다우 +3.03% 급등, 데이터센터·메모리주는 급락",
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "path": "reports/us-close-2026-11-04/"
+    },
     {
       "id": "kr-close-2026-11-04",
       "is_test": false,
