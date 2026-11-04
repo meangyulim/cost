@@ -1,0 +1,30 @@
+{
+  "report_id": "us-close-2026-11-04",
+  "status": "failed",
+  "failure_reason": "tool_unavailable_auth_required",
+  "failure_detail": "카카오 PlayMCP 커넥터('카카오 mcp')가 needs_reconnect(connected=false) 상태이며 이 실행에서 '나에게 보내기' 도구가 ToolSearch에 노출되지 않아 전송하지 않음",
+  "recorded_at_kst": "2026-11-05T06:25:07+09:00",
+  "recorded_at_utc": "2026-11-04T21:25:07Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-04/",
+  "deployed_commit": "498a1880cd12278728286c57ee7c3c6f21c4530f",
+  "deployment": {
+    "workflow_run_id": 41915755548,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "completed_at": "2026-11-04T21:24:38Z"
+  },
+  "prior_failed_deployment": {
+    "commit": "59ff069e07e8bdc59a48d96940001cd2fce96e83",
+    "workflow_run_id": 41915625602,
+    "conclusion": "failure",
+    "reason": "이미지 레이아웃 테스트 실패(세션 문구 '출처·' 결합) 후 문구 수정 커밋으로 재배포"
+  },
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "kakao_result": "not_sent",
+  "retry_count": 0
+}
