@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-04",
+  "latest_id": "kr-pre-2026-11-05",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-05",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-05",
+      "title": "11월 5일 한국장 시작 전",
+      "summary": "다우 3%↑에도 미 반도체지수 −3.13%·마이크론 −7%, 메모리 약세 출발 위험 vs 유가 급락",
+      "as_of": "2026-11-05T08:45:00+09:00",
+      "path": "reports/kr-pre-2026-11-05/"
+    },
     {
       "id": "us-close-2026-11-04",
       "is_test": false,

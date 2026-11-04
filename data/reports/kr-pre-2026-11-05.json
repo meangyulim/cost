@@ -1,0 +1,1111 @@
+{
+  "id": "kr-pre-2026-11-05",
+  "title": "11월 5일 한국장 시작 전",
+  "market": "KR",
+  "venue": "국내 지수·관찰 종목 기본 가격은 2026.11.04 15:30 KST KRX 정규장 종가(NXT·시간외 제외). 미국 지수·종목은 2026.11.05 06:00 KST(11.04 16:00 EST) 정규장 잠정 종가 보도값.",
+  "session": "pre",
+  "market_date": "2026-11-05",
+  "as_of": "2026-11-05T08:45:00+09:00",
+  "queried_at": "2026-11-05T08:45:00+09:00",
+  "is_test": false,
+  "summary": "다우 3%↑에도 미 반도체지수 −3.13%·마이크론 −7%, 메모리 약세 출발 위험 vs 유가 급락",
+  "summary_detail": "11월4일(미 현지) 민주당의 상·하원 확보로 정치 불확실성이 줄며 다우는 53,356.12(+3.03%)로 급등했고 국제유가는 WTI 88.12달러(−8.29%)로 급락했다. 반면 텍사스 데이터센터 유예 공약 등 규제 우려로 필라델피아 반도체지수는 10,268.65(−3.13%)로 6개월여 만의 최저였고 마이크론 −7.00%, SK하이닉스 ADR −5.12%가 보도됐다. 전일 코스피는 5,683.80(+0.62%)로 마감했지만 외국인이 2조5,071억원 순매도해 4거래일 연속 매도였다. 오늘은 메모리 대형주의 갭 방향과 외국인 매도 지속 여부, 한진칼·SK 공시 반응을 확인한다.",
+  "interpretation": "확인된 사실과 조건부 해석을 구분한다. 미국 지수 급등은 위험 선호 회복이지만 국내 시가총액 상위인 메모리 반도체에는 미 반도체 급락이 더 직접적인 재료다. 전일 코스피는 장중 5,421.72까지 밀린 뒤 회복해 선거 우려를 일부 반영했으므로, 시초가 약세 뒤 장중 되돌림 가능성과 외국인 매도 지속 위험이 함께 있다. 유가 급락은 물가·금리 부담을 낮추지만 정유주에는 부담이다. 야간선물·원·달러 야간 종가는 확인하지 못했다. 상승 확률·목표 수익률은 산출하지 않았다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,683.80",
+      "unit": "pt",
+      "delta": "+35.01",
+      "percent": "+0.62",
+      "direction": "up",
+      "source": "close-mtn",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "714.95",
+      "unit": "pt",
+      "delta": "+10.56",
+      "percent": "+1.50",
+      "direction": "up",
+      "source": "kosdaq-sed",
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가"
+    },
+    {
+      "name": "다우",
+      "value": "53,356.12",
+      "unit": "pt",
+      "delta": "+1,569.40",
+      "percent": "+3.03",
+      "direction": "up",
+      "source": "us-cnbc",
+      "additional_sources": [
+        "us-mtn",
+        "us-cnn"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026.11.04 미국 정규장 종가(16:00 EST) · 잠정"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,688.62",
+      "unit": "pt",
+      "delta": "+119.70",
+      "percent": "+1.58",
+      "direction": "up",
+      "source": "us-cnbc",
+      "additional_sources": [
+        "us-mtn"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026.11.04 미국 정규장 종가(16:00 EST) · 잠정 · 포인트는 11/3 잠정 종가 7,568.92 기준 계산"
+    },
+    {
+      "name": "나스닥",
+      "value": "25,736.51",
+      "unit": "pt",
+      "delta": "+364.50",
+      "percent": "+1.44",
+      "direction": "up",
+      "source": "us-cnbc",
+      "additional_sources": [
+        "us-mtn"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026.11.04 미국 정규장 종가(16:00 EST) · 잠정 · 포인트는 11/3 잠정 종가 25,372.01 기준 계산"
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "10,268.65",
+      "unit": "pt",
+      "delta": "−331.74",
+      "percent": "−3.13",
+      "direction": "down",
+      "source": "sox-seoul",
+      "additional_sources": [
+        "semis-slist",
+        "sox-news1"
+      ],
+      "as_of": "2026-11-05T06:00:00+09:00",
+      "session": "2026.11.04 미국 정규장 종가(16:00 EST) · 보도값"
+    }
+  ],
+  "issues": [
+    {
+      "title": "미 반도체지수 −3.13%, 마이크론 −7%",
+      "fact": "11월4일(미 현지) 필라델피아 반도체지수는 10,268.65(−331.74, −3.13%)로 6개월여 만의 최저로 마감했다. 마이크론은 795.23달러(−7.00%), 엔비디아는 약 3.1~3.2% 하락(매체별 차이), SK하이닉스 ADR은 5.12% 하락이 보도됐다. 같은 날 다우는 53,356.12(+3.03%), S&P500 7,688.62(+1.58%), 나스닥 25,736.51(+1.44%)로 지수는 급등했고 마이크로소프트·아마존 등 하이퍼스케일러는 강세였다. 모두 잠정 종가 보도값이다.",
+      "source": "sox-seoul",
+      "additional_sources": [
+        "semis-slist",
+        "mu-pin",
+        "sox-news1",
+        "us-cnbc",
+        "us-mtn"
+      ]
+    },
+    {
+      "title": "데이터센터 규제 우려, AI 전력·인프라주 급락",
+      "fact": "텍사스 주지사 당선인 지나 이노호사가 신규 데이터센터 유예를 공약했고, Wells Fargo 기준 미국 계획 데이터센터 용량의 약 27%가 텍사스에 있다. 비스트라는 KeyBanc 투자의견 하향과 함께 장중 약 13.5% 급락했고 AI 인프라 관련 종목이 약했다. 공약의 실제 시행 일정·범위는 확인되지 않았다.",
+      "source": "vst-inv",
+      "additional_sources": [
+        "st-dc",
+        "dc-yahoo",
+        "sox-news1"
+      ]
+    },
+    {
+      "title": "전일 코스피 +0.62%, 외국인 2.5조 매도",
+      "fact": "11월4일 코스피는 5,786.13에 출발해 5,828.13까지 올랐다가 중간선거 경계감에 5,421.72까지 밀린 뒤 5,683.80(+35.01, +0.62%)으로 마감했다(고저차 406.41포인트). 외국인은 2조5,071억원 순매도(MTN, 이투데이는 약 2조7,339억원)로 10월30일 이후 4거래일 연속 순매도였고 기관·개인이 받아냈다. 삼성전자 218,000원(−0.68%), SK하이닉스 1,396,000원(−0.14%)으로 시초 상승분을 반납했다.",
+      "source": "close-mtn",
+      "additional_sources": [
+        "close-etoday",
+        "kosdaq-sed"
+      ]
+    },
+    {
+      "title": "국제유가 8%대 급락, 금리 하락",
+      "fact": "11월4일 WTI 12월물은 88.12달러(−7.97, −8.29%), 브렌트 1월물은 94.62달러(−8.98, −8.67%)로 정산됐다는 보도다. 민주당 의회 장악에 따른 이란 전쟁 조기 종식 기대가 배경으로 거론됐다. 미국 10년물 금리는 4.898%(장중 보도값, 확정 종가 아님)였다.",
+      "source": "oil-etoday",
+      "additional_sources": [
+        "oil-newdaily",
+        "ust-cnbc"
+      ]
+    },
+    {
+      "title": "한진칼 최대주주 호반으로 변경",
+      "fact": "한진칼은 11월4일 최대주주가 '조원태 외 18인'(20.58%)에서 '호반건설 외 3인'(20.69%)으로 변경됐다고 공시했다. 호반 측 목적은 단순투자다. 조 회장 측의 32만5천주 매입 계약(12월3일~2027년1월1일 시간외대량매매)이 이행되면 약 21.07%로 재역전 가능성이 보도됐다. 주가는 11월4일 184,300원(+5.19%), 장중 202,000원이었다.",
+      "source": "hanjin-hk",
+      "additional_sources": [
+        "hanjin-news1",
+        "disc-genews"
+      ]
+    },
+    {
+      "title": "SK㈜, SK에코플랜트 1.4조 장외매수 등 공시",
+      "fact": "SK㈜는 SK에코플랜트 보통주 1,643만4,638주를 주당 88,000원, 최대 1조4,462억원에 장외매수해 완전자회사로 편입하기로 했다. 매수 기간은 11월5~24일이다. 고려아연은 자사주 24만6,665주(2,143억원 규모) 소각, 핸즈코퍼레이션은 현대차와의 4,881억9,153만원 휠 공급계약 해지를 공시했다. SK㈜의 공시 후 주가 반응은 미확인이다.",
+      "source": "sk-eco",
+      "additional_sources": [
+        "sk-bloter",
+        "disc-genews",
+        "disc-seoulfn",
+        "kz-dt"
+      ]
+    },
+    {
+      "title": "오늘 3분기 실적 발표: 넷마블·GS·한온시스템",
+      "fact": "넷마블은 11월5일 3분기 실적을 발표하고 16:00 KST 컨퍼런스콜을 연다. GS·한온시스템·KPF도 11월5일 잠정실적 공시를 예고했으나 공시 시각과 컨센서스는 확인하지 못했다.",
+      "source": "netmarble",
+      "additional_sources": [
+        "gs-ir",
+        "hanon"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,396,000",
+      "currency": "KRW",
+      "delta": "−2,000",
+      "percent": "−0.14",
+      "direction": "down",
+      "source": "close-mtn",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가 · NXT·시간외 제외",
+      "reason": "밤사이 미 반도체지수 −3.13%, 마이크론 −7.00%, 자사 ADR −5.12%가 보도돼 메모리 대형주 중 가장 직접적인 약세 재료를 받는다.",
+      "watch": "시초가 하락 폭과 1,396,000원 회복 여부, 외국인 5거래일 연속 순매도 여부를 본다.",
+      "reason_sources": [
+        "sox-seoul",
+        "mu-pin"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "218,000",
+      "currency": "KRW",
+      "delta": "−1,500",
+      "percent": "−0.68",
+      "direction": "down",
+      "source": "close-mtn",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가 · NXT·시간외 제외",
+      "reason": "전일 시초 3%대 상승을 지키지 못했고 밤사이 미 메모리주 급락이 더해졌다.",
+      "watch": "218,000원 회복 여부와 외국인 매도 강도, 하이퍼스케일러 강세가 반영되는지 본다.",
+      "reason_sources": [
+        "close-mtn",
+        "semis-slist"
+      ]
+    },
+    {
+      "name": "한진칼",
+      "ticker": "180640",
+      "price": "184,300",
+      "currency": "KRW",
+      "delta": "+9,100",
+      "percent": "+5.19",
+      "direction": "up",
+      "source": "hanjin-hk",
+      "additional_sources": [
+        "hanjin-news1"
+      ],
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가(보도값) · NXT·시간외 제외",
+      "reason": "상한가 다음 날 5.19% 더 올랐고 장 마감 후 최대주주가 호반 측으로 바뀌었다고 공시했다.",
+      "watch": "공시 후 시초가 갭과 장중 202,000원(전일 고가) 돌파 또는 되돌림, 추가 지분 공시를 본다.",
+      "reason_sources": [
+        "hanjin-hk",
+        "hanjin-news1"
+      ]
+    },
+    {
+      "name": "SK㈜",
+      "ticker": "034730",
+      "price": "미확인",
+      "currency": "KRW",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "11월4일 KRX 종가를 이번 실행의 검색 결과에서 확인하지 못했다(원문 직접 열람 차단).",
+      "source": "sk-eco",
+      "additional_sources": [
+        "sk-bloter"
+      ],
+      "as_of": "2026-11-04T15:30:00+09:00",
+      "session": "KRX 2026.11.04 정규장 종가 미확인",
+      "reason": "SK에코플랜트 잔여 25%를 최대 1조4,462억원에 사들여 완전자회사로 만드는 공시를 냈다.",
+      "watch": "자금 부담과 중복상장 해소 평가 중 어느 쪽으로 반응하는지 시초가와 종가를 본다.",
+      "reason_sources": [
+        "sk-eco",
+        "sk-bloter"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(서울외환시장 주간거래)",
+    "value": "1,341.50",
+    "unit": "원/USD",
+    "delta": "+0.50",
+    "direction": "up",
+    "source": "fx",
+    "as_of": "2026-11-04T15:30:00+09:00",
+    "session": "2026.11.04 15:30 KST 주간거래 · 전 거래일 1,341.0원 대비 · 야간거래 종가 미확인"
+  },
+  "next_checks": [
+    {
+      "label": "2026.11.05 09:00 KST",
+      "title": "개장: 메모리 갭과 5,683.80",
+      "detail": "미 반도체 급락이 SK하이닉스·삼성전자 시초가에, 다우 급등·유가 하락이 다른 업종에 어떻게 반영되는지 본다."
+    },
+    {
+      "label": "2026.11.05 15:30 KST",
+      "title": "KRX 종가·외국인 수급",
+      "detail": "코스피가 5,683.80 위에서 마감하는지, 외국인이 5거래일 연속 순매도하는지 확인한다."
+    },
+    {
+      "label": "2026.11.05 16:00 KST · 확인 순서",
+      "title": "넷마블 컨콜·GS·한온시스템 실적",
+      "detail": "넷마블 16:00 컨퍼런스콜. GS·한온시스템 잠정실적은 공시 시각 미확인이라 공시 확인 후 반영한다."
+    },
+    {
+      "label": "2026.11.05 23:30 KST",
+      "title": "미 반도체·데이터센터주 반발 여부",
+      "detail": "11월5일(미 현지, EST) 정규장에서 마이크론·비스트라가 추가 하락하는지 반발하는지 본다."
+    },
+    {
+      "label": "2026.11.06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "11월6일 08:30 EST 발표 예정(제3자 일정표). 금리·달러 반응이 외국인 수급에 주는 영향을 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "market_date": "2026-11-05",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-05T08:45:00+09:00",
+    "note": "KRX 공식 휴장일 페이지의 월~금 거래·공휴일 휴장 원칙을 기준으로 했다. 11월5일은 목요일이며 2026년 11월에는 법정 공휴일이 없고 보조 휴장일 목록에서도 10월9일 다음 KRX 휴장은 12월25일이다. 개장 시각을 1시간 늦추는 수능일은 11월19일이다. 직전 거래일 11월4일 정상 거래·마감이 보도됐고 별도 휴장·조기폐장 공지가 확인되지 않아 09:00~15:30 정상 거래일로 판단했다. 이번 실행에서 KRX 원문 직접 열람은 네트워크 정책으로 차단돼 원칙·보조 목록으로 확인했다. d5는 11월5·6·9·10·11일이다.",
+    "additional_urls": [
+      "https://www.calendarlabs.com/krx-market-holidays-2026/",
+      "https://dhnews.co.kr/news/view/1065570979216060"
+    ]
+  },
+  "calculation_notes": "국내 지수·종목은 11월4일 KRX 정규장 종가이며 NXT·시간외를 제외했다. S&P500 +119.70은 7,688.62−7,568.92, 나스닥 +364.50은 25,736.51−25,372.01(11월3일 잠정 종가, 직전 회차 값). 반도체지수 전일 종가 10,268.65+331.74=10,600.39, 331.74/10,600.39=3.130%. 한진칼 184,300−175,200(11월3일 종가)=9,100, 9,100/175,200=+5.194%. 외국인 순매도 MTN 2조5,071억 vs 이투데이 약 2조7,339억 차이 2,268억원. WTI 88.12+7.97=96.09(전일 정산), 브렌트 94.62+8.98=103.60. 코스피200 야간선물·MSCI 한국 ETF·원·달러 야간 종가, SK㈜ 11월4일 종가, 비스트라·엔비디아 확정 종가, KRX 일별 분석 수치, 분봉·옵션·소셜 감성, 검증된 상승 확률은 미확인/미산출이다.",
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 휴장일 안내",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "KRX 공식 휴장일 페이지. 월~금 거래·공휴일 휴장 원칙. 이번 실행에서 원문 직접 열람(WebFetch)은 네트워크 정책으로 차단됐다.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "krx-holidays",
+      "label": "CalendarLabs · KRX 2026 휴장일",
+      "url": "https://www.calendarlabs.com/krx-market-holidays-2026/",
+      "note": "보조 목록. 10월9일 다음 KRX 휴장은 12월25일.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "csat",
+      "label": "동해뉴스 · 2027학년도 수능 11월19일",
+      "url": "https://dhnews.co.kr/news/view/1065570979216060",
+      "note": "수능일(개장 1시간 지연 관례)은 11월19일로 오늘과 무관.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "close-mtn",
+      "label": "MTN · 11월4일 마감시황",
+      "url": "https://news.mtn.co.kr/article/2026110415413677797",
+      "note": "코스피 5,683.80(+35.01, +0.62%), 외국인 2조5,071억원 순매도, 삼성전자 218,000원(−0.68%), SK하이닉스 1,396,000원(−0.14%). 직전 kr-close-2026-11-04 회차에서 확인한 원문.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "close-etoday",
+      "label": "이투데이 · 장중 400포인트 출렁인 코스피",
+      "url": "https://www.etoday.co.kr/news/view/2644128",
+      "note": "장중 고저차 406.41포인트, 외국인 약 2조7,339억원 순매도 보도.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "kosdaq-sed",
+      "label": "서울경제 · 코스닥 714.95 마감",
+      "url": "https://m.sedaily.com/article/20110197",
+      "note": "코스닥 714.95(+10.56, +1.50%).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "fx",
+      "label": "아시아경제 · 원·달러 1341.5원(15:30)",
+      "url": "https://view.asiae.co.kr/article/2026110415321692631",
+      "note": "11월4일 15:30 주간거래 1,341.5원(+0.5원).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "us-mtn",
+      "label": "MTN · 민주당 압승에 다우 3.03%↑[뉴욕마감]",
+      "url": "https://news.mtn.co.kr/article/2026110506302778196",
+      "note": "11월4일(미 현지) 뉴욕 마감 보도. 이번 실행에서 원문 직접 열람은 차단돼 검색 요약으로 확인.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "us-cnbc",
+      "label": "CNBC · 11월 4일 장 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "note": "다우 53,356.12(+1,569.40, +3.03%), S&P500 7,688.62(+1.58%), 나스닥 25,736.51(+1.44%) 잠정 종가. 직전 us-close-2026-11-04 회차에서 확인.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "us-cnn",
+      "label": "CNN · 중간선거 후 시장",
+      "url": "https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections",
+      "note": "민주당 의회 장악 후 다우 급등.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "sox-seoul",
+      "label": "서울신문 · 서울데이터랩 뉴욕증시 마감",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004",
+      "note": "필라델피아 반도체지수 10,268.65(−331.74, −3.13%), 마이크론 −7.00%, SK하이닉스 ADR −5.12% 보도(검색 요약 기준).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "sox-news1",
+      "label": "뉴스1 · 필라델피아 반도체 3% 급락",
+      "url": "https://www.news1.kr/world/usa-canada/6343525",
+      "note": "텍사스 데이터센터 신규 건설 중단 우려로 반도체지수 3%대 하락.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "semis-slist",
+      "label": "싱글리스트 · 엔비디아·마이크론 약세, 반도체지수 3%대 급락",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=779055",
+      "note": "반도체지수 3.1% 하락, 6개월여 만의 최저. 엔비디아 약 −3.1~3.2%(매체별 차이).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "mu-pin",
+      "label": "핀포인트뉴스 · 엔비디아·마이크론·SK하이닉스 '와르르'",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501382",
+      "note": "마이크론 795.23달러(−7.00%) 마감 보도, 마이크로소프트·애플 상승.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "preview-aju",
+      "label": "아주경제 · [마켓 프리뷰] 美증시 급등에도 코스피 변동성",
+      "url": "https://www.ajunews.com/view/20261105080449698",
+      "note": "11월5일 장전 프리뷰. 반도체 수급과 외국인 매도 지속 가능성 주목.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "vst-inv",
+      "label": "Investing.com · 비스트라 13.5% 급락·KeyBanc 하향",
+      "url": "https://www.investing.com/news/stock-market-news/vistra-plunges-135-as-texas-election-rattles-ai-power-trade-keybanc-downgrades-5000811",
+      "note": "텍사스 주지사 당선인의 데이터센터 유예 공약, 비스트라 장중 −13.5%.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "dc-yahoo",
+      "label": "Yahoo Finance · AI 데이터센터주 하락, 재생에너지 반등",
+      "url": "https://finance.yahoo.com/energy/articles/ai-data-center-stocks-dip-113427491.html",
+      "note": "민주당 승리 후 데이터센터주 약세, 재생에너지 강세.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "st-dc",
+      "label": "StockTitan · AI 데이터센터주 하락 배경",
+      "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026",
+      "note": "Wells Fargo 기준 미국 계획 데이터센터 용량의 약 27%가 텍사스.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "oil-etoday",
+      "label": "이투데이 · 국제유가 급락, WTI 8.29%↓",
+      "url": "https://www.etoday.co.kr/news/view/2644280",
+      "note": "WTI 12월물 88.12달러(−7.97, −8.29%) 정산 보도.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "oil-newdaily",
+      "label": "뉴데일리 · 이란전 종식 기대에 WTI 8.3%↓",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/11/05/2026110500008.html",
+      "note": "브렌트 1월물 94.62달러(−8.98, −8.67%) 보도(검색 요약 기준).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "ust-cnbc",
+      "label": "CNBC · 10년물 금리 하락",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "note": "10년물 4.898% 장중 보도값(직전 us-close 회차), 확정 종가 아님.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "hanjin-hk",
+      "label": "한국경제 · 호반건설, 한진칼 최대주주로",
+      "url": "https://www.hankyung.com/article/2026110465841",
+      "note": "한진칼 11월4일 184,300원(+9,100, +5.19%) 마감, 장중 202,000원. 호반 측 20.69% vs 조원태 측 20.58%.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "hanjin-news1",
+      "label": "뉴스1 · 호반, 한진칼 최대주주 됐지만 재역전 전망",
+      "url": "https://www.news1.kr/industry/general-industry/6343404",
+      "note": "조 회장 측 32만5천주 매입 계약(12월3일~2027년1월1일 시간외대량매매) 시 약 21.07%.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "sk-eco",
+      "label": "뉴스핌 · SK㈜, SK에코플랜트 완전자회사화 추진",
+      "url": "https://www.newspim.com/news/view/20261104001311",
+      "note": "1,643만4,638주 주당 88,000원, 최대 1조4,462억원 장외매수.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "sk-bloter",
+      "label": "블로터 · SK㈜, SK에코플랜트 IPO 대신 완전 자회사",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=677763",
+      "note": "장외매수 기간 11월5~24일, K-OTC 1개월 가중평균 대비 약 53% 할증.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "disc-genews",
+      "label": "글로벌이코노믹 · 개장 전 주요 공시",
+      "url": "https://www.g-enews.com/article/Securities/2026/11/202611050758286969923c501012_1",
+      "note": "SK·한진칼·다우기술·핸즈코퍼레이션·피노·고려아연 공시.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "disc-seoulfn",
+      "label": "서울파이낸스 · 11월 5일 개장 전 주요 공시",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=641936",
+      "note": "핸즈코퍼레이션 현대차 휠 공급계약 4,881억9,153만원 해지 등.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "kz-dt",
+      "label": "디지털투데이 · 고려아연 2,143억원 자기주식 소각",
+      "url": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=712685",
+      "note": "자사주 24만6,665주 소각 결정(2027년1월13일 예정).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "netmarble",
+      "label": "비건뉴스 · 넷마블, 5일 3분기 실적 발표",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=399077",
+      "note": "11월5일 16:00 KST 컨퍼런스콜.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "gs-ir",
+      "label": "비건뉴스 · GS, 11월 5일 3분기 잠정실적 공시",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=397921",
+      "note": "공시 시각 미확인.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "hanon",
+      "label": "파이낸스투데이 · 한온시스템 3분기 잠정실적 11월 5일",
+      "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=395449",
+      "note": "공시 시각 미확인.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "jobs-cal",
+      "label": "SimianX · 미국 고용보고서 발표 일정",
+      "url": "https://www.simianx.ai/stories/us-jobs-report-nonfarm-payrolls-latest-data-and-release-schedule",
+      "note": "11월6일 08:30 EST(22:30 KST) 발표 예정(제3자 일정표, 직전 회차 확인).",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "GitHub Actions · KRX 일별 분석 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/41935458270",
+      "note": "요청 커밋 acbf694 성공 실행. artifact 내용은 인증 제한으로 열람하지 못해 수치를 쓰지 않음.",
+      "queried_at": "2026-11-05T08:45:00+09:00"
+    }
+  ],
+  "execution": {
+    "scheduled_start_kst": "2026-11-05T08:30:00+09:00",
+    "scheduled_start_utc": "2026-11-04T23:30:00Z",
+    "actual_start_kst": "2026-11-05T08:39:13+09:00",
+    "actual_start_utc": "2026-11-04T23:39:13Z",
+    "start_offset_seconds": 553,
+    "delay_seconds": 553,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행 · Bash/Git, 공개 GitHub REST API, WebSearch. WebFetch 원문 직접 열람은 네트워크 정책(DNS 차단)으로 실패, gh CLI 인증 실패로 Actions artifact 미열람. ToolSearch(kakao, KakaotalkChat MemoChat)에서 Kakao PlayMCP 나에게 보내기 도구가 노출되지 않았다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "acbf694399747147f87f22d5d6af97f699e7172f",
+      "run_id": 41935458270,
+      "status": "success",
+      "artifact": "krx-analysis-41935458270",
+      "artifact_id": 13374465691,
+      "artifact_digest": "sha256:63fe3c366f413ffdb4e939ad092dc760d064aa060f8c40dca312674b0e30363e",
+      "requested_end_date": "2026-11-04",
+      "data_date": "미확인(artifact 내용 미열람)",
+      "usage": "artifact 내용 미확인 · 시장 폭·추세 수치를 보고서에 쓰지 않음"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "reading": {
+    "headline": "미 반도체 급락, 메모리 약세 출발 위험",
+    "summary_points": [
+      "다우 3%↑에도 미 반도체지수 −3.13%였다.",
+      "마이크론 −7%, SK하이닉스 ADR −5%가 부담이다.",
+      "외국인 4일 연속 매도, 오늘 수급이 관건이다."
+    ],
+    "notices": [
+      "국내 가격은 11월4일 KRX 종가(NXT·시간외 제외)다.",
+      "미국 값은 잠정 종가 보도값, 엔비디아 하락률은 매체별 차이가 있다.",
+      "야간선물·야간 환율·SK㈜ 종가는 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "미 반도체 급락",
+        "preview": "반도체지수 −3.13%, 마이크론 −7%",
+        "points": [
+          "지수 급등 속 반도체지수만 6개월여 만의 최저였다.",
+          "SK하이닉스 ADR −5.12%가 보도됐다."
+        ],
+        "meaning": "국내 메모리 대형주에 직접적인 약세 재료다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "국내 메모리 반도체(SK하이닉스·삼성전자)",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 미 반도체지수 −3.13%, 마이크론 −7.00%, SK하이닉스 ADR −5.12%가 처음 반영된다.",
+            "counter": "다우·S&P 급등과 하이퍼스케일러 강세는 위험 선호 요인이고, 전일 장중 저점 5,421.72에서 이미 선거 우려를 일부 반영했다. 시초가 하락 뒤 장중 되돌림이 나올 수 있다.",
+            "invalidation": "SK하이닉스가 1,396,000원 위에서 마감하면 하방 해석을 철회한다.",
+            "sources": [
+              "sox-seoul",
+              "mu-pin",
+              "close-mtn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 메모리 반도체(SK하이닉스·삼성전자)",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 규제 우려와 이익 전망 사이에서 재평가가 이어진다.",
+            "counter": "데이터센터 규제의 실제 시행 범위가 불확실하고 낙폭이 커진 뒤 반발 매수가 가능하다.",
+            "invalidation": "미 반도체지수가 2거래일 연속 같은 방향이면 그 방향으로 갱신한다.",
+            "sources": [
+              "sox-news1",
+              "st-dc"
+            ]
+          }
+        }
+      },
+      {
+        "title": "데이터센터 규제 우려",
+        "preview": "텍사스 유예 공약, 비스트라 장중 −13.5%",
+        "points": [
+          "텍사스 주지사 당선인이 신규 데이터센터 유예를 공약했다.",
+          "AI 전력·인프라주가 급락했다."
+        ],
+        "meaning": "국내 AI 전력·인프라 관련주에도 심리 부담이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "국내 AI 전력기기·데이터센터 관련주",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 미국 AI 전력·인프라주 급락이 동조 매도로 이어질 수 있다.",
+            "counter": "국내 전력기기주는 이미 고점 대비 크게 내린 상태이고 공약의 실제 시행 일정은 미확인이다. 해당 종목 전일 종가도 이번 실행에서 확인하지 못했다.",
+            "invalidation": "관련 업종이 코스피보다 강하게 마감하면 부담 해석을 낮춘다.",
+            "sources": [
+              "vst-inv",
+              "st-dc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 AI 전력기기·데이터센터 관련주",
+            "basis": "텍사스 정책 구체화 여부가 확인되지 않았다.",
+            "counter": "정책 미확정.",
+            "invalidation": "텍사스 주정부·의회 일정 보도 후 판단한다.",
+            "sources": [
+              "st-dc",
+              "dc-yahoo"
+            ]
+          }
+        }
+      },
+      {
+        "title": "전일 외국인 2.5조 매도",
+        "preview": "코스피 +0.62%, 장중 406p 출렁",
+        "points": [
+          "외국인 2조5,071억원 순매도로 4일 연속 매도였다.",
+          "기관·개인이 받아내 소폭 상승 마감했다."
+        ],
+        "meaning": "반도체 약세가 겹치면 외국인 매도가 이어질 수 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 미 반도체 급락은 하방, 미 지수 급등·유가 급락은 상방 재료로 상충한다.",
+            "counter": "외국인 매도가 5거래일째 이어지면 장중 하방 위험이 커지고, 반대로 매도 축소 시 시초가 약세가 회복될 수 있다.",
+            "invalidation": "외국인 순매수 전환 시 상방, 코스피 5,421.72 하회 시 하방으로 본다.",
+            "sources": [
+              "close-mtn",
+              "close-etoday",
+              "sox-seoul"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 미 고용보고서와 반도체 재평가가 이어진다.",
+            "counter": "수급 방향이 확정되지 않았다.",
+            "invalidation": "외국인 2거래일 연속 순매수 시 상방으로 갱신한다.",
+            "sources": [
+              "close-mtn",
+              "jobs-cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "유가 8%대 급락",
+        "preview": "WTI 88.12달러(−8.29%)",
+        "points": [
+          "이란 전쟁 조기 종식 기대에 유가가 두 달 만의 최저로 내렸다.",
+          "미 10년물 금리도 4.9% 부근으로 내렸다(장중)."
+        ],
+        "meaning": "물가·금리 부담은 줄지만 정유주에는 부담이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "정유·항공·화학",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 유가 급락은 정유 마진엔 부담, 항공·화학 원가엔 완화 요인이다.",
+            "counter": "업종별 재고·헤지 효과가 미확인이고 정유주는 11월3일 이미 크게 내렸다.",
+            "invalidation": "브렌트가 100달러 위로 반등하면 재판단한다.",
+            "sources": [
+              "oil-etoday",
+              "oil-newdaily"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "정유·항공·화학",
+            "basis": "이란 협상 결과가 미정이다.",
+            "counter": "유가 방향 불확실.",
+            "invalidation": "협상 결과 보도로 재판단한다.",
+            "sources": [
+              "oil-newdaily"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한진칼 최대주주 변경",
+        "preview": "호반 20.69% vs 조원태 20.58%",
+        "points": [
+          "장내매수로 호반 측이 최대주주가 됐다.",
+          "조 회장 측 매입 계약 이행 시 재역전 가능성이 있다."
+        ],
+        "meaning": "지분 경쟁 기대와 분쟁 희박 평가가 엇갈린다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한진칼",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 최대주주 변경 공시가 처음 반영된다.",
+            "counter": "2거래일 35% 넘게 오른 뒤 차익 실현 위험이 크고, 호반 측은 단순투자 목적을 밝혀 분쟁 가능성이 낮다는 평가도 있다.",
+            "invalidation": "추가 지분 매입 공시가 나오면 상방으로 본다.",
+            "sources": [
+              "hanjin-hk",
+              "hanjin-news1"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한진칼",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 양측 추가 행동이 미정이다.",
+            "counter": "분쟁 전개 불확실.",
+            "invalidation": "지분 공시 확인 후 판단한다.",
+            "sources": [
+              "hanjin-news1"
+            ]
+          }
+        }
+      },
+      {
+        "title": "SK㈜·고려아연 등 공시",
+        "preview": "SK에코플랜트 1.4조 장외매수",
+        "points": [
+          "SK㈜는 에코플랜트 잔여 25%를 주당 88,000원에 산다.",
+          "고려아연 2,143억원 자사주 소각, 핸즈코퍼레이션 계약 해지."
+        ],
+        "meaning": "개별 공시 종목의 시초가 변동성이 크다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "SK㈜",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 자금 부담과 중복상장 해소 평가가 상충한다.",
+            "counter": "SK㈜ 전일 종가와 시장 기대가 미확인이다.",
+            "invalidation": "시초가 이후 종가 방향으로 재판단한다.",
+            "sources": [
+              "sk-eco",
+              "sk-bloter"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK㈜",
+            "basis": "매수 기간 11월5~24일 진행 중이다.",
+            "counter": "자료 부족.",
+            "invalidation": "매수 결과 공시 후 판단한다.",
+            "sources": [
+              "sk-bloter"
+            ]
+          }
+        }
+      },
+      {
+        "title": "오늘 실적 발표",
+        "preview": "넷마블 16:00 컨콜, GS·한온시스템",
+        "points": [
+          "넷마블은 16:00 KST 컨퍼런스콜을 연다.",
+          "GS·한온시스템은 공시 시각·컨센서스가 미확인이다."
+        ],
+        "meaning": "발표 전이라 판단을 보류한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "넷마블·GS·한온시스템",
+            "basis": "발표 전이며 컨센서스를 확인하지 못했다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 기대 대비 결과로 판단한다.",
+            "sources": [
+              "netmarble",
+              "gs-ir",
+              "hanon"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "넷마블·GS·한온시스템",
+            "basis": "발표 전이다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 판단한다.",
+            "sources": [
+              "netmarble"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "메모리 대형주의 시초가보다 15:30 종가 회복 여부를 본다.",
+      "외국인 매도 축소가 반등의 조건이다.",
+      "상승 확률·목표 수익률은 산출하지 않았다."
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "미 반도체 −3.13%, 자사 ADR −5.12%가 부담이다.",
+        "watch": "1,396,000원 회복과 외국인 매도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 마이크론 −7.00%와 SK하이닉스 ADR −5.12%가 반영된다.",
+            "counter": "전일 장중 이미 크게 흔들렸고 시초가 하락 뒤 저가 매수로 되돌림이 나올 수 있다.",
+            "invalidation": "종가가 1,396,000원 위면 하방 해석을 철회한다.",
+            "sources": [
+              "sox-seoul",
+              "mu-pin",
+              "close-mtn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 규제 우려와 실적 기대가 상충한다.",
+            "counter": "미 반도체 반발 가능성.",
+            "invalidation": "미 반도체지수 2거래일 연속 반등 시 상방으로 갱신한다.",
+            "sources": [
+              "sox-news1"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "시초 상승분 반납 뒤 미 메모리 급락이 더해졌다.",
+        "watch": "218,000원 회복과 외국인 수급을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "삼성전자",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 미 메모리주 급락이 반영된다.",
+            "counter": "하이퍼스케일러 강세와 지수 급등은 지지 요인이다.",
+            "invalidation": "종가가 218,000원 위면 하방 해석을 철회한다.",
+            "sources": [
+              "semis-slist",
+              "mu-pin",
+              "close-mtn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 외국인 매도와 반발 매수가 상충한다.",
+            "counter": "수급 전환 미확인.",
+            "invalidation": "외국인 2거래일 연속 순매수 시 상방으로 갱신한다.",
+            "sources": [
+              "close-mtn"
+            ]
+          }
+        }
+      },
+      "180640": {
+        "reason": "최대주주가 호반 측으로 바뀌었다는 공시가 나왔다.",
+        "watch": "시초가 갭과 202,000원 돌파·되돌림을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "한진칼",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다. 최대주주 변경 공시가 반영된다.",
+            "counter": "2거래일 급등 뒤 차익 실현 위험이 있다.",
+            "invalidation": "추가 매입 공시 시 상방으로 본다.",
+            "sources": [
+              "hanjin-hk",
+              "hanjin-news1"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "한진칼",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다. 양측 추가 행동이 미정이다.",
+            "counter": "분쟁 전개 불확실.",
+            "invalidation": "공시 확인 후 판단한다.",
+            "sources": [
+              "hanjin-news1"
+            ]
+          }
+        }
+      },
+      "034730": {
+        "reason": "에코플랜트 완전자회사화에 최대 1.4조원을 쓴다.",
+        "watch": "자금 부담 vs 중복상장 해소 평가를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "SK㈜",
+            "basis": "전일 종가·시장 기대가 미확인이다.",
+            "counter": "재료 해석이 상충한다.",
+            "invalidation": "시초가 이후 종가 방향으로 판단한다.",
+            "sources": [
+              "sk-eco",
+              "sk-bloter"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK㈜",
+            "basis": "매수 기간 진행 중이다.",
+            "counter": "자료 부족.",
+            "invalidation": "매수 결과 공시 후 판단한다.",
+            "sources": [
+              "sk-bloter"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "개장 메모리 갭",
+        "detail": "미 반도체 급락이 시초가에 얼마나 반영되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "국내 메모리 시초가",
+            "basis": "미 반도체지수 −3.13%, 마이크론 −7.00%가 처음 반영된다.",
+            "counter": "다우 급등과 전일 장중 선반영으로 낙폭이 제한될 수 있다.",
+            "invalidation": "시초가가 전일 종가 이상이면 하방 해석을 낮춘다.",
+            "sources": [
+              "sox-seoul",
+              "mu-pin"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월5~11일 반도체 재평가와 고용보고서가 이어진다.",
+            "counter": "결과 미확인.",
+            "invalidation": "미 반도체 방향으로 재판단한다.",
+            "sources": [
+              "sox-news1",
+              "jobs-cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "종가·외국인 수급",
+        "detail": "5,683.80 위 마감과 외국인 5일 연속 매도 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월5일 KRX 정규장 종가를 11월4일 종가와 비교한다.",
+            "counter": "수급과 재료가 엇갈린다.",
+            "invalidation": "외국인 순매수 전환 시 상방 검토.",
+            "sources": [
+              "close-mtn"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월5·6·9·10·11일 KRX 정규장 종가 흐름(11월11일 종가 대 11월4일 종가)으로 본다.",
+            "counter": "수급 방향 미확정.",
+            "invalidation": "2거래일 연속 같은 방향이면 갱신.",
+            "sources": [
+              "close-mtn"
+            ]
+          }
+        }
+      },
+      {
+        "title": "넷마블·GS·한온시스템 실적",
+        "detail": "발표 후 기대 대비 결과를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "넷마블·GS·한온시스템",
+            "basis": "발표 전이다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 판단한다.",
+            "sources": [
+              "netmarble",
+              "gs-ir",
+              "hanon"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "넷마블·GS·한온시스템",
+            "basis": "발표 전이다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 판단한다.",
+            "sources": [
+              "netmarble"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미 반도체·데이터센터주",
+        "detail": "11월5일 미 정규장에서 반발 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체(다음 거래일)",
+            "basis": "11월5일 미 정규장 전이다.",
+            "counter": "결과 미확인.",
+            "invalidation": "미 마감 후 판단한다.",
+            "sources": [
+              "sox-news1",
+              "vst-inv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 반도체(다음 거래일)",
+            "basis": "정책 구체화가 미정이다.",
+            "counter": "결과 미확인.",
+            "invalidation": "정책 보도 후 판단한다.",
+            "sources": [
+              "st-dc"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 고용보고서",
+        "detail": "금리·달러 경로가 외국인 수급에 주는 영향을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월6일 발표 전이다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 판단한다.",
+            "sources": [
+              "jobs-cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월6일 발표 전이다.",
+            "counter": "결과 미발표.",
+            "invalidation": "발표 후 판단한다.",
+            "sources": [
+              "jobs-cal"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "KRX · 휴장일 안내",
+      "krx-holidays": "CalendarLabs · KRX 2026 휴장일",
+      "csat": "동해뉴스 · 2027학년도 수능 11월19일",
+      "close-mtn": "MTN · 11월4일 마감시황",
+      "close-etoday": "이투데이 · 장중 400포인트 출렁인 코스피",
+      "kosdaq-sed": "서울경제 · 코스닥 714.95 마감",
+      "fx": "아시아경제 · 원·달러 1341.5원(15:30)",
+      "us-mtn": "MTN · 민주당 압승에 다우 3.03%↑[뉴욕마감]",
+      "us-cnbc": "CNBC · 11월 4일 장 마감 라이브",
+      "us-cnn": "CNN · 중간선거 후 시장",
+      "sox-seoul": "서울신문 · 서울데이터랩 뉴욕증시 마감",
+      "sox-news1": "뉴스1 · 필라델피아 반도체 3% 급락",
+      "semis-slist": "싱글리스트 · 엔비디아·마이크론 약세, 반도체지수 3%대 급락",
+      "mu-pin": "핀포인트뉴스 · 엔비디아·마이크론·SK하이닉스 '와르르'",
+      "preview-aju": "아주경제 · [마켓 프리뷰] 美증시 급등에도 코스피 변동성",
+      "vst-inv": "Investing.com · 비스트라 13.5% 급락·KeyBanc 하향",
+      "dc-yahoo": "Yahoo Finance · AI 데이터센터주 하락, 재생에너지 반등",
+      "st-dc": "StockTitan · AI 데이터센터주 하락 배경",
+      "oil-etoday": "이투데이 · 국제유가 급락, WTI 8.29%↓",
+      "oil-newdaily": "뉴데일리 · 이란전 종식 기대에 WTI 8.3%↓",
+      "ust-cnbc": "CNBC · 10년물 금리 하락",
+      "hanjin-hk": "한국경제 · 호반건설, 한진칼 최대주주로",
+      "hanjin-news1": "뉴스1 · 호반, 한진칼 최대주주 됐지만 재역전 전망",
+      "sk-eco": "뉴스핌 · SK㈜, SK에코플랜트 완전자회사화 추진",
+      "sk-bloter": "블로터 · SK㈜, SK에코플랜트 IPO 대신 완전 자회사",
+      "disc-genews": "글로벌이코노믹 · 개장 전 주요 공시",
+      "disc-seoulfn": "서울파이낸스 · 11월 5일 개장 전 주요 공시",
+      "kz-dt": "디지털투데이 · 고려아연 2,143억원 자기주식 소각",
+      "netmarble": "비건뉴스 · 넷마블, 5일 3분기 실적 발표",
+      "gs-ir": "비건뉴스 · GS, 11월 5일 3분기 잠정실적 공시",
+      "hanon": "파이낸스투데이 · 한온시스템 3분기 잠정실적 11월 5일",
+      "jobs-cal": "SimianX · 미국 고용보고서 발표 일정",
+      "krx-analysis": "GitHub Actions · KRX 일별 분석 요청"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-05T08:45:00+09:00",
+      "input_cutoff": "2026-11-05T08:45:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "조건부 해석이며 검증 전입니다. d1은 11월5일, d5는 11월5·6·9·10·11일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
