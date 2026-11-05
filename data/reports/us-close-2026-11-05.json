@@ -1,0 +1,943 @@
+{
+  "id": "us-close-2026-11-05",
+  "title": "11월 5일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-05 09:30~16:00 EST 정규장(2026-11-05 23:30~11-06 06:00 KST)",
+  "market_date": "2026-11-05",
+  "session": "close",
+  "as_of": "2026-11-06T06:00:00+09:00",
+  "queried_at": "2026-11-06T06:20:51+09:00",
+  "is_test": false,
+  "summary": "AI·반도체 투매에 나스닥 −5.52% 조정 진입, 선거 랠리 하루 만에 반납",
+  "summary_detail": "민주당 의회 장악 뒤 AI 규제·데이터센터 건설 제한 우려가 커지며 나스닥은 5.52% 내린 24,315.00으로 조정 국면에 들어섰고 S&P500(−4.36%)·다우(−1,833.06p)도 2025년 4월 이후 최악의 하루였다. 마이크론은 대만 공장 중단 보도까지 겹쳐 약 16% 급락했고 엔비디아는 8.94% 내렸다. 퀄컴·Arm은 실적 실망, 네오클라우드는 장중 약 15% 급락했다. 반면 앱러빈은 실적 호조로 급등했고 에너지는 강세였다.",
+  "interpretation": "이번 실행의 네트워크 정책으로 원문 페이지를 직접 열지 못해 지수·종가는 검색 결과에 요약된 CNBC·Investing.com 등의 값을 잠정으로 썼고 일부 종목 종가는 확인하지 못했다. 매도는 AI 인프라·반도체에 집중됐다. 한국장은 11/5에 이미 큰 폭으로 하락했지만 그 뒤 미국 반도체가 추가로 급락해 11/6 개장 갭 하락 압력이 있다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,353.73",
+      "unit": "pt",
+      "delta": "−334.89",
+      "percent": "−4.36",
+      "direction": "down",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "inv_close"
+      ],
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 11/4 잠정 종가 7,688.62 기준 계산 · Investing.com은 −4.29%",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "24,315.00",
+      "unit": "pt",
+      "delta": "−1,421.51",
+      "percent": "−5.52",
+      "direction": "down",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "inv_close"
+      ],
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화는 11/4 잠정 종가 25,736.51 기준 계산 · Investing.com은 −5.42%",
+      "provisional": true
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "51,523.06",
+      "unit": "pt",
+      "delta": "−1,833.06",
+      "percent": "−3.44",
+      "direction": "down",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "inv_close"
+      ],
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 미국 정규장 종가(16:00 EST) · 잠정 · 포인트 변화 원문 보도값(11/4 53,356.12와 일치) · Investing.com은 −3.45%",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "AI·반도체 투매, 나스닥 조정 진입",
+      "fact": "11/5 정규장 나스닥은 5.52% 내린 24,315.00으로 마감해 10월 기록 대비 10% 넘게 떨어진 조정 국면에 들어섰고 S&P500(−4.36%)·다우(−3.44%, −1,833.06p)도 2025년 4월 이후 최악의 하루였다(CNBC 잠정). 전날 선거 랠리 상승분을 모두 반납했다. 반도체 ETF(iShares)는 10.44% 넘게 하락해 2020년 3월 이후 최악이었고 엔비디아는 8.94% 내린 182.23USD로 다우 하락을 주도했다. 민주당 의회 장악 뒤 AI 규제 강화·데이터센터 건설 제한이 AI 인프라 투자를 늦출 수 있다는 우려가 원인으로 보도됐다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "inv_close",
+        "yf_live",
+        "bbg_chips",
+        "nbc_ap"
+      ]
+    },
+    {
+      "title": "마이크론 대만 공장 중단·메모리 급락",
+      "fact": "Bloomberg 보도에 따르면 마이크론은 노사 분쟁으로 30억~45억USD 규모 대만 Fab 11E 건설 중단을 통보했다(회사: 기존 대만 운영은 정상). 장전 −5.21%에서 반도체 투매가 겹쳐 15.9% 내린 669.03USD로 마감했다는 보도가 있으며 200일 평균선(755.33USD)을 2025년 5월 이후 처음 하회했다. 웨스턴디지털·시게이트도 약 15~16% 하락했다.",
+      "source": "mu_si",
+      "additional_sources": [
+        "bz_200d",
+        "mu_inv",
+        "inv_close"
+      ]
+    },
+    {
+      "title": "퀄컴·Arm 실적 실망",
+      "fact": "퀄컴은 11/4 장후 FY2026 4분기 매출 약 104억USD(컨센서스 101.4억USD)·EPS 2.17USD를 발표했으나 핸드셋 매출이 메모리 공급난으로 26% 줄었고 다음 분기 EPS 가이던스 중간값 2.25USD가 컨센서스 2.27USD를 밑돌았다. 11/5 09:46 ET 156.16USD(−9.83%)로 출발했다. Arm도 로열티 매출 6.7억USD(+8%)가 예상을 밑돌아 장중 약 12% 하락했다.",
+      "source": "qcom_elec",
+      "additional_sources": [
+        "qcom_8k",
+        "qcom_yf",
+        "arm_sed"
+      ]
+    },
+    {
+      "title": "네오클라우드·데이터센터주 연쇄 하락",
+      "fact": "코어위브·네비우스가 장중 약 15% 급락했고 델은 10.5% 내렸다. 하이퍼스케일러는 약 2~4% 하락에 그쳤다는 보도다. UBS는 2028년 미국 데이터센터 증설 예정 용량의 약 30%가 건설 중단 위험에 노출될 수 있다고 추정했다(보도 인용). 수치는 장중 보도값이다.",
+      "source": "crwv_bz",
+      "additional_sources": [
+        "spectrum_ap",
+        "cnbc_chips"
+      ]
+    },
+    {
+      "title": "앱러빈·에너지는 역행 강세",
+      "fact": "앱러빈은 3분기 매출 55% 증가(약 21.8억USD), EPS 4.30USD(예상 4.04USD), 4분기 매출 가이던스 23.7억~24억USD(컨센서스 22.5억USD)와 자사주 매입 승인 총 36억USD 확대로 11:15 ET 356.32USD(+31.12%)까지 올랐다. AP 기반 보도는 유가 상승 속 에너지 업종이 강세였고 S&P500 종목 약 5개 중 2개가 올랐다고 전했다(작성 시점 기준).",
+      "source": "app_gf",
+      "additional_sources": [
+        "app_ta",
+        "spectrum_ap",
+        "ebn_oil"
+      ]
+    },
+    {
+      "title": "한국장 11/5 선반영, 미국 추가 급락",
+      "fact": "한국장은 미국장보다 먼저 11/5 코스피 5,383.80(−5.28%), SK하이닉스 1,264,000원(−9.46%), 삼성전자 201,500원(−7.57%)으로 KRX 정규장을 마감했다. 그 뒤 미국 정규장에서 마이크론 −15.9%(보도), 반도체 ETF −10% 이상 추가 하락이 나왔다. 10년물 금리는 약 4.85%로 거의 두 달 만의 최저라는 보도다(시각 미확인).",
+      "source": "kr_close",
+      "additional_sources": [
+        "bz_200d",
+        "yf_live",
+        "ust_cnbc"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "182.23",
+      "currency": "USD",
+      "delta": "−17.90",
+      "percent": "−8.94",
+      "direction": "down",
+      "source": "inv_close",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 미국 정규장 종가(16:00 EST) · 잠정 · 단일 자동 생성 기사 · 변동액은 전일 잠정 종가 200.13USD 기준 계산",
+      "reason": "AI 데이터센터 투자 둔화 우려에 다우 최대 하락 종목이 됐다.",
+      "watch": "11/6 정규장에서 182.23USD 위 마감과 하이퍼스케일러 투자 발언을 본다.",
+      "reason_sources": [
+        "nbc_ap",
+        "forbes_chips",
+        "bz_200d"
+      ]
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "669.03",
+      "currency": "USD",
+      "delta": "−126.20",
+      "percent": "−15.87",
+      "direction": "down",
+      "source": "bz_200d",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 미국 정규장 종가(16:00 EST) · 잠정 · 단일 매체 보도(15.9%) · 변동액·등락률은 전일 잠정 종가 795.23USD 기준 계산",
+      "reason": "대만 Fab 11E 건설 중단 보도와 반도체 투매가 겹쳤다.",
+      "watch": "공장 중단의 생산 계획 영향 설명과 669.03USD 지지 여부를 본다.",
+      "reason_sources": [
+        "mu_si",
+        "mu_inv",
+        "forbes_chips"
+      ]
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "보도된 종가 411USD(−15.9%)가 11/4 잠정 종가 498.69USD 기준 −17.58%와 맞지 않아 실제 종가로 쓰지 않음. 장중 약 −13~17% 보도.",
+      "source": "inv_close",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 정규장 종가 미확인 · 장중 약 −13~17% 보도(Investing.com 마감 기사 약 −15~16%)",
+      "reason": "실적 호조 하루 만에 AI 규제·투자 둔화 우려로 급락했다.",
+      "watch": "정확한 종가와 리사 수 CEO의 AI 투자 발언 뒤 반발 여부를 본다.",
+      "reason_sources": [
+        "forbes_chips",
+        "bz_200d"
+      ]
+    },
+    {
+      "name": "퀄컴",
+      "ticker": "QCOM",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "작성 시점 정규장 종가 원문을 확인하지 못함. 09:46 ET 156.16USD(−17.03, −9.83%)는 장 초반 값.",
+      "source": "qcom_yf",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 정규장 종가 미확인 · 09:46 ET(23:46 KST) 156.16USD(−9.83%) 참고 · 전일 종가 173.19USD",
+      "reason": "매출은 예상을 넘었지만 핸드셋 감소와 EPS 가이던스 하회가 실망을 줬다.",
+      "watch": "종가 확인과 메모리 공급난이 다음 분기 핸드셋에 미칠 영향 설명을 본다.",
+      "reason_sources": [
+        "qcom_elec",
+        "qcom_8k"
+      ]
+    },
+    {
+      "name": "앱러빈",
+      "ticker": "APP",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "작성 시점 정규장 종가 원문을 확인하지 못함. 11:15 ET 356.32USD(+31.12%)는 장중 값.",
+      "source": "app_gf",
+      "venue": "Nasdaq",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "session": "2026-11-05 정규장 종가 미확인 · 11:15 ET(11/6 01:15 KST) 356.32USD(+31.12%) 참고 · 전일 종가 271.75USD",
+      "reason": "3분기 실적·4분기 가이던스 상회와 자사주 매입 확대로 급락장에서 역행했다.",
+      "watch": "종가 확인과 급등 다음 날 상승분 유지 여부를 본다.",
+      "reason_sources": [
+        "app_ta",
+        "spectrum_ap"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 4.85",
+    "unit": "%",
+    "delta": "하락(약 2개월 최저, 보도)",
+    "direction": "down",
+    "source": "ust_cnbc",
+    "as_of": "2026-11-06T06:00:00+09:00",
+    "session": "11/5 보도값 · 시각 미확인 · 확정 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-06 09:00 KST",
+      "title": "한국장 개장 반도체 2차 충격",
+      "detail": "코스피는 11/5에 이미 −5.28% 하락했지만 그 뒤 미국 마이크론 −15.9%(보도)·반도체 ETF −10% 이상 추가 하락이 나왔다. SK하이닉스(1,264,000원)·삼성전자(201,500원)의 갭 하락 폭, 장 초반 저점 뒤 회복 여부, 외국인 수급과 원/달러(11/5 주간 1,342.10원)를 본다. 현대차·셀트리온 등 11/5 강세 업종의 방어 지속도 확인한다."
+    },
+    {
+      "label": "2026-11-06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "11/6(금) 08:30 EST 발표 예정(일정 사이트 기준, 컨센서스 미확인). 금리 하락이 기술주 반발을 도울지, 경기 우려로 하락을 키울지 본다."
+    },
+    {
+      "label": "2026-11-06 23:30 KST",
+      "title": "미국 반도체 반발 또는 추가 하락",
+      "detail": "11/6 정규장 개장. 엔비디아 182.23USD·마이크론 669.03USD 기준 반발 여부, AMD·퀄컴·앱러빈의 11/5 확정 종가, 민주당 지도부·주 정부의 데이터센터 정책 구체화 보도를 확인한다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "마이크론 공장 중단 후속 설명",
+      "detail": "회사 공식 입장(생산·투자 계획 변경 여부)과 대만 당국 반응을 확인한다. 메모리 가격 전망 변화가 있는지 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf"
+    ],
+    "market_date": "2026-11-05",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-06T06:20:51+09:00",
+    "note": "NYSE 2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/5(목)가 없어 정상 거래일·정규 폐장으로 판단했다. 같은 날 정규장 마감 보도(CNBC·Investing.com)도 거래를 확인한다. 원문 페이지는 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-05 23:30~11-06 06:00 KST. d5 구간 11/6·9·10·11·12는 휴장 목록에 없다(11/11 재향군인의 날은 NYSE 휴장 아님)."
+  },
+  "calculation_notes": "지수 값·등락률은 CNBC 마감 보도값. 포인트 변화: S&P500 7,353.73−7,688.62=−334.89(−4.356%), 나스닥 24,315.00−25,736.51=−1,421.51(−5.523%); 기준값은 11/4 회차의 잠정 종가. 다우 53,356.12−1,833.06=51,523.06으로 일치. Investing.com 마감 기사(다우 −3.45%, S&P500 −4.29%, 나스닥 −5.42%)와 0.01~0.10%p 차이. NVDA 182.23−200.13(11/4 잠정 종가, us-pre-2026-11-05 회차)=−17.90, −8.944%로 보도 −8.94%와 일치. MU 669.03−795.23(11/4 잠정 종가)=−126.20, −15.870%로 보도 −15.9%와 일치. AMD 보도 411USD(−15.9%)는 11/4 잠정 종가 498.69 기준 −17.58%로 불일치해 미확인. QCOM·APP는 장중 값만 확인. Massive 분석(run 42111108245)은 작성 시점 진행 중이었고 artifact 다운로드에 필요한 gh 인증이 실패해 분석 수치를 쓰지 않았다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/5(목)가 없어 정상 거래일·정규 폐장으로 판단. 원문 페이지는 이번 실행 네트워크 정책(DNS 차단)으로 직접 열지 못했고 검색 결과로 확인."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "note": "NYSE Group 공식 휴장·조기폐장 발표 문서. 2026년 조기폐장은 11/27·12/24. 11/5는 목록에 없음. 검색 결과로 확인."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 5일 장 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+      "note": "나스닥 5.52% 내린 24,315.00(조정 국면 진입), S&P500 4.36% 내린 7,353.73, 다우 1,833.06p(3.44%) 내린 51,523.06 마감. 세 지수 모두 2025년 4월 이후 최악의 하루. URL 날짜는 11/4이나 본문은 11/5(목) 세션. 검색 요약으로 확인한 잠정값(원문 직접 열람 불가)."
+    },
+    {
+      "id": "inv_close",
+      "label": "Investing.com · 미국 증시 마감",
+      "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-345-5005517",
+      "note": "다우 −3.45%, S&P500 −4.29%, 나스닥 −5.42%로 CNBC와 0.01~0.10%p 차이. 다우 구성종목 중 엔비디아가 8.94% 내린 182.23USD로 가장 크게 하락. 웨스턴디지털·AMD·시게이트 각 약 15~16% 하락. 자동 생성 마감 기사, 검색 요약으로 확인."
+    },
+    {
+      "id": "cnbc_chips",
+      "label": "CNBC · 반도체·네오클라우드 급락",
+      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+      "note": "퀄컴 실적과 선거 결과 이후 반도체·네오클라우드 급락, 나스닥 2025년 4월 이후 최악. 검색 요약으로 확인."
+    },
+    {
+      "id": "bbg_chips",
+      "label": "Bloomberg · AI 거래 약화에 반도체 급락",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/chips-selloff-worsens-as-fears-about-ai-trade-grip-stock-market",
+      "note": "필라델피아 반도체지수 장중 약 9~11% 하락 보도(시점별 상이). 검색 요약으로 확인, 종가 수치 미확인."
+    },
+    {
+      "id": "yf_live",
+      "label": "Yahoo Finance · 11월 5일 장 라이브",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+      "note": "다우 1,800p 이상 급락, 나스닥 조정 진입. 칩·AI주 약 2조USD 시총 감소 보도. 반도체 ETF(iShares) 10.44% 넘게 하락해 2020년 3월 이후 최악이라는 보도 포함. 검색 요약으로 확인."
+    },
+    {
+      "id": "forbes_chips",
+      "label": "Forbes · 엔비디아·마이크론·브로드컴 8% 넘게 하락",
+      "url": "https://www.forbes.com/sites/fionariley/2026/11/05/chipmakers-tumble-toward-worst-day-in-years-nvidia-micron-and-broadcom-down-over-8/",
+      "note": "12:30 ET 전후 마이크론 −13.5%, 엔비디아 −8%, AMD −14.5%, 브로드컴 −8%, 인텔 −6.5%(장중). 검색 요약으로 확인."
+    },
+    {
+      "id": "bz_200d",
+      "label": "Benzinga · AI주 200일선 이탈",
+      "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
+      "note": "목요일 마이크론 15.9% 내린 669.03USD(200일 평균 755.33USD 대비 11.4% 아래), AMD 15.9% 내린 411USD(200일 평균 415.03USD) 보도. AMD 수치는 직전 회차 11/4 잠정 종가 498.69USD 기준 −17.58%와 맞지 않아 가격 미확인 처리. 검색 요약으로 확인."
+    },
+    {
+      "id": "mu_si",
+      "label": "StreetInsider · 마이크론 대만 공장 중단",
+      "url": "https://www.streetinsider.com/Investing/Micron+shares+drop+on+Taiwan+plant+suspension+report/27297564.html",
+      "note": "Bloomberg 보도 인용: 노사 분쟁으로 30억~45억USD 규모 대만 타오위안 Fab 11E(2028 가동 예정) 건설 중단 통보. 기존 대만 운영은 정상이라는 회사 입장. 장전 −5.21%. 검색 요약으로 확인."
+    },
+    {
+      "id": "mu_inv",
+      "label": "Investing.com · 마이크론 급락 이유",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-plunging-today-93CH-5005079",
+      "note": "오전 12.2% 내린 698.50USD(장중). 10/28 종가 983.23USD 언급. 검색 요약으로 확인."
+    },
+    {
+      "id": "qcom_8k",
+      "label": "Qualcomm · FY2026 4분기 실적(SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000804328/000080432826000127/qcom092726erex991.htm",
+      "note": "11/4 장후 발표 실적 보도자료(8-K Ex.99.1). 비GAAP 매출 약 104억USD, EPS 2.17USD, 다음 분기 매출 104억~112억USD·EPS 2.15~2.35USD 가이던스. 원문 직접 열람 불가, 검색 요약 수치."
+    },
+    {
+      "id": "qcom_elec",
+      "label": "The Elec · 퀄컴 4분기 매출 예상 상회",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=15303",
+      "note": "매출 104억USD로 컨센서스 101.4억USD 상회, 핸드셋 매출 26% 감소한 51.37억USD, 자동차 첫 20억USD 분기(+89%), 데이터센터 12월 분기 6.5억USD 이상 전망. EPS 가이던스 중간값 2.25USD가 컨센서스 2.27USD 하회. 검색 요약으로 확인."
+    },
+    {
+      "id": "qcom_yf",
+      "label": "Yahoo Finance · 퀄컴 장 초반 시세",
+      "url": "https://finance.yahoo.com/quote/QCOM/",
+      "note": "09:46 ET 156.16USD(−17.03, −9.83%), 전일 종가 173.19USD 스냅샷(검색 요약). 정규장 종가 아님."
+    },
+    {
+      "id": "arm_sed",
+      "label": "서울경제 · 퀄컴·Arm 스마트폰 부진",
+      "url": "https://en.sedaily.com/international/2026/11/05/qualcomm-arm-shares-slide-as-smartphone-slump-bites",
+      "note": "Arm 로열티 매출 8% 증가한 6.7억USD로 예상 하회, 메모리 공급난에 따른 스마트폰 수요 둔화. 검색 요약으로 확인."
+    },
+    {
+      "id": "app_gf",
+      "label": "GuruFocus · 앱러빈 31% 급등·자사주 확대",
+      "url": "https://www.gurufocus.com/news/9175430/applovin-stocks-jump-31-as-cash-generation-backs-a-larger-buyback",
+      "note": "11:15 ET 31.12% 오른 356.32USD(장중). 자사주 매입 승인 32억USD 증액해 총 36억USD. 검색 요약으로 확인."
+    },
+    {
+      "id": "app_ta",
+      "label": "Traders Agency · 앱러빈 3분기 실적",
+      "url": "https://tradersagency.com/blog/applovin-posts-55percent-revenue-growth-in-q3-2026-lifts-buyback-authorization-to-dollar36-billion",
+      "note": "3분기 매출 55% 증가한 약 21.8억USD, EPS 4.30USD(예상 4.04USD), 4분기 매출 가이던스 23.7억~24억USD(컨센서스 22.5억USD). 검색 요약으로 확인."
+    },
+    {
+      "id": "crwv_bz",
+      "label": "Benzinga · 코어위브·네비우스 15% 급락",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62937542/coreweave-and-nebius-tumble-15-as-amazon-and-big-tech-hyperscalers-outlast-ai-data-center-selloff",
+      "note": "코어위브·네비우스 약 15% 급락, 하이퍼스케일러는 약 2~4% 하락에 그쳤다는 보도. UBS 추정 2028년 미국 데이터센터 증설 예정 용량의 약 30%가 건설 중단 위험에 노출 가능. 장중 수치, 검색 요약으로 확인."
+    },
+    {
+      "id": "nbc_ap",
+      "label": "NBC News · AI 우려에 기술주 급락",
+      "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+      "note": "엔비디아 약 9% 하락이 지수 하락을 주도. 검색 요약으로 확인."
+    },
+    {
+      "id": "spectrum_ap",
+      "label": "Spectrum News(AP) · AI 칩 급락",
+      "url": "https://spectrumnews1.com/ca/la/business/2026/11/05/stock-market-ai-chip-selloff",
+      "note": "AP 기반 보도. S&P500 구성종목 약 5개 중 2개 상승, 유가 상승 속 에너지 업종 강세, 앱러빈 상승 주도, 델 −10.5% 등. 기사 작성 시점의 S&P500 낙폭(약 3%대)은 최종 종가와 다를 수 있음. 검색 요약으로 확인."
+    },
+    {
+      "id": "ebn_oil",
+      "label": "Eurasia Business News · 나스닥 5% 급락·유가 96달러",
+      "url": "https://eurasiabusinessnews.com/2026/11/05/stock-market-today-nasdaq-sinks-5-as-ai-selloff-hits-chip-and-data-center-stocks/",
+      "note": "제목상 유가 96달러(유종·시각 미확인). 11/4 브렌트 정산가 94.62USD(−8.67%)에서 반등한 것으로 보이나 정산가 원문 미확인. 검색 요약으로 확인."
+    },
+    {
+      "id": "ust_cnbc",
+      "label": "CNBC · 10년물 금리 동향",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "note": "10년물 금리가 목요일(11/5) 약 4.85%로 거의 두 달 만의 최저 수준까지 내렸다는 보도(검색 요약). 시각·마감값 미확인."
+    },
+    {
+      "id": "jobs_cal",
+      "label": "FinanceCalendar · 미국 고용보고서 일정",
+      "url": "https://www.financecalendar.com/event/us-employment-situation-non-farm-payrolls-november-2026/",
+      "note": "10월 고용보고서 11/6(금) 08:30 ET = 22:30 KST 발표 예정(일정 사이트, BLS 원문 미확인). 컨센서스 미확인."
+    },
+    {
+      "id": "kr_close",
+      "label": "아시아경제 · 11/5 코스피 마감",
+      "url": "https://view.asiae.co.kr/article/2026110515330501520",
+      "note": "이 저장소 kr-close-2026-11-05 회차의 원문 출처. 코스피 5,383.80(−300.00, −5.28%), SK하이닉스 1,264,000원(−9.46%), 삼성전자 201,500원(−7.57%) KRX 정규장 종가."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/42111108245",
+      "note": "요청 커밋 09c61dce80a995df6b2434737c61e040aa46b154의 Collect US briefing inputs 실행. 작성 시점 진행 중이었고 artifact 다운로드는 gh 인증 실패로 확인할 수 없어 analysis.json 수치를 사용하지 않음.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "AI 투매에 나스닥 −5.5%, 조정 진입",
+    "summary_points": [
+      "나스닥 −5.52%, S&P500 −4.36%로 2025년 4월 이후 최악.",
+      "선거 랠리 반납, AI 규제·데이터센터 제한 우려가 원인.",
+      "마이크론 −15.9%, 엔비디아 −8.9%, 앱러빈은 역행 급등."
+    ],
+    "notices": [
+      "원문 사이트 직접 열람이 막혀 지수·종가는 검색 요약으로 확인한 잠정값이다. 매체 간 지수 등락률이 최대 0.1%p 다르다(CNBC 값 사용).",
+      "AMD·퀄컴·앱러빈 종가는 미확인(장중 수치만 표시), 엔비디아·마이크론 종가는 단일 매체 보도다. 10년물·유가는 시각 미확인 보도값이다."
+    ],
+    "issues": [
+      {
+        "title": "AI·반도체 투매, 나스닥 조정 진입",
+        "preview": "나스닥 −5.52%, 반도체 ETF −10% 이상.",
+        "points": [
+          "선거 랠리 상승분을 하루 만에 모두 반납했다.",
+          "AI 규제·데이터센터 건설 제한 우려가 AI 인프라주를 덮쳤다."
+        ],
+        "meaning": "AI 투자 사이클에 정책 위험 할인이 붙기 시작했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 지수(나스닥 종합)",
+            "basis": "11/6 정규장 종가를 나스닥 24,315.00과 비교한다. 하루 −5.5% 뒤 기술적 반발과 금리 하락(약 4.85%)이 지지할 수 있다.",
+            "counter": "정책 위험은 구체화 전이라 해소되지 않았고 11/6 고용보고서가 변동을 키울 수 있다. 개장 반발 뒤 장중 재하락, 또는 초반 추가 투매 뒤 회복 경로가 모두 가능하다.",
+            "invalidation": "나스닥이 24,315.00 위에서 마감하고 반도체 ETF가 반등하면 상방, 엔비디아가 182.23USD를 하회 마감하면 하방으로 바꾼다.",
+            "sources": [
+              "cnbc_live",
+              "ust_cnbc",
+              "jobs_cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(나스닥 종합)",
+            "basis": "5거래일 뒤 11/12 정규장 종가를 24,315.00과 비교한다.",
+            "counter": "데이터센터 정책 세부안·고용·금리 재료가 남아 있고 조정 초기 변동성이 크다.",
+            "invalidation": "정책 구체화 보도와 하이퍼스케일러 투자 발언으로 재판단한다.",
+            "sources": [
+              "cnbc_live",
+              "crwv_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "마이크론 대만 공장 중단·메모리 급락",
+        "preview": "Fab 11E 중단 보도에 −15.9%(보도).",
+        "points": [
+          "노사 분쟁으로 30억~45억USD 대만 공장 건설 중단 통보 보도.",
+          "200일선을 2025년 5월 이후 처음 하회했다."
+        ],
+        "meaning": "메모리 증설 일정과 수요 기대가 동시에 흔들렸다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "마이크론·메모리 업종",
+            "basis": "11/6 정규장 종가를 669.03USD(보도)와 비교한다. 이틀 −22% 가량 하락 후 반발 여지가 있다.",
+            "counter": "공장 중단의 영향 범위가 미확인이고 업종 전체 투매가 진행 중이다. 장 초반 반발 뒤 되돌림 위험이 크다.",
+            "invalidation": "669.03USD 위 마감과 회사의 추가 설명이 나오면 상방, 하회 마감이 이어지면 하방으로 바꾼다.",
+            "sources": [
+              "mu_si",
+              "bz_200d"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크론·메모리 업종",
+            "basis": "5거래일 뒤 11/12 정규장 종가를 669.03USD와 비교한다.",
+            "counter": "공급 축소는 가격에 긍정적일 수 있으나 수요 둔화 우려와 상충한다.",
+            "invalidation": "메모리 가격 전망 보도와 회사 공식 설명으로 재판단한다.",
+            "sources": [
+              "mu_si",
+              "mu_inv"
+            ]
+          }
+        }
+      },
+      {
+        "title": "퀄컴·Arm 실적 실망",
+        "preview": "매출 상회에도 EPS 가이던스 하회.",
+        "points": [
+          "퀄컴 핸드셋 매출이 메모리 공급난으로 26% 줄었다.",
+          "Arm 로열티 매출도 예상을 밑돌았다."
+        ],
+        "meaning": "메모리 부족이 스마트폰 칩 수요를 누르고 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "퀄컴(QCOM)",
+            "basis": "11/5 종가가 미확인이라 기준 가격을 정하지 못했다. 장 초반 156.16USD(−9.83%)는 종가가 아니다.",
+            "counter": "실적 선반영 정도와 업종 투매 영향이 분리되지 않는다.",
+            "invalidation": "11/5 확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "qcom_yf",
+              "qcom_elec"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "퀄컴(QCOM)",
+            "basis": "5거래일 뒤 11/12 정규장 종가와 비교할 기준 종가가 미확인이다.",
+            "counter": "자동차·데이터센터 성장과 핸드셋 감소가 상충한다.",
+            "invalidation": "추정치 하향 폭과 종가 확인으로 재판단한다.",
+            "sources": [
+              "qcom_8k",
+              "arm_sed"
+            ]
+          }
+        }
+      },
+      {
+        "title": "네오클라우드·데이터센터주 연쇄 하락",
+        "preview": "코어위브·네비우스 약 −15%(장중).",
+        "points": [
+          "하이퍼스케일러는 약 2~4% 하락에 그쳤다.",
+          "UBS는 2028년 증설 용량 약 30%가 위험하다고 추정했다(보도)."
+        ],
+        "meaning": "부채 의존 AI 인프라주가 정책 위험에 가장 민감하다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "코어위브·네비우스 등 네오클라우드",
+            "basis": "11/6 정규장 종가를 11/5 종가(미확인)와 비교한다. 이틀 연속 정책 위험이 반영되고 있고 해소 재료가 없다.",
+            "counter": "낙폭이 커 기술적 반발이 나올 수 있다. 장 초반 반등 뒤 하락 또는 그 반대 경로 모두 가능하다.",
+            "invalidation": "정책 우려 완화 보도나 대형 계약 발표가 나오면 판단을 보류로 바꾼다.",
+            "sources": [
+              "crwv_bz",
+              "cnbc_chips"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코어위브·네비우스 등 네오클라우드",
+            "basis": "5거래일 뒤 11/12 정규장 종가와 비교한다.",
+            "counter": "정책 세부안이 아직 없다.",
+            "invalidation": "주 정부·의회의 데이터센터 관련 구체안으로 재판단한다.",
+            "sources": [
+              "crwv_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "앱러빈·에너지는 역행 강세",
+        "preview": "앱러빈 장중 +31%, 에너지 강세.",
+        "points": [
+          "실적·가이던스 상회와 자사주 매입 36억USD 확대.",
+          "S&P500 종목 약 40%는 상승(AP 기반 작성 시점)."
+        ],
+        "meaning": "매도는 AI 인프라에 집중됐고 시장 전반 투매는 아니었다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "앱러빈(APP)",
+            "basis": "11/5 종가가 미확인이라 기준 가격을 정하지 못했다.",
+            "counter": "하루 30% 안팎 급등 뒤 차익 실현과 기술주 약세가 반대 요인이다.",
+            "invalidation": "확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "app_gf",
+              "app_ta"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "앱러빈(APP)",
+            "basis": "5거래일 뒤 11/12 정규장 종가와 비교할 기준 종가가 미확인이다.",
+            "counter": "실적 후 추정치 상향은 지지 요인이나 급등 후 변동성이 크다.",
+            "invalidation": "추정치 변화와 종가로 재판단한다.",
+            "sources": [
+              "app_ta"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국장 11/5 선반영, 미국 추가 급락",
+        "preview": "코스피 −5.28% 뒤 미국 반도체 추가 −10%.",
+        "points": [
+          "한국장 마감 뒤 미국 메모리·반도체가 더 크게 떨어졌다.",
+          "10년물 금리는 약 4.85%로 내렸다(보도)."
+        ],
+        "meaning": "11/6 한국 반도체는 추가 하락 압력과 선반영이 맞선다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "11/6 KRX 정규장 종가를 11/5 종가(SK하이닉스 1,264,000원, 삼성전자 201,500원)와 비교한다. 한국 마감 뒤 미국 마이크론 −15.9%(보도)·반도체 ETF −10% 이상이 추가로 나왔다.",
+            "counter": "11/5 이미 −7~9% 하락해 일부 선반영됐고 개장 갭 하락 뒤 저가 매수로 낙폭을 줄일 수 있다. 장 초반 낙폭과 종가 방향은 다를 수 있다.",
+            "invalidation": "외국인 순매수 전환과 함께 전일 종가 위 회복 마감 시 판단 보류로 바꾼다.",
+            "sources": [
+              "kr_close",
+              "bz_200d",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "5거래일 뒤 KRX 정규장 종가를 11/5 종가와 비교한다.",
+            "counter": "미국 정책·마이크론 공장 중단의 공급 효과가 상충한다.",
+            "invalidation": "미국 반도체 반발 여부와 외국인 수급으로 재판단한다.",
+            "sources": [
+              "kr_close",
+              "mu_si"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "매도는 AI 인프라·반도체에 집중됐고 에너지·일부 실적주는 버텼다.",
+      "한국장은 11/5 선반영과 미국 추가 급락이 맞서 갭 하락 후 수급이 관건이다.",
+      "11/6 고용보고서와 데이터센터 정책 구체화가 다음 방향 재료다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "AI 투자 둔화 우려로 다우 최대 하락 종목이 됐다.",
+        "watch": "182.23USD 위 마감과 대형 고객사 투자 발언을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/6 정규장 종가를 182.23USD(잠정)와 비교한다. 이틀 약 −12% 뒤 반발 여지가 있다.",
+            "counter": "정책 위험이 해소되지 않았고 장 초반 반발 뒤 재하락 위험이 있다.",
+            "invalidation": "182.23USD 위 마감과 반도체 ETF 반등 시 상방, 하회 마감 시 하방으로 바꾼다.",
+            "sources": [
+              "inv_close",
+              "nbc_ap"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "엔비디아(NVDA)",
+            "basis": "5거래일 뒤 11/12 정규장 종가를 182.23USD와 비교한다.",
+            "counter": "정책 구체화 전이다.",
+            "invalidation": "데이터센터 정책 세부안으로 재판단한다.",
+            "sources": [
+              "crwv_bz"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "대만 공장 중단 보도와 반도체 투매가 겹쳤다.",
+        "watch": "회사 공식 설명과 669.03USD 지지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "마이크론(MU)",
+            "basis": "11/6 정규장 종가를 669.03USD(보도)와 비교한다.",
+            "counter": "공장 중단 영향 미확인, 업종 투매 지속 가능성. 장 초반 변동이 클 수 있다.",
+            "invalidation": "669.03USD 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "bz_200d",
+              "mu_si"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크론(MU)",
+            "basis": "5거래일 뒤 11/12 정규장 종가를 669.03USD와 비교한다.",
+            "counter": "공급 축소와 수요 둔화 우려가 상충한다.",
+            "invalidation": "메모리 가격 보도로 재판단한다.",
+            "sources": [
+              "mu_inv"
+            ]
+          }
+        }
+      },
+      "AMD": {
+        "reason": "실적 호조 하루 만에 AI 투자 둔화 우려로 급락했다.",
+        "watch": "확정 종가와 AI 투자 관련 경영진 발언을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "11/5 종가가 매체 간 불일치로 미확인이라 기준 가격을 정하지 못했다.",
+            "counter": "실적 상회와 정책 위험이 상충한다.",
+            "invalidation": "확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "bz_200d",
+              "forbes_chips"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "5거래일 뒤 11/12 정규장 종가와 비교할 기준 종가가 미확인이다.",
+            "counter": "추정치 조정 전이다.",
+            "invalidation": "종가·추정치 변화로 재판단한다.",
+            "sources": [
+              "inv_close"
+            ]
+          }
+        }
+      },
+      "QCOM": {
+        "reason": "매출 상회에도 핸드셋 감소와 EPS 가이던스 하회가 실망을 줬다.",
+        "watch": "확정 종가와 다음 분기 핸드셋 전망을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "퀄컴(QCOM)",
+            "basis": "11/5 종가 미확인으로 기준 가격이 없다.",
+            "counter": "실적 실망과 업종 투매가 겹쳐 원인 분리가 어렵다.",
+            "invalidation": "확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "qcom_yf"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "퀄컴(QCOM)",
+            "basis": "5거래일 뒤 11/12 종가와 비교할 기준이 미확인이다.",
+            "counter": "자동차·데이터센터 성장과 핸드셋 감소가 상충한다.",
+            "invalidation": "추정치 하향 폭으로 재판단한다.",
+            "sources": [
+              "qcom_elec"
+            ]
+          }
+        }
+      },
+      "APP": {
+        "reason": "실적·가이던스 상회와 자사주 매입 확대로 역행 급등했다.",
+        "watch": "확정 종가와 급등분 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "앱러빈(APP)",
+            "basis": "11/5 종가 미확인으로 기준 가격이 없다.",
+            "counter": "급등 후 차익 실현 가능성.",
+            "invalidation": "확정 종가 확인 후 재판단한다.",
+            "sources": [
+              "app_gf"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "앱러빈(APP)",
+            "basis": "5거래일 뒤 11/12 종가와 비교할 기준이 미확인이다.",
+            "counter": "추정치 상향과 급등 후 변동성이 상충한다.",
+            "invalidation": "추정치 변화로 재판단한다.",
+            "sources": [
+              "app_ta"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국장 개장 반도체 2차 충격",
+        "detail": "미국 추가 급락이 SK하이닉스·삼성전자에 얼마나 더 반영되는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "down",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "11/6 KRX 정규장 종가를 11/5 종가(1,264,000원·201,500원)와 비교한다. 한국 마감 뒤 미국 메모리주 추가 급락이 나왔다.",
+            "counter": "11/5 −7~9% 선반영, 개장 갭 하락 뒤 저가 매수로 회복 가능. 장 초반과 종가 방향이 다를 수 있다.",
+            "invalidation": "외국인 순매수 전환과 전일 종가 회복 마감 시 판단 보류로 바꾼다.",
+            "sources": [
+              "kr_close",
+              "bz_200d"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "5거래일 뒤 KRX 종가를 11/5 종가와 비교한다.",
+            "counter": "미국 정책 구체화 전이다.",
+            "invalidation": "미국 반도체 흐름과 외국인 수급으로 재판단한다.",
+            "sources": [
+              "kr_close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 10월 고용보고서",
+        "detail": "금리 하락이 기술주 반발을 도울지 경기 우려를 키울지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/6 정규장 종가를 7,353.73과 비교한다. 발표 전이라 판단을 보류한다.",
+            "counter": "컨센서스 미확인, 결과에 따라 금리·주가 반응이 엇갈릴 수 있다.",
+            "invalidation": "발표 결과와 10년물 반응을 보고 재판단한다.",
+            "sources": [
+              "jobs_cal",
+              "ust_cnbc"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(S&P500)",
+            "basis": "5거래일 뒤 11/12 정규장 종가를 7,353.73과 비교한다.",
+            "counter": "고용·정책 재료가 남아 있다.",
+            "invalidation": "고용 결과 후 재판단한다.",
+            "sources": [
+              "jobs_cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 반도체 반발 또는 추가 하락",
+        "detail": "엔비디아·마이크론 기준가 회복과 정책 구체화 보도를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 반도체(엔비디아·마이크론)",
+            "basis": "11/6 정규장 종가를 182.23USD·669.03USD와 비교한다. 과매도 반발 여지와 정책 위험이 맞선다.",
+            "counter": "장 초반 반발 뒤 재하락 위험이 크다.",
+            "invalidation": "두 종목 모두 기준가 위 마감 시 상방으로 바꾼다.",
+            "sources": [
+              "inv_close",
+              "bz_200d"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체(엔비디아·마이크론)",
+            "basis": "5거래일 뒤 11/12 정규장 종가와 비교한다.",
+            "counter": "정책 세부안 미확인.",
+            "invalidation": "정책 보도로 재판단한다.",
+            "sources": [
+              "crwv_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "마이크론 공장 중단 후속 설명",
+        "detail": "생산·투자 계획 변경 여부와 메모리 가격 전망을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "마이크론(MU)",
+            "basis": "회사 추가 설명 전이다.",
+            "counter": "공급 축소와 수요 우려가 상충한다.",
+            "invalidation": "공식 설명 후 재판단한다.",
+            "sources": [
+              "mu_si"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크론(MU)",
+            "basis": "5거래일 뒤 11/12 종가를 669.03USD와 비교한다.",
+            "counter": "영향 범위 미확인.",
+            "invalidation": "공식 설명과 가격 보도로 재판단한다.",
+            "sources": [
+              "mu_inv"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "cnbc_live": "CNBC · 11월 5일 장 마감 라이브",
+      "inv_close": "Investing.com · 미국 증시 마감",
+      "cnbc_chips": "CNBC · 반도체·네오클라우드 급락",
+      "bbg_chips": "Bloomberg · AI 거래 약화에 반도체 급락",
+      "yf_live": "Yahoo Finance · 11월 5일 장 라이브",
+      "forbes_chips": "Forbes · 엔비디아·마이크론·브로드컴 8% 넘게 하락",
+      "bz_200d": "Benzinga · AI주 200일선 이탈",
+      "mu_si": "StreetInsider · 마이크론 대만 공장 중단",
+      "mu_inv": "Investing.com · 마이크론 급락 이유",
+      "qcom_8k": "Qualcomm · FY2026 4분기 실적(SEC 8-K)",
+      "qcom_elec": "The Elec · 퀄컴 4분기 매출 예상 상회",
+      "qcom_yf": "Yahoo Finance · 퀄컴 장 초반 시세",
+      "arm_sed": "서울경제 · 퀄컴·Arm 스마트폰 부진",
+      "app_gf": "GuruFocus · 앱러빈 31% 급등·자사주 확대",
+      "app_ta": "Traders Agency · 앱러빈 3분기 실적",
+      "crwv_bz": "Benzinga · 코어위브·네비우스 15% 급락",
+      "nbc_ap": "NBC News · AI 우려에 기술주 급락",
+      "spectrum_ap": "Spectrum News(AP) · AI 칩 급락",
+      "ebn_oil": "Eurasia Business News · 나스닥 5% 급락·유가 96달러",
+      "ust_cnbc": "CNBC · 10년물 금리 동향",
+      "jobs_cal": "FinanceCalendar · 미국 고용보고서 일정",
+      "kr_close": "아시아경제 · 11/5 코스피 마감",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-06T06:20:51+09:00",
+      "input_cutoff": "2026-11-06T06:20:51+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/6와 5거래일 뒤 11/12 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-05T16:15:00-05:00",
+      "kst": "2026-11-06T06:15:00+09:00",
+      "utc": "2026-11-05T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-05T16:15:14-05:00",
+      "kst": "2026-11-06T06:15:14+09:00",
+      "utc": "2026-11-05T21:15:14Z"
+    },
+    "start_offset_seconds": 14,
+    "delay_seconds": 14,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, GitHub MCP, WebSearch. WebFetch 원문 열람은 네트워크 정책(DNS 차단)으로 실패, gh CLI 인증 실패. 카카오 PlayMCP 도구는 ToolSearch에 노출되지 않음(인증 필요 MCP 서버 표시, ListConnectors(kakao) 빈 결과).",
+    "model_setting": "not_verified",
+    "request_commit": "09c61dce80a995df6b2434737c61e040aa46b154",
+    "analysis_run_id": 42111108245,
+    "analysis_status": "in_progress (작성 시점 미완료, gh 인증 실패로 artifact 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-05.json"
+  }
+}

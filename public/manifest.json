@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-05",
+  "latest_id": "us-close-2026-11-05",
   "reports": [
+    {
+      "id": "us-close-2026-11-05",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-05",
+      "title": "11월 5일 미국장 마감 브리핑",
+      "summary": "AI·반도체 투매에 나스닥 −5.52% 조정 진입, 선거 랠리 하루 만에 반납",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "path": "reports/us-close-2026-11-05/"
+    },
     {
       "id": "kr-close-2026-11-05",
       "is_test": false,
