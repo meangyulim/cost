@@ -1,0 +1,24 @@
+{
+  "report_id": "kr-pre-2026-11-06",
+  "status": "failed",
+  "failure_reason": "tool_unavailable_auth_required",
+  "failure_detail": "이 실행에서 ToolSearch(kakao, KakaotalkChat MemoChat, 나에게 보내기 PlayMCP)로 카카오 PlayMCP '나에게 보내기' 도구가 노출되지 않아 전송하지 않음. 인증이 필요한 MCP 서버가 표시됨.",
+  "recorded_at_kst": "2026-11-06T08:45:33+09:00",
+  "recorded_at_utc": "2026-11-05T23:45:33Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-06/",
+  "deployed_commit": "58cd9d5ed01637f8b2350219c75b335ece069733",
+  "deployment": {
+    "workflow_run_id": 42131730933,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "completed_at": "2026-11-05T23:45:20Z"
+  },
+  "http_inspection": "not_performed",
+  "browser_inspection": "not_performed",
+  "mobile_zoom_inspection": "not_performed",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "kakao_result": "not_sent",
+  "retry_count": 0
+}
