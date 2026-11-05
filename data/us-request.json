@@ -1,13 +1,13 @@
 {
   "end_date": "2026-11-04",
   "watch": [
+    "QCOM",
     "AMD",
     "NVDA",
     "MU",
     "VST",
     "HCA",
-    "LMT",
-    "FSLR"
+    "LMT"
   ],
-  "requested_at": "2026-11-05T06:16:47+09:00"
+  "requested_at": "2026-11-05T23:00:31+09:00"
 }
