@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-05",
+  "latest_id": "kr-close-2026-11-05",
   "reports": [
+    {
+      "id": "kr-close-2026-11-05",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-05",
+      "title": "한국장 마감 브리핑 · 2026.11.05",
+      "summary": "미 AI 데이터센터 규제 우려에 반도체 투매, 코스피 5.28% 급락한 5,383.80 마감",
+      "as_of": "2026-11-05T15:30:00+09:00",
+      "path": "reports/kr-close-2026-11-05/"
+    },
     {
       "id": "kr-pre-2026-11-05",
       "is_test": false,
