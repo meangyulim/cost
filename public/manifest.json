@@ -25,6 +25,17 @@
       "path": "reports/kr-pre-2026-11-06/"
     },
     {
+      "id": "us-pre-2026-11-06",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-06",
+      "title": "11월 6일 미국장 시작 전 브리핑",
+      "summary": "고용 서프라이즈·나스닥 선물 반등, 금리 4.9%가 상단 제한",
+      "as_of": "2026-11-06T06:00:00+09:00",
+      "path": "reports/us-pre-2026-11-06/"
+    },
+    {
       "id": "us-close-2026-11-05",
       "is_test": false,
       "market": "US",
