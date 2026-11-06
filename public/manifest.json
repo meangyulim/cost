@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-06",
+  "latest_id": "kr-close-2026-11-06",
   "reports": [
+    {
+      "id": "kr-close-2026-11-06",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-06",
+      "title": "한국장 마감 브리핑 · 2026.11.06",
+      "summary": "서킷브레이커 뒤 낙폭 축소, 코스피 6.02% 내린 5,059.69로 5000선 지켜 마감",
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "path": "reports/kr-close-2026-11-06/"
+    },
     {
       "id": "kr-pre-2026-11-06",
       "is_test": false,

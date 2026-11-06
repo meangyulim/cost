@@ -1,0 +1,862 @@
+{
+  "id": "kr-close-2026-11-06",
+  "is_test": false,
+  "market": "KR",
+  "market_date": "2026-11-06",
+  "session": "close",
+  "venue": "KRX",
+  "title": "한국장 마감 브리핑 · 2026.11.06",
+  "as_of": "2026-11-06T15:30:00+09:00",
+  "queried_at": "2026-11-06T15:52:00+09:00",
+  "summary": "서킷브레이커 뒤 낙폭 축소, 코스피 6.02% 내린 5,059.69로 5000선 지켜 마감",
+  "summary_detail": "코스피는 5,059.69(−324.11, −6.02%), 코스닥은 644.27(−34.14, −5.03%)로 마감했다. 전날 미국 필라델피아 반도체지수 12%대 급락 여파로 개장 3분 만에 8% 넘게 빠져 09:03 KST 1단계 서킷브레이커(20분 매매 정지)가 발동됐고 장중 4,911.28까지 내렸다가 낙폭을 줄였다. 외국인은 유가증권시장에서 2조7,691억원을 순매도했고 기관 1조7,042억원·개인 6,010억원이 받았다(보도 기준). SK하이닉스 1,132,000원(−10.44%), 삼성전자 188,700원(−6.35%)이 하락을 주도했다. 정부는 신용융자 담보비율(140%) 유지의무를 11월9일부터 3개월 면제한다. 원·달러는 15:30 1,356.6원(+14.5원)이다.",
+  "interpretation": "확인된 사실과 조건부 해석을 구분한다. 이틀 연속 5~6% 급락이지만 오늘은 장중 저점 4,911.28에서 약 148pt 회복해 마감했고 기관·개인 매수가 외국인 매도를 흡수했다. 반대매매 완화 조치는 강제 매도 연쇄를 줄일 수 있으나 시행은 다음 거래일부터다. 다음 장은 오늘 밤 미국 고용보고서와 미국 반도체 반발 여부, 외국인 매도 지속이 갈림길이다. 미래 상승 확률은 검증되지 않아 제시하지 않는다.",
+  "indices": [
+    {
+      "name": "코스피",
+      "value": "5,059.69",
+      "unit": "pt",
+      "delta": "−324.11",
+      "percent": "−6.02",
+      "direction": "down",
+      "source": "close-asiae",
+      "additional_sources": [
+        "close-news1",
+        "close-aju"
+      ],
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "session": "KRX 2026.11.06 정규장 종가"
+    },
+    {
+      "name": "코스닥",
+      "value": "644.27",
+      "unit": "pt",
+      "delta": "−34.14",
+      "percent": "−5.03",
+      "direction": "down",
+      "source": "kosdaq-news1",
+      "additional_sources": [
+        "close-news1",
+        "close-aju"
+      ],
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "session": "KRX 2026.11.06 정규장 종가"
+    }
+  ],
+  "issues": [
+    {
+      "title": "코스피 서킷브레이커 뒤 낙폭 축소, 5000선 지켜",
+      "fact": "코스피는 5,263.26(−2.24%)으로 출발해 2분30초 만에 5,000선을 내줬고 8% 넘게 빠져 09:03 KST 1단계 서킷브레이커로 20분간 매매가 정지됐다. 코스닥에는 매도 사이드카가 발동됐다. 장중 저점 4,911.28 이후 낙폭을 줄여 코스피 5,059.69(−6.02%), 코스닥 644.27(−5.03%)로 마감했다(보도 기준).",
+      "source": "close-asiae",
+      "additional_sources": [
+        "cb-mydaily",
+        "cb-search",
+        "cb-newspim",
+        "close-aju",
+        "kosdaq-news1"
+      ]
+    },
+    {
+      "title": "외국인 2조7,691억 순매도, 기관·개인이 흡수",
+      "fact": "유가증권시장에서 외국인 −2조7,691억원, 기관 +1조7,042억원, 개인 +6,010억원(보도 기준, KRX 확정치 미대조). 코스닥은 기관 +2,058억원, 개인 −1,106억원, 외국인 −1,014억원. 전날 외국인 −3조3,928억원(보도 기준)에 이어 대규모 매도가 이어졌다.",
+      "source": "close-aju",
+      "additional_sources": [
+        "close-etoday"
+      ]
+    },
+    {
+      "title": "반도체 대형주 주도 하락, 시총 상위 전 종목 약세",
+      "fact": "SK하이닉스 1,132,000원(−10.44%), 삼성전자 188,700원(−6.35%), SK스퀘어 −10.51%, 삼성전기 −7.84%. 현대차 −4.77%, LG에너지솔루션 −2.46%, 셀트리온 −1.86%, 삼성바이오로직스 −0.26%로 바이오 낙폭이 작았다. 배경은 11월5일(미 현지, EST) 미국 AI 데이터센터 규제 우려와 마이크론 대만 공장 중단 보도에 따른 반도체지수 12%대 급락이다.",
+      "source": "stocks-seoul",
+      "additional_sources": [
+        "close-etoday",
+        "close-aju",
+        "sox-pre",
+        "mu-si"
+      ]
+    },
+    {
+      "title": "정부, 신용융자 담보비율 유지의무 3개월 면제",
+      "fact": "11월6일 긴급 시장상황점검회의에서 증권사의 신용융자 담보비율(140%) 유지의무를 11월9일부터 3개월간 면제하기로 했다. 급락에 따른 반대매매가 변동성을 키우는 것을 막기 위한 조치이며 변동성 확대 시 추가 조치를 검토한다고 밝혔다.",
+      "source": "gov-newspim",
+      "additional_sources": [
+        "gov-news1"
+      ]
+    },
+    {
+      "title": "원·달러 1,356.6원, 14.5원 급등",
+      "fact": "서울외환시장 주간거래 15:30 KST 1,356.6원으로 전 거래일 주간종가 1,342.1원 대비 14.5원 올랐다. 1,338.5원 하락 출발 뒤 미국 기술주 급락에 따른 위험회피로 반전했다(보도 기준).",
+      "source": "fx-asiae",
+      "additional_sources": [
+        "fx-aju"
+      ]
+    },
+    {
+      "title": "코웨이 3분기 영업이익 2,608억(+7.3%)",
+      "fact": "코웨이는 11월6일 3분기 연결 매출 1조4,261억원(+13.7%), 영업이익 2,608억원(+7.3%)을 발표했다. 해외 매출이 26%대 늘었다. 발표 전 컨센서스와 발표 후 주가 반응은 이번 조회에서 확인하지 못했다.",
+      "source": "coway-aju",
+      "additional_sources": [
+        "coway-inthenews"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "price": "1,132,000",
+      "currency": "KRW",
+      "delta": "−132,000",
+      "percent": "−10.44",
+      "direction": "down",
+      "source": "stocks-seoul",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "session": "KRX 2026.11.06 정규장 종가 · NXT·시간외 제외",
+      "reason": "미국 반도체지수 12%대 급락과 마이크론 대만 공장 중단 보도 여파로 장 초반 14% 가까이 빠졌다가 낙폭을 줄여 10.44% 하락 마감했다.",
+      "watch": "오늘 밤 미국 메모리·반도체 반발 여부와 11월9일 1,132,000원 위 마감, 외국인 매도 축소를 확인한다.",
+      "reason_sources": [
+        "stocks-seoul",
+        "sox-pre",
+        "mu-si"
+      ]
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "price": "188,700",
+      "currency": "KRW",
+      "delta": "−12,800",
+      "percent": "−6.35",
+      "direction": "down",
+      "source": "stocks-seoul",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "session": "KRX 2026.11.06 정규장 종가 · NXT·시간외 제외",
+      "reason": "장 초반 11%대 급락 뒤 회복해 6.35% 내린 188,700원으로 마감, 이틀간 20만원선 아래로 밀렸다.",
+      "watch": "11월9일 188,700원 대비 마감과 외국인 순매도 지속 여부를 확인한다.",
+      "reason_sources": [
+        "stocks-seoul",
+        "close-aju"
+      ]
+    },
+    {
+      "name": "셀트리온",
+      "ticker": "068270",
+      "price": "미확인",
+      "currency": "KRW",
+      "delta": "미확인",
+      "percent": "−1.86",
+      "direction": "missing",
+      "missing_reason": "마감 등락률(−1.86%)만 보도로 확인했고 종가 원문을 조회 시각까지 확인하지 못했다. 역산 가격은 쓰지 않는다.",
+      "source": "close-aju",
+      "additional_sources": [
+        "close-etoday"
+      ],
+      "as_of": "2026-11-06T15:30:00+09:00",
+      "session": "KRX 2026.11.06 정규장 종가 · NXT·시간외 제외",
+      "reason": "급락장에서 −1.86%로 시총 상위 중 낙폭이 작아 바이오 방어 성격이 드러났다(전일 +7.50%).",
+      "watch": "반도체 반발 시 바이오에서 자금이 빠지는지, 상대 강세가 이어지는지 확인한다.",
+      "reason_sources": [
+        "close-aju",
+        "close-etoday"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "원·달러(15:30 주간거래)",
+    "value": "1,356.60",
+    "unit": "원/USD",
+    "delta": "+14.50",
+    "direction": "up",
+    "source": "fx-asiae",
+    "additional_sources": [
+      "fx-aju"
+    ],
+    "as_of": "2026-11-06T15:30:00+09:00",
+    "session": "서울외환시장 주간거래 15:30 · 전 거래일 주간종가 1,342.1원 대비"
+  },
+  "next_checks": [
+    {
+      "label": "2026.11.06 22:30 KST",
+      "title": "미국 10월 고용보고서",
+      "detail": "11월6일 08:30 EST 발표 예정(제3자 일정표, 컨센서스 미확인). 금리·달러와 기술주 반응을 본다."
+    },
+    {
+      "label": "2026.11.06 23:30 KST",
+      "title": "미 반도체 반발 또는 추가 하락",
+      "detail": "11월6일(미 현지, EST) 정규장에서 반도체지수·마이크론·엔비디아가 반발하는지, 데이터센터 규제 구체화 보도가 나오는지 본다."
+    },
+    {
+      "label": "2026.11.09 09:00 KST",
+      "title": "개장: 5,059.69와 반대매매 완화 첫날",
+      "detail": "담보비율 유지의무 면제 시행 첫날 시초가와 하이닉스·삼성 갭, 외국인 매도 지속을 본다."
+    },
+    {
+      "label": "2026.11.09 15:30 KST",
+      "title": "KRX 종가·외국인 4거래일째 매도 여부",
+      "detail": "코스피가 5,059.69와 장중 저점 4,911.28 대비 어디서 마감하는지, 외국인 순매도가 줄어드는지 확인한다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "코웨이 실적 반응",
+      "detail": "발표 전 컨센서스와 11월6일·9일 주가 반응을 확인해 서프라이즈 여부를 판단한다."
+    }
+  ],
+  "calendar_evidence": {
+    "market_date": "2026-11-06",
+    "is_trading_day": true,
+    "early_close": false,
+    "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+    "checked_at": "2026-11-06T15:52:00+09:00",
+    "note": "KRX 휴장일 원칙(월~금 거래, 공휴일 휴장) 기준. 11월6일은 금요일이며 2026년 11월 법정 공휴일·KRX 휴장일이 없다(보조 목록: 10월9일 다음 휴장 12월25일). 15:34 KST 코스피·코스닥 마감 보도로 15:30 정규장 종료를 확인해 조기 폐장이 아니다. 서킷브레이커로 09:03부터 20분간 매매가 정지됐으나 휴장·조기폐장은 아니다. KRX 원문 직접 열람은 이번 실행 네트워크에서 DNS 차단돼 원칙·보조 목록·마감 보도로 확인했다. 다음 5거래일은 11월9·10·11·12·13일이다(수능일 11월19일은 범위 밖).",
+    "additional_urls": [
+      "https://www.calendarlabs.com/krx-market-holidays-2026/"
+    ]
+  },
+  "execution": {
+    "scheduled_start_kst": "2026-11-06T15:45:00+09:00",
+    "scheduled_start_utc": "2026-11-06T06:45:00Z",
+    "actual_start_kst": "2026-11-06T15:45:37+09:00",
+    "actual_start_utc": "2026-11-06T06:45:37Z",
+    "start_offset_seconds": 37,
+    "delay_seconds": 37,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행 · Bash/Git, 공개 GitHub REST API, GitHub MCP, WebSearch. WebFetch 원문 직접 열람은 네트워크 정책(DNS 차단)으로 실패해 웹 검색 원문 발췌로 수치를 확인했다. ToolSearch(kakao, KakaotalkChat MemoChat 나에게 보내기)에서 카카오 나에게 보내기 도구가 노출되지 않았다. 원격 main은 실행 시작 시 이전 로컬 체크아웃과 다른 이력으로 갱신돼 있어 원격 main(2515e9a)을 기준으로 작업했다.",
+    "model_setting": "not_verified",
+    "krx_analysis": {
+      "request_commit": "815eade37868f4b0e74a34b2996afcd55b3bc417",
+      "run_id": 42176565955,
+      "status": "success",
+      "artifact": "krx-analysis-42176565955",
+      "artifact_id": 13483243072,
+      "artifact_digest": "sha256:df43104b297a86f994a881bfdd57cd2b0a3b129b5d9e37edb5fa77b0229e16dc",
+      "requested_end_date": "2026-11-06",
+      "data_date": "미확인(artifact 다운로드 인증 부재, 로그에 기준일 미표시)",
+      "usage": "artifact 내용 미확인 · 오늘 종가·수급·시장 폭 대체 안 함"
+    },
+    "extra_checks": {
+      "anonymous_http": "not_performed_by_user_instruction",
+      "browser": "not_performed_by_user_instruction",
+      "mobile_390_430": "not_performed_by_user_instruction",
+      "zoom_200_percent": "not_performed_by_user_instruction"
+    }
+  },
+  "calculation_notes": "코스피 5,383.80 − 324.11 = 5,059.69, 324.11/5,383.80 = 6.020%로 보도 −6.02%와 일치. 장중 저점 대비 회복 5,059.69 − 4,911.28 = 148.41pt. 코스닥 678.41 − 34.14 = 644.27, 34.14/678.41 = 5.032%. SK하이닉스 1,264,000 − 1,132,000 = 132,000, 132,000/1,264,000 = 10.443%. 삼성전자 201,500 − 188,700 = 12,800, 12,800/201,500 = 6.352%. 외국인 이틀 합계 33,928 + 27,691 = 61,619억원(매체·집계 시점 차이 있음). 원·달러 1,356.6 − 1,342.1 = +14.5원. 셀트리온 가격은 역산하지 않음.",
+  "sources": [
+    {
+      "id": "calendar",
+      "label": "KRX · 휴장일 안내",
+      "url": "https://open.krx.co.kr/contents/MKD/01/0110/01100305/MKD01100305.jsp",
+      "note": "KRX 공식 휴장일 페이지. 월~금 거래·공휴일 휴장 원칙. 이번 실행에서 원문 직접 열람은 네트워크 정책(DNS 차단)으로 실패했다.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "krx-holidays",
+      "label": "CalendarLabs · KRX 2026 휴장일",
+      "url": "https://www.calendarlabs.com/krx-market-holidays-2026/",
+      "note": "보조 목록. 10월9일 다음 KRX 휴장은 12월25일.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "close-asiae",
+      "label": "아시아경제 · 코스피 324.11P 내린 5059.69 마감",
+      "url": "https://view.asiae.co.kr/article/2026110615342878494",
+      "note": "2026.11.06 15:34 KST 기사. 코스피 5,059.69(−324.11, −6.02%).",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "close-news1",
+      "label": "뉴스1 · 코스피 6.02% 하락 5059.69, 코스닥 5.03%↓",
+      "url": "https://www.news1.kr/finance/market-exr/6345820",
+      "note": "마감 2보. 코스피·코스닥 종가 교차 확인.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "kosdaq-news1",
+      "label": "뉴스1 · 코스닥 34.14p(5.03%) 내린 644.27 마감",
+      "url": "https://www.news1.kr/finance/market-exr/6345816",
+      "note": "코스닥 종가.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "close-aju",
+      "label": "아주경제 · [마감시황] 기관·개미 매수에 5000선 사수",
+      "url": "https://www.ajunews.com/view/20261106153649894",
+      "note": "외국인 −2조7,691억, 기관 +1조7,042억, 개인 +6,010억(유가증권, 보도 기준). 장중 저점 4,911.28. 코스닥 개인 −1,106억·외국인 −1,014억·기관 +2,058억. 셀트리온 −1.86%, 삼성바이오로직스 −0.26%.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "close-etoday",
+      "label": "이투데이 · '검은 금요일' 코스피 5050선 턱걸이 마감",
+      "url": "https://www.etoday.co.kr/news/view/2645161",
+      "note": "시총 상위 전 종목 하락. SK스퀘어 −10.51%, SK하이닉스 −10.44%, 삼성전기 −7.84%, 삼성전자 −6.35%, 현대차 −4.77%, LG에너지솔루션 −2.46%, 셀트리온 −1.86%.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "stocks-seoul",
+      "label": "서울신문 · 코스피 5000 간신히 지켰다…18만전자·113만닉스",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/06/20261106500238",
+      "note": "삼성전자 188,700원(−6.35%), SK하이닉스 1,132,000원(−10.44%) 마감. 장 초반 삼성 11%대, 하이닉스 14% 가까이 하락.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "cb-newspim",
+      "label": "뉴스핌 · [개장시황] 코스피 8%대 폭락, 서킷브레이커 발동",
+      "url": "https://www.newspim.com/news/view/20261106000202",
+      "note": "개장 직후 서킷브레이커 1단계 발동 보도.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "cb-search",
+      "label": "뉴스핌 · 서킷브레이커 후 5100선 회복, 코스닥 낙폭 축소",
+      "url": "https://www.newspim.com/news/view/20261106000702",
+      "note": "09:03 KST 1단계 서킷브레이커(20분 매매 정지), 코스닥 매도 사이드카, 이후 낙폭 축소(장중 보도).",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "cb-mydaily",
+      "label": "마이데일리 · 개장 3분 만에 서킷브레이커",
+      "url": "https://www.mydaily.co.kr/page/view/2026110609362308899",
+      "note": "시가 5,263.26(−2.24%) 출발 뒤 2분30초 만에 4,950.14, 20분 매매 중단.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "gov-newspim",
+      "label": "뉴스핌 · 정부, 신용융자 담보비율 유지의무 3개월 면제",
+      "url": "https://www.newspim.com/news/view/20261106000559",
+      "note": "11월6일 긴급 시장상황점검회의. 140% 담보비율 유지의무 9일부터 3개월 면제.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "gov-news1",
+      "label": "뉴스1 · 신용융자 담보비율 유지 의무 3개월간 면제",
+      "url": "https://www.news1.kr/economy/trend/6345529",
+      "note": "교차 확인.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "fx-asiae",
+      "label": "아시아경제 · 원·달러 14.5원 오른 1356.6원(오후 3시30분)",
+      "url": "https://view.asiae.co.kr/article/2026110615362639023",
+      "note": "서울외환시장 주간거래 15:30 1,356.6원, 전 거래일 주간종가 1,342.1원 대비 +14.5원.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "fx-aju",
+      "label": "아주경제 · 원·달러 1350원대 후반 급등",
+      "url": "https://www.ajunews.com/view/20261106102358104",
+      "note": "장중 흐름. 미국 기술주 폭락에 위험회피.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "coway-aju",
+      "label": "아주경제 · 코웨이 3분기 영업익 2608억원",
+      "url": "https://www.ajunews.com/view/20261106110309248",
+      "note": "2026년 3분기 연결 매출 1조4,261억(+13.7%), 영업이익 2,608억(+7.3%), 해외 매출 +26%. 컨센서스·주가 반응 미확인.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "coway-inthenews",
+      "label": "인더뉴스 · 코웨이 영업익 2608억…전년비 7.3%↑",
+      "url": "https://www.inthenews.co.kr/news/article.html?no=94161",
+      "note": "교차 확인. 순이익 1,115억(−36.6%)은 다른 보도 기준.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "sox-pre",
+      "label": "뉴스핌 · [AI MY 증시전망] 美 반도체주 폭락에 추가 하락 우려",
+      "url": "https://www.newspim.com/news/view/20261106000058",
+      "note": "11월5일(미 현지, EST) 필라델피아 반도체지수 12%대 급락 배경.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "mu-si",
+      "label": "StreetInsider · 마이크론 대만 공장 중단 보도",
+      "url": "https://www.streetinsider.com/Investing/Micron+shares+drop+on+Taiwan+plant+suspension+report/27297564.html",
+      "note": "마이크론 대만 타오위안 신공장 건설 중단 보도.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "jobs-cal",
+      "label": "FinanceCalendar · 미국 고용보고서 일정",
+      "url": "https://www.financecalendar.com/event/us-employment-situation-non-farm-payrolls-november-2026/",
+      "note": "제3자 일정표. 11월6일 08:30 EST = 22:30 KST. 컨센서스 미확인.",
+      "queried_at": "2026-11-06T15:52:00+09:00"
+    },
+    {
+      "id": "krx-analysis",
+      "label": "GitHub Actions · KRX 일별 분석 요청",
+      "url": "https://github.com/meangyulim/cost/actions/runs/42176565955",
+      "note": "요청 커밋 815eade, run 42176565955 success, artifact krx-analysis-42176565955. artifact 내용·data_date는 다운로드 인증 부재로 미확인.",
+      "queried_at": "2026-11-06T15:52:00+09:00",
+      "show_public": true
+    }
+  ],
+  "reading": {
+    "headline": "서킷 뒤 반등, 코스피 5000선 지켜",
+    "summary_points": [
+      "코스피 −6.02% 5,059.69, 장중 4,911까지 밀렸다.",
+      "외국인 2조7,691억 매도를 기관·개인이 받았다.",
+      "하이닉스 −10%·삼성 −6%, 바이오 낙폭은 작았다."
+    ],
+    "notices": [
+      "수급은 마감 보도 기준이며 KRX 확정치와 대조하지 않았다.",
+      "가격은 KRX 정규장 종가(NXT·시간외 제외). 셀트리온 종가 원문은 미확인이다.",
+      "KRX 일별 분석은 실행 성공만 확인했고 내용·기준일은 미확인이다."
+    ],
+    "issues": [
+      {
+        "title": "서킷브레이커 뒤 낙폭 축소",
+        "preview": "장중 −8.8%에서 −6.02%로 줄여 5000선 지켰다.",
+        "points": [
+          "09:03 1단계 서킷브레이커로 20분 정지, 코스닥은 사이드카.",
+          "장중 저점 4,911.28에서 약 148pt 회복해 마감했다."
+        ],
+        "meaning": "패닉 매도 뒤 저가 매수가 확인됐지만 이틀 연속 급락 추세는 남아 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월9일(월) KRX 정규장 종가을 5,059.69와 비교한다. 장중 저점 대비 회복과 반대매매 완화가 반발 근거다.",
+            "counter": "미국 반도체 추가 하락이면 시초 갭 하락 뒤 4,911.28 재시험 위험이 있다. 시초 반등 후 외국인 매도로 되밀릴 수 있다.",
+            "invalidation": "5,059.69 위 마감과 외국인 매도 축소면 상방, 4,911.28 이탈 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "close-asiae",
+              "close-aju",
+              "gov-newspim"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준. 역사적 저평가 주장과 AI 규제 불확실성이 맞선다.",
+            "counter": "규제 범위가 구체화되지 않았고 미국 고용보고서 결과도 미확인이다.",
+            "invalidation": "외국인 2거래일 연속 순매수면 상방, 5,000선 아래 2거래일 마감이면 하방으로 갱신한다.",
+            "sources": [
+              "close-asiae",
+              "sox-pre"
+            ]
+          }
+        }
+      },
+      {
+        "title": "외국인 2조7,691억 매도, 기관·개인 흡수",
+        "preview": "이틀 외국인 매도 6조원대, 기관이 1.7조 받았다.",
+        "points": [
+          "외국인 −2조7,691억, 기관 +1조7,042억, 개인 +6,010억.",
+          "코스닥은 기관만 2,058억 순매수였다."
+        ],
+        "meaning": "외국인 매도가 멈추기 전까지 반등은 국내 자금에 의존한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피 수급",
+            "basis": "11월9일(월) KRX 정규장 종가의 외국인 순매도 규모를 오늘 2조7,691억과 비교한다.",
+            "counter": "외국인 매도가 3거래일째 이어지면 기관 매수 여력만으로 버티기 어렵다.",
+            "invalidation": "외국인 순매도 1조원 미만이면 상방, 3조원 이상이면 하방으로 갱신한다.",
+            "sources": [
+              "close-aju"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피 수급",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준. 외국인 매도의 지속 기간은 미국 반도체 방향에 달려 있다.",
+            "counter": "외국인 매도 주체·이유는 확인하지 않았다.",
+            "invalidation": "외국인 순매수 전환 시 갱신한다.",
+            "sources": [
+              "close-aju",
+              "close-etoday"
+            ]
+          }
+        }
+      },
+      {
+        "title": "반도체 대형주 주도 하락",
+        "preview": "하이닉스 −10.44%·삼성 −6.35%, 바이오는 소폭.",
+        "points": [
+          "SK스퀘어 −10.51%, 삼성전기 −7.84%도 크게 내렸다.",
+          "삼성바이오 −0.26%, 셀트리온 −1.86%로 상대 방어."
+        ],
+        "meaning": "지수 방향은 반도체 두 종목의 미국 반도체 반응에 좌우된다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 오늘 밤 미국 반도체 결과 전이라 보류한다.",
+            "counter": "전날 미국 급락은 이틀에 걸쳐 반영됐을 수 있다.",
+            "invalidation": "미국 반도체지수 11월6일 종가 방향으로 갱신한다.",
+            "sources": [
+              "sox-pre",
+              "stocks-seoul"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "국내 반도체",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준. 메모리 이익 전망과 AI 인프라 규제 우려가 맞선다.",
+            "counter": "마이크론 공장 중단·규제 구체화 여부 미확인.",
+            "invalidation": "2거래일 연속 같은 방향 마감이면 갱신한다.",
+            "sources": [
+              "mu-si",
+              "stocks-seoul"
+            ]
+          }
+        }
+      },
+      {
+        "title": "신용 담보비율 의무 3개월 면제",
+        "preview": "11월9일부터 140% 유지의무 면제, 반대매매 완화.",
+        "points": [
+          "긴급 시장점검회의에서 결정했다.",
+          "변동성 확대 시 추가 조치를 검토한다."
+        ],
+        "meaning": "강제 매도 연쇄를 줄일 수 있으나 하락 원인 자체를 바꾸지는 않는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코스피·신용 비중 종목",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 시행 첫날 반대매매 물량이 줄 수 있다.",
+            "counter": "증권사별 적용 범위가 확인되지 않았고 해외 악재가 크면 효과가 묻힐 수 있다.",
+            "invalidation": "시행 후에도 장중 낙폭 확대면 효과 제한으로 갱신한다.",
+            "sources": [
+              "gov-newspim",
+              "gov-news1"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "코스피·신용 비중 종목",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준. 신용 매물 부담 완화가 근거다.",
+            "counter": "의무 면제는 손실을 미룰 뿐 신용 잔고는 남는다.",
+            "invalidation": "신용잔고·반대매매 통계 확인 후 갱신한다.",
+            "sources": [
+              "gov-newspim"
+            ]
+          }
+        }
+      },
+      {
+        "title": "원·달러 1,356.6원 급등",
+        "preview": "14.5원 올라 위험회피, 외국인 매도와 맞물렸다.",
+        "points": [
+          "1,338.5원 하락 출발 뒤 반전했다.",
+          "15:30 주간거래 기준이다."
+        ],
+        "meaning": "환율 상승은 외국인 매도 압력과 함께 움직였다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "원·달러",
+            "basis": "11월9일(월) KRX 정규장 종가 서울외환시장 주간거래 기준. 미국 고용보고서 전이라 보류한다.",
+            "counter": "고용 결과는 달러와 위험선호에 서로 다른 방향으로 작용할 수 있다.",
+            "invalidation": "고용보고서 후 달러지수 반응으로 갱신한다.",
+            "sources": [
+              "fx-asiae",
+              "jobs-cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "원·달러",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기간 주간거래 기준.",
+            "counter": "주식 매도 지속 여부 미확인.",
+            "invalidation": "외국인 순매수 전환 시 갱신한다.",
+            "sources": [
+              "fx-asiae"
+            ]
+          }
+        }
+      },
+      {
+        "title": "코웨이 3분기 영업이익 +7.3%",
+        "preview": "매출 +13.7%, 해외 26%대 성장. 기대 대비는 미확인.",
+        "points": [
+          "영업이익 2,608억원, 매출 1조4,261억원.",
+          "컨센서스·주가 반응은 확인하지 못했다."
+        ],
+        "meaning": "성장은 확인됐지만 기대 대비 결과는 판단 보류다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코웨이",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 발표 전 컨센서스와 오늘 주가 반응이 미확인이라 보류한다.",
+            "counter": "급락장에서는 실적과 무관한 매도가 나올 수 있다.",
+            "invalidation": "컨센서스 대비 결과와 11월9일 종가 확인 후 갱신한다.",
+            "sources": [
+              "coway-aju"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코웨이",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "영업이익률 하락 지적이 있다.",
+            "invalidation": "증권사 목표가 조정 확인 후 갱신한다.",
+            "sources": [
+              "coway-inthenews"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "미 반도체 반발 시: 반도체 시초 반등 가능, 외국인 매도 지속이면 장중 되밀림 위험.",
+      "미 반도체 추가 하락 시: 4,911.28 재시험과 서킷브레이커 재발동 가능성 점검.",
+      "반대매매 완화 첫날 장 초반 매물 감소가 확인되는지 본다."
+    ],
+    "stocks": {
+      "000660": {
+        "reason": "미 반도체 급락 여파에 10.44% 하락, 장중 14% 가까이 빠졌다.",
+        "watch": "미국 메모리 반응과 1,132,000원 위 마감 여부.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월9일(월) KRX 정규장 종가을 1,132,000원과 비교한다. 장중 저점 대비 회복이 반발 근거.",
+            "counter": "미국 반도체 추가 하락 시 시초 갭 하락 위험. 시초 반등 뒤 외국인 매도로 되밀릴 수 있다.",
+            "invalidation": "미국 메모리 반발과 외국인 매도 축소면 상방, 1,132,000원 아래에서 회복 실패면 하방.",
+            "sources": [
+              "stocks-seoul"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "SK하이닉스",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준. 이익 전망과 AI 인프라 규제 우려가 맞선다.",
+            "counter": "규제 구체화와 마이크론 공장 이슈 미확인.",
+            "invalidation": "2거래일 연속 같은 방향 마감이면 갱신한다.",
+            "sources": [
+              "stocks-seoul",
+              "mu-si"
+            ]
+          }
+        }
+      },
+      "005930": {
+        "reason": "장 초반 11%대 급락 뒤 회복해 6.35% 하락 마감.",
+        "watch": "188,700원 대비 마감과 외국인 매도 지속.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월9일(월) KRX 정규장 종가을 188,700원과 비교한다.",
+            "counter": "외국인 매도 지속 시 장중 변동성 확대.",
+            "invalidation": "188,700원 아래 마감이면 하방, 외국인 매수 전환이면 상방으로 갱신.",
+            "sources": [
+              "stocks-seoul",
+              "close-aju"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "삼성전자",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "미국 반도체 방향 미확인.",
+            "invalidation": "2거래일 연속 같은 방향 마감이면 갱신한다.",
+            "sources": [
+              "stocks-seoul"
+            ]
+          }
+        }
+      },
+      "068270": {
+        "reason": "급락장에서 −1.86%로 상대 방어(종가 원문 미확인).",
+        "watch": "반도체 반발 시 바이오 자금 이탈 여부.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "셀트리온",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 종가 원문 미확인으로 비교 기준가는 다음 회차에 확인한다.",
+            "counter": "반도체 반등 시 순환매 자금이 빠질 수 있다.",
+            "invalidation": "시장 대비 상대 강세가 이어지면 상방, 반도체 반등에 하락하면 하방으로 갱신.",
+            "sources": [
+              "close-aju",
+              "close-etoday"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "셀트리온",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "기업별 재료 미확인.",
+            "invalidation": "신규 공시 확인 후 갱신한다.",
+            "sources": [
+              "close-aju"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "미국 10월 고용보고서",
+        "detail": "22:30 KST 발표 예정. 금리·달러·기술주 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "원·달러·코스피",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 발표 전이라 보류한다.",
+            "counter": "고용 결과는 이익과 할인율에 반대로 작용할 수 있다.",
+            "invalidation": "발표 후 금리·달러 반응으로 갱신한다.",
+            "sources": [
+              "jobs-cal"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "원·달러·코스피",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "발표 전.",
+            "invalidation": "결과 확인 후 갱신한다.",
+            "sources": [
+              "jobs-cal"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미 반도체 반발 또는 추가 하락",
+        "detail": "반도체지수·마이크론 반응과 규제 구체화를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 미국 장 결과 전이라 보류한다.",
+            "counter": "전날 급락이 이미 반영됐을 수 있다.",
+            "invalidation": "미국 반도체지수 종가 방향으로 갱신한다.",
+            "sources": [
+              "sox-pre"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "국내 반도체",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "규제 구체화 미확인.",
+            "invalidation": "구체 규제 발표 시 갱신한다.",
+            "sources": [
+              "mu-si"
+            ]
+          }
+        }
+      },
+      {
+        "title": "개장: 5,059.69와 반대매매 완화 첫날",
+        "detail": "시초가와 하이닉스·삼성 갭, 외국인 매도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월9일(월) KRX 정규장 종가 시초가·종가를 5,059.69와 구분해 본다.",
+            "counter": "시초 방향과 종가 방향이 다를 수 있다.",
+            "invalidation": "미국 장 결과로 갱신한다.",
+            "sources": [
+              "close-asiae",
+              "gov-newspim"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "수급 미확인.",
+            "invalidation": "외국인 순매수 전환 시 갱신한다.",
+            "sources": [
+              "close-aju"
+            ]
+          }
+        }
+      },
+      {
+        "title": "KRX 종가·외국인 수급",
+        "detail": "5,059.69·4,911.28 대비 마감과 외국인 매도 축소를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월9일(월) KRX 정규장 종가 기준.",
+            "counter": "외국인 매도 규모 미확인.",
+            "invalidation": "외국인 순매도 1조원 미만이면 상방 쪽으로 갱신.",
+            "sources": [
+              "close-aju"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코스피",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "미국 지표 반응 미확인.",
+            "invalidation": "확인 후 갱신한다.",
+            "sources": [
+              "close-aju"
+            ]
+          }
+        }
+      },
+      {
+        "title": "코웨이 실적 반응",
+        "detail": "컨센서스 대비와 주가 반응을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "코웨이",
+            "basis": "11월9일(월) KRX 정규장 종가 기준. 기대 대비 미확인이라 보류한다.",
+            "counter": "실적 기대 반영 정도 미확인.",
+            "invalidation": "확인 후 갱신한다.",
+            "sources": [
+              "coway-aju"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코웨이",
+            "basis": "11월9·10·11·12·13일 KRX 정규장 종가 기준.",
+            "counter": "미확인.",
+            "invalidation": "확인 후 갱신한다.",
+            "sources": [
+              "coway-aju"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "calendar": "KRX · 휴장일 안내",
+      "krx-holidays": "CalendarLabs · KRX 2026 휴장일",
+      "close-asiae": "아시아경제 · 코스피 324.11P 내린 5059.69 마감",
+      "close-news1": "뉴스1 · 코스피 6.02% 하락 5059.69, 코스닥 5.03%↓",
+      "kosdaq-news1": "뉴스1 · 코스닥 34.14p(5.03%) 내린 644.27 마감",
+      "close-aju": "아주경제 · [마감시황] 기관·개미 매수에 5000선 사수",
+      "close-etoday": "이투데이 · '검은 금요일' 코스피 5050선 턱걸이 마감",
+      "stocks-seoul": "서울신문 · 코스피 5000 간신히 지켰다…18만전자·113만닉스",
+      "cb-newspim": "뉴스핌 · [개장시황] 코스피 8%대 폭락, 서킷브레이커 발동",
+      "cb-search": "뉴스핌 · 서킷브레이커 후 5100선 회복, 코스닥 낙폭 축소",
+      "cb-mydaily": "마이데일리 · 개장 3분 만에 서킷브레이커",
+      "gov-newspim": "뉴스핌 · 정부, 신용융자 담보비율 유지의무 3개월 면제",
+      "gov-news1": "뉴스1 · 신용융자 담보비율 유지 의무 3개월간 면제",
+      "fx-asiae": "아시아경제 · 원·달러 14.5원 오른 1356.6원(오후 3시30분)",
+      "fx-aju": "아주경제 · 원·달러 1350원대 후반 급등",
+      "coway-aju": "아주경제 · 코웨이 3분기 영업익 2608억원",
+      "coway-inthenews": "인더뉴스 · 코웨이 영업익 2608억…전년비 7.3%↑",
+      "sox-pre": "뉴스핌 · [AI MY 증시전망] 美 반도체주 폭락에 추가 하락 우려",
+      "mu-si": "StreetInsider · 마이크론 대만 공장 중단 보도",
+      "jobs-cal": "FinanceCalendar · 미국 고용보고서 일정",
+      "krx-analysis": "GitHub Actions · KRX 일별 분석 요청"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-06T15:52:00+09:00",
+      "input_cutoff": "2026-11-06T15:52:00+09:00",
+      "added_later": false,
+      "evaluation_eligible": false,
+      "note": "조건부 해석이며 검증 전입니다. 다음 거래일은 11월9일 KRX 정규장 종가, 5거래일은 11월9·10·11·12·13일 KRX 정규장 종가 기준입니다."
+    }
+  }
+}
