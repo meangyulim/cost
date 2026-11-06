@@ -1,0 +1,1096 @@
+{
+  "id": "us-close-2026-11-06",
+  "title": "11월 6일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-06 09:30~16:00 EST 정규장(2026-11-06 23:30~11-07 06:00 KST)",
+  "market_date": "2026-11-06",
+  "session": "close",
+  "as_of": "2026-11-07T06:00:00+09:00",
+  "queried_at": "2026-11-07T06:22:30+09:00",
+  "is_test": false,
+  "summary": "반도체 반발에 나스닥 +1.09%, 고용 서프라이즈·금리 상승에 다우는 −0.46%",
+  "summary_detail": "전날 AI·반도체 투매(나스닥 −5.52%) 뒤 11/6 나스닥은 1.09% 오른 24,579.42, S&P500은 0.31% 오른 7,376.86으로 반발했고 다우는 237.33p 내린 51,285.73이었다(잠정). 반도체가 장중 +4~11% 반등했지만 10월 고용이 16.5만명으로 예상을 크게 넘으며 10년물이 4.87% 안팎으로 오르고 12월 인상 확률이 75~78%로 높아져 상승폭이 제한됐다. Airbnb·Cloudflare는 실적으로 급등, Atlassian은 전망 둔화로 급락했다.",
+  "interpretation": "반발은 반도체·실적주 중심이었고 금리 부담으로 다우는 밀렸다. 장 초반 고점 대비 상승폭 축소가 보도돼 반발 강도는 제한적이다. 원문 사이트 직접 열람이 막혀 지수는 검색 요약의 잠정 종가, 개별 종목은 장중 보도값만 확인했다. 한국장 11/9는 11/6 급락(코스피 −6.02%) 뒤 미국 반도체 반발을 반영하는 개장이 된다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,376.86",
+      "unit": "pt",
+      "delta": "+23.13",
+      "percent": "+0.31",
+      "direction": "up",
+      "source": "ts_close",
+      "additional_sources": [
+        "yf_live"
+      ],
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 미국 정규장 종가(16:00 EST = 11/7 06:00 KST) · 잠정 · 포인트 변화는 11/5 잠정 종가 7,353.73 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "24,579.42",
+      "unit": "pt",
+      "delta": "+264.42",
+      "percent": "+1.09",
+      "direction": "up",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "ts_close",
+        "invezz"
+      ],
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 미국 정규장 종가(16:00 EST = 11/7 06:00 KST) · 잠정 · 포인트 변화는 11/5 잠정 종가 24,315.00 기준 계산",
+      "provisional": true
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "51,285.73",
+      "unit": "pt",
+      "delta": "−237.33",
+      "percent": "−0.46",
+      "direction": "down",
+      "source": "ts_close",
+      "additional_sources": [
+        "invezz"
+      ],
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 미국 정규장 종가(16:00 EST = 11/7 06:00 KST) · 잠정 · 포인트 변화 보도값(11/5 51,523.06과 일치)",
+      "provisional": true
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,758.64",
+      "unit": "pt",
+      "delta": "미확인",
+      "percent": "+1.05",
+      "direction": "missing",
+      "missing_reason": "등락률만 보도됐고 11/5 종가를 확인하지 못해 포인트 변화를 계산하지 않음.",
+      "source": "ts_close",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 미국 정규장 종가(16:00 EST = 11/7 06:00 KST) · 잠정 · 포인트 변화 미확인",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "반도체 반발, 나스닥 +1.09%·다우는 하락",
+      "fact": "11/6 정규장 나스닥은 1.09% 오른 24,579.42, S&P500은 0.31% 오른 7,376.86으로 마감했고 다우는 237.33p(0.46%) 내린 51,285.73이었다(잠정). 전날 나스닥 −5.52%·필라델피아 반도체지수 약 −12% 뒤 반도체가 반발을 이끌었다. 장중 보도 기준 반도체 ETF(SMH) +3.8%, AMD +10~11%대, 마이크론 +5~6%, 엔비디아 +3~6%였으며 종가 기준 개별 등락률은 확인하지 못했다. 나스닥은 장 초반 +1.7~1.9%까지 올랐다가 상승폭을 줄였다는 보도가 있다(정확한 고점·시각 미확인). 금요일 전까지 주간 낙폭은 S&P500 −3%, 나스닥 −4.4%였다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "ts_close",
+        "bz_mkt",
+        "yf_chips",
+        "yf_live"
+      ]
+    },
+    {
+      "title": "고용 16.5만 서프라이즈→12월 인상 베팅",
+      "fact": "10월 비농업 고용은 16.5만명 증가로 예상(약 5.9만~7만)을 크게 넘었고 실업률은 4.1%로 내렸다(11/6 08:30 EST). 10년물은 4.87% 안팎(+4bp, 보도별 4.868~4.88%)으로 올랐고 시장 반영 12월 금리 인상 확률은 약 75~78%로 발표 전(70~72%)보다 높아졌다는 보도다. 금리 상승이 경기민감·대형 가치주 비중이 큰 다우를 눌렀다는 해석이 나왔다.",
+      "source": "bbg_jobs",
+      "additional_sources": [
+        "ust_bbg",
+        "ust_pom",
+        "hike_odds",
+        "invezz"
+      ]
+    },
+    {
+      "title": "엔비디아 반등 속 의회 비공개 브리핑 요청",
+      "fact": "엔비디아는 09:50 ET 193.91USD(+6.78%)까지 올랐고 15:13 ET 기준 +4.06%로 상승폭을 줄였다(장중 보도). 하원 위원회 위원장 3명이 젠슨 황 CEO에게 비공개 브리핑 참석을 요청했다는 보도가 나왔다. 민주당 의회 장악 뒤 AI·데이터센터 규제 우려는 해소되지 않았다.",
+      "source": "gf_nvda",
+      "additional_sources": [
+        "st_live",
+        "cnbc_live"
+      ]
+    },
+    {
+      "title": "실적주 엇갈림: Airbnb·Cloudflare↑, Atlassian↓",
+      "fact": "Airbnb는 3분기 EPS 3.16USD(예상 2.85USD), 매출 약 49억USD(+19%)와 120억USD 자사주 매입으로 개장 191.01USD(+12.27%), 15:13 ET +12.51%였다. Cloudflare는 매출 +39%와 가이던스 상회로 오전 약 +20%에서 15:13 ET +11.08%로 상승폭을 줄였다. Atlassian은 EPS가 예상을 넘었지만 FY2027 성장 둔화·데이터센터 매출 감소 전망으로 15:13 ET −14.45%였다(모두 장중 보도, 종가 미확인).",
+      "source": "st_live",
+      "additional_sources": [
+        "abnb_tv",
+        "abnb_ir",
+        "net_247",
+        "net_ir",
+        "team_yf",
+        "cnbc_mid"
+      ]
+    },
+    {
+      "title": "램리서치 250억USD 자사주 매입 뒤 반발",
+      "fact": "램리서치는 11/5 장 마감 뒤 250억USD 자사주 매입 승인과 분기 배당 0.33USD를 발표했다. 11/6 오전 +10.8%, 장중 고가 209.18USD, 15:13 ET +9.09%가 보도됐다. 11/5 정규장은 185.20USD(−16.4%, 잠정)였다. 매입 승인은 실행 의무가 아니다.",
+      "source": "lrcx_pr",
+      "additional_sources": [
+        "lrcx_inv",
+        "st_live"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "gf_nvda",
+      "additional_sources": [
+        "st_live",
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 09:50 EST 193.91USD(+6.78%), 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +4.06%, CNBC 마감 무렵 약 +3% · 11/5 종가 181.60USD(잠정)",
+      "reason": "전날 −9.3% 뒤 반발했지만 의회 브리핑 요청이 나왔다.",
+      "watch": "11/9 정규장에서 181.60USD 위 유지와 의회 브리핑 후속 보도를 본다.",
+      "reason_sources": [
+        "gf_nvda",
+        "st_live",
+        "cnbc_live"
+      ]
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "st_live",
+      "additional_sources": [
+        "yf_chips",
+        "bz_mkt"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 09:36 EST +10.41%, 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +11.37%, 다른 장중 보도 +9.8% · 11/5 종가 404.40USD(잠정)",
+      "reason": "전날 −17.3% 뒤 반도체 반등을 주도했다.",
+      "watch": "확정 종가와 404.40USD 대비 반등 유지 여부를 본다.",
+      "reason_sources": [
+        "st_live",
+        "yf_chips",
+        "bz_mkt"
+      ]
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "st_live",
+      "additional_sources": [
+        "bz_mkt",
+        "yf_chips",
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +6.08%, 다른 장중 보도 +4.9~6.3%, CNBC 약 +5% · 11/5 종가 656.39USD(잠정)",
+      "reason": "전날 −17.5% 투매 뒤 반발했으나 공장 중단 이슈는 남아 있다.",
+      "watch": "대만 Fab 11E 중단 후속 설명과 656.39USD 지지를 본다.",
+      "reason_sources": [
+        "st_live",
+        "bz_mkt",
+        "yf_chips",
+        "cnbc_live"
+      ]
+    },
+    {
+      "name": "램리서치",
+      "ticker": "LRCX",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "lrcx_inv",
+      "additional_sources": [
+        "lrcx_pr",
+        "st_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 오전 +10.8%·고가 209.18USD, 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +9.09% · 11/5 종가 185.20USD(잠정)",
+      "reason": "250억USD 자사주 매입 승인이 급락 뒤 반등을 도왔다.",
+      "watch": "장비주 동반 반등이 이어지는지와 실제 매입 집행을 본다.",
+      "reason_sources": [
+        "lrcx_inv",
+        "lrcx_pr",
+        "st_live"
+      ]
+    },
+    {
+      "name": "에어비앤비",
+      "ticker": "ABNB",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "abnb_tv",
+      "additional_sources": [
+        "abnb_ir",
+        "st_live",
+        "cnbc_mid"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 09:30 EST 191.01USD(+12.27%), 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +12.51% · 11/5 종가 170.13USD(잠정)",
+      "reason": "3분기 실적 상회·연간 전망 상향·120억USD 매입.",
+      "watch": "실적 갭 상승분(약 +12%)을 다음 주에도 지키는지 본다.",
+      "reason_sources": [
+        "abnb_tv",
+        "abnb_ir",
+        "st_live",
+        "cnbc_mid"
+      ]
+    },
+    {
+      "name": "클라우드플레어",
+      "ticker": "NET",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "net_247",
+      "additional_sources": [
+        "net_ir",
+        "st_live",
+        "cnbc_mid"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 오전 약 +20%(293.43USD), 12:50 EST 271.48USD(+11.03%), 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 +11.08% · 11/5 종가 미확인(11/5 보도 244.51~245USD)",
+      "reason": "매출 +39%·가이던스 상회로 급등했지만 오전 고점에서 밀렸다.",
+      "watch": "장중 고점 대비 되돌림이 이어지는지 본다.",
+      "reason_sources": [
+        "net_247",
+        "net_ir",
+        "st_live",
+        "cnbc_mid"
+      ]
+    },
+    {
+      "name": "아틀라시안",
+      "ticker": "TEAM",
+      "price": "미확인",
+      "currency": "USD",
+      "delta": "미확인",
+      "percent": "미확인",
+      "direction": "missing",
+      "missing_reason": "이번 실행에서 11/6 정규장 종가 원문을 확인하지 못함(원문 사이트 직접 접속 차단, Massive 산출물 미사용). 장중 보도값만 표시.",
+      "source": "team_yf",
+      "additional_sources": [
+        "team_bz",
+        "st_live",
+        "cnbc_mid"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "session": "2026-11-06 정규장 종가 미확인 · 장전 156.47USD(−14.63%), 09:35 EST 157.29USD(−14.2%), 2026-11-06 15:13 EST(11/7 05:13 KST) 장중 스냅숏 −14.45% · 11/5 종가 미확인(검색 결과 183.29/189.88 상충)",
+      "reason": "실적 상회에도 FY2027 성장 둔화 전망에 급락했다.",
+      "watch": "목표가 하향 이어짐과 150USD대 지지를 본다.",
+      "reason_sources": [
+        "team_yf",
+        "team_bz",
+        "st_live",
+        "cnbc_mid"
+      ]
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "약 4.87",
+    "unit": "%",
+    "delta": "+약 0.04%p(보도)",
+    "direction": "up",
+    "source": "ust_pom",
+    "additional_sources": [
+      "ust_bbg",
+      "hike_odds"
+    ],
+    "as_of": "2026-11-07T06:00:00+09:00",
+    "session": "11/6 고용 발표 뒤 보도값(4.868~4.88%) · 정확한 시각·마감값 미확인"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-09 09:00 KST",
+      "title": "한국장 개장: 반도체 반발 반영",
+      "detail": "코스피는 11/6 −6.02%(5,059.69), SK하이닉스 −10.44%(1,132,000원)·삼성전자 −6.35%(188,700원)였다. 그 뒤 미국 반도체가 장중 +4~11% 반발했지만 나스닥은 장 초반 고점에서 상승폭을 줄였다. 개장 갭 상승 폭과 장 초반 되돌림, 외국인 수급, 원/달러(11/6 주간 1,356.60원), 11/9부터 적용되는 신용융자 담보비율 유지의무 면제의 반대매매 완화 효과를 본다."
+    },
+    {
+      "label": "2026-11-09 23:30 KST",
+      "title": "미국 정규장: 반발 2일차 확인",
+      "detail": "엔비디아 181.60USD·AMD 404.40USD·마이크론 656.39USD(11/5 종가) 위 유지와 11/6 확정 종가를 확인한다. 하루 반발 뒤 추가 매수가 붙는지가 관건이다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "10년물·12월 인상 확률",
+      "detail": "10년물 4.87% 안팎과 12월 인상 확률 75~78%(보도)가 더 오르는지 본다. 연준 인사 발언과 다음 물가 지표 일정은 이번 실행에서 공식 확인하지 못했다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "의회 AI·데이터센터 규제 구체화",
+      "detail": "하원 위원장들의 젠슨 황 비공개 브리핑 일정, 데이터센터 건설 제한 법안·주정부 발표가 나오는지 확인한다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "실적 갭 유지: Airbnb·Cloudflare·Atlassian",
+      "detail": "실적 다음 날 갭이 다음 주에 이어지는지(드리프트) 또는 되돌리는지 확인한다. 하루 반응만으로 실적 개선을 단정하지 않는다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf"
+    ],
+    "market_date": "2026-11-06",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-07T06:22:30+09:00",
+    "note": "NYSE 2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/6(금)가 없어 정상 거래일·정규 폐장으로 판단했다. 같은 날 정규장 마감 보도(CNBC·TheStreet)도 거래를 확인한다. 원문 페이지는 네트워크 정책(프록시 403)으로 직접 열지 못했고 검색 결과로 확인했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-06 23:30~11-07 06:00 KST. 다음 거래일 11/9(월), d5 구간 11/9·10·11·12·13은 휴장 목록에 없다(11/11 재향군인의 날은 NYSE 정상 거래)."
+  },
+  "calculation_notes": "지수 값·등락률은 TheStreet·CNBC 마감 보도값(검색 요약). 포인트 변화: S&P500 7,376.86−7,353.73(11/5 잠정 종가)=+23.13(+0.315%), 나스닥 24,579.42−24,315.00=+264.42(+1.087%); 기준값은 us-close-2026-11-05 회차의 잠정 종가. 다우 51,523.06−237.33=51,285.73으로 일치(−0.461%). 러셀2000 포인트 변화는 전일 종가 미확인으로 계산하지 않음. 개별 종목은 11/6 정규장 종가 원문을 확인하지 못해 가격·변동액을 미확인으로 두고 장중 보도 등락률만 session에 기록. 11/5 종가(NVDA 181.60, MU 656.39, AMD 404.40, LRCX 185.20, ABNB 170.13)는 us-pre-2026-11-06 회차의 잠정값. 10년물 +약 0.04%p는 보도값(직접 계산 아님).",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "2026 휴장(11/26 추수감사절)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/6(금)가 없어 정상 거래일·정규 폐장으로 판단. 원문 페이지는 이번 실행 네트워크 정책(프록시 403)으로 직접 열지 못했고 검색 결과로 확인."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "note": "NYSE Group 공식 휴장·조기폐장 발표 문서. 2026년 조기폐장은 11/27·12/24 13:00 ET, 11/11 재향군인의 날은 정상 거래. 검색 결과로 확인."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11월 6일 장 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+      "note": "나스닥 1.09% 오른 24,579.42 마감, 전날 18개월 만의 최악 하루 뒤 기술주 반발. 엔비디아 약 +3%, 마이크론 약 +5%(게시 시점 표현). URL 날짜는 11/5이나 본문은 11/6(금) 세션. 검색 요약으로 확인(원문 직접 열람 불가)."
+    },
+    {
+      "id": "ts_close",
+      "label": "TheStreet · 11월 6일 마감 지수",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026",
+      "note": "마감: 나스닥 24,579.42(+1.09%), 러셀2000 2,758.64(+1.05%), S&P500 7,376.86(+0.31%), 다우 51,285.73(−0.46%). 검색 요약으로 확인."
+    },
+    {
+      "id": "yf_live",
+      "label": "Yahoo Finance · 11월 6일 장 라이브",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+      "note": "나스닥·S&P500 반등, 다우 하락으로 AI주에 힘든 한 주 마감. 금요일 전까지 주간 S&P500 −3%, 나스닥 −4.4%. 게시물 내 시점별 수치가 상이."
+    },
+    {
+      "id": "invezz",
+      "label": "Invezz · 나스닥 1% 반등, 다우는 고용 호조에도 하락",
+      "url": "https://invezz.com/ng/news/2026/11/06/nasdaq-rebounds-1percent-as-chip-stocks-recover-dow-falls-despite-strong-jobs-data/",
+      "note": "반도체 반등으로 나스닥 1% 상승, 강한 고용 지표에도 다우 하락. 검색 요약으로 확인."
+    },
+    {
+      "id": "bz_mkt",
+      "label": "Benzinga · 나스닥100 2% 반등·고용 상회",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
+      "note": "장중 기사: VanEck 반도체 ETF(SMH) +3.8%, AMD +9.8%, 마이크론 +6.3%(전날 −17.5%). 작성 시각 미확인, 종가 아님."
+    },
+    {
+      "id": "st_live",
+      "label": "StockTitan · 11월 6일 장 라이브",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026",
+      "note": "15:13 ET 스냅숏: 엔비디아 +4.06%, AMD +11.37%, 마이크론 +6.08%, 램리서치 +9.09%, Airbnb +12.51%, Cloudflare +11.08%, Atlassian −14.45%. 정규장 종가 아님. 검색 요약으로 확인."
+    },
+    {
+      "id": "cnbc_mid",
+      "label": "CNBC · 장중 주요 종목",
+      "url": "https://www.cnbc.com/2026/11/06/stocks-making-the-biggest-moves-midday-nvda-mrna-ionq-abnb-fly.html",
+      "note": "장중: Cloudflare 약 +12%(분기 가이던스 상회), Airbnb 약 +11%(EPS 3.16USD vs 예상 2.85USD), Atlassian −14% 이상(2분기 데이터센터 매출 전년 대비 약 14% 감소 전망). 시각 미확인."
+    },
+    {
+      "id": "gf_nvda",
+      "label": "GuruFocus · 엔비디아 반등, 하원 위원장들 젠슨 황 비공개 브리핑 요청",
+      "url": "https://www.gurufocus.com/news/9181363/nvidia-stocks-rebound-678-as-lawmakers-call-jensen-huang-to-closeddoor-briefing",
+      "note": "09:50 ET 엔비디아 193.91USD(+6.78%). 하원 위원회 위원장 3명이 젠슨 황 CEO에게 비공개 브리핑 참석을 요청. 검색 요약으로 확인."
+    },
+    {
+      "id": "yf_chips",
+      "label": "Yahoo Finance · 엔비디아·AMD·마이크론 반도체 반등 주도",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html",
+      "note": "09:36 ET 스냅숏: AMD +10.41%, MU +4.93%, 필라델피아 반도체지수(^SOX) +3.93%. 전날 SOX 약 −12%로 2020년 이후 최악."
+    },
+    {
+      "id": "lrcx_inv",
+      "label": "Investing.com · 램리서치 급등 이유",
+      "url": "https://investing.com/news/stock-market-news/why-is-lam-research-stock-surging-today-93CH-5008698",
+      "note": "오전 +10.8%, 장중 고가 209.18USD, 이후 205.25USD 부근. 250억USD 자사주 매입 승인이 지지. 종가 아님."
+    },
+    {
+      "id": "lrcx_pr",
+      "label": "PR Newswire · 램리서치 250억USD 자사주 매입",
+      "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-25-billion-share-repurchase-authorization-and-declares-quarterly-dividend-302931288.html",
+      "note": "11/5 장 마감 뒤 250억USD 자사주 매입 승인과 분기 배당 0.33USD 발표(회사 보도자료)."
+    },
+    {
+      "id": "abnb_tv",
+      "label": "TradingView(GuruFocus) · Airbnb 12.27% 상승, 120억USD 자사주 매입",
+      "url": "https://www.tradingview.com/news/gurufocus:b76575fb0094b:0-airbnb-stocks-jump-12-27-after-results-beat-and-12-billion-buyback/",
+      "note": "09:30 ET 191.01USD(+12.27%). 3분기 EPS 3.16USD(예상 2.85), 매출 약 49억USD(+19%), 120억USD 신규 매입 승인."
+    },
+    {
+      "id": "abnb_ir",
+      "label": "Airbnb · 2026년 3분기 실적",
+      "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+      "note": "회사 실적 발표. 2026 매출 성장 전망 high-teens로 상향, 조정 EBITDA 마진 약 36%(보도 인용)."
+    },
+    {
+      "id": "net_247",
+      "label": "24/7 Wall St. · Cloudflare 20% 급등, IREN·코어위브 동반 상승",
+      "url": "https://247wallst.com/investing/2026/11/06/cloudflare-soars-20-iren-surges-15-as-earnings-beats-spark-ai-cloud-rebound-coreweave-jumps-10/",
+      "note": "오전: Cloudflare 약 +20%(293.43USD), IREN +15%, 코어위브 +10%. 다른 보도는 12:50 EST 271.48USD(+11.03%). 매출 +39%."
+    },
+    {
+      "id": "net_ir",
+      "label": "Cloudflare · 2026년 3분기 실적",
+      "url": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+      "note": "회사 실적 발표(11/5 장 마감 뒤). 매출 7.825억USD(+39%), 조정 EPS 0.38USD(이전 회차 보도 인용)."
+    },
+    {
+      "id": "team_yf",
+      "label": "Yahoo Finance · Atlassian 16% 하락, 신중한 2027 전망",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-shares-fall-16-cautious-110846490.html",
+      "note": "조정 EPS 1.65USD로 예상 상회, FY2027 총매출 성장 약 13.75%·데이터센터 매출 16% 감소 전망이 부담. 장전 −14.6%(156.47USD), 09:35 ET 157.29USD(−14.2%) 보도."
+    },
+    {
+      "id": "team_bz",
+      "label": "Benzinga · Atlassian 금요일 하락 이유",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62970587/why-is-atlassian-stock-sinking-friday",
+      "note": "가이던스 둔화로 하락. Truist 목표가 250→200USD 등 하향 보도."
+    },
+    {
+      "id": "ust_bbg",
+      "label": "Bloomberg · 고용 호조에 국채금리 상승·연준 인상 베팅",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-treasuries-stumble-as-strong-labor-market-lifts-fed-hike-bets",
+      "note": "강한 고용이 연준 금리 인상 기대를 키워 국채 약세(금리 상승). 검색 요약으로 확인."
+    },
+    {
+      "id": "ust_pom",
+      "label": "Pomegra · 10년물 4.87%",
+      "url": "https://pomegra.io/news/10-year-treasury-yield-hits-487-after-strong-jobs-data",
+      "note": "고용 발표 뒤 10년물 4.87%(+4bp). 보도별 4.868~4.88%. 마감 시각 값인지 미확인."
+    },
+    {
+      "id": "hike_odds",
+      "label": "Rallies.ai · 고용 뒤 금리 상승·인상 전망",
+      "url": "https://rallies.ai/news/us-yields-advance-after-strong-jobs-report-backs-rate-hike-view-a8e53c2012648348",
+      "note": "시장 반영 12월 금리 인상 확률 약 75%(발표 전 72%). 다른 보도(Reuters 인용) 약 78%(발표 전 70%). 12월 회의일 12/9는 단일 보도로 공식 확인 못함."
+    },
+    {
+      "id": "bbg_jobs",
+      "label": "Bloomberg · 10월 고용 16.5만 증가",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-adds-165-000-jobs-above-all-forecasts-as-unemployment-falls",
+      "note": "10월 비농업 고용 +16.5만명(예상 약 5.9만~7만, 매체별 상이), 실업률 4.1%(9월 4.2%). 11/6 08:30 EST 발표."
+    },
+    {
+      "id": "kr_close",
+      "label": "아시아경제 · 11/6 코스피 마감",
+      "url": "https://view.asiae.co.kr/article/2026110615342878494",
+      "note": "코스피 11/6 5,059.69(−6.02%), 장 초반 서킷브레이커 발동(같은 저장소 kr-close-2026-11-06 회차 인용)."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/42295432611",
+      "note": "요청 커밋 d7bdaab의 Collect US briefing inputs 실행. 작성 시점 결과는 execution 필드 참조. artifact 다운로드에 필요한 gh 인증이 실패해 분석 수치를 쓰지 않음. 사용자 지시로 독자 화면 출처에서 생략(show_public=false).",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "반도체 반발, 나스닥 +1.1%·다우 −0.5%",
+    "summary_points": [
+      "나스닥 +1.09%, S&P500 +0.31%, 다우 −0.46%.",
+      "전날 투매 뒤 반도체 반발, 고용 서프라이즈로 금리↑.",
+      "12월 인상 베팅 75~78%, 장 초반 상승폭은 축소."
+    ],
+    "notices": [
+      "지수는 검색 요약으로 확인한 잠정 종가다. 원문 사이트 직접 접속이 막혀 개별 종목 11/6 종가는 미확인이며 장중(주로 15:13 EST) 보도값만 표시한다.",
+      "10년물·인상 확률은 시각 미확인 보도값이고 매체별로 다르다. 미국 일별 분석 산출물은 이번에 확인하지 못했다."
+    ],
+    "issues": [
+      {
+        "title": "반도체 반발, 나스닥 +1.09%·다우는 하락",
+        "preview": "반도체 반발로 나스닥 +1.09%, 다우 −0.46%.",
+        "points": [
+          "전날 −5.52% 뒤 반도체가 반등을 이끌었다.",
+          "장 초반 +1.7~1.9%에서 상승폭을 줄였다(보도)."
+        ],
+        "meaning": "투매 뒤 기술적 반발이지만 주간 손실은 크게 남았다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 지수(나스닥 종합)",
+            "basis": "11/9 정규장 종가를 24,579.42와 비교한다. 이틀 연속 반발 시도와 금리 상승 부담이 함께 있다.",
+            "counter": "장 초반 상승폭 축소는 매도 대기 물량을 시사할 수 있다(추정). 정책 우려는 그대로다. 개장 상승 뒤 되돌림 경로가 가능하다.",
+            "invalidation": "나스닥이 24,579.42 위 마감·반도체 ETF 추가 상승이면 상방, 24,315.00 하회 마감이면 하방으로 바꾼다.",
+            "sources": [
+              "cnbc_live",
+              "ts_close",
+              "bz_mkt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(나스닥 종합)",
+            "basis": "5거래일 뒤 11/13 정규장 종가를 24,579.42와 비교한다.",
+            "counter": "데이터센터 규제 구체화·금리 경로·추가 실적이 남아 있다.",
+            "invalidation": "규제 세부안과 10년물 방향으로 재판단한다.",
+            "sources": [
+              "cnbc_live",
+              "yf_live"
+            ]
+          }
+        }
+      },
+      {
+        "title": "고용 16.5만 서프라이즈→12월 인상 베팅",
+        "preview": "고용 16.5만, 10년물 4.87%·인상 확률 75~78%.",
+        "points": [
+          "10월 고용이 예상의 2배 이상, 실업률 4.1%.",
+          "12월 금리 인상 확률이 발표 전보다 올랐다(보도)."
+        ],
+        "meaning": "좋은 경기 지표가 할인율 부담으로 작용했다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 10년물·S&P500",
+            "basis": "11/9 S&P500 종가를 7,376.86과 비교한다. 다음 재료 일정을 공식 확인하지 못했다.",
+            "counter": "경기 강세는 이익에 긍정, 금리 인상은 밸류에이션에 부정으로 상충한다.",
+            "invalidation": "10년물이 4.9%를 넘어 오르면 하방 쪽으로 재판단한다.",
+            "sources": [
+              "bbg_jobs",
+              "ust_pom",
+              "hike_odds"
+            ]
+          },
+          "d5": {
+            "direction": "mixed",
+            "target": "미국 10년물·S&P500",
+            "basis": "11/13 S&P500 종가를 7,376.86과 비교한다.",
+            "counter": "인상 기대가 이미 75~78% 반영됐다는 보도라 추가 충격 크기는 미확인이다.",
+            "invalidation": "연준 인사 발언과 물가 지표 결과로 재판단한다.",
+            "sources": [
+              "hike_odds",
+              "ust_bbg"
+            ]
+          }
+        }
+      },
+      {
+        "title": "엔비디아 반등 속 의회 비공개 브리핑 요청",
+        "preview": "엔비디아 장중 +6.8%→+4%, 의회 브리핑 요청.",
+        "points": [
+          "09:50 ET +6.78%에서 15:13 ET +4.06%로 줄었다.",
+          "하원 위원장 3명이 젠슨 황에 비공개 브리핑 요청."
+        ],
+        "meaning": "AI 규제 위험이 구체적 의회 일정으로 옮겨가고 있다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/9 정규장 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "반발 이틀째 매수와 정책 뉴스 위험이 상충한다. 장중 고점 대비 되돌림이 있었다.",
+            "invalidation": "11/5 종가 181.60USD 하회 시 하방으로 바꾼다.",
+            "sources": [
+              "gf_nvda",
+              "st_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/13 정규장 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "브리핑 일정·내용이 미확인이다.",
+            "invalidation": "브리핑 결과와 규제 법안 보도로 재판단한다.",
+            "sources": [
+              "gf_nvda"
+            ]
+          }
+        }
+      },
+      {
+        "title": "실적주 엇갈림: Airbnb·Cloudflare↑, Atlassian↓",
+        "preview": "Airbnb +12.5%, Cloudflare +11%, Atlassian −14%(장중).",
+        "points": [
+          "Airbnb·Cloudflare는 실적·가이던스 상회로 급등.",
+          "Atlassian은 실적 상회에도 성장 둔화 전망에 급락."
+        ],
+        "meaning": "시장은 현재 실적보다 다음 해 성장 전망에 반응했다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "Airbnb·Cloudflare·Atlassian",
+            "basis": "11/9 종가를 각 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "실적 다음 날 갭은 일부 되돌림이 흔하며 Cloudflare는 이미 오전 고점에서 밀렸다.",
+            "invalidation": "갭 상단 회복 마감이면 해당 종목 상방, 갭 절반 이상 반납이면 하방으로 본다.",
+            "sources": [
+              "st_live",
+              "net_247",
+              "team_yf"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "Airbnb·Cloudflare·Atlassian",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "발표 후 드리프트 여부는 하루 반응으로 확정할 수 없다.",
+            "invalidation": "애널리스트 목표가 변경과 업종 흐름으로 재판단한다.",
+            "sources": [
+              "abnb_ir",
+              "net_ir",
+              "team_bz"
+            ]
+          }
+        }
+      },
+      {
+        "title": "램리서치 250억USD 자사주 매입 뒤 반발",
+        "preview": "250억USD 매입 승인, 장중 +9~11%.",
+        "points": [
+          "11/5 −16.4% 급락 직후 대규모 매입 승인.",
+          "15:13 ET +9.09%로 장비주 반등을 이끌었다."
+        ],
+        "meaning": "회사가 급락 가격에서 주주환원 신호를 보냈다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "램리서치(LRCX)",
+            "basis": "11/9 정규장 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "매입 승인은 실행 의무가 없고 업종 정책 위험이 남아 있다.",
+            "invalidation": "185.20USD(11/5) 하회 시 하방으로 바꾼다.",
+            "sources": [
+              "lrcx_pr",
+              "lrcx_inv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "램리서치(LRCX)",
+            "basis": "11/13 정규장 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "장비 수요는 데이터센터 투자 정책에 좌우된다.",
+            "invalidation": "데이터센터 규제 구체화로 재판단한다.",
+            "sources": [
+              "lrcx_pr"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "반발은 반도체 중심이고 다우는 금리 부담으로 밀렸다.",
+      "장 초반 고점에서 상승폭을 줄여 반발 강도는 제한적이었다.",
+      "한국장 11/9는 갭 상승 뒤 되돌림 여부와 외국인 수급이 관건이다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "전날 −9.3% 뒤 반발했지만 의회 브리핑 요청이 나왔다.",
+        "watch": "11/9 정규장에서 181.60USD 위 유지와 의회 브리핑 후속 보도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다. 반발 이틀째 여부.",
+            "counter": "장중 +6.78%에서 +4%로 상승폭 축소, 의회 브리핑 요청.",
+            "invalidation": "181.60USD 하회 마감 시 하방.",
+            "sources": [
+              "gf_nvda",
+              "st_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "정책 일정 미확인.",
+            "invalidation": "브리핑·법안 보도로 재판단.",
+            "sources": [
+              "gf_nvda"
+            ]
+          }
+        }
+      },
+      "AMD": {
+        "reason": "전날 −17.3% 뒤 반도체 반등을 주도했다.",
+        "watch": "확정 종가와 404.40USD 대비 반등 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "AMD",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "하루 +10%대 반발 뒤 차익 실현과 추가 매수가 상충한다.",
+            "invalidation": "404.40USD 하회 시 하방.",
+            "sources": [
+              "st_live",
+              "yf_chips"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AMD",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "정책·금리 재료가 남아 있다.",
+            "invalidation": "업종 흐름으로 재판단.",
+            "sources": [
+              "st_live"
+            ]
+          }
+        }
+      },
+      "MU": {
+        "reason": "전날 −17.5% 투매 뒤 반발했으나 공장 중단 이슈는 남아 있다.",
+        "watch": "대만 Fab 11E 중단 후속 설명과 656.39USD 지지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "마이크론(MU)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "대만 공장 중단 영향 미확인, 반등폭이 다른 반도체보다 작았다.",
+            "invalidation": "656.39USD 하회 시 하방.",
+            "sources": [
+              "st_live",
+              "bz_mkt"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크론(MU)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "공급 축소와 수요 둔화 우려가 상충한다.",
+            "invalidation": "회사 공식 설명으로 재판단.",
+            "sources": [
+              "cnbc_live"
+            ]
+          }
+        }
+      },
+      "LRCX": {
+        "reason": "250억USD 자사주 매입 승인이 급락 뒤 반등을 도왔다.",
+        "watch": "장비주 동반 반등이 이어지는지와 실제 매입 집행을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "램리서치(LRCX)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "매입 승인 지지와 업종 정책 위험이 상충한다.",
+            "invalidation": "185.20USD 하회 시 하방.",
+            "sources": [
+              "lrcx_inv",
+              "lrcx_pr"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "램리서치(LRCX)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "장비 수요는 정책에 좌우된다.",
+            "invalidation": "규제 구체화로 재판단.",
+            "sources": [
+              "lrcx_pr"
+            ]
+          }
+        }
+      },
+      "ABNB": {
+        "reason": "3분기 실적 상회·연간 전망 상향·120억USD 매입.",
+        "watch": "실적 갭 상승분(약 +12%)을 다음 주에도 지키는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "에어비앤비(ABNB)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "실적 서프라이즈·전망 상향·매입은 지지 요인.",
+            "invalidation": "갭 이후 일부 되돌림이 흔하다. 170.13USD 방향으로 갭 절반 이상 반납 시 하방.",
+            "sources": [
+              "abnb_tv",
+              "abnb_ir"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "에어비앤비(ABNB)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "발표 후 드리프트 여부 미확인.",
+            "invalidation": "애널리스트 목표가 변경으로 재판단.",
+            "sources": [
+              "abnb_ir"
+            ]
+          }
+        }
+      },
+      "NET": {
+        "reason": "매출 +39%·가이던스 상회로 급등했지만 오전 고점에서 밀렸다.",
+        "watch": "장중 고점 대비 되돌림이 이어지는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "클라우드플레어(NET)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "오전 +20%에서 +11%로 상승폭 절반 반납.",
+            "invalidation": "장중 고점 293USD대 회복이면 상방, 추가 반납이면 하방.",
+            "sources": [
+              "net_247",
+              "st_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "클라우드플레어(NET)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "성장 가속과 고밸류 부담이 상충한다.",
+            "invalidation": "목표가 변경과 업종 흐름으로 재판단.",
+            "sources": [
+              "net_ir"
+            ]
+          }
+        }
+      },
+      "TEAM": {
+        "reason": "실적 상회에도 FY2027 성장 둔화 전망에 급락했다.",
+        "watch": "목표가 하향 이어짐과 150USD대 지지를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "아틀라시안(TEAM)",
+            "basis": "11/9 종가를 11/6 확정 종가(미확인)와 비교한다.",
+            "counter": "−14%대 급락 뒤 저가 매수와 목표가 하향 압력이 상충한다.",
+            "invalidation": "장전 저점 156.47USD 하회 시 하방.",
+            "sources": [
+              "team_yf",
+              "team_bz"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "아틀라시안(TEAM)",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "성장 둔화 전망 반영 정도 미확인.",
+            "invalidation": "추가 목표가 변경으로 재판단.",
+            "sources": [
+              "team_bz"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국장 개장: 반도체 반발 반영",
+        "detail": "미국 반도체 반발이 SK하이닉스·삼성전자 갭 상승으로 이어지는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "11/9 KRX 정규장 종가를 11/6 종가(1,132,000원·188,700원)와 비교한다. 미국 반도체 장중 +4~11% 반발이 있었다.",
+            "counter": "미국 나스닥은 장 초반 고점에서 상승폭을 줄였고 정책 위험은 남았다. 개장 갭 상승 뒤 되돌림이 가능하다.",
+            "invalidation": "외국인 순매도 지속과 전일 종가 하회 마감 시 하방으로 바꾼다.",
+            "sources": [
+              "kr_close",
+              "st_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "5거래일 뒤 KRX 종가를 11/6 종가와 비교한다.",
+            "counter": "미국 정책·금리 재료가 남아 있다.",
+            "invalidation": "미국 반도체 흐름과 외국인 수급으로 재판단.",
+            "sources": [
+              "kr_close"
+            ]
+          }
+        }
+      },
+      {
+        "title": "미국 정규장: 반발 2일차 확인",
+        "detail": "하루 반발 뒤 추가 매수가 붙는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 반도체(SMH·SOX)",
+            "basis": "11/9 정규장 종가를 11/6 종가(미확인)와 비교한다.",
+            "counter": "금리 상승과 정책 위험이 반등을 제한할 수 있다.",
+            "invalidation": "나스닥 24,315.00 하회 마감 시 하방.",
+            "sources": [
+              "bz_mkt",
+              "cnbc_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체(SMH·SOX)",
+            "basis": "11/13 종가를 11/6 종가와 비교한다.",
+            "counter": "조정 초기 변동성이 크다.",
+            "invalidation": "규제 구체화로 재판단.",
+            "sources": [
+              "yf_chips"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10년물·12월 인상 확률",
+        "detail": "금리·인상 확률이 더 오르는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 10년물",
+            "basis": "11/9 10년물 마감 수준을 4.87% 안팎과 비교한다.",
+            "counter": "다음 지표 일정 미확인.",
+            "invalidation": "연준 인사 발언으로 재판단.",
+            "sources": [
+              "ust_pom",
+              "hike_odds"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 10년물",
+            "basis": "11/13 수준을 4.87% 안팎과 비교한다.",
+            "counter": "물가 지표 일정 미확인.",
+            "invalidation": "물가 지표 결과로 재판단.",
+            "sources": [
+              "ust_bbg"
+            ]
+          }
+        }
+      },
+      {
+        "title": "의회 AI·데이터센터 규제 구체화",
+        "detail": "비공개 브리핑 일정과 법안 발표를 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "AI 인프라주",
+            "basis": "11/9 종가를 11/6 종가와 비교한다.",
+            "counter": "브리핑 일정·내용 미확인.",
+            "invalidation": "구체적 규제안 보도 시 재판단.",
+            "sources": [
+              "gf_nvda"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "AI 인프라주",
+            "basis": "11/13 종가를 11/6 종가와 비교한다.",
+            "counter": "정책 경로 미확인.",
+            "invalidation": "법안 발의 여부로 재판단.",
+            "sources": [
+              "gf_nvda",
+              "cnbc_live"
+            ]
+          }
+        }
+      },
+      {
+        "title": "실적 갭 유지: Airbnb·Cloudflare·Atlassian",
+        "detail": "다음 주 갭 유지 또는 되돌림을 확인한다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "Airbnb·Cloudflare·Atlassian",
+            "basis": "11/9 종가를 각 11/6 확정 종가와 비교한다.",
+            "counter": "실적 다음 날 갭은 일부 되돌림이 흔하다.",
+            "invalidation": "갭 절반 이상 반납 시 해당 방향 재판단.",
+            "sources": [
+              "st_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "Airbnb·Cloudflare·Atlassian",
+            "basis": "11/13 종가를 11/6 확정 종가와 비교한다.",
+            "counter": "드리프트 여부 미확인.",
+            "invalidation": "목표가 변경으로 재판단.",
+            "sources": [
+              "abnb_ir",
+              "net_ir",
+              "team_bz"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "cnbc_live": "CNBC · 11월 6일 장 마감 라이브",
+      "ts_close": "TheStreet · 11월 6일 마감 지수",
+      "yf_live": "Yahoo Finance · 11월 6일 장 라이브",
+      "invezz": "Invezz · 나스닥 1% 반등, 다우는 고용 호조에도 하락",
+      "bz_mkt": "Benzinga · 나스닥100 2% 반등·고용 상회",
+      "st_live": "StockTitan · 11월 6일 장 라이브",
+      "cnbc_mid": "CNBC · 장중 주요 종목",
+      "gf_nvda": "GuruFocus · 엔비디아 반등, 하원 위원장들 젠슨 황 비공개 브리핑 요청",
+      "yf_chips": "Yahoo Finance · 엔비디아·AMD·마이크론 반도체 반등 주도",
+      "lrcx_inv": "Investing.com · 램리서치 급등 이유",
+      "lrcx_pr": "PR Newswire · 램리서치 250억USD 자사주 매입",
+      "abnb_tv": "TradingView(GuruFocus) · Airbnb 12.27% 상승, 120억USD 자사주 매입",
+      "abnb_ir": "Airbnb · 2026년 3분기 실적",
+      "net_247": "24/7 Wall St. · Cloudflare 20% 급등, IREN·코어위브 동반 상승",
+      "net_ir": "Cloudflare · 2026년 3분기 실적",
+      "team_yf": "Yahoo Finance · Atlassian 16% 하락, 신중한 2027 전망",
+      "team_bz": "Benzinga · Atlassian 금요일 하락 이유",
+      "ust_bbg": "Bloomberg · 고용 호조에 국채금리 상승·연준 인상 베팅",
+      "ust_pom": "Pomegra · 10년물 4.87%",
+      "hike_odds": "Rallies.ai · 고용 뒤 금리 상승·인상 전망",
+      "bbg_jobs": "Bloomberg · 10월 고용 16.5만 증가",
+      "kr_close": "아시아경제 · 11/6 코스피 마감",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-07T06:22:30+09:00",
+      "input_cutoff": "2026-11-07T06:22:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/9와 5거래일 뒤 11/13 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다. 11/6 개별 종목 종가가 미확인이라 종목 전망의 기준 가격은 확정 종가 확인 후 정한다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-06T16:15:00-05:00",
+      "kst": "2026-11-07T06:15:00+09:00",
+      "utc": "2026-11-06T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-06T16:16:05-05:00",
+      "kst": "2026-11-07T06:16:05+09:00",
+      "utc": "2026-11-06T21:16:05Z"
+    },
+    "start_offset_seconds": 65,
+    "delay_seconds": 65,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, GitHub MCP, WebSearch. WebFetch·curl 원문 열람은 네트워크 정책(DNS 차단·프록시 403)으로 실패, gh CLI 인증 실패, artifact 저장소(blob.core.windows.net) 접속 차단. 카카오 PlayMCP 커넥터('카카오 mcp')는 ListConnectors에서 disconnected(connected=false, enabledInChat=false)이고 ToolSearch(kakao, KakaotalkChat MemoChat)에 도구가 노출되지 않음.",
+    "model_setting": "not_verified",
+    "request_commit": "d7bdaab95e38a66990a468d0d37b78d32d669046",
+    "analysis_run_id": 42295432611,
+    "analysis_status": "in_progress None (작성 시점; artifact 다운로드 경로 차단으로 분석 수치 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-06.json"
+  }
+}
