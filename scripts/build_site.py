@@ -298,7 +298,13 @@ def load_reports(data_dir: Path) -> list[dict]:
         ids.add(report["id"])
         reports.append(report)
     require(bool(reports), "No reports to publish")
-    return sorted(reports, key=lambda r: (r["market_date"], r["as_of"], r.get("revision_at", r["as_of"]), r["id"]), reverse=True)
+    # Order by when each briefing was actually written (queried_at), not by its data
+    # basis time: a US pre-market report uses the prior close (06:00 KST) as as_of but
+    # is written around 23:00 KST, after that day's Korean reports.
+    def written(r: dict) -> tuple:
+        return (datetime.fromisoformat(r["queried_at"]), datetime.fromisoformat(r.get("revision_at", r["as_of"])),
+                datetime.fromisoformat(r["as_of"]), r["id"])
+    return sorted(reports, key=written, reverse=True)
 
 
 def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
@@ -321,20 +327,20 @@ def build(output: Path, data_dir: Path = ROOT / "data/reports") -> None:
     for report in reports:
         report_path = f'reports/{report["id"]}/index.html'
         write_page(report_path, report["title"], render_report(report, "../.."), "../..")
-        manifest.append({key: report[key] for key in ("id", "is_test", "market", "session", "market_date", "title", "summary", "as_of") } | {"path": f'reports/{report["id"]}/'})
+        manifest.append({key: report[key] for key in ("id", "is_test", "market", "session", "market_date", "title", "summary", "as_of", "queried_at") } | {"path": f'reports/{report["id"]}/'})
     live_reports = [report for report in reports if not report["is_test"]]
     latest = (live_reports or reports)[0]
     latest_path = f'reports/{latest["id"]}/'
     history_rows = []
     for item in manifest:
         if item["id"] != latest["id"]:
-            history_rows.append(f'<li><a href="{item["path"]}">{text(item["title"])}</a><p>{text(kst(item["as_of"]))} · {text(item["market"])} / {text(item["session"])}</p></li>')
+            history_rows.append(f'<li><a href="{item["path"]}">{text(item["title"])}</a><p>{text(kst(item["as_of"]))} 기준 · 작성 {text(kst(item["queried_at"]))} · {text(item["market"])} / {text(item["session"])}</p></li>')
     history = '<section class="history-section"><details><summary>지난 브리핑</summary><ul class="archive">' + '\n'.join(history_rows) + '</ul></details></section>' if history_rows else ''
     write_page("index.html", latest["title"], render_report(latest, ".") + f'<p class="archive-link"><a href="{latest_path}">이 회차 고유 주소</a> · <a href="archive/">전체 날짜별 목록</a></p>' + history, ".")
     rows = []
     for item in manifest:
         label = "TEST · " if item["is_test"] else ""
-        rows.append(f'<li><a href="../{item["path"]}">{label}{text(item["title"])}</a><p>{text(kst(item["as_of"]))} · {text(item["market"])} / {text(item["session"])}</p><p>{text(item["summary"])}</p></li>')
+        rows.append(f'<li><a href="../{item["path"]}">{label}{text(item["title"])}</a><p>{text(kst(item["as_of"]))} 기준 · 작성 {text(kst(item["queried_at"]))} · {text(item["market"])} / {text(item["session"])}</p><p>{text(item["summary"])}</p></li>')
     write_page("archive/index.html", "날짜별 보관함 · MARKET BRIEF", '<header><h1>날짜별 보관함</h1></header><p class="source-note">최신순 · TEST는 실제 보고서와 구분합니다.</p><ul class="archive">' + '\n'.join(rows) + '</ul>', "..")
     (output / "manifest.json").write_text(json.dumps({"version": 1, "latest_id": latest["id"], "reports": manifest}, ensure_ascii=False, indent=2) + '\n', encoding="utf-8")
     (output / ".nojekyll").touch()

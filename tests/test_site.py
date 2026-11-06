@@ -238,5 +238,26 @@ class SiteTests(unittest.TestCase):
             self.assertEqual(live["id"], manifest["latest_id"])
 
 
+    def test_order_follows_written_time_not_data_basis(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp) / "data"
+            data.mkdir()
+            base = copy.deepcopy(self.report)
+            base["is_test"] = False
+            base["calendar_evidence"] = {"url": "https://example.com/calendar", "market_date": "2026-11-06", "is_trading_day": True, "early_close": False, "checked_at": "2026-11-06T08:00:00+09:00", "note": "Unit test fixture"}
+            for source in base["sources"]:
+                source["url"] = "https://example.com/source"
+            kr = copy.deepcopy(base)
+            kr.update(id="kr-pre-2026-11-06", market="KR", session="pre", market_date="2026-11-06", as_of="2026-11-06T08:44:00+09:00", queried_at="2026-11-06T08:44:00+09:00", title="KR pre fixture")
+            us = copy.deepcopy(base)
+            us.update(id="us-pre-2026-11-06", market="US", session="pre", market_date="2026-11-06", as_of="2026-11-06T06:00:00+09:00", queried_at="2026-11-06T23:04:00+09:00", title="US pre fixture")
+            for report in (kr, us):
+                (data / (report["id"] + ".json")).write_text(json.dumps(report))
+            output = Path(tmp) / "public"
+            build(output, data)
+            manifest = json.loads((output / "manifest.json").read_text())
+            self.assertEqual(["us-pre-2026-11-06", "kr-pre-2026-11-06"], [r["id"] for r in manifest["reports"]])
+            self.assertEqual("us-pre-2026-11-06", manifest["latest_id"])
+
 if __name__ == "__main__":
     unittest.main()
