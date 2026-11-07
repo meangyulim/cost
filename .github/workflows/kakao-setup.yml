@@ -1,0 +1,45 @@
+name: Set up Kakao notifications
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: 'Kakao authorization code (one-time)'
+        required: true
+        type: string
+      send_test:
+        description: 'Send one test message after saving the token'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Mask authorization code
+        # Read from the event file so the code never appears in a step env header unmasked.
+        run: python3 -c "import json,os; print('::add-mask::' + json.load(open(os.environ['GITHUB_EVENT_PATH']))['inputs']['code'].strip())"
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exchange code and store refresh token
+        env:
+          KAKAO_AUTH_CODE: ${{ inputs.code }}
+          SEND_TEST: ${{ inputs.send_test }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          GH_SECRET_TOKEN: ${{ secrets.GH_SECRET_TOKEN }}
+        run: |
+          if [ "$SEND_TEST" = "true" ]; then
+            python3 scripts/kakao_notify.py setup --test
+          else
+            python3 scripts/kakao_notify.py setup
+          fi
