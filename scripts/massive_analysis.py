@@ -201,9 +201,13 @@ def collect(client, requested_end, watch):
         try:
             history = client.bars('SPY', candidate)
         except RecencyError:
+            print(f'기준일 확인 {candidate}: 요금제 최근성 제한(403)으로 이전 날짜 조회')
             continue
         if history:
+            if history[-1][0] != candidate:
+                print(f'기준일 확인 {candidate}: 조회 허용, 마지막 일봉 {history[-1][0]}')
             break
+        print(f'기준일 확인 {candidate}: 조회 허용, 일봉 없음')
     if not history or (requested_end - history[-1][0]).days > 14:
         raise DataError('최근 미국 일별 자료가 없습니다.')
     data_day = history[-1][0]
