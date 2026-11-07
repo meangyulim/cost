@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-09",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-08T07:02:23+09:00",
   "queued_at_utc": "2026-11-07T22:02:23Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-09/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 42418629170,
   "deployment_conclusion": "success",
   "kakao_summary": "11/9 장전(일 작성): 코스피 5,059.69(−6.02%) 뒤 美 반도체 +4.2%·마이크론 +5.12% 반발. 담보비율 면제 시행. 외국인 매도·10년물 4.86%·CPI(10일) 변수. 야간선물·NXT 미반영",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-08T07:02:32+09:00",
   "attempted_at_utc": "2026-11-07T22:02:32Z",
-  "workflow_run_id": 42418694087
+  "workflow_run_id": 42418694087,
+  "message_length": 182,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-08T07:02:35+09:00",
+  "result_recorded_at_utc": "2026-11-07T22:02:35Z"
 }
