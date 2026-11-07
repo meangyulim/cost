@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-06",
+  "latest_id": "kr-pre-2026-11-09",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-09",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-09",
+      "title": "11월 9일 한국장 시작 전 (11.08 일 작성)",
+      "summary": "美 반도체 +4.2% 반발, 코스피 5000선 반등 시험",
+      "as_of": "2026-11-08T07:00:00+09:00",
+      "queried_at": "2026-11-08T07:00:00+09:00",
+      "path": "reports/kr-pre-2026-11-09/"
+    },
     {
       "id": "us-close-2026-11-06",
       "is_test": false,
