@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-10",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-10T08:27:36+09:00",
   "queued_at_utc": "2026-11-09T23:27:36Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-10/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 11/10 장전: 美 반도체 약 +7%·S&P500 +2.35%에 야간선물 +5.78%. NXT 프리마켓 삼성전자 +6.11%·SK하이닉스 +7.13%. 외국인 매도·오후 반납 여부, 22:30 CPI 주목.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-10T08:27:47+09:00",
+  "attempted_at_utc": "2026-11-09T23:27:47Z",
+  "workflow_run_id": 42720624468
 }
