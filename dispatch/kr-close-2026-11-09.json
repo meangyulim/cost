@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-09",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-09T15:52:19+09:00",
   "queued_at_utc": "2026-11-09T06:52:19Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-09/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 42575620187,
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 5,018.85(−0.81%), 장중 +2% 반등 반납하고 5000선 유지. 외국인 7거래일째 6,927억 매도, 하이닉스·삼성 소폭 상승, 알테오젠 −16%·2차전지 약세. 원·달러 1,347.1원.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-09T15:52:29+09:00",
   "attempted_at_utc": "2026-11-09T06:52:29Z",
-  "workflow_run_id": 42575732953
+  "workflow_run_id": 42575732953,
+  "message_length": 179,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-09T15:52:33+09:00",
+  "result_recorded_at_utc": "2026-11-09T06:52:33Z"
 }
