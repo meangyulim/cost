@@ -2,12 +2,12 @@
   "end_date": "2026-11-06",
   "watch": [
     "NVDA",
-    "MU",
     "AMD",
-    "LRCX",
-    "ABNB",
-    "NET",
-    "TEAM"
+    "CRWV",
+    "AMAT",
+    "CSCO",
+    "VIR",
+    "SNDK"
   ],
-  "requested_at": "2026-11-07T10:31:05+09:00"
+  "requested_at": "2026-11-09T23:00:13+09:00"
 }
