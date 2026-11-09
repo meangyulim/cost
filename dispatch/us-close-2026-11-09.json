@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-09",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-10T06:22:21+09:00",
   "queued_at_utc": "2026-11-09T21:22:21Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-09/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 42701733483,
   "deployment_conclusion": "success",
   "kakao_summary": "미국 11/9 마감: 유가 급락·반도체 반등에 S&P500 +2.35%(7,549.94), 나스닥 +2.74%, 다우 +2.15%. AMD +13.26%, 엔비디아는 CEO 조사로 −4.27%. 11/10 22:30 KST CPI가 관문.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-10T06:22:32+09:00",
   "attempted_at_utc": "2026-11-09T21:22:32Z",
-  "workflow_run_id": 42701878365
+  "workflow_run_id": 42701878365,
+  "message_length": 196,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-10T06:22:35+09:00",
+  "result_recorded_at_utc": "2026-11-09T21:22:35Z"
 }
