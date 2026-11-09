@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-09",
+  "latest_id": "kr-pre-2026-11-10",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-10",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-10",
+      "title": "11월 10일 한국장 시작 전 브리핑",
+      "summary": "美 반도체 +7%·야간선물 +5.78%, 반도체 대형주 갭 상승 출발 예상",
+      "as_of": "2026-11-10T08:08:00+09:00",
+      "queried_at": "2026-11-10T08:24:00+09:00",
+      "path": "reports/kr-pre-2026-11-10/"
+    },
     {
       "id": "us-close-2026-11-09",
       "is_test": false,
