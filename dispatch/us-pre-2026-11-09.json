@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-09",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-09T23:06:13+09:00",
   "queued_at_utc": "2026-11-09T14:06:13Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-09/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 42631137933,
   "deployment_conclusion": "success",
   "kakao_summary": "미 지수 선물 +1% 안팎 반등(S&P +0.93%·다우 +1.30%), 엔비디아는 CEO 관련 이사회 조사로 장전 175.53달러(−5.95%). AMD 장전 +3.9%, 유가 −4%대. 11/10 22:30 KST 10월 CPI 주목.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-09T23:06:23+09:00",
   "attempted_at_utc": "2026-11-09T14:06:23Z",
-  "workflow_run_id": 42631395507
+  "workflow_run_id": 42631395507,
+  "message_length": 194,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-09T23:06:26+09:00",
+  "result_recorded_at_utc": "2026-11-09T14:06:26Z"
 }
