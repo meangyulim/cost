@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-09",
+  "latest_id": "kr-close-2026-11-09",
   "reports": [
+    {
+      "id": "kr-close-2026-11-09",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-09",
+      "title": "한국장 마감 브리핑 · 2026.11.09",
+      "summary": "장중 +2% 반등 반납, 코스피 0.81% 내린 5,018.85로 5000선 유지",
+      "as_of": "2026-11-09T15:30:00+09:00",
+      "queried_at": "2026-11-09T15:52:00+09:00",
+      "path": "reports/kr-close-2026-11-09/"
+    },
     {
       "id": "kr-pre-2026-11-09",
       "is_test": false,
