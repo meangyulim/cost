@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-09",
+  "latest_id": "us-pre-2026-11-09",
   "reports": [
+    {
+      "id": "us-pre-2026-11-09",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-09",
+      "title": "11월 9일 미국장 시작 전 브리핑",
+      "summary": "지수 선물 +1% 안팎 반등, 엔비디아는 CEO 의혹 조사로 장전 −6%",
+      "as_of": "2026-11-07T06:00:00+09:00",
+      "queried_at": "2026-11-09T23:04:25+09:00",
+      "path": "reports/us-pre-2026-11-09/"
+    },
     {
       "id": "kr-close-2026-11-09",
       "is_test": false,
