@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-06",
+  "end_date": "2026-11-09",
   "watch": [
     "NVDA",
     "AMD",
-    "CRWV",
-    "AMAT",
-    "CSCO",
-    "VIR",
-    "SNDK"
+    "AVGO",
+    "MPWR",
+    "ASTS",
+    "FSLR",
+    "TSLA"
   ],
-  "requested_at": "2026-11-09T23:00:13+09:00"
+  "requested_at": "2026-11-10T06:16:14+09:00"
 }
