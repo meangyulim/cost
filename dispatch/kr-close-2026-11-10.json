@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-10",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-10T15:53:27+09:00",
   "queued_at_utc": "2026-11-10T06:53:27Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-10/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 4.39% 오른 5,239.13, 코스닥 4.48% 반등. 美 반도체 급등에 매수 사이드카, 외국인 8거래일 만에 순매수(3,532억). SK하이닉스 +6.69%, 삼성전자 +4.74%. 오늘 밤 美 CPI 확인.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-10T15:53:37+09:00",
+  "attempted_at_utc": "2026-11-10T06:53:37Z",
+  "workflow_run_id": 42771532207
 }
