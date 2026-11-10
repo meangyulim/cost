@@ -1,13 +1,12 @@
 {
-  "end_date": "2026-11-09",
+  "end_date": "2026-11-10",
   "watch": [
     "NVDA",
+    "MSFT",
     "AMD",
-    "RKLB",
     "CRWV",
-    "HIMS",
     "SANM",
-    "TTD"
+    "ONON"
   ],
-  "requested_at": "2026-11-10T23:00:39+09:00"
+  "requested_at": "2026-11-11T06:17:12+09:00"
 }
