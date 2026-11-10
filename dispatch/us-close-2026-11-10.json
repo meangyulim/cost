@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-10",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-11T06:23:00+09:00",
   "queued_at_utc": "2026-11-10T21:23:00Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-10/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 42904366165,
   "deployment_conclusion": "success",
   "kakao_summary": "美 CPI 예상 상회(근원 +0.3%)에 10년물 5%, S&P500 −0.38%·나스닥 −0.74%. 엔비디아 CEO 조사·중국 반출 의혹에 −5.47%. 코어위브 실적 후 시간외 +4.9%. 오늘 한국장은 반도체 소화가 관건.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-11T06:23:11+09:00",
   "attempted_at_utc": "2026-11-10T21:23:11Z",
-  "workflow_run_id": 42904509903
+  "workflow_run_id": 42904509903,
+  "message_length": 191,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-11T06:23:14+09:00",
+  "result_recorded_at_utc": "2026-11-10T21:23:14Z"
 }
