@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-10",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-10T23:07:58+09:00",
   "queued_at_utc": "2026-11-10T14:07:58Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-10/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[미국 장전 11/10] 10월 CPI 예상 상회(전월비 0.4%, 근원 0.3%)에 나스닥100 선물 −1.1%, 2년물 +12bp. 장전 엔비디아 −1.7%, 산미나 실적 급등, 로켓랩 −9%. 코어위브 장후 실적.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-10T23:08:10+09:00",
+  "attempted_at_utc": "2026-11-10T14:08:10Z",
+  "workflow_run_id": 42831022635
 }
