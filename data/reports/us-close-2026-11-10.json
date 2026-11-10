@@ -1,0 +1,1181 @@
+{
+  "id": "us-close-2026-11-10",
+  "title": "11월 10일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-10 09:30~16:00 EST 정규장(2026-11-10 23:30~11-11 06:00 KST)",
+  "market_date": "2026-11-10",
+  "session": "close",
+  "as_of": "2026-11-11T06:00:00+09:00",
+  "queried_at": "2026-11-11T06:19:30+09:00",
+  "is_test": false,
+  "summary": "CPI 예상 상회·10년물 5%에 S&P500 −0.38%, 엔비디아 −5.47%",
+  "summary_detail": "11/10 정규장 S&P500은 7,520.93(−29.01, −0.38%), 나스닥 25,065.88(−187.26, −0.74%), 다우 52,231.89(−157.86, −0.30%), 러셀2000 2,821.38(−0.68%)이었다(잠정). 10월 CPI가 전월 대비 +0.4%, 근원 +0.3%로 예상을 0.1%p씩 웃돌며 10년물이 약 5.00%(CNBC 5.004%, Yahoo 14:59 EST 4.983%)로 올랐고 12월 인상 확률은 84%로 보도됐다. 엔비디아는 CEO 조사에 중국 반출 의혹 보도가 더해져 168.89USD(−5.47%)였다. 코어위브는 장후 매출·가이던스 상향으로 시간외 +4.86%였다. 다음은 07:00 KST 코어위브 콜과 09:00 KST 한국장 개장이다.",
+  "interpretation": "전날 유가 하락이 이끈 반등이 물가 재가속 신호로 제동이 걸렸다. 근원 CPI 상회로 12월 인상 경로가 사실상 굳어졌고 10년물 5%가 성장주 부담으로 남는다. 다만 지수 낙폭은 장중 −0.9%(AP 시점)에서 줄었고 VIX도 내려 공포 확대는 아니었다. 엔비디아 약세는 실적이 아닌 지배구조·규제 위험이며, 다른 반도체가 버틴 것은 하루 관찰로 거래 주체 자료로 확인한 것은 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,520.93",
+      "unit": "pt",
+      "delta": "−29.01",
+      "percent": "−0.38",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [
+        "cnbc_close",
+        "yf_live"
+      ],
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 7,549.94 기준 · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,065.88",
+      "unit": "pt",
+      "delta": "−187.26",
+      "percent": "−0.74",
+      "direction": "down",
+      "source": "yf_ixic",
+      "additional_sources": [
+        "cnbc_close",
+        "yf_live"
+      ],
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 25,253.14 기준 · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "52,231.89",
+      "unit": "pt",
+      "delta": "−157.86",
+      "percent": "−0.30",
+      "direction": "down",
+      "source": "yf_dji",
+      "additional_sources": [
+        "cnbc_close",
+        "yf_live"
+      ],
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 52,389.75 기준 · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,821.38",
+      "unit": "pt",
+      "delta": "−19.43",
+      "percent": "−0.68",
+      "direction": "down",
+      "source": "yf_rut",
+      "additional_sources": [
+        "yf_live"
+      ],
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 2,840.81 기준 · 잠정",
+      "provisional": true
+    },
+    {
+      "name": "VIX",
+      "value": "19.54",
+      "unit": "pt",
+      "delta": "−0.38",
+      "percent": "−1.91",
+      "direction": "down",
+      "source": "yf_vix",
+      "additional_sources": [],
+      "as_of": "2026-11-11T06:01:00+09:00",
+      "session": "Cboe 변동성지수 · 2026-11-10 16:01 EST(11/11 06:01 KST) Yahoo 값 · 11/9 19.92 기준(직전 회차 20.09와 다름) · 잠정",
+      "provisional": true
+    }
+  ],
+  "issues": [
+    {
+      "title": "뜨거운 CPI에 3대 지수 하락, 전날 반등 일부 반납",
+      "fact": "11/10 정규장 S&P500은 29.01p(0.38%) 내린 7,520.93, 나스닥은 187.26p(0.74%) 내린 25,065.88, 다우는 157.86p(0.30%) 내린 52,231.89, 러셀2000은 19.43p(0.68%) 내린 2,821.38로 마감했다(잠정, Yahoo·CNBC). 11/9 S&P500 +2.35% 반등의 약 6분의 1을 되돌렸다. 10월 CPI는 전월 대비 +0.4%(예상 +0.3%), 근원 +0.3%(예상 +0.2%)였다(BLS·CNBC). 장중 S&P500은 13:29 EST 기준 −0.9%까지 밀렸다가 낙폭을 줄였다(AP 기사 시점). VIX는 19.54로 소폭 내렸다.",
+      "source": "cnbc_close",
+      "additional_sources": [
+        "yf_live",
+        "bls_cpi",
+        "bnn_ap",
+        "yf_gspc",
+        "yf_vix"
+      ]
+    },
+    {
+      "title": "10년물 5% 재돌파, 12월 인상 사실상 기정사실",
+      "fact": "CNBC는 10년물이 14bp 넘게 오른 5.004%로 다시 5%를 넘었다고 전했다(AP 13:29 EST 기준 5.01%, Yahoo ^TNX 14:59 EST 4.983%로 매체·시점별 차이). Yahoo 기사 기준 12월 0.25%p 인상 확률 84%, 0.5%p 인상 15%(전일 0%)였다. 월러 이사는 12월 인상 쪽으로 기울었고 물가가 더 뜨거우면 0.5%p 인상도 검토해야 한다고 했으며, 로건 댈러스 연은 총재는 두 차례 추가 0.25%p 인상 후 동결을 주장했다(CNBC). 금리에 민감한 레나 −5%, D.R.호튼 −4%(장 초반)가 밀렸다.",
+      "source": "cnbc_close",
+      "additional_sources": [
+        "yf_live",
+        "bnn_ap",
+        "yf_tnx",
+        "cnbc_movers"
+      ]
+    },
+    {
+      "title": "엔비디아 이틀째 급락 −5.47%, 반도체는 엇갈림",
+      "fact": "엔비디아는 168.89USD(−9.78, −5.47%)로 마감해 이틀간 186.64→168.89USD(−9.51%)였다. 장중 약 165.94USD(약 −7%)까지 밀렸고 시가총액이 일시 4조USD 아래로 내려갔다(CNBC). 이사회의 젠슨 황 CEO 조사에 더해 해당 인물과 연결된 네트워크를 통해 2023년 이후 75억USD 이상 하드웨어가 중국 기업에 넘어갔다는 디인포메이션 보도가 나왔고 의회·주주가 수출통제 관련 설명을 요구했다(Yahoo·CNBC). 반면 SOXX는 146.59USD(−0.12%)로 보합, 브로드컴 +3.91%, AMD +1.30%, 마이크론 −1.10%였다(ETF 가격, 지수 값 아님).",
+      "source": "cnbc_close",
+      "additional_sources": [
+        "yf_live",
+        "yf_nvda",
+        "yf_soxx",
+        "yf_avgo",
+        "yf_amd"
+      ]
+    },
+    {
+      "title": "실적 반응 엇갈림: 힘스 −16.6%, 온 −7.5%, 로켓랩 반전",
+      "fact": "힘스앤허스는 4분기 매출 가이던스 8.75억~8.95억USD가 컨센서스 9.538억USD를 밑돌아 19.13USD(−16.61%)로 이틀째 급락했다(CNBC). 온홀딩은 직판 매출 3.933억CHF가 예상 4.177억CHF에 못 미쳐 34.70USD(−7.54%)였다. 산미나는 연간 EPS 15.50~17.50USD 전망(컨센서스 14.07USD)으로 장전 약 +19%였지만 155.43USD(+3.87%)로 상승폭이 크게 줄었다. 로켓랩은 장전 −9% 안팎에서 62.71USD(+6.54%)로 반전 마감했다. 반전 이유를 설명한 원문은 확인하지 못했다.",
+      "source": "cnbc_movers",
+      "additional_sources": [
+        "yf_hims",
+        "yf_onon",
+        "yf_sanm",
+        "yf_rklb",
+        "yf_live"
+      ]
+    },
+    {
+      "title": "코어위브 장후 실적: 매출 36.6억USD, 연간 가이던스 상향",
+      "fact": "코어위브는 2026-11-10 16:05 EST(11/11 06:05 KST) 3분기 매출 36.61억USD(전년 13.65억USD), 순손실 7.09억USD(주당 −1.27USD), 조정 영업이익 3.79억USD(마진 10%)를 발표했다. 수주잔고는 약 1,325억USD, 2026년 매출 가이던스는 130억~133억USD로 올렸고 4분기 이자비용은 10.5억~11.5억USD로 제시했다. 정규장은 48.73USD(−0.51%), 시간외 16:18 EST 51.10USD(정규장 종가 대비 +4.86%)였다. 컨퍼런스콜은 17:00 EST(11/11 07:00 KST)이며 발표 전 매출 컨센서스는 출처마다 달라 확정하지 않았다.",
+      "source": "crwv_pr",
+      "additional_sources": [
+        "crwv_ir",
+        "yf_crwv",
+        "yf_live"
+      ]
+    },
+    {
+      "title": "마이크로소프트 −2.2%, 앤트로픽 업무 도구 경쟁 우려",
+      "fact": "앤트로픽이 Claude Sheets·Whiteboards·Data 등 업무용 도구를 공개하자 오피스와 경쟁할 수 있다는 우려로 마이크로소프트가 장중 3% 하락했고(CNBC 10:30 EST 무렵) 533.16USD(−12.02, −2.20%)로 마감했다. 아마존은 +1.48%, 애플 −0.62%, 알파벳 −0.27%였다.",
+      "source": "cnbc_movers",
+      "additional_sources": [
+        "cnbc_close",
+        "yf_msft"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "168.89",
+      "currency": "USD",
+      "delta": "−9.78",
+      "percent": "−5.47",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "cnbc_close",
+        "yf_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 178.67USD 기준 · 잠정 · 장중 약 165.94USD(CNBC). 시간외 16:17 EST 169.01USD(Yahoo 차트).",
+      "reason": "CEO 조사에 중국 반출 의혹 보도까지 겹쳐 이틀째 급락했다.",
+      "watch": "11/11 정규장에서 장중 저점 약 165.94USD 지지와 이사회·의회 후속 대응을 본다.",
+      "reason_sources": [
+        "cnbc_close",
+        "yf_live"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "마이크로소프트",
+      "ticker": "MSFT",
+      "price": "533.16",
+      "currency": "USD",
+      "delta": "−12.02",
+      "percent": "−2.20",
+      "direction": "down",
+      "source": "yf_msft",
+      "additional_sources": [
+        "cnbc_movers",
+        "cnbc_close"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 545.18USD 기준 · 잠정",
+      "reason": "앤트로픽 업무 도구 공개로 오피스 경쟁 우려가 나왔다.",
+      "watch": "추가 하락이 이어지는지와 회사 측 대응·애널리스트 평가를 본다.",
+      "reason_sources": [
+        "cnbc_movers",
+        "cnbc_close"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "코어위브",
+      "ticker": "CRWV",
+      "price": "48.73",
+      "currency": "USD",
+      "delta": "−0.25",
+      "percent": "−0.51",
+      "direction": "down",
+      "source": "yf_crwv",
+      "additional_sources": [
+        "crwv_pr",
+        "crwv_ir",
+        "yf_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 48.98USD 기준 · 잠정 · 실적 발표(16:05 EST) 뒤 시간외 16:18 EST 51.10USD(+2.37, +4.86%, Yahoo 차트)는 별도 구간.",
+      "reason": "장후 실적에서 매출·연간 가이던스를 올려 시간외 상승했다.",
+      "watch": "07:00 KST 컨퍼런스콜의 설비투자·자금조달 설명과 11/11 정규장 갭 유지 여부를 본다.",
+      "reason_sources": [
+        "crwv_pr",
+        "crwv_ir",
+        "yf_live"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "힘스앤허스",
+      "ticker": "HIMS",
+      "price": "19.13",
+      "currency": "USD",
+      "delta": "−3.81",
+      "percent": "−16.61",
+      "direction": "down",
+      "source": "yf_hims",
+      "additional_sources": [
+        "cnbc_movers",
+        "yf_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 22.94USD 기준 · 잠정 · 11/6 종가 26.00USD → 11/9 22.94 → 11/10 19.13USD(이틀 −26.42%).",
+      "reason": "4분기 매출 가이던스가 컨센서스를 약 6~8% 밑돌았다.",
+      "watch": "이틀 급락 뒤 매도가 멈추는지와 목표가 조정 보도를 본다.",
+      "reason_sources": [
+        "cnbc_movers",
+        "yf_live"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "온홀딩",
+      "ticker": "ONON",
+      "price": "34.70",
+      "currency": "USD",
+      "delta": "−2.83",
+      "percent": "−7.54",
+      "direction": "down",
+      "source": "yf_onon",
+      "additional_sources": [
+        "cnbc_movers"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 37.53USD 기준 · 잠정",
+      "reason": "직판 매출이 예상을 밑돌았다. 일회성 관세 환급은 반영되지 않았다(보도).",
+      "watch": "직판 둔화가 일시적인지 경영진 설명과 소비재 동종 반응을 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "산미나",
+      "ticker": "SANM",
+      "price": "155.43",
+      "currency": "USD",
+      "delta": "+5.79",
+      "percent": "+3.87",
+      "direction": "up",
+      "source": "yf_sanm",
+      "additional_sources": [
+        "cnbc_movers"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 149.64USD 기준 · 잠정 · 장전 약 +19%(CNBC 04:30 EST 무렵 보도) 대비 정규장에서 상승폭 축소. 11/10 장전 회차의 09:00 EST 장전 가격 164.50USD.",
+      "reason": "연간 EPS 전망이 컨센서스를 웃돌았지만 장중 상승폭을 크게 반납했다.",
+      "watch": "실적 갭이 155USD 위에서 유지되는지, 추가 되돌림이 나오는지 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "provisional": true
+    },
+    {
+      "name": "로켓랩",
+      "ticker": "RKLB",
+      "price": "62.71",
+      "currency": "USD",
+      "delta": "+3.85",
+      "percent": "+6.54",
+      "direction": "up",
+      "source": "yf_rklb",
+      "additional_sources": [
+        "cnbc_movers"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "session": "2026-11-10 미국 정규장 종가(16:00 EST = 11/11 06:00 KST) · 11/9 종가 58.86USD 기준 · 잠정 · 11/10 장전 회차 09:00 EST 장전 가격 53.40USD(−9.28%)에서 정규장 반전. 반전 이유 원문 미확인.",
+      "reason": "뉴트론 지연·손실 확대에도 장전 하락을 뒤집고 상승 마감했다.",
+      "watch": "반전이 하루로 끝나는지와 뉴트론 일정·수주 후속 보도를 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "provisional": true
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.983",
+    "unit": "%",
+    "delta": "+0.119%p",
+    "direction": "up",
+    "source": "yf_tnx",
+    "additional_sources": [
+      "cnbc_close",
+      "bnn_ap"
+    ],
+    "as_of": "2026-11-11T04:59:00+09:00",
+    "session": "Yahoo ^TNX 2026-11-10 14:59 EST(11/11 04:59 KST) 값 · 11/9 4.864 대비 계산 · CNBC 마감 보도 5.004%, AP 13:29 EST 5.01%와 차이"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-11 07:00 KST",
+      "title": "코어위브 컨퍼런스콜(17:00 EST)",
+      "detail": "시간외 +4.86% 반응이 설비투자 370억~390억USD·4분기 이자비용 10.5억~11.5억USD 설명 뒤에도 유지되는지 본다."
+    },
+    {
+      "label": "2026-11-11 09:00 KST",
+      "title": "한국장 개장: 급반등 다음 날",
+      "detail": "코스피는 11/10 5,239.13(+4.39%)으로 외국인 8거래일 만에 순매수였다. 밤사이 미국 CPI 상회·10년물 5% 부근·엔비디아 −5.47%와 SOXX 보합(−0.12%)이 SK하이닉스(1,212,000원)·삼성전자(198,900원)에 어떻게 반영되는지, 외국인 매수가 이어지는지 본다. 원·달러는 Yahoo 글로벌 호가 06:16 KST 1,342.89원(서울 주간 종가 1,337.5원과 다름)."
+    },
+    {
+      "label": "2026-11-11",
+      "title": "재향군인의 날, 미국 주식 정상 거래",
+      "detail": "NYSE 휴장·조기폐장 목록에 없어 정규장(23:30~06:00 KST)이 열린다. 엔비디아 조사 후속과 금리 반응을 본다."
+    },
+    {
+      "label": "확인 순서: 11/12 장 마감 후",
+      "title": "시스코·어플라이드머티리얼즈 실적",
+      "detail": "11/12 장 마감 뒤 발표 예정(보도). 반도체 장비·네트워크 수요로 AI 투자 흐름을 점검한다."
+    },
+    {
+      "label": "2026-11-13 22:30 KST",
+      "title": "10월 PPI(08:30 EST)",
+      "detail": "CPI에 이어 생산자 물가가 12월 0.5%p 인상 가능성(15%, 보도)을 키우는지 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "additional_urls": [
+      "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf"
+    ],
+    "market_date": "2026-11-10",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-11T06:16:30+09:00",
+    "note": "NYSE 원문(WebFetch) 2026 휴장 목록(11/26 추수감사절, 12/25)·조기폐장(11/27·12/24 13:00 ET)에 11/10(화)·11/11(수)이 없어 정상 거래일·정규 폐장으로 판단했다. CNBC·Yahoo 마감 보도도 거래를 확인한다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-10 23:30~11-11 06:00 KST. d1=11/11(수), d5=11/11·12·13·16·17 정규장."
+  },
+  "calculation_notes": "지수·종목 값은 Yahoo Finance 차트 API 일봉(2026-11-11 06:16 KST 조회)의 11/10 정규장 값과 11/9 종가로 계산했다: S&P500 7,520.93−7,549.94=−29.01(−0.384%), 나스닥 25,065.875−25,253.141=−187.27(−0.742%, Yahoo 패널 −187.26·25,065.88 표기 사용), 다우 52,231.89−52,389.75=−157.86(−0.301%), 러셀2000 2,821.38−2,840.81=−19.43(−0.684%). NVDA 168.89−178.67=−9.78(−5.474%), 이틀 168.89/186.64−1=−9.510%. MSFT 533.16−545.18=−12.02(−2.205%), CRWV 48.73−48.98=−0.25(−0.510%), 시간외 51.10/48.73−1=+4.864%. HIMS 19.13−22.94=−3.81(−16.609%), 이틀 19.13/26.00−1=−26.42%. ONON 34.70−37.53=−2.83(−7.541%), SANM 155.43−149.64=+5.79(+3.869%), RKLB 62.71−58.86=+3.85(+6.541%), AMD 515.21/508.58−1=+1.304%, AVGO 331.98/319.48−1=+3.913%, SOXX 146.59/146.76−1=−0.116%, VIX 19.54−19.92=−0.38(−1.91%). 10년물 4.983−4.864=+0.119%p(Yahoo 14:59 EST). HIMS 가이던스 중간값 8.85억 vs 9.538억USD = −7.2%(범위 −6.2~−8.3%). 종가는 장 마감 직후 조회한 잠정값이며 공식 종가 확정 전 소폭 바뀔 수 있다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행 WebFetch로 원문 열람(2026-11-11 06:16 KST 무렵). 2026 휴장 목록(11/26 추수감사절 등)·조기폐장(11/27·12/24 13:00 ET)에 11/10·11/11 없음."
+    },
+    {
+      "id": "nyse_pdf",
+      "label": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf",
+      "note": "공식 발표 문서. 이전 회차에서 확인한 링크를 보조 근거로 유지(이번 실행 미열람)."
+    },
+    {
+      "id": "cnbc_close",
+      "label": "CNBC · 11/10 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+      "note": "16:13 EST 갱신본: S&P500 −0.38% 7,520.93, 다우 −157.86(−0.30%) 52,231.89, 나스닥 −0.74% 25,065.87. CPI +0.4%(예상 +0.3%), 근원 +0.3%(예상 +0.2%). 10년물 14bp 넘게 오른 5.004%. 월러 12월 인상 '기울어', 0.5%p 검토 발언, 로건 두 차례 추가 인상 주장. 엔비디아 5% 넘게 하락(장중 약 165.94USD, 약 −7%), 시총 일시 4조USD 하회. 마이크로소프트 −3%(앤트로픽 도구), 온홀딩 −8%. 브렌트 일시 90USD 하회, WTI 약 85.70USD."
+    },
+    {
+      "id": "cnbc_movers",
+      "label": "CNBC · 11/10 종목 움직임",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
+      "note": "13:29 EST 갱신본(항목별 시점 상이): MSFT −3%(앤트로픽 Claude Sheets·Whiteboards·Data), ONON −8%(직판 3.933억 vs 예상 4.177억CHF), NVDA 6% 넘게 하락(장중 166.52USD), 레나 −5%·D.R.호튼 −4%(CPI·인상 우려), 힘스 −2%(4분기 매출 가이던스 8.75억~8.95억 vs 컨센서스 9.538억USD, 장전 시점), 산미나 +19%(연간 EPS 15.50~17.50 vs 14.07USD, 장전 시점), 로켓랩 약 −6%(장전 시점)."
+    },
+    {
+      "id": "yf_live",
+      "label": "Yahoo Finance · 11/10 마감 라이브",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+      "note": "15:05 CST(16:05 EST) 갱신. 시세 패널: S&P500 7,520.93(−29.01, −0.38%), 다우 52,231.89(−157.86), 나스닥 25,065.88(−187.26, −0.74%), 러셀2000 2,821.38(−19.44, −0.68%). 12월 0.25%p 인상 84%, 0.5%p 15%(전일 0%). 엔비디아 황 CEO 조사, 디인포메이션 '2023년 이후 75억USD 이상 하드웨어 중국 기업 유입' 보도, RSI 23. 힘스 장중 최대 15% 하락. 금 4,038.70(−1.84%)."
+    },
+    {
+      "id": "bnn_ap",
+      "label": "AP(BNN Bloomberg 전재) · 11/10 장중",
+      "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/10/wall-street-mixed-in-early-trading-ahead-of-a-new-peek-at-inflation/",
+      "note": "검색 결과 요약으로 확인(본문 직접 열람 안 함): 13:54 EST 갱신, 13:29 EST S&P500 −0.9%, 엔비디아 −6.3%, 10년물 4.88%→5.01%. 근원 +0.3%가 월러가 0.5%p 인상 검토 기준으로 언급한 수준."
+    },
+    {
+      "id": "bls_cpi",
+      "label": "BLS · 10월 소비자물가지수",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "note": "11/10 장전 회차에서 원문 확인: 전체 계절조정 전월 대비 +0.4%, 근원 +0.3%. 2025년 10월 자료 미수집으로 12개월 상승률 미공표."
+    },
+    {
+      "id": "bls_ppi",
+      "label": "BLS · PPI 발표 일정",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "note": "11/10 장전 회차에서 확인한 일정: 10월 PPI 2026-11-13 08:30 EST."
+    },
+    {
+      "id": "crwv_pr",
+      "label": "StockTitan · 코어위브 3분기 실적 보도자료",
+      "url": "https://www.stocktitan.net/news/CRWV/core-weave-reports-strong-third-quarter-2026-y9sd4v037r0b.html",
+      "note": "2026-11-10 16:05 EST 게재 보도자료 전재: 매출 3,661백만USD(전년 1,365), 순손실 709백만USD(주당 −1.27), 조정 영업이익 379백만USD(10%), 수주잔고 약 1,325억USD, 2026 매출 130억~133억USD로 상향, 조정 영업이익 12.75억~13.75억USD, 설비투자 370억~390억USD, 4분기 이자비용 10.5억~11.5억USD, 연말 연환산 매출 200억~210억USD."
+    },
+    {
+      "id": "crwv_ir",
+      "label": "CoreWeave IR · 3분기 실적 일정",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+      "note": "검색 결과로 확인: 2026-11-10 17:00 ET 컨퍼런스콜."
+    },
+    {
+      "id": "mitrade_week",
+      "label": "Mitrade · 주간 일정",
+      "url": "https://www.mitrade.com/insights/news/live-news/article-8-2239452-20261108",
+      "note": "11/10 장전 회차에서 확인한 주간 일정 기사(시스코·AMAT 11/12 장 마감 후). 이번 실행 재열람 안 함."
+    },
+    {
+      "id": "kr_close",
+      "label": "뉴스1 · 11/10 코스피 마감",
+      "url": "https://www.news1.kr/finance/market-exr/6349305",
+      "note": "kr-close-2026-11-10 회차 출처. 코스피 5,239.13(+4.39%), SK하이닉스 1,212,000원, 삼성전자 198,900원, 외국인 순매수 전환(보도). 원·달러 서울 주간 종가 1,337.5원."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "차트 API(2026-11-11 06:16 KST 조회) 일봉 11/9 7,549.94, 11/10 7,520.93(regularMarketTime 21:16 UTC)."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo Finance · 나스닥 종합",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "일봉 11/9 25,253.140625, 11/10 25,065.875."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo Finance · 다우",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "일봉 11/9 52,389.75, 11/10 52,231.890625."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo Finance · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "일봉 11/9 2,840.81, 11/10 2,821.3757(21:00 UTC). Yahoo 기사 패널 −19.44와 0.01 반올림 차이."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo Finance · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "일봉 11/9 19.92, 11/10 19.54(21:01 UTC). 직전 회차 기록 11/9 20.09와 다름."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo Finance · 10년물(^TNX)",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "11/9 4.864, 11/10 4.983(19:59 UTC = 14:59 EST)."
+    },
+    {
+      "id": "yf_oil",
+      "label": "Yahoo Finance · 원유 선물",
+      "url": "https://finance.yahoo.com/quote/CL%3DF/",
+      "note": "WTI 12월물 11/10 86.30(21:06 UTC 호가, 11/9 86.85), 브렌트 91.92(11/9 92.57). 결제가 아닌 시점 호가."
+    },
+    {
+      "id": "yf_soxx",
+      "label": "Yahoo Finance · SOXX",
+      "url": "https://finance.yahoo.com/quote/SOXX/",
+      "note": "11/9 146.76, 11/10 146.59USD. ETF 가격."
+    },
+    {
+      "id": "yf_krw",
+      "label": "Yahoo Finance · USD/KRW",
+      "url": "https://finance.yahoo.com/quote/KRW%3DX/",
+      "note": "2026-11-11 06:16 KST 글로벌 호가 1,342.89원. 서울 외환시장 주간 종가 아님."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo Finance · NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 178.67, 11/10 168.89USD."
+    },
+    {
+      "id": "yf_msft",
+      "label": "Yahoo Finance · MSFT",
+      "url": "https://finance.yahoo.com/quote/MSFT/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 545.18, 11/10 533.16USD."
+    },
+    {
+      "id": "yf_crwv",
+      "label": "Yahoo Finance · CRWV",
+      "url": "https://finance.yahoo.com/quote/CRWV/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 48.98, 11/10 48.73USD."
+    },
+    {
+      "id": "yf_hims",
+      "label": "Yahoo Finance · HIMS",
+      "url": "https://finance.yahoo.com/quote/HIMS/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 22.94, 11/10 19.13USD."
+    },
+    {
+      "id": "yf_onon",
+      "label": "Yahoo Finance · ONON",
+      "url": "https://finance.yahoo.com/quote/ONON/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 37.53, 11/10 34.70USD."
+    },
+    {
+      "id": "yf_sanm",
+      "label": "Yahoo Finance · SANM",
+      "url": "https://finance.yahoo.com/quote/SANM/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 149.64, 11/10 155.43USD."
+    },
+    {
+      "id": "yf_rklb",
+      "label": "Yahoo Finance · RKLB",
+      "url": "https://finance.yahoo.com/quote/RKLB/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 58.86, 11/10 62.71USD."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo Finance · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 508.58, 11/10 515.21USD."
+    },
+    {
+      "id": "yf_avgo",
+      "label": "Yahoo Finance · AVGO",
+      "url": "https://finance.yahoo.com/quote/AVGO/",
+      "note": "차트 API 일봉(2026-11-11 06:16 KST 조회) 11/9 319.48, 11/10 331.98USD."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/42903549720",
+      "note": "요청 커밋 e373001bd3193fb35de35024b26c34e589ec2812(end_date 2026-11-10, watch NVDA·MSFT·AMD·CRWV·SANM·ONON)의 Collect US briefing inputs 실행(run 42903549720). 작성 시점 in_progress, gh CLI 인증 실패로 artifact analysis.json 미확인·분석 수치 미사용.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "뜨거운 CPI에 하락, 10년물 5%",
+    "summary_points": [
+      "CPI 예상 상회에 S&P500 −0.38%, 나스닥 −0.74%.",
+      "10년물 5% 재돌파, 12월 인상 확률 84%(보도).",
+      "엔비디아 −5.47%, 코어위브는 실적 뒤 시간외 +4.9%."
+    ],
+    "notices": [
+      "지수·종목 값은 장 마감 직후 Yahoo로 확인한 잠정 종가다. 10년물은 매체·시점별로 4.983~5.01%로 다르다.",
+      "코어위브 시간외 가격은 정규장과 다른 구간이다. 미국 일별 분석 산출물은 이번에 확인하지 못했다."
+    ],
+    "issues": [
+      {
+        "title": "뜨거운 CPI에 3대 지수 하락, 전날 반등 일부 반납",
+        "preview": "CPI +0.4%·근원 +0.3%로 예상 상회, 지수 하락.",
+        "points": [
+          "근원 CPI가 예상보다 0.1%p 높았다.",
+          "S&P500은 전날 +2.35% 반등의 일부를 반납했다."
+        ],
+        "meaning": "물가 재가속 신호로 반등 지속에 제동이 걸렸다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/11 정규장 종가를 7,520.93과 비교한다. 장중 −0.9%에서 −0.38%로 낙폭을 줄였다.",
+            "counter": "10년물 5% 부근과 12월 인상 기대가 부담이다. 개장 초 금리 반응에 따른 변동 위험이 있다.",
+            "invalidation": "10년물 4.95% 아래로 내리면 상방, 5.05% 위로 오르면 하방으로 바꾼다.",
+            "sources": [
+              "cnbc_close",
+              "yf_gspc",
+              "yf_tnx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/17 정규장 종가를 7,520.93과 비교한다.",
+            "counter": "11/13 PPI, AMAT·시스코 실적, 엔비디아 조사 후속이 남아 있다.",
+            "invalidation": "PPI 둔화와 금리 안정이면 상방, PPI도 상회하면 하방으로 재판단한다.",
+            "sources": [
+              "bls_cpi",
+              "bls_ppi",
+              "mitrade_week"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10년물 5% 재돌파, 12월 인상 사실상 기정사실",
+        "preview": "10년물 약 5.00%, 0.5%p 인상 확률 15%(보도).",
+        "points": [
+          "월러 이사가 12월 인상을 지지하고 0.5%p도 언급했다.",
+          "주택건설주 등 금리 민감주가 밀렸다."
+        ],
+        "meaning": "할인율 상승이 고평가 성장주에 부담으로 남는다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 10년물·금리 민감 업종",
+            "basis": "11/11 10년물 수준을 4.983%(Yahoo)와 비교한다.",
+            "counter": "새 물가 지표가 없는 날이라 방향 근거가 부족하다.",
+            "invalidation": "5% 위 안착이면 금리 민감 업종 하방, 4.9% 아래면 완화로 재판단.",
+            "sources": [
+              "yf_tnx",
+              "cnbc_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 10년물·금리 민감 업종",
+            "basis": "11/17 기준으로 비교한다.",
+            "counter": "PPI와 연준 위원 발언이 미확인이다.",
+            "invalidation": "PPI 결과와 인상 확률 변화로 재판단한다.",
+            "sources": [
+              "bls_ppi",
+              "yf_live"
+            ]
+          }
+        }
+      },
+      {
+        "title": "엔비디아 이틀째 급락 −5.47%, 반도체는 엇갈림",
+        "preview": "CEO 조사에 중국 반출 의혹, 이틀 −9.5%.",
+        "points": [
+          "75억USD 이상 하드웨어 중국 유입 의혹 보도가 더해졌다.",
+          "SOXX는 보합, 브로드컴·AMD는 올랐다."
+        ],
+        "meaning": "엔비디아 고유 위험으로 반도체 내부에서 자금이 갈리는 모습이다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/11 종가를 168.89USD와 비교한다. Yahoo 기사상 RSI 23으로 단기 과매도 지표가 나왔다.",
+            "counter": "수출통제 관련 의회 조사 등 추가 보도 시 장 초반 재하락 위험이 있다. 과매도 지표만으로 반등을 단정할 수 없다.",
+            "invalidation": "178.67USD(11/9 종가) 회복이면 상방, 165.94USD(장중 저점) 하회면 하방.",
+            "sources": [
+              "yf_nvda",
+              "yf_live",
+              "cnbc_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/17 종가를 168.89USD와 비교한다.",
+            "counter": "조사 결론 시점과 규제 대응이 공개되지 않았다.",
+            "invalidation": "이사회 결론·정부 대응 발표로 재판단한다.",
+            "sources": [
+              "cnbc_close",
+              "yf_live"
+            ]
+          }
+        }
+      },
+      {
+        "title": "실적 반응 엇갈림: 힘스 −16.6%, 온 −7.5%, 로켓랩 반전",
+        "preview": "가이던스 미달 종목은 급락, 산미나 상승폭 축소.",
+        "points": [
+          "힘스 4분기 매출 가이던스가 컨센서스를 밑돌았다.",
+          "산미나는 장전 +19%에서 +3.87%로 줄었다."
+        ],
+        "meaning": "금리 부담 속 실적 호재도 장중 차익 실현에 노출됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "실적 발표 종목(HIMS·ONON·SANM·RKLB)",
+            "basis": "11/11 종가를 각 11/10 종가와 비교한다.",
+            "counter": "종목별 재료와 장중 경로가 달라 묶어서 방향을 정할 근거가 없다.",
+            "invalidation": "종목별 갭 유지·추가 하락 여부로 개별 판단한다.",
+            "sources": [
+              "cnbc_movers",
+              "yf_live"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "실적 발표 종목(HIMS·ONON·SANM·RKLB)",
+            "basis": "11/17 종가를 11/10 종가와 비교한다.",
+            "counter": "실적 후 드리프트 여부를 판단할 자료가 없다.",
+            "invalidation": "애널리스트 조정·후속 공시로 재판단한다.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      },
+      {
+        "title": "코어위브 장후 실적: 매출 36.6억USD, 연간 가이던스 상향",
+        "preview": "매출 36.6억USD·가이던스 상향, 시간외 +4.86%.",
+        "points": [
+          "수주잔고 약 1,325억USD, 연간 매출 전망 130억~133억USD.",
+          "순손실 7.09억USD와 이자비용 증가가 부담이다."
+        ],
+        "meaning": "AI 인프라 수요 확인이지만 부채 부담 논쟁은 남는다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코어위브(CRWV)",
+            "basis": "11/11 정규장 종가를 48.73USD와 비교한다. 매출·가이던스 상향으로 시간외 51.10USD였다.",
+            "counter": "순손실 확대·4분기 이자비용 10.5억~11.5억USD가 부담이고 컨퍼런스콜 뒤 시간외 상승이 개장 후 되돌려질 위험이 있다. 발표 전 컨센서스 대비 크기는 확정하지 못했다.",
+            "invalidation": "51USD 위 유지면 상방, 48.73USD 하회 마감이면 하방.",
+            "sources": [
+              "crwv_pr",
+              "yf_crwv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코어위브(CRWV)",
+            "basis": "11/17 종가를 48.73USD와 비교한다.",
+            "counter": "자금조달·금리 5% 환경의 영향이 미확인이다.",
+            "invalidation": "추가 자금조달 공시·애널리스트 조정으로 재판단.",
+            "sources": [
+              "crwv_pr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "마이크로소프트 −2.2%, 앤트로픽 업무 도구 경쟁 우려",
+        "preview": "AI 업무 도구 경쟁 우려에 −2.2%.",
+        "points": [
+          "앤트로픽 업무 도구 공개가 오피스 경쟁 우려를 낳았다."
+        ],
+        "meaning": "소프트웨어 대형주에 AI 대체 우려가 다시 부각됐다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "마이크로소프트(MSFT)",
+            "basis": "11/11 종가를 533.16USD와 비교한다.",
+            "counter": "경쟁 영향의 실제 크기를 판단할 자료가 없다.",
+            "invalidation": "회사 대응·애널리스트 평가로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크로소프트(MSFT)",
+            "basis": "11/17 종가를 533.16USD와 비교한다.",
+            "counter": "근거 부족.",
+            "invalidation": "후속 보도로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      }
+    ],
+    "interpretation_points": [
+      "근원 CPI 상회로 12월 인상 경로가 굳어졌고 10년물 5%가 상단 시험대다.",
+      "엔비디아는 실적이 아닌 지배구조·규제 위험으로 할인되고 있다.",
+      "한국장은 전날 급반등 뒤 미국 금리·엔비디아 약세를 소화해야 한다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "CEO 조사·중국 반출 의혹 보도로 이틀째 급락.",
+        "watch": "장중 저점 165.94USD 지지와 후속 대응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/11 종가를 168.89USD와 비교한다. Yahoo 기사상 RSI 23으로 단기 과매도 지표가 나왔다.",
+            "counter": "수출통제 관련 의회 조사 등 추가 보도 시 장 초반 재하락 위험이 있다. 과매도 지표만으로 반등을 단정할 수 없다.",
+            "invalidation": "178.67USD(11/9 종가) 회복이면 상방, 165.94USD(장중 저점) 하회면 하방.",
+            "sources": [
+              "yf_nvda",
+              "yf_live",
+              "cnbc_close"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "엔비디아(NVDA)",
+            "basis": "11/17 종가를 168.89USD와 비교한다.",
+            "counter": "조사 결론 시점과 규제 대응이 공개되지 않았다.",
+            "invalidation": "이사회 결론·정부 대응 발표로 재판단한다.",
+            "sources": [
+              "cnbc_close",
+              "yf_live"
+            ]
+          }
+        }
+      },
+      "MSFT": {
+        "reason": "앤트로픽 업무 도구 공개로 오피스 경쟁 우려.",
+        "watch": "추가 하락 여부와 회사 대응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "마이크로소프트(MSFT)",
+            "basis": "11/11 종가를 533.16USD와 비교한다.",
+            "counter": "경쟁 영향의 실제 크기를 판단할 자료가 없다.",
+            "invalidation": "회사 대응·애널리스트 평가로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "마이크로소프트(MSFT)",
+            "basis": "11/17 종가를 533.16USD와 비교한다.",
+            "counter": "근거 부족.",
+            "invalidation": "후속 보도로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      },
+      "CRWV": {
+        "reason": "매출·연간 가이던스 상향, 시간외 +4.86%.",
+        "watch": "컨퍼런스콜 뒤 51USD 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코어위브(CRWV)",
+            "basis": "11/11 정규장 종가를 48.73USD와 비교한다. 매출·가이던스 상향으로 시간외 51.10USD였다.",
+            "counter": "순손실 확대·4분기 이자비용 10.5억~11.5억USD가 부담이고 컨퍼런스콜 뒤 시간외 상승이 개장 후 되돌려질 위험이 있다. 발표 전 컨센서스 대비 크기는 확정하지 못했다.",
+            "invalidation": "51USD 위 유지면 상방, 48.73USD 하회 마감이면 하방.",
+            "sources": [
+              "crwv_pr",
+              "yf_crwv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코어위브(CRWV)",
+            "basis": "11/17 종가를 48.73USD와 비교한다.",
+            "counter": "자금조달·금리 5% 환경의 영향이 미확인이다.",
+            "invalidation": "추가 자금조달 공시·애널리스트 조정으로 재판단.",
+            "sources": [
+              "crwv_pr"
+            ]
+          }
+        }
+      },
+      "HIMS": {
+        "reason": "4분기 매출 가이던스 미달로 이틀 −26%.",
+        "watch": "매도 진정과 목표가 조정을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "HIMS",
+            "basis": "11/11 종가를 19.13USD와 비교한다. 이틀 −26%로 급락했다.",
+            "counter": "가이던스 미달은 지속 악재이고 급락 후 기술적 반등과 상충한다. 장 초반 추가 매도 위험.",
+            "invalidation": "19.13USD 위 마감이면 상방, 18USD 하회면 하방.",
+            "sources": [
+              "yf_hims",
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "HIMS",
+            "basis": "11/17 종가를 19.13USD와 비교한다.",
+            "counter": "애널리스트 조정 규모 미확인.",
+            "invalidation": "목표가 조정·회사 설명으로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      },
+      "ONON": {
+        "reason": "직판 매출이 예상을 밑돌았다.",
+        "watch": "직판 둔화에 대한 경영진 설명을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "ONON",
+            "basis": "11/11 종가를 34.70USD와 비교한다.",
+            "counter": "실적 다음 날 방향 근거 부족.",
+            "invalidation": "34.70USD 회복 여부로 재판단.",
+            "sources": [
+              "yf_onon",
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "ONON",
+            "basis": "11/17 종가를 34.70USD와 비교한다.",
+            "counter": "소비 둔화 여부 미확인.",
+            "invalidation": "후속 보도로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      },
+      "SANM": {
+        "reason": "호실적 전망에도 장전 +19%가 +3.87%로 축소.",
+        "watch": "155USD 위 갭 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SANM",
+            "basis": "11/11 종가를 155.43USD와 비교한다. 전망 상향은 지지 요인이다.",
+            "counter": "장전 고점에서 크게 밀린 경로는 차익 실현 압력을 시사하나 거래 주체는 확인하지 않았다. 추가 되돌림 위험.",
+            "invalidation": "155USD 위 유지면 상방, 149.64USD(실적 전 종가) 근접이면 하방.",
+            "sources": [
+              "yf_sanm",
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SANM",
+            "basis": "11/17 종가를 155.43USD와 비교한다.",
+            "counter": "드리프트 판단 자료 없음.",
+            "invalidation": "애널리스트 조정으로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      },
+      "RKLB": {
+        "reason": "장전 −9%에서 +6.54%로 반전 마감.",
+        "watch": "반전 지속 여부와 뉴트론 후속 보도를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "RKLB",
+            "basis": "11/11 종가를 62.71USD와 비교한다. 장전 하락을 뒤집었다.",
+            "counter": "반전 이유 원문 미확인, 뉴트론 지연·손실 확대 악재가 남았다. 장 초반 되돌림 위험.",
+            "invalidation": "62.71USD 위 마감이면 상방, 58.86USD 하회면 하방.",
+            "sources": [
+              "yf_rklb",
+              "cnbc_movers"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "RKLB",
+            "basis": "11/17 종가를 62.71USD와 비교한다.",
+            "counter": "근거 부족.",
+            "invalidation": "수주·일정 보도로 재판단.",
+            "sources": [
+              "cnbc_movers"
+            ]
+          }
+        }
+      }
+    },
+    "next_checks": [
+      {
+        "title": "코어위브 컨퍼런스콜",
+        "detail": "설비투자·이자비용 설명 뒤 시간외 상승 유지 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "코어위브(CRWV)",
+            "basis": "11/11 정규장 종가를 48.73USD와 비교한다. 매출·가이던스 상향으로 시간외 51.10USD였다.",
+            "counter": "순손실 확대·4분기 이자비용 10.5억~11.5억USD가 부담이고 컨퍼런스콜 뒤 시간외 상승이 개장 후 되돌려질 위험이 있다. 발표 전 컨센서스 대비 크기는 확정하지 못했다.",
+            "invalidation": "51USD 위 유지면 상방, 48.73USD 하회 마감이면 하방.",
+            "sources": [
+              "crwv_pr",
+              "yf_crwv"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "코어위브(CRWV)",
+            "basis": "11/17 종가를 48.73USD와 비교한다.",
+            "counter": "자금조달·금리 5% 환경의 영향이 미확인이다.",
+            "invalidation": "추가 자금조달 공시·애널리스트 조정으로 재판단.",
+            "sources": [
+              "crwv_pr"
+            ]
+          }
+        }
+      },
+      {
+        "title": "한국장 개장: 급반등 다음 날",
+        "detail": "미국 CPI 상회·엔비디아 약세 속 외국인 매수 지속 여부를 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "11/11 KRX 정규장 종가를 11/10 종가(1,212,000원·198,900원)와 비교한다. SOXX 보합·브로드컴 상승은 지지 요인이다.",
+            "counter": "엔비디아 −5.47%, 미국 10년물 5% 부근, 전날 +4%대 급반등 뒤 차익 실현이 부담이다. 개장 갭 뒤 되돌림 위험.",
+            "invalidation": "외국인 순매수 지속·전일 종가 위 마감이면 상방, 외국인 순매도 전환·하회 마감이면 하방.",
+            "sources": [
+              "kr_close",
+              "cnbc_close",
+              "yf_soxx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "SK하이닉스·삼성전자(KRX)",
+            "basis": "5거래일 뒤 KRX 종가를 11/10 종가와 비교한다.",
+            "counter": "미국 PPI·AMAT 실적·외국인 수급 미확인.",
+            "invalidation": "미국 물가와 반도체 실적으로 재판단.",
+            "sources": [
+              "kr_close",
+              "mitrade_week"
+            ]
+          }
+        }
+      },
+      {
+        "title": "재향군인의 날, 미국 주식 정상 거래",
+        "detail": "엔비디아 조사 후속과 금리 반응을 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "mixed",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/11 정규장 종가를 7,520.93과 비교한다. 장중 −0.9%에서 −0.38%로 낙폭을 줄였다.",
+            "counter": "10년물 5% 부근과 12월 인상 기대가 부담이다. 개장 초 금리 반응에 따른 변동 위험이 있다.",
+            "invalidation": "10년물 4.95% 아래로 내리면 상방, 5.05% 위로 오르면 하방으로 바꾼다.",
+            "sources": [
+              "cnbc_close",
+              "yf_gspc",
+              "yf_tnx"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수(S&P500)",
+            "basis": "11/17 정규장 종가를 7,520.93과 비교한다.",
+            "counter": "11/13 PPI, AMAT·시스코 실적, 엔비디아 조사 후속이 남아 있다.",
+            "invalidation": "PPI 둔화와 금리 안정이면 상방, PPI도 상회하면 하방으로 재판단한다.",
+            "sources": [
+              "bls_cpi",
+              "bls_ppi",
+              "mitrade_week"
+            ]
+          }
+        }
+      },
+      {
+        "title": "시스코·AMAT 실적",
+        "detail": "AI 투자 흐름을 장비·네트워크 수요로 점검한다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 반도체 장비·네트워크",
+            "basis": "11/11은 발표 전이다.",
+            "counter": "실적 미확인.",
+            "invalidation": "발표 전까지 판단 보류.",
+            "sources": [
+              "mitrade_week"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 반도체 장비·네트워크",
+            "basis": "11/17 종가를 11/10 종가와 비교한다.",
+            "counter": "가이던스 미확인.",
+            "invalidation": "발표 내용으로 재판단.",
+            "sources": [
+              "mitrade_week"
+            ]
+          }
+        }
+      },
+      {
+        "title": "10월 PPI",
+        "detail": "0.5%p 인상 가능성을 키우는지 본다.",
+        "outlook": {
+          "d1": {
+            "direction": "unknown",
+            "target": "미국 지수·10년물",
+            "basis": "11/11은 PPI 발표 전이다.",
+            "counter": "결과 미확인.",
+            "invalidation": "발표 전까지 판단 보류.",
+            "sources": [
+              "bls_ppi"
+            ]
+          },
+          "d5": {
+            "direction": "unknown",
+            "target": "미국 지수·10년물",
+            "basis": "11/17 종가 기준.",
+            "counter": "PPI 결과 미확인.",
+            "invalidation": "PPI 결과로 재판단.",
+            "sources": [
+              "bls_ppi"
+            ]
+          }
+        }
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nyse_pdf": "NYSE Group · 2026~2028 휴장·조기폐장 발표",
+      "cnbc_close": "CNBC · 11/10 마감",
+      "cnbc_movers": "CNBC · 11/10 종목 움직임",
+      "yf_live": "Yahoo Finance · 11/10 마감",
+      "bnn_ap": "AP(BNN Bloomberg 전재) · 11/10 장중",
+      "bls_cpi": "BLS · 10월 소비자물가지수",
+      "bls_ppi": "BLS · PPI 발표 일정",
+      "crwv_pr": "StockTitan · 코어위브 3분기 실적 보도자료",
+      "crwv_ir": "CoreWeave IR · 3분기 실적 일정",
+      "mitrade_week": "Mitrade · 주간 일정",
+      "kr_close": "뉴스1 · 11/10 코스피 마감",
+      "yf_gspc": "Yahoo Finance · S&P 500",
+      "yf_ixic": "Yahoo Finance · 나스닥 종합",
+      "yf_dji": "Yahoo Finance · 다우",
+      "yf_rut": "Yahoo Finance · 러셀 2000",
+      "yf_vix": "Yahoo Finance · VIX",
+      "yf_tnx": "Yahoo Finance · 10년물(^TNX)",
+      "yf_oil": "Yahoo Finance · 원유 선물",
+      "yf_soxx": "Yahoo Finance · SOXX",
+      "yf_krw": "Yahoo Finance · USD/KRW",
+      "yf_nvda": "Yahoo Finance · NVDA",
+      "yf_msft": "Yahoo Finance · MSFT",
+      "yf_crwv": "Yahoo Finance · CRWV",
+      "yf_hims": "Yahoo Finance · HIMS",
+      "yf_onon": "Yahoo Finance · ONON",
+      "yf_sanm": "Yahoo Finance · SANM",
+      "yf_rklb": "Yahoo Finance · RKLB",
+      "yf_amd": "Yahoo Finance · AMD",
+      "yf_avgo": "Yahoo Finance · AVGO",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)"
+    },
+    "outlook": {
+      "method": "conditional",
+      "validation": "not_validated",
+      "estimated_at": "2026-11-11T06:19:30+09:00",
+      "input_cutoff": "2026-11-11T06:19:30+09:00",
+      "added_later": false,
+      "evaluation_eligible": true,
+      "note": "확률 예측이 아니라 확인 조건이 붙은 시나리오다. 다음 거래일 11/11과 5거래일째 11/17 정규장 종가로 검증하며 장중 움직임은 적중 판정에 쓰지 않는다."
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-10T16:15:00-05:00",
+      "kst": "2026-11-11T06:15:00+09:00",
+      "utc": "2026-11-10T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-10T16:15:57-05:00",
+      "kst": "2026-11-11T06:15:57+09:00",
+      "utc": "2026-11-10T21:15:57Z"
+    },
+    "start_offset_seconds": 57,
+    "delay_seconds": 57,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, GitHub MCP, WebSearch·WebFetch(NYSE·CNBC·Yahoo·StockTitan 열람 성공, Benzinga 403), Yahoo Finance 차트 API. gh CLI 인증 실패.",
+    "model_setting": "not_verified",
+    "request_commit": "e373001bd3193fb35de35024b26c34e589ec2812",
+    "analysis_run_id": 42903549720,
+    "analysis_status": "in_progress (작성 시점, gh 인증 실패로 artifact 미확인·분석 미사용)",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-10.json"
+  }
+}
