@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-10",
+  "latest_id": "us-pre-2026-11-10",
   "reports": [
+    {
+      "id": "us-pre-2026-11-10",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-10",
+      "title": "11월 10일 미국장 시작 전 브리핑",
+      "summary": "10월 CPI 예상 상회에 나스닥100 선물 −1.1%, 2년물 +12bp",
+      "as_of": "2026-11-10T06:00:00+09:00",
+      "queried_at": "2026-11-10T23:05:32+09:00",
+      "path": "reports/us-pre-2026-11-10/"
+    },
     {
       "id": "kr-close-2026-11-10",
       "is_test": false,
