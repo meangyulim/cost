@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-10",
+  "latest_id": "kr-close-2026-11-10",
   "reports": [
+    {
+      "id": "kr-close-2026-11-10",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-10",
+      "title": "한국장 마감 브리핑 · 2026.11.10",
+      "summary": "美 반도체 반등에 코스피 4.39% 오른 5,239.13, 외국인 8거래일 만에 순매수",
+      "as_of": "2026-11-10T15:30:00+09:00",
+      "queried_at": "2026-11-10T15:50:00+09:00",
+      "path": "reports/kr-close-2026-11-10/"
+    },
     {
       "id": "kr-pre-2026-11-10",
       "is_test": false,
