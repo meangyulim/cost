@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-10",
+  "latest_id": "kr-pre-2026-11-11",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-11",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-11",
+      "title": "11월 11일 한국장 시작 전 브리핑",
+      "summary": "美 CPI 상회·엔비디아 급락에 야간선물 −1.74%, 반도체 약세 출발 예상",
+      "as_of": "2026-11-11T08:23:54+09:00",
+      "queried_at": "2026-11-11T08:26:00+09:00",
+      "path": "reports/kr-pre-2026-11-11/"
+    },
     {
       "id": "us-close-2026-11-10",
       "is_test": false,
