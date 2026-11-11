@@ -19,9 +19,10 @@ class OutlookTests(unittest.TestCase):
         report['reading']['stocks']['005930']['outlook']['d1']['direction'] = 'down'
         report['reading']['stocks']['005930']['outlook']['d5']['direction'] = 'up'
         html = render_report(report, '.')
-        self.assertIn('당일 · − 하방 우세', html)
-        self.assertIn('5거래일 · + 상방 우세', html)
-        self.assertIn('<b class="up">+2.79%</b>', html)  # Observed change stays separate.
+        # Views use arrows and outlined chips; directional views stay visible without expanding.
+        self.assertIn('<span class="chip strong outlook-down">당일 ↘ 하방 우세</span>', html)
+        self.assertIn('<span class="chip strong outlook-up">5거래일 ↗ 상방 우세</span>', html)
+        self.assertIn('<b class="up">+2.79%</b>', html)  # Observed change stays separate (▲ fill colour, no arrow).
         payload = image_payload(report, '.')
         self.assertEqual(payload['stocks'][0]['outlook']['d1']['direction'], 'down')
         self.assertEqual(payload['stocks'][0]['outlook']['d5']['direction'], 'up')
@@ -46,10 +47,19 @@ class OutlookTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate_outlook(report)
 
+    def test_equal_horizons_merge_but_both_periods_stay_named(self):
+        html = render_report(self.report, '.')
+        self.assertIn('당일·5거래일', html)
+        for entry in self.report['reading']['issues']:
+            for key in ('d1', 'd5'):
+                self.assertIn(entry['outlook'][key]['invalidation'].replace('"', '&quot;').replace("'", '&#x27;'), html)
+        self.assertIn('조건부 해석 · 검증 전 · 확률 아님', html)
+
     def test_past_returns_never_create_forecasts_for_legacy_reports(self):
         report = json.loads((ROOT / 'data/reports/test-layout-2026-09-30.json').read_text())
         html = render_report(report, '.')
-        self.assertNotIn('outlook-badge', html)
+        self.assertNotIn('class="chip', html)
+        self.assertNotIn('id="lines"', html)
         self.assertIsNone(image_payload(report, '.')['outlook'])
 
     def test_labels_account_for_publication_session(self):

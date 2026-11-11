@@ -2,15 +2,17 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="description" content="$description">
+  <meta name="theme-color" content="#FBFBF9">
   <title>$title</title>
+  <link rel="preload" href="$asset_prefix/assets/fonts/noto-sans-kr-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="$asset_prefix/assets/fonts/noto-sans-kr-900.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="$asset_prefix/assets/style.css?v=$style_version">
   <script src="$asset_prefix/assets/brief-image.js?v=$image_version" defer></script>
 </head>
-<body><main>
-  <nav class="site-nav" aria-label="사이트"><a href="$asset_prefix/index.html">최신 브리핑</a><a href="$asset_prefix/archive/">날짜별 보관함</a></nav>
+<body><div class="page">
   $content
-  <footer><p>KST 기준 · 관찰용 자료, 투자 권유 아님.</p></footer>
-</main></body>
+  <footer class="page-footer"><p>KST 기준 · 관찰용 자료, 투자 권유 아님 · <a href="$asset_prefix/archive/">날짜별 보관함</a></p></footer>
+</div></body>
 </html>

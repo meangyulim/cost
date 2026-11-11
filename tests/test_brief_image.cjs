@@ -2,13 +2,16 @@ const {test} = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const {wrap, layout, createCanvas, init} = require('../assets/brief-image.js');
+const {wrap, layout, createCanvases, init} = require('../assets/brief-image.js');
+
+const W = 540, H = 675, PAD = 30;
 
 function context() {
   return {
     font: '400 16px sans-serif', calls: [],
     measureText(value) { const size = Number(this.font.match(/ (\d+)px/)[1]); return {width: Array.from(value).length * size}; },
-    scale() {}, fillRect() {},
+    scale() {}, fillRect() {}, beginPath() {}, moveTo() {}, lineTo() {}, arcTo() {}, closePath() {},
+    arc() {}, fill() {}, stroke() {}, setLineDash() {},
     fillText(value, x, y) { this.calls.push({value, x, y, font: this.font}); }
   };
 }
@@ -24,6 +27,11 @@ function payloads() {
   });
 }
 
+const texts = plan => plan.pages.flatMap(page => page.ops.filter(op => op.kind === 'text'));
+// Card content without the repeated per-card frame (brand, date, page number, "이어서").
+const body = plan => plan.pages.flatMap(page => page.ops.filter(op => op.kind === 'text' && !op.frame));
+const squash = value => String(value).replace(/\s/g, '');
+
 test('wrapping preserves Korean, numbers, Unicode and explicit line breaks', () => {
   const ctx = context();
   for (const value of ['한글 요약 +1.23% −0.50%', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '🚀 미국 ETF 65거래일', '첫 줄\n둘째 줄']) {
@@ -33,7 +41,7 @@ test('wrapping preserves Korean, numbers, Unicode and explicit line breaks', () 
   }
 });
 
-test('image percentages have one unit for both report input formats', () => {
+test('card percentages have one unit for both report input formats', () => {
   for (const [raw, expected] of [['+1.95', '+1.95%'], ['+1.95%', '+1.95%'],
     ['−0.50%', '−0.50%'], ['0.00', '0.00%']]) {
     const data = payloads()[0];
@@ -41,117 +49,133 @@ test('image percentages have one unit for both report input formats', () => {
       entry.direction = 'flat';
       entry.percent = raw;
     }
-    const content = layout(data, context()).ops.filter(op => op.kind === 'text').map(op => op.value).join('');
+    const content = texts(layout(data, context())).map(op => op.value).join('');
     assert.ok(content.includes(expected));
     assert.ok(!content.includes('%%'));
     assert.equal(data.indices[0].percent, raw);
   }
 });
 
-test('saved image distinguishes conditional horizons from observed price changes', () => {
+test('cards keep conditional views apart from observed price changes', () => {
   const data = payloads().find(item => item.id === 'kr-pre-2026-10-02');
   data.stocks[0].outlook.d1.direction = 'down';
   data.stocks[0].outlook.d5.direction = 'up';
   const plan = layout(data, context());
-  const text = plan.ops.filter(op => op.kind === 'text');
-  assert.ok(text.some(op => op.value === '당일 · − 하방 우세' && op.fill === '#1768ae'));
-  assert.ok(text.some(op => op.value === '5거래일 · + 상방 우세' && op.fill === '#c32d4b'));
-  assert.ok(text.some(op => op.value.includes('+2.79%') && op.fill === '#c32d4b'));
-  assert.ok(text.some(op => op.value.includes('조건부 방향 전망 · 검증 전')));
-  assert.ok(text.map(op => op.value).join('').replace(/\s/g, '').includes('장전예측의적중률평가에서제외'));
+  const drawn = texts(plan);
+  assert.ok(drawn.some(op => op.value === '당일 ↘ 하방 우세' && op.fill === '#4B3BA8'));
+  assert.ok(drawn.some(op => op.value === '5거래일 ↗ 상방 우세' && op.fill === '#4B3BA8'));
+  assert.ok(drawn.some(op => op.value.includes('+2.79%') && op.fill === '#B0182F'));
+  const pills = plan.pages.flatMap(page => page.ops.filter(op => op.kind === 'pill'));
+  assert.ok(pills.some(op => !op.dashed) && pills.every(op => op.stroke === '#4B3BA8'));
+  const content = squash(drawn.map(op => op.value).join(''));
+  assert.ok(content.includes(squash('조건부 방향 전망 · 검증 전')));
+  assert.ok(content.includes('장전예측의적중률평가에서제외'));
 });
 
-test('every real and TEST report renders without cropping or omitted sections', () => {
+test('every real and TEST report fits 4:5 cards without cropping or omitted fields', () => {
   for (const data of payloads()) {
     const ctx = context(), plan = layout(data, ctx);
-    assert.equal(plan.width, 540);
-    const drawn = plan.ops.filter(op => op.kind === 'text');
-    assert.ok(drawn.length > 30);
-    for (const op of drawn) {
-      ctx.font = `${op.weight} ${op.size}px sans-serif`;
-      assert.ok(op.x + ctx.measureText(op.value).width <= plan.width - 21, op.value);
-      assert.ok(op.y + op.size <= plan.height - 20, op.value);
+    assert.equal(plan.width, W);
+    assert.equal(plan.height, H);
+    assert.ok(plan.pages.length >= 3);
+    for (const [n, page] of plan.pages.entries()) {
+      const drawn = page.ops.filter(op => op.kind === 'text');
+      for (const op of drawn) {
+        ctx.font = `${op.weight} ${op.size}px sans-serif`;
+        assert.ok(op.x >= PAD - 1 && op.x + ctx.measureText(op.value).width <= W - PAD + 1, op.value);
+        assert.ok(op.y >= 0 && op.y + op.size <= H - 20, op.value);
+      }
+      assert.ok(drawn.some(op => op.value === `${n + 1} / ${plan.pages.length}`));
+      assert.ok(drawn.some(op => op.value === '관찰용 자료 · 투자 권유 아님'));
+      if (data.is_test) assert.ok(drawn.some(op => op.value.includes('TEST')));
     }
-    const content = drawn.map(op => op.value).join('').replace(/\s/g, '');
-    for (const section of ['오늘의 결론', `핵심 이슈 ${data.issues.length}`, `관찰 종목 ${data.stocks.length}`, '다음 확인', '투자 권유 아님']) {
-      assert.ok(content.includes(section.replace(/\s/g, '')));
+    const content = squash(body(plan).map(op => op.value).join(''));
+    for (const section of [`이야기 ${data.issues.length}`, `관찰 종목 ${data.stocks.length}`, '달력']) {
+      assert.ok(content.includes(squash(section)), section);
     }
-    for (const stock of data.stocks) assert.ok(content.includes(stock.price.replace(/\s/g, '')));
-    for (const value of [data.title, data.headline, data.as_of, ...data.summary_points,
-      ...data.notices, ...data.issues.flatMap(item => [item.title, item.preview]),
-      ...data.stocks.flatMap(item => [item.price, item.percent, item.as_of, item.session, item.reason, item.watch]),
-      ...data.next_checks.flatMap(item => [item.label, item.title, item.detail])]) {
-      assert.ok(content.includes(value.replace(/\s/g, '')), value);
+    for (const value of [data.headline, data.as_of, ...data.summary_points, ...data.notices,
+      ...data.issues.flatMap(item => [item.title, item.preview]),
+      ...data.stocks.flatMap(item => [item.price, item.percent, item.reason, item.watch, `${item.session} · ${item.as_of}`]),
+      ...data.next_checks.flatMap(item => [item.title, item.detail])]) {
+      assert.ok(content.includes(squash(value)), value);
     }
-    assert.ok(!content.includes(data.report_url.replace(/\s/g, '')));
+    assert.ok(!content.includes(squash(data.report_url)));
     assert.ok(!content.includes('출처·'));
-    if (data.is_test) assert.ok(content.includes('TEST'));
-    const canvas = {getContext: () => ctx};
-    createCanvas(data, {createElement: () => canvas});
-    assert.ok(canvas.width > 0 && canvas.width <= 1080);
-    assert.ok(Math.abs(canvas.width / canvas.height - plan.width / plan.height) < 0.001);
-    assert.ok(canvas.height > 1000 && canvas.height <= 8192);
   }
 });
 
-test('very long content expands the image instead of clipping text', () => {
+test('very long content flows onto more cards instead of clipping text', () => {
   const data = payloads()[0];
-  data.notices = ['주의 사항 '.repeat(4000)];
+  data.notices = ['주의 사항 '.repeat(1500)];
   const ctx = context(), plan = layout(data, ctx);
-  assert.ok(plan.height > 8192);
-  const canvas = {getContext: () => ctx};
-  createCanvas(data, {createElement: () => canvas});
-  assert.ok(canvas.height <= 8192);
-  assert.ok(canvas.width * canvas.height <= 16010000);
-  assert.equal(plan.ops.filter(op => op.kind === 'text').at(-1).value, '관찰용 자료 · 투자 권유 아님');
+  assert.ok(plan.pages.length > 6);
+  const drawn = texts(plan);
+  for (const op of drawn) assert.ok(op.y + op.size <= H - 20, op.value);
+  assert.equal(squash(drawn.filter(op => op.value.includes('주의') || op.value.includes('사항')).map(op => op.value).join('')).length,
+    squash('※ ' + data.notices[0]).length);
+});
+
+test('each card is drawn at 1080 × 1350', () => {
+  const data = payloads()[0];
+  const canvases = createCanvases(data, {createElement: () => ({getContext: () => context()})});
+  assert.equal(canvases.length, layout(data, context()).pages.length);
+  for (const canvas of canvases) {
+    assert.equal(canvas.width, 1080);
+    assert.equal(canvas.height, 1350);
+  }
 });
 
 function ui(shareSupported = true) {
   const data = payloads()[0], nodes = {}, buttons = ['save', 'share'].map(action => node(action));
   function node(action) {
-    return {hidden: false, disabled: false, listeners: {}, dataset: {imageAction: action},
+    return {hidden: true, disabled: false, listeners: {}, dataset: {imageAction: action}, children: [],
       addEventListener(type, fn) { this.listeners[type] = fn; }, focus() {},
+      append(...items) { this.children.push(...items); }, replaceChildren() { this.children = []; },
       showModal() { this.open = true; }, close() { this.open = false; this.listeners.close(); }};
   }
-  for (const id of ['brief-image-data', 'image-dialog', 'image-status', 'image-preview', 'image-download', 'image-share', 'image-retry', 'image-close']) nodes[id] = node();
+  for (const id of ['brief-image-data', 'image-dialog', 'image-status', 'image-previews', 'image-share', 'image-retry', 'image-close']) nodes[id] = node();
   nodes['brief-image-data'].textContent = JSON.stringify(data);
-  const ctx = context();
-  const doc = {fonts: {ready: Promise.resolve()}, activeElement: buttons[0],
-    getElementById: id => nodes[id], querySelector: () => node(), querySelectorAll: () => buttons,
-    createElement: () => ({getContext: () => ctx, toBlob: fn => fn(new Blob(['PNG'], {type: 'image/png'}))})};
+  const doc = {fonts: {ready: Promise.resolve(), load: () => Promise.resolve([])}, activeElement: buttons[0],
+    getElementById: id => nodes[id], querySelectorAll: () => buttons,
+    createElement: tag => tag === 'canvas' ? {getContext: () => context(), toBlob: fn => fn(new Blob(['PNG'], {type: 'image/png'}))} : node()};
   const calls = [], events = {};
   const win = {File, URL: {createObjectURL: () => 'blob:preview', revokeObjectURL: () => {}},
     location: {href: 'https://meangyulim.github.io/cost/'},
     navigator: shareSupported ? {canShare: () => true, share: data => {calls.push(data); return Promise.resolve(); }} : {},
     requestIdleCallback: fn => fn(), addEventListener: (type, fn) => {events[type] = fn;}};
   init(doc, win);
-  return {nodes, buttons, calls, win};
+  return {nodes, buttons, calls, win, data};
 }
 
-test('prepared toolbar shares a PNG File synchronously from the click', async () => {
+async function settle() { for (let n = 0; n < 20; n++) await new Promise(resolve => setImmediate(resolve)); }
+
+test('prepared cards share as PNG files synchronously from the masthead click', async () => {
   const app = ui();
-  await new Promise(resolve => setImmediate(resolve));
+  await settle();
+  assert.ok(app.buttons.every(button => button.hidden === false));
   assert.equal(app.nodes['image-share'].disabled, false);
   app.buttons[1].listeners.click();
   assert.equal(app.calls.length, 1);
-  assert.equal(app.calls[0].files[0].type, 'image/png');
-  assert.ok(app.calls[0].files[0].name.endsWith('.png'));
-  assert.equal(app.calls[0].url, undefined); // File, not a link-only share.
+  assert.ok(app.calls[0].files.length >= 3);
+  assert.ok(app.calls[0].files.every(file => file.type === 'image/png' && file.name.endsWith('.png')));
+  assert.equal(app.calls[0].url, undefined); // Files, not a link-only share.
 });
 
-test('unsupported file sharing falls back to an accessible save preview', async () => {
+test('unsupported file sharing falls back to per-card save previews', async () => {
   const app = ui(false);
-  await new Promise(resolve => setImmediate(resolve));
+  await settle();
   app.buttons[1].listeners.click();
   assert.equal(app.nodes['image-dialog'].open, true);
   assert.equal(app.nodes['image-share'].disabled, true);
-  assert.equal(app.nodes['image-download'].href, 'blob:preview');
+  const figures = app.nodes['image-previews'].children;
+  assert.ok(figures.length >= 3);
+  assert.equal(figures[0].children[1].href, 'blob:preview');
   assert.ok(app.nodes['image-status'].textContent.includes('PNG 저장'));
 });
 
 test('cancelling native sharing never sends or retries', async () => {
   const app = ui();
-  await new Promise(resolve => setImmediate(resolve));
+  await settle();
   app.win.navigator.share = () => {app.calls.push('cancel'); return Promise.reject({name: 'AbortError'});};
   await app.nodes['image-share'].listeners.click();
   assert.equal(app.calls.length, 1);
