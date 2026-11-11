@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-close-2026-11-11",
+  "status": "queued",
+  "queued_at_kst": "2026-11-11T15:52:53+09:00",
+  "queued_at_utc": "2026-11-11T06:52:53Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-11/",
+  "deployment_commit": "1ef060f416682ba02b9785b1f8303ec1ea82a095",
+  "deployment_run_id": 42975409094,
+  "deployment_conclusion": "success",
+  "kakao_summary": "[11/11 한국장 마감] 코스피 5,375.36(+2.60%) 약세 출발 뒤 반전, 외국인 6,553억 순매수. 코스닥 705.10(+5.62%). 삼성전자 20만원 회복, 하이닉스 +5.36%. 크래프톤·시프트업 실적 급락. 12일 옵션 만기·13일 美 PPI.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
