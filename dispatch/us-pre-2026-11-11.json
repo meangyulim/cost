@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-11",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-11T23:05:35+09:00",
   "queued_at_utc": "2026-11-11T14:05:35Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-11/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43035021619,
   "deployment_conclusion": "success",
   "kakao_summary": "美 장전: 코어위브 매출·가이던스 상향에 나스닥100 선물 +1.87%. 마이크론 +6.8%·AMD +5.9%·엔비디아 +3.1% 장전 반등. 12월 인상 확률 약 90%, 오늘 채권 휴장.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-11T23:05:43+09:00",
   "attempted_at_utc": "2026-11-11T14:05:43Z",
-  "workflow_run_id": 43035152958
+  "workflow_run_id": 43035152958,
+  "message_length": 167,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-11T23:05:47+09:00",
+  "result_recorded_at_utc": "2026-11-11T14:05:47Z"
 }
