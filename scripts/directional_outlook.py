@@ -1,13 +1,17 @@
 """Evidence-backed editorial scenarios; never infer forecasts from past returns."""
-from collections import Counter
 from datetime import datetime, timedelta
 from html import escape
 
-# Views use arrows and outlines; observed price changes use ▲▼ and fills.
+# Direction codes of older per-item outlooks; validated, no longer drawn as badges.
 STATES = {'up': '↗ 상방 우세', 'down': '↘ 하방 우세',
           'mixed': '± 재료 상충', 'unknown': '? 판단 보류'}
 DIRECTIONAL = ('up', 'down')
+PLAIN = {'up': '오를 쪽 재료가 더 많다고 봤어요', 'down': '내릴 쪽 재료가 더 많다고 봤어요',
+         'mixed': '재료가 엇갈려 방향을 정하지 않았어요', 'unknown': '자료가 부족해 판단을 미뤘어요'}
 PERIODS = ('d1', 'd5')
+# 2026.11.12: the owner asked for a plain-language reading instead of per-item horizon badges.
+MOODS = {'fear': '불안', 'caution': '경계', 'neutral': '중립', 'relief': '안도', 'euphoria': '들뜸'}
+VIEW_KEYS = {'headline', 'mood', 'drivers', 'history', 'paths', 'estimated_at', 'input_cutoff', 'added_later'}
 
 
 def labels(report):
@@ -28,6 +32,7 @@ def entries(report):
 
 
 def validate_outlook(report):
+    validate_view(report)
     reading = report.get('reading', {})
     meta = reading.get('outlook')
     items = entries(report)
@@ -72,31 +77,61 @@ def validate_outlook(report):
                 raise ValueError('Outlook evidence must refer to report sources')
 
 
+def validate_view(report):
+    """reading.view: interpretation in plain words. Never probabilities, targets or hit rates."""
+    view = report.get('reading', {}).get('view')
+    if view is None:
+        return
+    if not isinstance(view, dict) or set(view) != VIEW_KEYS:
+        raise ValueError('reading.view needs exactly: ' + ', '.join(sorted(VIEW_KEYS)))
+    source_ids = {item['id'] for item in report['sources']}
+
+    def words(value, name):
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f'reading.view {name} cannot be empty')
+
+    def refs(value):
+        if not isinstance(value, list) or not value or not all(ref in source_ids for ref in value):
+            raise ValueError('reading.view evidence must refer to report sources')
+
+    words(view['headline'], 'headline')
+    mood = view['mood']
+    if not isinstance(mood, dict) or set(mood) != {'level', 'note'} or mood['level'] not in MOODS:
+        raise ValueError('reading.view mood needs a known level and a note')
+    words(mood['note'], 'mood note')
+    if not isinstance(view['drivers'], list) or not 1 <= len(view['drivers']) <= 5:
+        raise ValueError('reading.view needs one to five drivers')
+    for item in view['drivers']:
+        if not isinstance(item, dict) or set(item) != {'title', 'text', 'sources'}:
+            raise ValueError('drivers need title, text and sources')
+        words(item['title'], 'driver title')
+        words(item['text'], 'driver text')
+        refs(item['sources'])
+    if not isinstance(view['history'], list) or len(view['history']) > 2:
+        raise ValueError('reading.view history is a list of at most two cases')
+    for case in view['history']:
+        if not isinstance(case, dict) or set(case) != {'title', 'then', 'next', 'after', 'difference', 'sources'}:
+            raise ValueError('history cases need title, then, next, after, difference and sources')
+        for key in ('title', 'then', 'next', 'after', 'difference'):
+            words(case[key], 'history ' + key)
+        refs(case['sources'])
+    paths = view['paths']
+    if not isinstance(paths, dict) or set(paths) != {'good', 'caution'}:
+        raise ValueError('reading.view paths need good and caution')
+    words(paths['good'], 'good path')
+    words(paths['caution'], 'caution path')
+    cutoff, estimated = timestamp(view['input_cutoff']), timestamp(view['estimated_at'])
+    if type(view['added_later']) is not bool:
+        raise ValueError('reading.view added_later must be boolean')
+    if cutoff > estimated or cutoff > timestamp(report['queried_at']):
+        raise ValueError('reading.view inputs cannot include future information')
+    if not view['added_later'] and estimated > timestamp(report['queried_at']):
+        raise ValueError('Late readings must be explicitly marked')
+
+
 def is_directional(entry):
     outlook = entry.get('outlook') or {}
     return any(outlook.get(key, {}).get('direction') in DIRECTIONAL for key in PERIODS)
-
-
-def chip_items(entry, report, directional_only=False):
-    """(label, direction) pairs; equal horizons merge into one chip that names both."""
-    outlook = entry.get('outlook')
-    if not outlook:
-        return []
-    periods = labels(report)
-    d1, d5 = outlook['d1']['direction'], outlook['d5']['direction']
-    items = [(f"{periods['d1']}·{periods['d5']}", d1)] if d1 == d5 else [(periods['d1'], d1), (periods['d5'], d5)]
-    if directional_only:
-        items = [item for item in items if item[1] in DIRECTIONAL]
-    return items
-
-
-def chips(entry, report, directional_only=False):
-    items = chip_items(entry, report, directional_only)
-    if not items:
-        return ''
-    return '<span class="chips" aria-label="조건부 방향 전망">' + ''.join(
-        f'<span class="chip {"strong" if direction in DIRECTIONAL else "soft"} outlook-{direction}">'
-        f'{escape(label)} {STATES[direction]}</span>' for label, direction in items) + '</span>'
 
 
 def details(entry, report):
@@ -106,19 +141,11 @@ def details(entry, report):
     parts = []
     for key in PERIODS:
         item = entry['outlook'][key]
-        parts.append(f'<div class="outlook-detail outlook-{item["direction"]}"><b>{periods[key]} · {STATES[item["direction"]]}</b>')
+        parts.append(f'<div class="outlook-detail"><b>{periods[key]} · {PLAIN[item["direction"]]}</b>')
         for label, field in [('대상', 'target'), ('근거', 'basis'), ('반대 요인', 'counter'), ('무효·재판단 조건', 'invalidation')]:
             parts.append(f'<p><span>{label}</span>{escape(item[field], quote=True)}</p>')
         parts.append('</div>')
     return ''.join(parts)
-
-
-def stats(report):
-    counts = Counter(entry['outlook'][key]['direction'] for entry in entries(report)
-                     if entry.get('outlook') for key in PERIODS)
-    if not counts:
-        return ''
-    return (f'방향 의견 {counts["up"] + counts["down"]} · 상충 {counts["mixed"]} · 보류 {counts["unknown"]}')
 
 
 def notice(report):
@@ -128,16 +155,10 @@ def notice(report):
     estimated = timestamp(meta['estimated_at']).strftime('%m.%d %H:%M')
     cutoff = timestamp(meta['input_cutoff']).strftime('%m.%d %H:%M')
     action = '추가' if meta['added_later'] else '작성'
-    summary = stats(report)
-    return (f'<p class="view-meta">조건부 해석 · 검증 전 · 확률 아님 · {estimated} {action} · 입력 자료 {cutoff}'
-            f'{" · " + summary if summary else ""}<br>{escape(meta["note"], quote=True)}</p>')
+    return (f'<p class="view-meta">이전 형식의 조건부 해석 · 검증 전 · 확률 아님 · {estimated} {action} · 입력 자료 {cutoff}'
+            f'<br>{escape(meta["note"], quote=True)}</p>')
 
 
-def image_meta(report):
-    meta = report.get('reading', {}).get('outlook')
-    if not meta:
-        return None
-    return {'labels': labels(report), 'status': '조건부 방향 전망 · 검증 전',
-            'estimated_at': timestamp(meta['estimated_at']).strftime('%m/%d %H:%M KST'),
-            'input_cutoff': timestamp(meta['input_cutoff']).strftime('%m/%d %H:%M KST'),
-            'added_later': meta['added_later'], 'note': meta['note'], 'stats': stats(report)}
+def view_written(report):
+    view = report['reading']['view']
+    return timestamp(view['estimated_at']).strftime('%m.%d %H:%M') + (' 추가' if view['added_later'] else ' 작성')

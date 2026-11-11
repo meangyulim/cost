@@ -8,12 +8,14 @@
   const C = {paper: "#FBFBF9", ink: "#14213D", ink2: "#2B3550", ink3: "#4A5470", line: "#D9DCE3",
     navy: "#14213D", navyLine: "#34436A", navyInk2: "#C3CBDD", navyInk3: "#A7B1C8", panel: "#F1F2F5",
     up: "#B0182F", down: "#1D4ED8", upNavy: "#FF9AA6", downNavy: "#9CC2FF", flat: "#4A5470",
-    caution: "#6B4300", cautionBg: "#FFF1CF", view: "#4B3BA8", white: "#FFFFFF"};
+    caution: "#6B4300", cautionBg: "#FFF1CF", white: "#FFFFFF"};
   const HEAT = {"up-4": ["#B0182F", C.white], "up-3": ["#C73049", C.white], "up-2": ["#F2A4AF", C.ink], "up-1": ["#F8CDD3", C.ink],
     "down-4": ["#1D4ED8", C.white], "down-3": ["#3563DC", C.white], "down-2": ["#A9C3F7", C.ink], "down-1": ["#D3E0FB", C.ink],
     flat: [C.panel, C.ink]};
-  const STATES = {up: "↗ 상방 우세", down: "↘ 하방 우세", mixed: "± 재료 상충", unknown: "? 판단 보류"};
   const DIRECTIONAL = ["up", "down"];
+  // 시장 읽기 mood scale: the writer's interpretation, never an indicator.
+  const MOODS = [["fear", "불안", "#A9C3F7"], ["caution", "경계", "#D3E0FB"], ["neutral", "중립", "#E1E4EA"],
+    ["relief", "안도", "#F8CDD3"], ["euphoria", "들뜸", "#F2A4AF"]];
   const tone = (direction, onNavy) => ({up: onNavy ? C.upNavy : C.up, down: onNavy ? C.downNavy : C.down}[direction] || (onNavy ? C.navyInk2 : C.flat));
   const num = value => Number(String(value).replace(/,/g, "").replace(/−/g, "-").replace(/\+/g, "").replace(/[%％]\s*$/, "").trim());
   const change = item => item.direction === "missing" ? "미확인" : /(%p|bp)$/.test(String(item.percent).trim()) ?
@@ -47,16 +49,7 @@
     return HEAT[`${stock.direction}-${level}`];
   }
 
-  function chipItems(outlook, labels, directionalOnly) {
-    if (!outlook || !labels) return [];
-    const d1 = outlook.d1.direction, d5 = outlook.d5.direction;
-    let items = d1 === d5 ? [[`${labels.d1}·${labels.d5}`, d1]] : [[labels.d1, d1], [labels.d5, d5]];
-    if (directionalOnly) items = items.filter(item => DIRECTIONAL.includes(item[1]));
-    return items.map(([label, direction]) => ({text: `${label} ${STATES[direction]}`, strong: DIRECTIONAL.includes(direction)}));
-  }
-
   function layout(data, ctx) {
-    const labels = data.outlook ? data.outlook.labels : null;
     // A unit is a block of ops drawn relative to its own top. Groups stay on one card when they fit.
     const groups = [];
     let group = null;
@@ -75,19 +68,16 @@
       if (note) ops.push({kind: "text", value: note, x: W - PAD - measure(12, 400, note), y: 9, size: 12, weight: 400, fill: C.ink3});
       unit(50, ops);
     }
-    function chips(items, x = PAD) {
-      if (!items.length) return;
-      const ops = [];
-      let cx = x, row = 0;
-      for (const item of items) {
-        const width = measure(12, 700, item.text) + 18;
-        if (cx + width > W - PAD && cx > x) { cx = x; row += 1; }
-        ops.push({kind: "pill", x: cx, y: row * 26 + 2, width, height: 22, stroke: C.view, dashed: !item.strong,
-          fill: item.strong ? C.white : null});
-        ops.push({kind: "text", value: item.text, x: cx + 9, y: row * 26 + 6, size: 12, weight: 700, fill: C.view});
-        cx += width + 6;
-      }
-      unit((row + 1) * 26 + 4, ops);
+    // Text with a coloured rule on its left; each row is its own unit so it can continue on the next card.
+    function ruled(value, size, weight, fill, rule, gapAfter = 0) {
+      ctx.font = `${weight} ${size}px ${FONT}`;
+      const rows = wrap(ctx, value, BODY - 16);
+      rows.forEach((row, n) => {
+        const h = size * 1.6 + (n === rows.length - 1 ? gapAfter : 0);
+        // Overlap the next row by 1px so a multi-row rule reads as one line.
+        unit(h, [{kind: "rect", x: PAD, y: 0, width: 4, height: n === rows.length - 1 && gapAfter ? size * 1.6 : h + 1, fill: rule},
+          {kind: "text", value: row, x: PAD + 16, y: size * 0.3, size, weight, fill}]);
+      });
     }
     function rangeOps(range, value, x, y, width, onNavy) {
       if (!range) return [];
@@ -193,6 +183,63 @@
     unit(6, [{kind: "rect", x: PAD, y: 0, width: BODY, height: 1, fill: C.line}]);
     for (const notice of data.notices) lines(`※ ${notice}`, 14, 400, C.caution, PAD, BODY, 1.55, 4);
 
+    // Card · 시장 읽기
+    const rd = data.reading;
+    if (rd && rd.legacy) {
+      start("시장 읽기", false); // Two sentences: share the summary card when they fit.
+      sectionTitle("시장 읽기", "이전 형식 요약 · 검증 전");
+      for (const item of rd.legacy) {
+        lines(`${item.label} · ${item.plain}`, 16, 700, C.ink, PAD, BODY, 1.5, 2);
+        lines(item.condition, 14, 400, C.ink3, PAD, BODY, 1.55, 12);
+      }
+      lines(`${rd.written} · 확률 아님`, 11, 400, C.ink3, PAD, BODY, 1.5);
+      lines(rd.note, 11, 400, C.ink3, PAD, BODY, 1.5);
+    } else if (rd) {
+      start("시장 읽기", true);
+      sectionTitle("시장 읽기", "해석 · 검증 전");
+      lines(rd.headline, 22, 900, C.ink, PAD, BODY, 1.4, 12);
+      const segW = (BODY - 16) / 5, moodOps = [
+        {kind: "text", value: "시장 분위기", x: PAD, y: 0, size: 12, weight: 700, fill: C.ink},
+        {kind: "text", value: "작성자 해석 · 지표 아님", x: W - PAD - measure(11, 400, "작성자 해석 · 지표 아님"), y: 1, size: 11, weight: 400, fill: C.ink3}];
+      MOODS.forEach(([key, name, color], n) => {
+        const x = PAD + n * (segW + 4), on = key === rd.mood;
+        if (on) moodOps.push({kind: "rect", x: x - 2, y: 22, width: segW + 4, height: 14, fill: C.ink, radius: 3});
+        moodOps.push({kind: "rect", x, y: 24, width: segW, height: 10, fill: color, radius: 2});
+        moodOps.push({kind: "text", value: name, x: x + segW / 2 - measure(12, on ? 900 : 400, name) / 2, y: 42, size: 12, weight: on ? 900 : 400, fill: on ? C.ink : C.ink3});
+      });
+      unit(66, moodOps);
+      lines(rd.mood_note, 13, 400, C.ink2, PAD, BODY, 1.55, 12);
+      rd.drivers.forEach((item, n) => {
+        start(null, false);
+        if (!n) lines("왜 이런 분위기일까", 15, 700, C.ink, PAD, BODY, 1.5, 4);
+        ctx.font = `700 15px ${FONT}`;
+        const titleRows = wrap(ctx, item.title, BODY - 30);
+        ctx.font = `400 14px ${FONT}`;
+        const textRows = wrap(ctx, item.text, BODY - 30);
+        const ops = [{kind: "circle", x: PAD + 10, y: 11, r: 10, fill: C.navy},
+          {kind: "text", value: String(n + 1), x: PAD + 10 - measure(12, 700, String(n + 1)) / 2, y: 4, size: 12, weight: 700, fill: C.white}];
+        let y = 0;
+        titleRows.forEach(row => { ops.push({kind: "text", value: row, x: PAD + 30, y: y + 2, size: 15, weight: 700, fill: C.ink}); y += 23; });
+        unit(y, ops);
+        for (const row of textRows) unit(22, [{kind: "text", value: row, x: PAD + 30, y: 2, size: 14, weight: 400, fill: C.ink2}]);
+        unit(10, []);
+      });
+      for (const item of rd.history) {
+        start(null, false);
+        unit(4, []);
+        ruled(`과거엔 · ${item.title}`, 13, 700, C.ink, C.navy, 2);
+        ruled(`그날 · ${item.then}`, 13, 400, C.ink2, C.navy);
+        ruled(`다음 날 · ${item.next}`, 13, 400, C.ink2, C.navy);
+        ruled(`그 뒤 · ${item.after}`, 13, 400, C.ink2, C.navy);
+        ruled(`이번과 다른 점 · ${item.difference}`, 13, 400, C.ink, C.navy);
+        lines("같은 흐름이 반복된다는 뜻은 아니에요", 11, 400, C.ink3, PAD + 16, BODY - 16, 1.6, 10);
+      }
+      start(null, false);
+      ruled(`좋은 쪽 · ${rd.paths.good}`, 14, 400, C.ink, C.up, 8);
+      ruled(`조심할 쪽 · ${rd.paths.caution}`, 14, 400, C.ink, C.down, 10);
+      lines(`출처 기반 해석 · 검증 전 · 확률이나 목표가 아님 · ${rd.written}`, 11, 400, C.ink3, PAD, BODY, 1.5);
+    }
+
     // Card · stories
     start(`이야기 ${data.issues.length}`, true);
     sectionTitle(`이야기 ${data.issues.length}`, "핵심 이슈");
@@ -207,7 +254,6 @@
       titleRows.forEach(row => { ops.push({kind: "text", value: row, x: PAD + 34, y: y + 3, size: 17, weight: 700, fill: C.ink}); y += 26; });
       previewRows.forEach(row => { ops.push({kind: "text", value: row, x: PAD + 34, y: y + 2, size: 14, weight: 400, fill: C.ink3}); y += 22; });
       unit(y + 6, ops);
-      chips(chipItems(issue.outlook, labels, true), PAD + 34);
       unit(12, [{kind: "rect", x: PAD, y: 5, width: BODY, height: 1, fill: C.line}]);
     });
 
@@ -257,47 +303,11 @@
       if (stock.missing_reason) lines(stock.missing_reason, 13, 400, C.ink3, PAD, BODY, 1.5);
       lines(stock.reason, 14, 400, C.ink2, PAD, BODY, 1.55);
       lines(`확인 · ${stock.watch}`, 14, 400, C.ink3, PAD, BODY, 1.55, 2);
-      chips(chipItems(stock.outlook, labels, true));
       unit(6, []);
     }
 
-    // Card · lines and calendar
-    start("판단선·달력", true);
-    if (data.lines && labels) {
-      const title = {"장전": "오늘 장을 가를 선", "정규장 마감": "다음 장을 가를 선", "장중": "남은 장을 가를 선"}[data.session] || "판단선";
-      sectionTitle(title, `${data.lines.target} · ${labels.d1} 종가`);
-      const lv = data.levels;
-      if (lv) {
-        const close = num(lv.close);
-        lines(`기준 ${lv.close} · 왼쪽 막대 = 하방선까지, 오른쪽 막대 = 상방선까지`, 12, 400, C.ink3, PAD, BODY, 1.5, 8);
-        const rows = ["d1", "d5"].filter(key => lv[key]).map(key => [key, (num(lv[key].down.value) - close) / close * 100, (num(lv[key].up.value) - close) / close * 100]);
-        const scale = Math.max(...rows.map(([, d, u]) => Math.max(Math.abs(d), Math.abs(u)))) || 1;
-        const laneX = PAD + 78, laneW = (BODY - 78 - 2) / 2;
-        for (const [key, d, u] of rows) {
-          const dW = Math.abs(d) / scale * laneW, uW = Math.max(Math.abs(u) / scale * laneW, 3);
-          unit(46, [
-            {kind: "text", value: labels[key], x: PAD, y: 0, size: 13, weight: 700, fill: C.ink},
-            {kind: "rect", x: laneX, y: 3, width: laneW, height: 10, fill: "#E1E7F5"},
-            {kind: "rect", x: laneX + laneW - dW, y: 3, width: dW, height: 10, fill: C.down},
-            {kind: "rect", x: laneX + laneW, y: -3, width: 2, height: 22, fill: C.navy},
-            {kind: "rect", x: laneX + laneW + 2, y: 3, width: laneW, height: 10, fill: "#F6DDE1"},
-            {kind: "rect", x: laneX + laneW + 2, y: 3, width: uW, height: 10, fill: C.up},
-            {kind: "text", value: `${lv[key].down.value} · ${d >= 0 ? "+" : ""}${d.toFixed(2)}%`, x: laneX, y: 22, size: 11, weight: 400, fill: C.ink3},
-            {kind: "text", value: `${lv[key].up.value} · ${u >= 0 ? "+" : ""}${u.toFixed(2)}%`, x: W - PAD - measure(11, 400, `${lv[key].up.value} · ${u >= 0 ? "+" : ""}${u.toFixed(2)}%`), y: 22, size: 11, weight: 400, fill: C.ink3}]);
-        }
-        chips(chipItems({d1: data.lines.d1, d5: data.lines.d5}, labels, false));
-      } else {
-        for (const key of ["d1", "d5"]) {
-          if (key === "d5") start(null, false);
-          chips([{text: `${labels[key]} ${STATES[data.lines[key].direction]}`, strong: DIRECTIONAL.includes(data.lines[key].direction)}]);
-          lines(data.lines[key].invalidation, 14, 400, C.ink2, PAD, BODY, 1.55, 8);
-        }
-      }
-      const meta = [data.outlook.status, `${data.outlook.estimated_at} ${data.outlook.added_later ? "추가" : "작성"} · 입력 ${data.outlook.input_cutoff}`, data.outlook.stats].filter(Boolean).join(" · ");
-      lines(meta, 11, 400, C.ink3, PAD, BODY, 1.5);
-      lines(data.outlook.note, 11, 400, C.ink3, PAD, BODY, 1.5, 14);
-    }
-    start("달력", false);
+    // Card · calendar
+    start("달력", true);
     sectionTitle("달력", `다음 확인 ${data.next_checks.length}`);
     let firstEvent = true;
     for (const day of data.calendar) {
@@ -320,7 +330,6 @@
           ops.push({kind: "text", value: row, x, y: y + 1, size: 13, weight: 400, fill: C.ink3}); y += 20;
         }
         unit(Math.max(y, 44) + 6, ops, n === 0 ? null : dateOps);
-        chips(chipItems(event.outlook, labels, true), x);
         if (n === day.events.length - 1) unit(12, [{kind: "rect", x: PAD, y: 5, width: BODY, height: 1, fill: C.line}]);
       });
     }
@@ -379,13 +388,6 @@
       if (op.radius && ctx.beginPath) {
         roundPath(ctx, op.x, op.y, op.width, op.height, op.radius); ctx.fill();
       } else ctx.fillRect(op.x, op.y, op.width, op.height);
-    } else if (op.kind === "pill") {
-      roundPath(ctx, op.x, op.y, op.width, op.height, op.height / 2);
-      if (op.fill) { ctx.fillStyle = op.fill; ctx.fill(); }
-      ctx.strokeStyle = op.stroke; ctx.lineWidth = 1.5;
-      if (ctx.setLineDash) ctx.setLineDash(op.dashed ? [4, 3] : []);
-      ctx.stroke();
-      if (ctx.setLineDash) ctx.setLineDash([]);
     } else if (op.kind === "circle") {
       ctx.beginPath(); ctx.arc(op.x, op.y, op.r, 0, Math.PI * 2);
       ctx.fillStyle = op.fill; ctx.fill();

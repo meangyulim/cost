@@ -56,20 +56,43 @@ test('card percentages have one unit for both report input formats', () => {
   }
 });
 
-test('cards keep conditional views apart from observed price changes', () => {
-  const data = payloads().find(item => item.id === 'kr-pre-2026-10-02');
-  data.stocks[0].outlook.d1.direction = 'down';
-  data.stocks[0].outlook.d5.direction = 'up';
+const VIEW = {
+  headline: '급락 뒤 이틀 연속 반등. 안도는 왔지만 아직 확인 단계예요.', mood: 'relief', mood_label: '안도',
+  mood_note: '경계에서 안도로 옮겨 가는 중이에요.',
+  drivers: [{title: '나쁜 뉴스에도 버텼다.', text: '오전 약세를 오후에 뒤집었어요. '.repeat(6)},
+    {title: '기대가 컸던 곳엔 냉정하다.', text: '실적이 기대에 못 미친 종목은 크게 빠졌어요.'}],
+  history: [{title: '2024년 8월 5일 코스피 급락', then: '공포성 매도', next: '다음 날 반등', after: '한 달 넘게 고점 미회복',
+    difference: '이번엔 이익 전망이 받쳐 줘요.'}],
+  paths: {good: '외국인 매수가 이어지면 회복으로 볼 수 있어요.', caution: '물가 지표가 높게 나오면 불안이 돌아올 수 있어요.'},
+  written: '11/11 15:51 작성'};
+
+test('시장 읽기 card follows the summary and draws every plain-language part', () => {
+  const data = payloads()[0];
+  data.reading = structuredClone(VIEW);
   const plan = layout(data, context());
-  const drawn = texts(plan);
-  assert.ok(drawn.some(op => op.value === '당일 ↘ 하방 우세' && op.fill === '#4B3BA8'));
-  assert.ok(drawn.some(op => op.value === '5거래일 ↗ 상방 우세' && op.fill === '#4B3BA8'));
-  assert.ok(drawn.some(op => op.value.includes('+2.79%') && op.fill === '#B0182F'));
-  const pills = plan.pages.flatMap(page => page.ops.filter(op => op.kind === 'pill'));
-  assert.ok(pills.some(op => !op.dashed) && pills.every(op => op.stroke === '#4B3BA8'));
-  const content = squash(drawn.map(op => op.value).join(''));
-  assert.ok(content.includes(squash('조건부 방향 전망 · 검증 전')));
+  const firsts = plan.pages.map(page => (page.ops.find(op => op.kind === 'text' && !op.frame) || {}).value);
+  const reading = firsts.indexOf('시장 읽기');
+  assert.ok(reading >= 1 && plan.pages.slice(0, reading).every(page => page.section === '요약'));
+  assert.ok(reading < firsts.findIndex(value => String(value).startsWith('이야기')));
+  const content = squash(body(plan).map(op => op.value).join(''));
+  for (const value of [VIEW.headline, VIEW.mood_note, '왜이런분위기일까', ...VIEW.drivers.flatMap(item => [item.title, item.text]),
+    ...['then', 'next', 'after', 'difference'].map(key => VIEW.history[0][key]), VIEW.paths.good, VIEW.paths.caution,
+    '같은흐름이반복된다는뜻은아니에요', '작성자해석·지표아님', '확률이나목표가아님']) {
+    assert.ok(content.includes(squash(value)), value);
+  }
+  const moods = texts(plan).filter(op => ['불안', '경계', '중립', '안도', '들뜸'].includes(op.value));
+  assert.deepEqual(moods.map(op => op.value), ['불안', '경계', '중립', '안도', '들뜸']);
+  assert.equal(moods.find(op => op.weight === 900).value, '안도');
+  for (const removed of ['상방 우세', '하방 우세', '재료 상충', '판단 보류', '판단선']) assert.ok(!content.includes(squash(removed)), removed);
+  assert.ok(plan.pages.every(page => page.ops.every(op => op.kind !== 'pill')));
+});
+
+test('older editions show one plain sentence per period on the 시장 읽기 card', () => {
+  const data = payloads().find(item => item.id === 'kr-pre-2026-10-02');
+  const content = squash(body(layout(data, context())).map(op => op.value).join(''));
+  for (const item of data.reading.legacy) assert.ok(content.includes(squash(`${item.label} · ${item.plain}`)) && content.includes(squash(item.condition)));
   assert.ok(content.includes('장전예측의적중률평가에서제외'));
+  assert.ok(!content.includes('상방우세'));
 });
 
 test('every real and TEST report fits 4:5 cards without cropping or omitted fields', () => {
@@ -99,6 +122,7 @@ test('every real and TEST report fits 4:5 cards without cropping or omitted fiel
       ...data.next_checks.flatMap(item => [item.title, item.detail])]) {
       assert.ok(content.includes(squash(value)), value);
     }
+    if (data.reading && data.reading.legacy) assert.ok(content.includes(squash('시장 읽기')));
     assert.ok(!content.includes(squash(data.report_url)));
     assert.ok(!content.includes('출처·'));
   }

@@ -11,7 +11,7 @@ import re
 import shutil
 from string import Template
 from urllib.parse import urlsplit
-from directional_outlook import STATES, labels, validate_outlook, chips, details as outlook_details, notice as outlook_notice, image_meta
+from directional_outlook import MOODS, PLAIN, labels, validate_outlook, details as outlook_details, notice as outlook_notice, timestamp, view_written
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_ID = re.compile(r"(?:test-layout|kr-pre|kr-close|kr-intraday|us-pre|us-close|us-intraday)-\d{4}-\d{2}-\d{2}(?:-\d{4})?\Z")
@@ -302,59 +302,61 @@ def representative(report: dict):
     return None
 
 
-def lines_section(report: dict) -> str:
+def cite(report: dict, ids: list[str]) -> str:
+    """Outlet names linking to the originals (full label on hover); hidden sources stay hidden."""
+    names = report.get("reading", {}).get("source_labels", {})
+    links = []
+    for source in report["sources"]:
+        if source["id"] not in ids or not source.get("show_public", True):
+            continue
+        label = names.get(source["id"], source["label"])
+        short = label.split(" · ")[0]
+        links.append(f'<a href="{text(source["url"])}" rel="noreferrer" title="{text(label)}">{text(short)}</a>' if source["url"] else text(short))
+    return f'<span class="cite">출처 {" · ".join(links)}</span>' if links else ""
+
+
+def mood_scale(level: str, note: str = "") -> str:
+    cells = "".join(f'<span class="m-{key}{" on" if key == level else ""}"></span>' for key in MOODS)
+    names = "".join(f'<b>{name}</b>' if key == level else f'<span>{name}</span>' for key, name in MOODS.items())
+    return (f'<div class="mood" role="img" aria-label="시장 분위기 {MOODS[level]}. 작성자 해석이며 지표가 아님">'
+            f'<div class="mood-head"><b>시장 분위기</b><span>작성자 해석 · 지표 아님</span></div>'
+            f'<div class="mood-scale">{cells}</div><div class="mood-names">{names}</div>'
+            + (f'<p>{text(note)}</p>' if note else "") + '</div>')
+
+
+def reading_section(report: dict) -> str:
+    """시장 읽기: one plain judgement, the mood, why, a sourced precedent and what to watch."""
+    view = report.get("reading", {}).get("view")
+    head = '<section class="block reading" id="reading" aria-labelledby="reading-title"><div class="block-head"><h2 id="reading-title">시장 읽기</h2>'
+    if view:
+        parts = [head + '<small>브리핑 해석 · 검증 전</small></div>',
+                 f'<p class="reading-headline">{text(view["headline"])}</p>',
+                 mood_scale(view["mood"]["level"], view["mood"]["note"]),
+                 '<div class="drivers"><h3>왜 이런 분위기일까</h3>']
+        for n, item in enumerate(view["drivers"], 1):
+            parts.append(f'<div class="driver"><span class="num" aria-hidden="true">{n}</span><p><b>{text(item["title"])}</b> '
+                         f'{text(item["text"])} {cite(report, item["sources"])}</p></div>')
+        parts.append('</div>')
+        for case in view["history"]:
+            parts.append(f'<article class="history"><span class="eyebrow">과거엔 어땠나 · 참고 사례</span><h3>{text(case["title"])}</h3><dl>'
+                         + "".join(f'<dt>{label}</dt><dd>{text(case[key])}</dd>' for label, key in (("그날", "then"), ("다음 날", "next"), ("그 뒤", "after")))
+                         + f'</dl><p class="difference"><b>이번과 다른 점</b> · {text(case["difference"])}</p>'
+                         f'<p class="history-note">{cite(report, case["sources"])}<span>같은 흐름이 반복된다는 뜻은 아니에요</span></p></article>')
+        parts.append(f'<div class="paths"><h3>이렇게 보면 돼요</h3>'
+                     f'<p class="path good"><b>좋은 쪽</b> · {text(view["paths"]["good"])}</p>'
+                     f'<p class="path caution"><b>조심할 쪽</b> · {text(view["paths"]["caution"])}</p></div>')
+        parts.append(f'<p class="view-meta">출처 기반 해석이며 검증 전이에요 · 확률이나 목표가는 아니에요 · {view_written(report)}</p></section>')
+        return "".join(parts)
     entry = representative(report)
     if entry is None:
         return ""
+    # Older editions: the same judgement in a sentence per period, without badges or distances.
     periods = labels(report)
-    levels = report.get("reading", {}).get("levels")
-    title = {"close": "다음 장을 가를 선", "pre": "오늘 장을 가를 선", "intraday": "남은 장을 가를 선"}[report["session"]]
-    target = levels["target"] if levels else entry["outlook"]["d1"]["target"]
-    parts = [f'<section class="block" id="lines" aria-labelledby="lines-title"><div class="block-head"><h2 id="lines-title">{title}</h2>'
-             f'<small>{text(target)} · {periods["d1"]} 종가</small></div>']
-    if levels:
-        close = number(levels["close"])
-        up, down = number(levels["d1"]["up"]["value"]), number(levels["d1"]["down"]["value"])
-        low, high = min(down, close), max(up, close)
-        pad = (high - low) * 0.07 or 1
-        low, high = low - pad, high + pad
-        pos = lambda value: (value - low) / (high - low) * 100
-        rule_up = levels["d1"]["up"].get("rule") or "위 마감"
-        rule_down = levels["d1"]["down"].get("rule") or "아래 마감"
-        parts.append(
-            f'<div class="lines-figure" role="img" aria-label="{text(levels["d1"]["down"]["value"])} {text(rule_down)}이면 하방, '
-            f'{text(levels["d1"]["up"]["value"])} {text(rule_up)}이면 상방, 기준 {text(levels["close"])}">'
-            f'<span class="axis"></span><span class="zone down" style="width:{pos(down):.1f}%"></span>'
-            f'<span class="zone up" style="left:{pos(up):.1f}%"></span>'
-            f'<span class="tick down" style="left:{pos(down):.1f}%"></span><span class="tick up" style="left:{pos(up):.1f}%"></span>'
-            f'<span class="now" style="left:{pos(close):.1f}%"></span>'
-            f'<span class="label down"><b>{text(levels["d1"]["down"]["value"])}</b><span>{text(rule_down)} → 하방</span></span>'
-            f'<span class="label up"><b>{text(levels["d1"]["up"]["value"])}</b><span>{text(rule_up)} → 상방</span></span>'
-            f'<span class="now-label">기준 {text(levels["close"])}</span></div>')
-        rows = []
-        for key in ("d1", "d5"):
-            if key not in levels:
-                continue
-            line_up, line_down = number(levels[key]["up"]["value"]), number(levels[key]["down"]["value"])
-            rows.append((key, (line_down - close) / close * 100, (line_up - close) / close * 100))
-        scale = max(max(abs(d), abs(u)) for _, d, u in rows) or 1
-        parts.append('<div class="distance" aria-label="기준가에서 판단선까지 거리">')
-        for key, d_pct, u_pct in rows:
-            parts.append(f'<div class="distance-row"><span>{periods[key]}</span>'
-                         f'<span class="lane down"><i style="width:{abs(d_pct) / scale * 100:.1f}%"></i></span><span class="zero"></span>'
-                         f'<span class="lane up"><i style="width:{max(abs(u_pct) / scale * 100, 1.5):.1f}%"></i></span></div>'
-                         f'<div class="distance-notes"><span></span><span>{text(levels[key]["down"]["value"])} · {d_pct:+.2f}%</span>'
-                         f'<span>{text(levels[key]["up"]["value"])}{" " + text(levels[key]["up"].get("rule", "")) if key != "d1" and levels[key]["up"].get("rule") else ""} · {u_pct:+.2f}%</span></div>')
-        parts.append('</div>' + chips(entry, report))
-    else:
-        parts.append('<div class="conditions">')
-        for key in ("d1", "d5"):
-            item = entry["outlook"][key]
-            parts.append(f'<div class="condition"><div class="condition-head"><b>{periods[key]}</b>'
-                         f'<span class="chip {"strong" if item["direction"] in ("up", "down") else "soft"}">{STATES[item["direction"]]}</span></div>'
-                         f'<p>{text(item["invalidation"])}</p></div>')
-        parts.append('</div>')
-    parts.append(f'<details><summary class="more">근거·반대 요인</summary><div class="detail-body">{outlook_details(entry, report)}</div></details>')
+    parts = [head + '<small>이전 형식 요약 · 검증 전</small></div><div class="legacy-reading">']
+    for key in ("d1", "d5"):
+        item = entry["outlook"][key]
+        parts.append(f'<p><b>{periods[key]}</b> {PLAIN[item["direction"]]}.<span>{text(item["invalidation"])}</span></p>')
+    parts.append(f'</div><details><summary class="more">근거·반대 요인</summary><div class="detail-body">{outlook_details(entry, report)}</div></details>')
     parts.append(outlook_notice(report) + '</section>')
     return "".join(parts)
 
@@ -398,7 +400,7 @@ def stocks_section(report: dict) -> str:
                      + range_bar(stock)
                      + f'<span class="stock-reason">{text(short.get("reason", stock["reason"]))}</span>'
                      + (f'<span class="stock-reason missing">{text(stock["missing_reason"])}</span>' if stock["direction"] == "missing" else "")
-                     + chips(short, report, directional_only=True) + '</summary><div class="detail-body">')
+                     + '</summary><div class="detail-body">')
         parts.append(f'<p><span class="label">확인선</span> {text(short.get("watch", stock["watch"]))}</p>')
         parts.append(f'<p>{text(stock["session"])} · {text(kst(stock["as_of"]))}'
                      + (f' · 전일 대비 {text(stock["delta"])} {text(stock["currency"])}' if stock["direction"] != "missing" else "") + '</p>')
@@ -406,7 +408,7 @@ def stocks_section(report: dict) -> str:
             parts.append(f'<p>{text(stock["reason"])}</p>')
         if short.get("watch") and short["watch"] != stock["watch"]:
             parts.append(f'<p>{text(stock["watch"])}</p>')
-        parts.append(chips(short, report) + outlook_details(short, report) + '</div></details>')
+        parts.append('</div></details>')
     return "".join(parts) + '</section>'
 
 
@@ -419,10 +421,10 @@ def stories_section(report: dict) -> str:
         preview = short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]
         minor = " minor" if n >= 3 else ""
         parts.append(f'<details class="story{minor}"><summary><span class="num">{n + 1}</span><span><h3>{text(short.get("title", issue["title"]))}</h3>'
-                     f'<p class="preview">{text(preview)}</p>{chips(short, report, directional_only=True)}</span><span class="mark" aria-hidden="true">+</span></summary>'
+                     f'<p class="preview">{text(preview)}</p></span><span class="mark" aria-hidden="true">+</span></summary>'
                      '<div class="detail-body">' + bullet_list(paragraphs(issue["fact"]))
                      + (f'<p><span class="label">시장 의미</span> {text(short["meaning"])}</p>' if short.get("meaning") and short["meaning"] != preview else "")
-                     + chips(short, report) + outlook_details(short, report) + '</div></details>')
+                     + '</div></details>')
     return "".join(parts) + '</section>'
 
 
@@ -472,11 +474,10 @@ def calendar_section(report: dict) -> str:
             when = item["when"] or item["rest"]
             parts.append(f'<div class="event"><p class="event-title">' + (f'<span class="when">{text(when)}</span>' if when else "")
                          + f'{text(short.get("title", check["title"]))}</p><p>{text(short.get("detail", check["detail"]))}</p>'
-                         + chips(short, report, directional_only=True)
                          + '<details><summary class="more">일정 근거·조건</summary><div class="detail-body">'
                          + f'<p><span class="label">표기</span> {text(check["label"])}</p>'
                          + (f'<p>{text(check["detail"])}</p>' if short.get("detail") and short["detail"] != check["detail"] else "")
-                         + chips(short, report) + outlook_details(short, report) + '</div></details></div>')
+                         + '</div></details></div>')
         parts.append('</div></div>')
     return "".join(parts) + '</section>'
 
@@ -500,6 +501,25 @@ def evidence_section(report: dict, prefix: str) -> str:
     return "".join(parts)
 
 
+def reading_payload(report: dict):
+    """The card copy of 시장 읽기: words only, no source notes, no counts."""
+    view = report.get("reading", {}).get("view")
+    if view:
+        return {"headline": view["headline"], "mood": view["mood"]["level"], "mood_label": MOODS[view["mood"]["level"]],
+                "mood_note": view["mood"]["note"], "drivers": [{key: item[key] for key in ("title", "text")} for item in view["drivers"]],
+                "history": [{key: case[key] for key in ("title", "then", "next", "after", "difference")} for case in view["history"]],
+                "paths": dict(view["paths"]), "written": view_written(report).replace(".", "/", 1)}
+    entry = representative(report)
+    if entry is None:
+        return None
+    periods = labels(report)
+    meta = report["reading"]["outlook"]
+    return {"legacy": [{"label": periods[key], "plain": PLAIN[entry["outlook"][key]["direction"]],
+                        "condition": entry["outlook"][key]["invalidation"]} for key in ("d1", "d5")],
+            "written": timestamp(meta["estimated_at"]).strftime("%m/%d %H:%M") + (" 추가" if meta["added_later"] else " 작성"),
+            "note": meta["note"]}
+
+
 def image_payload(report: dict, prefix: str) -> dict:
     """Share only public, concise report fields; never export hidden evidence."""
     validate_outlook(report)
@@ -510,23 +530,21 @@ def image_payload(report: dict, prefix: str) -> dict:
     for n, issue in enumerate(report["issues"]):
         short = short_issues[n] if n < len(short_issues) else {}
         issues.append({"title": short.get("title", issue["title"]),
-                       "preview": short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0],
-                       "outlook": short.get("outlook")})
+                       "preview": short.get("preview") or short.get("meaning") or paragraphs(issue["fact"])[0]})
     stocks = []
     for stock in report["stocks"]:
         short = reading.get("stocks", {}).get(stock["ticker"], {})
         stocks.append({key: stock[key] for key in ("name", "ticker", "price", "currency", "percent", "direction", "session")} | {
             "as_of": kst(stock["as_of"]), "reason": short.get("reason", stock["reason"]),
             "watch": short.get("watch", stock["watch"]), "missing_reason": stock.get("missing_reason", ""),
-            "outlook": short.get("outlook"), "range": stock.get("range")})
+            "range": stock.get("range")})
     calendar = []
     for group in calendar_groups(report):
         calendar.append({"day": group["day"], "sub": group["sub"], "today": group["today"], "events": [
             {"when": item["when"] or item["rest"], "label": item["check"]["label"],
              "title": item["short"].get("title", item["check"]["title"]),
-             "detail": item["short"].get("detail", item["check"]["detail"]), "outlook": item["short"].get("outlook")}
+             "detail": item["short"].get("detail", item["check"]["detail"])}
             for item in group["events"]]})
-    entry = representative(report)
     return {
         "id": report["id"], "title": report["title"], "is_test": report["is_test"],
         "market": report["market"], "session": session, "edition": edition_label(report),
@@ -539,12 +557,8 @@ def image_payload(report: dict, prefix: str) -> dict:
         "fx": {key: report["fx"][key] for key in ("label", "value", "unit", "delta", "direction", "session")} |
               {"as_of": kst(report["fx"]["as_of"])},
         "notices": reading.get("notices") or [report["venue"], report["fx"]["session"]],
-        "key_figure": reading.get("key_figure"), "levels": reading.get("levels"),
-        "lines": {"target": entry["outlook"]["d1"]["target"],
-                  "d1": {key: entry["outlook"]["d1"][key] for key in ("direction", "invalidation")},
-                  "d5": {key: entry["outlook"]["d5"][key] for key in ("direction", "invalidation")}} if entry else None,
+        "key_figure": reading.get("key_figure"), "reading": reading_payload(report),
         "issues": issues, "stocks": stocks, "calendar": calendar,
-        "outlook": image_meta(report),
         "next_checks": [{"label": item["label"], "title": (reading.get("next_checks", [])[n] if n < len(reading.get("next_checks", [])) else {}).get("title", item["title"]),
                          "detail": (reading.get("next_checks", [])[n] if n < len(reading.get("next_checks", [])) else {}).get("detail", item["detail"])}
                         for n, item in enumerate(report["next_checks"])],
@@ -583,7 +597,7 @@ def render_report(report: dict, prefix: str, strip: str = "") -> str:
     # Session distinctions and uncertainty always stay visible, never in details.
     notices = reading.get("notices") or [report["venue"], report["fx"]["session"]]
     parts.append('<aside class="notices" aria-label="자료 기준과 유의사항">' + "".join(f'<p>{text(item)}</p>' for item in notices) + '</aside>')
-    parts.append(lines_section(report))
+    parts.append(reading_section(report))
     parts.append(stocks_section(report))
     parts.append(stories_section(report))
     parts.append(calendar_section(report))
