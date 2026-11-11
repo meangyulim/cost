@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-12",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-12T08:29:46+09:00",
   "queued_at_utc": "2026-11-11T23:29:46Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-12/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43120117796,
   "deployment_conclusion": "success",
   "kakao_summary": "[한국 장전 11/12] 美 반도체 +5.66%에 야간선물 +1.96%였지만 이후 젠슨 황 해임 준비 보도로 엔비디아 시간외 −8%. NXT 삼성전자 +0.97%·하이닉스 +0.78%, 네이버 영업익 컨센 하회 −3.04%. 오늘 옵션 만기.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-12T08:29:56+09:00",
   "attempted_at_utc": "2026-11-11T23:29:56Z",
-  "workflow_run_id": 43120250082
+  "workflow_run_id": 43120250082,
+  "message_length": 196,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-12T08:30:00+09:00",
+  "result_recorded_at_utc": "2026-11-11T23:30:00Z"
 }
