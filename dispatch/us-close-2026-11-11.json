@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-11",
+  "status": "queued",
+  "queued_at_kst": "2026-11-12T06:24:02+09:00",
+  "queued_at_utc": "2026-11-11T21:24:02Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-11/",
+  "deployment_commit": "bea7901e853ccf18b5d108d72e0f52f3abfd5462",
+  "deployment_run_id": 43102583884,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국 11/11 마감: 코어위브 +24.7%에 AI 반등. S&P500 7,619.38(+1.31%), 나스닥 +1.60%, 반도체지수 +5.66%. 엔비디아 +2.87%. 12월 인상 기대 약 90%, 채권 휴장. 다음: 한국장 메모리 반응·11/12 금리 재개.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
