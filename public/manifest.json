@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-11",
+  "latest_id": "us-close-2026-11-11",
   "reports": [
+    {
+      "id": "us-close-2026-11-11",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-11",
+      "title": "11월 11일 미국장 마감 브리핑",
+      "summary": "코어위브 +24.7%에 AI 반등, 나스닥 +1.60%·반도체지수 +5.66%",
+      "as_of": "2026-11-12T06:00:00+09:00",
+      "queried_at": "2026-11-12T06:19:26+09:00",
+      "path": "reports/us-close-2026-11-11/"
+    },
     {
       "id": "us-pre-2026-11-11",
       "is_test": false,
