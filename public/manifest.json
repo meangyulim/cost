@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-11",
+  "latest_id": "us-pre-2026-11-11",
   "reports": [
+    {
+      "id": "us-pre-2026-11-11",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-11",
+      "title": "11월 11일 미국장 시작 전 브리핑",
+      "summary": "코어위브 실적에 AI·반도체 반등, 나스닥100 선물 +1.87%",
+      "as_of": "2026-11-11T06:00:00+09:00",
+      "queried_at": "2026-11-11T23:02:26+09:00",
+      "path": "reports/us-pre-2026-11-11/"
+    },
     {
       "id": "kr-close-2026-11-11",
       "is_test": false,
