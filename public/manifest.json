@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-11",
+  "latest_id": "kr-close-2026-11-11",
   "reports": [
+    {
+      "id": "kr-close-2026-11-11",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-11",
+      "title": "한국장 마감 브리핑 · 2026.11.11",
+      "summary": "美 CPI 악재 딛고 코스피 2.60% 오른 5,375.36, 외국인 이틀째 순매수",
+      "as_of": "2026-11-11T15:30:00+09:00",
+      "queried_at": "2026-11-11T15:51:00+09:00",
+      "path": "reports/kr-close-2026-11-11/"
+    },
     {
       "id": "kr-pre-2026-11-11",
       "is_test": false,
