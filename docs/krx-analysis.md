@@ -30,6 +30,21 @@ Actions → `Collect KRX briefing inputs` → Run workflow로 기준일을 지�
 공개 저장소의 Actions 산출물을 비밀 저장소로 취급하지 않는다. 산출물에는 비밀키나 원시 전체 종목 자료를 넣지 않는다.
 보존 기간은 3일이며 별도 영구 데이터 아카이브를 생성하지 않는다.
 
+## GitHub 도구로 산출물 받기 · 2026.11.12 확인
+
+클라우드 세션에는 gh CLI 인증이 없어 `gh run download`나 REST API의 artifact ZIP 요청은 실패한다.
+연결된 GitHub MCP 도구는 임시 다운로드 링크를 발급하므로 이 방법으로 받는다. 2026.11.12 run 43131598034에서 실제로 받아 지문 일치를 확인했다.
+미국 분석(`us-analysis-<run ID>`)도 같은 방법을 쓴다. 인증이 없다는 이유만으로 분석을 미확인 처리하지 않는다.
+
+1. `mcp__github__actions_list`: `method` `list_workflow_run_artifacts`, `resource_id`는 요청 커밋의 run ID. 산출물 ID, 이름, `digest`(sha256), `expired`를 확인한다.
+2. `mcp__github__actions_get`: `method` `download_workflow_run_artifact`, `resource_id`는 산출물 ID. 응답의 `download_url`은 약 10분짜리 서명 링크다. 보고서·커밋·dispatch·실행 기록에 적지 않는다.
+3. 저장소 밖 임시 폴더에 받는다: `curl -s -o <임시 폴더>/artifact.zip "<download_url>"`. ZIP과 analysis.json을 저장소에 커밋하지 않는다.
+4. `sha256sum` 값이 1번의 `digest`와 같을 때만 쓴다. 다르면 분석 미확인으로 둔다.
+5. `python3 -I`와 `zipfile`로 `analysis.json`을 읽고 `requested_end_date`, `data_date`, `queried_at`을 확인한다. 실행 기록에는 run ID, 산출물 이름, 지문 일치 여부, data_date만 남긴다.
+
+링크 발급·다운로드·지문 대조 중 하나라도 실패하면 지금처럼 분석만 미확인으로 두고 브리핑을 계속한다.
+분석값은 기준일을 붙여 배경으로 쓴다(예: 20일선 아래 하락 추세 조건, 상승 종목 비율, 거래대금 대비). 시장 읽기의 원인 설명에 쓸 수 있지만 미래 확률이나 신호로 바꾸지 않는다.
+
 ## 사용자 요청에 연결
 
 새 브리핑 요청에서 원격 최신 코드를 확인하고 아래 형식의 `data/krx-request.json`을 일반 fast-forward로 갱신하면

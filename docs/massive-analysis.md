@@ -26,6 +26,7 @@ GitHub 저장소 Settings → Secrets and variables → Actions에서
 스케줄·cron·추가 예약은 생성하지 않는다.
 
 해당 요청 커밋의 workflow 성공과 `us-analysis-<run ID>` artifact의 analysis.json을 확인한다.
+산출물은 `docs/krx-analysis.md`의 "GitHub 도구로 산출물 받기" 절차(임시 링크 발급 → 내려받기 → 지문 대조)로 받는다. 같은 내용은 실행 로그의 "Print derived briefing inputs" 단계에서도 볼 수 있다.
 산출물 보존은 3일이다. 공개 저장소 artifact는 비밀 보관함이 아니다.
 키와 원시 전체 증권 목록은 저장하지 않는다. 산출물에는 계산에 필요한 소수 가격과 파생 지표만 포함된다.
 Secrets 등록과 GitHub 수집 성공을 실제 확인하기 전에는 자동 연결 완료라고 표현하지 않는다.
