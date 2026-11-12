@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-12",
+  "latest_id": "us-pre-2026-11-12",
   "reports": [
+    {
+      "id": "us-pre-2026-11-12",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-12",
+      "title": "11월 12일 미국장 시작 전 브리핑",
+      "summary": "엔비디아 황 CEO 즉시 사임, 장전 −10%·나스닥100 선물 −1.2%",
+      "as_of": "2026-11-12T06:00:00+09:00",
+      "queried_at": "2026-11-12T23:10:00+09:00",
+      "path": "reports/us-pre-2026-11-12/"
+    },
     {
       "id": "kr-close-2026-11-12",
       "is_test": false,
