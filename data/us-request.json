@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-11",
+  "end_date": "2026-11-12",
   "watch": [
     "NVDA",
-    "NBIS",
     "AMD",
-    "MU",
+    "AVGO",
+    "NBIS",
     "CRWV",
-    "CSCO",
+    "SMCI",
     "AMAT"
   ],
-  "requested_at": "2026-11-12T23:00:45+09:00"
+  "requested_at": "2026-11-13T06:17:02+09:00"
 }
