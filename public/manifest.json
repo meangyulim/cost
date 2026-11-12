@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-12",
+  "latest_id": "kr-pre-2026-11-13",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-13",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-13",
+      "title": "11월 13일 한국장 시작 전 브리핑",
+      "summary": "엔비디아 CEO 사임 충격 흡수, 야간선물 +0.78%·보합권 출발 시험",
+      "as_of": "2026-11-13T08:27:00+09:00",
+      "queried_at": "2026-11-13T08:29:00+09:00",
+      "path": "reports/kr-pre-2026-11-13/"
+    },
     {
       "id": "us-close-2026-11-12",
       "is_test": false,
