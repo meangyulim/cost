@@ -305,12 +305,15 @@ def representative(report: dict):
 def cite(report: dict, ids: list[str]) -> str:
     """Outlet names linking to the originals (full label on hover); hidden sources stay hidden."""
     names = report.get("reading", {}).get("source_labels", {})
-    links = []
+    links, seen = [], set()
     for source in report["sources"]:
         if source["id"] not in ids or not source.get("show_public", True):
             continue
         label = names.get(source["id"], source["label"])
         short = label.split(" · ")[0]
+        if short in seen:  # One link per outlet keeps the line short.
+            continue
+        seen.add(short)
         links.append(f'<a href="{text(source["url"])}" rel="noreferrer" title="{text(label)}">{text(short)}</a>' if source["url"] else text(short))
     return f'<span class="cite">출처 {" · ".join(links)}</span>' if links else ""
 
