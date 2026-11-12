@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-13",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-13T08:31:10+09:00",
   "queued_at_utc": "2026-11-12T23:31:10Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-13/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43329393342,
   "deployment_conclusion": "success",
   "kakao_summary": "11/13 장전: 엔비디아 CEO 사임 충격은 장중 흡수(−14%→−4.3%). 야간선물 +0.78%, NXT 삼성전자 +1.9%·하이닉스 +1.3%. 유가·금리 부담에 보합권 출발 전망. 한전 영업익 −71%, HMM 예상 상회.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-13T08:31:25+09:00",
   "attempted_at_utc": "2026-11-12T23:31:25Z",
-  "workflow_run_id": 43329545439
+  "workflow_run_id": 43329545439,
+  "message_length": 190,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-13T08:31:29+09:00",
+  "result_recorded_at_utc": "2026-11-12T23:31:29Z"
 }
