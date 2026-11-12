@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-intraday-2026-11-12-1004",
+  "latest_id": "kr-close-2026-11-12",
   "reports": [
+    {
+      "id": "kr-close-2026-11-12",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-12",
+      "title": "11월 12일 한국장 마감",
+      "summary": "코스피 5,458까지 갔다 5,342 마감, 사흘 만에 반등 제동",
+      "as_of": "2026-11-12T15:30:00+09:00",
+      "queried_at": "2026-11-12T15:53:00+09:00",
+      "path": "reports/kr-close-2026-11-12/"
+    },
     {
       "id": "kr-intraday-2026-11-12-1004",
       "is_test": false,
