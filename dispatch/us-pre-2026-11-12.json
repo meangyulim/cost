@@ -1,0 +1,14 @@
+{
+  "report_id": "us-pre-2026-11-12",
+  "status": "queued",
+  "queued_at_kst": "2026-11-12T23:11:23+09:00",
+  "queued_at_utc": "2026-11-12T14:11:23Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-12/",
+  "deployment_commit": "6c54f55d6e5624db28ed6e9110ab03eab4f75da5",
+  "deployment_run_id": 43234436061,
+  "deployment_conclusion": "success",
+  "kakao_summary": "美 장전: 엔비디아 황 CEO 즉시 사임, 장전 −10%. 네비우스 전망 실망 −20%, 나스닥100 선물 −1.2%. 10년물 5%대 복귀. 오늘 장후 AMAT·시스코 실적, 엔비디아 실적 11/18 06:20 KST.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
