@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-12",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-12T15:55:23+09:00",
   "queued_at_utc": "2026-11-12T06:55:23Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-12/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43171407986,
   "deployment_conclusion": "success",
   "kakao_summary": "[한국 마감 11/12] 코스피 5,342.73(−0.61%) 사흘 만에 하락, 기관 −6,911억(잠정). 엔비디아 CEO 거취 논의에 하이닉스 −1.80%, 삼성전자 +0.97%. 메리츠 −13%, DB하이텍 −16%, JYP +16.5%.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-12T15:55:35+09:00",
   "attempted_at_utc": "2026-11-12T06:55:35Z",
-  "workflow_run_id": 43171523302
+  "workflow_run_id": 43171523302,
+  "message_length": 199,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-12T15:55:39+09:00",
+  "result_recorded_at_utc": "2026-11-12T06:55:39Z"
 }
