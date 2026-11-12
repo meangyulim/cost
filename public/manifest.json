@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-12",
+  "latest_id": "kr-intraday-2026-11-12-1004",
   "reports": [
+    {
+      "id": "kr-intraday-2026-11-12-1004",
+      "is_test": false,
+      "market": "KR",
+      "session": "intraday",
+      "market_date": "2026-11-12",
+      "title": "11월 12일 한국장 장중 (10:04 KST)",
+      "summary": "엔비디아 CEO 해임설에 흔들렸다 보합 회복, 실적주는 급락",
+      "as_of": "2026-11-12T10:04:00+09:00",
+      "queried_at": "2026-11-12T10:07:00+09:00",
+      "path": "reports/kr-intraday-2026-11-12-1004/"
+    },
     {
       "id": "kr-pre-2026-11-12",
       "is_test": false,
