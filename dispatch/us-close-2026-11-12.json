@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-12",
+  "status": "queued",
+  "queued_at_kst": "2026-11-13T06:28:00+09:00",
+  "queued_at_utc": "2026-11-12T21:28:00Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-12/",
+  "deployment_commit": "19616496e35d585e598dc3876b3056b7b3ddbbea",
+  "deployment_run_id": 43310368588,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국 11/12 마감: 엔비디아 CEO 사임에 장중 −14%→−4.34%. S&P500 7,592.40(−0.35%), 나스닥 −0.39%. AMD·브로드컴 +5%대. 장후 시스코·AMAT 예상 상회, 시간외 상승. 다음: 한국장·11/13 PPI.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
