@@ -1,6 +1,6 @@
 {
   "report_id": "kr-intraday-2026-11-12-1004",
-  "status": "queued",
+  "status": "attempted",
   "trigger": "user_request_manual_intraday",
   "queued_at_kst": "2026-11-12T10:08:46+09:00",
   "queued_at_utc": "2026-11-12T01:08:46Z",
@@ -10,6 +10,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[한국 장중 11/12 10:04] 엔비디아 CEO 해임설에 코스피 5,326까지 밀렸다 5,376(+0.02%)로 회복. 삼성전자 +2.06%, 하이닉스 −0.47%. NC −10.19%, 네이버 −5.35%. 오늘 옵션 만기.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-12T10:08:58+09:00",
+  "attempted_at_utc": "2026-11-12T01:08:58Z",
+  "workflow_run_id": 43132436405
 }
