@@ -1,0 +1,937 @@
+{
+  "id": "us-close-2026-11-12",
+  "title": "11월 12일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-12 09:30~16:00 EST 정규장(2026-11-12 23:30~11-13 06:00 KST)",
+  "market_date": "2026-11-12",
+  "session": "close",
+  "as_of": "2026-11-13T06:00:00+09:00",
+  "queried_at": "2026-11-13T06:26:47+09:00",
+  "is_test": false,
+  "summary": "엔비디아 CEO 사임에 장중 −14%→−4.3%, 지수 소폭 하락",
+  "summary_detail": "11/12 정규장 S&P500은 7,592.40(−26.98, −0.35%), 나스닥 25,366.09(−100.10, −0.39%), 다우 52,297.09(−189.40, −0.36%), 러셀2000 2,799.06(−1.66%)이었다(잠정). 엔비디아는 황 CEO 즉시 사임 발표 뒤 장중 148.80USD(−14.35%)까지 밀렸다가 166.19USD(−4.34%)로 마감했다. AMD +5.86%·브로드컴 +5.54%로 반도체지수는 −0.54%에 그쳤고, 네비우스는 전망 실망에 −16.84%였다. 장 마감 뒤 시스코·AMAT가 예상을 넘어 16:18 EST 시간외 +2.01%·+1.48%다. 10년물은 5% 부근(출처별 값 차이로 종가 미확인), WTI +2.55%다. 다음은 09:00 KST 한국장 개장과 11/13 22:30 KST PPI다.",
+  "interpretation": "창업자 CEO의 즉시 사임이라는 큰 악재에도 엔비디아 낙폭이 장중 크게 줄고 지수는 0.4% 안팎 하락에 그쳐, 시장은 이를 업종 전체가 아닌 한 회사의 경영 위험으로 좁혀 보는 것으로 해석된다. 자금은 AMD·브로드컴 등 반도체 안의 대안으로 옮겨 갔고 장 마감 뒤 시스코·AMAT 실적이 AI 투자 지속을 뒷받침했다. 다만 러셀2000 −1.66%, 유가 상승, 10년물 5% 부근, 기존주택판매 급감이 겹쳐 금리 부담은 그대로다. 장중 회복의 매수 주체는 거래 주체 자료로 확인한 것이 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,592.40",
+      "unit": "pt",
+      "delta": "−26.98",
+      "percent": "−0.35",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 7,619.38 기준 · 잠정",
+      "provisional": true,
+      "range": {
+        "open": "7,550.84",
+        "high": "7,652.76",
+        "low": "7,550.84",
+        "prev_close": "7,619.38"
+      }
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "25,366.09",
+      "unit": "pt",
+      "delta": "−100.10",
+      "percent": "−0.39",
+      "direction": "down",
+      "source": "yf_ixic",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 25,466.19 기준 · 잠정",
+      "provisional": true,
+      "range": {
+        "open": "25,092.11",
+        "high": "25,597.22",
+        "low": "25,068.28",
+        "prev_close": "25,466.19"
+      }
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "52,297.09",
+      "unit": "pt",
+      "delta": "−189.40",
+      "percent": "−0.36",
+      "direction": "down",
+      "source": "yf_dji",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 52,486.49 기준 · 잠정",
+      "provisional": true,
+      "range": {
+        "open": "52,427.94",
+        "high": "52,751.22",
+        "low": "52,271.16",
+        "prev_close": "52,486.49"
+      }
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,799.06",
+      "unit": "pt",
+      "delta": "−47.20",
+      "percent": "−1.66",
+      "direction": "down",
+      "source": "yf_rut",
+      "additional_sources": [],
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 2,846.26 기준 · 잠정 · Yahoo 16:02 EST 값",
+      "provisional": true,
+      "range": {
+        "open": "2,827.20",
+        "high": "2,832.79",
+        "low": "2,796.83",
+        "prev_close": "2,846.26"
+      }
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "10,506.67",
+      "unit": "pt",
+      "delta": "−57.44",
+      "percent": "−0.54",
+      "direction": "down",
+      "source": "yf_sox",
+      "additional_sources": [],
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 10,564.11 기준 · 잠정",
+      "provisional": true,
+      "range": {
+        "open": "10,174.12",
+        "high": "10,688.24",
+        "low": "10,174.12",
+        "prev_close": "10,564.11"
+      }
+    },
+    {
+      "name": "VIX",
+      "value": "18.78",
+      "unit": "pt",
+      "delta": "+1.29",
+      "percent": "+7.38",
+      "direction": "up",
+      "source": "yf_vix",
+      "additional_sources": [],
+      "as_of": "2026-11-13T06:02:00+09:00",
+      "session": "Cboe 변동성지수 · 2026-11-12 16:02 EST(11/13 06:02 KST) Yahoo 값 · 11/11 Yahoo 일봉 17.49 기준(직전 회차 기록 17.53과 다름) · 잠정",
+      "provisional": true,
+      "range": {
+        "open": "18.36",
+        "high": "19.34",
+        "low": "17.38",
+        "prev_close": "17.49"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "title": "엔비디아 CEO 사임 충격, 지수는 장중 만회 뒤 소폭 하락",
+      "fact": "11/12 정규장 S&P500은 26.98p(0.35%) 내린 7,592.40, 나스닥은 100.10p(0.39%) 내린 25,366.09, 다우는 189.40p(0.36%) 내린 52,297.09, 러셀2000은 47.20p(1.66%) 내린 2,799.06으로 마감했다(잠정, Yahoo·CNBC). CNBC에 따르면 개장 초 S&P500 −0.8%, 나스닥 −1.5%였다가 장중 상승 전환한 뒤 하락 마감했다. VIX는 18.78(+7.38%)이다. 엔비디아는 08:48 EST 젠슨 황 CEO가 사장·CEO·이사직에서 즉시 사임하고 콜레트 크레스 CFO가 임시 CEO를 맡는다고 발표했다(회사 발표, 사유 미기재).",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "nvda_pr",
+        "yf_gspc",
+        "yf_ixic",
+        "yf_dji",
+        "yf_rut",
+        "yf_vix"
+      ]
+    },
+    {
+      "title": "엔비디아 −14.35%에서 −4.34%로 회복",
+      "fact": "엔비디아는 시가 151.005USD(11/11 종가 대비 −13.08%)로 출발해 09:31 EST 148.80USD(−14.35%, StockTitan)까지 밀린 뒤 166.19USD(−7.54, −4.34%)로 마감했다. 시가 대비 종가는 +10.06%다. StockTitan은 발표 전 이미 −8.48%였고 낙폭 상당 부분이 전날 시간외에 나왔다고 전했다. CNBC는 52주 저가를 터치했고 11월 하락률이 약 20%라고 전했다. 3분기 실적은 예정대로 11/17 13:20 PT(11/18 06:20 KST)다.",
+      "source": "st_live",
+      "additional_sources": [
+        "yf_nvda",
+        "cnbc_live",
+        "nvda_pr"
+      ]
+    },
+    {
+      "title": "반도체 안에서 자금 이동: AMD +5.86%·브로드컴 +5.54%",
+      "fact": "필라델피아 반도체지수는 10,506.67(−57.44, −0.54%)로 엔비디아(−4.34%)보다 덜 내렸다. AMD는 585.30USD(+5.86%)로 윌리엄블레어의 시장수익률 상회 상향이 있었고(CNBC), 브로드컴은 364.36USD(+5.54%)였다. CNBC는 두 종목이 엔비디아 혼란의 수혜 후보로 거론된다고 전했다. 슈퍼마이크로는 법무부가 앨리스 황의 제품 밀반출 관여 여부를 조사한다는 블룸버그 보도(CNBC 인용)에 26.99USD(−11.30%)였다.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "cnbc_movers",
+        "yf_sox",
+        "yf_amd",
+        "yf_avgo",
+        "yf_smci"
+      ]
+    },
+    {
+      "title": "네비우스 −16.84%: 매출 상회에도 투자비·전망 실망",
+      "fact": "네비우스 3분기 매출은 9.808억USD(+571%)로 LSEG 예상 9.075억USD를 넘었고 순손실은 3,750만USD로 줄었다. 그러나 2026년 설비투자를 200억~250억USD에서 270억USD로 올리고 2026년 매출은 30억~34억USD 범위 하단(FactSet 예상 33.5억USD)이라고 했다(CNBC). 70억USD 연 매출 속도 목표도 12월에서 2월로 미뤘다(StockTitan). 주가는 128.64USD(−26.05, −16.84%)로 11/11 상승분(+15.44%)을 모두 되돌렸고, 코어위브도 56.60USD(−6.86%)였다.",
+      "source": "cnbc_movers",
+      "additional_sources": [
+        "st_live",
+        "yf_nbis",
+        "yf_crwv"
+      ]
+    },
+    {
+      "title": "장 마감 뒤 시스코·AMAT 예상 상회, 시간외 상승",
+      "fact": "시스코는 16:05 EST 1분기 매출 185억USD(+24%)·비GAAP EPS 1.40USD를 발표해 예상(약 181.2억USD·1.32USD, TradingKey)을 넘었고, 연간 매출 전망을 748억~758억USD로 올렸다. AMAT는 16:01 EST 4분기 매출 104.1억USD(+53%)·비GAAP EPS 4.16USD로 예상(103.0억USD·4.06USD)을 넘고 다음 분기 매출 111억USD±5억USD를 제시했다. 16:18 EST 시간외는 시스코 104.06USD(+2.01%), AMAT 386.60USD(+1.48%)로 발표 직후 얇은 체결이다(Yahoo).",
+      "source": "csco_pr",
+      "additional_sources": [
+        "amat_pr",
+        "tk_csco",
+        "cb_amat",
+        "yf_csco",
+        "yf_amat"
+      ]
+    },
+    {
+      "title": "금리·유가 부담: 10년물 5.1% 부근, WTI +2.55%",
+      "fact": "채권시장 재개 뒤 Yahoo ^TNX 마지막 값은 5.103%(14:59 EST)로 11/10 4.983% 대비 +12.0bp다. 다만 CNBC 페이지는 10년물 4.9920% 보합으로 표기해 종가는 미확인이다. 2년물은 4.7568%(+3bp, CNBC)다. WTI는 88.74USD(+2.55%), 브렌트는 95.82USD(+3.3%)로 트럼프 대통령의 '이란과 합의가 필요 없다' 게시 뒤 올랐다(CNBC). 10월 기존주택판매는 연율 375만 건(−5.5%)으로 2010년 8월 이후 최저였고, 신규 실업수당 청구는 20만 건(예상 19.5만)이다. 해맥 클리블랜드 연은 총재는 추가 인상을 지지하되 점진적 인상을 선호했다(CNBC).",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yf_tnx"
+      ]
+    },
+    {
+      "title": "11/11 기준 배경: 반도체·엔비디아 20일 하락 추세",
+      "fact": "미국 일별 분석(기준일 2026-11-11, 이전 거래일, ETF 대용치·분할 보정 가격수익률)에서 반도체 ETF(SOXX)는 20거래일 −10.25%로 SPY 대비 −8.97%p, 기술(XLK)은 −7.17%p로 가장 약했고 둘 다 20·60일선 아래 하락 추세 조건이었다. 엔비디아는 11/11 종가 173.73USD로 20거래일 −21.50%, 20일선 203.80USD 아래였다. AMAT는 실적 전 20거래일 −11.54%·5거래일 +6.95%, 네비우스는 20거래일 −16.84%·5거래일 +9.31%였다. 11/11은 OTC 제외 전체 증권(ETF·우선주 등 포함) 12,384개 중 8,116개(65.54%)가 올랐다. 이 자료는 11/12 움직임을 반영하지 않는다.",
+      "source": "massive_run",
+      "additional_sources": []
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "166.19",
+      "currency": "USD",
+      "delta": "−7.54",
+      "percent": "−4.34",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "st_live",
+        "cnbc_live",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 173.73USD 기준 · 잠정 · 시가 151.005USD 대비 종가 +10.06%, 저가 148.80USD(09:31 EST, StockTitan) 대비 +11.69% · 16:18 EST 시간외 166.11USD(별도 구간)",
+      "reason": "황 CEO 즉시 사임 발표 뒤 시가 −13.1%로 출발해 장중 −14.35%까지 밀렸다가 −4.34%로 마감했다.",
+      "watch": "임시 CEO 체제에서 11/17(한국 11/18 06:20) 실적과 후임 계획 설명, 11/12 저가 148.80USD 재시험 여부를 본다.",
+      "reason_sources": [
+        "nvda_pr",
+        "st_live",
+        "cnbc_live"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "151.005",
+        "high": "167.14",
+        "low": "148.80",
+        "prev_close": "173.73"
+      }
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "585.30",
+      "currency": "USD",
+      "delta": "+32.40",
+      "percent": "+5.86",
+      "direction": "up",
+      "source": "yf_amd",
+      "additional_sources": [
+        "cnbc_movers",
+        "cnbc_live",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 552.90USD 기준 · 잠정",
+      "reason": "윌리엄블레어가 시장수익률 상회로 올렸고, 엔비디아 혼란의 수혜 후보로 거론됐다(CNBC).",
+      "watch": "엔비디아 실적(11/17) 전후에도 상대 강세가 이어지는지, 하루 +5.86% 뒤 되돌림을 본다.",
+      "reason_sources": [
+        "cnbc_movers",
+        "cnbc_live"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "569.28",
+        "high": "594.00",
+        "low": "554.90",
+        "prev_close": "552.90"
+      }
+    },
+    {
+      "name": "브로드컴",
+      "ticker": "AVGO",
+      "price": "364.36",
+      "currency": "USD",
+      "delta": "+19.14",
+      "percent": "+5.54",
+      "direction": "up",
+      "source": "yf_avgo",
+      "additional_sources": [
+        "cnbc_live",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 345.22USD 기준 · 잠정",
+      "reason": "AMD와 함께 엔비디아 혼란의 수혜 후보로 거론되며 올랐다(CNBC).",
+      "watch": "맞춤형 AI 칩 수요 기대가 실적 근거로 이어지는지, 나흘 연속 상승(11/9~11/12) 뒤 차익 실현을 본다.",
+      "reason_sources": [
+        "cnbc_live"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "356.80",
+        "high": "369.82",
+        "low": "354.72",
+        "prev_close": "345.22"
+      }
+    },
+    {
+      "name": "네비우스",
+      "ticker": "NBIS",
+      "price": "128.64",
+      "currency": "USD",
+      "delta": "−26.05",
+      "percent": "−16.84",
+      "direction": "down",
+      "source": "yf_nbis",
+      "additional_sources": [
+        "cnbc_movers",
+        "st_live",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 154.69USD 기준 · 잠정 · 시가 119.935USD 대비 종가 +7.26%",
+      "reason": "매출 9.808억USD로 예상 9.075억USD(LSEG)를 넘었지만 설비투자 상향·연간 매출 하단 제시에 급락했다.",
+      "watch": "11/11 급등 전 수준(134.00USD)을 되찾는지, 추가 자금 조달 소식이 있는지 본다.",
+      "reason_sources": [
+        "cnbc_movers",
+        "st_live"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "119.935",
+        "high": "132.69",
+        "low": "118.81",
+        "prev_close": "154.69"
+      }
+    },
+    {
+      "name": "코어위브",
+      "ticker": "CRWV",
+      "price": "56.60",
+      "currency": "USD",
+      "delta": "−4.17",
+      "percent": "−6.86",
+      "direction": "down",
+      "source": "yf_crwv",
+      "additional_sources": [
+        "cnbc_movers",
+        "st_live",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 60.77USD 기준 · 잠정 · 시가 50.905USD 대비 종가 +11.19%",
+      "reason": "실적 급등(+24.71%) 다음 날 차익 실현이 나왔다(CNBC). 3개월 기준으로는 −48%다(CNBC).",
+      "watch": "11/11 시가 55.965USD 위를 지키는지, 네비우스발 투자비 우려가 이어지는지 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "50.905",
+        "high": "58.56",
+        "low": "50.17",
+        "prev_close": "60.77"
+      }
+    },
+    {
+      "name": "슈퍼마이크로",
+      "ticker": "SMCI",
+      "price": "26.99",
+      "currency": "USD",
+      "delta": "−3.44",
+      "percent": "−11.30",
+      "direction": "down",
+      "source": "yf_smci",
+      "additional_sources": [
+        "cnbc_movers",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 30.43USD 기준 · 잠정",
+      "reason": "법무부가 앨리스 황이 회사 제품 밀반출을 도왔는지 조사 중이라는 블룸버그 보도(CNBC 인용)에 급락했다.",
+      "watch": "회사 해명이나 당국 발표가 나오는지, 엔비디아 사안과 연결 보도가 커지는지 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "27.28",
+        "high": "28.995",
+        "low": "25.705",
+        "prev_close": "30.43"
+      }
+    },
+    {
+      "name": "시스코",
+      "ticker": "CSCO",
+      "price": "102.01",
+      "currency": "USD",
+      "delta": "+1.25",
+      "percent": "+1.24",
+      "direction": "up",
+      "source": "yf_csco",
+      "additional_sources": [
+        "csco_pr",
+        "tk_csco"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 100.76USD 기준 · 잠정 · 실적 발표 16:05 EST 이후 16:18 EST 시간외 104.06USD(+2.05, +2.01%, Yahoo, 별도 구간·발표 직후 얇은 체결)",
+      "reason": "장 마감 뒤 매출 185억USD(+24%)로 예상 약 181.2억USD를 넘고 연간 전망을 올렸다.",
+      "watch": "시간외 상승이 다음 정규장 종가까지 이어지는지, 2분기 가이던스(180억~182억USD)를 시장이 어떻게 보는지 본다.",
+      "reason_sources": [
+        "csco_pr",
+        "tk_csco"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "99.605",
+        "high": "103.18",
+        "low": "99.41",
+        "prev_close": "100.76"
+      }
+    },
+    {
+      "name": "어플라이드머티리얼즈",
+      "ticker": "AMAT",
+      "price": "380.95",
+      "currency": "USD",
+      "delta": "−14.13",
+      "percent": "−3.58",
+      "direction": "down",
+      "source": "yf_amat",
+      "additional_sources": [
+        "amat_pr",
+        "cb_amat",
+        "massive_run"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "session": "2026-11-12 미국 정규장 종가(16:00 EST = 11/13 06:00 KST) · 11/11 종가 395.08USD 기준 · 잠정 · 실적 발표 16:01 EST 이후 16:18 EST 시간외 386.60USD(+5.65, +1.48%, Yahoo, 별도 구간·발표 직후 얇은 체결)",
+      "reason": "장 마감 뒤 매출 104.1억USD·조정 EPS 4.16USD로 예상(103.0억USD·4.06USD)을 넘고 다음 분기 111억USD를 제시했다.",
+      "watch": "시간외 반응이 정규장까지 이어지는지, DRAM 비중 확대가 메모리 투자 지속으로 읽히는지 본다.",
+      "reason_sources": [
+        "amat_pr",
+        "cb_amat"
+      ],
+      "provisional": true,
+      "range": {
+        "open": "378.00",
+        "high": "397.20",
+        "low": "376.25",
+        "prev_close": "395.08"
+      }
+    }
+  ],
+  "fx": {
+    "label": "원·달러 환율(글로벌 호가)",
+    "value": "1,334.93",
+    "unit": "원",
+    "delta": "−6.98원",
+    "direction": "down",
+    "source": "yf_krw",
+    "additional_sources": [],
+    "as_of": "2026-11-13T06:17:00+09:00",
+    "session": "Yahoo KRW=X 2026-11-12 16:17 EST(11/13 06:17 KST) 글로벌 호가 · 11/11 일봉 1,341.91원 대비 계산 · 서울 외환시장 주간 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-13 09:00 KST",
+      "title": "한국장 개장: 엔비디아·장비 실적 반영",
+      "detail": "코스피는 11/12 5,342.73(−0.61%, CNBC)이었다. 엔비디아 종가 −4.34%(장중 −14.35%)와 AMAT·시스코 시간외 상승이 SK하이닉스·삼성전자 등 반도체주에 어떻게 반영되는지 본다. 원·달러 글로벌 호가 1,334.93원(16:17 EST)."
+    },
+    {
+      "label": "2026-11-13 22:30 KST",
+      "title": "10월 PPI(08:30 EST)",
+      "detail": "CPI 상회 뒤 생산자 물가도 높으면 12월 인상 폭 논의(해맥·월러 발언)가 커질 수 있다. 10년물 5% 위 유지 여부를 함께 본다."
+    },
+    {
+      "label": "확인 순서: 11/13 미국 정규장",
+      "title": "시스코·AMAT 시간외 반응의 정규장 연결",
+      "detail": "발표 직후 시간외 +2.01%·+1.48%는 얇은 체결이다. 실적 콜 이후 반응과 정규장 종가를 따로 본다."
+    },
+    {
+      "label": "2026-11-18 06:20 KST",
+      "title": "엔비디아 3분기 실적(11/17 13:20 PT)",
+      "detail": "임시 CEO 체제 첫 실적이다. 후임 탐색 일정과 고객·로드맵 설명을 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "market_date": "2026-11-12",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-13T06:16:30+09:00",
+    "note": "NYSE 원문(WebFetch, 2026-11-13 06:16 KST 무렵) 2026 휴장 목록(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET)에 11/12(목)가 없어 정상 거래일·정규 폐장으로 판단했다. 11/1 DST 종료로 EST(UTC−05:00), 정규장 09:30~16:00 EST = 2026-11-12 23:30~11-13 06:00 KST."
+  },
+  "calculation_notes": "지수·종목 값은 Yahoo Finance 차트 API 일봉(2026-11-13 06:17 KST 조회)의 11/12 정규장 값과 11/11 종가로 계산했다: S&P 500 7,592.40−7,619.38=−26.98(-0.354%); 나스닥 종합 25,366.09−25,466.19=−100.10(-0.393%); 다우존스 산업 52,297.09−52,486.49=−189.40(-0.361%); 러셀 2000 2,799.06−2,846.26=−47.20(-1.658%); 필라델피아 반도체 10,506.67−10,564.11=−57.44(-0.544%); VIX 18.78−17.49=+1.29(+7.376%); NVDA 166.19−173.73=−7.54(-4.340%); AMD 585.30−552.90=+32.40(+5.860%); AVGO 364.36−345.22=+19.14(+5.544%); NBIS 128.64−154.69=−26.05(-16.840%); CRWV 56.60−60.77=−4.17(-6.862%); SMCI 26.99−30.43=−3.44(-11.305%); CSCO 102.01−100.76=+1.25(+1.241%); AMAT 380.95−395.08=−14.13(-3.576%); NVDA 시가 갭 151.005/173.73−1=−13.081%, 저가 148.80/173.73−1=−14.350%, 종가/시가 166.19/151.005−1=+10.056%, 종가/저가 166.19/148.80−1=+11.687%; NBIS 종가/시가 128.64/119.935−1=+7.258%. CRWV 종가/시가 56.60/50.905−1=+11.188%; 시간외: CSCO 104.06−102.01=+2.05(+2.010%), AMAT 386.60−380.95=+5.65(+1.483%), NVDA 166.11(16:18 EST 5분봉 마지막 값); 10년물(^TNX) 5.103−4.983(11/10 일봉)=+12.0bp. 원·달러 1,334.93−1,341.91(11/11 일봉)=−6.98원; 시스코 매출 185억 vs 예상 181.2억: 18.5/18.12−1=+2.10%. AMAT 매출 104.1억 vs 103.0억: 10.41/10.30−1=+1.07%, EPS 4.16 vs 4.06: +2.46%. NBIS 매출 9.808 vs 9.075억: +8.08%. 시장 폭 8,116/12,384=65.54%(산출물 값). 10년물은 Yahoo·CNBC 값이 달라 종가 미확인.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행 WebFetch로 원문 열람(2026-11-13 06:16 KST 무렵). 2026 휴장 목록(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET)에 11/12 없음."
+    },
+    {
+      "id": "nvda_pr",
+      "label": "NVIDIA · CEO 교체 발표",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "note": "이번 실행 열람: 황 사장·CEO·이사 즉시 사임, 크레스 EVP·CFO 임시 CEO(후임 선임 전 CFO 겸임), 하비 존스 첫 이사회 의장, 내·외부 후보 탐색, 3분기 실적 11/17 13:20 PT(콜 14:00 PT). 발표일 11/12, 시각 표기 없음."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11/12 마감 라이브",
+      "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+      "note": "16:11 EST 갱신본: S&P500 −0.35% 7,592.40, 다우 −189.40(−0.36%) 52,297.09, 나스닥 −0.39% 25,366.09. 개장 초 S&P500 −0.8%·나스닥 −1.5% 뒤 장중 상승 전환 후 하락 마감. 엔비디아 4% 넘게 하락·52주 저가 터치, 11월 약 −20%. AMD·브로드컴 장중 5% 넘게 상승(수혜 후보). 10년물 4.9920% 보합, 2년물 4.7568%(+3bp), 30년물 5.3403%(값 시각 미표기). WTI +2.55% 88.74USD, 브렌트 +3.3% 95.82USD(트럼프 '이란과 합의 필요 없다' 게시). 기존주택판매 −5.5% 연율 375만 건(2010년 8월 이후 최저). 신규 실업수당 20만 건(+9천, 예상 19.5만). 해맥 총재 점진적 인상 선호. 코스피 −0.61% 5,342.73."
+    },
+    {
+      "id": "cnbc_movers",
+      "label": "CNBC · 11/12 종목 움직임",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
+      "note": "14:35 EST 갱신본(15분 이상 지연): 엔비디아 7% 넘게 하락(NYT, 두 번째 부적절 관계 보도). 코어위브 약 −8%(전날 +25% 뒤 차익 실현, 3개월 −48%). 네비우스 −17%: 순손실 3,750만USD, 매출 9.808억USD(+571%) vs LSEG 9.075억USD, 2026 설비투자 200억~250억→270억USD, 2026 매출 30억~34억USD 하단(FactSet 33.5억USD). 슈퍼마이크로 9% 넘게 하락(블룸버그: 법무부가 앨리스 황의 제품 밀반출 관여 조사). AMD +2.8%(윌리엄블레어 상향)."
+    },
+    {
+      "id": "st_live",
+      "label": "StockTitan · 11/12 장중 라이브",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026",
+      "note": "15:03 EST 항목(15:02 EST 가격): 엔비디아 163.94USD(−5.64%), 장중 저가 148.80USD 09:31 EST(−14.35%), 발표(08:48 EST) 전 이미 −8.48%. 네비우스 −17.90%, 70억USD 연 매출 속도 목표 12월→2월. 코어위브 −7.87%, AMD +5.97%, 브로드컴 +5.27%. SPY −0.33%, QQQ −0.45%, DIA −0.21%, IWM −1.50%(ETF)."
+    },
+    {
+      "id": "csco_pr",
+      "label": "Cisco · 1분기 실적 발표",
+      "url": "https://www.prnewswire.com/news-releases/cisco-reports-first-quarter-earnings-302938394.html",
+      "note": "2026-11-12 16:05 ET 발표: 매출 185억USD(+24%), GAAP EPS 1.14USD, 비GAAP 1.40USD(+40%). 2분기 매출 180억~182억USD·비GAAP EPS 1.34~1.36USD. FY27 매출 748억~758억USD(이전 722억~734억USD, 검색 요약), 비GAAP EPS 5.47~5.53USD. 하이퍼스케일러 AI 인프라 매출 기대 90억USD로 상향."
+    },
+    {
+      "id": "tk_csco",
+      "label": "TradingKey · 시스코 실적 예상",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262300603-cisco-q1-earnings-preview-revenue-growth-price-target-tradingkey",
+      "note": "2026-11-11 게시(시간대 미표기): 1분기 매출 예상 약 181.2억USD, 비GAAP EPS 약 1.32USD. 컨센서스 집계 출처 미표기."
+    },
+    {
+      "id": "amat_pr",
+      "label": "Applied Materials · 4분기 실적 발표",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-11-12-applied-materials-announces-fourth-quarter-and-fiscal-year-2026-results",
+      "note": "GlobeNewswire 2026-11-12 16:01 EST: 4분기(10/25 마감) 매출 104.1억USD(+53%), GAAP EPS 3.40USD, 비GAAP 4.16USD(+92%). 1분기 전망 매출 111억USD±5억, 비GAAP EPS 4.35USD±0.20. 반도체시스템 79.96억USD 중 DRAM 33%(전년 28%), 중국 매출 26.42억USD(비중 25%)."
+    },
+    {
+      "id": "cb_amat",
+      "label": "Crypto Briefing · AMAT 실적 예상",
+      "url": "https://cryptobriefing.com/applied-materials-q4-earnings-preview-406-eps/",
+      "note": "2026-11-12 15:20 EST 게시: 비GAAP EPS 예상 4.06USD, 매출 103.0억USD. 회사 가이던스 중간값 102.5억USD·4.02USD."
+    },
+    {
+      "id": "yahoo_oust",
+      "label": "Yahoo Finance · 해임 준비 보도",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-reportedly-preparing-oust-233419551.html",
+      "note": "2026-11-11 17:34 CST 게시, 이번 실행 열람: 2018년 인텔 크르자니치 CEO 사임(직원과의 과거 관계) 당일 인텔 −2.4%, S&P500 −0.6%. 스완 CFO 임시 CEO 7개월 뒤 2019년 1월 정식 선임. 1년 배당 포함 인텔 −8.7% vs S&P500 +8.5%."
+    },
+    {
+      "id": "bls_ppi",
+      "label": "BLS · PPI 발표 일정",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "note": "11/10 장전 회차에서 확인한 일정: 10월 PPI 2026-11-13 08:30 EST. 이번 실행 재열람 안 함."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "2026-11-13 06:17 KST 무렵 Yahoo 차트 API 조회: 11/12 시 7,550.84·고 7,652.76·저 7,550.84·종 7,592.40, 11/11 7,619.38."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo Finance · 나스닥",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "같은 조회: 11/12 시 25,092.11·고 25,597.22·저 25,068.28·종 25,366.09, 11/11 25,466.19."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo Finance · 다우",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "같은 조회: 11/12 시 52,427.94·고 52,751.22·저 52,271.16·종 52,297.09, 11/11 52,486.49."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo Finance · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "같은 조회(값 시각 16:02 EST): 11/12 시 2,827.20·고 2,832.79·저 2,796.83·종 2,799.06, 11/11 2,846.26."
+    },
+    {
+      "id": "yf_sox",
+      "label": "Yahoo Finance · 반도체지수",
+      "url": "https://finance.yahoo.com/quote/%5ESOX/",
+      "note": "같은 조회: 11/12 시 10,174.12·고 10,688.24·저 10,174.12·종 10,506.67, 11/11 10,564.11."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo Finance · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "같은 조회(16:02 EST): 18.78, 11/11 일봉 17.49."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo Finance · 10년물(^TNX)",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "같은 조회: 11/12 마지막 값 5.103(14:59 EST), 고 5.117·저 5.020, 11/10 일봉 4.983. CNBC 페이지 표기 4.9920%와 다름."
+    },
+    {
+      "id": "yf_krw",
+      "label": "Yahoo Finance · USD/KRW",
+      "url": "https://finance.yahoo.com/quote/KRW%3DX/",
+      "note": "같은 조회: 16:17 EST 1,334.93원, 11/11 일봉 1,341.91원. 글로벌 호가, 서울 주간 종가 아님."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo Finance · NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "같은 조회: 11/12 시 151.005·고 167.14·저 148.80·종 166.19USD, 11/11 173.73. 시간외 16:18 EST 166.11USD."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo Finance · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "같은 조회: 11/12 시 569.28·고 594.00·저 554.90·종 585.30USD, 11/11 552.90."
+    },
+    {
+      "id": "yf_avgo",
+      "label": "Yahoo Finance · AVGO",
+      "url": "https://finance.yahoo.com/quote/AVGO/",
+      "note": "같은 조회: 11/12 시 356.80·고 369.82·저 354.72·종 364.36USD, 11/11 345.22."
+    },
+    {
+      "id": "yf_nbis",
+      "label": "Yahoo Finance · NBIS",
+      "url": "https://finance.yahoo.com/quote/NBIS/",
+      "note": "같은 조회: 11/12 시 119.935·고 132.69·저 118.81·종 128.64USD, 11/11 154.69, 11/10 134.00."
+    },
+    {
+      "id": "yf_crwv",
+      "label": "Yahoo Finance · CRWV",
+      "url": "https://finance.yahoo.com/quote/CRWV/",
+      "note": "같은 조회: 11/12 시 50.905·고 58.56·저 50.17·종 56.60USD, 11/11 60.77(시가 55.965)."
+    },
+    {
+      "id": "yf_smci",
+      "label": "Yahoo Finance · SMCI",
+      "url": "https://finance.yahoo.com/quote/SMCI/",
+      "note": "같은 조회: 11/12 시 27.28·고 28.995·저 25.705·종 26.99USD, 11/11 30.43."
+    },
+    {
+      "id": "yf_csco",
+      "label": "Yahoo Finance · CSCO",
+      "url": "https://finance.yahoo.com/quote/CSCO/",
+      "note": "같은 조회: 11/12 시 99.605·고 103.18·저 99.41·종 102.01USD, 11/11 100.76. 시간외 16:05 EST 107.63, 16:18 EST 104.06USD(5분봉)."
+    },
+    {
+      "id": "yf_amat",
+      "label": "Yahoo Finance · AMAT",
+      "url": "https://finance.yahoo.com/quote/AMAT/",
+      "note": "같은 조회: 11/12 시 378.00·고 397.20·저 376.25·종 380.95USD, 11/11 395.08. 시간외 16:05 EST 378.50, 16:18 EST 386.60USD(5분봉)."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/43308724186",
+      "note": "요청 커밋 5e1d3476a358941fef94502893a643a377de284b(end_date 2026-11-12, watch NVDA·AMD·AVGO·NBIS·CRWV·SMCI·AMAT)의 Collect US briefing inputs 실행 성공(run 43308724186). artifact us-analysis-43308724186을 GitHub MCP 임시 링크로 받아 sha256 지문이 digest와 일치함을 확인. requested_end_date 2026-11-12였으나 반환 data_date 2026-11-11(11/12 자료 미허용), queried_at 2026-11-13T06:25:32+09:00, 39개 요청. 관찰 종목 11/11 정규장 종가는 Yahoo와 일치. 11/12 당일 값이 아니므로 이전 거래일 배경으로만 사용.",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "엔비디아 CEO 사임 충격, 장중 만회해 소폭 하락",
+    "summary_points": [
+      "엔비디아는 장중 −14%에서 −4.3%로 낙폭을 줄였다.",
+      "AMD·브로드컴 +5%대, 반도체지수는 −0.5%에 그쳤다.",
+      "장 마감 뒤 시스코·AMAT가 예상을 넘어 시간외 상승했다."
+    ],
+    "notices": [
+      "지수·종목 값은 장 마감 직후 Yahoo로 확인한 잠정 종가다. 시스코·AMAT 시간외 가격은 16:18 EST 발표 직후 얇은 체결로 별도 구간이다.",
+      "10년물은 Yahoo 5.103%(14:59 EST)와 CNBC 4.992% 표기가 달라 종가를 확정하지 못했다. 원·달러는 서울 종가가 아닌 글로벌 호가다. 사임 사유는 회사 발표에 없고 관련 내용은 언론 보도다.",
+      "업종·추세 분석은 11/11 일별 자료(ETF 대용치)이며 지수 값이 아니고 11/12 움직임은 반영하지 않는다."
+    ],
+    "issues": [
+      {
+        "title": "엔비디아 CEO 사임 충격, 지수는 장중 만회 뒤 소폭 하락",
+        "preview": "S&P500 −0.35%, 나스닥 −0.39%, 러셀2000 −1.66%.",
+        "points": [
+          "개장 초 나스닥 −1.5%에서 낙폭을 크게 줄였다(CNBC).",
+          "황 CEO 즉시 사임, 크레스 CFO가 임시 CEO다."
+        ],
+        "meaning": "대표주의 경영 공백에도 지수 충격은 제한적이었다."
+      },
+      {
+        "title": "엔비디아 −14.35%에서 −4.34%로 회복",
+        "preview": "저가 148.80USD에서 166.19USD로 마감.",
+        "points": [
+          "시가 대비 종가 +10.06%로 장중 매수가 들어왔다.",
+          "11월 하락률은 약 20%다(CNBC)."
+        ],
+        "meaning": "충격은 상당 부분 흡수됐지만 후임·실적 확인이 남았다."
+      },
+      {
+        "title": "반도체 안에서 자금 이동: AMD +5.86%·브로드컴 +5.54%",
+        "preview": "반도체지수 −0.54%, 슈퍼마이크로 −11.3%.",
+        "points": [
+          "AMD는 투자의견 상향, 브로드컴은 수혜 기대가 거론됐다.",
+          "슈퍼마이크로는 법무부 조사 보도에 급락했다."
+        ],
+        "meaning": "AI 수요보다 '엔비디아 한 회사' 위험으로 좁혀 보는 흐름이다."
+      },
+      {
+        "title": "네비우스 −16.84%: 매출 상회에도 투자비·전망 실망",
+        "preview": "매출 상회에도 설비투자 270억USD로 상향.",
+        "points": [
+          "연간 매출은 범위 하단, 목표 시점은 2월로 연기했다.",
+          "코어위브도 전날 급등 뒤 −6.86%였다."
+        ],
+        "meaning": "네오클라우드는 '더 쓰고 늦게 번다'는 우려에 민감하다."
+      },
+      {
+        "title": "장 마감 뒤 시스코·AMAT 예상 상회, 시간외 상승",
+        "preview": "시스코 +2.0%, AMAT +1.5%(16:18 EST 시간외).",
+        "points": [
+          "시스코는 연간 전망과 AI 인프라 매출 기대를 올렸다.",
+          "AMAT는 DRAM 비중이 33%로 커졌다."
+        ],
+        "meaning": "AI 장비 투자가 이어진다는 근거가 추가됐다."
+      },
+      {
+        "title": "금리·유가 부담: 10년물 5.1% 부근, WTI +2.55%",
+        "preview": "WTI 88.74USD, 주택판매 15년여 만에 최저.",
+        "points": [
+          "10년물은 출처별 값이 달라 종가 미확인이다.",
+          "연준 위원은 점진적 인상을 선호했다."
+        ],
+        "meaning": "물가·금리 부담은 기술주 반등을 제한한다."
+      },
+      {
+        "title": "11/11 기준 배경: 반도체·엔비디아 20일 하락 추세",
+        "preview": "반도체 ETF 20일 −10.3%, 엔비디아 20일 −21.5%.",
+        "points": [
+          "사임 발표 전부터 반도체·기술은 20일 기준 시장보다 약했다.",
+          "AMAT는 실적 전 20일 −11.5%로 기대가 크게 쌓인 상태는 아니었다."
+        ],
+        "meaning": "약한 추세 속 악재라 장중 회복이 추세 전환인지는 아직 이르다."
+      }
+    ],
+    "interpretation_points": [
+      "엔비디아 저가 148.80USD 재시험 여부를 본다.",
+      "장 초반 흔들림과 종가를 따로 본다.",
+      "PPI와 10년물 5% 위 유지가 기술주 부담을 좌우한다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "CEO 즉시 사임, 장중 −14.35% 뒤 −4.34% 마감.",
+        "watch": "저가 148.80USD 재시험과 11/17 실적 설명을 본다."
+      },
+      "AMD": {
+        "reason": "투자의견 상향·수혜 기대에 +5.86%.",
+        "watch": "하루 급등 뒤 상대 강세 지속 여부를 본다."
+      },
+      "AVGO": {
+        "reason": "엔비디아 혼란의 수혜 후보로 +5.54%.",
+        "watch": "나흘 연속 상승 뒤 차익 실현을 본다."
+      },
+      "NBIS": {
+        "reason": "투자비 상향·매출 하단 제시에 −16.84%.",
+        "watch": "134.00USD(11/10 종가) 회복 여부를 본다."
+      },
+      "CRWV": {
+        "reason": "실적 급등 다음 날 차익 실현에 −6.86%.",
+        "watch": "11/11 시가 55.965USD 위 유지를 본다."
+      },
+      "SMCI": {
+        "reason": "법무부 조사 보도에 −11.30%.",
+        "watch": "회사 해명·당국 발표를 본다."
+      },
+      "CSCO": {
+        "reason": "매출·전망 상회, 시간외 +2.01%.",
+        "watch": "정규장까지 상승이 이어지는지 본다."
+      },
+      "AMAT": {
+        "reason": "매출·EPS 상회, 시간외 +1.48%.",
+        "watch": "정규장 반응과 메모리 투자 해석을 본다."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국장 개장",
+        "detail": "엔비디아·AMAT 반응이 반도체주에 어떻게 반영되는지 본다."
+      },
+      {
+        "title": "10월 PPI",
+        "detail": "인상 기대와 10년물 5% 유지 여부를 본다."
+      },
+      {
+        "title": "시스코·AMAT 정규장",
+        "detail": "시간외 상승이 종가까지 이어지는지 본다."
+      },
+      {
+        "title": "엔비디아 실적",
+        "detail": "임시 CEO 체제 첫 실적과 후임 계획을 본다."
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "nvda_pr": "NVIDIA · CEO 교체 발표",
+      "cnbc_live": "CNBC · 11/12 마감 라이브",
+      "cnbc_movers": "CNBC · 11/12 종목 움직임",
+      "st_live": "StockTitan · 11/12 장중 라이브",
+      "csco_pr": "Cisco · 1분기 실적 발표",
+      "tk_csco": "TradingKey · 시스코 실적 예상",
+      "amat_pr": "Applied Materials · 4분기 실적 발표",
+      "cb_amat": "Crypto Briefing · AMAT 실적 예상",
+      "yahoo_oust": "Yahoo · 해임 준비 보도",
+      "bls_ppi": "BLS · PPI 발표 일정",
+      "yf_gspc": "Yahoo · S&P 500",
+      "yf_ixic": "Yahoo · 나스닥",
+      "yf_dji": "Yahoo · 다우",
+      "yf_rut": "Yahoo · 러셀 2000",
+      "yf_sox": "Yahoo · 반도체지수",
+      "yf_vix": "Yahoo · VIX",
+      "yf_tnx": "Yahoo · 10년물(^TNX)",
+      "yf_krw": "Yahoo · USD/KRW",
+      "yf_nvda": "Yahoo · NVDA",
+      "yf_amd": "Yahoo · AMD",
+      "yf_avgo": "Yahoo · AVGO",
+      "yf_nbis": "Yahoo · NBIS",
+      "yf_crwv": "Yahoo · CRWV",
+      "yf_smci": "Yahoo · SMCI",
+      "yf_csco": "Yahoo · CSCO",
+      "yf_amat": "Yahoo · AMAT"
+    },
+    "key_figure": {
+      "value": "−4.34%",
+      "label": "엔비디아 정규장 종가",
+      "note": "잠정 · 장중 저가 −14.35%",
+      "detail": "황 CEO 즉시 사임 · 시가 대비 +10.06%",
+      "direction": "down"
+    },
+    "view": {
+      "headline": "창업자 CEO가 떠난 날, 시장은 생각보다 덜 흔들렸어요. 다만 아직 '흡수 중'이에요.",
+      "mood": {
+        "level": "caution",
+        "note": "아침엔 장전 −10% 충격으로 경계가 짙었는데, 장중 낙폭을 크게 줄이며 불안까지 번지지는 않았어요. 금리·유가가 함께 올라 안도라고 하긴 일러요."
+      },
+      "drivers": [
+        {
+          "title": "최악은 장 초반에 나왔다.",
+          "text": "엔비디아는 개장 직후 −14%까지 밀렸다가 −4%대로 마감했어요. 사임 소식이 이미 전날 밤부터 가격에 반영됐고, 장중엔 '사업은 그대로'라는 회사 설명을 받아들이는 매수가 들어온 것으로 보여요.",
+          "sources": [
+            "st_live",
+            "nvda_pr",
+            "yf_nvda"
+          ]
+        },
+        {
+          "title": "돈은 반도체 밖이 아니라 안에서 움직였다.",
+          "text": "AMD·브로드컴은 5%대 올랐고 반도체지수는 −0.5%에 그쳤어요. 투자자들이 AI 수요 자체보다 한 회사의 경영 위험으로 좁혀 보고 대안 종목으로 옮겨 간 모습이에요.",
+          "sources": [
+            "cnbc_live",
+            "cnbc_movers",
+            "yf_sox"
+          ]
+        },
+        {
+          "title": "네오클라우드는 '돈 쓰는 속도'에 예민했다.",
+          "text": "네비우스는 매출이 예상을 넘었는데도 투자비 상향과 매출 하단 제시에 −17%였어요. 전날 코어위브 실적으로 기대가 한껏 올라간 직후라 실망이 더 크게 나온 것으로 보여요.",
+          "sources": [
+            "cnbc_movers",
+            "st_live"
+          ]
+        },
+        {
+          "title": "장 마감 뒤 실적은 힘을 보탰다.",
+          "text": "시스코와 AMAT가 모두 예상을 넘고 전망을 올렸어요. AI 장비·네트워크 투자가 계속된다는 근거라 업종 심리에는 도움이 되지만, 시간외 반응은 아직 얇은 체결이에요.",
+          "sources": [
+            "csco_pr",
+            "amat_pr",
+            "yf_csco",
+            "yf_amat"
+          ]
+        },
+        {
+          "title": "금리·유가는 여전히 부담.",
+          "text": "유가가 2~3% 오르고 10년물이 5% 부근에 있으며 주택판매는 15년여 만에 최저예요. 물가 걱정이 남아 있어 높은 가격의 기술주가 쉽게 다시 달리기는 어려운 환경이에요.",
+          "sources": [
+            "cnbc_live",
+            "yf_tnx"
+          ]
+        }
+      ],
+      "history": [
+        {
+          "title": "2018년 6월, 인텔 CEO 사임",
+          "then": "크르자니치 CEO가 직원과의 과거 관계로 사임했고 CFO가 임시 CEO를 맡았어요. 그날 인텔 −2.4%, S&P500 −0.6%였어요.",
+          "next": "다음 날 수치는 이번에 원문으로 확인하지 못했어요.",
+          "after": "임시 체제가 7개월 이어졌고, 1년 뒤 배당 포함 인텔 −8.7%(S&P500 +8.5%)였어요.",
+          "difference": "CFO 임시 체제는 닮았지만, 엔비디아는 창업자이자 AI 업종의 중심이고 5일 뒤 실적 발표가 바로 있어요. 이번엔 장중 −14%까지 밀린 뒤 크게 회복한 점도 달라요.",
+          "sources": [
+            "yahoo_oust"
+          ]
+        }
+      ],
+      "paths": {
+        "good": "13일(금) 엔비디아가 12일 저가 148.80USD 근처로 다시 밀리지 않고, 시스코·AMAT 시간외 상승이 정규장 종가까지 이어지면 '한 회사 문제'로 정리되는 흐름이에요. 같은 날 22:30 KST PPI가 예상 수준이면 금리 부담도 덜해요.",
+        "caution": "장 초반에 실적주가 시간외 상승분을 내주거나 엔비디아 후임·조사 관련 보도가 추가되면 다시 흔들릴 수 있어요. PPI가 높게 나와 10년물이 5% 위에 머물면 기술주 부담이 겹쳐요. 18일 06:20 KST 엔비디아 실적 전까지는 장중 흔들림과 종가를 나눠 보는 게 좋아요."
+      },
+      "estimated_at": "2026-11-13T06:26:47+09:00",
+      "input_cutoff": "2026-11-13T06:25:32+09:00",
+      "added_later": false
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-12T16:15:00-05:00",
+      "kst": "2026-11-13T06:15:00+09:00",
+      "utc": "2026-11-12T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-12T16:15:50-05:00",
+      "kst": "2026-11-13T06:15:50+09:00",
+      "utc": "2026-11-12T21:15:50Z"
+    },
+    "start_offset_seconds": 50,
+    "delay_seconds": 50,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, 공개 GitHub REST API, GitHub MCP, WebSearch·WebFetch(NYSE·NVIDIA·CNBC·StockTitan·PR Newswire·FinancialContent·TradingKey·Crypto Briefing·Yahoo 기사 열람 성공), Yahoo Finance 차트 API.",
+    "model_setting": "not_verified",
+    "request_commit": "5e1d3476a358941fef94502893a643a377de284b",
+    "analysis_run_id": 43308724186,
+    "analysis_status": "success (artifact us-analysis-43308724186 지문 일치, data_date 2026-11-11, 이전 거래일 배경 분석으로 사용)",
+    "analysis_artifact": "us-analysis-43308724186",
+    "analysis_digest_match": true,
+    "analysis_data_date": "2026-11-11",
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-12.json"
+  }
+}

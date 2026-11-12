@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-12",
+  "latest_id": "us-close-2026-11-12",
   "reports": [
+    {
+      "id": "us-close-2026-11-12",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-12",
+      "title": "11월 12일 미국장 마감 브리핑",
+      "summary": "엔비디아 CEO 사임에 장중 −14%→−4.3%, 지수 소폭 하락",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "queried_at": "2026-11-13T06:26:47+09:00",
+      "path": "reports/us-close-2026-11-12/"
+    },
     {
       "id": "us-pre-2026-11-12",
       "is_test": false,
