@@ -2,12 +2,12 @@
   "end_date": "2026-11-12",
   "watch": [
     "NVDA",
-    "AMD",
-    "AVGO",
-    "NBIS",
-    "CRWV",
-    "SMCI",
-    "AMAT"
+    "CSCO",
+    "AMAT",
+    "MSFT",
+    "CBRS",
+    "MOD",
+    "AMD"
   ],
-  "requested_at": "2026-11-13T06:17:02+09:00"
+  "requested_at": "2026-11-13T23:01:07+09:00"
 }
