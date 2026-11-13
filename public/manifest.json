@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-13",
+  "latest_id": "us-close-2026-11-13",
   "reports": [
+    {
+      "id": "us-close-2026-11-13",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-13",
+      "title": "11월 13일 미국장 마감 브리핑",
+      "summary": "엔비디아 충격 AI주로 확산, 나스닥 −0.91%·반도체 −3.43%",
+      "as_of": "2026-11-14T06:00:00+09:00",
+      "queried_at": "2026-11-14T06:26:25+09:00",
+      "path": "reports/us-close-2026-11-13/"
+    },
     {
       "id": "us-pre-2026-11-13",
       "is_test": false,
