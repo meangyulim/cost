@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-13",
+  "latest_id": "kr-close-2026-11-13",
   "reports": [
+    {
+      "id": "kr-close-2026-11-13",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-13",
+      "title": "11월 13일 한국장 마감",
+      "summary": "코스피 2% 갭상승 뒤 뒤집혀 5,290 마감, 외국인 5,500억 매도",
+      "as_of": "2026-11-13T15:30:00+09:00",
+      "queried_at": "2026-11-13T15:51:00+09:00",
+      "path": "reports/kr-close-2026-11-13/"
+    },
     {
       "id": "kr-pre-2026-11-13",
       "is_test": false,
