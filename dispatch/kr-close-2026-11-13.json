@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-close-2026-11-13",
+  "status": "queued",
+  "queued_at_kst": "2026-11-13T15:52:38+09:00",
+  "queued_at_utc": "2026-11-13T06:52:38Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-13/",
+  "deployment_commit": "d290f8c3b530a15d2702fd3b901053f4eba5e483",
+  "deployment_run_id": 43381660143,
+  "deployment_conclusion": "success",
+  "kakao_summary": "코스피 +2% 출발 뒤 외국인 5,505억 순매도(잠정)에 5,290.53(−0.98%) 마감, 이틀째 하락. 하이닉스 −3.03%, 한전 실적 충격 −9.79%, KB·신한 4~5%대 강세. 다음: 오늘 밤 美 PPI, 월요일 저가 5,259 지지.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
