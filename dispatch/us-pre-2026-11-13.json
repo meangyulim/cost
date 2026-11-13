@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-13",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-13T23:12:06+09:00",
   "queued_at_utc": "2026-11-13T14:12:06Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-13/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[미국 장전 11/13] 10월 PPI +0.3%로 예상 하회, 선물 +0.4%. 엔비디아 장전 +2%대 반등, 시스코 −3%·세레브라스 +12%·모다인 +33%(삼성 인수 협의 보도). 10년물 5.13%.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-13T23:12:33+09:00",
+  "attempted_at_utc": "2026-11-13T14:12:33Z",
+  "workflow_run_id": 43440522444
 }
