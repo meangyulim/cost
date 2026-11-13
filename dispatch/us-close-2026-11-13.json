@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-13",
+  "status": "queued",
+  "queued_at_kst": "2026-11-14T06:27:34+09:00",
+  "queued_at_utc": "2026-11-13T21:27:34Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-13/",
+  "deployment_commit": "b306cbc5cc13034706f1dd56ab062b33a2310770",
+  "deployment_run_id": 43510753108,
+  "deployment_conclusion": "success",
+  "kakao_summary": "[미국 마감 11/13] 나스닥 −0.91%·S&P500 −0.40%·다우 +0.10%. 엔비디아 충격 AI주로 확산: 반도체지수 −3.43%, AMD −8.75%, 엔비디아 −2.01%. 세레브라스 +11%, 모다인 +28%(삼성 인수 보도). 10년물 5.15%.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
