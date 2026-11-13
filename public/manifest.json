@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-13",
+  "latest_id": "us-pre-2026-11-13",
   "reports": [
+    {
+      "id": "us-pre-2026-11-13",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-13",
+      "title": "11월 13일 미국장 시작 전 브리핑",
+      "summary": "10월 PPI 예상 하회에 선물 +0.4%, 시스코 장전 −3%·세레브라스 +12%",
+      "as_of": "2026-11-13T06:00:00+09:00",
+      "queried_at": "2026-11-13T23:10:49+09:00",
+      "path": "reports/us-pre-2026-11-13/"
+    },
     {
       "id": "kr-close-2026-11-13",
       "is_test": false,
