@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-16",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-16T08:29:45+09:00",
   "queued_at_utc": "2026-11-15T23:29:45Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-16/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43775050648,
   "deployment_conclusion": "success",
   "kakao_summary": "11/16 장전: 美 반도체 −3.43%·AMD −8.75%로 AI주 매도 확산, 야간선물 −0.72%. 美 선물은 소폭 반등, NXT 삼성전자 −0.7%·하이닉스 −0.7%. 18일 엔비디아 실적·앤트로픽 상장 앞 관망.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-16T08:29:55+09:00",
   "attempted_at_utc": "2026-11-15T23:29:55Z",
-  "workflow_run_id": 43775117993
+  "workflow_run_id": 43775117993,
+  "message_length": 185,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-16T08:29:59+09:00",
+  "result_recorded_at_utc": "2026-11-15T23:29:59Z"
 }
