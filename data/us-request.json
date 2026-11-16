@@ -2,12 +2,12 @@
   "end_date": "2026-11-13",
   "watch": [
     "NVDA",
-    "AMD",
-    "AVGO",
+    "INTC",
     "MU",
-    "CBRS",
-    "MOD",
-    "CSCO"
+    "AMD",
+    "DELL",
+    "JNJ",
+    "TTWO"
   ],
-  "requested_at": "2026-11-14T06:16:50+09:00"
+  "requested_at": "2026-11-16T23:00:45+09:00"
 }
