@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-13",
+  "end_date": "2026-11-16",
   "watch": [
     "NVDA",
     "INTC",
     "MU",
-    "AMD",
     "DELL",
-    "JNJ",
-    "TTWO"
+    "TTWO",
+    "AMD",
+    "SNDK"
   ],
-  "requested_at": "2026-11-16T23:00:45+09:00"
+  "requested_at": "2026-11-17T06:17:13+09:00"
 }
