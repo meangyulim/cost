@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-16",
+  "status": "queued",
+  "queued_at_kst": "2026-11-17T06:28:01+09:00",
+  "queued_at_utc": "2026-11-16T21:28:01Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-16/",
+  "deployment_commit": "9c068123bfb5dd51f7f60c6fbf2529463dc9c9b2",
+  "deployment_run_id": 43960170473,
+  "deployment_conclusion": "success",
+  "kakao_summary": "[미국 마감 11/16] 나스닥 −2.49%(3일 연속↓)·S&P500 −1.92%·다우 −1.41%. 반도체지수 −5.28%로 금요일 저가 이탈, 마이크론 −7.62%·엔비디아 −4.12%. 엔비디아 실적 11/18 06:20 KST.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
