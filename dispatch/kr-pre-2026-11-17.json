@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-17",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-17T08:27:53+09:00",
   "queued_at_utc": "2026-11-16T23:27:53Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-17/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[장전 11/17] 美 반도체 3일간 −9%, 야간선물 −1.76%·NXT 삼성전자 −2.90%·하이닉스 −2.50%. 코스피 16일 저가 5,069.83 지지와 외국인 매도 축소가 관건, 18일 새벽 엔비디아 실적 대기.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-17T08:28:04+09:00",
+  "attempted_at_utc": "2026-11-16T23:28:04Z",
+  "workflow_run_id": 43979505556
 }
