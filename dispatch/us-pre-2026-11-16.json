@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-16",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-16T23:11:30+09:00",
   "queued_at_utc": "2026-11-16T14:11:30Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-16/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 43882981653,
   "deployment_conclusion": "success",
   "kakao_summary": "미국 장전: 나스닥100 선물 −1.4%, S&P500 −0.6%. 엔비디아 장전 −3%대(황 복귀 검토 보도), AMD·마이크론·인텔 −5% 안팎. 엔비디아 실적 11/18 06:20 KST. J&J·테이크투는 강세.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-16T23:11:42+09:00",
   "attempted_at_utc": "2026-11-16T14:11:42Z",
-  "workflow_run_id": 43883156983
+  "workflow_run_id": 43883156983,
+  "message_length": 183,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-16T23:11:46+09:00",
+  "result_recorded_at_utc": "2026-11-16T14:11:46Z"
 }
