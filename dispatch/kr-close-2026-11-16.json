@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-16",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-16T15:52:33+09:00",
   "queued_at_utc": "2026-11-16T06:52:33Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-16/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 −3.59% 5,100.50, 코스닥 −4.86%. 외국인 1조3,769억 순매도(잠정), 하이닉스 −7.89%·삼성 −4.47%. 엔비디아 경영 불확실성·D램 소송 우려. 18일 엔비디아 실적 확인.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-16T15:52:47+09:00",
+  "attempted_at_utc": "2026-11-16T06:52:47Z",
+  "workflow_run_id": 43819803450
 }
