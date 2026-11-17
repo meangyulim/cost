@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-17",
+  "latest_id": "us-close-2026-11-17",
   "reports": [
+    {
+      "id": "us-close-2026-11-17",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-17",
+      "title": "11월 17일 미국장 마감 브리핑",
+      "summary": "엔비디아 실적 직전 다우 −848p·S&P500 −1.03%, 반도체는 장중 급락 뒤 +0.34%",
+      "as_of": "2026-11-18T06:00:00+09:00",
+      "queried_at": "2026-11-18T06:26:00+09:00",
+      "path": "reports/us-close-2026-11-17/"
+    },
     {
       "id": "us-pre-2026-11-17",
       "is_test": false,
