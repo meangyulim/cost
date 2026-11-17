@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-17",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-18T06:26:45+09:00",
   "queued_at_utc": "2026-11-17T21:26:45Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-17/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[미국 마감 11/17] 다우 −1.64%·S&P500 −1.03%(7월 말 이후 최저)·나스닥 −0.74%. 반도체지수 장중 −3.28%→+0.34% 반등, 세일즈포스 −9.45%. 엔비디아 −0.44%, 실적은 미반영.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-18T06:26:56+09:00",
+  "attempted_at_utc": "2026-11-17T21:26:56Z",
+  "workflow_run_id": 44179892455
 }
