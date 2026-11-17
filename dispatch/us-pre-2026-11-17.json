@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-17",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-17T23:11:48+09:00",
   "queued_at_utc": "2026-11-17T14:11:48Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-17/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 44100274469,
   "deployment_conclusion": "success",
   "kakao_summary": "미국 장전: 엔비디아 실적 당일 나스닥100 선물 +0.2%·다우 −0.8%. 반도체 장전 반등, 홈디포·디즈니는 실적 호조에도 약세. 엔비디아 실적 11/18 06:20 KST 무렵.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-17T23:11:59+09:00",
   "attempted_at_utc": "2026-11-17T14:11:59Z",
-  "workflow_run_id": 44100466913
+  "workflow_run_id": 44100466913,
+  "message_length": 164,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-17T23:12:03+09:00",
+  "result_recorded_at_utc": "2026-11-17T14:12:03Z"
 }
