@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-close-2026-11-17",
+  "status": "queued",
+  "queued_at_kst": "2026-11-17T15:52:11+09:00",
+  "queued_at_utc": "2026-11-17T06:52:11Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-17/",
+  "deployment_commit": "41655c745fe7a1c100ea109b741f24679419ae4e",
+  "deployment_run_id": 44034276283,
+  "deployment_conclusion": "success",
+  "kakao_summary": "코스피 4,968.48(−2.59%), 9개월여 만에 5,000선 아래 마감. 외국인 1조4,459억 순매도(잠정), 하이닉스 오전 반등 뒤 −1.96%·삼성전자 −3.30%. 18일 엔비디아 실적이 분기점.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
