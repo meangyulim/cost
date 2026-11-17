@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-17",
+  "latest_id": "us-pre-2026-11-17",
   "reports": [
+    {
+      "id": "us-pre-2026-11-17",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-17",
+      "title": "11월 17일 미국장 시작 전 브리핑",
+      "summary": "엔비디아 실적 당일 선물 엇갈림: 나스닥100 +0.2%·다우 −0.8%, 반도체 장전 반등",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "queried_at": "2026-11-17T23:10:35+09:00",
+      "path": "reports/us-pre-2026-11-17/"
+    },
     {
       "id": "kr-close-2026-11-17",
       "is_test": false,

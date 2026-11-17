@@ -1,0 +1,913 @@
+{
+  "id": "us-pre-2026-11-17",
+  "title": "11월 17일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-17 09:30~16:00 EST 정규장(2026-11-17 23:30~11-18 06:00 KST)",
+  "market_date": "2026-11-17",
+  "session": "pre",
+  "as_of": "2026-11-17T06:00:00+09:00",
+  "queried_at": "2026-11-17T23:10:35+09:00",
+  "is_test": false,
+  "summary": "엔비디아 실적 당일 선물 엇갈림: 나스닥100 +0.2%·다우 −0.8%, 반도체 장전 반등",
+  "summary_detail": "11/16 정규장은 S&P500 7,416.59(−1.92%), 나스닥 24,509.76(−2.49%), 다우 51,608.17(−1.41%), 필라델피아 반도체 9,610.65(−5.28%)였다. Yahoo 08:53 EST(22:53 KST) 선물은 나스닥100 +0.21%, S&P500 −0.20%, 다우 −0.84%다. 장전 엔비디아 157.80USD(+1.06%), AMD +2.47%, 마이크론 +1.94%로 반도체가 되돌고, 홈디포(−2.89%)·디즈니(−2.58%)는 실적 호조에도 약세다. 10월 소매판매는 +0.2%로 예상 부합. 엔비디아 실적은 11/18 06:20 KST 무렵.",
+  "interpretation": "엔비디아 실적(11/17 16:20 EST = 11/18 06:20 KST 무렵)을 앞두고 이틀간 급락한 반도체가 장전에 일부 되돌고 있지만, 다우 선물은 홈디포·유나이티드헬스·디즈니 약세로 −0.8%다. 기술주 투매가 멈춘 것인지, 매도가 다른 업종으로 옮겨 간 것인지는 개장 뒤 확인해야 한다. 금리(10년물 5.14%)와 중국 규제 부담은 그대로다. 장전 값은 얇은 체결이며 개장 뒤 크게 바뀔 수 있다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,416.59",
+      "unit": "pt",
+      "delta": "−145.08",
+      "percent": "−1.92",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 7,561.67 기준",
+      "range": {
+        "open": "7,513.98",
+        "high": "7,515.60",
+        "low": "7,400.15",
+        "prev_close": "7,561.67"
+      }
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "24,509.76",
+      "unit": "pt",
+      "delta": "−626.51",
+      "percent": "−2.49",
+      "direction": "down",
+      "source": "yf_ixic",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 25,136.27 기준",
+      "range": {
+        "open": "24,853.35",
+        "high": "24,882.04",
+        "low": "24,460.28",
+        "prev_close": "25,136.27"
+      }
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "51,608.17",
+      "unit": "pt",
+      "delta": "−739.38",
+      "percent": "−1.41",
+      "direction": "down",
+      "source": "yf_dji",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 52,347.55 기준",
+      "range": {
+        "open": "52,267.06",
+        "high": "52,324.00",
+        "low": "51,511.56",
+        "prev_close": "52,347.55"
+      }
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,742.94",
+      "unit": "pt",
+      "delta": "−47.55",
+      "percent": "−1.70",
+      "direction": "down",
+      "source": "yf_rut",
+      "additional_sources": [],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 2,790.49 기준",
+      "range": {
+        "open": "2,777.41",
+        "high": "2,777.41",
+        "low": "2,736.47",
+        "prev_close": "2,790.49"
+      }
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "9,610.65",
+      "unit": "pt",
+      "delta": "−535.67",
+      "percent": "−5.28",
+      "direction": "down",
+      "source": "yf_sox",
+      "additional_sources": [],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 10,146.32 기준",
+      "range": {
+        "open": "9,685.03",
+        "high": "9,818.76",
+        "low": "9,587.11",
+        "prev_close": "10,146.32"
+      }
+    },
+    {
+      "name": "VIX",
+      "value": "22.91",
+      "unit": "pt",
+      "delta": "+3.61",
+      "percent": "+18.70",
+      "direction": "up",
+      "source": "yf_vix",
+      "additional_sources": [],
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 19.30 기준 · Yahoo 일봉 확정값(전 회차 잠정 23.03과 다름) · 11/17 08:48 EST(22:48 KST) 23.11",
+      "range": {
+        "open": "20.00",
+        "high": "24.52",
+        "low": "19.84",
+        "prev_close": "19.30"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "title": "엔비디아 실적 D-day: 기준선 1,080억USD",
+      "fact": "엔비디아는 3분기(2027 회계연도) 실적을 2026-11-17 13:20 PT 무렵(11/18 06:20 KST) 발표하고 14:00 PT(11/18 07:00 KST)에 콘퍼런스콜을 연다. 콜레트 크레스 CFO가 임시 CEO다(회사 발표). 회사 가이던스는 매출 1,080억USD±2%, Yahoo(Barchart, 10/28 게재)가 전한 조정 EPS 컨센서스는 2.49USD, 회사가 제시한 다음 회계연도 매출 성장은 약 70%다. CNBC(08:58 EST 갱신)는 주가가 이번 달 약 24% 내려 2022년 4월(−32%) 이후 최대 월간 하락 페이스이고, 모건스탠리가 엔비디아를 분기 말 '가장 덜 보유된 대형 기술주'(비중 차이 −2.75%, 사상 최대)로 꼽았다고 전했다. 장전 157.80USD(+1.06%, 09:03 EST).",
+      "source": "nvda_pr",
+      "additional_sources": [
+        "cnbc_live",
+        "yahoo_preview",
+        "yahoo_fut",
+        "yf_nvda"
+      ]
+    },
+    {
+      "title": "선물 엇갈림: 나스닥100 +0.2%, 다우 −0.8%",
+      "fact": "Yahoo 선물(08:53 EST = 22:53 KST, 약 15분 지연 가능): 나스닥100(NQ) 27,341.75(+57.50, +0.21%), S&P500(ES) 7,424.25(−14.75, −0.20%), 다우(YM) 51,237(−433, −0.84%), 러셀2000(RTY) 2,736.10(−0.56%), 기준은 Yahoo 표시 직전 정산값. CNBC 08:58 EST 갱신은 다우 선물 −421pt(−0.8%), S&P500 −0.1%, 나스닥100 +0.4%. 장전 마이크론 +1.94%, AMD +2.47%로 반도체는 반등하지만 다우 구성종목 홈디포 −2.89%, 유나이티드헬스 399.19USD(−3.11%, 09:01 EST, 하락 이유 미확인), 디즈니 −2.58%가 다우 선물을 누른다. 전날 정규장은 S&P500 −1.92%, 나스닥 −2.49%, 다우 −1.41%, 반도체지수 −5.28%.",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yf_nq",
+        "yf_es",
+        "yf_ym",
+        "yf_unh",
+        "yf_hd",
+        "yf_dis",
+        "yf_mu",
+        "yf_amd"
+      ]
+    },
+    {
+      "title": "10월 소매판매 +0.2%, 수입물가는 예상 상회",
+      "fact": "미 인구조사국 속보치(2026-11-17 발표, 08:30 EST = 22:30 KST): 10월 소매·음식서비스 판매 7,482억USD, 전월 대비 +0.2%(±0.4%, 통계적으로 유의하지 않음), 전년 대비 +6.8%. 9월 +0.8%는 수정 없음. CNBC는 자동차·휘발유 제외 +0.6%(예상 +0.4%)로 예상 부합~상회, 수입물가 +1.1%(예상 +0.7%)를 전했다. 10년물은 Yahoo 기준 5.141%(08:48 EST, 전날 5.121%). Reuters(Yahoo, 04:13 CST)는 최근 물가 지표로 12월 금리 인상 기대가 커졌다고 전했다. 원·달러 글로벌 호가 1,337.89원(09:03 EST, 서울 종가 아님), WTI 선물 87.01USD(+1.29, +1.50%, 08:53 EST, 11/16 정산 85.72USD 대비)이며 Reuters는 금요일 이후 호르무즈 해협 유조선 공격이 최소 4건이라고 전했다.",
+      "source": "census_retail",
+      "additional_sources": [
+        "cnbc_live",
+        "yf_tnx",
+        "yahoo_fut",
+        "yf_krw",
+        "yf_cl"
+      ]
+    },
+    {
+      "title": "홈디포: 실적은 넘었지만 CEO 교체·가이던스 조정",
+      "fact": "홈디포 3분기 매출 434억USD(+4.9%), 비교매출 +2.2%, 조정 EPS 3.86USD(전년 3.74USD)(회사 8-K). CNBC는 LSEG 예상 EPS 3.84USD·매출 428.0억USD를 넘었다고 전했다. 연간 전망은 매출 약 +4.5%, 비교매출 약 +1.4%(이전 0~+2%), 조정 EPS 약 +2%(이전 0~+4%)로 좁혔다(CNBC). CFO 리처드 맥페일이 11/23(월) CEO에 오르고 테드 데커는 이사회 의장으로 남는다(TipRanks). 장전 337.47USD(−2.89%, 09:01 EST).",
+      "source": "hd_8k",
+      "additional_sources": [
+        "cnbc_hd",
+        "tipranks_hd",
+        "yf_hd"
+      ]
+    },
+    {
+      "title": "디즈니: 이익 급증에도 장전 하락",
+      "fact": "디즈니 4분기(10/3 마감) 매출 259억USD(+16%), 조정 EPS 1.77USD(전년 1.11USD), 체험(테마파크) 영업이익 22.5억USD(+20%). 2027 회계연도 조정 EPS 두 자릿수 성장(53주차 영향 제외) 전망과 약 90억USD 자사주 매입 목표, 2029년까지 연 약 30억USD 비용 절감 계획을 냈다(회사 8-K, 53번째 주 효과 포함). CNBC는 초반 상승을 반납하고 약세라고 전했고, Yahoo 장전 값은 115.64USD(−2.58%, 09:02 EST)다. 시장 예상치는 이번 실행에서 원문으로 확인하지 못했다.",
+      "source": "dis_8k",
+      "additional_sources": [
+        "cnbc_live",
+        "yf_dis"
+      ]
+    },
+    {
+      "title": "중국 칩 규제·바이두 실적, 아시아 급락",
+      "fact": "미 상무부는 중국 기업이 제3국 데이터센터로 첨단 AI 컴퓨팅을 이용하는 것을 막는 제한을 추가하고 있으며, 싱가포르 클라우드 업체 메가스피드 조사를 2024년부터 진행했다고 밝혔다(Reuters, Yahoo). 바이두는 3분기 매출이 전년 대비 1% 줄어 홍콩 주가 −6.25%(CNBC), 미국 ADR 장전 72.75USD(−1.61%). 아시아는 코스피 −2.59%, 닛케이 −1.34%, ASX200 −1.79%로 마감했다(CNBC).",
+      "source": "yahoo_fut",
+      "additional_sources": [
+        "cnbc_live",
+        "yf_bidu"
+      ]
+    },
+    {
+      "title": "11/16 기준 배경: 반도체 20일 −15.6%, 방어 업종 강세",
+      "fact": "11/16 일별 분석(ETF 대용치, 분할 보정 가격수익률): 반도체 ETF SOXX 20거래일 −15.5938%(SPY 대비 −12.1325%p, 20·60일선 아래 하락 추세 조건), 정보기술 XLK −11.4003%(−7.939%p)인 반면 헬스케어 XLV +10.424%p, 유틸리티 XLU +10.1344%p, 필수소비재 XLP +9.6418%p로 방어 업종이 앞섰다. SPY 20일 −3.4613%(거래량 직전 5일 평균의 1.6773배), QQQ −7.8804%로 하락 추세 조건. 전체 증권 시장 폭은 상승 2,340·하락 9,809(비교 가능 12,389개 중 상승 18.89%, OTC 제외·ETF 등 포함, 보통주 비율 아님). 관찰 종목 20거래일: 엔비디아 −28.0759%, 인텔 −39.7262%, 마이크론 −20.5415%, 반면 홈디포 +12.1434%, 디즈니 +8.3128%(상승 추세 조건).",
+      "source": "massive_run",
+      "additional_sources": []
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "156.14",
+      "currency": "USD",
+      "delta": "−6.71",
+      "percent": "−4.12",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "cnbc_live",
+        "nvda_pr",
+        "yahoo_preview",
+        "yahoo_fut"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 162.85USD 기준 · 2026-11-17 09:03 EST(23:03 KST) 장전 157.80USD(+1.66, +1.06%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "오늘 장 마감 뒤 첫 '임시 CEO 체제' 실적. 11월 들어 약 −24%로 기대가 크게 낮아진 상태에서 장전 소폭 반등.",
+      "watch": "11/18 06:20 KST 무렵 매출이 가이던스 1,080억USD(±2%)를 넘는지, 4분기 가이던스와 내년 약 70% 성장 목표가 유지되는지 본다. 11/12 저가 148.80USD가 아래쪽 기준.",
+      "reason_sources": [
+        "nvda_pr",
+        "cnbc_live",
+        "yahoo_preview"
+      ],
+      "range": {
+        "open": "159.02",
+        "high": "163.20",
+        "low": "155.01",
+        "prev_close": "162.85"
+      }
+    },
+    {
+      "name": "홈디포",
+      "ticker": "HD",
+      "price": "347.51",
+      "currency": "USD",
+      "delta": "−1.18",
+      "percent": "−0.34",
+      "direction": "down",
+      "source": "yf_hd",
+      "additional_sources": [
+        "hd_8k",
+        "cnbc_hd",
+        "tipranks_hd",
+        "cnbc_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 348.69USD 기준 · 2026-11-17 09:01 EST(23:01 KST) 장전 337.47USD(−10.04, −2.89%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "3분기 매출·EPS는 예상을 넘었지만 연간 EPS 증가율을 약 2%로 좁히고 CEO 교체를 발표해 장전 −2.89%.",
+      "watch": "정규장에서 낙폭이 줄어드는지, 11/16 저가 346.13USD를 회복하는지 본다. 신임 CEO 맥페일 취임은 11/23(월).",
+      "reason_sources": [
+        "hd_8k",
+        "cnbc_hd",
+        "tipranks_hd"
+      ],
+      "range": {
+        "open": "348.52",
+        "high": "349.73",
+        "low": "346.13",
+        "prev_close": "348.69"
+      }
+    },
+    {
+      "name": "디즈니",
+      "ticker": "DIS",
+      "price": "118.70",
+      "currency": "USD",
+      "delta": "−0.27",
+      "percent": "−0.23",
+      "direction": "down",
+      "source": "yf_dis",
+      "additional_sources": [
+        "dis_8k",
+        "cnbc_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 118.97USD 기준 · 2026-11-17 09:02 EST(23:02 KST) 장전 115.64USD(−3.06, −2.58%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "4분기 매출 +16%·조정 EPS 1.77USD로 전년보다 크게 늘었지만 장전 초반 상승을 반납하고 −2.58%.",
+      "watch": "개장 뒤에도 하락이 이어지는지, 2027년 '두 자릿수 EPS 성장'·30억USD 비용 절감 계획이 어떻게 받아들여지는지 본다.",
+      "reason_sources": [
+        "dis_8k",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "119.60",
+        "high": "119.60",
+        "low": "117.78",
+        "prev_close": "118.97"
+      }
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "719.02",
+      "currency": "USD",
+      "delta": "−59.29",
+      "percent": "−7.62",
+      "direction": "down",
+      "source": "yf_mu",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 778.31USD 기준 · 2026-11-17 09:03 EST(23:03 KST) 장전 732.99USD(+13.97, +1.94%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "어제 −7.62% 급락 뒤 장전 +1.94% 반등. 엔비디아 실적이 메모리 수요 기대를 다시 가를 자리.",
+      "watch": "어제 저가 716.38USD 위에서 버티는지, 엔비디아 실적 뒤 시간외 반응을 본다.",
+      "reason_sources": [
+        "yf_mu",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "734.16",
+        "high": "739.12",
+        "low": "716.38",
+        "prev_close": "778.31"
+      }
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "504.28",
+      "currency": "USD",
+      "delta": "−29.78",
+      "percent": "−5.58",
+      "direction": "down",
+      "source": "yf_amd",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 534.06USD 기준 · 2026-11-17 09:03 EST(23:03 KST) 장전 516.75USD(+12.47, +2.47%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "이틀 동안 −14%대 하락 뒤 장전 +2.47% 반등.",
+      "watch": "어제 저가 501.30USD 지지와 장전 반등이 정규장에서 유지되는지 본다.",
+      "reason_sources": [
+        "yf_amd"
+      ],
+      "range": {
+        "open": "503.45",
+        "high": "526.20",
+        "low": "501.30",
+        "prev_close": "534.06"
+      }
+    },
+    {
+      "name": "인텔",
+      "ticker": "INTC",
+      "price": "55.47",
+      "currency": "USD",
+      "delta": "−4.19",
+      "percent": "−7.02",
+      "direction": "down",
+      "source": "yf_intc",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 59.66USD 기준 · 2026-11-17 09:02 EST(23:02 KST) 장전 55.20USD(−0.27, −0.49%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "다른 반도체가 장전 반등하는데 인텔은 −0.49%로 약하다.",
+      "watch": "어제 저가 54.89USD 아래로 내려가는지 본다.",
+      "reason_sources": [
+        "yf_intc"
+      ],
+      "range": {
+        "open": "56.71",
+        "high": "57.20",
+        "low": "54.89",
+        "prev_close": "59.66"
+      }
+    },
+    {
+      "name": "바이두(ADR)",
+      "ticker": "BIDU",
+      "price": "73.94",
+      "currency": "USD",
+      "delta": "−4.20",
+      "percent": "−5.37",
+      "direction": "down",
+      "source": "yf_bidu",
+      "additional_sources": [
+        "cnbc_live",
+        "yahoo_fut"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-17T06:00:00+09:00",
+      "session": "2026-11-16 정규장 종가(16:00 EST = 11/17 06:00 KST) · 11/13 종가 78.14USD 기준 · 2026-11-17 09:00 EST(23:00 KST) 장전 72.75USD(−1.19, −1.61%)(11/16 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "3분기 매출이 전년 대비 1% 줄어 홍콩 주가 −6.25%, 미국 ADR도 장전 −1.61%.",
+      "watch": "중국 AI 칩 원격 이용 차단 규제와 함께 중국 기술주 심리를 본다.",
+      "reason_sources": [
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "77.91",
+        "high": "78.70",
+        "low": "73.63",
+        "prev_close": "78.14"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "5.141",
+    "unit": "%",
+    "delta": "+2.0bp",
+    "direction": "up",
+    "source": "yf_tnx",
+    "additional_sources": [
+      "cnbc_live"
+    ],
+    "as_of": "2026-11-17T22:48:00+09:00",
+    "session": "2026-11-17 08:48 EST(22:48 KST) Yahoo ^TNX 장중 값 · 11/16 값 5.121% 대비 계산 · CNBC 아침 기사는 5.118%(시각 다름) · 확정값 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-17 23:30 KST",
+      "title": "정규장 개장(09:30 EST)",
+      "detail": "나스닥100 +0.2%·다우 −0.8%로 갈린 선물이 개장 뒤 어느 쪽으로 모이는지, 반도체 장전 반등이 유지되는지 본다."
+    },
+    {
+      "label": "2026-11-18 06:00 KST",
+      "title": "정규장 마감(16:00 EST)",
+      "detail": "실적 직전 마감에서 엔비디아·반도체지수가 어제 저가(155.01USD·9,587.11) 위에 있는지 본다."
+    },
+    {
+      "label": "2026-11-18 06:20 KST 무렵",
+      "title": "엔비디아 3분기 실적(13:20 PT)",
+      "detail": "매출 1,080억USD±2% 가이던스·EPS 컨센서스 2.49USD 대비 결과, 4분기 가이던스, 70% 성장 목표 유지, 후임 CEO 언급. 콜은 07:00 KST."
+    },
+    {
+      "label": "확인 순서: 다음 한국장",
+      "title": "삼성전자·SK하이닉스 반응",
+      "detail": "엔비디아 시간외 반응이 한국 반도체 개장 초와 종가에 어떻게 반영되는지 나눠 본다. 한국 거래일은 KRX 달력으로 별도 확인한다."
+    },
+    {
+      "label": "확인 순서: 11/18~11/19(뉴욕)",
+      "title": "앤트로픽 상장",
+      "detail": "보도 기준 수요일 공모가 결정·목요일 첫 거래 예정(회사 확정 일정·시각 미확인). AI 심리 회복 여부를 본다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "market_date": "2026-11-17",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-17T23:00:40+09:00",
+    "note": "NYSE 공식 페이지를 이번 실행에서 WebFetch로 직접 열어 2026 휴장(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/17(화)이 없음을 확인했다. 정상 거래일·정규장 09:30~16:00 ET. 11/1 서머타임 종료 뒤 EST(UTC−5)이므로 정규장 = 2026-11-17 23:30~11-18 06:00 KST. 전 거래일 11/16(월)도 정상 거래일."
+  },
+  "calculation_notes": "지수·종목 종가는 Yahoo Finance 차트 API 일봉(2026-11-17 23:00~23:03 KST 조회)의 11/16·11/13 정규장 종가로 계산했다. S&P 500 7,416.59−7,561.67=−145.08(−1.92%); 나스닥 24,509.76−25,136.27=−626.51(−2.49%); 다우 51,608.17−52,347.55=−739.38(−1.41%); 러셀 2,742.94−2,790.49=−47.55(−1.70%); 반도체 9,610.65−10,146.32=−535.67(−5.28%); VIX 22.91−19.30=+3.61(+18.70%). 종목 11/16 변동: NVDA 156.14−162.85=−6.71(−4.12%); HD 347.51−348.69=−1.18(−0.34%); DIS 118.70−118.97=−0.27(−0.23%); MU 719.02−778.31=−59.29(−7.62%); AMD 504.28−534.06=−29.78(−5.58%); INTC 55.47−59.66=−4.19(−7.02%); BIDU 73.94−78.14=−4.20(−5.37%). 장전(1분봉 확장시간 마지막 체결)−11/16 종가: NVDA 157.80−156.14=+1.66(+1.06%, 09:03 EST); HD 337.47−347.51=−10.04(−2.89%, 09:01); DIS 115.64−118.70=−3.06(−2.58%, 09:02); MU 732.99−719.02=+13.97(+1.94%, 09:03); AMD 516.75−504.28=+12.47(+2.47%, 09:03); INTC 55.20−55.47=−0.27(−0.49%, 09:02); BIDU 72.75−73.94=−1.19(−1.61%, 09:00); UNH 399.19−412.02=−12.83(−3.11%, 09:01). 선물 08:53 EST − Yahoo 직전 정산값: ES 7,424.25−7,439.00=−14.75(−0.20%); NQ 27,341.75−27,284.25=+57.50(+0.21%); YM 51,237−51,670=−433(−0.84%); RTY 2,736.10−2,751.40=−15.30(−0.56%). WTI 87.01−85.72=+1.29(+1.50%); 10년물 5.141−5.121=+0.020%p; 원·달러 1,337.89−1,335.82=+2.07. VIX 11/16 일봉 확정값 22.91은 전 회차(us-close-2026-11-16)의 16:04 EST 잠정값 23.03과 다르다. 장전 값은 지연·체결 희소 가능. 미국 일별 분석(run 44098561276, data_date 2026-11-16, queried_at 2026-11-17 23:09:31 KST): SOXX 20일 −15.5938%(SPY 대비 −12.1325%p, 5일 −3.7749%); XLK 20일 −11.4003%(−7.939%p); XLV +10.424%p(20일 +6.9627%); XLU +10.1344%p; XLRE +9.6528%p; XLP +9.6418%p; XLF +9.1278%p; SPY 20일 −3.4613%(5일 −1.6926%, 거래량비 1.6773); QQQ 20일 −7.8804%(하락 추세 조건); DIA 20일 −0.6244%; IWM 20일 +0.6119%; 시장 폭 상승 2,340/쌍 12,389 = 18.89%(하락 9,809, 보합 240, OTC 제외·ETF 등 포함). 관찰 종목 20일: NVDA −28.0759%(20일선 195.641), HD +12.1434%, MU −20.5415%, AMD −6.2764%, INTC −39.7262%, DIS +8.3128%, BIDU −7.3201%. 정규장 종가·전일 종가 7개 모두 Yahoo와 일치. 확률·백테스트 없음.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행(2026-11-17 23:00 KST 무렵) WebFetch로 원문 열람. 11/17 휴장·조기폐장 아님."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11/17 장전 라이브",
+      "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+      "note": "이번 실행 열람(08:58 EST 갱신본): 다우 선물 −421pt(−0.8%, 제목은 200pt), S&P500 −0.1%, 나스닥100 +0.4%. 홈디포 약 −2%, 디즈니 −1%(초반 상승 반납), 엔비디아 05:05 EST −0.28%. 소매판매 +0.2%(7,482억USD), 자동차·휘발유 제외 +0.6%(예상 0.4%), 수입물가 +1.1%(예상 0.7%), 10년물 5.118%(아침). 엔비디아 이번 달 약 −24%, 모건스탠리 언더웨이트 갭 −2.75% 사상 최대. 코스피 −2.59%, 닛케이 −1.34%, ASX −1.79%, 바이두 홍콩 −6.25%(3분기 매출 −1%). WTI 85.72(−0.69%, 아침 시각)."
+    },
+    {
+      "id": "yahoo_fut",
+      "label": "Reuters(Yahoo) · 엔비디아 실적 앞 선물 하락",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-focus-us-stock-101304049.html",
+      "note": "이번 실행 열람: 2026-11-17 04:13 CST 게재. 08:50 GMT 나스닥100 −0.1%, S&P500 −0.3%, 다우 −225pt(−0.4%). 70% 성장 목표, 크레스 임시 CEO, 상무부 제3국 데이터센터 경유 제한·메가스피드 조사, 앤트로픽 수요일 가격 결정·목요일 거래(보도), 12월 인상 기대, 호르무즈 유조선 공격."
+    },
+    {
+      "id": "nvda_pr",
+      "label": "NVIDIA · CEO 교체 발표",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "note": "이번 실행 열람: 3분기 실적 11/17 13:20 PT 무렵, 콜 14:00 PT, 크레스 임시 CEO 겸 CFO."
+    },
+    {
+      "id": "yahoo_preview",
+      "label": "Barchart(Yahoo) · 엔비디아 실적 기대",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-nvidias-next-quarterly-earnings-151739351.html",
+      "note": "이번 실행 열람: 2026-10-28 게재. 조정 EPS 컨센서스 2.49USD(전년 1.24USD), 가이던스 1,080억USD±2%, 2028 회계연도 약 70% 성장, 4분기 총이익률 71~72% 우려."
+    },
+    {
+      "id": "census_retail",
+      "label": "미 인구조사국 · 10월 소매판매 속보",
+      "url": "https://www.census.gov/retail/sales.html",
+      "note": "이번 실행 열람: 2026-11-17 발표. 7,482억USD, 전월 +0.2%(±0.4%), 전년 +6.8%(±0.5%), 9월 +0.8% 수정 없음."
+    },
+    {
+      "id": "hd_8k",
+      "label": "홈디포 · 3분기 실적(8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000184/hd_exhibit991x11012026.htm",
+      "note": "이번 실행 열람: 매출 434억USD(+4.9%), 비교매출 +2.2%, 희석 EPS 3.72USD, 조정 3.86USD(전년 3.74). 연간 매출 약 +4.5%, 비교매출 약 +1.4%, 조정 영업이익률 약 12.8%, 조정 EPS 약 +2.0%(2025년 14.69USD 기준)."
+    },
+    {
+      "id": "cnbc_hd",
+      "label": "CNBC · 홈디포 CEO 교체·실적",
+      "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+      "note": "이번 실행 열람: 05:46 EST 게재. LSEG 예상 EPS 3.84USD·매출 428.0억USD, StreetAccount 비교매출 1.8%. 이전 전망 비교매출 0~+2%, EPS 0~+4%."
+    },
+    {
+      "id": "tipranks_hd",
+      "label": "TipRanks · 홈디포 장전 하락",
+      "url": "https://www.tipranks.com/news/home-depot-stock-hd-falls-despite-q3-beat-amid-u-s-housing-pressure-names-new-ceo",
+      "note": "이번 실행 열람: 11:52 UTC. 장전 2% 넘게 하락 약 339USD, 맥페일 11/23(월) CEO."
+    },
+    {
+      "id": "dis_8k",
+      "label": "디즈니 · 4분기 실적(8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001744489/000174448926000065/fy2026_q4xerxex991.htm",
+      "note": "이번 실행 열람: 2026-11-17. 매출 259억USD(+16%), 조정 EPS 1.77USD(전년 1.11), 체험 22.5억USD(+20%), 2027 조정 EPS 두 자릿수 성장(53주차 제외), 자사주 약 90억USD, 2029년까지 연 약 30억USD 비용 절감."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo · 나스닥 종합",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo · 다우존스",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_sox",
+      "label": "Yahoo · 필라델피아 반도체",
+      "url": "https://finance.yahoo.com/quote/%5ESOX/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo · 10년물(^TNX)",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_krw",
+      "label": "Yahoo · USD/KRW",
+      "url": "https://finance.yahoo.com/quote/KRW=X/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_cl",
+      "label": "Yahoo · WTI(CL=F)",
+      "url": "https://finance.yahoo.com/quote/CL=F/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_es",
+      "label": "Yahoo · S&P500 선물(ES=F)",
+      "url": "https://finance.yahoo.com/quote/ES=F/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_nq",
+      "label": "Yahoo · 나스닥100 선물(NQ=F)",
+      "url": "https://finance.yahoo.com/quote/NQ=F/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_ym",
+      "label": "Yahoo · 다우 선물(YM=F)",
+      "url": "https://finance.yahoo.com/quote/YM=F/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo · NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_hd",
+      "label": "Yahoo · HD",
+      "url": "https://finance.yahoo.com/quote/HD/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_dis",
+      "label": "Yahoo · DIS",
+      "url": "https://finance.yahoo.com/quote/DIS/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_mu",
+      "label": "Yahoo · MU",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_intc",
+      "label": "Yahoo · INTC",
+      "url": "https://finance.yahoo.com/quote/INTC/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_bidu",
+      "label": "Yahoo · BIDU",
+      "url": "https://finance.yahoo.com/quote/BIDU/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "yf_unh",
+      "label": "Yahoo · UNH",
+      "url": "https://finance.yahoo.com/quote/UNH/",
+      "note": "Yahoo Finance 차트 API(2026-11-17 23:00~23:03 KST 조회) 일봉 11/13·11/16 종가와 1분봉 확장시간·선물 마지막 값."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/44098561276",
+      "show_public": false,
+      "note": "요청 커밋 b18f0ae3f1e7f0f791c5354b7dfcd3e4bee0157a(end_date 2026-11-16, watch NVDA·HD·MU·AMD·INTC·DIS·BIDU)의 Collect US briefing inputs 실행 성공(run 44098561276). artifact us-analysis-44098561276를 GitHub MCP 임시 링크로 받아 sha256 지문이 digest와 일치함을 확인. requested_end_date·data_date 2026-11-16, queried_at 2026-11-17T23:09:31+09:00, 39개 요청. 관찰 종목 7개의 11/16 정규장 종가·전일 종가가 Yahoo와 일치. 이전 거래일 배경으로만 사용, 확률 없음(forecast_probability null, not_validated)."
+    }
+  ],
+  "reading": {
+    "headline": "엔비디아 실적 당일, 선물은 엇갈림",
+    "summary_points": [
+      "나스닥100 선물 +0.2%, 다우 선물 −0.8%로 갈렸다.",
+      "반도체는 장전 1~2% 반등, 홈디포·디즈니는 약세다.",
+      "엔비디아 실적은 11/18 06:20 KST 무렵 나온다."
+    ],
+    "notices": [
+      "지수·종목 가격은 11/16 정규장 종가다. 장전·선물 값은 22:48~23:03 KST 별도 구간이며 얇은 체결·약 15분 지연이 있을 수 있어 개장 뒤 크게 바뀔 수 있다.",
+      "원·달러는 서울 종가가 아닌 글로벌 호가, 10년물은 장중 값이다. 디즈니 시장 예상치와 유나이티드헬스 하락 이유는 확인하지 못했다.",
+      "업종·추세·시장 폭은 11/16 일별 자료(ETF 대용치)이며 지수 값이 아니고 11/17 장전 움직임은 반영하지 않는다."
+    ],
+    "issues": [
+      {
+        "title": "엔비디아 실적 D-day",
+        "preview": "가이던스 1,080억USD, 11월 약 −24%.",
+        "points": [
+          "11/18 06:20 KST 무렵 발표, 07:00 KST 콜.",
+          "모건스탠리: 가장 덜 보유된 대형 기술주."
+        ],
+        "meaning": "기대가 낮아진 만큼 가이던스가 방향을 가른다."
+      },
+      {
+        "title": "선물 엇갈림",
+        "preview": "나스닥100 +0.2%, 다우 −0.8%.",
+        "points": [
+          "반도체 장전 반등, 홈디포·유나이티드헬스·디즈니 약세.",
+          "전날 S&P500 −1.92%, 나스닥 −2.49%."
+        ],
+        "meaning": "기술주 투매는 멈췄지만 매도가 다른 업종으로 옮겨 갔다."
+      },
+      {
+        "title": "10월 소매판매 +0.2%",
+        "preview": "예상 부합, 수입물가 +1.1%는 예상 상회.",
+        "points": [
+          "자동차·휘발유 제외 +0.6%(예상 +0.4%).",
+          "10년물 5.141%."
+        ],
+        "meaning": "소비는 버티지만 금리 부담은 그대로다."
+      },
+      {
+        "title": "홈디포 CEO 교체",
+        "preview": "실적 상회에도 장전 −2.89%.",
+        "points": [
+          "연간 EPS 증가율 약 2%로 좁힘.",
+          "맥페일 CFO가 11/23 CEO 취임."
+        ],
+        "meaning": "주택 경기 부담 속 전망이 실적보다 무겁게 읽힌다."
+      },
+      {
+        "title": "디즈니 장전 약세",
+        "preview": "EPS 1.77USD로 급증했지만 −2.58%.",
+        "points": [
+          "2027 두 자릿수 EPS 성장 전망 유지.",
+          "2029년까지 연 30억USD 비용 절감."
+        ],
+        "meaning": "좋은 숫자도 '이미 반영'으로 읽히는 장이다."
+      },
+      {
+        "title": "중국 규제·바이두",
+        "preview": "아시아 급락, 코스피 −2.59%.",
+        "points": [
+          "해외 데이터센터 경유 칩 이용 차단 강화.",
+          "바이두 3분기 매출 −1%, 홍콩 −6.25%."
+        ],
+        "meaning": "중국 매출 걱정이 반도체 심리에 남아 있다."
+      },
+      {
+        "title": "11/16 배경: 반도체 하락 추세",
+        "preview": "SOXX 20일 −15.6%, 상승 종목 18.89%.",
+        "points": [
+          "헬스케어·유틸리티·필수소비재가 SPY보다 9~10%p 앞섬.",
+          "홈디포·디즈니는 실적 전 20일 +12%·+8% 상승."
+        ],
+        "meaning": "AI 하드웨어에서 방어 업종으로 옮겨 간 흐름이 이어진다."
+      }
+    ],
+    "interpretation_points": [
+      "장전 반도체 반등이 정규장에서 유지되는지 본다.",
+      "다우 약세가 다른 업종으로 번지는지 본다.",
+      "엔비디아 가이던스와 시간외 반응을 본다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "실적 당일 장전 +1.06%.",
+        "watch": "11/18 06:20 KST 가이던스를 본다."
+      },
+      "HD": {
+        "reason": "CEO 교체·전망 조정에 장전 −2.89%.",
+        "watch": "어제 저가 346.13USD 회복을 본다."
+      },
+      "DIS": {
+        "reason": "이익 급증에도 장전 −2.58%.",
+        "watch": "개장 뒤 하락 지속 여부를 본다."
+      },
+      "MU": {
+        "reason": "−7.62% 뒤 장전 +1.94%.",
+        "watch": "716.38USD 지지와 실적 반응을 본다."
+      },
+      "AMD": {
+        "reason": "이틀 −14%대 뒤 장전 +2.47%.",
+        "watch": "501.30USD 지지를 본다."
+      },
+      "INTC": {
+        "reason": "반도체 반등 속 장전 −0.49%로 약세.",
+        "watch": "54.89USD 지지를 본다."
+      },
+      "BIDU": {
+        "reason": "매출 감소에 장전 −1.61%.",
+        "watch": "중국 기술주 심리를 본다."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "정규장 개장",
+        "detail": "엇갈린 선물이 어디로 모이는지 본다."
+      },
+      {
+        "title": "정규장 마감",
+        "detail": "실적 전 반도체 저가 지지를 본다."
+      },
+      {
+        "title": "엔비디아 실적",
+        "detail": "가이던스·70% 목표·후임 언급을 본다."
+      },
+      {
+        "title": "다음 한국장",
+        "detail": "시간외 반응이 반도체에 어떻게 옮겨지는지 본다."
+      },
+      {
+        "title": "앤트로픽 상장",
+        "detail": "첫 거래 반응과 AI 심리를 본다."
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "cnbc_live": "CNBC · 11/17 장전 라이브",
+      "yahoo_fut": "Reuters(Yahoo) · 엔비디아 실적 앞 선물 하락",
+      "nvda_pr": "NVIDIA · CEO 교체 발표",
+      "yahoo_preview": "Barchart(Yahoo) · 엔비디아 실적 기대",
+      "census_retail": "미 인구조사국 · 10월 소매판매 속보",
+      "hd_8k": "홈디포 · 3분기 실적(8-K)",
+      "cnbc_hd": "CNBC · 홈디포 CEO 교체·실적",
+      "tipranks_hd": "TipRanks · 홈디포 장전 하락",
+      "dis_8k": "디즈니 · 4분기 실적(8-K)",
+      "yf_gspc": "Yahoo · S&P 500",
+      "yf_ixic": "Yahoo · 나스닥 종합",
+      "yf_dji": "Yahoo · 다우존스",
+      "yf_rut": "Yahoo · 러셀 2000",
+      "yf_sox": "Yahoo · 필라델피아 반도체",
+      "yf_vix": "Yahoo · VIX",
+      "yf_tnx": "Yahoo · 10년물(^TNX)",
+      "yf_krw": "Yahoo · USD/KRW",
+      "yf_cl": "Yahoo · WTI(CL=F)",
+      "yf_es": "Yahoo · S&P500 선물(ES=F)",
+      "yf_nq": "Yahoo · 나스닥100 선물(NQ=F)",
+      "yf_ym": "Yahoo · 다우 선물(YM=F)",
+      "yf_nvda": "Yahoo · NVDA",
+      "yf_hd": "Yahoo · HD",
+      "yf_dis": "Yahoo · DIS",
+      "yf_mu": "Yahoo · MU",
+      "yf_amd": "Yahoo · AMD",
+      "yf_intc": "Yahoo · INTC",
+      "yf_bidu": "Yahoo · BIDU",
+      "yf_unh": "Yahoo · UNH"
+    },
+    "key_figure": {
+      "value": "1,080억USD",
+      "label": "엔비디아 3분기 매출 가이던스",
+      "note": "±2% · 회사 제시",
+      "detail": "발표 11/18 06:20 KST 무렵 · EPS 컨센서스 2.49USD",
+      "direction": "flat"
+    },
+    "view": {
+      "headline": "엔비디아 실적 당일, 반도체는 장전 숨 고르기. 바닥인지는 오늘 밤 숫자가 가려요.",
+      "mood": {
+        "level": "caution",
+        "note": "어제 장후엔 반도체지수가 금요일 저가를 내줘 '불안'이었는데, 장전 반도체가 1~2% 되돌아 '경계'로 한 칸 물러났어요. 다만 다우 선물이 −0.8%라 안도라고 보긴 일러요."
+      },
+      "drivers": [
+        {
+          "title": "많이 판 뒤의 짧은 되감기.",
+          "text": "엔비디아는 이번 달 약 24% 빠졌고 모건스탠리는 '가장 덜 보유된 대형 기술주'로 꼽았어요. 결과 직전 장전 반등(엔비디아 +1%, AMD·마이크론 +2%)은 일단 팔 만큼 판 쪽이 숨을 고르는 모습으로 보여요.",
+          "sources": [
+            "cnbc_live",
+            "yf_nvda",
+            "yf_amd",
+            "yf_mu"
+          ]
+        },
+        {
+          "title": "기준선은 1,080억USD, 핵심은 다음 숫자.",
+          "text": "회사 가이던스 1,080억USD±2%, EPS 컨센서스 2.49USD가 1차 기준이에요. 주가가 많이 내려 기대는 낮아진 편이지만, 시장은 4분기 가이던스와 내년 약 70% 성장 목표가 유지되는지를 더 크게 볼 것으로 보여요.",
+          "sources": [
+            "nvda_pr",
+            "yahoo_preview",
+            "yahoo_fut"
+          ]
+        },
+        {
+          "title": "실적이 좋아도 주가는 따로.",
+          "text": "홈디포와 디즈니 모두 이익이 예상·전년을 넘었는데 장전 −2~3%예요. 지금 시장은 '지난 분기'보다 전망과 경영 변화에 더 민감하다는 신호로 읽혀요. 엔비디아도 숫자보다 가이던스에 반응할 가능성이 커요. 둘 다 실적 전 20거래일 +12%·+8%로 올라 있던 종목이라, 기대가 먼저 반영된 뒤 '소식에 판다'는 반응으로 보여요.",
+          "sources": [
+            "hd_8k",
+            "cnbc_hd",
+            "dis_8k",
+            "cnbc_live",
+            "massive_run"
+          ]
+        },
+        {
+          "title": "금리 부담은 그대로.",
+          "text": "소매판매는 무난했고 수입물가는 예상보다 높았어요(+1.1%). 10년물이 5.1%대에 머물고 12월 인상 기대도 있어, 비싼 성장주에 대한 부담이 쉽게 걷히지 않는 배경이에요.",
+          "sources": [
+            "census_retail",
+            "cnbc_live",
+            "yf_tnx",
+            "yahoo_fut"
+          ]
+        },
+        {
+          "title": "중국 쪽 그림자.",
+          "text": "중국의 해외 데이터센터 경유 칩 이용을 막는 규제가 이어지고, 바이두 매출 감소와 코스피 −2.59%가 겹쳤어요. AI 수요 전체보다 '중국 매출이 더 줄 수 있다'는 걱정이 심리에 얹혀 있어요.",
+          "sources": [
+            "yahoo_fut",
+            "cnbc_live"
+          ]
+        }
+      ],
+      "history": [],
+      "paths": {
+        "good": "오늘 정규장에서 반도체 장전 반등이 유지되고, 엔비디아 실적(11/18 06:20 KST 무렵)에서 매출이 1,080억USD를 넘고 4분기 가이던스·70% 성장 목표가 유지되면 'AI 사슬 전체 문제'라는 걱정이 줄 수 있어요. 반도체지수가 어제 저가 9,587.11 위에서 버티는지가 이번 주 첫 확인점이에요.",
+        "caution": "가이던스가 기대에 못 미치거나 70% 목표가 철회되면 시간외 급락이 다음 한국장·미국장 개장까지 이어질 수 있어요. 엔비디아 11/12 저가 148.80USD, VIX 11/16 고가 24.52가 조심할 기준이에요. 실적 직후 시간외·장 초반 흔들림과 다음 날 종가 방향은 다를 수 있어요."
+      },
+      "estimated_at": "2026-11-17T23:10:35+09:00",
+      "input_cutoff": "2026-11-17T23:10:35+09:00",
+      "added_later": false
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-17T08:59:00-05:00",
+      "kst": "2026-11-17T22:59:00+09:00",
+      "utc": "2026-11-17T13:59:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-17T09:00:04-05:00",
+      "kst": "2026-11-17T23:00:04+09:00",
+      "utc": "2026-11-17T14:00:04Z"
+    },
+    "start_offset_seconds": 64,
+    "delay_seconds": 64,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, GitHub MCP, WebSearch·WebFetch(NYSE·CNBC·Yahoo(Reuters·Barchart)·NVIDIA·인구조사국·SEC(홈디포·디즈니 8-K)·TipRanks 열람 성공, Proactive·Invezz·Rollingout 403), Yahoo Finance 차트 API.",
+    "model_setting": "not_verified",
+    "request_commit": "b18f0ae3f1e7f0f791c5354b7dfcd3e4bee0157a",
+    "analysis_run_id": 44098561276,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-11-17.json",
+    "analysis_status": "success (artifact us-analysis-44098561276 지문 일치, data_date 2026-11-16, 이전 거래일 배경 분석으로 사용)",
+    "analysis_artifact": "us-analysis-44098561276",
+    "analysis_digest_match": true,
+    "analysis_data_date": "2026-11-16"
+  }
+}
