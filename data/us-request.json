@@ -2,12 +2,12 @@
   "end_date": "2026-11-16",
   "watch": [
     "NVDA",
-    "INTC",
+    "HD",
     "MU",
-    "DELL",
-    "TTWO",
     "AMD",
-    "SNDK"
+    "INTC",
+    "DIS",
+    "BIDU"
   ],
-  "requested_at": "2026-11-17T06:17:13+09:00"
+  "requested_at": "2026-11-17T23:01:00+09:00"
 }
