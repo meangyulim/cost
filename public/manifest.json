@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-18",
+  "latest_id": "kr-close-2026-11-18",
   "reports": [
+    {
+      "id": "kr-close-2026-11-18",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-18",
+      "title": "11월 18일 한국장 마감",
+      "summary": "코스피 +1.99% 5,067, 장중 4,943까지 밀렸다가 하루 만에 5,000선 회복",
+      "as_of": "2026-11-18T15:30:00+09:00",
+      "queried_at": "2026-11-18T15:59:00+09:00",
+      "path": "reports/kr-close-2026-11-18/"
+    },
     {
       "id": "kr-pre-2026-11-18",
       "is_test": false,
