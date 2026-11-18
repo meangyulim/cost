@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-18",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-18T15:54:09+09:00",
   "queued_at_utc": "2026-11-18T06:54:09Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-18/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 44254615339,
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 +1.99% 5,067로 하루 만에 5,000선 회복. 엔비디아 호실적에 +2.6% 출발 뒤 4,943까지 밀렸다 반등. 외국인 −3,338억, 기관 +5,064억(잠정). 레인보우로보틱스 +20%, 삼성전기 +7%.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-18T15:54:19+09:00",
   "attempted_at_utc": "2026-11-18T06:54:19Z",
-  "workflow_run_id": 44254776078
+  "workflow_run_id": 44254776078,
+  "message_length": 188,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-18T15:54:23+09:00",
+  "result_recorded_at_utc": "2026-11-18T06:54:23Z"
 }
