@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-18",
+  "latest_id": "us-pre-2026-11-18",
   "reports": [
+    {
+      "id": "us-pre-2026-11-18",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-18",
+      "title": "11월 18일 미국장 시작 전 브리핑",
+      "summary": "엔비디아 실적 상회에 나스닥100 선물 +0.83%, 다우는 보합권",
+      "as_of": "2026-11-18T06:00:00+09:00",
+      "queried_at": "2026-11-18T23:09:30+09:00",
+      "path": "reports/us-pre-2026-11-18/"
+    },
     {
       "id": "kr-close-2026-11-18",
       "is_test": false,
