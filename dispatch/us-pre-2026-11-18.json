@@ -1,0 +1,14 @@
+{
+  "report_id": "us-pre-2026-11-18",
+  "status": "queued",
+  "queued_at_kst": "2026-11-18T23:11:12+09:00",
+  "queued_at_utc": "2026-11-18T14:11:12Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-18/",
+  "deployment_commit": "8e92f8250c418e5e23cd9c43ef0a23811dee5a7e",
+  "deployment_run_id": 44321331300,
+  "deployment_conclusion": "success",
+  "kakao_summary": "엔비디아 3분기 매출 1,158억USD로 예상 상회, 4분기 1,300억USD 제시. 장전 엔비디아 +2.9%, 나스닥100 선물 +0.8%·다우 보합. TJX +5.9%, 로우스 −5.6%. FOMC 의사록 11/19 04:00 KST.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
