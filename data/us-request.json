@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-17",
+  "end_date": "2026-11-18",
   "watch": [
     "NVDA",
-    "LOW",
+    "PANW",
     "TJX",
     "TGT",
-    "TTWO",
+    "LOW",
     "MU",
     "CRM"
   ],
-  "requested_at": "2026-11-18T23:00:24+09:00"
+  "requested_at": "2026-11-19T06:16:19+09:00"
 }
