@@ -1,0 +1,1064 @@
+{
+  "id": "us-close-2026-11-18",
+  "title": "11월 18일 미국장 마감 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-18 09:30~16:00 EST 정규장(2026-11-18 23:30~11-19 06:00 KST)",
+  "market_date": "2026-11-18",
+  "session": "close",
+  "as_of": "2026-11-19T06:00:00+09:00",
+  "queried_at": "2026-11-19T06:25:00+09:00",
+  "is_test": false,
+  "summary": "엔비디아 실적 상회에도 −2.89%, 건보주 급락에 다우 −561p·나스닥 +0.42%",
+  "summary_detail": "11/18 정규장 S&P500은 7,323.63(−16.90, −0.23%)로 5거래일 연속 하락했고, 다우 50,198.17(−561.25, −1.11%), 나스닥 24,429.88(+101.50, +0.42%), 러셀2000 2,714.31(+0.46%)이었다(잠정). 엔비디아는 3분기 매출이 예상을 넘었지만 장전 +2.9%를 지키지 못하고 150.96USD(−2.89%)로 5일째 내렸다. CMS의 부정청구 회수 규정안으로 유나이티드헬스 −10.21%, 휴매나 −12.98%가 다우를 눌렀다. FOMC 의사록은 거의 모든 위원이 추가 인상을 적절하다고 봤다. 소매는 TJX +8.05%, 타깃 +4.01%로 강했고, 팔로알토는 장 마감 후 실적 상회로 시간외 +8%대(16:19 EST)였다.",
+  "interpretation": "좋은 실적(엔비디아·타깃·TJX·팔로알토)이 연달아 나왔지만 지수는 버티지 못했다. 금리 인상 기조(의사록·월러 발언)와 엔비디아 경영 공백, 건강보험 규제 충격이 겹쳐 '좋은 소식에도 확신이 없는' 분위기다. 다만 VIX가 5거래일 만에 내렸고(−3.30%), 반도체·소형주가 플러스로 마감해 투매로 번지지는 않았다. 매수·매도 주체는 거래 주체 자료로 확인한 것이 아니다.",
+  "fx": {
+    "label": "원·달러 환율(글로벌 호가)",
+    "value": "1,332.12",
+    "unit": "원",
+    "delta": "−3.55원",
+    "direction": "down",
+    "source": "yf_krw",
+    "additional_sources": [],
+    "as_of": "2026-11-19T06:16:00+09:00",
+    "session": "Yahoo KRW=X 2026-11-18 16:16 EST(11/19 06:16 KST) 글로벌 호가 · 11/17 일봉 1,335.67원 대비 계산 · 서울 외환시장 주간 종가 아님"
+  },
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "market_date": "2026-11-18",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-19T06:16:30+09:00",
+    "note": "NYSE 공식 페이지를 이번 실행에서 WebFetch로 직접 열어 2026 휴장(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/18(수)이 없음을 확인했다. 정상 거래일·정규장 09:30~16:00 ET. 11/1 서머타임 종료 뒤 EST(UTC−5)이므로 정규장 = 2026-11-18 23:30~11-19 06:00 KST."
+  },
+  "calculation_notes": "Yahoo 차트 API 일봉(2026-11-19 06:16~06:20 KST 조회)의 11/18 정규장 값과 11/17 종가로 계산: S&P 500 7,323.63−7,340.53=−16.90(−0.230%); 나스닥 24,429.88−24,328.38=+101.50(+0.417%); 다우 50,198.17−50,759.42=−561.25(−1.106%); 러셀 2,714.31−2,701.87=+12.44(+0.460%); SOX 9,652.80−9,642.88=+9.92(+0.103%); VIX 24.62−25.46=−0.84(−3.30%). 종목: UNH 349.91−389.68=−39.77(−10.206%); NVDA 150.96−155.46=−4.50(−2.895%); PANW 339.92−309.29=+30.63(+9.903%), 시간외 367.50−339.92=+27.58(+8.114%); TGT 165.93−159.53=+6.40(+4.012%); TJX 140.30−129.85=+10.45(+8.048%); LOW 222.78−220.46=+2.32(+1.052%), 시가 212.07/220.46−1=−3.806%; CRM 190.40−194.52=−4.12(−2.118%); HUM 385.78−443.34=−57.56(−12.983%); CVS 81.35−85.81=−4.46(−5.198%); CI 285.37−294.06=−8.69(−2.955%); AMD 530.14/503.41−1=+5.310%; AVGO 354.05/341.60−1=+3.645%. 금 3,728.5−3,864.2=−135.7(−3.512%); WTI 81.88−86.01=−4.13(−4.802%); 10년물 5.066−5.103=−3.7bp(14:59 EST 값); 원·달러 1,332.12−1,335.67=−3.55. 장 마감 직후 값이라 공식 종가 확정 전 잠정치다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,323.63",
+      "unit": "pt",
+      "delta": "−16.90",
+      "percent": "−0.23",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 7,340.53 기준 · 잠정 · 5거래일 연속 하락(CNBC)",
+      "range": {
+        "open": "7,355.69",
+        "high": "7,367.68",
+        "low": "7,285.76",
+        "prev_close": "7,340.53"
+      }
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "24,429.88",
+      "unit": "pt",
+      "delta": "+101.50",
+      "percent": "+0.42",
+      "direction": "up",
+      "source": "yf_ixic",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 24,328.38 기준 · 잠정",
+      "range": {
+        "open": "24,486.17",
+        "high": "24,538.78",
+        "low": "24,225.30",
+        "prev_close": "24,328.38"
+      }
+    },
+    {
+      "name": "다우존스",
+      "value": "50,198.17",
+      "unit": "pt",
+      "delta": "−561.25",
+      "percent": "−1.11",
+      "direction": "down",
+      "source": "yf_dji",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 50,759.42 기준 · 잠정",
+      "range": {
+        "open": "50,627.36",
+        "high": "50,637.70",
+        "low": "50,029.35",
+        "prev_close": "50,759.42"
+      }
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,714.31",
+      "unit": "pt",
+      "delta": "+12.44",
+      "percent": "+0.46",
+      "direction": "up",
+      "source": "yf_rut",
+      "additional_sources": [
+        "yahoo_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 2,701.87 기준 · 잠정 · 11/17 값은 이번 조회 일봉 2,701.87(전 회차 표기 2,702.15)",
+      "range": {
+        "open": "2,698.91",
+        "high": "2,736.44",
+        "low": "2,697.71",
+        "prev_close": "2,701.87"
+      }
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "9,652.80",
+      "unit": "pt",
+      "delta": "+9.92",
+      "percent": "+0.10",
+      "direction": "up",
+      "source": "yf_sox",
+      "additional_sources": [
+        "yahoo_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 9,642.88 기준 · 잠정",
+      "range": {
+        "open": "9,788.63",
+        "high": "9,828.19",
+        "low": "9,493.93",
+        "prev_close": "9,642.88"
+      }
+    },
+    {
+      "name": "VIX",
+      "value": "24.62",
+      "unit": "pt",
+      "delta": "−0.84",
+      "percent": "−3.30",
+      "direction": "down",
+      "source": "yf_vix",
+      "additional_sources": [
+        "yahoo_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 25.46 기준 · 잠정 · 16:04 EST 값",
+      "range": {
+        "open": "24.22",
+        "high": "26.26",
+        "low": "23.45",
+        "prev_close": "25.46"
+      }
+    }
+  ],
+  "stocks": [
+    {
+      "name": "유나이티드헬스",
+      "ticker": "UNH",
+      "price": "349.91",
+      "currency": "USD",
+      "delta": "−39.77",
+      "percent": "−10.21",
+      "direction": "down",
+      "source": "yf_unh",
+      "additional_sources": [
+        "yahoo_unh",
+        "yahoo_live",
+        "cnbc_live",
+        "yf_hum"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 389.68USD 기준 · 잠정",
+      "reason": "CMS의 부정청구 회수 규정안(CRUSH) 이틀째 충격으로 −10.21%. 휴매나 −12.98%, CVS −5.20%, 시그나 −2.96%도 함께 밀렸다.",
+      "watch": "규정안은 2027-01-19까지 의견 수렴 단계다. 오늘 저가 342.45USD를 지키는지, 회사·업계의 법적 대응 발표가 나오는지 본다.",
+      "reason_sources": [
+        "yahoo_unh",
+        "yahoo_live",
+        "cnbc_live",
+        "yf_hum"
+      ],
+      "range": {
+        "open": "387.14",
+        "high": "387.53",
+        "low": "342.45",
+        "prev_close": "389.68"
+      }
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "150.96",
+      "currency": "USD",
+      "delta": "−4.50",
+      "percent": "−2.89",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "nvda_pr",
+        "yahoo_live",
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 155.46USD 기준 · 잠정",
+      "reason": "매출 1,158억USD로 예상을 넘었지만 장전 +2.9%를 지키지 못하고 5거래일 연속 하락. 10-Q 제출 연기와 CEO 공백이 부담.",
+      "watch": "오늘 저가 150.40USD와 11/17 저가 150.33USD가 아래쪽 기준이다. 10-Q 제출 일정과 이사회 CEO 결정을 본다.",
+      "reason_sources": [
+        "nvda_pr",
+        "yahoo_live",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "159.19",
+        "high": "159.70",
+        "low": "150.40",
+        "prev_close": "155.46"
+      }
+    },
+    {
+      "name": "팔로알토네트웍스",
+      "ticker": "PANW",
+      "price": "339.92",
+      "currency": "USD",
+      "delta": "+30.63",
+      "percent": "+9.90",
+      "direction": "up",
+      "source": "yf_panw",
+      "additional_sources": [
+        "panw_pr",
+        "investing_panw",
+        "thestreet_panw"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 309.29USD 기준 · 잠정 · 시간외 367.50USD(+27.58, +8.11%, 정규장 종가 대비, 2026-11-18 16:19 EST = 11/19 06:19 KST, Yahoo 1분봉·체결 얇음) · 시간외 저가 324.50USD(발표 직후)",
+      "reason": "실적 전 정규장 +9.90%. 16:05 EST 발표에서 매출 34.45억USD(+39%)로 예상 약 33.1억USD를 넘고 연간 가이던스를 올렸다.",
+      "watch": "시간외는 발표 직후 324.50USD까지 밀렸다가 367.50USD(16:19 EST)로 반등했다. 다음 정규장에서 이 상승이 유지되는지 따로 본다.",
+      "reason_sources": [
+        "panw_pr",
+        "investing_panw",
+        "thestreet_panw"
+      ],
+      "range": {
+        "open": "313.75",
+        "high": "342.07",
+        "low": "311.63",
+        "prev_close": "309.29"
+      }
+    },
+    {
+      "name": "타깃",
+      "ticker": "TGT",
+      "price": "165.93",
+      "currency": "USD",
+      "delta": "+6.40",
+      "percent": "+4.01",
+      "direction": "up",
+      "source": "yf_tgt",
+      "additional_sources": [
+        "yahoo_live",
+        "cnbc_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 159.53USD 기준 · 잠정",
+      "reason": "순매출 271억USD(+7.1%), 기존점 +5.6%로 예상(3.61%)을 크게 넘어 장중 171.91USD까지 올랐다. 주당순이익엔 관세 환급 0.50USD가 포함됐다.",
+      "watch": "관세 환급을 뺀 이익의 질과 연말 쇼핑 시즌 전망이 반등을 이어갈지 본다. 오늘 고가 171.91USD가 위쪽 기준이다.",
+      "reason_sources": [
+        "yahoo_live",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "160.99",
+        "high": "171.91",
+        "low": "159.95",
+        "prev_close": "159.53"
+      }
+    },
+    {
+      "name": "TJX",
+      "ticker": "TJX",
+      "price": "140.30",
+      "currency": "USD",
+      "delta": "+10.45",
+      "percent": "+8.05",
+      "direction": "up",
+      "source": "yf_tjx",
+      "additional_sources": [
+        "tjx_pr",
+        "rallies_tjx",
+        "yahoo_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 129.85USD 기준 · 잠정",
+      "reason": "3분기 매출 160억USD(+6%)·기존점 +4%로 예상을 넘고 연간 기존점 전망을 4%로 올려 +8.05%.",
+      "watch": "장중 고가 144.36USD에서 밀린 폭(종가 140.30USD)이 다음 날 더 커지는지 본다.",
+      "reason_sources": [
+        "tjx_pr",
+        "rallies_tjx",
+        "yahoo_live"
+      ],
+      "range": {
+        "open": "137.01",
+        "high": "144.36",
+        "low": "134.05",
+        "prev_close": "129.85"
+      }
+    },
+    {
+      "name": "로우스",
+      "ticker": "LOW",
+      "price": "222.78",
+      "currency": "USD",
+      "delta": "+2.32",
+      "percent": "+1.05",
+      "direction": "up",
+      "source": "yf_low",
+      "additional_sources": [
+        "low_8k",
+        "cnbc_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 220.46USD 기준 · 잠정",
+      "reason": "장전 −3%대에서 출발해 시가 212.07USD(−3.81%) 뒤 플러스로 돌아섰다. 연간 매출 전망을 약 925억USD로 올렸다.",
+      "watch": "장 초반 매도 뒤 회복이 이어지는지, 관세 환급(0.34USD)을 뺀 이익 평가가 바뀌는지 본다.",
+      "reason_sources": [
+        "low_8k",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "212.07",
+        "high": "223.02",
+        "low": "211.00",
+        "prev_close": "220.46"
+      }
+    },
+    {
+      "name": "세일즈포스",
+      "ticker": "CRM",
+      "price": "190.40",
+      "currency": "USD",
+      "delta": "−4.12",
+      "percent": "−2.12",
+      "direction": "down",
+      "source": "yf_crm",
+      "additional_sources": [
+        "yahoo_live"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 194.52USD 기준 · 잠정",
+      "reason": "11/17 −9.45%에 이어 −2.12%. AI 대체 우려로 소프트웨어 약세가 이어졌다.",
+      "watch": "팔로알토 시간외 반등이 소프트웨어 심리를 되돌리는지, 오늘 저가 186.46USD가 지켜지는지 본다.",
+      "reason_sources": [
+        "yahoo_live"
+      ],
+      "range": {
+        "open": "193.07",
+        "high": "193.18",
+        "low": "186.46",
+        "prev_close": "194.52"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "title": "다우 −561p, S&P500 5일째 하락·나스닥은 +0.42%",
+      "fact": "11/18 정규장 S&P500 7,323.63(−16.90, −0.23%), 나스닥 종합 24,429.88(+101.50, +0.42%), 다우 50,198.17(−561.25, −1.11%), 러셀2000 2,714.31(+0.46%), 필라델피아 반도체 9,652.80(+0.10%), VIX 24.62(−3.30%)였다(Yahoo 일봉, 잠정). CNBC(16:13 EST 갱신)는 S&P500이 5거래일 연속 하락해 6월 이후 가장 긴 하락이라고 전했다. 다우 하락은 유나이티드헬스(−10%대) 급락이 주로 눌렀다고 CNBC·Yahoo가 전했다. 에너지 업종은 S&P500 업종 중 가장 약했다(약 −3%, CNBC).",
+      "source": "cnbc_live",
+      "additional_sources": [
+        "yf_gspc",
+        "yf_ixic",
+        "yf_dji",
+        "yahoo_live"
+      ]
+    },
+    {
+      "title": "엔비디아, 실적 상회에도 −2.89%로 5일째 하락",
+      "fact": "엔비디아는 11/17(현지) 3분기 매출 1,158억USD(+103% YoY), 4분기 가이던스 1,300억USD±3%를 발표했다. 장전에는 +2.9%였으나 정규장에서 반전해 150.96USD(−4.50, −2.89%)로 마감, 5거래일 연속 하락했다(Yahoo·CNBC). Yahoo는 이사회가 젠슨 황을 복귀시키지 않기로 했고 콜레트 크레스 CFO가 임시 CEO이며, 회사가 10-Q 제출을 연기해 '수 주 내' 제출하겠다고 밝혔다고 전했다. 반도체지수는 장중 9,493.93까지 밀렸다가 +0.10%로 마감했고 AMD 530.14USD(+5.31%), 브로드컴 354.05USD(+3.64%)는 올랐다.",
+      "source": "yahoo_live",
+      "additional_sources": [
+        "nvda_pr",
+        "cnbc_live",
+        "yf_nvda",
+        "yf_sox",
+        "yf_amd",
+        "yf_avgo"
+      ]
+    },
+    {
+      "title": "건강보험주 급락: 유나이티드헬스 −10.21%",
+      "fact": "CMS(메디케어·메디케이드 서비스센터)가 제안한 부정청구 대응 규정안 'CRUSH'는 메디케어 어드밴티지 표본 감사 결과를 계약 전체로 확대 적용하고 2018 지급연도까지 거슬러 과다 지급분을 회수하는 내용이다. 의견 수렴은 2027-01-19까지이며 확정 규정이 아니다(Yahoo Finance, 13:41 CST 게재). 유나이티드헬스 349.91USD(−10.21%), 휴매나 385.78USD(−12.98%), CVS 81.35USD(−5.20%), 시그나 285.37USD(−2.96%)로 마감했다(Yahoo 일봉, 잠정). 오펜하이머는 과잉 반응이며 법적 다툼이 예상된다고 봤다.",
+      "source": "yahoo_unh",
+      "additional_sources": [
+        "yahoo_live",
+        "yf_unh",
+        "yf_hum",
+        "yf_cvs",
+        "yf_ci"
+      ]
+    },
+    {
+      "title": "FOMC 의사록: 거의 모두 '추가 인상 적절'",
+      "fact": "11/18 14:00 EST(11/19 04:00 KST) 공개된 10/27~28 FOMC 의사록에서 거의 모든 참석자가 추가 금리 인상이 '적절할 가능성이 크다'고 봤다. 10월 회의는 3.75~4.00% 동결(10대2, 쿡 이사·해맥 총재는 0.25%p 인상 주장)이었다. 위원들은 AI 관련 수요를 '상당한 인플레이션 위험'으로, 불투명한 AI 관련 부채 증가를 금융 불안 요인으로 언급했다(CNBC). 월러 이사는 12월 0.5%p 인상을 지지했고, 시장은 12/8~9 회의 0.25%p 인상을 완전히 반영했다(CNBC). 10년물 국채금리(^TNX)는 5.066%(14:59 EST)로 11/17 5.103% 대비 −3.7bp였다.",
+      "source": "cnbc_fomc",
+      "additional_sources": [
+        "cnbc_live",
+        "yahoo_live",
+        "yf_tnx"
+      ]
+    },
+    {
+      "title": "소매 실적: TJX +8.05%, 타깃 +4.01%, 로우스 반전",
+      "fact": "타깃은 순매출 271억USD(+7.1%, 예상 265억), 희석 EPS 2.65USD(예상 2.08USD, 관세 환급 0.50USD 포함), 기존점 +5.6%(예상 3.61%)를 발표했다(Yahoo). CNBC는 5년여 만의 최고 매출 증가라고 전했다. TJX는 매출 160억USD(+6%), 기존점 +4%, 연간 기존점 4%(종전 3~4%)를 제시했다. 로우스는 매출 228억USD·기존점 +1.8%, 연간 매출 약 925억USD(종전 920억)로 올렸고, 장전 −3%대에서 +1.05%로 마감했다.",
+      "source": "yahoo_live",
+      "additional_sources": [
+        "cnbc_live",
+        "tjx_pr",
+        "rallies_tjx",
+        "low_8k",
+        "yf_tgt",
+        "yf_tjx",
+        "yf_low"
+      ]
+    },
+    {
+      "title": "팔로알토, 장 마감 후 실적 상회·가이던스 상향",
+      "fact": "팔로알토네트웍스는 11/18 16:05 EST(11/19 06:05 KST) 1분기(FY27) 매출 34.45억USD(+39%), 비GAAP EPS 1.05USD(예상 0.97USD·매출 약 33.1억USD, Investing.com), 차세대보안 ARR 97.3억USD(+66%)를 발표했다. 연간 매출 가이던스는 145.2~145.7억USD, 비GAAP EPS 4.26~4.30USD로 올렸다. 정규장은 실적 전 +9.90%(339.92USD)였고, 시간외는 발표 직후 324.50USD까지 밀렸다가 16:19 EST 367.50USD(+8.11%)였다(Yahoo 1분봉, 체결 얇음). 11/17 기준 20거래일 −9.11%로 실적 전 하락 추세 조건이었고(이전 거래일 배경), 실적 당일 정규장에서 먼저 +9.90% 올라 일부 기대가 발표 전에 반영됐다.",
+      "source": "panw_pr",
+      "additional_sources": [
+        "investing_panw",
+        "thestreet_panw",
+        "yf_panw",
+        "massive_run"
+      ]
+    },
+    {
+      "title": "앤트로픽, 11/19 나스닥 상장 · 공모가 발표 대기",
+      "fact": "앤트로픽은 8억2,500만 주를 70~78USD 범위로 공모하며 11/19(목) 나스닥에서 'ANT'로 거래를 시작할 예정이다. 11/18 블룸버그는 80~85USD 가격 검토를 보도했고, CNBC는 범위 위에서 정해질 것으로 전했다. 조회 시각까지 회사의 최종 공모가 공식 발표는 확인하지 못했다(Yahoo 라이브 블로그에 '83USD' 블룸버그 보도 인용이 있으나 원문 미확인).",
+      "source": "yahoo_ant",
+      "additional_sources": [
+        "investing_ant",
+        "cnbc_live",
+        "yahoo_live"
+      ]
+    },
+    {
+      "title": "원자재 약세: 금 −3.51%, WTI −4.80%",
+      "fact": "금 선물(GC=F) 3,728.5USD(−135.7, −3.51%), WTI 원유 선물(CL=F) 81.88USD(−4.13, −4.80%)였다(Yahoo, 16:07 EST 무렵 값). CNBC는 금이 2025년 9월 이후 최저, WTI가 4% 넘게 내렸다고 전했다. 비트코인은 62,346.77USD(−2.99%, Yahoo 라이브 블로그 표시값)였다.",
+      "source": "yf_gc",
+      "additional_sources": [
+        "yf_cl",
+        "cnbc_live",
+        "yahoo_live"
+      ]
+    },
+    {
+      "title": "11/17 기준 배경: 기술·반도체 약세 추세, 방어주 상대 강세",
+      "fact": "11/17 일별 자료(이전 거래일 배경, 11/18 당일 값 아님) 기준 SPY 20거래일 −4.76%, QQQ −8.46%로 둘 다 20·60일 평균 아래 하락 추세 조건이었다. 업종 ETF의 20거래일 SPY 대비 상대 수익률은 필수소비재 +8.99%p, 유틸리티 +8.44%p, 헬스케어 +7.77%p가 앞섰고 반도체(SOXX) −10.37%p, 기술(XLK) −7.20%p가 가장 약했다. OTC 제외 전체 증권(ETF·우선주 등 포함) 중 상승 비율은 21.15%였다. 엔비디아는 20거래일 −28.18%, 팔로알토는 −9.11%로 실적 전 이미 하락 추세 조건이었다. 분할 보정 가격수익률이며 거래량은 순매수를 뜻하지 않는다.",
+      "source": "massive_run",
+      "additional_sources": []
+    }
+  ],
+  "next_checks": [
+    {
+      "label": "2026-11-19 10:00 KST",
+      "title": "한국장 개장(수능일, 1시간 늦춤)",
+      "detail": "수능일이라 정규장이 10:00~16:30 KST로 바뀌고 NXT 프리마켓은 열리지 않는다(한국거래소 발표, 경향신문). 엔비디아 −2.89%와 반도체지수 장중 반등이 삼성전자·SK하이닉스에 어떻게 반영되는지 개장 초와 종가를 나눠 본다."
+    },
+    {
+      "label": "2026-11-19 22:30 KST",
+      "title": "미국 주간 신규 실업수당 청구(08:30 EST)",
+      "detail": "11/14 주간 수치다. 고용이 버티면 12월 인상 전망이 더 굳어질 수 있다."
+    },
+    {
+      "label": "확인 순서: 11/19(목)",
+      "title": "앤트로픽 공모가·첫 거래",
+      "detail": "최종 공모가가 70~78USD 범위를 얼마나 넘는지, 첫 거래가 다른 AI·소프트웨어주의 자금 흐름에 영향을 주는지 본다. 첫 거래 시각은 미확인."
+    },
+    {
+      "label": "2026-11-19 23:30 KST",
+      "title": "미국 정규장 개장(09:30 EST)",
+      "detail": "팔로알토 시간외 +8%가 정규장에서 유지되는지, 유나이티드헬스가 342.45USD 저가를 지키는지, 엔비디아가 150USD 선 위에 있는지 본다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "엔비디아 10-Q 제출·CEO 결정",
+      "detail": "회사는 10-Q를 '수 주 내' 제출한다고 했다(Yahoo). 날짜 발표 여부를 본다."
+    },
+    {
+      "label": "확인 순서",
+      "title": "월마트 실적(11/19 예정, 시각 미확인)",
+      "detail": "타깃·TJX 호실적 뒤 소비 흐름이 이어지는지 본다. 발표 시각은 원문으로 확인하지 못했다."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행(2026-11-19 06:16 KST 무렵) WebFetch로 원문 열람. 2026 휴장 목록(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)과 조기폐장(11/27, 12/24 13:00 ET)에 11/18(수)이 없어 정상 거래일, 정규장 09:30~16:00 ET."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11/18 증시 라이브",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+      "note": "이번 실행 열람(16:13 EST 갱신): 다우 −561.25(−1.11%) 50,198.17, S&P500 −0.23% 7,323.63(5거래일 연속 하락, 6월 이후 최장), 나스닥 +0.42% 24,429.88. 엔비디아 −2.9%, 유나이티드헬스 −10%, 타깃 +6%(장중 보도), 에너지 업종 약 −3%, WTI 82.19USD(−4%+), 금 2025년 9월 이후 최저, 앤트로픽 범위 상회 예상(Faber)."
+    },
+    {
+      "id": "yahoo_live",
+      "label": "Yahoo Finance · 11/18 증시 라이브",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+      "note": "이번 실행 열람(15:15 CST 갱신): 지수 종가, 엔비디아 −2.80%(표시 시점), 이사회 황 복귀 불가·크레스 임시 CEO·10-Q 연기, 타깃 실적 수치, CMS 규정안 뒤 UNH·HUM·CI·CVS 하락, 월러 CNBC 인터뷰, 10년물 5.07, 금·WTI·비트코인, 앤트로픽 '83USD' 블룸버그 인용(타임스탬프 없음, 원문 미확인)."
+    },
+    {
+      "id": "cnbc_fomc",
+      "label": "CNBC · 10월 FOMC 의사록",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "note": "이번 실행 열람(14:00 EST 게재): 3.75~4% 동결 10대2(쿡·해맥 인상 주장), 거의 모든 참석자 추가 인상 적절, AI 수요 인플레 위험·AI 부채 금융안정 우려, 12/8~9 0.25%p 인상 완전 반영, 10월 CPI 0.4%·근원 0.3%."
+    },
+    {
+      "id": "yahoo_unh",
+      "label": "Yahoo Finance · 유나이티드헬스 CMS 규정안",
+      "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-sinks-12-cms-fraud-194116346.html",
+      "note": "이번 실행 열람(13:41 CST 게재): CRUSH 규정안 내용, 의견 수렴 2027-01-19까지, UNH 장중 −12%, HUM·CVS·CI 하락, 오펜하이머 과잉 반응·법적 다툼 예상."
+    },
+    {
+      "id": "nvda_pr",
+      "label": "NVIDIA · 3분기(2027 회계연도) 실적 발표",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "note": "11/18 장전 회차에서 열람한 공식 발표(매출 1,158억USD, 4분기 1,300억USD±3%). 이번 실행에서는 재열람하지 않음."
+    },
+    {
+      "id": "panw_pr",
+      "label": "StockTitan · 팔로알토 1분기(FY27) 실적 발표문",
+      "url": "https://www.stocktitan.net/news/PANW/palo-alto-networks-reports-fiscal-first-quarter-2027-financial-z0ztbt5rypny.html",
+      "note": "이번 실행 열람: 2026-11-18 16:05 EST 보도자료 전문. 매출 3,445백만USD(+39%), NGS ARR 97.3억USD(+66%), RPO 210억USD(+35%), GAAP EPS 0.57·비GAAP 1.05USD, 2분기 매출 35.3~35.5억USD, 연간 145.2~145.7억USD·비GAAP EPS 4.26~4.30USD."
+    },
+    {
+      "id": "investing_panw",
+      "label": "Investing.com · 팔로알토 실적 전 상승",
+      "url": "https://investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-rallying-today-93CH-5036502",
+      "note": "이번 실행 열람(10:03 게재, 시간대 미표기): 오전 +4.6%, 컨센서스 EPS 0.97USD·매출 약 33.1억USD, 키뱅크 상향(11/13)."
+    },
+    {
+      "id": "thestreet_panw",
+      "label": "TheStreet · 팔로알토 실적 라이브",
+      "url": "https://www.thestreet.com/latest-news/palo-alto-networks-panw-q1-2027-earnings-call-stock-updates",
+      "note": "검색 결과 발췌: 발표 직후 시간외 −4.39%(약 325USD). 직접 열람하지 않음. Yahoo 1분봉의 발표 직후 저가 324.50USD와 부합."
+    },
+    {
+      "id": "tjx_pr",
+      "label": "TJX · 3분기(FY27) 실적 발표",
+      "url": "https://investor.tjx.com/news-releases/news-release-details/tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-4",
+      "note": "11/18 장전 회차 기록(직접 열람 403, 검색 발췌): 매출 160억USD(+6%), 기존점 +4%, 연간 기존점 4%(종전 3~4%)."
+    },
+    {
+      "id": "rallies_tjx",
+      "label": "Rallies · TJX 매출 예상 상회",
+      "url": "https://rallies.ai/news/off-price-retailer-tjx-beats-quarterly-sales-estimates-757c5979c8b51a3e",
+      "note": "11/18 장전 회차 열람: 매출 159.5억USD vs 예상 158.4억USD."
+    },
+    {
+      "id": "low_8k",
+      "label": "SEC · 로우스 3분기 실적(8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000060667/000006066726000126/exhibit991-10302026.htm",
+      "note": "11/18 장전 회차 열람: 매출 228억USD, 기존점 +1.8%, 조정 EPS 3.10USD(관세 환급 0.34USD 포함), 연간 매출 약 925억USD(종전 920억)."
+    },
+    {
+      "id": "yahoo_ant",
+      "label": "Yahoo Finance · 앤트로픽 IPO 라이브",
+      "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html",
+      "note": "이번 실행 열람(15:00 CST 갱신, 마지막 항목 20:01 UTC): 최종 공모가 미발표, 8억2,500만 주, 70~78USD, WSJ 80USD·First Squawk 최대 85USD 보도, 11/19 나스닥 'ANT' 거래 예정."
+    },
+    {
+      "id": "investing_ant",
+      "label": "Investing.com · 앤트로픽 80~85USD 검토(블룸버그)",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-weighs-ipo-pricing-of-8085-a-share-bloomberg-reports-5036963",
+      "note": "검색 결과 발췌: 11/18 블룸버그 보도, 80~85USD 검토·최종 결정 전. 직접 열람하지 않음."
+    },
+    {
+      "id": "khan_ksat",
+      "label": "경향신문 · 수능일 증시 1시간 늦게 개장",
+      "url": "https://khan.co.kr/article/202611051125001",
+      "note": "검색 결과 발췌: 한국거래소 11/5 발표, 2026-11-19 수능일 정규장 10:00~16:30, NXT 프리마켓 미개장. 직접 열람하지 않음."
+    },
+    {
+      "id": "fincal_claims",
+      "label": "FinanceCalendar · 11/19 실업수당 청구",
+      "url": "https://www.financecalendar.com/events/2026-11-19/",
+      "note": "검색 결과 발췌: 11/19 08:30 ET 신규 실업수당 청구(11/14 주간). 노동부 원문은 직접 확인하지 않음."
+    },
+    {
+      "id": "commbank_2025",
+      "label": "CommBank(AAP) · 2025-11-20 뉴욕 마감",
+      "url": "https://www.commbank.com.au/articles/newsroom/2025/11/wall-street-closes-lower-after-tech-leads-decline.html",
+      "note": "이번 실행 열람: 2025-11-20 S&P500 6,539.09(−1.52%), 나스닥 22,084.59(−2.16%), 다우 45,757.25(−0.83%) 잠정. 엔비디아 실적 호조로 장중 최대 +5% 뒤 하락 마감."
+    },
+    {
+      "id": "vabiz_2025",
+      "label": "Virginia Business(AP) · 2025-11-21 반등",
+      "url": "https://virginiabusiness.com/wall-street-stocks-rebound-market-swings-fed/",
+      "note": "검색 결과 발췌: 2025-11-21 S&P500 +64.23 6,602.99, 나스닥 +195.03 22,273.08, 다우 +493.15 46,245.41. 윌리엄스 뉴욕연은 총재의 금리 인하 시사."
+    },
+    {
+      "id": "yahoo_2025_1128",
+      "label": "Yahoo Finance(AP) · 2025-11-28 마감",
+      "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-184709776.html",
+      "note": "검색 결과 발췌: 2025-11-28(조기폐장) S&P500 6,849.09(+0.54%), 5거래일 연속 상승, 11월 소폭 상승 마감."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo Finance · 나스닥 종합",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo Finance · 다우존스",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo Finance · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_sox",
+      "label": "Yahoo Finance · 필라델피아 반도체",
+      "url": "https://finance.yahoo.com/quote/%5ESOX/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo Finance · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo Finance · 10년물(^TNX)",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_gc",
+      "label": "Yahoo Finance · 금 선물(GC=F)",
+      "url": "https://finance.yahoo.com/quote/GC%3DF/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_cl",
+      "label": "Yahoo Finance · WTI 원유 선물(CL=F)",
+      "url": "https://finance.yahoo.com/quote/CL%3DF/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_krw",
+      "label": "Yahoo Finance · 원·달러(KRW=X)",
+      "url": "https://finance.yahoo.com/quote/KRW%3DX/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo Finance · NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_unh",
+      "label": "Yahoo Finance · UNH",
+      "url": "https://finance.yahoo.com/quote/UNH/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_hum",
+      "label": "Yahoo Finance · HUM",
+      "url": "https://finance.yahoo.com/quote/HUM/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_cvs",
+      "label": "Yahoo Finance · CVS",
+      "url": "https://finance.yahoo.com/quote/CVS/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_ci",
+      "label": "Yahoo Finance · CI",
+      "url": "https://finance.yahoo.com/quote/CI/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_panw",
+      "label": "Yahoo Finance · PANW",
+      "url": "https://finance.yahoo.com/quote/PANW/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값. PANW는 확장시간 1분봉 포함."
+    },
+    {
+      "id": "yf_tgt",
+      "label": "Yahoo Finance · TGT",
+      "url": "https://finance.yahoo.com/quote/TGT/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_tjx",
+      "label": "Yahoo Finance · TJX",
+      "url": "https://finance.yahoo.com/quote/TJX/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_low",
+      "label": "Yahoo Finance · LOW",
+      "url": "https://finance.yahoo.com/quote/LOW/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_crm",
+      "label": "Yahoo Finance · CRM",
+      "url": "https://finance.yahoo.com/quote/CRM/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo Finance · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "yf_avgo",
+      "label": "Yahoo Finance · AVGO",
+      "url": "https://finance.yahoo.com/quote/AVGO/",
+      "note": "차트 API 일봉(2026-11-19 06:16~06:20 KST 조회). 11/18 정규장 마감 직후 잠정 값."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/44399734312",
+      "show_public": false,
+      "note": "요청 커밋 3064d9d1fd706283f8d84ad2d2d213fa7446dcbf(end_date 2026-11-18, watch NVDA·PANW·TJX·TGT·LOW·MU·CRM)의 Collect US briefing inputs 실행 성공(run 44399734312). artifact us-analysis-44399734312를 GitHub MCP 임시 링크로 받아 sha256 지문이 digest와 일치함을 확인. requested_end_date 2026-11-18이었으나 반환 data_date 2026-11-17(11/18 자료 미허용), queried_at 2026-11-19T06:24:47+09:00, 39개 요청. 관찰 종목 11/17 정규장 종가는 Yahoo와 일치. 11/18 당일 값이 아니므로 이전 거래일 배경으로만 사용, 확률 없음(forecast_probability null, backtest not_validated). ETF는 지수 값이 아니며 시장 폭은 OTC 제외 전체 증권(ETF·우선주 등 포함) 기준."
+    }
+  ],
+  "reading": {
+    "headline": "실적 좋아도 못 버틴 하루, 다우 −1.11%",
+    "summary_points": [
+      "엔비디아는 실적 상회에도 −2.89%, 5일째 하락했다.",
+      "건보 규제안에 유나이티드헬스 −10%, 다우를 눌렀다.",
+      "의사록은 추가 인상 쪽, 소매·팔로알토 실적은 강했다."
+    ],
+    "notices": [
+      "지수·종목 값은 장 마감 직후 Yahoo로 확인한 잠정 종가다. 팔로알토 시간외 가격은 16:19 EST 1분봉으로 체결이 얇다.",
+      "앤트로픽 최종 공모가는 조회 시각까지 공식 발표를 확인하지 못했다. 10년물은 14:59 EST 값, 원·달러는 서울 종가가 아닌 글로벌 호가다. 업종·추세 배경은 11/17 일별 자료다."
+    ],
+    "issues": [
+      {
+        "title": "다우 −561p, S&P500 5일째 하락",
+        "preview": "나스닥 +0.42%·러셀 +0.46%, 지수가 엇갈렸다.",
+        "points": [
+          "S&P500은 6월 이후 가장 긴 하락(CNBC).",
+          "에너지 업종 약 −3%로 가장 약했다."
+        ],
+        "meaning": "매도는 건보·에너지에 몰렸고 기술·소형주는 버텼다."
+      },
+      {
+        "title": "엔비디아, 실적 상회에도 −2.89%",
+        "preview": "장전 +2.9%가 정규장에서 뒤집혔다.",
+        "points": [
+          "10-Q 제출 연기, 황 복귀 불가·임시 CEO 체제.",
+          "AMD +5.31%, 브로드컴 +3.64%는 올랐다."
+        ],
+        "meaning": "실적보다 경영 공백·공시 지연이 더 크게 읽혔다."
+      },
+      {
+        "title": "건강보험주 급락",
+        "preview": "CMS 규정안에 UNH −10.21%, 휴매나 −12.98%.",
+        "points": [
+          "2018 지급연도까지 과다 지급분 회수 내용.",
+          "2027-01-19까지 의견 수렴, 확정 전이다."
+        ],
+        "meaning": "다우 하락의 주된 압력이었고 법적 다툼이 변수다."
+      },
+      {
+        "title": "FOMC 의사록: 추가 인상 쪽",
+        "preview": "거의 모든 위원이 추가 인상 '적절'로 봤다.",
+        "points": [
+          "AI 수요를 인플레 위험으로 언급했다.",
+          "12월 0.25%p 인상은 완전히 반영됐다(CNBC)."
+        ],
+        "meaning": "금리 부담이 성장주 반등을 막는 배경으로 남았다."
+      },
+      {
+        "title": "소매 실적 강세",
+        "preview": "TJX +8.05%, 타깃 +4.01%, 로우스 반전.",
+        "points": [
+          "타깃 기존점 +5.6%로 예상 3.61% 상회.",
+          "로우스는 장전 −3%대에서 +1.05% 마감."
+        ],
+        "meaning": "소비는 버틴다는 신호지만 관세 환급 효과를 빼서 봐야 한다."
+      },
+      {
+        "title": "팔로알토 실적 상회",
+        "preview": "매출 +39%, 연간 전망 상향. 시간외 +8%대.",
+        "points": [
+          "발표 직후 324.50USD까지 밀렸다가 반등.",
+          "정규장에서 이미 +9.90% 올랐다."
+        ],
+        "meaning": "소프트웨어 심리 회복의 첫 시험대다."
+      },
+      {
+        "title": "앤트로픽 11/19 상장",
+        "preview": "공모가 범위 70~78USD 위 결정 보도.",
+        "points": [
+          "최종 공모가 공식 발표는 미확인.",
+          "나스닥 'ANT'로 11/19 거래 예정."
+        ],
+        "meaning": "첫 거래가 AI주 자금 흐름을 흔들 수 있다."
+      },
+      {
+        "title": "금 −3.51%, WTI −4.80%",
+        "preview": "원자재 약세가 에너지주를 눌렀다.",
+        "points": [
+          "금은 2025년 9월 이후 최저(CNBC).",
+          "비트코인도 약 −3%."
+        ],
+        "meaning": "금리 상승 기대 속 안전자산도 팔렸다."
+      },
+      {
+        "title": "11/17 기준 배경",
+        "preview": "기술·반도체 약세, 방어주가 상대 강세였다.",
+        "points": [
+          "SOXX는 20거래일 SPY 대비 −10.37%p.",
+          "헬스케어는 +7.77%p로 강했다가 오늘 급락."
+        ],
+        "meaning": "강했던 업종이 규제 충격에 무너져 피난처가 좁아졌다."
+      }
+    ],
+    "interpretation_points": [
+      "엔비디아 150USD 선과 반도체지수 장중 저가 9,493.93을 본다.",
+      "팔로알토 시간외 반등이 정규장에서 유지되는지 본다.",
+      "건보주 급락이 다른 업종으로 번지는지 본다."
+    ],
+    "stocks": {
+      "UNH": {
+        "reason": "CMS 부정청구 규정안에 −10.21%.",
+        "watch": "342.45USD 저가와 법적 대응을 본다."
+      },
+      "NVDA": {
+        "reason": "실적 상회에도 5일째 하락, 10-Q 연기.",
+        "watch": "150.40USD 저가와 CEO 결정을 본다."
+      },
+      "PANW": {
+        "reason": "실적 전 +9.90%, 발표 뒤 시간외 +8%대.",
+        "watch": "정규장에서 시간외 상승 유지 여부."
+      },
+      "TGT": {
+        "reason": "기존점 +5.6%로 예상 크게 상회.",
+        "watch": "관세 환급 뺀 이익과 171.91USD 고가."
+      },
+      "TJX": {
+        "reason": "매출·기존점 상회, 연간 전망 상향.",
+        "watch": "144.36USD 고가 뒤 되밀림 여부."
+      },
+      "LOW": {
+        "reason": "장 초반 −3.8%에서 플러스로 반전.",
+        "watch": "회복 흐름이 이어지는지 본다."
+      },
+      "CRM": {
+        "reason": "AI 대체 우려로 이틀째 약세.",
+        "watch": "186.46USD 저가와 팔로알토 효과."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "한국장 10:00 개장(수능일)",
+        "detail": "반도체 개장 초와 종가를 나눠 본다."
+      },
+      {
+        "title": "주간 실업수당 청구",
+        "detail": "12월 인상 전망을 굳힐지 본다."
+      },
+      {
+        "title": "앤트로픽 공모가·첫 거래",
+        "detail": "AI·소프트웨어주 자금 흐름을 본다."
+      },
+      {
+        "title": "미국 정규장 개장",
+        "detail": "팔로알토·UNH·엔비디아 기준선을 본다."
+      },
+      {
+        "title": "엔비디아 10-Q·CEO",
+        "detail": "제출 날짜 발표 여부를 본다."
+      },
+      {
+        "title": "월마트 실적",
+        "detail": "소비 흐름이 이어지는지 본다."
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "cnbc_live": "CNBC · 11/18 증시 라이브",
+      "yahoo_live": "Yahoo Finance · 11/18 증시 라이브",
+      "cnbc_fomc": "CNBC · 10월 FOMC 의사록",
+      "yahoo_unh": "Yahoo Finance · 유나이티드헬스 CMS 규정안",
+      "nvda_pr": "NVIDIA · 3분기(2027 회계연도) 실적 발표",
+      "panw_pr": "StockTitan · 팔로알토 1분기(FY27) 실적 발표문",
+      "investing_panw": "Investing.com · 팔로알토 실적 전 상승",
+      "thestreet_panw": "TheStreet · 팔로알토 실적 라이브",
+      "tjx_pr": "TJX · 3분기(FY27) 실적 발표",
+      "rallies_tjx": "Rallies · TJX 매출 예상 상회",
+      "low_8k": "SEC · 로우스 3분기 실적(8-K)",
+      "yahoo_ant": "Yahoo Finance · 앤트로픽 IPO 라이브",
+      "investing_ant": "Investing.com · 앤트로픽 80~85USD 검토(블룸버그)",
+      "khan_ksat": "경향신문 · 수능일 증시 1시간 늦게 개장",
+      "fincal_claims": "FinanceCalendar · 11/19 실업수당 청구",
+      "commbank_2025": "CommBank(AAP) · 2025-11-20 뉴욕 마감",
+      "vabiz_2025": "Virginia Business(AP) · 2025-11-21 반등",
+      "yahoo_2025_1128": "Yahoo Finance(AP) · 2025-11-28 마감",
+      "yf_gspc": "Yahoo Finance · S&P 500",
+      "yf_ixic": "Yahoo Finance · 나스닥 종합",
+      "yf_dji": "Yahoo Finance · 다우존스",
+      "yf_rut": "Yahoo Finance · 러셀 2000",
+      "yf_sox": "Yahoo Finance · 필라델피아 반도체",
+      "yf_vix": "Yahoo Finance · VIX",
+      "yf_tnx": "Yahoo Finance · 10년물(^TNX)",
+      "yf_gc": "Yahoo Finance · 금 선물(GC=F)",
+      "yf_cl": "Yahoo Finance · WTI 원유 선물(CL=F)",
+      "yf_krw": "Yahoo Finance · 원·달러(KRW=X)",
+      "yf_nvda": "Yahoo Finance · NVDA",
+      "yf_unh": "Yahoo Finance · UNH",
+      "yf_hum": "Yahoo Finance · HUM",
+      "yf_cvs": "Yahoo Finance · CVS",
+      "yf_ci": "Yahoo Finance · CI",
+      "yf_panw": "Yahoo Finance · PANW",
+      "yf_tgt": "Yahoo Finance · TGT",
+      "yf_tjx": "Yahoo Finance · TJX",
+      "yf_low": "Yahoo Finance · LOW",
+      "yf_crm": "Yahoo Finance · CRM",
+      "yf_amd": "Yahoo Finance · AMD",
+      "yf_avgo": "Yahoo Finance · AVGO",
+      "massive_run": "Massive · 미국 일별 분석"
+    },
+    "key_figure": {
+      "value": "−10.21%",
+      "label": "유나이티드헬스 종가",
+      "note": "잠정",
+      "detail": "CMS 부정청구 규정안 이틀째 · 휴매나 −12.98%",
+      "direction": "down"
+    },
+    "view": {
+      "headline": "좋은 실적에도 시장은 믿지 못했어요. 금리와 엔비디아 경영 공백이 걷혀야 해요.",
+      "mood": {
+        "level": "caution",
+        "note": "어제 '불안'에서 '경계'로 한 칸 내려왔어요. VIX가 5거래일 만에 내렸고 반도체·소형주가 플러스였지만, S&P500은 5일째 하락이라 안도라고 하긴 일러요."
+      },
+      "drivers": [
+        {
+          "title": "'좋은 실적도 판다'가 이어졌다.",
+          "text": "엔비디아는 매출이 예상을 넘었는데 장전 +2.9%를 지키지 못하고 −2.89%로 마감했어요. 10-Q 제출 연기와 CEO 공백이 실적보다 크게 읽힌 것으로 보여요. 장중 경로는 분봉 자료로 확인하지 않았어요.",
+          "sources": [
+            "yahoo_live",
+            "cnbc_live",
+            "yf_nvda"
+          ]
+        },
+        {
+          "title": "규제 한 장이 업종을 흔들었다.",
+          "text": "CMS 부정청구 규정안에 유나이티드헬스 −10.21%, 휴매나 −12.98%였어요. 아직 확정 전 제안이지만, 이익 전망을 다시 계산해야 한다는 불안이 먼저 가격에 실린 모습이에요.",
+          "sources": [
+            "yahoo_unh",
+            "yf_unh",
+            "yf_hum"
+          ]
+        },
+        {
+          "title": "금리는 더 오른다는 쪽으로 굳었다.",
+          "text": "의사록에서 거의 모든 위원이 추가 인상을 적절하다고 봤고, 월러 이사는 0.5%p 인상을 지지했어요. 다만 시장이 12월 인상을 이미 반영해 의사록 뒤 큰 충격은 없었고, 10년물은 5.066%로 소폭 내렸어요.",
+          "sources": [
+            "cnbc_fomc",
+            "cnbc_live",
+            "yf_tnx"
+          ]
+        },
+        {
+          "title": "소비와 보안은 숫자로 답했다.",
+          "text": "타깃 기존점 +5.6%, TJX 전망 상향, 팔로알토 매출 +39%로 실적 자체는 탄탄했어요. 경기 걱정보다 '가격이 비싸고 금리가 높다'는 부담이 시장을 누르는 것으로 읽혀요.",
+          "sources": [
+            "yahoo_live",
+            "tjx_pr",
+            "panw_pr"
+          ]
+        },
+        {
+          "title": "앤트로픽 상장 전 자금 재배치.",
+          "text": "11/19 상장을 앞두고 공모가가 범위 위에서 정해질 것이란 보도가 나왔어요. 큰 공모에 자금이 몰리면 기존 AI주에서 돈이 빠질 수 있다는 걱정이 함께 거론되는 분위기예요. 실제 자금 이동은 확인한 자료가 없어요.",
+          "sources": [
+            "yahoo_ant",
+            "investing_ant",
+            "cnbc_live"
+          ]
+        }
+      ],
+      "history": [
+        {
+          "title": "2025년 11월 20일, 엔비디아 실적 후 반전",
+          "then": "엔비디아가 실적과 전망 모두 예상을 넘어 장중 최대 +5%였지만 하락 마감했어요. 나스닥 −2.16%, S&P500 −1.52%(잠정). AI 지출·밸류에이션 걱정과 금리 인하 기대 약화가 겹쳤어요.",
+          "next": "다음 날(11/21) 뉴욕연은 총재의 금리 인하 시사에 S&P500 +64.23(6,602.99), 나스닥 +195.03으로 반등했어요.",
+          "after": "그 뒤 5거래일 연속 올라 11/28 S&P500 6,849.09로 11월을 소폭 상승 마감했어요.",
+          "difference": "그때 반등의 계기는 '금리 인하' 기대였어요. 이번엔 연준이 인상 쪽이라 같은 계기를 기대하기 어렵고, CEO 공백·10-Q 연기라는 회사 고유 문제도 있어요.",
+          "sources": [
+            "commbank_2025",
+            "vabiz_2025",
+            "yahoo_2025_1128"
+          ]
+        }
+      ],
+      "paths": {
+        "good": "엔비디아가 150USD 선(11/17·11/18 저가 150.33·150.40USD) 위에서 버티고, 팔로알토 시간외 +8%가 11/19 정규장에서 유지되면 '실적은 통한다'는 신호가 돼요. 앤트로픽 첫 거래가 무난하고 11/19 22:30 KST 실업수당 청구가 금리 기대를 더 밀어올리지 않으면 경계가 풀릴 수 있어요. 한국장은 수능일이라 10:00 KST 개장이에요.",
+        "caution": "엔비디아가 150USD 아래로 내려가면 6일째 하락으로 반도체 심리가 다시 꺾일 수 있어요. 유나이티드헬스가 오늘 저가 342.45USD를 내주면 건보주 매도가 이어질 수 있어요. 팔로알토는 발표 직후 324.50USD까지 밀렸다 반등한 것처럼 시간외·장 초반 흔들림과 종가 방향이 다를 수 있어요. 앤트로픽 상장일 기존 AI주 자금 이탈도 조심할 장면이에요."
+      },
+      "estimated_at": "2026-11-19T06:25:00+09:00",
+      "input_cutoff": "2026-11-19T06:25:00+09:00",
+      "added_later": false
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-18T16:15:00-05:00",
+      "kst": "2026-11-19T06:15:00+09:00",
+      "utc": "2026-11-18T21:15:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-18T16:15:34-05:00",
+      "kst": "2026-11-19T06:15:34+09:00",
+      "utc": "2026-11-18T21:15:34Z"
+    },
+    "start_offset_seconds": 34,
+    "delay_seconds": 34,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, GitHub MCP, WebSearch·WebFetch(NYSE·CNBC·Yahoo·StockTitan·Investing·CommBank 열람 성공, Benzinga 403), Yahoo Finance 차트 API.",
+    "model_setting": "not_verified",
+    "request_commit": "3064d9d1fd706283f8d84ad2d2d213fa7446dcbf",
+    "analysis_run_id": 44399734312,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-close-2026-11-18.json",
+    "analysis_status": "success (artifact us-analysis-44399734312 지문 일치, data_date 2026-11-17, 이전 거래일 배경 분석으로 사용)",
+    "analysis_artifact": "us-analysis-44399734312",
+    "analysis_digest_match": true,
+    "analysis_data_date": "2026-11-17"
+  }
+}
