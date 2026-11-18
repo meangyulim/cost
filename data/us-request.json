@@ -2,12 +2,12 @@
   "end_date": "2026-11-17",
   "watch": [
     "NVDA",
-    "HD",
+    "LOW",
+    "TJX",
+    "TGT",
+    "TTWO",
     "MU",
-    "AMD",
-    "INTC",
-    "DIS",
-    "BIDU"
+    "CRM"
   ],
-  "requested_at": "2026-11-18T06:16:19+09:00"
+  "requested_at": "2026-11-18T23:00:24+09:00"
 }
