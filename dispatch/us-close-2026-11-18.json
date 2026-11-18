@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-18",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-19T06:26:49+09:00",
   "queued_at_utc": "2026-11-18T21:26:49Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-18/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "美마감: 다우 −1.11%·S&P −0.23% 5일째↓, 나스닥 +0.42%. 엔비디아 실적 상회에도 −2.89%, 유나이티드헬스 −10.21%(CMS 규정안). 의사록 추가 인상 쪽. 팔로알토 시간외 +8%대.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-19T06:27:00+09:00",
+  "attempted_at_utc": "2026-11-18T21:27:00Z",
+  "workflow_run_id": 44401559772
 }
