@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-19",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-19T08:28:54+09:00",
   "queued_at_utc": "2026-11-18T23:28:54Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-19/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 44420961970,
   "deployment_conclusion": "success",
   "kakao_summary": "엔비디아 실적 상회에도 −2.89% 반전, 코스피200 야간선물 −1.41%. 앤트로픽 공모가 83USD(범위 위), 외국인 매도는 둔화. 수능일 10:00 개장·NXT 프리마켓 없음, 시초와 종가 따로 보기.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-19T08:29:08+09:00",
   "attempted_at_utc": "2026-11-18T23:29:08Z",
-  "workflow_run_id": 44421117525
+  "workflow_run_id": 44421117525,
+  "message_length": 178,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-19T08:29:11+09:00",
+  "result_recorded_at_utc": "2026-11-18T23:29:11Z"
 }
