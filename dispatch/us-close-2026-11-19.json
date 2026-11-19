@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-19",
+  "status": "queued",
+  "queued_at_kst": "2026-11-20T06:27:41+09:00",
+  "queued_at_utc": "2026-11-19T21:27:41Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-19/",
+  "deployment_commit": "cf27e55bf384cecfd420e9b71b4d31a3c262f9f3",
+  "deployment_run_id": 44618803032,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국장 마감 11/19: 앤트로픽 상장일 AI 차익 실현에 나스닥 장중 +2%→−2.25%, S&P500 −2.02%, 다우 −2.19%(5만 아래). AMD 공매도 보고서에 −7.72%, 인튜이트 시간외 −13%대.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
