@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-20",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-20T08:27:54+09:00",
   "queued_at_utc": "2026-11-19T23:27:54Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-20/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 44637693679,
   "deployment_conclusion": "success",
   "kakao_summary": "美 반도체 급락·AMD −7.7%에 야간선물 −3.66%, NXT 하이닉스 −5.7%. 외국인 5일째 매도, 오늘 5,000선 지지와 낙폭 축소 여부가 관건.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-20T08:28:03+09:00",
   "attempted_at_utc": "2026-11-19T23:28:03Z",
-  "workflow_run_id": 44637875244
+  "workflow_run_id": 44637875244,
+  "message_length": 149,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-20T08:28:07+09:00",
+  "result_recorded_at_utc": "2026-11-19T23:28:07Z"
 }
