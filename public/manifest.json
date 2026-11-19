@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-19",
+  "latest_id": "kr-close-2026-11-19",
   "reports": [
+    {
+      "id": "kr-close-2026-11-19",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-19",
+      "title": "11월 19일 한국장 마감",
+      "summary": "코스피 장중 4,963 밀렸다가 +1.39% 5,137 고가 마감, 코스닥 +3.32%",
+      "as_of": "2026-11-19T16:30:00+09:00",
+      "queried_at": "2026-11-19T16:52:00+09:00",
+      "path": "reports/kr-close-2026-11-19/"
+    },
     {
       "id": "kr-pre-2026-11-19",
       "is_test": false,
