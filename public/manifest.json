@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-19",
+  "latest_id": "us-pre-2026-11-19",
   "reports": [
+    {
+      "id": "us-pre-2026-11-19",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-19",
+      "title": "11월 19일 미국장 시작 전 브리핑",
+      "summary": "앤트로픽 83USD 공모·오늘 상장에 나스닥100 선물 +1.73%, 팔로알토 장전 +7.98%",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "queried_at": "2026-11-19T23:09:19+09:00",
+      "path": "reports/us-pre-2026-11-19/"
+    },
     {
       "id": "kr-close-2026-11-19",
       "is_test": false,

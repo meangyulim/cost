@@ -1,0 +1,939 @@
+{
+  "id": "us-pre-2026-11-19",
+  "title": "11월 19일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-19 09:30~16:00 EST 정규장(2026-11-19 23:30~11-20 06:00 KST)",
+  "market_date": "2026-11-19",
+  "session": "pre",
+  "as_of": "2026-11-19T06:00:00+09:00",
+  "queried_at": "2026-11-19T23:09:19+09:00",
+  "is_test": false,
+  "summary": "앤트로픽 83USD 공모·오늘 상장에 나스닥100 선물 +1.73%, 팔로알토 장전 +7.98%",
+  "summary_detail": "11/18 정규장은 S&P500 7,323.63(−0.23%), 나스닥 24,429.88(+0.42%), 다우 50,198.17(−1.11%)였다. 앤트로픽이 공모가를 범위(70~78USD) 위 83USD로 정해 813억USD를 조달했고 오늘 나스닥에서 'ANT'로 거래를 시작한다(CNBC). Yahoo 08:50 EST 선물은 나스닥100 +1.73%, S&P500 +0.96%, 다우 +0.50%, 러셀2000 +0.45%다. 팔로알토는 실적 상회·가이던스 상향으로 장전 367.055USD(+7.98%), 알파벳 +4.03%, 마이크론 +4.41%. 월마트는 실적 상회에도 장전 −1.65%. 신규 실업수당 청구 20.3만 건(+1,000), 필라델피아 연은 제조업지수 6.3(예상 18, CNBC).",
+  "interpretation": "앤트로픽 상장이 AI 기대를 다시 불러와 선물이 크게 올랐다. 다만 이는 장전 가격과 선물이며 정규장에서 유지될지는 미확인이다. 상장 첫날 자금이 기존 기술주에서 빠질 수도 있고, 금리 인상 기조(10년물 5.085%)와 필라델피아 연은 지수 급락(가격지수 상승)은 부담이다. 매수·매도 주체는 확인한 자료가 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,323.63",
+      "unit": "pt",
+      "delta": "−16.90",
+      "percent": "−0.23",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 7,340.53 기준",
+      "range": {
+        "open": "7,355.69",
+        "high": "7,367.68",
+        "low": "7,285.76",
+        "prev_close": "7,340.53"
+      }
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "24,429.88",
+      "unit": "pt",
+      "delta": "+101.50",
+      "percent": "+0.42",
+      "direction": "up",
+      "source": "yf_ixic",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 24,328.38 기준",
+      "range": {
+        "open": "24,486.18",
+        "high": "24,538.78",
+        "low": "24,225.30",
+        "prev_close": "24,328.38"
+      }
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "50,198.17",
+      "unit": "pt",
+      "delta": "−561.25",
+      "percent": "−1.11",
+      "direction": "down",
+      "source": "yf_dji",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 50,759.42 기준",
+      "range": {
+        "open": "50,627.36",
+        "high": "50,637.70",
+        "low": "50,029.35",
+        "prev_close": "50,759.42"
+      }
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,714.31",
+      "unit": "pt",
+      "delta": "+12.44",
+      "percent": "+0.46",
+      "direction": "up",
+      "source": "yf_rut",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 2,701.87 기준",
+      "range": {
+        "open": "2,698.91",
+        "high": "2,736.44",
+        "low": "2,697.71",
+        "prev_close": "2,701.87"
+      }
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "9,652.80",
+      "unit": "pt",
+      "delta": "+9.92",
+      "percent": "+0.10",
+      "direction": "up",
+      "source": "yf_sox",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 9,642.88 기준",
+      "range": {
+        "open": "9,788.63",
+        "high": "9,828.19",
+        "low": "9,493.93",
+        "prev_close": "9,642.88"
+      }
+    },
+    {
+      "name": "VIX",
+      "value": "24.56",
+      "unit": "pt",
+      "delta": "−0.90",
+      "percent": "−3.53",
+      "direction": "down",
+      "source": "yf_vix",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 25.46 기준 · 이번 조회 일봉 종가 24.56(전 회차 16:04 EST 표기 24.62) · 2026-11-19 08:45 EST 22.58(−1.98, −8.06%, 확장 거래시간 값)",
+      "range": {
+        "open": "24.22",
+        "high": "26.26",
+        "low": "23.45",
+        "prev_close": "25.46"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "title": "앤트로픽 83USD 공모, 오늘 나스닥 상장",
+      "fact": "앤트로픽은 공모가를 예상 범위 70~78USD 위인 83USD로 정하고 약 9억8,000만 주(계획 8억2,500만 주에서 확대)를 팔아 813억USD를 조달했다. 완전 희석 시가총액은 약 1.5조USD이며 11/19(목) 나스닥에서 'ANT'로 거래를 시작한다(CNBC, 11/18 게재). CNBC는 813억USD가 스페이스X 기록을 넘었다고 썼지만, 같은 기사에 스페이스X가 초과배정 포함 857억USD를 조달했다는 내용도 있어 '사상 최대' 비교는 기준에 따라 다르다. 영구 선물은 약 25% 높은 시가를 가리켰다(CNBC 라이브). 첫 거래 시각과 시초가는 미확인이다.",
+      "source": "cnbc_ant",
+      "additional_sources": [
+        "cnbc_live"
+      ]
+    },
+    {
+      "title": "선물: 나스닥100 +1.73%, S&P500 +0.96%",
+      "fact": "Yahoo 08:50 EST 선물은 나스닥100(NQ=F) 27,657.00(+470.25, +1.73%), S&P500(ES=F) 7,411.25(+70.75, +0.96%), 다우(YM=F) 50,526(+253, +0.50%), 러셀2000(RTY=F) 2,734.3(+12.3, +0.45%)이다(11/18 일봉 종가 대비, 약 10분 지연). CNBC는 08:54 EST 무렵 나스닥100 +1.8%, S&P500 +1%, 다우 +264pt로 전했고, 텍사스 환경 규제당국의 데이터센터 인허가 검토 재개도 선물을 밀어 올렸다고 했다. VIX는 08:45 EST 22.58로 11/18 종가 24.56보다 낮다.",
+      "source": "yahoo_fut",
+      "additional_sources": [
+        "cnbc_live",
+        "yf_vix"
+      ]
+    },
+    {
+      "title": "AI 관련주 장전 강세: 알파벳 +4.03%, 마이크론 +4.41%",
+      "fact": "09:00 EST 장전 알파벳 293.81USD(+4.03%), 마이크론 736.3831USD(+4.41%), 브로드컴 363.09USD(+2.55%), AMD 539.50USD(+1.77%), 아마존 271.70USD(+1.48%), 엔비디아 152.78USD(+1.21%)였다(11/18 종가 대비, Yahoo 1분봉). CNBC는 앤트로픽 상장을 앞두고 아마존·알파벳·브로드컴을 '대리 투자처'로 꼽았고, 씨게이트 +6%대·웨스턴디지털 +5.8%, 인텔 +4.4%를 전했다. 엔비디아는 이달 26% 하락했다(CNBC).",
+      "source": "cnbc_movers",
+      "additional_sources": [
+        "cnbc_live",
+        "yf_googl",
+        "yf_mu",
+        "yf_amzn",
+        "yf_nvda",
+        "yf_amd"
+      ]
+    },
+    {
+      "title": "팔로알토, 실적 상회·가이던스 상향으로 장전 +7.98%",
+      "fact": "팔로알토네트웍스는 11/18 16:05 EST에 1분기(FY27) 매출 34.45억USD(+39%), 비GAAP EPS 1.05USD, 차세대보안 ARR 97.3억USD(+66%), 잔여이행의무 210억USD(+35%)를 발표했다. 연간 매출 가이던스 145.2~145.7억USD, 비GAAP EPS 4.26~4.30USD로 올렸다. 정규장은 실적 전 339.92USD(+9.90%)였고, 장전 09:00 EST 367.055USD(+27.135, +7.98%)다. 실적 전날 이미 크게 오른 상태에서 추가 상승이다.",
+      "source": "panw_pr",
+      "additional_sources": [
+        "cnbc_movers",
+        "yf_panw"
+      ]
+    },
+    {
+      "title": "월마트, 실적 상회에도 장전 −1.65%",
+      "fact": "월마트 3분기 매출 1,888억USD(예상 1,872억), 조정 EPS 0.65USD(예상 0.64USD), 미국 기존점 +2.9%(예상 수준), 전자상거래 +17%, 광고 +36%였다. 연간 조정 EPS 가이던스를 2.84~2.89USD(종전 2.80~2.87)로 올려 올해 세 번째 상향이다(Yahoo). CNBC는 이 가이던스가 4분기 조정 EPS 0.72~0.77USD를 뜻해 예상 0.79USD보다 낮다고 짚었다. 장전 09:00 EST 125.2526USD(−2.1074, −1.65%).",
+      "source": "yahoo_wmt",
+      "additional_sources": [
+        "cnbc_live",
+        "cnbc_movers",
+        "yf_wmt"
+      ]
+    },
+    {
+      "title": "지표: 실업수당 20.3만 건, 필라델피아 연은 6.3",
+      "fact": "11/14 주간 신규 실업수당 청구(계절조정 속보치)는 203,000건으로 전주 수정치 202,000건보다 1,000건 늘었다. 11/7 주간 계속 청구는 1,763,000건(+70,000)이다(미 노동부, 11/19 08:30 EST). 11월 필라델피아 연은 제조업지수는 6.3으로 예상 18을 밑돌고 10월보다 14포인트 넘게 내렸다. 지불가격 58.2, 수취가격 47로 올랐다(CNBC 인용, 연은 원문 수치는 이번 실행에서 미확인).",
+      "source": "dol_claims",
+      "additional_sources": [
+        "cnbc_live"
+      ]
+    },
+    {
+      "title": "금리·원자재: 10년물 5.085%, 금 −0.71%",
+      "fact": "10년물 국채금리(^TNX)는 08:45 EST 5.085%로 11/18 5.066% 대비 +1.9bp다. 금 선물(GC=F) 08:50 EST 3,715.5USD(−26.4, −0.71%, 11/18 일봉 종가 3,741.9 대비), WTI(CL=F) 83.44USD(+0.18, +0.22%)다. CNBC는 걸프 지역 공습 보도(리야드 건물 미사일 피격 포함)로 유가가 올랐다고 전했다. 10/27~28 FOMC 의사록은 거의 모든 위원이 추가 인상을 적절하다고 봤다(11/18 공개).",
+      "source": "yf_tnx",
+      "additional_sources": [
+        "yf_gc",
+        "yf_cl",
+        "cnbc_live",
+        "cnbc_fomc"
+      ]
+    },
+    {
+      "title": "유나이티드헬스, 이틀 급락 뒤 장전 +0.34%",
+      "fact": "CMS의 부정청구 회수 규정안 충격으로 11/18 349.91USD(−10.21%)에 마감했고 09:00 EST 장전은 351.11USD(+0.34%)다. 규정안은 2027-01-19까지 의견 수렴 단계다(Yahoo, 11/18).",
+      "source": "yahoo_unh",
+      "additional_sources": [
+        "yf_unh"
+      ]
+    },
+    {
+      "title": "11/18 기준 배경: 기술·반도체 약세 추세, 소비·방어 업종 상대 강세",
+      "fact": "11/18 일별 자료(배경 분석, 장전 값 아님) 기준 SPY 20거래일 −5.55%, QQQ −9.06%, DIA −4.92%, IWM −2.30%로 넷 다 20·60일 평균 아래 하락 추세 조건이었다(ETF 대용치이며 지수 값 아님). 업종 ETF의 20거래일 SPY 대비 상대 수익률은 필수소비재 +10.22%p, 부동산 +9.26%p, 유틸리티 +9.24%p, 경기소비재 +8.72%p가 앞섰고 반도체(SOXX) −11.07%p, 기술(XLK) −7.57%p, 에너지 −4.53%p가 가장 약했다. OTC 제외 전체 증권(ETF·우선주 등 포함) 중 상승 비율은 43.76%(5,440 상승·6,683 하락)였다. 엔비디아 20거래일 −31.99%, 세일즈포스 −21.25%, 유나이티드헬스 −16.09%였고 월마트는 +8.12%로 상승 추세 조건이었다. 분할 보정 가격수익률이며 거래량은 순매수를 뜻하지 않는다.",
+      "source": "massive_run",
+      "additional_sources": []
+    }
+  ],
+  "stocks": [
+    {
+      "name": "팔로알토네트웍스",
+      "ticker": "PANW",
+      "price": "339.92",
+      "currency": "USD",
+      "delta": "+30.63",
+      "percent": "+9.90",
+      "direction": "up",
+      "source": "yf_panw",
+      "additional_sources": [
+        "panw_pr",
+        "cnbc_movers"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 309.29USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 367.055USD(+27.135, +7.98%)(11/18 종가 대비, 별도 구간·얇은 체결)",
+      "reason": "매출 34.45억USD(+39%)·연간 가이던스 상향으로 장전 +7.98%. 실적 전날 정규장에서도 +9.90%였다.",
+      "watch": "이틀 합쳐 크게 오른 만큼 개장 초 차익 매물에 장전 상승분을 얼마나 지키는지 본다. 11/18 고가 342.36USD가 아래쪽 기준이다.",
+      "reason_sources": [
+        "panw_pr",
+        "cnbc_movers"
+      ],
+      "range": {
+        "open": "313.75",
+        "high": "342.36",
+        "low": "311.63",
+        "prev_close": "309.29"
+      }
+    },
+    {
+      "name": "알파벳",
+      "ticker": "GOOGL",
+      "price": "282.44",
+      "currency": "USD",
+      "delta": "+2.24",
+      "percent": "+0.80",
+      "direction": "up",
+      "source": "yf_googl",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 280.20USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 293.81USD(+11.37, +4.03%)(11/18 종가 대비, 별도 구간)",
+      "reason": "앤트로픽 상장 대리 투자처로 꼽혀 장전 +4.03%(CNBC).",
+      "watch": "앤트로픽 첫 거래 뒤에도 상승을 지키는지, 오히려 자금이 ANT로 옮겨가는지 본다.",
+      "reason_sources": [
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "282.75",
+        "high": "284.97",
+        "low": "279.69",
+        "prev_close": "280.20"
+      }
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "705.27",
+      "currency": "USD",
+      "delta": "−7.15",
+      "percent": "−1.00",
+      "direction": "down",
+      "source": "yf_mu",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 712.42USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 736.3831USD(+31.1131, +4.41%)(11/18 종가 대비, 별도 구간)",
+      "reason": "AI 칩·저장장치 동반 강세로 장전 +4.41%(CNBC '약 5%').",
+      "watch": "11/17 장중 저가 666.88USD 뒤 반등 흐름이 정규장 종가까지 가는지, 한국 메모리주와 같은 방향인지 본다.",
+      "reason_sources": [
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "718.50",
+        "high": "722.96",
+        "low": "687.33",
+        "prev_close": "712.42"
+      }
+    },
+    {
+      "name": "월마트",
+      "ticker": "WMT",
+      "price": "127.36",
+      "currency": "USD",
+      "delta": "−0.16",
+      "percent": "−0.13",
+      "direction": "down",
+      "source": "yf_wmt",
+      "additional_sources": [
+        "yahoo_wmt",
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 127.52USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 125.2526USD(−2.1074, −1.65%)(11/18 종가 대비, 별도 구간)",
+      "reason": "매출·EPS는 예상을 넘었지만 기존점 +2.9%가 기대 수준에 그치고 4분기 EPS 암시치가 예상보다 낮아 장전 −1.65%.",
+      "watch": "11/18 저가 125.07USD 아래로 밀리는지, 소비주 전반으로 약세가 번지는지 본다.",
+      "reason_sources": [
+        "yahoo_wmt",
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "126.44",
+        "high": "127.77",
+        "low": "125.07",
+        "prev_close": "127.52"
+      }
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "150.96",
+      "currency": "USD",
+      "delta": "−4.50",
+      "percent": "−2.89",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "cnbc_live",
+        "cnbc_movers"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 155.46USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 152.78USD(+1.82, +1.21%)(11/18 종가 대비, 별도 구간)",
+      "reason": "5거래일 연속 하락 뒤 장전 +1.21%로 다른 AI주보다 반등이 작다.",
+      "watch": "11/18 저가 150.40USD를 지키는지, 장전 반등을 정규장에서 유지하는지 본다.",
+      "reason_sources": [
+        "cnbc_live",
+        "cnbc_movers"
+      ],
+      "range": {
+        "open": "159.19",
+        "high": "159.70",
+        "low": "150.40",
+        "prev_close": "155.46"
+      }
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "530.14",
+      "currency": "USD",
+      "delta": "+26.73",
+      "percent": "+5.31",
+      "direction": "up",
+      "source": "yf_amd",
+      "additional_sources": [
+        "cnbc_movers"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 503.41USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 539.50USD(+9.36, +1.77%)(11/18 종가 대비, 별도 구간)",
+      "reason": "11/18 +5.31%에 이어 장전 +1.77%로 칩 강세 동참.",
+      "watch": "11/18 고가 532.17USD 위를 지키는지 본다.",
+      "reason_sources": [
+        "cnbc_movers"
+      ],
+      "range": {
+        "open": "509.89",
+        "high": "532.17",
+        "low": "495.20",
+        "prev_close": "503.41"
+      }
+    },
+    {
+      "name": "아마존",
+      "ticker": "AMZN",
+      "price": "267.74",
+      "currency": "USD",
+      "delta": "+9.85",
+      "percent": "+3.82",
+      "direction": "up",
+      "source": "yf_amzn",
+      "additional_sources": [
+        "cnbc_live"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 257.89USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 271.70USD(+3.96, +1.48%)(11/18 종가 대비, 별도 구간)",
+      "reason": "앤트로픽 투자사로 거론되며 11/18 +3.82%, 장전 +1.48%(CNBC).",
+      "watch": "앤트로픽 첫 거래 가격이 아마존 주가에 계속 반영되는지 본다.",
+      "reason_sources": [
+        "cnbc_live"
+      ],
+      "range": {
+        "open": "259.81",
+        "high": "268.29",
+        "low": "259.51",
+        "prev_close": "257.89"
+      }
+    },
+    {
+      "name": "유나이티드헬스",
+      "ticker": "UNH",
+      "price": "349.91",
+      "currency": "USD",
+      "delta": "−39.77",
+      "percent": "−10.21",
+      "direction": "down",
+      "source": "yf_unh",
+      "additional_sources": [
+        "yahoo_unh"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-19T06:00:00+09:00",
+      "session": "2026-11-18 정규장 종가(16:00 EST = 11/19 06:00 KST) · 11/17 종가 389.68USD 기준 · 2026-11-19 09:00 EST(23:00 KST) 장전 351.11USD(+1.20, +0.34%)(11/18 종가 대비, 별도 구간)",
+      "reason": "CMS 회수 규정안 충격으로 11/18 −10.21%, 장전은 보합권.",
+      "watch": "11/18 저가 342.46USD를 지키는지, 회사·업계의 대응 발표를 본다.",
+      "reason_sources": [
+        "yahoo_unh"
+      ],
+      "range": {
+        "open": "387.14",
+        "high": "387.53",
+        "low": "342.46",
+        "prev_close": "389.68"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "5.085",
+    "unit": "%",
+    "delta": "+1.9bp",
+    "direction": "up",
+    "source": "yf_tnx",
+    "additional_sources": [
+      "cnbc_fomc"
+    ],
+    "as_of": "2026-11-19T22:45:00+09:00",
+    "session": "2026-11-19 08:45 EST(22:45 KST) Yahoo ^TNX 값 · 11/18 일봉 5.066% 대비 · 확정값 아님. 참고: 원·달러 1,327.08(Yahoo KRW=X 글로벌 호가, 09:00 EST, 11/18 일봉 1,333.01 대비 −5.93) · 서울 외환시장 종가 아님"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-19 23:30 KST",
+      "title": "미국 정규장 개장(09:30 EST)",
+      "detail": "나스닥100 선물 +1.73%와 팔로알토 장전 +7.98%가 개장 뒤 유지되는지, 월마트가 11/18 저가 125.07USD 아래로 밀리는지 본다."
+    },
+    {
+      "label": "확인 순서: 11/19(목) 개장 뒤",
+      "title": "앤트로픽(ANT) 첫 거래",
+      "detail": "공모가 83USD 대비 시초가와 이후 흐름, 첫 거래 뒤 알파벳·아마존·칩주에서 돈이 빠지는지 본다. 첫 거래 시각은 미확인."
+    },
+    {
+      "label": "2026-11-20 06:00 KST",
+      "title": "미국 정규장 마감(16:00 EST)",
+      "detail": "장전 상승이 종가까지 이어졌는지, 다우·러셀까지 오름세가 넓어졌는지 본다."
+    },
+    {
+      "label": "2026-11-20 09:00 KST",
+      "title": "한국장 개장",
+      "detail": "미국 AI·메모리주 장전 강세(마이크론 +4.41%)가 정규장 종가로 확인된 뒤 반도체 개장 초와 종가를 나눠 본다."
+    },
+    {
+      "label": "2026-11-26~27",
+      "title": "추수감사절 휴장·조기 폐장",
+      "detail": "NYSE는 11/26(목) 휴장, 11/27(금) 13:00 EST 조기 폐장이다. 다음 주 거래일이 짧다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "market_date": "2026-11-19",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-19T23:00:30+09:00",
+    "note": "NYSE 공식 페이지를 이번 실행에서 WebFetch로 직접 열어 2026 휴장(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/19(목)이 없음을 확인했다. 정상 거래일·정규장 09:30~16:00 ET. 11/1 서머타임 종료 뒤 EST(UTC−5)이므로 정규장 = 2026-11-19 23:30~11-20 06:00 KST. 직전 거래일 11/18(수)도 목록에 없는 정상 거래일."
+  },
+  "calculation_notes": "Yahoo 차트 API(2026-11-19 23:01~23:04 KST 조회) 일봉의 11/18·11/17 정규장 종가로 계산: S&P 500 7,323.63−7,340.53=−16.90(−0.23%); 나스닥 24,429.88−24,328.38=+101.50(+0.42%); 다우 50,198.17−50,759.42=−561.25(−1.11%); 러셀 2,714.31−2,701.87=+12.44(+0.46%); SOX 9,652.80−9,642.88=+9.92(+0.10%); VIX 24.56−25.46=−0.90(−3.535%), 장전 22.58−24.56=−1.98(−8.06%). 종목 11/18: PANW 339.92−309.29=+30.63(+9.903%); GOOGL 282.44−280.20=+2.24(+0.799%); MU 705.27−712.42=−7.15(−1.004%); WMT 127.36−127.52=−0.16(−0.125%); NVDA 150.96−155.46=−4.50(−2.895%); AMD 530.14−503.41=+26.73(+5.310%); AMZN 267.74−257.89=+9.85(+3.819%); UNH 349.91−389.68=−39.77(−10.206%). 장전(09:00 EST 1분봉, 11/18 종가 대비): PANW 367.055−339.92=+27.135(+7.983%); GOOGL 293.81−282.44=+11.37(+4.026%); MU 736.3831−705.27=+31.1131(+4.412%); WMT 125.2526−127.36=−2.1074(−1.655%); NVDA 152.78−150.96=+1.82(+1.206%); AMD 539.50−530.14=+9.36(+1.766%); AMZN 271.70−267.74=+3.96(+1.479%); UNH 351.11−349.91=+1.20(+0.343%); AVGO 363.09/354.05−1=+2.553%. 선물(08:50 EST, 11/18 일봉 종가 대비): ES 7,411.25−7,340.50=+70.75(+0.964%); NQ 27,657.00−27,186.75=+470.25(+1.730%); YM 50,526−50,273=+253(+0.503%); RTY 2,734.3−2,722.0=+12.3(+0.452%). 10년물 5.085−5.066=+1.9bp; 금 3,715.5−3,741.9=−26.4(−0.706%); WTI 83.44−83.26=+0.18(+0.216%); 원·달러 1,327.08−1,333.01=−5.93. 이번 조회 일봉의 11/18 고가·저가 일부(PANW 고가 342.36, UNH 저가 342.46)는 전 회차 장 직후 값(342.07, 342.45)과 다르며 이번 값을 썼다.",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행(2026-11-19 23:00 KST 무렵) WebFetch로 원문 열람. 11/19 휴장·조기폐장 아님."
+    },
+    {
+      "id": "cnbc_ant",
+      "label": "CNBC · 앤트로픽 IPO 공모가",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "note": "이번 실행 열람: 83USD(범위 70~78), 약 9.8억 주(계획 8.25억), 813억USD, 완전 희석 약 1.5조USD, 11/19 나스닥 'ANT'. 스페이스X 초과배정 포함 857억USD 언급."
+    },
+    {
+      "id": "cnbc_live",
+      "label": "CNBC · 11/19 장전 라이브",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "note": "이번 실행 열람(08:54 EST 갱신 기준, 상대 시각 환산): 나스닥100 +1.8%, S&P500 +1%, 다우 +264pt; 앤트로픽 영구선물 약 25% 시초 상승 시사; 아마존 +2.4%·알파벳 +4.1%·브로드컴 +2.9%(08:07 EST 무렵); 엔비디아 이달 −26%; 마이크론 약 +5%; 필라델피아 연은 6.3(예상 18), 지불가격 58.2, 수취가격 47; 실업수당 203,000; 월마트 4분기 EPS 암시치 0.72~0.77 vs 예상 0.79; 텍사스 데이터센터 인허가 재개; 걸프 공습 보도로 유가 상승."
+    },
+    {
+      "id": "cnbc_movers",
+      "label": "CNBC · 11/19 장전 특징주",
+      "url": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html",
+      "note": "이번 실행 열람(08:55 EST 갱신): PANW +10%, 인텔 +4.4%, 마벨 +4.2%, AMD +2.8%, 브로드컴 +2.5%, 엔비디아 +1.5%, 씨게이트 +6%대, 웨스턴디지털 +5.8%, 블룸에너지 약 +8%, 월마트 −1%대, TTWO −1%."
+    },
+    {
+      "id": "yahoo_wmt",
+      "label": "Yahoo Finance · 월마트 3분기 실적",
+      "url": "https://finance.yahoo.com/markets/stocks/article/walmart-beats-q3-earnings-expectations-raises-2026-outlook-again-120803355.html",
+      "note": "이번 실행 열람(11/19 06:08 CST 게재): 매출 1,888억USD(예상 1,872억), 조정 EPS 0.65(예상 0.64), 미국 기존점 +2.9%, 전자상거래 +17%, 광고 +36%, 샘스클럽 +9.7%, 연간 조정 EPS 2.84~2.89(종전 2.80~2.87), 매출 성장 4.9~5.2%(종전 4~5%). 회사 IR 원문은 이번 실행에서 열지 못함."
+    },
+    {
+      "id": "panw_pr",
+      "label": "StockTitan · 팔로알토 1분기(FY27) 실적 발표문",
+      "url": "https://www.stocktitan.net/news/PANW/palo-alto-networks-reports-fiscal-first-quarter-2027-financial-z0ztbt5rypny.html",
+      "note": "이번 실행 열람: 11/18 16:05 EST 발표, 매출 3,445M USD(+39%), 비GAAP EPS 1.05, NGS ARR 97.3억(+66%), RPO 210억(+35%), FY27 매출 145.2~145.7억·EPS 4.26~4.30, 2분기 매출 35.3~35.5억."
+    },
+    {
+      "id": "dol_claims",
+      "label": "미 노동부 · 주간 실업수당 청구",
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "note": "이번 실행 열람(PDF, 11/19 08:30 ET 엠바고): 11/14 주간 203,000(+1,000, 전주 수정 202,000), 4주 평균 197,750; 11/7 주간 계속 청구 1,763,000(+70,000)."
+    },
+    {
+      "id": "cnbc_fomc",
+      "label": "CNBC · 10월 FOMC 의사록",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "note": "직전 us-close-2026-11-18 회차에서 열람한 원문. 이번 회차는 '거의 모든 위원이 추가 인상 적절' 배경 문장에만 사용."
+    },
+    {
+      "id": "yahoo_unh",
+      "label": "Yahoo Finance · 유나이티드헬스 CMS 규정안",
+      "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-sinks-12-cms-fraud-194116346.html",
+      "note": "직전 us-close-2026-11-18 회차에서 열람한 원문(의견 수렴 2027-01-19). 가격은 이번 실행 Yahoo 차트 API."
+    },
+    {
+      "id": "yahoo_fut",
+      "label": "Yahoo Finance · 미국 지수 선물",
+      "url": "https://finance.yahoo.com/markets/commodities/",
+      "note": "차트 API(ES=F, NQ=F, YM=F, RTY=F) 08:50 EST 마지막 값과 11/18 일봉 종가. 약 10분 지연."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/44539056960",
+      "show_public": false,
+      "note": "요청 커밋 3675a23a0794554a78556e5766c6e1b13e4b7104(end_date 2026-11-18, watch PANW·NVDA·UNH·WMT·HUM·CRM·AMD)의 Collect US briefing inputs 실행 성공(run 44539056960). artifact us-analysis-44539056960를 GitHub MCP 임시 링크로 받아 sha256 지문이 digest와 일치함을 확인. requested_end_date·data_date 2026-11-18, queried_at 2026-11-19T23:08:31+09:00, 39개 요청. 관찰 종목 7개의 11/18 정규장 종가·전일 종가가 Yahoo와 일치. 배경으로만 사용, 확률 없음(forecast_probability null, not_validated)."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo Finance · 나스닥 종합",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo Finance · 다우존스",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo Finance · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_sox",
+      "label": "Yahoo Finance · 필라델피아 반도체",
+      "url": "https://finance.yahoo.com/quote/%5ESOX/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo Finance · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회. 11/19 08:45 EST 확장 거래시간 값 22.58."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo Finance · 10년물(^TNX)",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_gc",
+      "label": "Yahoo Finance · 금 선물(GC=F)",
+      "url": "https://finance.yahoo.com/quote/GC%3DF/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_cl",
+      "label": "Yahoo Finance · WTI 원유 선물(CL=F)",
+      "url": "https://finance.yahoo.com/quote/CL%3DF/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_panw",
+      "label": "Yahoo Finance · PANW",
+      "url": "https://finance.yahoo.com/quote/PANW/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_googl",
+      "label": "Yahoo Finance · GOOGL",
+      "url": "https://finance.yahoo.com/quote/GOOGL/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_mu",
+      "label": "Yahoo Finance · MU",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_wmt",
+      "label": "Yahoo Finance · WMT",
+      "url": "https://finance.yahoo.com/quote/WMT/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo Finance · NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo Finance · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_amzn",
+      "label": "Yahoo Finance · AMZN",
+      "url": "https://finance.yahoo.com/quote/AMZN/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    },
+    {
+      "id": "yf_unh",
+      "label": "Yahoo Finance · UNH",
+      "url": "https://finance.yahoo.com/quote/UNH/",
+      "note": "차트 API 일봉·1분봉(확장시간 포함) 2026-11-19 23:01~23:04 KST 조회."
+    }
+  ],
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-19T08:59:00-05:00",
+      "kst": "2026-11-19T22:59:00+09:00",
+      "utc": "2026-11-19T13:59:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-19T08:59:21-05:00",
+      "kst": "2026-11-19T22:59:21+09:00",
+      "utc": "2026-11-19T13:59:21Z"
+    },
+    "start_offset_seconds": 21,
+    "delay_seconds": 21,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, GitHub MCP, WebSearch·WebFetch(NYSE·CNBC·Yahoo·StockTitan·미 노동부 PDF 열람 성공, 필라델피아 연은 페이지는 수치 미표시), Yahoo Finance 차트 API.",
+    "model_setting": "not_verified",
+    "request_commit": "3675a23a0794554a78556e5766c6e1b13e4b7104",
+    "analysis_run_id": 44539056960,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "analysis_status": "success (artifact us-analysis-44539056960 지문 일치, data_date 2026-11-18, 전일 정규장 배경 분석으로 사용)",
+    "analysis_artifact": "us-analysis-44539056960",
+    "analysis_digest_match": true,
+    "analysis_data_date": "2026-11-18",
+    "dispatch_record": "dispatch/us-pre-2026-11-19.json"
+  },
+  "reading": {
+    "headline": "앤트로픽 상장에 AI주 장전 강세",
+    "summary_points": [
+      "앤트로픽 83USD 공모, 오늘 나스닥 상장.",
+      "나스닥100 선물 +1.73%, 다우는 +0.50%.",
+      "팔로알토 +7.98%, 월마트 −1.65%(장전)."
+    ],
+    "notices": [
+      "지수·종목 기본값은 11/18 정규장 종가다. 장전 값(09:00 EST)과 선물(08:50 EST, 약 10분 지연)은 얇은 체결이라 개장 뒤 크게 바뀔 수 있다.",
+      "앤트로픽 첫 거래 시각·시초가는 미확인이다. 필라델피아 연은 수치는 CNBC 보도로만 확인했고, 월마트 수치는 회사 원문이 아닌 Yahoo 보도다."
+    ],
+    "issues": [
+      {
+        "title": "앤트로픽 83USD 공모, 오늘 상장",
+        "preview": "범위 70~78USD 상회 · 813억USD 조달.",
+        "points": [
+          "완전 희석 시가총액 약 1.5조USD(CNBC).",
+          "첫 거래 시각·시초가는 아직 미확인."
+        ],
+        "meaning": "AI 기대를 되살리지만, 기존 기술주 자금을 끌어갈 수도 있다."
+      },
+      {
+        "title": "선물: 나스닥100 +1.73%",
+        "preview": "S&P500 +0.96%, 다우 +0.50%(08:50 EST).",
+        "points": [
+          "VIX 22.58로 11/18 종가 24.56보다 낮다."
+        ],
+        "meaning": "어제보다 반등 폭이 넓지만 여전히 기술주 중심이다."
+      },
+      {
+        "title": "AI 관련주 장전 강세",
+        "preview": "알파벳 +4.03%, 마이크론 +4.41%.",
+        "points": [
+          "엔비디아는 +1.21%로 상대적으로 약하다.",
+          "씨게이트·웨스턴디지털도 +6%대·+5.8%(CNBC)."
+        ],
+        "meaning": "'앤트로픽 수혜주'로 돈이 몰리고 있다."
+      },
+      {
+        "title": "팔로알토 장전 +7.98%",
+        "preview": "매출 +39%, 연간 가이던스 상향.",
+        "points": [
+          "실적 전날 정규장에서도 +9.90% 올랐다."
+        ],
+        "meaning": "소프트웨어 매도 속에서 보안주는 숫자로 버텼다."
+      },
+      {
+        "title": "월마트, 실적 상회에도 −1.65%",
+        "preview": "기존점 +2.9% 기대 수준, 4분기 암시치 낮음.",
+        "points": [
+          "연간 조정 EPS 2.84~2.89USD로 세 번째 상향."
+        ],
+        "meaning": "좋은 숫자에도 '다음 분기'를 더 깐깐하게 본다."
+      },
+      {
+        "title": "실업수당 20.3만 건, 필라델피아 연은 6.3",
+        "preview": "고용 견조 · 제조업 둔화, 가격지수 상승.",
+        "points": [
+          "계속 청구 176.3만 건(+7만)."
+        ],
+        "meaning": "둔화와 물가 압력이 겹쳐 금리 부담을 덜어주진 못한다."
+      },
+      {
+        "title": "10년물 5.085%, 금 −0.71%",
+        "preview": "금리 +1.9bp, WTI +0.22%.",
+        "points": [
+          "의사록은 거의 모든 위원이 추가 인상 적절."
+        ],
+        "meaning": "인상 기조는 그대로라 기술주 반등의 천장이 될 수 있다."
+      },
+      {
+        "title": "유나이티드헬스 장전 보합",
+        "preview": "11/18 −10.21% 뒤 장전 +0.34%.",
+        "points": [
+          "CMS 규정안은 2027-01-19까지 의견 수렴."
+        ],
+        "meaning": "건강보험주는 반등보다 바닥 확인 단계다."
+      },
+      {
+        "title": "11/18 기준 배경: 반도체·기술 약세 추세",
+        "preview": "반도체 ETF 20일 SPY 대비 −11.07%p(11/18).",
+        "points": [
+          "11/18 전체 증권 중 43.76%가 올랐다.",
+          "필수소비재·부동산·유틸리티가 상대 강세."
+        ],
+        "meaning": "오늘 AI주 반등은 긴 하락 추세 안에서 나오는 반등이다."
+      }
+    ],
+    "interpretation_points": [
+      "장전 AI주 상승이 앤트로픽 첫 거래 뒤에도 유지되는지 본다.",
+      "다우·러셀까지 오름세가 넓어지는지 본다.",
+      "10년물이 5.1%를 넘어 다시 오르는지 본다."
+    ],
+    "stocks": {
+      "PANW": {
+        "reason": "실적 상회·가이던스 상향, 장전 +7.98%.",
+        "watch": "개장 초 차익 매물에 상승분을 지키는지 본다."
+      },
+      "GOOGL": {
+        "reason": "앤트로픽 대리 투자처로 장전 +4.03%.",
+        "watch": "ANT 첫 거래 뒤 상승 유지 여부."
+      },
+      "MU": {
+        "reason": "AI 메모리 강세로 장전 +4.41%.",
+        "watch": "정규장 종가 유지와 한국 메모리주 방향."
+      },
+      "WMT": {
+        "reason": "실적 상회에도 4분기 암시치가 낮아 장전 −1.65%.",
+        "watch": "11/18 저가 125.07USD 아래로 밀리는지."
+      },
+      "NVDA": {
+        "reason": "5일 하락 뒤 장전 +1.21%, 반등이 작다.",
+        "watch": "11/18 저가 150.40USD 방어 여부."
+      },
+      "AMD": {
+        "reason": "11/18 +5.31%에 이어 장전 +1.77%.",
+        "watch": "11/18 고가 532.17USD 위 유지 여부."
+      },
+      "AMZN": {
+        "reason": "앤트로픽 투자사로 장전 +1.48%.",
+        "watch": "ANT 가격이 계속 반영되는지."
+      },
+      "UNH": {
+        "reason": "규정안 충격 −10.21% 뒤 장전 보합.",
+        "watch": "11/18 저가 342.46USD 방어 여부."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "정규장 개장(23:30 KST)",
+        "detail": "선물·장전 상승 유지 여부를 본다."
+      },
+      {
+        "title": "앤트로픽 첫 거래(시각 미확인)",
+        "detail": "83USD 대비 시초가와 기존 AI주 자금 이동."
+      },
+      {
+        "title": "정규장 마감(11/20 06:00 KST)",
+        "detail": "오름세가 다우·러셀로 넓어졌는지."
+      },
+      {
+        "title": "한국장 개장(11/20 09:00 KST)",
+        "detail": "미국 메모리 강세의 반도체 반영."
+      },
+      {
+        "title": "11/26 휴장·11/27 조기 폐장",
+        "detail": "추수감사절 주간, 거래일이 짧다."
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 거래시간·휴장일",
+      "cnbc_ant": "CNBC · 앤트로픽 IPO 공모가",
+      "cnbc_live": "CNBC · 11/19 장전 라이브",
+      "cnbc_movers": "CNBC · 11/19 장전 특징주",
+      "yahoo_wmt": "Yahoo Finance · 월마트 3분기 실적",
+      "panw_pr": "StockTitan · 팔로알토 1분기(FY27) 실적 발표문",
+      "dol_claims": "미 노동부 · 주간 실업수당 청구",
+      "cnbc_fomc": "CNBC · 10월 FOMC 의사록",
+      "yahoo_unh": "Yahoo Finance · 유나이티드헬스 CMS 규정안",
+      "yahoo_fut": "Yahoo Finance · 미국 지수 선물",
+      "massive_run": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "yf_gspc": "Yahoo Finance · S&P 500",
+      "yf_ixic": "Yahoo Finance · 나스닥 종합",
+      "yf_dji": "Yahoo Finance · 다우존스",
+      "yf_rut": "Yahoo Finance · 러셀 2000",
+      "yf_sox": "Yahoo Finance · 필라델피아 반도체",
+      "yf_vix": "Yahoo Finance · VIX",
+      "yf_tnx": "Yahoo Finance · 10년물(^TNX)",
+      "yf_gc": "Yahoo Finance · 금 선물(GC=F)",
+      "yf_cl": "Yahoo Finance · WTI 원유 선물(CL=F)",
+      "yf_panw": "Yahoo Finance · PANW",
+      "yf_googl": "Yahoo Finance · GOOGL",
+      "yf_mu": "Yahoo Finance · MU",
+      "yf_wmt": "Yahoo Finance · WMT",
+      "yf_nvda": "Yahoo Finance · NVDA",
+      "yf_amd": "Yahoo Finance · AMD",
+      "yf_amzn": "Yahoo Finance · AMZN",
+      "yf_unh": "Yahoo Finance · UNH"
+    },
+    "key_figure": {
+      "value": "83USD",
+      "label": "앤트로픽 공모가",
+      "note": "범위 70~78USD 상회",
+      "detail": "약 9.8억 주 · 813억USD 조달 · 오늘 나스닥 'ANT' 상장(CNBC)",
+      "direction": "up"
+    },
+    "view": {
+      "headline": "앤트로픽 상장이 AI 기대에 다시 불을 붙였어요. 다만 아직 선물과 장전 값이라 정규장에서 확인이 필요해요.",
+      "mood": {
+        "level": "relief",
+        "note": "어제는 좋은 실적에도 지수가 밀린 '경계'였는데, 앤트로픽이 공모가를 범위 위로 정하고 VIX가 22.58로 내려오며 '안도' 쪽으로 옮겨 가는 중이에요. 금리 인상 기조가 그대로라 들뜬 분위기까진 아니에요."
+      },
+      "drivers": [
+        {
+          "title": "'AI는 아직 돈이 된다'는 확인.",
+          "text": "앤트로픽이 공모가를 70~78USD 범위 위 83USD로 정하고 813억USD를 모았어요. 이달 엔비디아가 26% 빠지며 식었던 AI 기대에, 큰 수요가 여전히 있다는 신호로 받아들여지는 것으로 보여요.",
+          "sources": [
+            "cnbc_ant",
+            "cnbc_live"
+          ]
+        },
+        {
+          "title": "수혜주 찾기, 엔비디아는 뒤처짐.",
+          "text": "알파벳 +4.03%, 마이크론 +4.41%, 씨게이트 +6%대인데 엔비디아는 +1.21%예요. 시장이 '앤트로픽과 직접 연결된 곳'을 먼저 사는 모습이고, 엔비디아의 경영 공백 걱정은 남아 있는 걸로 읽혀요.",
+          "sources": [
+            "cnbc_movers",
+            "cnbc_live",
+            "yf_nvda",
+            "massive_run"
+          ]
+        },
+        {
+          "title": "새 대형주로 자금이 옮겨 갈 수도.",
+          "text": "1.5조USD 규모 회사가 새로 거래되면 지수·펀드가 담기 위해 다른 기술주를 팔 수 있다는 걱정이 나올 수 있어요. 이건 가능한 경로일 뿐 실제 자금 이동은 확인한 자료가 아니에요.",
+          "sources": [
+            "cnbc_ant"
+          ]
+        },
+        {
+          "title": "실적은 '다음 분기'로 평가.",
+          "text": "팔로알토는 가이던스를 올려 장전 +7.98%, 월마트는 숫자가 좋았는데도 4분기 암시치가 낮아 −1.65%예요. 투자자들이 앞으로의 숫자에 더 민감한 분위기예요.",
+          "sources": [
+            "panw_pr",
+            "yahoo_wmt",
+            "cnbc_live"
+          ]
+        },
+        {
+          "title": "금리 부담은 그대로.",
+          "text": "10년물이 5.085%로 소폭 오르고, 필라델피아 연은 지수가 6.3으로 내려가면서도 가격지수는 올랐어요(CNBC). 성장 둔화와 물가 압력이 겹쳐 연준 인상 기대를 낮춰주진 못해요.",
+          "sources": [
+            "yf_tnx",
+            "cnbc_live",
+            "dol_claims",
+            "cnbc_fomc"
+          ]
+        }
+      ],
+      "history": [],
+      "paths": {
+        "good": "정규장에서 나스닥이 장전 상승을 지키고 다우·러셀2000까지 플러스로 마감하면 반등이 넓어진다는 근거가 돼요. 엔비디아가 11/18 고가 159.70USD 쪽으로 올라서고, 앤트로픽 첫 거래 뒤에도 알파벳·마이크론이 오름세를 유지하면 '안도'가 이어질 수 있어요. 다음 한국장(11/20)은 반도체 개장 초와 종가를 나눠 보면 돼요.",
+        "caution": "앤트로픽이 거래를 시작한 뒤 다른 AI주의 장전 상승분이 빠르게 사라지면 자금이 새 종목으로 옮겨 가는 신호일 수 있어요. 엔비디아가 11/18 저가 150.40USD 아래로 밀리거나 10년물이 다시 5.1%를 넘으면 장 후반 기술주가 흔들릴 수 있어요. 팔로알토처럼 이틀 크게 오른 종목은 개장 초 차익 매물이 나올 수 있어요. 종가 방향과 장 초반 흔들림은 다를 수 있어요."
+      },
+      "estimated_at": "2026-11-19T23:09:19+09:00",
+      "input_cutoff": "2026-11-19T23:08:31+09:00",
+      "added_later": false
+    }
+  }
+}
