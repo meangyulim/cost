@@ -1,13 +1,13 @@
 {
   "end_date": "2026-11-18",
   "watch": [
-    "NVDA",
     "PANW",
-    "TJX",
-    "TGT",
-    "LOW",
-    "MU",
-    "CRM"
+    "NVDA",
+    "UNH",
+    "WMT",
+    "HUM",
+    "CRM",
+    "AMD"
   ],
-  "requested_at": "2026-11-19T06:16:19+09:00"
+  "requested_at": "2026-11-19T23:00:01+09:00"
 }
