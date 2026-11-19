@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-close-2026-11-19",
+  "status": "queued",
+  "queued_at_kst": "2026-11-19T16:54:37+09:00",
+  "queued_at_utc": "2026-11-19T07:54:37Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-19/",
+  "deployment_commit": "09f938f8054a4b38b910e120a4d1f552fc360bcd",
+  "deployment_run_id": 44483148647,
+  "deployment_conclusion": "success",
+  "kakao_summary": "코스피 장중 4,963까지 밀렸다 +1.39% 5,137.89 최고치 마감, 코스닥 +3.32%. 한중 FTA 타결에 엔터·항공 급등, 삼성전기 +9.26%. 외국인 4,055억 순매도(잠정). 밤 앤트로픽 상장 주목.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
