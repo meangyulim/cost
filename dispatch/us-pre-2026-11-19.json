@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-19",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-19T23:11:14+09:00",
   "queued_at_utc": "2026-11-19T14:11:14Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-19/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "앤트로픽 공모가 83USD로 범위 상회, 오늘 나스닥 상장. 나스닥100 선물 +1.73%, S&P500 +0.96%. 장전 팔로알토 +7.98%, 알파벳 +4.03%, 마이크론 +4.41%, 월마트 −1.65%. 실업수당 20.3만 건.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-19T23:11:23+09:00",
+  "attempted_at_utc": "2026-11-19T14:11:23Z",
+  "workflow_run_id": 44541029332
 }
