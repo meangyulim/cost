@@ -1,0 +1,14 @@
+{
+  "report_id": "us-pre-2026-11-20",
+  "status": "queued",
+  "queued_at_kst": "2026-11-20T23:11:09+09:00",
+  "queued_at_utc": "2026-11-20T14:11:09Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-20/",
+  "deployment_commit": "503c098126b2101628a4519218d227d183a79ee5",
+  "deployment_run_id": 44750899031,
+  "deployment_conclusion": "success",
+  "kakao_summary": "AI 매도 이틀째. 나스닥100 선물 −1.71%, 다우 −0.32%(08:50 EST). 앤트로픽 장전 −10.23%, 인튜이트 −10.27%(전망 하향), 로스 −5.73%. 코스피 −5.21%·대만 −5.65%. VIX 31.23, 10년물 4.972%.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
