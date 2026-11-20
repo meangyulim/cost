@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-20",
+  "latest_id": "us-close-2026-11-20",
   "reports": [
+    {
+      "id": "us-close-2026-11-20",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-20",
+      "title": "11월 20일 미국장 마감 브리핑",
+      "summary": "엔비디아 SEC 회계 조사 보도에 AI 투매, 나스닥 −5.28%·반도체 −10.73%",
+      "as_of": "2026-11-21T06:00:00+09:00",
+      "queried_at": "2026-11-21T06:26:00+09:00",
+      "path": "reports/us-close-2026-11-20/"
+    },
     {
       "id": "us-pre-2026-11-20",
       "is_test": false,
