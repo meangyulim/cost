@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-20",
+  "latest_id": "kr-close-2026-11-20",
   "reports": [
+    {
+      "id": "kr-close-2026-11-20",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-20",
+      "title": "11월 20일 한국장 마감",
+      "summary": "'검은 금요일' 코스피 −5.21% 4,869.96, 코스닥 −5.71%… 양 시장 매도 사이드카",
+      "as_of": "2026-11-20T15:30:00+09:00",
+      "queried_at": "2026-11-20T16:02:00+09:00",
+      "path": "reports/kr-close-2026-11-20/"
+    },
     {
       "id": "kr-pre-2026-11-20",
       "is_test": false,
