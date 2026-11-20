@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-19",
+  "end_date": "2026-11-20",
   "watch": [
     "NVDA",
-    "AMD",
     "MU",
-    "INTU",
-    "ROST",
+    "AMD",
     "AVGO",
+    "INTU",
+    "TSM",
     "GAP"
   ],
-  "requested_at": "2026-11-20T23:00:48+09:00"
+  "requested_at": "2026-11-21T06:16:43+09:00"
 }
