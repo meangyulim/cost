@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-close-2026-11-20",
+  "status": "queued",
+  "queued_at_kst": "2026-11-20T16:06:08+09:00",
+  "queued_at_utc": "2026-11-20T07:06:08Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-20/",
+  "deployment_commit": "834883d57bd98c5d73d4d74bf553e6dd17e19176",
+  "deployment_run_id": 44692346013,
+  "deployment_conclusion": "success",
+  "kakao_summary": "11/20 한국 마감: 코스피 4,869.96(−5.21%), 코스닥 645.68(−5.71%) 양 시장 매도 사이드카. 외국인·기관 2조원 넘게 순매도(잠정), 삼성전자 −7.01%·하이닉스 −5.92%. 삼성·TSMC 中 출하 중단 보도, 닛케이·대만도 −5~6%.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
