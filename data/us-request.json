@@ -3,11 +3,11 @@
   "watch": [
     "NVDA",
     "AMD",
-    "PANW",
-    "WMT",
-    "GOOGL",
     "MU",
-    "AVGO"
+    "INTU",
+    "ROST",
+    "AVGO",
+    "GAP"
   ],
-  "requested_at": "2026-11-20T06:16:57+09:00"
+  "requested_at": "2026-11-20T23:00:48+09:00"
 }
