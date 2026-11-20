@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-20",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-21T06:27:21+09:00",
   "queued_at_utc": "2026-11-20T21:27:21Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-20/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 44820318327,
   "deployment_conclusion": "success",
   "kakao_summary": "11/20 미국 마감: 엔비디아 SEC 회계조사 보도에 AI 투매. 나스닥 −5.28%, S&P500 −3.70%(조정 진입), 반도체지수 −10.73%, VIX 39.58. 엔비디아 −14.01%, 마이크론 −13.89%. 월요일 한국 반도체 개장 주의.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-21T06:27:31+09:00",
   "attempted_at_utc": "2026-11-20T21:27:31Z",
-  "workflow_run_id": 44820464986
+  "workflow_run_id": 44820464986,
+  "message_length": 200,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-21T06:27:35+09:00",
+  "result_recorded_at_utc": "2026-11-20T21:27:35Z"
 }
