@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-pre-2026-11-23",
+  "status": "queued",
+  "queued_at_kst": "2026-11-23T08:30:07+09:00",
+  "queued_at_utc": "2026-11-22T23:30:07Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-23/",
+  "deployment_commit": "c8f6474ae889aa051fddb7c317d93ea77552447d",
+  "deployment_run_id": 45083489555,
+  "deployment_conclusion": "success",
+  "kakao_summary": "11/23 한국 장전: 엔비디아 SEC 회계조사 보도에 美 반도체 −10.73%, 야간선물 −7.01%. NXT 하이닉스 −5.84%·삼성전자 −4.86%. 정부 증안펀드 준비·24일 자사주 한도 완화. 20일 저가 4,831.69 지지 확인.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
