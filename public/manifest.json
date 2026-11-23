@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-23",
+  "latest_id": "us-close-2026-11-23",
   "reports": [
+    {
+      "id": "us-close-2026-11-23",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-23",
+      "title": "11월 23일 미국장 마감 브리핑",
+      "summary": "엔비디아 황 CEO 복귀에 +31.48%, 나스닥 +6.51%·반도체 +14.03%",
+      "as_of": "2026-11-24T06:00:00+09:00",
+      "queried_at": "2026-11-24T06:25:55+09:00",
+      "path": "reports/us-close-2026-11-23/"
+    },
     {
       "id": "us-pre-2026-11-23",
       "is_test": false,
