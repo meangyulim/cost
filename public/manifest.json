@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-23",
+  "latest_id": "us-pre-2026-11-23",
   "reports": [
+    {
+      "id": "us-pre-2026-11-23",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-23",
+      "title": "11월 23일 미국장 시작 전 브리핑",
+      "summary": "엔비디아 젠슨 황 CEO 복귀 발표, 장전 +30%·나스닥100 선물 +2.9%",
+      "as_of": "2026-11-21T06:00:00+09:00",
+      "queried_at": "2026-11-23T23:10:30+09:00",
+      "path": "reports/us-pre-2026-11-23/"
+    },
     {
       "id": "kr-close-2026-11-23",
       "is_test": false,
