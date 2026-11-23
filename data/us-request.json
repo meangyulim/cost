@@ -2,12 +2,12 @@
   "end_date": "2026-11-20",
   "watch": [
     "NVDA",
+    "ZS",
+    "CRWD",
+    "HPE",
     "MU",
     "AMD",
-    "AVGO",
-    "INTU",
-    "TSM",
-    "GAP"
+    "DELL"
   ],
-  "requested_at": "2026-11-21T06:16:43+09:00"
+  "requested_at": "2026-11-23T23:00:31+09:00"
 }
