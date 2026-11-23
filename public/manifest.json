@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-23",
+  "latest_id": "kr-pre-2026-11-24",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-24",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-24",
+      "title": "11월 24일 한국장 시작 전 브리핑",
+      "summary": "젠슨 황 복귀에 엔비디아 +31.48%·美 반도체 +14.03%, 야간선물 +7.06%… NXT 하이닉스 +12%",
+      "as_of": "2026-11-24T08:26:00+09:00",
+      "queried_at": "2026-11-24T08:31:00+09:00",
+      "path": "reports/kr-pre-2026-11-24/"
+    },
     {
       "id": "us-close-2026-11-23",
       "is_test": false,
