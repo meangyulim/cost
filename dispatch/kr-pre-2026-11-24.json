@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-24",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-24T08:31:04+09:00",
   "queued_at_utc": "2026-11-23T23:31:04Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-24/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 45289367336,
   "deployment_conclusion": "success",
   "kakao_summary": "11/24 한국 장전: 젠슨 황 CEO 복귀에 엔비디아 +31.48%·美 반도체 +14.03%. 야간선물 +7.06%, NXT 하이닉스 +12.35%·삼성전자 +10.03%. 오늘부터 자사주 한도 완화. 장중 되돌림·외국인 매수 전환 확인.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-24T08:31:14+09:00",
   "attempted_at_utc": "2026-11-23T23:31:14Z",
-  "workflow_run_id": 45289494599
+  "workflow_run_id": 45289494599,
+  "message_length": 195,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-24T08:31:17+09:00",
+  "result_recorded_at_utc": "2026-11-23T23:31:17Z"
 }
