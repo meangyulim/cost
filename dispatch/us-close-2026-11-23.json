@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-23",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-24T06:27:13+09:00",
   "queued_at_utc": "2026-11-23T21:27:13Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-23/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "美 마감 11/23: 엔비디아 젠슨 황 CEO 복귀에 +31.48%. 나스닥 +6.51%(2025년 4월 이후 최고), S&P500 +4.73%, 반도체지수 +14.03%. HPE는 실적·전망 상향에도 시간외 −2.6%. 오름폭은 개장 갭, 회계 의문은 남음.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-24T06:27:22+09:00",
+  "attempted_at_utc": "2026-11-23T21:27:22Z",
+  "workflow_run_id": 45269817431
 }
