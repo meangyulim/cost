@@ -1,0 +1,14 @@
+{
+  "report_id": "us-pre-2026-11-23",
+  "status": "queued",
+  "queued_at_kst": "2026-11-23T23:11:48+09:00",
+  "queued_at_utc": "2026-11-23T14:11:48Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-23/",
+  "deployment_commit": "7c2c499258df02df636dac431ee4d02e71b73e49",
+  "deployment_run_id": 45191416928,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국 장전: 엔비디아 이사회가 젠슨 황 CEO 복귀 발표, 장전 +30%(09:03 EST). 나스닥100 선물 +2.9%. 금요일 나스닥 −5.28% 뒤 반등 출발, 크라우드스트라이크는 제트스케일러 주식 인수.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
