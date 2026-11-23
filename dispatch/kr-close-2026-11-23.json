@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-23",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-23T15:55:33+09:00",
   "queued_at_utc": "2026-11-23T06:55:33Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-23/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 45127363957,
   "deployment_conclusion": "success",
   "kakao_summary": "11/23 한국 마감: 코스피 4,708.54(−3.31%), 장중 −5.81%서 회복했지만 이틀 연속 매도 사이드카. 코스닥 635.45(−1.58%). 삼성 −3.06%·하이닉스 −2.52%로 美 반도체보다 선방. 정부 증안펀드 준비·24일 자사주 한도 완화.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-23T15:55:46+09:00",
   "attempted_at_utc": "2026-11-23T06:55:46Z",
-  "workflow_run_id": 45127450396
+  "workflow_run_id": 45127450396,
+  "message_length": 200,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-23T15:55:50+09:00",
+  "result_recorded_at_utc": "2026-11-23T06:55:50Z"
 }
