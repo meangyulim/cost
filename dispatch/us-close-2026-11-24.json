@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-24",
+  "status": "queued",
+  "queued_at_kst": "2026-11-25T06:26:47+09:00",
+  "queued_at_utc": "2026-11-24T21:26:47Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-24/",
+  "deployment_commit": "97886fbe020fca7d3e0393d0f6c43bd25b50db25",
+  "deployment_run_id": 45491052779,
+  "deployment_conclusion": "success",
+  "kakao_summary": "美 마감 11/24: 칩주 되돌림에 나스닥 −1.48%, 반도체지수 −7.88%(월요일 반등 64% 반납), 엔비디아 −5.86%. 다우는 +0.85%로 50,000 위. 델은 실적·전망 크게 넘어 시간외 +3%대, ADI·HPE는 호실적에도 −16~17%.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
