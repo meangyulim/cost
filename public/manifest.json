@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-pre-2026-11-24",
+  "latest_id": "us-close-2026-11-24",
   "reports": [
+    {
+      "id": "us-close-2026-11-24",
+      "is_test": false,
+      "market": "US",
+      "session": "close",
+      "market_date": "2026-11-24",
+      "title": "11월 24일 미국장 마감 브리핑",
+      "summary": "칩주 되돌림에 나스닥 −1.48%·반도체 −7.88%, 다우는 +0.85%로 50,000 위",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "queried_at": "2026-11-25T06:25:46+09:00",
+      "path": "reports/us-close-2026-11-24/"
+    },
     {
       "id": "us-pre-2026-11-24",
       "is_test": false,
