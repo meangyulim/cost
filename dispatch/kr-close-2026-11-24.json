@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-24",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-24T16:02:31+09:00",
   "queued_at_utc": "2026-11-24T07:02:31Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-24/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "코스피 +6.32% 5,006.03, 3거래일 만에 5천 회복. 젠슨 황 복귀에 삼성·하이닉스 +6.7%, 현대오토에버 상한가. 외국인 8거래일 만에 순매수, 개인 −2조원(잠정). 장중 +7.59%서 축소.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-24T16:02:42+09:00",
+  "attempted_at_utc": "2026-11-24T07:02:42Z",
+  "workflow_run_id": 45344931185
 }
