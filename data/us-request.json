@@ -2,12 +2,12 @@
   "end_date": "2026-11-23",
   "watch": [
     "NVDA",
-    "MU",
     "DELL",
+    "WDAY",
+    "BBY",
     "HPE",
-    "ZS",
-    "CRWD",
-    "AMD"
+    "MU",
+    "ZS"
   ],
-  "requested_at": "2026-11-24T06:16:16+09:00"
+  "requested_at": "2026-11-24T23:00:32+09:00"
 }
