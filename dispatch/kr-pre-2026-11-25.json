@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-25",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-25T08:31:16+09:00",
   "queued_at_utc": "2026-11-24T23:31:16Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-25/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "11/25 한국 장전: 젠슨 황 랠리 하루 만에 식어 美 반도체 −7.88%·마이크론 −11%. 야간선물 −4.56%, NXT 하이닉스 −5.44%·삼성전자 −4.70%. 4,880선 지지·외국인 순매수 지속 확인. 밤 PCE, 26일 금통위.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-25T08:31:26+09:00",
+  "attempted_at_utc": "2026-11-24T23:31:26Z",
+  "workflow_run_id": 45510655292
 }
