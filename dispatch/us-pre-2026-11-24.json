@@ -1,0 +1,14 @@
+{
+  "report_id": "us-pre-2026-11-24",
+  "status": "queued",
+  "queued_at_kst": "2026-11-24T23:11:10+09:00",
+  "queued_at_utc": "2026-11-24T14:11:10Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-24/",
+  "deployment_commit": "f3fe5032ecabaef80e754a1f41f6abab1d48f241",
+  "deployment_run_id": 45411091453,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국 장전: 엔비디아 +31% 다음 날 장전 −4.7%, 관세 인상 보도에 나스닥100 선물 −2.05%. HPE·ADI 호실적에도 장전 −12%대, 베스트바이 전망 상향. 오늘 밤 델·워크데이 실적.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
