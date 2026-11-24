@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-24",
+  "latest_id": "us-pre-2026-11-24",
   "reports": [
+    {
+      "id": "us-pre-2026-11-24",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-24",
+      "title": "11월 24일 미국장 시작 전 브리핑",
+      "summary": "엔비디아 급등 다음 날 장전 −4.73%, 관세 보도에 나스닥100 선물 −2.05%",
+      "as_of": "2026-11-24T06:00:00+09:00",
+      "queried_at": "2026-11-24T23:10:01+09:00",
+      "path": "reports/us-pre-2026-11-24/"
+    },
     {
       "id": "kr-close-2026-11-24",
       "is_test": false,
