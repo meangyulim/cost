@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-25",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-25T23:10:16+09:00",
   "queued_at_utc": "2026-11-25T14:10:16Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-25/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 45630974856,
   "deployment_conclusion": "success",
   "kakao_summary": "미국 장전: 코스피 −6% 뒤 나스닥100 선물 −3.15%, 엔비디아 −6.5%·마이크론 −9%. 델 사상 최대 실적에도 −7.5%. PCE 3.8%·근원 3.3%. 내일 휴장, 금요일 조기 폐장.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-25T23:10:25+09:00",
   "attempted_at_utc": "2026-11-25T14:10:25Z",
-  "workflow_run_id": 45631144215
+  "workflow_run_id": 45631144215,
+  "message_length": 172,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-25T23:10:29+09:00",
+  "result_recorded_at_utc": "2026-11-25T14:10:29Z"
 }
