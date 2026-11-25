@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-25",
+  "latest_id": "us-pre-2026-11-25",
   "reports": [
+    {
+      "id": "us-pre-2026-11-25",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-25",
+      "title": "11월 25일 미국장 시작 전 브리핑",
+      "summary": "아시아 반도체 급락 뒤 나스닥100 선물 −3.15%, 델 호실적에도 장전 −7.55%",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "queried_at": "2026-11-25T23:02:47+09:00",
+      "path": "reports/us-pre-2026-11-25/"
+    },
     {
       "id": "kr-close-2026-11-25",
       "is_test": false,

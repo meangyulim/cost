@@ -1,0 +1,866 @@
+{
+  "id": "us-pre-2026-11-25",
+  "title": "11월 25일 미국장 시작 전 브리핑",
+  "market": "US",
+  "venue": "NYSE·Nasdaq · 2026-11-25 09:30~16:00 EST 정규장(2026-11-25 23:30~11-26 06:00 KST)",
+  "market_date": "2026-11-25",
+  "session": "pre",
+  "as_of": "2026-11-25T06:00:00+09:00",
+  "queried_at": "2026-11-25T23:02:47+09:00",
+  "is_test": false,
+  "summary": "아시아 반도체 급락 뒤 나스닥100 선물 −3.15%, 델 호실적에도 장전 −7.55%",
+  "summary_detail": "11/24 정규장은 S&P500 7,201.09(−0.50%), 나스닥 23,733.54(−1.48%), 다우 50,018.70(+0.85%), 필라델피아 반도체 8,832.50(−7.88%)였다. 11/25 코스피 −6.16%·대만 −4.80% 뒤 08:52 EST 선물은 나스닥100 −3.15%, S&P500 −2.05%, 다우 −1.30%다. 엔비디아 장전 145.33USD(−6.47%), 마이크론 −9.05%, AMD −7.31%. 델은 매출 549억USD(+103%)로 예상을 크게 넘었지만 장전 −7.55%다. 10월 PCE 3.8%·근원 3.3%, 신규 실업수당 189,000건. VIX 31.32(08:47 EST), 10년물 4.846%. 11/26 휴장, 11/27 조기 폐장.",
+  "interpretation": "월요일 반등이 이틀째 되돌려지고 있다. 아시아 반도체 급락, 정부 지분 발언 보도, AI 설비투자 의심이 겹쳐 델처럼 숫자가 좋은 실적도 팔리고 있다. 물가와 고용 지표는 12월 인상 경계를 덜어주지 못했다. 장전 값과 선물은 얇은 체결이며 매도 주체·옵션 포지션은 확인한 자료가 아니다.",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,201.09",
+      "unit": "pt",
+      "delta": "−36.08",
+      "percent": "−0.50",
+      "direction": "down",
+      "source": "yf_gspc",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 · 11/25 08:52 EST S&P500 선물 −2.05%",
+      "range": {
+        "open": "7,172.33",
+        "high": "7,223.95",
+        "low": "7,138.93",
+        "prev_close": "7,237.17"
+      }
+    },
+    {
+      "name": "나스닥 종합",
+      "value": "23,733.54",
+      "unit": "pt",
+      "delta": "−356.02",
+      "percent": "−1.48",
+      "direction": "down",
+      "source": "yf_ixic",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 · 11/25 08:52 EST 나스닥100 선물 −3.15%",
+      "range": {
+        "open": "23,745.86",
+        "high": "23,884.74",
+        "low": "23,455.84",
+        "prev_close": "24,089.56"
+      }
+    },
+    {
+      "name": "다우존스 산업",
+      "value": "50,018.70",
+      "unit": "pt",
+      "delta": "+423.39",
+      "percent": "+0.85",
+      "direction": "up",
+      "source": "yf_dji",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준",
+      "range": {
+        "open": "49,494.60",
+        "high": "50,075.12",
+        "low": "49,294.49",
+        "prev_close": "49,595.31"
+      }
+    },
+    {
+      "name": "러셀 2000",
+      "value": "2,684.94",
+      "unit": "pt",
+      "delta": "+15.28",
+      "percent": "+0.57",
+      "direction": "up",
+      "source": "yf_rut",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준",
+      "range": {
+        "open": "2,659.67",
+        "high": "2,695.24",
+        "low": "2,655.32",
+        "prev_close": "2,669.66"
+      }
+    },
+    {
+      "name": "필라델피아 반도체",
+      "value": "8,832.50",
+      "unit": "pt",
+      "delta": "−755.55",
+      "percent": "−7.88",
+      "direction": "down",
+      "source": "yf_sox",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준",
+      "range": {
+        "open": "9,161.77",
+        "high": "9,197.55",
+        "low": "8,657.78",
+        "prev_close": "9,588.05"
+      }
+    },
+    {
+      "name": "VIX",
+      "value": "26.36",
+      "unit": "pt",
+      "delta": "−0.26",
+      "percent": "−0.98",
+      "direction": "down",
+      "source": "yf_vix",
+      "additional_sources": [],
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 Yahoo 일봉 종가 · 11/23 26.62 기준 · 11/25 08:47 EST 31.32(+4.96, +18.82%)"
+    },
+    {
+      "name": "나스닥100 선물",
+      "value": "25,448.50",
+      "unit": "pt",
+      "delta": "−827.25",
+      "percent": "−3.15",
+      "direction": "down",
+      "source": "yahoo_fut",
+      "additional_sources": [],
+      "as_of": "2026-11-25T22:52:00+09:00",
+      "session": "2026-11-25 08:52 EST(22:52 KST) Yahoo NQ=F 1분봉(약 10분 지연) · 11/24 일봉 종가 26,275.75 대비 · 장전 구간"
+    },
+    {
+      "name": "S&P500 선물",
+      "value": "7,069.25",
+      "unit": "pt",
+      "delta": "−148.25",
+      "percent": "−2.05",
+      "direction": "down",
+      "source": "yahoo_fut",
+      "additional_sources": [],
+      "as_of": "2026-11-25T22:52:00+09:00",
+      "session": "2026-11-25 08:52 EST(22:52 KST) Yahoo ES=F 1분봉(약 10분 지연) · 11/24 일봉 종가 7,217.50 대비 · 장전 구간"
+    },
+    {
+      "name": "다우 선물",
+      "value": "49,408",
+      "unit": "pt",
+      "delta": "−653",
+      "percent": "−1.30",
+      "direction": "down",
+      "source": "yahoo_fut",
+      "additional_sources": [],
+      "as_of": "2026-11-25T22:52:00+09:00",
+      "session": "2026-11-25 08:52 EST(22:52 KST) Yahoo YM=F 1분봉(약 10분 지연) · 11/24 일봉 종가 50,061 대비 · 장전 구간"
+    },
+    {
+      "name": "러셀2000 선물",
+      "value": "2,652.50",
+      "unit": "pt",
+      "delta": "−36.80",
+      "percent": "−1.37",
+      "direction": "down",
+      "source": "yahoo_fut",
+      "additional_sources": [],
+      "as_of": "2026-11-25T22:52:00+09:00",
+      "session": "2026-11-25 08:52 EST(22:52 KST) Yahoo RTY=F 1분봉(약 10분 지연) · 11/24 일봉 종가 2,689.30 대비 · 장전 구간"
+    }
+  ],
+  "issues": [
+    {
+      "title": "선물 급락: 나스닥100 −3.15%",
+      "fact": "Yahoo 1분봉(08:52 EST, 약 10분 지연) 기준 나스닥100 선물 25,448.50(−3.15%), S&P500 선물 7,069.25(−2.05%), 다우 선물 49,408(−1.30%), 러셀2000 선물 2,652.50(−1.37%)다. VIX는 08:47 EST 31.32로 11/24 종가 26.36보다 4.96 높다. 11/24 정규장은 나스닥 −1.48%, 필라델피아 반도체 −7.88%, 다우 +0.85%였다. 아시아에서는 11/25 코스피 −6.16%, 대만 −4.80%, 닛케이 −2.78%로 반도체 중심 매도가 컸다. TipRanks·BigGo는 아시아 반도체 매도, AI 설비투자 의심(미즈호가 2027년 1.4조USD·2028년 1.8조USD로 전망 하향), 트럼프 대통령의 엔비디아 지분 검토 발언을 이유로 들었다.",
+      "source": "yahoo_fut",
+      "additional_sources": [
+        "yf_vix",
+        "kr_close",
+        "tipranks_chips",
+        "biggo_chips"
+      ]
+    },
+    {
+      "title": "칩주 이틀째 하락, 엔비디아 장전 −6.47%",
+      "fact": "엔비디아는 11/24 155.38USD(−5.86%) 뒤 09:02 EST 장전 145.33USD(−6.47%)다. BigGo 정리에 따르면 트럼프 대통령은 뉴욕포스트 인터뷰에서 인텔 사례를 들며 정부의 엔비디아 지분을 검토했다고 말했고, 황 CEO 사면 가능성도 언급했다(뉴욕포스트 원문은 이번 실행에서 미열람). 하원 공화당 위원장들은 황 CEO 복귀가 국가안보 우려를 해소하지 않는다며 12월 초 면담을 잡았다. 마이크론은 BNP파리바 엑산이 중립으로 낮추고 목표가를 1,700USD에서 775USD로 내려 장전 −9.05%, AMD 장전 −7.31%다.",
+      "source": "tipranks_chips",
+      "additional_sources": [
+        "biggo_chips",
+        "yf_nvda",
+        "yf_mu",
+        "yf_amd"
+      ]
+    },
+    {
+      "title": "델, 사상 최대 실적에도 장전 −7.55%",
+      "fact": "델은 11/24 장 마감 뒤 3분기 매출 549억USD(+103%), AI 최적화 서버 매출 220억USD(+291%), AI 잔고 1,323억USD, 비GAAP EPS 9.45USD를 발표하고 연간 매출 전망을 1,920억USD에서 2,020억USD로 올렸다(보도자료). 발표 전 예상은 매출 약 493억USD·EPS 약 6.55USD였다(Yahoo). 4분기 전망은 매출 563억USD·EPS 8.40USD다. 09:02 EST 장전 273.00USD(−7.55%)다. TipRanks는 메모리 원가 상승과 공급 부족에 따른 서버 마진 우려를 들었다. 비GAAP 영업이익률은 14.2%다.",
+      "source": "dell_pr",
+      "additional_sources": [
+        "dell_yahoo",
+        "tipranks_chips",
+        "yf_dell"
+      ]
+    },
+    {
+      "title": "PCE 물가 3.8%, 근원 3.3%",
+      "fact": "BEA(08:30 EST)에 따르면 10월 PCE 물가는 전월비 +0.3%, 전년비 3.8%, 근원 PCE는 전월비 +0.3%, 전년비 3.3%다. XTB 사전 일정표의 예상은 PCE 전년비 3.8%, 근원 3.2%였다(항목 표기 일부 혼재). 개인소득 +0.7%, 실질 소비는 0.1% 미만 감소했다. 11/21 주 신규 실업수당 청구는 189,000건으로 전주보다 13,000건 줄었고 예상 200K보다 적다(노동부). 미 10년물은 08:47 EST 4.846%로 11/24 4.904%보다 5.8bp 낮다.",
+      "source": "bea_pce",
+      "additional_sources": [
+        "dol_claims",
+        "xtb_cal",
+        "yf_tnx"
+      ]
+    },
+    {
+      "title": "워크데이·디어, 전망이 발목",
+      "fact": "워크데이는 3분기 구독 매출 25.32억USD(+12.8%), 비GAAP EPS 2.82USD를 냈지만 4분기 구독 매출 전망을 26.00억USD(+10%)로 제시했다(보도자료). 장전 170.00USD(−5.15%, 08:59 EST, 체결 얇음). 디어는 4분기 EPS 3.89USD로 예상 4.05USD를 밑돌았고 2027 회계연도 순이익 전망 45~52.5억USD가 LSEG 집계 예상 약 59.1억USD보다 낮았다(로이터). 매출 105.1억USD는 예상 103.7억USD를 넘었다. 장전 594.93USD(−3.07%).",
+      "source": "wday_pr",
+      "additional_sources": [
+        "deere_reuters",
+        "yf_wday",
+        "yf_de"
+      ]
+    },
+    {
+      "title": "11/26 휴장, 11/27 조기 폐장",
+      "fact": "NYSE 공식 달력상 11/26(목) 추수감사절 휴장, 11/27(금) 13:00 ET(11/28 03:00 KST) 조기 폐장이다. 오늘(11/25)은 정상 거래일이며 정규장 09:30~16:00 EST(11/25 23:30~11/26 06:00 KST)다. 연휴 전 거래가 얇아질 수 있다.",
+      "source": "nyse",
+      "additional_sources": []
+    },
+    {
+      "title": "11/24 기준 배경: 반도체 20일 −24.50%",
+      "fact": "11/24 일별 자료(이번 요청의 반환 기준일 11/24, 오늘 장전 움직임 미반영) 기준 SPY 하루 −0.49%·20거래일 −6.61%, QQQ −1.99%·−11.53%, DIA −4.50%, IWM −4.65%(20거래일)로 넷 다 20·60일 평균 아래 하락 추세 조건이 유지됐다(ETF 대용치이며 지수 값 아님). 업종 ETF의 20거래일 SPY 대비 상대 수익률은 필수소비재 +12.04%p, 헬스케어 +9.70%p, 부동산 +9.01%p가 앞섰고 반도체(SOXX, 하루 −8.27%·20거래일 −24.50%) −17.89%p, 정보기술 −10.49%p, 에너지 −4.77%p가 가장 약했다. OTC 제외 전체 증권(ETF·우선주 등 포함) 중 11/24 상승 비율은 44.04%(5,522 상승·6,711 하락)로 11/23의 82.99%에서 낮아졌다. 관찰 종목 20거래일 가격수익률은 델 −41.17%, HPE −33.94%, 마이크론 −32.19%, 엔비디아 −28.71%, ADI −26.43%, 워크데이 −12.77%, 디어 −4.04%다. 직전 5거래일 평균 대비 거래량은 ADI 2.19배, HPE 2.18배, 델 2.17배, 워크데이 1.73배다. 분할 보정 가격수익률이며 거래량은 순매수를 뜻하지 않는다.",
+      "source": "massive_run",
+      "additional_sources": []
+    }
+  ],
+  "stocks": [
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "price": "155.38",
+      "currency": "USD",
+      "delta": "−9.67",
+      "percent": "−5.86",
+      "direction": "down",
+      "source": "yf_nvda",
+      "additional_sources": [
+        "biggo_chips"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 165.05USD · 2026-11-25 09:02 EST(23:02 KST) 장전 145.33USD(−10.05, −6.47%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비)",
+      "reason": "11/24 −5.86%에 이어 장전 −6.47%. 트럼프 대통령의 정부 지분 검토 발언(뉴욕포스트 인터뷰 보도)과 하원 공화당의 국가안보 우려가 겹쳤다.",
+      "watch": "정규장에서 11/24 저가 150.50USD를 되찾는지, 지분 발언에 회사·백악관 설명이 나오는지 본다.",
+      "reason_sources": [
+        "biggo_chips",
+        "tipranks_chips"
+      ],
+      "range": {
+        "open": "159.10",
+        "high": "159.92",
+        "low": "150.50",
+        "prev_close": "165.05"
+      }
+    },
+    {
+      "name": "델 테크놀로지스",
+      "ticker": "DELL",
+      "price": "295.28",
+      "currency": "USD",
+      "delta": "−39.63",
+      "percent": "−11.83",
+      "direction": "down",
+      "source": "yf_dell",
+      "additional_sources": [
+        "dell_pr",
+        "dell_yahoo"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 334.91USD · 2026-11-25 09:02 EST(23:02 KST) 장전 273.00USD(−22.28, −7.55%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비)",
+      "reason": "3분기 매출 549억USD(+103%)·비GAAP EPS 9.45USD로 사전 예상(약 493억USD·6.55USD)을 크게 넘고 연간 전망을 2,020억USD로 올렸지만 장전 −7.55%다.",
+      "watch": "메모리 원가와 AI 서버 마진에 대한 회사 설명이 장중 반응을 바꾸는지, 11/24 저가 290.50USD 회복 여부를 본다.",
+      "reason_sources": [
+        "dell_pr",
+        "dell_yahoo",
+        "tipranks_chips"
+      ],
+      "range": {
+        "open": "311.00",
+        "high": "318.22",
+        "low": "290.50",
+        "prev_close": "334.91"
+      }
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "price": "629.79",
+      "currency": "USD",
+      "delta": "−77.91",
+      "percent": "−11.01",
+      "direction": "down",
+      "source": "yf_mu",
+      "additional_sources": [
+        "tipranks_chips"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 707.70USD · 2026-11-25 09:02 EST(23:02 KST) 장전 572.78USD(−57.01, −9.05%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비)",
+      "reason": "BNP파리바 엑산이 투자의견을 중립으로 낮추고 목표가를 1,700USD에서 775USD로 54% 내렸다(TipRanks). 11/24 −11.01% 뒤 장전 −9.05%.",
+      "watch": "한국 메모리주 급락(삼성전자 −9.87%, SK하이닉스 −11.05%) 뒤 정규장에서 낙폭이 줄어드는지 본다.",
+      "reason_sources": [
+        "tipranks_chips",
+        "kr_close"
+      ],
+      "range": {
+        "open": "669.39",
+        "high": "672.07",
+        "low": "622.22",
+        "prev_close": "707.70"
+      }
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "price": "413.27",
+      "currency": "USD",
+      "delta": "−40.19",
+      "percent": "−8.86",
+      "direction": "down",
+      "source": "yf_amd",
+      "additional_sources": [
+        "tipranks_chips"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 453.46USD · 2026-11-25 09:02 EST(23:02 KST) 장전 383.07USD(−30.20, −7.31%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비)",
+      "reason": "칩주 동반 약세 속 장전 −7.31%. TipRanks는 미국 수출 규정과 MI325X의 중국 공급 노력에 대한 점검을 함께 들었다.",
+      "watch": "11/24 저가 396.01USD 아래에서 출발한 뒤 장중 회복이 나오는지 본다.",
+      "reason_sources": [
+        "tipranks_chips"
+      ],
+      "range": {
+        "open": "425.13",
+        "high": "428.87",
+        "low": "396.01",
+        "prev_close": "453.46"
+      }
+    },
+    {
+      "name": "워크데이",
+      "ticker": "WDAY",
+      "price": "179.23",
+      "currency": "USD",
+      "delta": "+3.15",
+      "percent": "+1.79",
+      "direction": "up",
+      "source": "yf_wday",
+      "additional_sources": [
+        "wday_pr"
+      ],
+      "venue": "Nasdaq",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 176.08USD · 2026-11-25 08:59 EST(23:59 KST) 장전 170.00USD(−9.23, −5.15%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비) · 장전 체결 39건으로 얇음",
+      "reason": "3분기 구독 매출 25.32억USD(+12.8%), 4분기 구독 매출 전망 26.00억USD(+10%)로 성장 둔화를 제시했다. 장전 −5.15%.",
+      "watch": "정규장에서 11/24 저가 174.23USD 아래에 머무는지, 소프트웨어 업종으로 번지는지 본다.",
+      "reason_sources": [
+        "wday_pr"
+      ],
+      "range": {
+        "open": "174.89",
+        "high": "185.00",
+        "low": "174.23",
+        "prev_close": "176.08"
+      }
+    },
+    {
+      "name": "디어",
+      "ticker": "DE",
+      "price": "613.76",
+      "currency": "USD",
+      "delta": "−19.27",
+      "percent": "−3.04",
+      "direction": "down",
+      "source": "yf_de",
+      "additional_sources": [
+        "deere_reuters"
+      ],
+      "venue": "NYSE",
+      "as_of": "2026-11-25T06:00:00+09:00",
+      "session": "2026-11-24 정규장 종가(16:00 EST = 11/25 06:00 KST) · 11/23 종가 기준 633.03USD · 2026-11-25 09:02 EST(23:02 KST) 장전 594.93USD(−18.83, −3.07%) · 장전 값은 Yahoo 1분봉 마지막 체결(별도 구간·얇은 체결, 11/24 종가 대비)",
+      "reason": "4분기 EPS 3.89USD로 예상 4.05USD를 밑돌고 2027 회계연도 순이익 전망 45~52.5억USD가 LSEG 집계 예상 약 59.1억USD보다 낮다. 장전 −3.07%.",
+      "watch": "대형 농기계 개선 초기 신호라는 CEO 설명이 장중 낙폭을 줄이는지 본다.",
+      "reason_sources": [
+        "deere_reuters"
+      ],
+      "range": {
+        "open": "634.08",
+        "high": "638.54",
+        "low": "607.87",
+        "prev_close": "633.03"
+      }
+    }
+  ],
+  "fx": {
+    "label": "미국 10년물 국채수익률",
+    "value": "4.846",
+    "unit": "%",
+    "delta": "−5.8bp",
+    "direction": "down",
+    "source": "yf_tnx",
+    "additional_sources": [
+      "yf_krw"
+    ],
+    "as_of": "2026-11-25T22:47:00+09:00",
+    "session": "2026-11-25 08:47 EST(22:47 KST) Yahoo ^TNX 값 · 11/24 일봉 4.904% 대비 · 확정값 아님. 참고: 원·달러 1,345.61원(Yahoo KRW=X 글로벌 호가, 09:02 EST, 서울 외환시장 종가 아님)"
+  },
+  "next_checks": [
+    {
+      "label": "2026-11-25 23:30 KST",
+      "title": "미국 정규장 개장(09:30 EST)",
+      "detail": "선물 −2~3%가 개장 갭으로 이어지는지, 첫 1시간 반도체 낙폭이 줄어드는지 본다."
+    },
+    {
+      "label": "2026-11-26 00:00 KST",
+      "title": "10월 신규주택판매(10:00 EST)",
+      "detail": "예상 650K, 이전 676K(XTB). 금리 부담이 주택에 미치는 영향을 본다."
+    },
+    {
+      "label": "2026-11-26 06:00 KST",
+      "title": "미국 정규장 마감(16:00 EST)",
+      "detail": "나스닥이 11/24 저가 23,455.84 위에서 끝나는지, VIX가 30 위에 머무는지 본다."
+    },
+    {
+      "label": "2026-11-26~27",
+      "title": "추수감사절 휴장·조기 폐장",
+      "detail": "11/26(목) 휴장, 11/27(금) 13:00 EST(11/28 03:00 KST) 조기 폐장. 거래가 얇아 변동이 커질 수 있다."
+    },
+    {
+      "label": "확인 순서: 이번 주(날짜 미확인)",
+      "title": "USTR 관세 조사 결과 발표",
+      "detail": "지난 회차에 전한 '이번 주 발표' 보도가 실제 세율·날짜로 나오는지 확인한다."
+    }
+  ],
+  "calendar_evidence": {
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "market_date": "2026-11-25",
+    "is_trading_day": true,
+    "early_close": false,
+    "checked_at": "2026-11-25T23:04:00+09:00",
+    "note": "NYSE 공식 페이지를 이번 실행에서 WebFetch로 직접 열어 2026 휴장(1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25)·조기폐장(11/27·12/24 13:00 ET) 목록에 11/25(수)가 없음을 확인했다. 정상 거래일·정규장 09:30~16:00 ET. 11/1 서머타임 종료 뒤 EST(UTC−5)이므로 정규장 = 2026-11-25 23:30~11-26 06:00 KST. 직전 거래일 11/24(화)도 정상 거래일."
+  },
+  "calculation_notes": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉의 11/24·11/23 정규장 종가와 11/25 장전 1분봉으로 계산: S&P 500 7,201.09−7,237.17=−36.08(−0.499%); 나스닥 종합 23,733.54−24,089.56=−356.02(−1.478%); 다우존스 산업 50,018.70−49,595.31=+423.39(+0.854%); 러셀 2000 2,684.94−2,669.66=+15.28(+0.572%); 필라델피아 반도체 8,832.50−9,588.05=−755.55(−7.880%); VIX 26.36−26.62=−0.26(−0.977%); VIX장전 31.32−26.36=+4.96(+18.816%); 나스닥100 선물 25,448.50−26,275.75=−827.25(−3.148%); S&P500 선물 7,069.25−7,217.50=−148.25(−2.054%); 다우 선물 49,408−50,061=−653(−1.304%); 러셀2000 선물 2,652.50−2,689.30=−36.80(−1.368%); NVDA 155.38−165.05=−9.67(−5.859%); NVDA 장전 145.33−155.38=−10.05(−6.470%); DELL 295.28−334.91=−39.63(−11.833%); DELL 장전 273.00−295.28=−22.28(−7.545%); MU 629.79−707.70=−77.91(−11.009%); MU 장전 572.78−629.79=−57.01(−9.052%); AMD 413.27−453.46=−40.19(−8.863%); AMD 장전 383.07−413.27=−30.20(−7.307%); WDAY 179.23−176.08=+3.15(+1.789%); WDAY 장전 170.00−179.23=−9.23(−5.150%); DE 613.76−633.03=−19.27(−3.044%); DE 장전 594.93−613.76=−18.83(−3.068%); 10년물 4.846−4.904=−0.058(−1.183%). 10년물 4.846−4.904=−0.058%p(−5.8bp). 델 매출 예상 대비 549−약 493=약 56억USD(예상은 Yahoo 발표 전 기사 기준).",
+  "sources": [
+    {
+      "id": "nyse",
+      "label": "NYSE · 거래시간·휴장일",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "이번 실행(2026-11-25 23:04 KST 무렵) WebFetch로 원문 열람. 2026 휴장 1/1, 1/19, 2/16, 4/3, 5/25, 6/19, 7/3, 9/7, 11/26, 12/25; 조기폐장 11/27·12/24 13:00 ET. 11/25(수)·11/24(화) 해당 없음, 정규장 09:30~16:00 ET."
+    },
+    {
+      "id": "bea_pce",
+      "label": "BEA · 10월 개인소득·지출",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "note": "이번 실행 열람. 2026-11-25 08:30 EST 공개. 개인소득 +2,018억USD(+0.7%), 지출 +693억USD, PCE 물가 전월비 +0.3%·전년비 3.8%, 근원 전월비 +0.3%·전년비 3.3%, 실질 PCE −58억USD(0.1% 미만 감소)."
+    },
+    {
+      "id": "dol_claims",
+      "label": "미 노동부 · 주간 실업수당 청구",
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "note": "이번 실행 PDF 열람. 2026-11-25 08:30 ET 공개. 11/21 주 신규 청구 189,000건(계절조정, 전주 수정치 202,000건 대비 −13,000), 4주 평균 196,000건; 11/14 주 계속 청구 1,697,000건(−95,000)."
+    },
+    {
+      "id": "xtb_cal",
+      "label": "XTB · 11/25 경제지표 일정",
+      "url": "https://www.xtb.com/cy/market-analysis/news-and-research/economic-calendar-us-pce-data-in-market-focus-25-11-2026",
+      "note": "이번 실행 열람. 사전 예상: 신규 실업수당 200K(이전 203K), PCE 전년비 3.8%(이전 3.6%), 근원 3.2%(이전 3.1%) 등. 항목 이름 표기가 일부 섞여 있어 참고용. 10:00 ET 신규주택판매 예상 650K(이전 676K). 페이지에 'Oct. PCE Inflation Mostly in Line With Estimates' 속보 표시."
+    },
+    {
+      "id": "tipranks_chips",
+      "label": "TipRanks · 칩주 장전 추가 하락",
+      "url": "https://www.tipranks.com/news/chip-stocks-nvidia-amd-and-micron-extend-losses-in-pre-market-today-heres-why",
+      "note": "이번 실행 열람(2026-11-25 11:32 UTC). 엔비디아·AMD·마이크론 장전 하락; 아시아 반도체 매도, 코스피 5% 넘게·닛케이 3% 가까이 하락; 트럼프 정부 지분 검토 발언; 델 기록 실적 뒤 메모리 원가·공급 부족에 따른 서버 마진 우려; 하원 공화당 위원장들 국가안보 우려; BNP파리바 엑산 마이크론 중립 하향·목표가 1,700→775USD(−54%); AMD 수출 규정·MI325X 중국 공급 점검."
+    },
+    {
+      "id": "biggo_chips",
+      "label": "BigGo · 칩주 재하락 배경",
+      "url": "https://finance.biggo.com/news/3666ab4b-585f-40b8-96d4-2afc2a755af8",
+      "note": "이번 실행 열람(2026-11-25 12:05 UTC). 인베스팅닷컴 장전 시세 인용(NVDA −5.3%, MU −5.9%, AMD −5.7%, DELL −7.4%); 미즈호가 AI 설비투자 전망을 2027년 1.4조USD·2028년 1.8조USD로 하향; 트럼프 대통령 뉴욕포스트 인터뷰에서 정부의 엔비디아 지분 검토(인텔 사례 언급)·황 CEO 사면 가능성 언급; 하원 공화당 12월 초 황 CEO·법무총괄 면담 예정. 2차 정리 기사이며 뉴욕포스트 원문은 이번 실행에서 열람하지 않음."
+    },
+    {
+      "id": "dell_pr",
+      "label": "델 · 3분기 실적 보도자료",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "note": "이번 실행 열람. 매출 549억USD(+103%), ISG 420억USD(+198%), AI 최적화 서버 220억USD(+291%), AI 수주 602억USD·잔고 1,323억USD, 비GAAP 영업이익률 14.2%, 비GAAP EPS 9.45USD(+265%). 4분기 전망 매출 563억USD(+69%)·EPS 8.40USD; 연간 매출 2,020억USD(이전 1,920억)·EPS 29.68USD(이전 25.50)."
+    },
+    {
+      "id": "dell_yahoo",
+      "label": "Yahoo · 델 실적 전 하락",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-dell-technologies-stock-falling-134017599.html",
+      "note": "이번 실행 열람(2026-11-24 07:40 CST). 발표 전 예상 매출 약 493억USD·조정 EPS 약 6.55USD; AI 서버 공급업체의 기존 계약 25~45% 가격 인상 요구 보도; 모건스탠리 목표가 403USD, 씨티 550USD로 하향."
+    },
+    {
+      "id": "wday_pr",
+      "label": "워크데이 · 3분기 실적",
+      "url": "https://www.prnewswire.com/news-releases/workday-announces-fiscal-2027-third-quarter-financial-results-302949793.html",
+      "note": "이번 실행 열람(2026-11-24 16:01 ET). 매출 27.05억USD(+11.2%), 구독 매출 25.32억USD(+12.8%), 비GAAP EPS 2.82USD, 12개월 구독 잔고 92.16억USD(+12.3%). 4분기 구독 매출 26.00억USD(+10%)·비GAAP 영업이익률 31.7%, 연간 구독 매출 99.58억USD(+13%)."
+    },
+    {
+      "id": "deere_reuters",
+      "label": "인베스팅닷컴(로이터) · 디어 실적",
+      "url": "https://investing.com/news/stock-market-news/deere-forecasts-fiscal-2027-net-income-below-estimates-5050370",
+      "note": "이번 실행 열람(2026-11-25 06:13 AM 게시, 07:24 갱신). 4분기 순이익 10.5억USD, EPS 3.89USD(예상 4.05USD), 매출 105.1억USD(예상 103.7억USD); 2027 회계연도 순이익 45~52.5억USD(일회성 연금 비용 2.5~4억USD 포함), LSEG 집계 예상 약 59.1억USD; 장전 최대 −5%."
+    },
+    {
+      "id": "kr_close",
+      "label": "이 사이트 · 11/25 한국장 마감",
+      "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-25/",
+      "note": "같은 날 kr-close 회차(네이버 금융 등 원문 기반)의 값: 코스피 4,697.51(−6.16%), 삼성전자 −9.87%, SK하이닉스 −11.05%, 대만 가권 −4.80%, 닛케이225 −2.78%. 이번 실행에서 네이버 원문을 다시 열지 않음."
+    },
+    {
+      "id": "yahoo_fut",
+      "label": "Yahoo · 지수 선물",
+      "url": "https://finance.yahoo.com/quote/NQ=F/",
+      "note": "Yahoo 차트 API 1분봉(2026-11-25 23:02 KST 조회). 08:52 EST NQ 25,448.50, ES 7,069.25, YM 49,408, RTY 2,652.50; 11/24 일봉 종가 NQ 26,275.75, ES 7,217.50, YM 50,061, RTY 2,689.30. 약 10분 지연."
+    },
+    {
+      "id": "yf_gspc",
+      "label": "Yahoo Finance · S&P 500",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_ixic",
+      "label": "Yahoo Finance · 나스닥 종합",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_dji",
+      "label": "Yahoo Finance · 다우존스",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_rut",
+      "label": "Yahoo Finance · 러셀 2000",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_sox",
+      "label": "Yahoo Finance · 필라델피아 반도체",
+      "url": "https://finance.yahoo.com/quote/%5ESOX/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_vix",
+      "label": "Yahoo Finance · VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_tnx",
+      "label": "Yahoo Finance · 미 10년물",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_krw",
+      "label": "Yahoo Finance · 원·달러",
+      "url": "https://finance.yahoo.com/quote/KRW=X/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_nvda",
+      "label": "Yahoo Finance · 엔비디아",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_dell",
+      "label": "Yahoo Finance · 델",
+      "url": "https://finance.yahoo.com/quote/DELL/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_mu",
+      "label": "Yahoo Finance · 마이크론",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_amd",
+      "label": "Yahoo Finance · AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_wday",
+      "label": "Yahoo Finance · 워크데이",
+      "url": "https://finance.yahoo.com/quote/WDAY/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "yf_de",
+      "label": "Yahoo Finance · 디어",
+      "url": "https://finance.yahoo.com/quote/DE/",
+      "note": "Yahoo 차트 API(2026-11-25 23:00~23:02 KST 조회) 일봉 11/23·11/24 정규장 값과 11/25 장전 1분봉."
+    },
+    {
+      "id": "massive_run",
+      "label": "Massive · 미국 일별 분석 요청(GitHub Actions)",
+      "url": "https://github.com/meangyulim/cost/actions/runs/45629318750",
+      "note": "요청 커밋 795509eb568f5cec5e26d8555eacab4994988efb(end_date 2026-11-24, watch DELL·WDAY·NVDA·MU·ADI·HPE·DE)의 Collect US briefing inputs 실행 성공(run 45629318750). artifact us-analysis-45629318750을 GitHub MCP 임시 링크로 받아 sha256 지문이 digest와 일치함을 확인. requested_end_date·data_date 2026-11-24, queried_at 2026-11-25T23:08:35+09:00, 39개 요청. 관찰 종목 7개의 11/24 정규장 종가·전일 종가가 Yahoo와 일치. 배경으로만 사용, 확률 없음(forecast_probability null, not_validated).",
+      "show_public": false
+    }
+  ],
+  "reading": {
+    "headline": "아시아 급락 뒤, 칩주 매도 이어져",
+    "summary_points": [
+      "나스닥100 선물 −3.15%, VIX 31대로 상승.",
+      "델 사상 최대 실적에도 장전 −7.55%.",
+      "PCE 3.8%·근원 3.3%, 실업수당 189K."
+    ],
+    "notices": [
+      "지수·종목 기본값은 11/24(화) 정규장 종가다. 선물(08:52 EST, 약 10분 지연)과 장전 값(08:59~09:02 EST)은 얇은 체결이라 개장 뒤 크게 바뀔 수 있다.",
+      "트럼프 지분 발언은 뉴욕포스트 인터뷰를 정리한 2차 기사 기준이다. PCE 사전 예상은 일정표 표기가 섞여 있어 참고용이다. 11/26 휴장, 11/27 13:00 ET 조기 폐장."
+    ],
+    "issues": [
+      {
+        "title": "선물 급락: 나스닥100 −3.15%",
+        "preview": "나스닥100 선물 −3.15%, S&P500 −2.05%(08:52 EST).",
+        "points": [
+          "코스피 −6.16%, 대만 −4.80% 뒤 미국 칩주 매도.",
+          "VIX 08:47 EST 31.32."
+        ],
+        "meaning": "이틀째 반도체 중심 위험 회피로 출발한다."
+      },
+      {
+        "title": "칩주 이틀째 하락, 엔비디아 장전 −6.47%",
+        "preview": "엔비디아 145.33USD, 마이크론 −9.05%, AMD −7.31%.",
+        "points": [
+          "트럼프, 정부의 엔비디아 지분 검토 발언(보도).",
+          "BNP, 마이크론 목표가 1,700→775USD."
+        ],
+        "meaning": "실적이 아닌 정책·업황 의심이 매도 이유가 됐다."
+      },
+      {
+        "title": "델, 사상 최대 실적에도 장전 −7.55%",
+        "preview": "매출 549억USD(+103%), 연간 전망 2,020억USD로 상향.",
+        "points": [
+          "예상(약 493억USD·EPS 6.55USD)을 크게 넘었다.",
+          "메모리 원가·서버 마진 우려로 장전 273.00USD."
+        ],
+        "meaning": "숫자보다 마진과 지속성을 묻는 장이다."
+      },
+      {
+        "title": "PCE 물가 3.8%, 근원 3.3%",
+        "preview": "근원 3.3%로 예상 3.2%보다 조금 높다.",
+        "points": [
+          "PCE·근원 모두 전월비 +0.3%.",
+          "실업수당 189K, 10년물 4.846%."
+        ],
+        "meaning": "12월 인상 경계를 덜어줄 숫자는 아니다."
+      },
+      {
+        "title": "워크데이·디어, 전망이 발목",
+        "preview": "워크데이 장전 −5.15%, 디어 −3.07%.",
+        "points": [
+          "워크데이 4분기 구독 성장 +10%로 둔화.",
+          "디어 내년 순이익 전망이 예상보다 낮다."
+        ],
+        "meaning": "AI 밖 업종도 전망에 민감하다."
+      },
+      {
+        "title": "11/26 휴장, 11/27 조기 폐장",
+        "preview": "연휴 전 마지막 정규 거래일이다.",
+        "points": [
+          "11/27(금) 13:00 ET(11/28 03:00 KST) 조기 폐장."
+        ],
+        "meaning": "거래가 얇아 장중 변동이 커질 수 있다."
+      },
+      {
+        "title": "11/24 기준 배경: 반도체 20일 −24.50%",
+        "preview": "상승 종목 비율 83%→44%, 반도체 20일 가장 약해.",
+        "points": [
+          "대표 ETF 넷 다 20·60일 평균 아래(11/24 기준).",
+          "델 20거래일 −41.17%, 마이크론 −32.19%."
+        ],
+        "meaning": "오늘 장전 하락 전부터 추세는 약했다."
+      }
+    ],
+    "interpretation_points": [
+      "나스닥이 11/24 저가 23,455.84 위에서 마감하는지 본다.",
+      "엔비디아가 11/24 저가 150.50USD를 되찾는지 본다.",
+      "VIX가 30 위에서 마감하는지 본다."
+    ],
+    "stocks": {
+      "NVDA": {
+        "reason": "정부 지분 발언 보도 속 장전 −6.47%.",
+        "watch": "11/24 저가 150.50USD 회복 여부."
+      },
+      "DELL": {
+        "reason": "예상 크게 넘은 실적에도 장전 −7.55%.",
+        "watch": "마진 설명과 290.50USD 회복 여부."
+      },
+      "MU": {
+        "reason": "BNP 투자의견·목표가 하향, 장전 −9.05%.",
+        "watch": "한국 메모리 급락 뒤 낙폭 축소 여부."
+      },
+      "AMD": {
+        "reason": "칩주 동반 약세, 장전 −7.31%.",
+        "watch": "장중 396.01USD 회복 여부."
+      },
+      "WDAY": {
+        "reason": "4분기 구독 성장 +10% 전망, 장전 −5.15%.",
+        "watch": "소프트웨어 업종 확산 여부."
+      },
+      "DE": {
+        "reason": "내년 순이익 전망이 예상보다 낮아 장전 −3.07%.",
+        "watch": "장중 낙폭 축소 여부."
+      }
+    },
+    "next_checks": [
+      {
+        "title": "미국 정규장 개장(09:30 EST)",
+        "detail": "선물 −2~3%가 개장 갭으로 이어지는지, 첫 1시간 반도체 낙폭이 줄어드는지 본다."
+      },
+      {
+        "title": "10월 신규주택판매(10:00 EST)",
+        "detail": "예상 650K, 이전 676K(XTB). 금리 부담이 주택에 미치는 영향을 본다."
+      },
+      {
+        "title": "미국 정규장 마감(16:00 EST)",
+        "detail": "나스닥이 11/24 저가 23,455.84 위에서 끝나는지, VIX가 30 위에 머무는지 본다."
+      },
+      {
+        "title": "추수감사절 휴장·조기 폐장",
+        "detail": "11/26(목) 휴장, 11/27(금) 13:00 EST(11/28 03:00 KST) 조기 폐장."
+      },
+      {
+        "title": "USTR 관세 조사 결과 발표",
+        "detail": "지난 회차에 전한 '이번 주 발표' 보도가 실제 세율·날짜로 나오는지 확인한다."
+      }
+    ],
+    "source_labels": {
+      "nyse": "NYSE · 휴장일",
+      "bea_pce": "BEA · 10월 PCE",
+      "dol_claims": "미 노동부 · 실업수당",
+      "xtb_cal": "XTB · 지표 일정",
+      "tipranks_chips": "TipRanks · 칩주 장전",
+      "biggo_chips": "BigGo · 칩주 재하락",
+      "dell_pr": "델 · 3분기 보도자료",
+      "dell_yahoo": "Yahoo · 델 실적 전",
+      "wday_pr": "워크데이 · 3분기 실적",
+      "deere_reuters": "인베스팅닷컴(로이터) · 디어",
+      "kr_close": "이 사이트 · 11/25 한국 마감",
+      "yahoo_fut": "Yahoo · 지수 선물",
+      "yf_gspc": "Yahoo · S&P 500",
+      "yf_ixic": "Yahoo · 나스닥 종합",
+      "yf_dji": "Yahoo · 다우존스",
+      "yf_rut": "Yahoo · 러셀 2000",
+      "yf_sox": "Yahoo · 필라델피아 반도체",
+      "yf_vix": "Yahoo · VIX",
+      "yf_tnx": "Yahoo · 미 10년물",
+      "yf_krw": "Yahoo · 원·달러",
+      "yf_nvda": "Yahoo · 엔비디아",
+      "yf_dell": "Yahoo · 델",
+      "yf_mu": "Yahoo · 마이크론",
+      "yf_amd": "Yahoo · AMD",
+      "yf_wday": "Yahoo · 워크데이",
+      "yf_de": "Yahoo · 디어",
+      "massive_run": "Massive · 일별 분석"
+    },
+    "key_figure": {
+      "value": "−3.15%",
+      "label": "나스닥100 선물",
+      "note": "08:52 EST · 약 10분 지연",
+      "detail": "25,448.50 · 11/24 종가 26,275.75 대비",
+      "direction": "down"
+    },
+    "view": {
+      "headline": "월요일의 안도가 이틀째 무너지고 있어요. 좋은 실적도 팔리는 '불안' 국면이에요.",
+      "mood": {
+        "level": "fear",
+        "note": "어제 '경계'에서 '불안'으로 한 단계 내려왔어요. VIX가 장전 31대로 다시 30을 넘었고 아시아 반도체가 크게 밀렸어요."
+      },
+      "drivers": [
+        {
+          "title": "아시아에서 넘어온 반도체 매도",
+          "text": "오늘 코스피 −6.16%, 대만 −4.80%로 반도체가 크게 밀린 뒤 미국 칩주도 장전 −6~9%예요. 바다 건너 급락을 본 투자자가 '내가 먼저 줄이자'는 쪽으로 기울기 쉬워요.",
+          "sources": [
+            "kr_close",
+            "tipranks_chips"
+          ]
+        },
+        {
+          "title": "숫자가 좋아도 팔린다",
+          "text": "델은 예상보다 50억USD 넘게 많은 매출을 내고 전망까지 올렸는데 장전 −7.55%예요. 메모리 원가와 마진 걱정이 더 크게 들리는 장이라, 실적 발표가 '반등 계기'가 되지 못하고 있어요.",
+          "sources": [
+            "dell_pr",
+            "dell_yahoo",
+            "tipranks_chips"
+          ]
+        },
+        {
+          "title": "정책이라는 새 변수",
+          "text": "트럼프 대통령이 정부의 엔비디아 지분을 검토했다고 말했다는 보도가 나왔고, 하원 공화당은 국가안보 우려를 이어갔어요. 회사 가치에 어떤 영향일지 가늠하기 어려운 소식이라 시장은 불확실성으로 받아들이기 쉬워요.",
+          "sources": [
+            "biggo_chips",
+            "tipranks_chips"
+          ]
+        },
+        {
+          "title": "AI 투자 속도에 대한 의심",
+          "text": "미즈호가 AI 설비투자 전망을 낮췄고 BNP는 마이크론 목표가를 절반 넘게 깎았어요. 'AI 투자가 끝없이 늘 것'이라는 믿음이 흔들리는 신호로 읽히고 있어요.",
+          "sources": [
+            "biggo_chips",
+            "tipranks_chips"
+          ]
+        },
+        {
+          "title": "금리 부담은 그대로",
+          "text": "근원 PCE가 3.3%로 예상보다 조금 높고 실업수당 청구도 189K로 적었어요. 12월 인상을 의심할 이유가 크지 않아, 10년물이 내렸어도 위로가 되긴 어려워 보여요.",
+          "sources": [
+            "bea_pce",
+            "dol_claims",
+            "yf_tnx"
+          ]
+        }
+      ],
+      "history": [],
+      "paths": {
+        "good": "장 초반 갭 하락 뒤 반도체 낙폭이 줄고 나스닥이 11/24 저가 23,455.84 위, 엔비디아가 150.50USD 위로 마감하면 '연휴 전 과매도 뒤 숨 고르기'로 볼 수 있어요. 디어·워크데이 같은 비반도체 약세가 번지지 않는지도 같이 봐요.",
+        "caution": "개장 뒤 반등이 실패하고 VIX가 30 위에서 마감하면 월요일 반등이 '일시적 안도'였다는 해석이 굳어질 수 있어요. 종가 방향과 별개로 개장 초 매도가 가장 클 수 있어요. 11/26 휴장, 11/27 조기 폐장으로 거래가 얇고, 이번 주 USTR 관세 발표가 나오면 부담이 더해져요."
+      },
+      "estimated_at": "2026-11-25T23:02:47+09:00",
+      "input_cutoff": "2026-11-25T23:02:47+09:00",
+      "added_later": false
+    }
+  },
+  "execution": {
+    "scheduled_start": {
+      "new_york": "2026-11-25T08:59:00-05:00",
+      "kst": "2026-11-25T22:59:00+09:00",
+      "utc": "2026-11-25T13:59:00Z"
+    },
+    "actual_start": {
+      "new_york": "2026-11-25T08:59:42-05:00",
+      "kst": "2026-11-25T22:59:42+09:00",
+      "utc": "2026-11-25T13:59:42Z"
+    },
+    "start_offset_seconds": 42,
+    "delay_seconds": 42,
+    "early_seconds": 0,
+    "environment": "Claude Code 클라우드 예약 실행; Bash/Python/Git, GitHub MCP, WebSearch·WebFetch(NYSE·BEA·노동부·델·PR뉴스와이어·인베스팅닷컴·TipRanks·BigGo·Yahoo·XTB 열람 성공, CNBC 라이브 11/24·11/25 주소 404), Yahoo Finance 차트 API. 체크아웃 /home/user/cost, main을 origin/main으로 fast-forward 후 작업.",
+    "model_setting": "not_verified",
+    "request_commit": "795509eb568f5cec5e26d8555eacab4994988efb",
+    "analysis_run_id": 45629318750,
+    "http_inspection": "not_performed",
+    "browser_inspection": "not_performed",
+    "mobile_zoom_inspection": "not_performed",
+    "dispatch_record": "dispatch/us-pre-2026-11-25.json",
+    "analysis_status": "success (artifact us-analysis-45629318750 지문 일치, data_date 2026-11-24, 전일 정규장 배경 분석으로 사용)",
+    "analysis_artifact": "us-analysis-45629318750",
+    "analysis_digest_match": true,
+    "analysis_data_date": "2026-11-24"
+  }
+}
