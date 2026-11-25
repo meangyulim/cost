@@ -1,0 +1,14 @@
+{
+  "report_id": "us-close-2026-11-25",
+  "status": "queued",
+  "queued_at_kst": "2026-11-26T06:27:56+09:00",
+  "queued_at_utc": "2026-11-25T21:27:56Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-25/",
+  "deployment_commit": "f99808e9f080dceaa641a79e89c1081735b99d46",
+  "deployment_run_id": 45704412520,
+  "deployment_conclusion": "success",
+  "kakao_summary": "미국 11/25: 나스닥 장중 −4.64%→종가 −0.62%, 다우 +0.33%. S&P 엔비디아 등급 하향 검토(−3.91%), 근원 PCE 3.3%, USTR 14개국 관세 제안. 앰바렐라 −19.77%, HP +11.49%. 11/26 휴장·11/27 조기폐장.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
