@@ -1,0 +1,14 @@
+{
+  "report_id": "kr-pre-2026-11-26",
+  "status": "queued",
+  "queued_at_kst": "2026-11-26T08:27:49+09:00",
+  "queued_at_utc": "2026-11-25T23:27:49Z",
+  "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-26/",
+  "deployment_commit": "66164a2bca6f9c31332bbadab73c259e1ad7075b",
+  "deployment_run_id": 45721455976,
+  "deployment_conclusion": "success",
+  "kakao_summary": "[한국 장전] 美 나스닥 장중 −4.64%→−0.62% 회복, 야간선물 +0.35%·NXT 하이닉스 +2.33%. 어제 코스피 −6.16%. 오늘 금통위(3.25% 인상 전망), 301조 한국 15% 기본안. 4,672선 지지·외국인 매도 축소 확인.",
+  "send_tool_called": false,
+  "attempted_record_created": false,
+  "retry_count": 0
+}
