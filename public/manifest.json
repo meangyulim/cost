@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "us-close-2026-11-25",
+  "latest_id": "kr-pre-2026-11-26",
   "reports": [
+    {
+      "id": "kr-pre-2026-11-26",
+      "is_test": false,
+      "market": "KR",
+      "session": "pre",
+      "market_date": "2026-11-26",
+      "title": "11월 26일 한국장 시작 전 브리핑",
+      "summary": "美 나스닥 장중 −4.64%→−0.62% 회복, 야간선물 +0.35%… 오늘 금통위·급락 이튿날",
+      "as_of": "2026-11-26T08:24:00+09:00",
+      "queried_at": "2026-11-26T08:26:48+09:00",
+      "path": "reports/kr-pre-2026-11-26/"
+    },
     {
       "id": "us-close-2026-11-25",
       "is_test": false,
