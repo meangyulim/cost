@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-24",
+  "end_date": "2026-11-25",
   "watch": [
-    "DELL",
-    "WDAY",
     "NVDA",
     "MU",
-    "ADI",
-    "HPE",
-    "DE"
+    "ORCL",
+    "DE",
+    "AMBA",
+    "DELL",
+    "WDAY"
   ],
-  "requested_at": "2026-11-25T23:00:05+09:00"
+  "requested_at": "2026-11-26T06:16:33+09:00"
 }
