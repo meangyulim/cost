@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-26",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-26T16:02:34+09:00",
   "queued_at_utc": "2026-11-26T07:02:34Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-26/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 45772238028,
   "deployment_conclusion": "success",
   "kakao_summary": "11/26 한국장 마감: 코스피 +0.29% 4,711.21, 장중 4,817 찍고 대부분 반납. 한은 3.25%로 인상(5:2). 기관 +7,509억, 외국인 이틀째 매도(잠정). 하이닉스 +2.23%, 현대차 −3.90%. 27일 삼성전자 배당·美 단축장 확인.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-26T16:02:44+09:00",
   "attempted_at_utc": "2026-11-26T07:02:44Z",
-  "workflow_run_id": 45772403612
+  "workflow_run_id": 45772403612,
+  "message_length": 199,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-26T16:02:48+09:00",
+  "result_recorded_at_utc": "2026-11-26T07:02:48Z"
 }
