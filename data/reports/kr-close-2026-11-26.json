@@ -6,7 +6,7 @@
   "session": "close",
   "market_date": "2026-11-26",
   "as_of": "2026-11-26T15:30:00+09:00",
-  "queried_at": "2026-11-26T16:05:00+09:00",
+  "queried_at": "2026-11-26T16:00:00+09:00",
   "is_test": false,
   "summary": "코스피 +0.29% 4,711.21, 4,817 찍고 대부분 반납… 한은 3.25%로 인상",
   "summary_detail": "25일 −6.16% 급락 다음 날 코스피는 4,745.10(+1.01%)에 출발해 장 초반 4,817.77(+2.56%)까지 올랐으나 오후 4,704.65까지 밀린 뒤 4,711.21(+13.70, +0.29%)로 마감했다. 전날 낙폭(308.52p)의 4.4%만 되찾았다. 한국은행 금통위는 기준금리를 3.00%에서 3.25%로 0.25%p 올렸다(7명 중 5명 찬성). 유가증권시장 기관 +7,509억원(금융투자 +6,218억원), 개인 −1조439억원, 외국인 −1,136억원으로 외국인은 이틀째 순매도다(잠정, 매체별 차이). SK하이닉스 +2.23%, 삼성전자 +0.35%, 삼성전기 +3.84%가 올랐고 현대차 −3.90%, 현대모비스 −5.72%는 미국 과잉생산 관세 우려 속에 내렸다. 코스닥 655.71(+0.78%). 원·달러 1,342.7원(−0.5원). 미국은 26일 휴장이다.",
@@ -502,196 +502,196 @@
       "label": "네이버 증권 · SK하이닉스",
       "url": "https://m.stock.naver.com/domestic/stock/000660/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-005930",
       "label": "네이버 증권 · 삼성전자",
       "url": "https://m.stock.naver.com/domestic/stock/005930/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-009150",
       "label": "네이버 증권 · 삼성전기",
       "url": "https://m.stock.naver.com/domestic/stock/009150/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-005380",
       "label": "네이버 증권 · 현대차",
       "url": "https://m.stock.naver.com/domestic/stock/005380/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-012330",
       "label": "네이버 증권 · 현대모비스",
       "url": "https://m.stock.naver.com/domestic/stock/012330/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-100790",
       "label": "네이버 증권 · 미래에셋벤처투자",
       "url": "https://m.stock.naver.com/domestic/stock/100790/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-000250",
       "label": "네이버 증권 · 삼천당제약",
       "url": "https://m.stock.naver.com/domestic/stock/000250/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "naver-247540",
       "label": "네이버 증권 · 에코프로비엠",
       "url": "https://m.stock.naver.com/domestic/stock/247540/total",
       "note": "종목 페이지(통합 시세 표시는 NXT 포함 가능, 종가는 다음 금융 KRX로 대조).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "fn-close",
       "label": "파이낸셜뉴스 · 마감 시황",
       "url": "https://www.fnnews.com/news/202611261548115574",
       "note": "15:48 송고. 시가·고가·저가, 낙폭 4.4% 회복, 외국인 오전 +2,305억→마감 −1,095억, 금융투자 +6,218억, 연기금 −220억, 기타법인 +4,067억, 거래대금 12조2,800억원대(전날보다 약 33% 감소), 하이닉스 한때 5% 넘게, 삼성전자 장 초반 3% 가까이.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "newsis-close",
       "label": "뉴시스 · 금리 인상일 마감",
       "url": "https://www.newsis.com/view/NISX20261126_0003884902",
       "note": "외국인 −1,095억(이틀 연속), 기관 +7,507억, 올해 세 번째 인상, 성장률 3.9%/4.1%, 물가 2.4%, 에코프로비엠 −3.80%·에코프로 −3.47%, 레인보우로보틱스 시총 2위.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "dailian-close",
       "label": "데일리안 · 전강후약 시황",
       "url": "https://www.dailian.co.kr/news/view/1720188/?sc=Naver",
       "note": "외국인 −1,137억, 시총 상위 등락(LG엔솔 −2.11%, 현대차 −3.90% 등).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "kbs-close",
       "label": "KBS · 코스피 마감·환율",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723419",
       "note": "원·달러 15:30 기준 1,342.70원(−0.50원).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "gukje-close",
       "label": "국제뉴스 · 마감 시황",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3764135",
       "note": "현대차 −3.90%, 기아 −2.40%.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "newsquest-bok",
       "label": "뉴스퀘스트 · 금통위 점도표",
       "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305944",
       "note": "5:2 결정(황건일·이수형 동결), '속도' 문구 삭제, 국고 3년 3.635%(+5.2bp)·10년 3.816%(+5.5bp) 오전 고시.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "einfomax-fx",
       "label": "연합인포맥스 · 금통위와 환율",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446798",
       "note": "점도표 3.75% 7개·3.50% 8개·3.25% 6개, 1,340~1,345원 등락, 27일 삼성전자 배당 역송금 경계.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "choicenews-auto",
       "label": "초이스경제 · 자동차주 관세 우려",
       "url": "https://www.choicenews.co.kr/news/articleView.html?idxno=173537",
       "note": "장중 현대차·기아·현대모비스 하락을 미국 과잉생산 관세 우려로 설명.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "mt-tariff",
       "label": "머니투데이 · 301조 과잉생산 관세",
       "url": "https://www.mt.co.kr/economy/2026/11/26/2026112615215112397",
       "note": "한국 15% 상한 유지, 협의 불만족 시 25%까지 상향 가능.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "mtn-nvda",
       "label": "머니투데이방송 · 엔비디아 신용등급",
       "url": "https://news.mtn.co.kr/article/2026112612583653869",
       "note": "S&P 25일 엔비디아 'AA' 부정적 관찰.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "sbs-nvda",
       "label": "SBS Biz · 엔비디아 주가",
       "url": "https://biz.sbs.co.kr/article_hub/20000349059?division=NAVER",
       "note": "S&P 신용등급 강등 가능성에 장중 9% 넘게 급락 뒤 3.9%대 하락 마감.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "edaily-us",
       "label": "이데일리 · 뉴욕증시 마감",
       "url": "https://www.edaily.co.kr/News/Read?newsId=03522726645649656&mediaCodeNo=257",
       "note": "25일(현지) 다우 +0.33%, S&P500 −0.25%, 나스닥 −0.62%, 필라델피아 반도체 −0.65%.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "biztribune-spacex",
       "label": "비즈트리뷴 · 스페이스X 특징주",
       "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=363267",
       "note": "미래에셋벤처투자 +21.57%(3,330원) 18,770원 마감.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "dailian-spacex",
       "label": "데일리안 · 스페이스X 위성 승인",
       "url": "https://www.dailian.co.kr/news/view/1720161/?sc=Naver",
       "note": "우주 데이터센터 위성 첫 승인, 1월 신청 후 약 10개월.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "widedaily-satrec",
       "label": "와이드경제 · 쎄트렉아이",
       "url": "https://www.widedaily.com/news/articleView.html?idxno=304895",
       "note": "14:42 기준 쎄트렉아이 +10.40%.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "widedaily-obesity",
       "label": "와이드경제 · 비만치료제 테마",
       "url": "https://www.widedaily.com/news/articleView.html?idxno=304891",
       "note": "인벤티지랩 +17.96%, 올릭스 +15.99%(장중).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "medipana-bio",
       "label": "메디파나 · 제약·바이오 5% 변동",
       "url": "https://www.medipana.com/news/articleView.html?idxno=422756",
       "note": "삼천당제약 151,800원→166,400원(+9.62%).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "kr-pre-report",
       "label": "이 사이트 · 11/26 장전",
       "url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-26/",
       "note": "오늘 아침 장전 회차.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "kr-close-report",
       "label": "이 사이트 · 11/25 마감",
       "url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-25/",
       "note": "전 거래일 마감 회차.",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     },
     {
       "id": "krx-run",
       "label": "KRX 일별 분석",
       "url": "https://github.com/meangyulim/cost/actions/runs/45770602953",
       "note": "요청 커밋 434f0ad 실행 성공, artifact 지문 일치, data_date 2026-11-25(전 거래일, 배경 분석).",
-      "queried_at": "2026-11-26T16:05:00+09:00"
+      "queried_at": "2026-11-26T16:00:00+09:00"
     }
   ],
   "reading": {
@@ -948,8 +948,8 @@
         "good": "27일 장 초반 반등이 오늘처럼 꺾이지 않고 4,711선 위에서 마감하며 외국인 매도가 멈추면, 급락 뒤 바닥을 다지는 쪽으로 읽을 수 있어요. 27일 미국 단축장에서 반도체가 버티는지도 함께 봐요.",
         "caution": "오늘 저가 4,704.65와 25일 종가 4,697.51 아래로 내려가면 이번 주 반등 시도가 모두 무산된 셈이에요. 27일 배당 역송금으로 환율이 오르고 외국인 매도가 3일째 이어지면 장 초반 반등 뒤 되밀림을 조심해야 해요. 미국은 휴장·단축장이라 해외 신호가 얇아요."
       },
-      "estimated_at": "2026-11-26T16:05:00+09:00",
-      "input_cutoff": "2026-11-26T16:05:00+09:00",
+      "estimated_at": "2026-11-26T16:00:00+09:00",
+      "input_cutoff": "2026-11-26T16:00:00+09:00",
       "added_later": false
     }
   }
