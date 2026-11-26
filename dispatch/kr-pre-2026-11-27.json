@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-27",
-  "status": "queued",
+  "status": "attempted",
   "queued_at_kst": "2026-11-27T08:28:29+09:00",
   "queued_at_utc": "2026-11-26T23:28:29Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-27/",
@@ -9,6 +9,9 @@
   "deployment_conclusion": "success",
   "kakao_summary": "[장전 11/27] 美 휴장, 야간선물 +0.17%(728.00)·NXT 반도체 소폭 약세. 오늘 삼성전자 30조 배당 지급, 외국인 몫 15.8조로 일간 최대(보도)… 역송금 환율·외국인 매도와 4,704선 지지를 본다.",
   "send_tool_called": false,
-  "attempted_record_created": false,
-  "retry_count": 0
+  "attempted_record_created": true,
+  "retry_count": 0,
+  "attempted_at_kst": "2026-11-27T08:28:48+09:00",
+  "attempted_at_utc": "2026-11-26T23:28:48Z",
+  "workflow_run_id": 45911155317
 }
