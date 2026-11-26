@@ -1,6 +1,6 @@
 {
   "report_id": "kr-pre-2026-11-27",
-  "status": "attempted",
+  "status": "failed",
   "queued_at_kst": "2026-11-27T08:28:29+09:00",
   "queued_at_utc": "2026-11-26T23:28:29Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-pre-2026-11-27/",
@@ -13,5 +13,11 @@
   "retry_count": 0,
   "attempted_at_kst": "2026-11-27T08:28:48+09:00",
   "attempted_at_utc": "2026-11-26T23:28:48Z",
-  "workflow_run_id": 45911155317
+  "workflow_run_id": 45911155317,
+  "kakao_result": "failed",
+  "kakao_http_status": null,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-27T08:29:10+09:00",
+  "result_recorded_at_utc": "2026-11-26T23:29:10Z",
+  "failure_reason": "token_network_error"
 }
