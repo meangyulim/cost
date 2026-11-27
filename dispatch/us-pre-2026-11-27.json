@@ -1,6 +1,6 @@
 {
   "report_id": "us-pre-2026-11-27",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-27T23:12:22+09:00",
   "queued_at_utc": "2026-11-27T14:12:22Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-pre-2026-11-27/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 46013686155,
   "deployment_conclusion": "success",
   "kakao_summary": "[미국 장전 11/27] 연휴 뒤 나스닥100 선물 +2.26%, S&P500 +1.55%. 마이크론 장전 +6.05%, 엔비디아 +2.37%로 칩주 반등. 버텍스 −8.14%. 오늘 13:00 EST(03:00 KST) 조기 폐장, 거래 얇음.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-27T23:12:32+09:00",
   "attempted_at_utc": "2026-11-27T14:12:32Z",
-  "workflow_run_id": 46013807131
+  "workflow_run_id": 46013807131,
+  "message_length": 198,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-27T23:12:35+09:00",
+  "result_recorded_at_utc": "2026-11-27T14:12:35Z"
 }
