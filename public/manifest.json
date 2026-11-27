@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-pre-2026-11-27",
+  "latest_id": "kr-close-2026-11-27",
   "reports": [
+    {
+      "id": "kr-close-2026-11-27",
+      "is_test": false,
+      "market": "KR",
+      "session": "close",
+      "market_date": "2026-11-27",
+      "title": "11월 27일 한국장 마감",
+      "summary": "코스피 +4.34% 4,915.68·코스닥 +8.13%… 증안펀드 기대에 외국인 1.1조 매수",
+      "as_of": "2026-11-27T15:30:00+09:00",
+      "queried_at": "2026-11-27T15:59:29+09:00",
+      "path": "reports/kr-close-2026-11-27/"
+    },
     {
       "id": "kr-pre-2026-11-27",
       "is_test": false,
