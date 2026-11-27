@@ -1,6 +1,6 @@
 {
   "report_id": "kr-close-2026-11-27",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-27T16:00:40+09:00",
   "queued_at_utc": "2026-11-27T07:00:40Z",
   "report_url": "https://meangyulim.github.io/cost/reports/kr-close-2026-11-27/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 45955434807,
   "deployment_conclusion": "success",
   "kakao_summary": "[마감 11/27] 코스피 +4.34% 4,915.68·코스닥 +8.13% 708.99. 증안펀드 기대·나스닥 선물 강세에 외국인 1.1조 순매수(잠정), 삼성 +4.55%·하이닉스 +5.41%. 30일 증안펀드 회의와 외국인 매수 지속을 본다.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-27T16:00:50+09:00",
   "attempted_at_utc": "2026-11-27T07:00:50Z",
-  "workflow_run_id": 45955544288
+  "workflow_run_id": 45955544288,
+  "message_length": 200,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-27T16:00:54+09:00",
+  "result_recorded_at_utc": "2026-11-27T07:00:54Z"
 }
