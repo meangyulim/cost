@@ -1,6 +1,6 @@
 {
   "report_id": "us-close-2026-11-27",
-  "status": "attempted",
+  "status": "sent",
   "queued_at_kst": "2026-11-28T06:27:49+09:00",
   "queued_at_utc": "2026-11-27T21:27:49Z",
   "report_url": "https://meangyulim.github.io/cost/reports/us-close-2026-11-27/",
@@ -8,10 +8,16 @@
   "deployment_run_id": 46070366252,
   "deployment_conclusion": "success",
   "kakao_summary": "[미국 마감 11/27] 단축장 나스닥 +2.31%, S&P500 +1.60%, 반도체 +4.69%. 마이크론 +7.60%, 엔비디아는 동남아 출하 중단 보도에 +0.80%. 버텍스 −5.24%. 13:00 조기 폐장, 얇은 거래.",
-  "send_tool_called": false,
+  "send_tool_called": true,
   "attempted_record_created": true,
   "retry_count": 0,
   "attempted_at_kst": "2026-11-28T06:27:59+09:00",
   "attempted_at_utc": "2026-11-27T21:27:59Z",
-  "workflow_run_id": 46070470981
+  "workflow_run_id": 46070470981,
+  "message_length": 192,
+  "kakao_result": "sent",
+  "kakao_http_status": 200,
+  "kakao_error_code": null,
+  "result_recorded_at_kst": "2026-11-28T06:28:03+09:00",
+  "result_recorded_at_utc": "2026-11-27T21:28:03Z"
 }
