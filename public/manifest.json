@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "latest_id": "kr-close-2026-11-27",
+  "latest_id": "us-pre-2026-11-27",
   "reports": [
+    {
+      "id": "us-pre-2026-11-27",
+      "is_test": false,
+      "market": "US",
+      "session": "pre",
+      "market_date": "2026-11-27",
+      "title": "11월 27일 미국장 시작 전 브리핑",
+      "summary": "연휴 뒤 나스닥100 선물 +2.26%, 마이크론 장전 +6.05%… 13:00 조기 폐장",
+      "as_of": "2026-11-26T06:00:00+09:00",
+      "queried_at": "2026-11-27T23:01:47+09:00",
+      "path": "reports/us-pre-2026-11-27/"
+    },
     {
       "id": "kr-close-2026-11-27",
       "is_test": false,
