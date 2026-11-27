@@ -1,13 +1,13 @@
 {
-  "end_date": "2026-11-25",
+  "end_date": "2026-11-27",
   "watch": [
     "NVDA",
     "MU",
-    "DELL",
     "AMD",
-    "WMT",
+    "DELL",
     "AMZN",
-    "HPQ"
+    "WMT",
+    "VRTX"
   ],
-  "requested_at": "2026-11-27T23:01:13+09:00"
+  "requested_at": "2026-11-28T06:17:07+09:00"
 }
